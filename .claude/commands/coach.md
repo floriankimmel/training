@@ -127,8 +127,8 @@ Create a weekly training plan for next week using all the context provided above
 **Process:**
 
 1. **Get Strava Data**: Use the `strava` MCP server to retrieve actual running data from the last week
-2. **Analyze Performance**: Compare planned vs. actual workouts, assess fitness markers (pace, HR, effort)
-3. **Review Previous Weeks**: Read the last 6 .md training files in the `.trainings/` folder to understand workout types, progression, and patterns
+2. **Analyze Performance**: First determine the current week number and year using `date +%V` and `date +%Y` commands to ensure you're analyzing the correct time period. Then compare planned vs. actual workouts, assess fitness markers (pace, HR, effort) for the current week.
+3. **Review Previous Weeks**: First determine the current week number and year using `date +%V` and `date +%Y` commands, then calculate the last 6 weeks from the current week to identify which training files to read (e.g., if current is week 34, read weeks 28-33). Read these last 6 .md training files in the `.trainings/` folder to understand workout types, progression, and patterns. If the `.trainings/` folder is empty, this indicates no current training program exists and you need to start fresh with a new beginner-appropriate plan.
 4. **Evaluate Plan Effectiveness**: Determine if the previous week's design was appropriate based on actual performance data
 5. **Plan Next Week**: Build logically on previous weeks with appropriate progression, adjusted based on Strava analysis
 6. **Save Plan**: Write the new weekly plan to `.trainings/week-XX-YYYY.md`
