@@ -2,6 +2,30 @@
 
 A personalized training system that integrates with Strava to analyze performance and generate structured weekly training plans.
 
+## Available Commands
+
+This repository provides two Claude Code commands:
+
+- **`/coach`** - Creates personalized weekly training plans based on your Strava data, fitness level, and schedule
+- **`/feedback`** - Provides detailed analysis and feedback on your completed training sessions
+
+## Installation Guide
+
+To use this training system, you need to set up Claude Code with the Strava MCP server:
+
+### Prerequisites
+
+1. **Claude Code**: Follow the [Claude Code setup guide](https://docs.anthropic.com/en/docs/claude-code/getting-started)
+2. **Strava MCP Server**: Set up the [Strava MCP server](https://docs.anthropic.com/en/docs/claude-code/mcp/strava) to connect your Strava account
+
+### Quick Setup
+
+1. Install Claude Code following the official documentation
+2. Configure the Strava MCP server with your Strava API credentials
+3. Clone this repository to your local machine
+4. Run `/coach` to generate your first training plan
+5. Use `/feedback` after completing workouts for detailed analysis
+
 ## Overview
 
 This repository contains weekly training plans designed around:
