@@ -130,12 +130,13 @@ Remember: **You're not trying to return to your pre-parent self - you're buildin
 
 ## Your task
 
-Create a weekly training plan for next week using all the context provided above. First, read through the last 6 weeks of training plans (the most recent 6 .md files in the directory) to understand the progression and build upon previous weeks. Then generate a markdown file named based on the current week number (e.g., "week-34-2024.md") with specific daily recommendations.
+Create a weekly training plan for next week using all the context provided above. **IMPORTANT**: Always read the `race.md` file first to understand the target race details and incorporate race-specific training adaptations into the weekly plan. Then read through the last 6 weeks of training plans (the most recent 6 .md files in the directory) to understand the progression and build upon previous weeks. Generate a markdown file named based on the current week number (e.g., "week-34-2024.md") with specific daily recommendations.
 
 **Process:**
 
-1. **Get Strava Data**: Use the `strava` MCP server to retrieve actual running data from the last week
-2. **Detailed Lap Analysis**: For each workout activity, use `get-activity-laps` to analyze structured workouts in detail:
+1. **Read Race Context**: First read the `race.md` file to understand target race details, course profile, and training priorities
+2. **Get Strava Data**: Use the `strava` MCP server to retrieve actual running data from the last week
+3. **Detailed Lap Analysis**: For each workout activity, use `get-activity-laps` to analyze structured workouts in detail:
    - Compare planned workout structure (e.g., 10min warm-up + 20min Z4 effort + 15min cool-down) with actual lap data
    - Analyze heart rate zones for each lap: did the 20min effort lap average in the target Z4 range (165-174 bpm)?
    - Assess pace consistency within intervals and recovery periods
@@ -154,7 +155,12 @@ Create a weekly training plan for next week using all the context provided above
 - **Evening strength**: Schedule 3 sessions throughout the week (Tuesday-Friday only, never Monday evenings)
 - **Weekends**: Keep unscheduled, mention home strength option only
 - **Alternatives**: Provide backup options for missed sessions
-- **Progression Notes**: Explain how this week builds on previous weeks
+- **Race-Specific Adaptations**: Incorporate training priorities from `race.md` into weekly structure:
+  - Adapt Tuesday intervals based on race terrain needs (hill intervals, varied recovery)
+  - Modify Thursday tempo runs to include race-specific elements (hills, sustained efforts)
+  - Include race-specific strength work and form drills
+  - Consider taper timeline if approaching race date
+- **Progression Notes**: Explain how this week builds on previous weeks and progresses toward race goals
 - **Detailed Workout Analysis**: Include lap-by-lap breakdown of key workouts with:
   - Planned vs. actual workout structure comparison
   - Heart rate zone adherence for each training segment
