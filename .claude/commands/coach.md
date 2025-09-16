@@ -135,7 +135,8 @@ Create a weekly training plan for next week using all the context provided above
 **Process:**
 
 1. **Read Race Context**: First read the `race.md` file to understand target race details, course profile, and training priorities
-2. **Get Strava Data**: Use the `strava` MCP server to retrieve actual running data from the last week
+2. **Check Subjective Feedback**: Look for current and recent weekly feedback files `feedback-[week]-[year].md` containing personal training feedback and feelings
+3. **Get Strava Data**: Use the `strava` MCP server to retrieve actual running data from the last week
 3. **Detailed Lap Analysis**: For each workout activity, use `get-activity-laps` to analyze structured workouts in detail:
    - Compare planned workout structure (e.g., 10min warm-up + 20min Z4 effort + 15min cool-down) with actual lap data
    - Analyze heart rate zones for each lap: did the 20min effort lap average in the target Z4 range (165-174 bpm)?
@@ -164,8 +165,9 @@ Create a weekly training plan for next week using all the context provided above
 - **Detailed Workout Analysis**: Include lap-by-lap breakdown of key workouts with:
   - Planned vs. actual workout structure comparison
   - Heart rate zone adherence for each training segment
+  - **Subjective vs. objective correlation**: How did the athlete feel vs. what the data shows
   - Execution quality assessment and areas for improvement
-  - Training adaptations needed based on performance data
+  - Training adaptations needed based on performance data and personal feedback
 
 **Daily Format:**
 
