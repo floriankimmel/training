@@ -135,4 +135,3 @@ This is a personal training repository. The structure and methodology can serve 
 ## License
 
 Personal use repository - training plans are specific to individual fitness level and schedule constraints.
-
