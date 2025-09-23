@@ -35,9 +35,11 @@ Provide comprehensive feedback on today's training session by following this str
 
 - Use `get-recent-activities` to find today's session
 - Get detailed lap analysis with `get-activity-laps` for the most recent activity
+- **Get detailed streams**: Use `get-activity-streams` to analyze HR progression, pace consistency, and power data
 - **Check training plan**: Look in `.trainings/` directory for current week's training plan
 - Find today's planned workout to compare against actual execution
 - **Store personal feedback**: If provided via arguments, save to weekly feedback file `feedback-[week]-[year].md` for future coach reference
+- **ALWAYS fill missing details**: If no personal feedback provided, infer Feel/Energy/Legs/Effort from objective metrics
 
 ### 2. **Identify Session Type**
 
@@ -209,9 +211,38 @@ Provide feedback in this format:
 6. **Integrate personal feedback**: Use arguments to understand subjective experience
 7. **Store feedback**: If personal feedback provided, append it to weekly feedback file `feedback-[week]-[year].md` with today's date and session details
 
+## Inference Guidelines for Missing Personal Feedback
+
+**ALWAYS fill in missing personal feedback using these objective data correlations:**
+
+### Feel Rating (1-10 Scale)
+- **9-10**: A+ sessions with perfect zone execution, no HR drift, excellent pace control
+- **7-8**: A/B+ sessions with good execution, minor deviations from plan
+- **5-6**: B/C sessions with significant execution issues or missed targets
+- **3-4**: Poor sessions with major zone violations or incomplete workouts
+- **1-2**: Failed sessions or injury/illness indicators
+
+### Energy Level Assessment
+- **High**: Consistent pace throughout, no negative splits, stable power output
+- **Good**: Mostly consistent with minor fade in final third
+- **Moderate**: Noticeable pace/power decline in second half
+- **Low**: Significant fade, irregular pacing, or early session termination
+
+### Legs Feel Assessment
+- **Fresh**: Excellent cadence (85+ rpm), stable power, smooth pace progression
+- **Good**: Solid cadence (80-85 rpm), minor power fluctuations
+- **Heavy**: Reduced cadence (<80 rpm), irregular power, pace struggles
+- **Dead**: Very low cadence, erratic metrics, significant performance decline
+
+### Effort Perception
+- **Easy**: Perfect Z1-Z2 execution, HR well below target zones
+- **Moderate**: Z3 execution, some HR drift but controlled
+- **Hard**: Z4+ execution, significant HR drift or zone violations
+- **Very Hard**: Z5+ spikes, inability to control intensity
+
 ## Personal Feedback Integration
 
-When personal feedback is provided via arguments, use it to:
+When personal feedback IS provided via arguments, use it to:
 
 **Enhance Objective Analysis:**
 - Correlate HR zones with how the effort actually felt
@@ -247,11 +278,19 @@ When personal feedback is provided via arguments:
 
 ```markdown
 ## YYYY-MM-DD - [Activity Name from Strava]
-**Feel**: [Extract or ask for 1-10 scale]
-**Energy**: [Extract from feedback or infer]
-**Legs**: [Extract from feedback or infer]  
-**Effort**: [Extract from feedback or infer]
-**Notes**: [User's raw feedback]
+**Feel**: [Extract from feedback OR infer from execution quality: 8-10 for A+ sessions, 6-8 for A/B+ sessions, 4-6 for B/C sessions]
+**Energy**: [Extract from feedback OR infer from pace consistency and HR drift: High/Good/Moderate/Low]
+**Legs**: [Extract from feedback OR infer from cadence, power stability, pace control: Fresh/Good/Heavy/Dead]
+**Effort**: [Extract from feedback OR infer from HR zone execution: Easy/Moderate/Hard/Very Hard]
+**Notes**: [User's raw feedback OR session summary with key metrics]
+
+**Detailed Metrics**: [ALWAYS include comprehensive objective analysis]
+- HR Range: [min-max bpm with primary working range]
+- Pace Stability: [consistency analysis and average pace]
+- Elevation: [terrain analysis and total gain]
+- Cadence: [average with efficiency assessment]
+- Power: [average with economy assessment if available]
+- Calories: [total burned over session duration]
 ```
 
 ## Weekly Feedback File Template
