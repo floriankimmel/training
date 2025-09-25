@@ -19,7 +19,24 @@
 - Power: Strong 247W average (efficient running economy)
 - Calories: 500 burned over 39:18
 
-**Objective Analysis**: A+ session - perfect time discipline (39:18 vs planned 40min), excellent Z1 execution (143.8 bpm), strong aerobic efficiency (5:42 pace at low HR). Heart rate showed perfect warm-up progression from 100 bpm to steady 132-140 range. Demonstrates fitness excellently maintained through strength work during break week.
+**Objective Analysis**: A+ session - perfect time discipline (39:18 vs planned 40min), excellent Z1 execution (143.8 bpm), strong aerobic efficiency (5:42 pace at low HR). Heart rate showed perfect warm-up progression from 100 bmp to steady 132-140 range. Demonstrates fitness excellently maintained through strength work during break week.
+
+## 2025-09-23 - 🏃 Wien • Hill Interval Session 4 x 2 min
+**Feel**: 7/10 (good execution with intensity challenges)
+**Energy**: Good (maintained power through all intervals)
+**Legs**: Good (consistent cadence, slight fatigue in final reps)
+**Effort**: Hard (appropriate Z3-Z4 intensity for hill intervals)
+**Notes**: Hill Interval Session - 37:20 moving time, 7.28km, 4x2min uphill intervals @ Z3-Z4. Perfect restart session execution with appropriate intensity progression.
+
+**Detailed Metrics**:
+- HR Range: 110-179 bpm (excellent warm-up progression to Z4+ intervals)
+- Interval Execution: Laps 2,4,6,8 avg 157-170 bpm (perfect Z3-Z4 range)
+- Recovery Quality: Excellent HR drops to 138-160 bpm between efforts
+- Power Progression: 322W→382W→341W→366W (strong uphill power)
+- Cadence Stability: 84-88 rpm throughout intervals (efficient climbing)
+- Total Elevation Gain: 54m across all intervals
+
+**Objective Analysis**: A- session - excellent execution of planned 4x2min hill intervals. Perfect warm-up progression (110-142 bpm over 12min), spot-on interval intensities averaging 160 bpm (Z3-Z4 target range), and appropriate recovery between efforts. Power data shows strong uphill efficiency with 322-382W outputs. Minor deduction for final interval reaching 170.5 bpm avg (upper Z4), but overall outstanding restart session.
 
 ---
 
