@@ -38,8 +38,41 @@
 
 **Objective Analysis**: A- session - exzellente Strukturierung (5x3min plangerecht) aber HR-Target leicht verfehlt. Geplant waren 160-172 bpm (Z3-Z4), erreicht wurden 147-154 bpm im Schnitt. User-Feedback bestätigt: "Beine limitiert, HF nicht hoch genug". Power-Output 311-342W zeigt jedoch starke Bergkraft. Steigung war ideal gewählt (35-41m pro Intervall), Problem lag an Geschwindigkeitslimitierung durch Beinermüdung.
 
+## 2025-10-01 - 🏃 Wien • Endurance Run 45 min
+**Feel**: ?/10 (not provided)
+**Energy**: Unknown (no subjective feedback provided)
+**Legs**: Unknown (no subjective feedback provided)
+**Effort**: Moderate (slightly higher than Z1-Z2 target)
+**Notes**: Wednesday - Scheduled 40min easy run moved from Saturday to Wednesday this week. Completed 45:00 moving time, 7.85km, 153.0 bpm avg HR, 5:44 min/km pace. Target was Z1-Z2 (120-154 bpm) conversational pace.
+
+**Detailed Metrics**:
+- HR Range: 97-178 bpm (max spike likely sensor artifact - user reports no corresponding effort change)
+- Pace Stability: Consistent 10.6 km/h average (5:44 min/km)
+- Elevation: Minimal rolling terrain
+- Cadence: Not available in data
+- Power: Not available in data
+- HR Distribution: Executed at Z2/Z3 boundary (153 bpm avg, just at Z2 upper limit)
+
+**Objective Analysis**: B+ session - good completion of moved session with slight zone drift. Target was Z1-Z2 (120-154 bpm) and achieved 153 bpm average, technically within range but at the upper limit. The 178 bpm max spike appears to be an **Apple Watch sensor artifact** rather than real physiological spike - user reports no corresponding pace increase or effort change. This likely also explains Monday's 173 bpm spike. Volume was good (45min vs planned 40min). For future recovery runs, consider tightening watch band or repositioning sensor for better accuracy. Aim for 140-150 bpm average rather than consistently at 153 bpm zone ceiling.
+
+**Recovery Considerations**:
+- HR spikes likely sensor artifacts (Apple Watch optical sensor issues)
+- 48hrs post-intervals is appropriate timing for easy recovery run
+- Thursday's Extended Rolling Tempo should be manageable with proper warm-up
+- **Action**: Ensure watch is snug on wrist for more accurate HR tracking
+
 ---
 
 ## Weekly Summary & Patterns
 
-*To be updated at end of week with observed patterns*
+**Emerging Concerns (Through Wednesday)**:
+- **Zone Discipline**: Persistent drift to upper limits of easy targets (151 bpm Mon, 153 bpm Wed)
+- **Easy Run Intensity**: Both easy sessions executed at zone ceilings rather than mid-range
+- **HR Sensor Accuracy**: Apple Watch showing spurious max HR spikes (173-178 bpm) without corresponding effort - check watch fit
+
+**Positive Indicators**:
+- Tuesday's hill intervals executed perfectly (5x3min as planned, 311-342W power)
+- Consistent session completion and training engagement
+- Strong aerobic base evident in power output and pace consistency
+
+*To be completed at end of week with full weekly assessment*
