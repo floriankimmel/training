@@ -61,17 +61,39 @@
 - Thursday's Extended Rolling Tempo should be manageable with proper warm-up
 - **Action**: Ensure watch is snug on wrist for more accurate HR tracking
 
+## 2025-10-04 - ⛰︎ Rolling Tempo Run 18 Min
+**Feel**: 8/10 (durchwegs gut gefühlt)
+**Energy**: Good (consistent throughout 18min tempo)
+**Legs**: Good (solid performance on 122m elevation, 85.8 rpm cadence)
+**Effort**: Moderate (leicht unter Z3 Target, "nicht so intensiv")
+**Notes**: "Hab mich durchwegs gut gefühlt, war bergauf bisschen leichter in Zone zu kommen, aber war auch nicht so intensiv"
+
+**Detailed Metrics**:
+- HR Range: 122.3 bpm warm-up → 152.8 bpm tempo (max 165) → 138.1 bpm cooldown
+- Tempo Execution: 17:59 @ 152.8 bpm (Target: 154-165 bpm Z3) - 1.2 bpm unter Target
+- Pace Stability: 5:57 min/km @ 152.8 bpm on 122m elevation gain (excellent rolling efficiency)
+- Elevation: 135m total gain, 122m in tempo lap (race-specific 3-4% grades)
+- Cadence: Excellent 85.8 rpm average in tempo despite hills
+- Power: Strong 279W average during tempo (aerobic efficiency)
+- Calories: 657 burned over 50:45 total session
+
+**Objective Analysis**: B+ session - perfect structure (10min warm-up + 18min tempo + 22min cooldown) but tempo intensity slightly low. Target was Z3 (154-165 bpm), achieved 152.8 bpm average. User feedback "nicht so intensiv" confirms slight underexecution. However, excellent rolling terrain handling (122m elevation in tempo) and strong power output (279W @ 152.8 bpm) demonstrate solid aerobic capacity. Warm-up discipline perfect (122.3 bpm). Cool-down too intense at 138.1 bpm (should be 130-135 bpm). Progression from Week 39's 15min successful (18min completed), but overcorrected from Week 39's too-high 166 bpm to slightly too-low 152.8 bpm.
+
 ---
 
 ## Weekly Summary & Patterns
 
-**Emerging Concerns (Through Wednesday)**:
+**Emerging Concerns (Through Thursday)**:
 - **Zone Discipline**: Persistent drift to upper limits of easy targets (151 bpm Mon, 153 bpm Wed)
 - **Easy Run Intensity**: Both easy sessions executed at zone ceilings rather than mid-range
 - **HR Sensor Accuracy**: Apple Watch showing spurious max HR spikes (173-178 bpm) without corresponding effort - check watch fit
+- **Thursday Tempo Undershoot**: 152.8 bpm vs 154-165 target (slightly too conservative after Week 39's overshoot)
 
 **Positive Indicators**:
 - Tuesday's hill intervals executed perfectly (5x3min as planned, 311-342W power)
+- Thursday's rolling tempo structure perfect (10+18+22min as planned)
+- Strong rolling terrain performance (5:57/km @ 279W on 122m elevation)
+- Excellent warm-up discipline across all sessions
 - Consistent session completion and training engagement
 - Strong aerobic base evident in power output and pace consistency
 
