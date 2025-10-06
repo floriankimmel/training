@@ -2,7 +2,7 @@
 
 ## Critical Rule: Always Use Git Version Control
 
-**Every time you create or modify training files, you MUST commit and push the changes to git using the bash tool.**
+**Every time you create or modify training files or add feedback, you MUST commit and push the changes to git using the bash tool.**
 
 This is non-negotiable. No exceptions.
 
@@ -38,6 +38,7 @@ Detailed explanation of what changed and why.
 ```
 
 **Use proper conventional commit format:**
+
 - `feat(training):` - New training plan
 - `docs(feedback):` - Feedback analysis
 - `fix(training):` - Correction to training plan
@@ -140,6 +141,7 @@ git add [files] && git commit -m "message" && git push
 ```
 
 **Example:**
+
 ```bash
 git add .trainings/week-41-2025.md && \
 git commit -m "feat(training): Add Week 41 peak preparation plan
@@ -189,6 +191,7 @@ git log --oneline -5
 ## Commit Message Templates
 
 ### Training Plan
+
 ```bash
 git commit -m "feat(training): Add Week [XX] [training phase]
 
@@ -206,6 +209,7 @@ Key adaptations:
 ```
 
 ### Feedback Analysis
+
 ```bash
 git commit -m "docs(feedback): Add [Day] [session type] analysis
 
@@ -220,6 +224,7 @@ Week [XX] [Day]: [Session name]
 ```
 
 ### Multiple Sessions
+
 ```bash
 git commit -m "docs(feedback): Add Week [XX] training sessions
 
@@ -259,11 +264,13 @@ Every time you complete a task, verify:
 **If you didn't commit and push, the task is not complete.**
 
 Always end your workflow with:
+
 ```bash
 git status
 ```
 
 This confirms everything is committed and pushed. The output should show:
+
 ```
 On branch master
 Your branch is up to date with 'origin/master'.
