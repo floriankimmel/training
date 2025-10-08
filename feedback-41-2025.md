@@ -4,6 +4,31 @@
 
 ## Session Feedback
 
+## 2025-10-07 - 🌄 Hügelintervalle 6x3min
+**Feel**: 6/10 *(inferiert: Moderate Ausführung, deutlich unter Zielintensität)*
+**Energy**: Moderate *(inferiert: Inkonsistente erste Hälfte, starker Finish)*
+**Legs**: Heavy *(inferiert: Niedriger Power-Output 122-141W vs. geplant 320-350W)*
+**Effort**: Hard *(inferiert: Nur 1/6 Intervalle erreichte Zielzone, durchschnittlich 6 bpm zu niedrig)*
+**Notes**: Strukturell perfekt (6x3min vollständig), aber Intensität deutlich zu niedrig. Nur 1 von 6 Intervallen erreichte Z3-Z4 Zielzone (160-172 bpm). Intervall 3 katastrophal bei nur 153 bpm (Z2 statt Z4). Power bei nur 36-44% des geplanten Levels (122-141W vs. 320-350W).
+
+**Detailed Metrics**:
+- HR Range: 127-173 bpm (Intervalle: 153-163 bpm avg, Ziel: 160-172 bpm)
+- Pace Stability: Inkonsistent - 4:05-4:57/km Spanne (52s Variation), starke Verbesserung in Intervallen 5+6
+- Elevation: 0m erfasst (Sensor-Issue, aber niedriger Power deutet auf zu flaches Terrain)
+- Cadence: 87-91 rpm während Intervallen (exzellente Laufökonomie)
+- Power: 122-141W (61% niedriger als Woche 40's 311-342W) - KRITISCHER RÜCKGANG
+- Calories: 796 über 55:01 Moving Time
+- Cool-down Problem: 148.8 bpm (sollte Z1 sein: 120-146 bpm)
+
+**Assessment**: C+ - Vollständige strukturelle Ausführung, aber Training Purpose verfehlt durch zu niedrige Intensität und falsches Gelände. Nicht der geplante "Peak Stimulus" für Race Preparation.
+
+**Recommendations**:
+1. Steileren Hügel finden (3-4% Steigung für 320-350W Power)
+2. Von Anfang an aggressiver starten (162-165 bpm target)
+3. Cool-down bei echter Z1-Intensität (135-145 bpm max)
+
+---
+
 ## 2025-10-08 - 🏃 Wien • Endurance Run 40 min
 **Feel**: 8/10 (estimated - excellent zone execution)
 **Energy**: Good (consistent pace throughout)
