@@ -101,3 +101,82 @@ Perfekte Ausführung eines Erholungslaufs. Die Herzfrequenz von 133.5 bpm liegt 
 ## Weekly Summary & Patterns
 
 *To be updated at end of week with observed patterns*
+
+## 2025-10-09 - 🏃 Wien • Rolling Tempo Run 20 Min
+**Feel**: 9/10 (inferiert: Ausgezeichnete Zonen-Disziplin, perfekte Struktur)
+**Energy**: High (konstante Power über alle Laps, starker Finish)
+**Legs**: Fresh (86.7 rpm Cadenz, 282.8W im Tempo)
+**Effort**: Hard (Z3-Z4 Tempo-Lap bei 161.7 bpm - optimal!)
+**Notes**: Perfekte Umsetzung des Race-Pace Rolling Tempo! 3-Lap-Struktur exakt wie geplant: 12min Warm-up → 20min Tempo @ 161.7 bpm → 17min Cool-down. Hervorragende Zonen-Ausführung nach Dienstag's Schwierigkeiten.
+
+**Detailed Metrics**:
+- HR Range: 85-172 bpm (Tempo-Phase: 161.7 bpm avg - perfekt in Z3 Zielzone!)
+- Pace Stability: 3:10 min/km im Tempo-Lap (konstante Leistung)
+- Elevation: 73.3m Rolling Terrain (ideal für Race-Simulation)
+- Cadence: 86.7 rpm Durchschnitt (86.8 rpm im Tempo - hervorragende Effizienz)
+- Power: 282.8W im Tempo-Lap (ausgezeichnete Climbing-Kraft auf Rolling Terrain)
+- Calories: 665 über 49:13 Moving Time
+
+## Rolling Tempo - 2025-10-09 Analyse
+
+**Geplant**: Race-Pace Rolling Tempo - 50min total (10min Warm-up + 20min Tempo @ Z3: 154-165 bpm, ideal 158-162 bpm + 20min Cool-down)
+**Tatsächliche Ausführung**: 49:13min - 3 perfekte Laps: 12min @ 135.6 bpm + 20min @ 161.7 bpm + 17min @ 134.7 bpm
+**Persönliches Empfinden**: Geschätzt 9/10 - hervorragende Race-Pace Simulation
+
+### 🎯 **Herzfrequenz-Analyse**
+
+- Ziel: Z3 Tempo (154-165 bpm), ideal 158-162 bpm
+- **Tempo-Lap Durchschnitt**: 161.7 bpm (PERFEKT in Zielzone!)
+- **Warm-up**: 135.6 bpm (ideal Z1-Bereich: 120-146 bpm)
+- **Cool-down**: 134.7 bpm (perfekte Z1-Rückkehr)
+- **Max HR**: 172 bpm (kurze Spitzen, keine Überlastung)
+- **Zonen-Disziplin**: **AUSGEZEICHNET** - dramatische Verbesserung gegenüber Dienstag
+
+**Lap-by-Lap HR Progression:**
+- Warm-up (12:00): 135.6 bpm - kontrollierte Aktivierung
+- **Tempo (20:00)**: 161.7 bpm - optimal im Z3-Mittelbereich
+- Cool-down (17:24): 134.7 bpm - perfekte Erholung
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- **Tempo-Pace**: 3:10 min/km @ 161.7 bpm (hervorragende Race-Pace Simulation)
+- **Gesamtdurchschnitt**: 3:23 min/km über 8.75km
+- **Pace-Stabilität**: Kontrolliert über 20min Tempo-Phase
+- **Rolling Terrain**: 73.3m Elevation perfekt für Race-Vorbereitung
+
+### 🏆 **Was war hervorragend**
+
+- **Perfekte Zonen-Ausführung**: 161.7 bpm im Z3-Mittelbereich - endlich richtige Tempo-Intensität!
+- **Strukturelle Perfektion**: 3-Lap-Struktur genau wie geplant (12+20+17 min)
+- **Dramatische Verbesserung**: Von Dienstag's 153-163 bpm Chaos zu konstanten 161.7 bpm
+- **Rolling Terrain Meisterung**: 73.3m Elevation gain - ideale Race-Simulation
+- **Power-Konsistenz**: 282.8W im Tempo zeigt starke Climbing-Fähigkeit
+- **Perfekte Erholung**: Cool-down bei 134.7 bpm (echte Z1-Rückkehr)
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Zeit-Optimierung**: 49:13 statt geplanten 50:00 (47s früher beendet)
+- **Cool-down Dauer**: 17:24 statt geplanten 20:00 (2:36 zu kurz)
+- Beide sind minimale Abweichungen bei ansonsten perfekter Ausführung
+
+### 📈 **Progression vs. Previous Sessions**
+
+- **Woche 40 Tempo**: 152.8 bpm (unter Z3) → **Heute**: 161.7 bpm (perfekt Z3)
+- **Woche 39 Tempo**: 166 bpm (über Ziel) → **Heute**: 161.7 bpm (optimal)
+- **Dienstag Intervalle**: Chaos 153-163 bpm → **Heute**: Konstante 161.7 bpm
+- **Zonen-Lernerfolg**: Endlich die goldene Mitte bei 158-162 bpm gefunden!
+- **Race-Readiness**: Diese Intensität ist perfekt für 10.16km Cross-Country Race
+
+### 🎯 **Bewertung: A+**
+
+AUSGEZEICHNETE Session! Nach Dienstag's Problemen hast du heute die perfekte Tempo-Ausführung gezeigt. 161.7 bpm liegt exakt im Ziel-Z3-Bereich und demonstriert endlich die richtige "comfortably hard" Race-Pace Intensität. Die 3-Lap-Struktur war textbook-perfect, und das Rolling Terrain (73.3m) simuliert ideal die Race-Bedingungen. Power von 282.8W im Tempo zeigt race-ready Climbing-Stärke.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+- **Mental Confidence**: Diese 161.7 bpm Intensität ist dein Race-Pace - vertraue diesem Gefühl!
+- **Cool-down Vollständigkeit**: Nächstes Mal volle 20min Cool-down für komplette Erholung
+- **Race-Pace Benchmark**: 161.7 bpm @ 3:10 min/km ist deine Referenz für October 26 Race
+- **Bestätigung**: Du hast die Z3-Zone endlich gemeistert - das ist der Durchbruch!
+
+---
+
