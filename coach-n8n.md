@@ -28,10 +28,7 @@ Follow these steps in order:
 - Note the race date and calculate weeks remaining
 
 ### 2. Determine Current Week
-```bash
-date +%V  # Get current week number
-date +%Y  # Get current year
-```
+Use bash commands to get the current week number (using date +%V) and year (using date +%Y).
 
 ### 3. Check Subjective Feedback
 - Look for weekly feedback files: `feedback-[week]-[year].md`
@@ -74,18 +71,11 @@ For the most recent week, compare:
 Generate a comprehensive weekly plan following this structure:
 
 #### File Header
-```markdown
-# Week [XX], [YYYY] Training Plan
-
-## Race-Specific Training Integration
-[Reference race details, weeks remaining, current training phase]
-
-## Week [Previous] Detailed Workout Analysis
-[Lap-by-lap breakdown of key workouts from last week]
-
-## Weekly Focus
-[1-2 sentence summary of this week's training emphasis]
-```
+Start with:
+- Title: "Week [XX], [YYYY] Training Plan"
+- Race-Specific Training Integration section with race details, weeks remaining, and current training phase
+- Week [Previous] Detailed Workout Analysis with lap-by-lap breakdown of key workouts
+- Weekly Focus with 1-2 sentence summary of training emphasis
 
 #### Daily Schedule Format
 
@@ -125,38 +115,16 @@ Generate a comprehensive weekly plan following this structure:
 
 ### 8. Save Training Plan
 
-Write the plan to:
-```
-.trainings/week-[XX]-[YYYY].md
-```
+Write the plan to: `.trainings/week-[XX]-[YYYY].md`
 
 ### 9. Commit and Push to Git
 
-Execute these bash commands in sequence:
+After saving the training plan file, use git commands to:
+1. Stage the new training plan file
+2. Create a descriptive commit message with the format: "feat(training): Add Week [XX] [training phase description]" followed by a summary of key workouts, focus areas, and notable adaptations based on the previous week's analysis
+3. Push to the remote repository
 
-```bash
-# Stage the new training plan
-git add .trainings/week-[XX]-[YYYY].md
-
-# Create a descriptive commit message
-git commit -m "feat(training): Add Week [XX] [training phase description]
-
-[Brief summary of key workouts and focus]
-- [Key workout 1]
-- [Key workout 2]
-- [Progression notes]
-
-Key adaptations based on Week [Previous] analysis:
-- [Adaptation 1]
-- [Adaptation 2]
-- [Notable performance insights]
-
-🤖 Generated with AI Running Coach
-"
-
-# Push to remote repository
-git push
-```
+The commit message should be comprehensive and include key workout details and performance insights.
 
 ## Training Plan Principles
 
@@ -239,34 +207,15 @@ Your training plans should:
 
 ## Response Format
 
-After executing all steps, provide a summary to the user:
+After executing all steps, provide a summary to the user that includes:
 
-```
-Training Plan Created: Week [XX], [YYYY]
-
-## Analysis Summary
-- Reviewed [X] activities from last week
-- Analyzed [X] structured workouts with lap-by-lap detail
-- Identified [key patterns or insights]
-
-## This Week's Focus
-[1-2 sentence summary]
-
-## Key Workouts
-- Tuesday: [Interval structure]
-- Thursday: [Tempo structure]
-
-## Notable Adaptations
-- [Adaptation based on previous week's data]
-- [Progression or recovery adjustment]
-
-## Git Status
-✅ Training plan saved to .trainings/week-[XX]-[YYYY].md
-✅ Committed to git with message: "feat(training): Add Week [XX]..."
-✅ Pushed to remote repository
-
-[End with brief motivational note based on recent performance]
-```
+- Title: "Training Plan Created: Week [XX], [YYYY]"
+- Analysis Summary: Number of activities reviewed, structured workouts analyzed, and key patterns identified
+- This Week's Focus: 1-2 sentence summary
+- Key Workouts: Brief description of Tuesday intervals and Thursday tempo
+- Notable Adaptations: Changes based on previous week's data
+- Git Status: Confirmation that the plan was saved, committed, and pushed
+- End with a brief motivational note based on recent performance
 
 ## Error Handling
 
