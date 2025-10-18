@@ -36,9 +36,9 @@ Provide comprehensive feedback on today's training session by following this str
 - Use `get-recent-activities` to find today's session
 - Get detailed lap analysis with `get-activity-laps` for the most recent activity
 - **Get detailed streams**: Use `get-activity-streams` to analyze HR progression, pace consistency, and power data
-- **Check training plan**: Look in `.trainings/` directory for current week's training plan
+- **Check training plan**: Look in `trainings/` directory for current week's training plan
 - Find today's planned workout to compare against actual execution
-- **Store personal feedback**: If provided via arguments, save to weekly feedback file `feedback-[week]-[year].md` for future coach reference
+- **Store personal feedback**: If provided via arguments, save to weekly feedback file `feedback/feedback-[week]-[year].md` for future coach reference
 - **ALWAYS fill missing details**: If no personal feedback provided, infer Feel/Energy/Legs/Effort from objective metrics
 
 ### 2. **Identify Session Type**
@@ -79,7 +79,7 @@ Provide feedback in this format:
 ```markdown
 ## [Session Type] - [Date] Analyse
 
-**Geplant**: [From .trainings/ directory - specific workout details for today]
+**Geplant**: [From trainings/ directory - specific workout details for today]
 **Tatsächliche Ausführung**: [Lap-by-lap breakdown]
 **Persönliches Empfinden**: [If provided via arguments - user's subjective experience]
 
@@ -195,7 +195,7 @@ Provide feedback in this format:
 ### 8. **Context Integration**
 
 **ALWAYS reference:**
-- **Training plan from `.trainings/`**: Find current week's plan and today's specific workout
+- **Training plan from `trainings/`**: Find current week's plan and today's specific workout
 - **Personal feedback from arguments**: Integrate subjective experience with objective analysis
 - Current training plan phase and goals
 - Recent training history and patterns
@@ -203,13 +203,13 @@ Provide feedback in this format:
 - Upcoming sessions and recovery needs
 
 **Training Plan Analysis Steps:**
-1. Use `Glob` tool to find training files: `.trainings/*.md`
+1. Use `Glob` tool to find training files: `trainings/*.md`
 2. Use `Read` tool to examine the current week's training plan
 3. Locate today's planned workout (day of week)
 4. Compare planned vs. actual execution in detail
 5. Reference previous week's performance analysis if included in training plan
 6. **Integrate personal feedback**: Use arguments to understand subjective experience
-7. **Store feedback**: If personal feedback provided, append it to weekly feedback file `feedback-[week]-[year].md` with today's date and session details
+7. **Store feedback**: If personal feedback provided, append it to weekly feedback file `feedback/feedback-[week]-[year].md` with today's date and session details
 
 ## Inference Guidelines for Missing Personal Feedback
 
@@ -267,7 +267,7 @@ When personal feedback IS provided via arguments, use it to:
 When personal feedback is provided via arguments:
 
 1. **Get current week/year**: Use `date +%V` and `date +%Y` commands to determine current week
-2. **Create filename**: Format as `feedback-[week]-[year].md` (e.g., `feedback-38-2025.md`)
+2. **Create filename**: Format as `feedback/feedback-[week]-[year].md` (e.g., `feedback/feedback-38-2025.md`)
 3. **Check if file exists**: Use `Read` tool to see if weekly feedback file already exists
 4. **Create or append**: 
    - If file doesn't exist, create new weekly feedback file with header

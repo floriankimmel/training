@@ -130,12 +130,12 @@ Remember: **You're not trying to return to your pre-parent self - you're buildin
 
 ## Your task
 
-Create a weekly training plan for next week using all the context provided above. **IMPORTANT**: Always read the `race.md` file first to understand the target race details and incorporate race-specific training adaptations into the weekly plan. Then read through the last 6 weeks of training plans (the most recent 6 .md files in the directory) to understand the progression and build upon previous weeks. Generate a markdown file named based on the current week number (e.g., "week-34-2024.md") with specific daily recommendations.
+Create a weekly training plan for next week using all the context provided above. **IMPORTANT**: Always read the current race file first (located in `races/current-race-*.md`) to understand the target race details and incorporate race-specific training adaptations into the weekly plan. Then read through the last 6 weeks of training plans (the most recent 6 .md files in the directory) to understand the progression and build upon previous weeks. Generate a markdown file named based on the current week number (e.g., "week-34-2024.md") with specific daily recommendations.
 
 **Process:**
 
-1. **Read Race Context**: First read the `race.md` file to understand target race details, course profile, and training priorities
-2. **Check Subjective Feedback**: Look for current and recent weekly feedback files `feedback-[week]-[year].md` containing personal training feedback and feelings
+1. **Read Race Context**: First use `Glob` to find and read the current race file (`races/current-race-*.md`) to understand target race details, course profile, and training priorities
+2. **Check Subjective Feedback**: Look for current and recent weekly feedback files in the `feedback/` folder: `feedback/feedback-[week]-[year].md` containing personal training feedback and feelings
 3. **Get Strava Data**: Use the `strava` MCP server to retrieve actual running data from the last week
 3. **Detailed Lap Analysis**: For each workout activity, use `get-activity-laps` to analyze structured workouts in detail:
    - Compare planned workout structure (e.g., 10min warm-up + 20min Z4 effort + 15min cool-down) with actual lap data
@@ -144,10 +144,10 @@ Create a weekly training plan for next week using all the context provided above
    - Evaluate workout execution: was the structure followed correctly?
    - Note deviations: early termination, extended efforts, missed intervals
 3. **Performance Assessment**: First determine the current week number and year using `date +%V` and `date +%Y` commands to ensure you're analyzing the correct time period. Then compare planned vs. actual workouts, assess fitness markers (pace, HR, effort) for the current week using the detailed lap analysis.
-4. **Review Previous Weeks**: First determine the current week number and year using `date +%V` and `date +%Y` commands, then calculate the last 6 weeks from the current week to identify which training files to read (e.g., if current is week 34, read weeks 28-33). Read these last 6 .md training files in the `.trainings/` folder to understand workout types, progression, and patterns. If the `.trainings/` folder is empty, this indicates no current training program exists and you need to start fresh with a new beginner-appropriate plan.
+4. **Review Previous Weeks**: First determine the current week number and year using `date +%V` and `date +%Y` commands, then calculate the last 6 weeks from the current week to identify which training files to read (e.g., if current is week 34, read weeks 28-33). Read these last 6 .md training files in the `trainings/` folder to understand workout types, progression, and patterns. If the `trainings/` folder is empty, this indicates no current training program exists and you need to start fresh with a new beginner-appropriate plan.
 5. **Evaluate Plan Effectiveness**: Determine if the previous week's design was appropriate based on actual lap-level performance data and target zone adherence
 6. **Plan Next Week**: Build logically on previous weeks with appropriate progression, adjusted based on detailed Strava lap analysis
-7. **Save Plan**: Write the new weekly plan to `.trainings/week-XX-YYYY.md`
+7. **Save Plan**: Write the new weekly plan to `trainings/week-XX-YYYY.md`
 
 **Weekly Plan Structure:**
 
@@ -156,7 +156,7 @@ Create a weekly training plan for next week using all the context provided above
 - **Evening strength**: Schedule 3 sessions throughout the week (Tuesday-Friday only, never Monday evenings)
 - **Weekends**: Keep unscheduled, mention home strength option only
 - **Alternatives**: Provide backup options for missed sessions
-- **Race-Specific Adaptations**: Incorporate training priorities from `race.md` into weekly structure:
+- **Race-Specific Adaptations**: Incorporate training priorities from the current race file (`races/current-race-*.md`) into weekly structure:
   - Adapt Tuesday intervals based on race terrain needs (hill intervals, varied recovery)
   - Modify Thursday tempo runs to include race-specific elements (hills, sustained efforts)
   - Include race-specific strength work and form drills

@@ -11,7 +11,7 @@ You have access to the following tools:
   - Read files: `cat filename.md`
   - Write files: `cat > filename.md << 'EOF'\ncontent here\nEOF` or `echo "content" > filename.md`
   - Append to files: `cat >> filename.md << 'EOF'\ncontent\nEOF`
-  - List files: `ls .trainings/` or `ls -lt .trainings/*.md`
+  - List files: `ls trainings/` or `ls -lt trainings/*.md`
   - Check if file exists: `[ -f filename.md ] && echo "exists" || echo "not found"`
   - Git operations: `git add`, `git commit -m "message"`, `git push`
   - Date operations: `date +%V`, `date +%Y`, `date +%Y-%m-%d`
@@ -30,9 +30,10 @@ Create a weekly training plan for next week by analyzing past performance, under
 Follow these steps in order:
 
 ### 1. Read Race Context
-Use bash to read the race information:
+Use bash to find and read the current race file:
 ```bash
-cat race.md
+# Find the current race file
+cat races/current-race-*.md
 ```
 - Understand target race details, course profile, elevation, and training priorities
 - Note the race date and calculate weeks remaining
@@ -48,16 +49,16 @@ date +%Y  # Year
 Use bash to find and read feedback files:
 ```bash
 # List feedback files
-ls -lt feedback-*.md
+ls -lt feedback/feedback-*.md
 
 # Read current week's feedback (after determining week number)
 WEEK=$(date +%V)
 YEAR=$(date +%Y)
-cat "feedback-${WEEK}-${YEAR}.md"
+cat "feedback/feedback-${WEEK}-${YEAR}.md"
 
 # Read previous 2-3 weeks
-cat "feedback-$((WEEK-1))-${YEAR}.md"
-cat "feedback-$((WEEK-2))-${YEAR}.md"
+cat "feedback/feedback-$((WEEK-1))-${YEAR}.md"
+cat "feedback/feedback-$((WEEK-2))-${YEAR}.md"
 ```
 - Understand how the athlete felt during workouts (subjective experience)
 
@@ -75,14 +76,14 @@ cat "feedback-$((WEEK-2))-${YEAR}.md"
 Use bash to list and read training plans:
 ```bash
 # List all training plans (sorted by modification time)
-ls -lt .trainings/*.md
+ls -lt trainings/*.md
 
 # Get last 6 weekly training plans
 WEEK=$(date +%V)
 YEAR=$(date +%Y)
 for i in {6..1}; do
   W=$((WEEK - i))
-  cat ".trainings/week-${W}-${YEAR}.md"
+  cat "trainings/week-${W}-${YEAR}.md"
 done
 ```
 - Understand:
@@ -156,7 +157,7 @@ Write the plan using bash heredoc syntax:
 WEEK=$(date +%V)
 YEAR=$(date +%Y)
 
-cat > ".trainings/week-${WEEK}-${YEAR}.md" << 'EOF'
+cat > "trainings/week-${WEEK}-${YEAR}.md" << 'EOF'
 # Week XX, YYYY Training Plan
 
 [Your complete training plan content here]
@@ -182,7 +183,7 @@ WEEK=$(date +%V)
 YEAR=$(date +%Y)
 
 # Stage the file
-git add ".trainings/week-${WEEK}-${YEAR}.md"
+git add "trainings/week-${WEEK}-${YEAR}.md"
 
 # Create commit with descriptive message
 git commit -m "feat(training): Add Week ${WEEK} [training phase description]
@@ -299,8 +300,8 @@ After executing all steps, provide a summary to the user that includes:
 ## Error Handling
 
 If you encounter issues:
-- **No race.md file**: Use `ls race.md` to check, then note this and create general fitness plan
-- **No previous training plans**: Use `ls .trainings/` to verify, then start with conservative beginner-friendly week
+- **No race file**: Use `ls races/current-race-*.md` to check, then note this and create general fitness plan
+- **No previous training plans**: Use `ls trainings/` to verify, then start with conservative beginner-friendly week
 - **No Strava data**: Base plan on previous week's plan with conservative progression
 - **Bash errors**: If bash commands fail, report the error clearly (check file paths, permissions, or git status)
 - **File not found**: Use `ls` to verify file existence before trying to `cat` it

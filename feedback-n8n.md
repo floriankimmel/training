@@ -48,8 +48,8 @@ date +%A  # Get day of week (Monday, Tuesday, etc.)
 
 ### 3. Find Today's Planned Workout
 
-- List files in `.trainings/` directory
-- Read current week's training plan: `.trainings/week-[XX]-[YYYY].md`
+- List files in `trainings/` directory
+- Read current week's training plan: `trainings/week-[XX]-[YYYY].md`
 - Locate today's planned workout based on day of week
 - Extract:
   - Planned workout type (easy, intervals, tempo)
@@ -216,7 +216,7 @@ Create comprehensive feedback following this exact structure:
 Determine the weekly feedback filename:
 ```bash
 # Already calculated: week number and year
-# Filename format: feedback-[week]-[year].md
+# Filename format: feedback/feedback-[week]-[year].md
 ```
 
 Check if file exists and either create or append:
@@ -261,7 +261,7 @@ Execute these bash commands in sequence:
 
 ```bash
 # Stage the feedback file
-git add feedback-[week]-[year].md
+git add feedback/feedback-[week]-[year].md
 
 # Create commit message
 git commit -m "docs(feedback): Add [Day] [session type] analysis
@@ -370,7 +370,7 @@ After completing all steps, provide user with this summary:
 
 ## Feedback Status
 ✅ Detailed analysis generated (German)
-✅ Stored in feedback-[week]-[year].md
+✅ Stored in feedback/feedback-[week]-[year].md
 ✅ Committed to git: "docs(feedback): Add [Day] [session type] analysis"
 ✅ Pushed to remote repository
 
