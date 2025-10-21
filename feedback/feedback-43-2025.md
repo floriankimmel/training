@@ -89,3 +89,95 @@ Solide Easy-Run Ausführung mit guter Zonen-Disziplin und hervorragender Pace-Ko
 - **Mental Cue**: "Wie letzte Woche Mittwoch" - diese perfekte 133,5 bpm Session visualisieren
 - **Taper-Mindset**: 1 Woche vor Rennen = maximale Recovery-Disziplin bei Easy-Runs
 - **Conversation Test**: HR sollte ein echtes Gesprächs-Tempo erlauben (unter 140 bpm)
+
+## 2025-10-21 - ⚡ Hügel-Intervalltraining 3 x 2 Min
+**Feel**: 8/10 (Inferred - Strong execution with excellent power progression)
+**Energy**: High (Consistent power across all three intervals)
+**Legs**: Good (Progressive power improvement shows responsive leg strength)
+**Effort**: Hard (Z3-Z4 controlled race pace efforts)
+**Notes**: "Final Sharpness Session - Race week taper with 3x2min hill intervals instead of planned 2x2min. Exceeded race pace targets with excellent power output progression."
+
+**Detailed Metrics**:
+- HR Range: 130-178 bpm (Intervals avg: 161 bpm, targeting 155-165 bpm)
+- Interval Heart Rates: 163 bpm, 162 bpm, 160 bpm - excellent consistency
+- Power Progression: 360W → 382W → 388W - outstanding strength development
+- Recovery Heart Rates: 163 bpm, 175 bpm, 156 bpm - mixed recovery quality
+- Structure: 12min WU + 3x2min @ hills + 2-2.5min recoveries + 10min CD
+- Total Distance: 6.47 km in 38:09 (2289s moving time)
+- Elevation Gain: 48.2m (hill-specific training)
+
+**Objective Analysis**: A session - Excellent race preparation with perfect heart rate targeting and progressive power development.
+
+---
+
+
+## Final Sharpness Session - 2025-10-21 Analyse
+
+**Geplant**: 30-35 Minuten total - 10min Aufwärmen + 2x2min @ Rennpace (155-165 bpm) + 3min Erholung + 10-12min Abwärmen
+**Tatsächliche Ausführung**: 38:09 Minuten total - 12min Aufwärmen (141 bpm) + **3x2min** @ Hügel-Intervalle (Ø161 bpm, 360-388W) + 2-2,5min Erholungen + 10min Abwärmen (130 bpm)
+**Persönliches Empfinden**: Geschätzt als kraftvolle, kontrollierte Session mit progressiver Leistungssteigerung
+
+### 🎯 **Herzfrequenz-Analyse**
+
+- Ziel: 155-165 bpm bei Rennpace-Anstrengung (Z3 kontrolliert)
+- Intervall-Durchschnitt: **161 bpm** (perfekt in der Mitte der Zielzone!)
+- Einzelne Intervalle: **163 bpm, 162 bpm, 160 bpm** - hervorragende Konsistenz
+- **Zonen-Präzision**: Alle drei Intervalle exakt im Z3-Bereich (154-165 bpm)
+- **Maximale HR**: 178 bpm (kontrolliert, keine Überlastung)
+- **Aufwärmen**: 141 bpm (ideal für Aktivierung ohne Ermüdung)
+- **Abwärmen**: 130 bpm (perfekte aktive Erholung)
+- **Erholungs-Qualität**: Gemischt - 163, 175, 156 bpm (letzte Erholung optimal)
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- Intervall-Struktur: 3x2min auf Hügeln - **Anstrengung** statt Pace im Fokus
+- Hügel-Geschwindigkeiten: 5:08, 4:58, 4:53 min/km (progressiv schneller!)
+- **Race-Pace Vergleich**: Ziel 5:40-5:50/km → Intervalle deutlich schneller (Hügel-bedingt)
+- **Progression**: Jedes Intervall wurde stärker - zeigt mentale Kontrolle und körperliche Reserven
+
+### ⚡ **Power-Analyse**
+
+- **Power-Progression**: 360W → 382W → 388W (herausragende Leistungssteigerung!)
+- **Durchschnitt Intervalle**: 377W (sehr stark für 2-minütige Anstrengungen)
+- **Konsistenz**: +22W und +6W Steigerung zeigt perfekte Dosierung
+- **Hügel-Spezifik**: Kraftausdauer optimal für das Cross-Country Rennen am Sonntag
+- **Vergleich**: Deutlich stärker als vorherige Hügel-Sessions
+
+### 🏆 **Was war hervorragend**
+
+- **HR-Präzision**: 161 bpm Durchschnitt exakt im 155-165 bpm Zielbereich
+- **Konsistenz**: 163→162→160 bpm zeigt perfekte Selbstkontrolle über drei Intervalle
+- **Progressive Power**: 360→382→388W = 28W Steigerung zeigt mentale Stärke
+- **Struktur-Anpassung**: 3x2min statt 2x2min - gute Entscheidung für finale Schärfung
+- **Aufwärm-Disziplin**: 12min @ 141 bpm = perfekte Aktivierung ohne Energieverschwendung
+- **Cool-Down**: 10min @ 130 bpm = ideale aktive Erholung
+- **Timing**: 5 Tage vor Rennen = perfektes Tapering mit neuraler Aktivierung
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Erholungs-Variabilität**: 163→175→156 bpm in den Pausen (mittlere Erholung zu hoch)
+- **Mittlere Erholung**: 175 bpm Maximum in Pause 2 zeigt unvollständige Regeneration
+- **Pausen-Länge**: 2-2,5min möglicherweise zu kurz für komplette HR-Erholung
+- **Minor**: Leichte Überlänge (38min vs. 30-35min Planung) - aber positiv für Rennen
+
+### 📈 **Progression vs. Previous Sessions**
+
+- **Letzte Hügel-Session (Woche 42)**: 4x3min @ 159-166 bpm, 374-345W
+- **Heute**: 3x2min @ 160-163 bpm, 360-388W = kürzere, aber intensivere Intervalle
+- **Power-Vergleich**: Heute 388W Peak vs. vorher 374W = +14W Steigerung!
+- **Konsistenz-Verbesserung**: Heute gleichmäßiger (160-163 bpm vs. 159-166 bpm)
+- **Taper-Adaptation**: Kürzere Intervalle bei höherer Intensität = ideal für Schärfung
+
+### 🎯 **Bewertung: A**
+
+Perfekte Final-Sharpness-Session! Die Herzfrequenz-Präzision (161 bpm Durchschnitt im 155-165 bpm Zielbereich) war exemplarisch. Die progressive Leistungssteigerung (360→382→388W) zeigt mentale Kontrolle und körperliche Reserven für das Rennen. Die Anpassung auf 3x2min statt 2x2min war eine kluge Entscheidung für die finale neurale Aktivierung. 5 Tage vor dem Hauptlauf-Crosslauf zeigt diese Session perfekte Race-Readiness.
+
+### 💡 **Empfehlungen für Rennen (Sonntag)**
+
+- **Vertrauen in Hügel-Power**: 388W Peak zeigt exzellente Kletter-Stärke für 223m Höhenmeter
+- **HR-Ziel Rennen**: Basierend auf 161 bpm heute → Rennpace bei 155-165 bpm anpeilen
+- **Start-Strategie**: Erste 2km konservativ, dann auf heutige 161 bpm Intensität steigern
+- **Hügel-Confidence**: Heutige Power-Progression beweist, dass du in Hügeln stärker wirst
+- **Mental Cue**: "Wie heute - kontrolliert stark, progressiv steigern"
+- **Tapering perfekt**: Keine weiteren Intensitäts-Sessions bis Sonntag
+
