@@ -137,17 +137,31 @@ Create a weekly training plan for next week using all the context provided above
 1. **Read Race Context**: First use `Glob` to find and read the current race file (`races/current-race-*.md`) to understand target race details, course profile, and training priorities
 2. **Check Subjective Feedback**: Look for current and recent weekly feedback files in the `feedback/` folder: `feedback/feedback-[week]-[year].md` containing personal training feedback and feelings
 3. **Get Strava Data**: Use the `strava` MCP server to retrieve actual running data from the last week
-3. **Detailed Lap Analysis**: For each workout activity, use `get-activity-laps` to analyze structured workouts in detail:
+4. **Assess Recovery Metrics**: Use Runalyze MCP server to retrieve recovery data for the analysis period:
+   - **Read baseline metrics**: First read `metrics/baseline-metrics.md` to get current baseline ranges for comparison
+   - Fetch HRV data using `get-runalyze-hrv-data` (SDNN values)
+   - Fetch resting heart rate data using `get-runalyze-heart-rate-rest-data`
+   - Fetch sleep data using `get-runalyze-sleep-data` (duration, deep sleep, REM sleep)
+   - **Key principle**: Next-day metrics indicate recovery from previous day's training
+     - Example: Tuesday workout → Wednesday morning's HRV/RHR/sleep shows recovery quality
+   - Analyze patterns and trends:
+     - **Single day concerns**: Flag unusual values and ask for context (stress, illness, poor sleep environment)
+     - **Multi-day trends**: 2+ consecutive days of compromised metrics suggest training load adjustment needed
+     - **Recovery indicators**: Compare metrics day-to-day relative to workout intensity
+   - **Use baseline ranges from `metrics/baseline-metrics.md`** to categorize current values (Good/Moderate/Low or Elevated/High)
+   - Cross-reference recovery metrics with subjective feedback to identify discrepancies
+   - Note: If baseline metrics seem outdated, remind the user to run `/recalculate-baselines`
+5. **Detailed Lap Analysis**: For each workout activity, use `get-activity-laps` to analyze structured workouts in detail:
    - Compare planned workout structure (e.g., 10min warm-up + 20min Z4 effort + 15min cool-down) with actual lap data
    - Analyze heart rate zones for each lap: did the 20min effort lap average in the target Z4 range (165-174 bpm)?
    - Assess pace consistency within intervals and recovery periods
    - Evaluate workout execution: was the structure followed correctly?
    - Note deviations: early termination, extended efforts, missed intervals
-3. **Performance Assessment**: First determine the current week number and year using `date +%V` and `date +%Y` commands to ensure you're analyzing the correct time period. Then compare planned vs. actual workouts, assess fitness markers (pace, HR, effort) for the current week using the detailed lap analysis.
-4. **Review Previous Weeks**: First determine the current week number and year using `date +%V` and `date +%Y` commands, then calculate the last 6 weeks from the current week to identify which training files to read (e.g., if current is week 34, read weeks 28-33). Read these last 6 .md training files in the `trainings/` folder to understand workout types, progression, and patterns. If the `trainings/` folder is empty, this indicates no current training program exists and you need to start fresh with a new beginner-appropriate plan.
-5. **Evaluate Plan Effectiveness**: Determine if the previous week's design was appropriate based on actual lap-level performance data and target zone adherence
-6. **Plan Next Week**: Build logically on previous weeks with appropriate progression, adjusted based on detailed Strava lap analysis
-7. **Save Plan**: Write the new weekly plan to `trainings/week-XX-YYYY.md`
+6. **Performance Assessment**: First determine the current week number and year using `date +%V` and `date +%Y` commands to ensure you're analyzing the correct time period. Then compare planned vs. actual workouts, assess fitness markers (pace, HR, effort) for the current week using the detailed lap analysis.
+7. **Review Previous Weeks**: First determine the current week number and year using `date +%V` and `date +%Y` commands, then calculate the last 6 weeks from the current week to identify which training files to read (e.g., if current is week 34, read weeks 28-33). Read these last 6 .md training files in the `trainings/` folder to understand workout types, progression, and patterns. If the `trainings/` folder is empty, this indicates no current training program exists and you need to start fresh with a new beginner-appropriate plan.
+8. **Evaluate Plan Effectiveness**: Determine if the previous week's design was appropriate based on actual lap-level performance data, recovery metrics trends, and target zone adherence
+9. **Plan Next Week**: Build logically on previous weeks with appropriate progression, adjusted based on detailed Strava lap analysis and recovery status
+10. **Save Plan**: Write the new weekly plan to `trainings/week-XX-YYYY.md`
 
 **Weekly Plan Structure:**
 
@@ -162,12 +176,19 @@ Create a weekly training plan for next week using all the context provided above
   - Include race-specific strength work and form drills
   - Consider taper timeline if approaching race date
 - **Progression Notes**: Explain how this week builds on previous weeks and progresses toward race goals
+- **Recovery Analysis**: Include daily recovery metrics assessment:
+  - HRV, RHR, and sleep data trends mapped to training days
+  - Next-day recovery indicators (e.g., how Wednesday metrics reflect Tuesday workout recovery)
+  - Flag concerning patterns: single anomalies vs. multi-day trends
+  - Correlation between recovery metrics and workout performance
+  - **When metrics are concerning**: Ask for context before making changes (stress, illness, life factors)
+  - Recommended adjustments if poor recovery persists (easier workouts, extra rest, intensity reduction)
 - **Detailed Workout Analysis**: Include lap-by-lap breakdown of key workouts with:
   - Planned vs. actual workout structure comparison
   - Heart rate zone adherence for each training segment
   - **Subjective vs. objective correlation**: How did the athlete feel vs. what the data shows
   - Execution quality assessment and areas for improvement
-  - Training adaptations needed based on performance data and personal feedback
+  - Training adaptations needed based on performance data, recovery metrics, and personal feedback
 
 **Daily Format:**
 
