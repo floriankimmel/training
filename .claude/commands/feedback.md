@@ -33,9 +33,9 @@ Provide comprehensive feedback on today's training session by following this str
 
 ### 1. **Get Today's Activity & Training Plan**
 
-- Use `get-recent-activities` to find today's session
-- Get detailed lap analysis with `get-activity-laps` for the most recent activity
-- **Get detailed streams**: Use `get-activity-streams` to analyze HR progression, pace consistency, and power data
+- Use `get-runalyze-activities` to find today's session
+- Get detailed activity analysis with `get-runalyze-activity-detail` for the most recent activity
+- **Analyze detailed metrics**: Use activity detail data to analyze HR progression, pace consistency, and power data
 - **Check training plan**: Look in `trainings/` directory for current week's training plan
 - Find today's planned workout to compare against actual execution
 - **Store personal feedback**: If provided via arguments, save to weekly feedback file `feedback/feedback-[week]-[year].md` for future coach reference
@@ -80,7 +80,7 @@ Provide feedback in this format:
 ## [Session Type] - [Date] Analyse
 
 **Geplant**: [From trainings/ directory - specific workout details for today]
-**Tatsächliche Ausführung**: [Lap-by-lap breakdown]
+**Tatsächliche Ausführung**: [Activity detail breakdown from Runalyze]
 **Persönliches Empfinden**: [If provided via arguments - user's subjective experience]
 
 ### 🎯 **Herzfrequenz-Analyse**
@@ -277,7 +277,7 @@ When personal feedback is provided via arguments:
 7. **Add entry in standard format**:
 
 ```markdown
-## YYYY-MM-DD - [Activity Name from Strava]
+## YYYY-MM-DD - [Activity Name from Runalyze]
 **Feel**: [Extract from feedback OR infer from execution quality: 8-10 for A+ sessions, 6-8 for A/B+ sessions, 4-6 for B/C sessions]
 **Energy**: [Extract from feedback OR infer from pace consistency and HR drift: High/Good/Moderate/Low]
 **Legs**: [Extract from feedback OR infer from cadence, power stability, pace control: Fresh/Good/Heavy/Dead]

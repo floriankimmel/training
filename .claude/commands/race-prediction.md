@@ -37,11 +37,11 @@ Generate a comprehensive race prediction by analyzing current fitness, race deta
 
 ### 2. **Analyze Recent Training (Last 4-6 Weeks)**
 
-**Get Strava Data:**
-- Use `get-recent-activities` to retrieve last 20+ activities
-- Use `get-activity-details` for key workouts (tempo runs, hill intervals)
-- Use `get-activity-laps` for structured workout analysis
-- Use `get-athlete-zones` to confirm current HR zones
+**Get Runalyze Data:**
+- Use `get-runalyze-activities` to retrieve last 20+ activities (may need multiple pages)
+- Use `get-runalyze-activity-detail` for key workouts (tempo runs, hill intervals)
+- Analyze activity details for workout structure and performance
+- Review heart rate data from activities to confirm current HR zones
 
 **Read Training Feedback:**
 - Look for recent weekly feedback files in `feedback/` folder: `feedback/feedback-[week]-[year].md`
