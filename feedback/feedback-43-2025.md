@@ -244,3 +244,77 @@ Perfekte Taper-Entscheidung! Die Wahl der kompletten Ruhe statt des optionalen 2
 - **Confidence Building**: Montag's 388W Peak und Dienstag's perfekte 161 bpm Race Pace als Referenz
 - **Sleep Priority**: Heute Nacht ist wichtiger als Freitag Nacht (pre-race sleep oft gestört)
 
+
+## 2025-10-23 - 🏋️ Full Body Focus
+**Feel**: 6/10 (Inferred - Moderate strength session during race week)
+**Energy**: Moderate (32:52 duration indicates controlled session)
+**Legs**: Limited (Low intensity strength work to avoid impact on race readiness)
+**Effort**: Light to Moderate (82.9 bpm avg HR shows controlled effort)
+**Notes**: "Thursday Race Week - Added weight training on planned complete rest day. Light strength work with average HR 82.9 bpm, keeping within recovery parameters while maintaining movement."
+
+**Detailed Metrics**:
+- HR Range: 82.9 bpm avg (Max 114 bpm) - Well within Z1 recovery range
+- Duration: 32:52 (1972s) - Reasonable session length
+- Intensity: Very controlled based on HR data
+- Session Type: Full Body Focus - comprehensive but light approach
+- Calories: 159 burned (low energy expenditure)
+- Heart Rate Zones: Entirely in recovery/active recovery zone
+
+**Objective Analysis**: C+ session - Acceptable addition to race week but deviation from planned complete rest. HR stayed appropriately low for race week activities.
+
+---
+
+## Weight Training on Race Week Rest Day - 2025-10-23 Analyse
+
+**Geplant**: Komplette Ruhe - "No Running" + Fokus auf Nutrition (Carb Loading), Sleep (8+ Stunden), Logistics (Race Prep), Mental Preparation
+**Tatsächliche Ausführung**: 🏋️ Full Body Focus 32:52 Minuten @ 82.9 bpm Durchschnitt (Max 114 bpm), 159 Kalorien
+**Persönliches Empfinden**: Geschätzt als leichte, kontrollierte Kraft-Session ohne Race-Impact
+
+### 🎯 **Taper-Strategische Bewertung**
+
+- **HR-Kontrolle**: 82.9 bpm Durchschnitt = perfekt in Z1 Recovery-Zone (unter 120 bpm)
+- **Intensitäts-Disziplin**: Maximum 114 bpm = keine kardiovaskuläre Belastung
+- **Dauer**: 32:52 Minuten = moderat, nicht übertrieben
+- **Timing**: 3 Tage vor Hauptlauf Crosslauf = grenzwertig aber noch akzeptabel
+- **Energy Cost**: 159 Kalorien = minimaler energetischer Aufwand
+
+### 🏆 **Was war gut an der Session**
+
+- **HR-Disziplin**: 82.9 bpm zeigt hervorragende Intensitätskontrolle
+- **Recovery-Zone**: Komplett unter 120 bpm = echte "aktive Erholung"
+- **Bewegungserhalt**: Aufrechterhaltung der neuromuskulären Aktivierung ohne Stress
+- **Kurze Dauer**: 33 Minuten = nicht übertrieben für Race Week
+- **Full Body**: Gleichmäßige Belastung statt Fokus auf laufspezifische Muskeln
+- **Mental Activity**: Kann Rastlosigkeit vor dem Rennen positiv kanalisieren
+
+### ⚠️ **Kritische Bewertung der Race Week Entscheidung**
+
+- **Plan-Abweichung**: Geplant war "komplette Ruhe" - dies wurde nicht befolgt
+- **Taper-Philosophie**: "You cannot gain fitness this week, but you can lose freshness"
+- **3 Tage vor Rennen**: Jede zusätzliche Belastung birgt minimales Risiko
+- **Opportunity Cost**: Zeit hätte für Nutrition, Sleep, Mental Prep genutzt werden können
+- **Micro-Recovery**: Selbst leichte Belastung verhindert 100%ige Erholung
+
+### 📈 **Race Week Progression Update**
+
+- **Montag (20. Okt)**: Easy Recovery @ 139,6 bpm (B+ - aerobe Basis)
+- **Dienstag (21. Okt)**: Final Sharpness 3x2min @ 388W (A - perfekte Schärfung)
+- **Mittwoch (22. Okt)**: Komplette Ruhe (A+ - ideale Taper-Disziplin)
+- **Heute (23. Okt)**: Weight Training @ 82.9 bpm (C+ - deviation from plan)
+- **Morgen (24. Okt)**: Geplant komplette Ruhe + intensives Carb Loading
+- **Freitag (25. Okt)**: Geplant komplette Ruhe + finale Race Eve Prep
+
+### 🎯 **Bewertung: C+**
+
+Akzeptable aber nicht ideale Race Week Entscheidung. Die hervorragende HR-Kontrolle (82.9 bpm Durchschnitt) zeigt, dass keine significante Belastung entstanden ist. Jedoch war heute laut Taper-Plan komplette Ruhe vorgesehen, um maximale Frische für Sonntag zu gewährleisten. Die Session war kardiovaskulär harmlos, aber jede zusätzliche Aktivität 3 Tage vor einem Rennen birgt geringe Risiken ohne Fitness-Gewinn.
+
+### 💡 **Empfehlungen für verbleibende Race Week**
+
+- **Freitag & Samstag**: Strikte Einhaltung der "Complete Rest" Vorgabe
+- **Focus Shift**: Energie in Nutrition (Carb Loading), Hydration, Sleep investieren
+- **Mental Prep**: Statt Training → Race Visualization und Strategy Review
+- **Trust Fitness**: Montag's 388W Peak und Dienstag's 161 bpm zeigen Race Readiness
+- **No More Deviations**: Letzten 2 Tage exakt nach Taper-Plan
+- **Lesson Learned**: In Race Week ist "weniger mehr" - auch bei perfekter HR-Kontrolle
+
+**Race Impact Assessment**: Minimal bis null, da HR-Kontrolle perfekt war. Aber für zukünftige Race Weeks: Taper-Plan strikt befolgen.
