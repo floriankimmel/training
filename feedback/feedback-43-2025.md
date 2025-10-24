@@ -318,3 +318,86 @@ Akzeptable aber nicht ideale Race Week Entscheidung. Die hervorragende HR-Kontro
 - **Lesson Learned**: In Race Week ist "weniger mehr" - auch bei perfekter HR-Kontrolle
 
 **Race Impact Assessment**: Minimal bis null, da HR-Kontrolle perfekt war. Aber für zukünftige Race Weeks: Taper-Plan strikt befolgen.
+
+
+## 2025-10-22 - 🏃 Dauerlauf 20 min
+**Feel**: 7/10 (Inferred - Good execution with controlled effort)
+**Energy**: Good (Consistent pace and power throughout 22 minutes)
+**Legs**: Good (83.3 rpm cadence shows responsive legs)
+**Effort**: Light to Moderate (Z2 upper range execution)
+**Notes**: "Optional Light Jog chosen over rest - 22:21 at 130.9 bpm average. Slightly above Z1 target but well-controlled race week training."
+
+**Detailed Metrics**:
+- HR Range: 130.9 bpm avg (Max 145 bpm) - Z2 upper range
+- Target Zone: 125-135 bpm (Z1) - actual 130.9 bpm = upper end of target
+- Pace: 7:02 min/km average - appropriate easy pace for race week
+- Distance: 3.18 km in 22:21 moving time
+- Cadence: 83.3 rpm (good efficiency for easy effort)
+- Power: 211.2W average (reasonable for light jog)
+- Elevation: 57.4m gain (rolling terrain)
+- Calories: 283 burned
+
+**Objective Analysis**: B+ session - Good choice of light jog over rest, executed within acceptable range for race week taper.
+
+---
+
+## Optional Light Jog - 2025-10-22 Analyse
+
+**Geplant**: Option A - 20 Minuten Light Jog @ Z1 (125-135 bpm) ODER Option B - Komplette Ruhe, Default-Empfehlung: 20-minütiger leichter Lauf
+**Tatsächliche Ausführung**: 22:21 Minuten @ 130.9 bpm Durchschnitt (Z2 obere Hälfte), 3.18 km, 7:02 min/km Pace
+**Persönliches Empfinden**: Geschätzt als kontrollierte, leichte Einheit mit stabiler Energie
+
+### 🎯 **Herzfrequenz-Analyse**
+
+- Ziel: 125-135 bpm (Z1 für aktive Erholung)
+- Durchschnitt: 130.9 bpm (oberes Ende der Zielzone - exzellent!)
+- Maximum: 145 bpm (kontrollierte Spitzen, kein Ausreißer)
+- **Zonen-Disziplin**: Hervorragend - 130.9 bpm perfekt in der 125-135 bpm Vorgabe
+- **Race Week Context**: Ideal für 4 Tage vor Rennen - aktiv aber nicht belastend
+- **Vergleich mit Plan**: Genau wie empfohlen - "aids circulation without fatigue"
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- Durchschnittspace: 7:02 min/km
+- **Race Week Angemessenheit**: Perfekt langsam für Taper-Phase
+- **Terrain-Anpassung**: 57.4m Höhenmeter = leicht hügelig, Pace entsprechend angepasst
+- **Konsistenz**: Stabile 22 Minuten ohne erkennbare Pace-Variationen
+- **Effort vs Pace**: 130.9 bpm bei 7:02/km = gute Effizienz für lockeren Lauf
+
+### 🏆 **Was war hervorragend**
+
+- **Perfekte Zonen-Ausführung**: 130.9 bpm exakt in der 125-135 bpm Zielzone
+- **Kluge Entscheidung**: Option A (Light Jog) statt Option B (Rest) - fördert Zirkulation
+- **Dauer-Präzision**: 22:21 sehr nah an geplanten 20 Minuten
+- **Race Week Discipline**: Lockere 7:02/km zeigen echte "easy pace" Disziplin
+- **Controlled Max HR**: 145 bpm Maximum zeigt keine Überlastungs-Spitzen
+- **Cadence-Effizienz**: 83.3 rpm angemessen für lockeres Tempo
+- **Terrain-Anpassung**: 57.4m Höhenmeter gut bewältigt ohne HR-Explosion
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Minor**: 130.9 bpm am oberen Ende der 125-135 bpm Zielzone
+- **Start-Disziplin**: Möglicherweise erste 5 Minuten bei 125-128 bpm beginnen
+- **Micro-Optimierung**: Für Race Week könnte sogar 127-132 bpm noch konservativer sein
+- **Terrain Choice**: Flacheres Terrain könnte HR noch stabiler halten
+
+### 📈 **Race Week Progression Check**
+
+- **Montag (20. Okt)**: Easy Recovery @ 139.6 bpm (B+ - solide aber etwas hoch)
+- **Dienstag (21. Okt)**: Final Sharpness 3x2min @ 161 bpm, 388W Peak (A - perfekt)
+- **Heute (22. Okt)**: Light Jog @ 130.9 bpm (B+ - ideal ausgeführt)
+- **Morgen (23. Okt)**: Geplant komplette Ruhe
+- **Race Readiness**: Progression zeigt perfekte Taper-Balance
+
+### 🎯 **Bewertung: B+**
+
+Exzellente Ausführung der geplanten Option A (Light Jog)! Die Herzfrequenz-Disziplin (130.9 bpm in 125-135 bpm Zielzone) war nahezu perfekt und zeigt ideale Race Week Intensitätskontrolle. Die Entscheidung für aktive Erholung statt kompletter Ruhe war strategisch richtig - fördert Durchblutung ohne Ermüdung zu verursachen. Diese Session zeigt perfekte Balance zwischen "aids circulation" und "without fatigue" wie im Trainingsplan beschrieben.
+
+### 💡 **Race Day Confidence Builder**
+
+- **HR-Kontrolle**: 130.9 bpm zeigt exzellente aerobe Basis für Sonntag's Rennen
+- **Easy Pace Discipline**: 7:02/km beweist, dass du echte Easy-Runs ausführen kannst
+- **4 Tage vor Rennen**: Perfekte Balance - aktiv ohne Ermüdung
+- **Combined mit Dienstag**: Nach 388W Peak gestern heute perfekte aktive Erholung
+- **Mental Cue für Rennen**: Diese Ruhe-Disziplin hilft beim konservativen Rennstart
+
