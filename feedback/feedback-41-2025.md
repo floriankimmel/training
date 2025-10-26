@@ -34,11 +34,11 @@
 **Energy**: Good (consistent pace throughout)
 **Legs**: Good (solid cadence at 87.2 rpm)
 **Effort**: Easy (perfect Z1-Z2 discipline)
-**Notes**: Wednesday Recovery Run - 44:08 moving time, 7.33km, 133.5 bpm avg HR, 3:36 min/km pace. Outstanding zone discipline compared to previous weeks.
+**Notes**: Wednesday Recovery Run - 44:08 moving time, 7.33km, 133.5 bpm avg HR, 6:01 min/km pace. Outstanding zone discipline compared to previous weeks.
 
 **Detailed Metrics**:
 - HR Range: 101-151 bpm (primary working range Z1-Z2)
-- Pace Stability: Excellent consistency at 3:36 min/km average
+- Pace Stability: Excellent consistency at 6:01 min/km average
 - Elevation: 28.2m total gain (flat terrain as planned)
 - Cadence: 87.2 rpm (efficient turnover)
 - Power: 233.2W average (economical running)
@@ -47,7 +47,7 @@
 ## Recovery Run - 2025-10-08 Analyse
 
 **Geplant**: Recovery Run 40 minutes conversational pace (Z1-Z2: 120-154 bpm), target 145-150 bpm
-**Tatsächliche Ausführung**: 44:08 Minuten @ 133.5 bpm Durchschnitt, 3:36 min/km Pace
+**Tatsächliche Ausführung**: 44:08 Minuten @ 133.5 bpm Durchschnitt, 6:01 min/km Pace
 **Persönliches Empfinden**: Geschätzt 8/10 - hervorragende Zonen-Disziplin
 
 ### 🎯 **Herzfrequenz-Analyse**
@@ -61,7 +61,7 @@
 
 ### ⏱️ **Pace-Analyse (min/km)**
 
-- Durchschnittspace: 3:36 min/km
+- Durchschnittspace: 6:01 min/km
 - Pace-Stabilität: Hervorragend konstant über die gesamte Distanz
 - Angemessene Geschwindigkeit für Erholungslauf bei dieser HR
 - Zeigt gute aerobe Effizienz bei kontrollierter Intensität
@@ -82,13 +82,13 @@
 ### 📈 **Progression vs. Previous Sessions**
 
 - **Woche 40 Montag**: 151.4 bpm @ 5:24 min/km (zu hart für Erholung)
-- **Heute**: 133.5 bpm @ 3:36 min/km (perfekte Erholung trotz besserer Pace)
+- **Heute**: 133.5 bpm @ 6:01 min/km (perfekte Erholung mit appropriate easy pace)
 - **Lernerfolg**: Deutliche Verbesserung der Zonen-Disziplin
 - **Aerobe Effizienz**: Bessere Pace bei niedrigerer HR zeigt Fitness-Fortschritt
 
 ### 🎯 **Bewertung: A+**
 
-Perfekte Ausführung eines Erholungslaufs. Die Herzfrequenz von 133.5 bpm liegt optimal im geplanten Bereich und zeigt eine dramatische Verbesserung der Zonen-Disziplin gegenüber vorherigen Wochen. Die Pace von 3:36 min/km bei dieser niedrigen HR deutet auf verbesserte aerobe Effizienz hin. Die Routenwahl (flaches Gelände) und Dauer entsprechen fast exakt der Planung.
+Perfekte Ausführung eines Erholungslaufs. Die Herzfrequenz von 133.5 bpm liegt optimal im geplanten Bereich und zeigt eine dramatische Verbesserung der Zonen-Disziplin gegenüber vorherigen Wochen. Die Pace von 6:01 min/km bei dieser niedrigen HR ist genau richtig für einen Erholungslauf. Die Routenwahl (flaches Gelände) und Dauer entsprechen fast exakt der Planung.
 
 ### 💡 **Empfehlungen für nächstes Mal**
 
@@ -111,7 +111,7 @@ Perfekte Ausführung eines Erholungslaufs. Die Herzfrequenz von 133.5 bpm liegt 
 
 **Detailed Metrics**:
 - HR Range: 85-172 bpm (Tempo-Phase: 161.7 bpm avg - perfekt in Z3 Zielzone!)
-- Pace Stability: 3:10 min/km im Tempo-Lap (konstante Leistung)
+- Pace Stability: 5:20 min/km im Tempo-Lap (konstante Leistung)
 - Elevation: 73.3m Rolling Terrain (ideal für Race-Simulation)
 - Cadence: 86.7 rpm Durchschnitt (86.8 rpm im Tempo - hervorragende Effizienz)
 - Power: 282.8W im Tempo-Lap (ausgezeichnete Climbing-Kraft auf Rolling Terrain)
@@ -139,8 +139,8 @@ Perfekte Ausführung eines Erholungslaufs. Die Herzfrequenz von 133.5 bpm liegt 
 
 ### ⏱️ **Pace-Analyse (min/km)**
 
-- **Tempo-Pace**: 3:10 min/km @ 161.7 bpm (hervorragende Race-Pace Simulation)
-- **Gesamtdurchschnitt**: 3:23 min/km über 8.75km
+- **Tempo-Pace**: 5:20 min/km @ 161.7 bpm (hervorragende Race-Pace Simulation)
+- **Gesamtdurchschnitt**: 5:37 min/km über 8.75km
 - **Pace-Stabilität**: Kontrolliert über 20min Tempo-Phase
 - **Rolling Terrain**: 73.3m Elevation perfekt für Race-Vorbereitung
 
@@ -175,7 +175,7 @@ AUSGEZEICHNETE Session! Nach Dienstag's Problemen hast du heute die perfekte Tem
 
 - **Mental Confidence**: Diese 161.7 bpm Intensität ist dein Race-Pace - vertraue diesem Gefühl!
 - **Cool-down Vollständigkeit**: Nächstes Mal volle 20min Cool-down für komplette Erholung
-- **Race-Pace Benchmark**: 161.7 bpm @ 3:10 min/km ist deine Referenz für October 26 Race
+- **Race-Pace Benchmark**: 161.7 bpm @ 5:20 min/km ist deine Referenz für October 26 Race
 - **Bestätigung**: Du hast die Z3-Zone endlich gemeistert - das ist der Durchbruch!
 
 ---

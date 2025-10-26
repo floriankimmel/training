@@ -55,6 +55,22 @@ Generate a comprehensive race prediction by analyzing current fitness, race deta
 - **Recovery quality**: Ability to hit targets repeatedly
 - **Progression**: Improvement or maintenance over recent weeks
 
+**Recovery & Taper Metrics (Critical for Race Prediction):**
+- **Resting Heart Rate (RHR)**: Check recent morning RHR trends
+  - Declining RHR (2-5 bpm drop) = positive taper effect
+  - Lowest recorded RHR = peak freshness indicator
+  - Use `get-runalyze-heart-rate-rest-data` to retrieve RHR history
+- **HRV (Heart Rate Variability)**: Review SDNN trends
+  - Increasing HRV = positive adaptation and recovery
+  - Use `get-runalyze-hrv-data` to retrieve HRV history
+- **Sleep Quality**: Recent sleep duration and quality
+  - 7+ hours with good REM = optimal recovery
+  - Use `get-runalyze-sleep-data` to retrieve sleep metrics
+- **Taper Execution Quality**:
+  - Volume reduction: 40-60% is ideal (e.g., 6x3min → 4x3min → 3x2min)
+  - Intensity maintenance: Peak power/pace maintained or improved
+  - Easy run discipline: Proper Z1-Z2 execution during taper
+
 ### 3. **Calculate Realistic Time Predictions**
 
 **Use Multiple Methods:**
@@ -74,10 +90,29 @@ Generate a comprehensive race prediction by analyzing current fitness, race deta
    - Sustained power capability on climbs
    - Translate to race pace on similar terrain
 
+4. **Taper/Recovery Boost Adjustment** (CRITICAL):
+   - Analyze recovery metrics to estimate taper boost
+   - **Strong taper indicators** (adjust prediction 2-3% faster):
+     - RHR at lowest recorded value
+     - HRV increasing trend
+     - Peak power maintained/improved in taper
+     - Perfect easy run discipline (Z1-Z2 adherence)
+     - Sleep quality excellent (7+ hours, good REM)
+   - **Moderate taper** (adjust prediction 1-2% faster):
+     - RHR stable or slight decrease
+     - HRV in moderate range
+     - Intensity maintained but not improved
+   - **Weak/no taper** (no adjustment):
+     - RHR elevated or unstable
+     - HRV declining
+     - Signs of accumulated fatigue
+
+   **Application**: If base prediction from tempo pace is 5:25/km, and taper indicators are strong (2-3% boost), adjust to 5:18-5:20/km for target pace.
+
 **Provide Three Targets:**
 - **Conservative**: Realistic worst-case with cushion
-- **Target**: Primary goal with solid training support
-- **Optimistic**: Stretch goal with perfect conditions
+- **Target**: Primary goal with solid training support + taper boost
+- **Optimistic**: Stretch goal with perfect conditions + strong taper effect
 
 ### 4. **Develop Race Strategy**
 
