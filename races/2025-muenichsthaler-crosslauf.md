@@ -1,12 +1,15 @@
-# Target Race Information
+# Münichsthaler Crosslauf 2025 - COMPLETED
+
+> **Status**: Race completed on October 26, 2025
+> **See**: Race predictions and feedback files for detailed analysis and results
 
 ## Race Details
 
-**Event**: Hauptlauf - Crosslauf und Nordic Walking am Nationalfeiertag  
-**Location**: Münichsthal/Pfösing  
-**Date**: October 26, 2025 (National Holiday)  
-**Distance**: 10.16 km  
-**Elevation Gain**: 223 m  
+**Event**: Hauptlauf - Crosslauf und Nordic Walking am Nationalfeiertag
+**Location**: Münichsthal/Pfösing
+**Date**: October 26, 2025 (National Holiday)
+**Distance**: 10.16 km
+**Elevation Gain**: 223 m
 **Race Type**: Cross Country / Trail Running
 
 ## Course Profile
