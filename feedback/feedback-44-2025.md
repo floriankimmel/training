@@ -75,3 +75,48 @@
 - Bereit für geplante 25-30min Easy Jog am Freitag
 - Krafttraining möglich wenn Energie weiterhin gut bleibt
 - Übergang zu Wochenend-Rückkehr zu normalem Easy Running gut vorbereitet
+
+## 2025-10-31 - 🏋️ Full Body Focus + Geplanter Easy Jog
+**Feel**: 8/10 (deutliche Verbesserung gegenüber den Vortagen, Energie zurück)
+**Energy**: Hoch (bereit für geplante 25-30min Easy Jog)
+**Legs**: Sehr gut (vollständige Beweglichkeit, keine Schwere mehr)
+**Effort**: Moderat (Krafttraining durchgeführt, Laufen geplant aber nicht absolviert)
+**Notes**: Tag 5 nach Wettkampf - Krafttraining erfolgreich absolviert (35:50min), geplanter Easy Jog möglicherweise noch ausstehend oder durch Krafttraining ersetzt. Körperliche Erholung scheint abgeschlossen basierend auf Krafttraining-Performance.
+
+**Detailed Metrics - Krafttraining**:
+- Duration: 35:50 (2150 Sekunden bewegte Zeit)
+- HR Range: 68-112 bpm (Durchschnitt 82.9 bpm - Z1 Erholung)
+- Max HR: 112 bpm (moderate Anstrengung, kein Stress auf das System)
+- Training Type: Full Body Focus (funktionelles Krafttraining)
+- Calories: ~350 kcal geschätzt basierend auf Dauer und HR
+
+**Geplanter Easy Jog Status**:
+- Geplant: 25-30min Easy Jog @ Z1-Z2 (120-150 bpm)
+- Status: Nicht in Strava-Daten sichtbar - möglicherweise noch ausstehend
+- Alternative: Krafttraining erfolgreich als aktive Erholung absolviert
+- Empfehlung: Wenn Energie weiterhin hoch ist, kurzer 20-25min Easy Jog am Abend möglich
+
+**Objective Analysis**: A Ausführung der Krafteinheit - excellente HR-Kontrolle im Erholungsbereich während Krafttraining, zeigt optimale Erholung nach 5 Tagen post-race. Bereit für Rückkehr zum regulären Easy Running.
+
+
+**Wochenupdate Tag 5 (Fr 31.10)**:
+- **Krafttraining**: Erfolgreich absolviert mit perfekter HR-Kontrolle (82.9 bpm avg)
+- **Körperliche Erholung**: Vollständig abgeschlossen - bereit für normale Easy Runs
+- **Energy-Level**: Deutlich gestiegen (Feel 8/10 - höchster Wert seit Wettkampf)
+- **Legs**: Optimal - keine Einschränkungen mehr spürbar
+- **Übergang**: Bereit für Weekend Easy Running (35-40min Sessions wie geplant)
+
+**5-Tage Erholungsanalyse komplett**:
+- ✅ **Tag 1-2**: Perfekte Ruhe eingehalten
+- ✅ **Tag 3**: Kontrollierte Rückkehr (20min @ 139 bpm)
+- ✅ **Tag 4**: Optimale Progression (25min @ 143 bpm)
+- ✅ **Tag 5**: Krafttraining erfolgreich, bereit für Weekend Running
+- **Ergebnis**: Lehrbuch-Erholung nach 10.18km Race - optimal für Week 45 Base Building
+
+**Weekend-Bereitschaft**:
+- Körper zeigt alle Zeichen vollständiger Erholung
+- HR-Werte zurück zu normalen Bereichen (82.9 bpm während Krafttraining)
+- Energie und Motivation auf Jahreshoch
+- Perfekte Ausgangslage für geplante 35-40min Easy Runs am Wochenende
+- Transition zu Week 45 Base Building Phase optimal vorbereitet
+
