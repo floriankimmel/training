@@ -164,3 +164,84 @@ Sehr gute conservative restart session nach race week. Perfekte Struktur (47:20 
 - Frühere Progression: Rep 1 @ 160 bpm, Rep 2 @ 165 bpm für race-spezifische Anpassung  
 - Trail-Spezifik: 1000m+ elevation race braucht 165-172 bpm Intensität - nächste Woche steigern
 - Positive Bestätigung: Power-Kapazität (569W peak) zeigt excellent hill strength für trail demands
+
+## 2025-11-05 - 🏃 Dauerlauf 40 Minuten
+**Feel**: 7/10 (gutes Gefühl über gesamte Strecke, konstante kontrollierte Anstrengung)
+**Energy**: Good (gleichmäßige Energie über 37:58 Moving Time ohne Fade)
+**Legs**: Good (responsive mit 89.3 rpm Kadenz, keine Steifheit oder Schwere)
+**Effort**: Easy-Moderate (geplante Z1-Z2, tatsächlich 148 bpm - am Z2-Ceiling)
+**Notes**: Easy Recovery Run - 37:58 moving time, 7.14km, 148 bpm avg HR, 5:19 min/km pace.
+
+**Detailed Metrics**:
+- HR Range: 155 bpm max, 148 bpm avg (Z2 ceiling statt geplante 130-145 bpm)
+- Pace Stability: Sehr gut - 5:19 min/km Durchschnitt mit minimaler Varianz
+- Elevation: 21.2m gain über primarily flat terrain (korrekte Route-Wahl)
+- Cadence: 89.3 rpm (sehr effizient und stabil - höher als Tuesday's 83.7 rpm)
+- Power: 263.5W avg, 395W max (moderate effort, gute Kraftreserven)
+- Calories: 518 burned über 37:58 moving time
+
+**Objective Analysis**: B+ session - gute Pace und Struktur, aber HR-Disziplin verbesserungswürdig (3. Tag über Zielbereich)
+
+---
+
+## Easy Recovery Run - 2025-11-05 Analyse
+
+**Geplant**: 40 Minuten @ Z1-Z2 (120-154 bpm), Target: 130-145 bpm average, "True recovery priority"
+**Tatsächliche Ausführung**: 37:58 moving time @ 148 bpm average (Z2 ceiling), 7.14km, 5:19 min/km pace
+**Persönliches Empfinden**: Gefühl 7/10, gute gleichmäßige Energie, responsive Beine, kontrollierte easy-moderate Anstrengung
+
+### 🎯 **Herzfrequenz-Analyse**
+
+- Ziel: Z1-Z2 (130-145 bpm average) - "Critical HR discipline" laut Trainingsplan
+- Durchschnitt: 148 bpm (Z2 ceiling, 3 bpm über Zielbereich)
+- Maximum: 155 bpm (kontrolliert, kein Ausreißer)
+- Zonen-Disziplin: **Verbesserung nötig** - 3. Tag in Folge über target range
+- **Pattern Alert**: Mon 147.8 bpm → Tue 143.9 bpm → Wed 148 bpm (inkonsistente HR-Kontrolle)
+- Recovery Context: 24h nach Hill Intervals, sollte bewusst leichter sein
+- Trail Transition: 80% des trail training wird Z1-Z2 sein - Disziplin kritisch
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- Durchschnittspace: 5:19 min/km
+- Pace-Stabilität: Exzellent - sehr gleichmäßige Splits über gesamte Distanz
+- Effort-to-Pace: Bei 148 bpm sollte pace 5:30-6:00 min/km sein (zu schnell für HR)
+- Route: Primarily flat terrain wie geplant (21.2m elevation total)
+- Comparison: 2min schneller als geplante "recovery" pace für diese HR-Zone
+
+### 🏆 **Was war hervorragend**
+
+- Perfekte Kadenz: 89.3 rpm zeigt exzellente mechanische Effizienz
+- Pace-Konsistenz: Sehr gleichmäßige Splits ohne Tempo-Schwankungen
+- Terrain-Auswahl: Primarily flat wie im Trainingsplan gefordert
+- Session-Completion: Vollständige 38 Minuten trotz recovery day
+- Mechanical Efficiency: Höhere Kadenz (89.3) als bei Intervals (83.7) zeigt gute Bein-Responsivität
+- No Fade: Konstante Leistung ohne Einbruch am Ende
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **HR-Disziplin Problem**: 148 bpm ist 3. Tag über target (130-145 bpm)
+- **Effort-Calibration**: Bei 5:19 min/km pace sollte HR bei 140-145 bpm liegen
+- **Recovery-Mindset**: Tag nach Intervals sollte bewusst easier sein (148 bpm ist fast wie Monday's 147.8)
+- **Trail-Preparation**: 80% des trail training erfordert echte Z1-Z2 Disziplin
+- **Pattern-Concern**: Noch nicht Week 44's disziplinierte 138-143 bpm repliziert
+
+### 📈 **Progression vs. Previous Sessions**
+
+- **HR-Pattern**: Mon 147.8 → Tue 143.9 → Wed 148 bpm (keine Verbesserung der easy run discipline)
+- **Pace-Development**: 5:19 min/km ist schneller als recovery target
+- **Post-Interval Recovery**: 24h nach 4x3min sollte HR niedriger sein
+- **Cadence-Progression**: 89.3 rpm excellent vs. Tuesday's 83.7 (mechanical efficiency gut)
+- **Week 44 Comparison**: Noch nicht die disziplinierten 138-143 bpm erreicht
+
+### 🎯 **Bewertung: B+**
+
+Gute mechanische Ausführung (89.3 rpm Kadenz, pace-konsistenz) aber **kritisches HR-Disziplin Problem**. Drei Tage in Folge über dem Zielbereich (130-145 bpm) trotz "Critical HR discipline" Anweisung im Trainingsplan. Die 148 bpm bei 5:19 min/km pace zeigt, dass du zu schnell für eine echte recovery run läufst. Trail training erfordert 80% echte Z1-Z2 Läufe - diese Disziplin muss sofort etabliert werden. Mechanisch läufst du exzellent (Kadenz, Konsistenz), aber effort-calibration stimmt nicht.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+- **Pace drastisch reduzieren**: 5:45-6:15 min/km für echte 140-145 bpm
+- **Start-Protokoll**: Erste 5-10 Minuten bewusst bei 135-140 bpm (wird langsamer sein)
+- **Conversational Test**: Solltest vollständige Sätze sprechen können
+- **Mental Reset**: "Dies ist nicht junk miles" - 80% des trail training ist diese Intensität  
+- **HR-Monitor aktiv**: Alle 5 Minuten check, beim Überschreiten von 150 bpm sofort verlangsamen
+
