@@ -77,6 +77,99 @@ Diese Session war technisch perfekt! Du hast exakt das umgesetzt was geplant war
 
 ---
 
+
 ## Weekly Summary & Patterns
+
+## 2025-11-18 - ⚡ Hügel-Intervalltraining 5 x 3 min • Hill Interval Session
+**Feel**: Inferred 7/10 (gute Session mit einigen Zone-Schwankungen)
+**Energy**: Inferred Good (konsistente Power-Outputs über alle Intervalle)
+**Legs**: Inferred Limited (Intervalle 2-4 zeigen HR-Fade trotz stabiler Power)
+**Effort**: Hard (Z3-Z4 Hügel-Intervalle mit variablem Zone-Targeting)
+**Notes**: Hill Interval Session - 49:01 total time, 8.33km, 142.3 bpm avg HR, Power: 247.6W avg (Peak 637W).
+
+## Hill Interval Session - 2025-11-18 Analyse
+
+**Geplant**: Hill Intervals 5x3min @ Z3-Z4 (160-172 bpm), 55min total mit 12min warm-up + recovery + 12min cool-down
+**Tatsächliche Ausführung**: 5x3min Intervalle @ 164/159/159/155/161 bpm (Fade-Pattern), 49:01 total, 12min WU + 19min CD
+**Persönliches Empfinden**: [Inferred] Feel 7/10, Good energy but limited legs, Hard effort
+
+### 🎯 **Herzfrequenz-Analyse**
+
+- Ziel: 160-172 bpm (Z3-Z4) für alle 5 Intervalle
+- Tatsächliche Interval-HRs: **164/159/159/155/161 bpm**
+- Zone-Performance: **3 von 5 Intervalle unter Zielbereich** (159, 159, 155 bpm)
+- **HR-Fade Pattern**: Intervall 1→4 = 164→155 bpm (-9 bpm Fade!)
+- **Recovery exzellent**: 130.7/134.7/130.0/135.2/129.7 bpm (perfekte Drops)
+- **Interval 5 Comeback**: 160.8 bpm = zurück in Zielbereich!
+
+**Detaillierte Lap-Analyse**:
+- **WU (12:00)**: 140.5 bpm ✅ (perfekt Z2)
+- **Int 1 (2:59)**: 164 bpm ✅ (im Zielbereich 160-172!)
+- **Int 2 (2:59)**: 159.3 bpm ⚠️ (1 bpm unter Zielbereich)  
+- **Int 3 (3:00)**: 159.2 bpm ⚠️ (1 bpm unter Zielbereich)
+- **Int 4 (3:00)**: 155.3 bpm ❌ (5-17 bpm unter Zielbereich!)
+- **Int 5 (3:00)**: 160.8 bpm ✅ (zurück im Zielbereich!)
+- **CD (19:26)**: 130.0 bpm ✅ (perfekt Z1-Z2)
+
+### ⏱️ **Power-Analyse**
+
+- **Durchschnitts-Power**: 247.6W (exzellent für sustained effort)
+- **Peak Power**: 637W (starke Climbing-Kapazität)
+- **Power-Konsistenz**: Lap 2: 317W, Lap 4: 379W, Lap 6: 324W, Lap 8: 385W, Lap 10: 322W
+- **Power vs HR Correlation**: Interessant - Power blieb stabil (317-385W) trotz HR-Fade!
+- **Mechanische Limitierung**: Power konstant aber HR fade = Beine limitierten, nicht Kardio
+
+### 🏆 **Was war hervorragend**
+
+- **Power-Konsistenz**: 317-385W über alle 5 Intervalle = exzellente mechanische Stärke!
+- **Recovery-Perfektion**: Alle Recovery-Laps @ 129-135 bpm = ideale active recovery
+- **Strukturelle Disziplin**: Alle Intervalle exakt 3:00 Minuten + 2:00 Recoveries
+- **Comeback-Fähigkeit**: Interval 5 @ 160.8 bpm zeigt mentale Stärke nach Int 4's 155 bpm!
+- **Warm-up Perfect**: 12min @ 140.5 bpm = ideale Z2 Vorbereitung
+- **Cool-down Extended**: 19min @ 130 bpm = exzellente Recovery-Investment
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **HR-Fade Mittlere Intervalle**: Int 2-4 @ 159/159/155 bpm = 1-17 bpm unter Zielbereich
+- **Commitment-Issue**: Trotz stabiler Power (317-385W) konnte/wollte Körper nicht höhere HR erreichen
+- **Pattern Recognition**: 164→159→159→155→161 = klassische "Mid-Session Fade" trotz Power-Kapazität
+- **Zone-Targeting**: 3 von 5 Intervalle verfehlten 160-172 bpm Zielzone (60% success rate)
+
+**Mögliche Ursachen**:
+1. **Pacing zu konservativ**: Mental nicht bereit für volle Intensität trotz Power-Kapazität?
+2. **Mechanische Limitierung**: Beine wurden heavy → HR konnte nicht folgen trotz Power?
+3. **Terrain-Factor**: Hills verlangen andere HR-Response als flache Intervalle?
+
+### 📈 **Progression vs. Previous Sessions**
+
+- **W46 Mi (12.11)**: 5x3min @ 146-162 bpm (ähnliches Fade-Pattern!)
+- **W47 Di vs W46 Mi**: Leichte Verbesserung (164/161 bpm peaks vs 162 bpm max)
+- **Power-Improvement**: 247.6W avg heute vs ~245W letzte Sessions = konsistent strong!
+- **Recovery-Konsistenz**: Beide Sessions exzellente Recovery (125-138 vs 129-135 bpm)
+- **Pattern-Wiederholung**: Beide Sessions zeigen "Start strong, fade middle, finish decent"
+
+### 🎯 **Bewertung: B+**
+
+Gute Session mit starken Power-Outputs und perfekter Recovery-Disziplin, aber zone-targeting braucht improvement. Du hast exzellente mechanische Stärke gezeigt (317-385W konsistent) und perfekte Recovery zwischen Intervallen (129-135 bpm drops). Interval 1 und 5 im Zielbereich (164/161 bpm) zeigen dass du die Kapazität hast! Jedoch verfehlten Intervalle 2-4 das 160-172 bpm Target mit einem -9 bpm Fade-Pattern. Das ist NICHT kardiovaskuläre Limitierung (Power war stabil) sondern wahrscheinlich mechanical/mental. Du hast die Fitness - brauche nur mehr Commitment zu higher HR trotz heavy legs!
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+- **Start-Strategie überdenken**: Interval 1 @ 164 bpm war gut - starte Interval 2-4 auch so!  
+- **Power-HR Disconnect ansprechen**: Du hast 317-385W Power - commit mental zu matching HR (165+ bpm)!
+- **Mid-Session Refocus**: Bei Interval 3-4 bewusst "push HR higher" trotz heavy legs feeling
+- **Utilize Interval 5 Success**: Du hast 160.8 bpm im letzten geschafft - das ist der Standard!
+- **Mental Cue entwickeln**: "Power is there, just push HR to match!" für mittlere Intervalle
+
+**Detailed Metrics**:
+- HR Range: 85-173 bpm (Interval peaks 155-164 bpm)
+- Interval Structure: 5x3:00 @ 159.2 bpm avg (Target: 160-172 bpm)
+- Power Consistency: 317-385W range across all intervals  
+- Recovery Excellence: 129-135 bpm active recovery laps
+- Cadence: 80.8 rpm avg (efficient climbing cadence)
+- Elevation: 74.3m total gain (proper hill training terrain)
+- Distance: 8.33km in 49:01 total time
+
+**Objective Analysis**: B+ Session - excellent power and recovery discipline, zone targeting needs improvement für consistent 160-172 bpm commitment!
+
 
 *To be updated at end of week with observed patterns*
