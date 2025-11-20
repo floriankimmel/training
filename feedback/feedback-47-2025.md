@@ -251,3 +251,101 @@ Diese Session war außergewöhnlich! Du hast nicht nur die Ziele erreicht sonder
 
 ---
 
+
+## 2025-11-20 - ⚡ Tempo-Dauerlauf 22 Min • Sustained Tempo Run 
+**Feel**: Inferred 6/10 (Session completed aber massive HR overshoot zeigt struggle/Überanstrengung)
+**Energy**: Inferred Moderate (sustained effort aber 15+ bpm über Zielbereich deutet auf zu hart)  
+**Legs**: Inferred Heavy (extrem hohe HR bei moderater Pace deutet auf mechanische Limitierung)
+**Effort**: Very Hard (Z4+ statt geplanter Z3 - deutlich zu intensiv!)
+**Notes**: Critical Tempo Session nach 2 Wochen Pause - 51:21 total time, 9.64km, 153.6 bpm avg HR, 3:07 min/km pace.
+
+## Sustained Tempo Run - 2025-11-20 Analyse
+
+**Geplant**: Sustained Tempo Run 52min total: 10min WU + 22min tempo @ Z3 (154-165 bpm) + 20min CD
+**Tatsächliche Ausführung**: 51:21 total: 10min WU @ 137 bpm + 22min TEMPO @ 170.7 bpm + 19.3min CD @ 142 bpm
+**Persönliches Empfinden**: [Inferred from massive HR overshoot] Feel 6/10, Moderate energy but heavy legs, Very hard effort
+
+### 🎯 **Herzfrequenz-Analyse**
+
+- Ziel TEMPO: 154-165 bpm (Z3) für 22 Minuten
+- Durchschnitt TEMPO: **170.7 bpm** (Z4!) ❌❌
+- **MASSIVE OVERSHOOT**: 170.7 bpm = 5-16 bpm ÜBER Zielbereich!
+- Max TEMPO: **184 bpm** (Z5!) = 19 bpm über Zielbereich-Maximum!
+- **Zone-Verfelung**: Du warst in Z4-Z5 statt geplanter Z3!
+
+**Detaillierte Lap-Analyse**:
+- **WU (10:00)**: 137.3 bpm ✅ (perfekt Z2, good preparation)
+- **TEMPO (22:00)**: **170.7 bpm** ❌ (sollte 154-165 bpm sein) = **5-16 bpm ZU HOCH!**
+- **CD (19:20)**: 142.4 bpm ✅ (good Z1-Z2 recovery)
+
+**Session HR Average**: 153.6 bpm (durch WU/CD diluted, aber TEMPO selbst war viel zu hoch!)
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- Tempo-Pace: ~3:07 min/km (calculated from 4.52km in 22min)
+- **Problem**: 3:07 min/km @ 170.7 bpm = du bist RENNEN gelaufen, nicht tempo!
+- **Z3 Tempo sollte sein**: ~3:30-4:00 min/km @ 154-165 bpm (sustainable für hours)
+- **Du warst bei**: ~3:07 min/km @ 170.7 bpm = 10K race pace, NICHT trail race pace!
+
+### 🏆 **Was war hervorragend**
+
+- **Session Completed**: Trotz massive overshoot hast du die vollen 22min durchgehalten!
+- **Structure gefolgt**: 10min WU + 22min Effort + 19min CD = perfekte Struktur
+- **Warm-up Perfect**: 137.3 bpm ist ideale Z2 Vorbereitung
+- **Cool-down Good**: 142.4 bpm zeigt proper recovery investment
+- **Mental Toughness**: 22min @ 170+ bpm ist extrem hard - du hast durchgehalten!
+- **Nach 2 Wochen Pause**: Impressive dass du 22min sustained effort geschafft hast
+
+### ⚠️ **Verbesserungsbereiche - CRITICAL!**
+
+- **MASSIVE Zone-Overshoot**: 170.7 bpm statt 154-165 bpm = **falsche Session-Intensität!**
+- **Pace zu schnell**: 3:07 min/km ist 10K race pace, NICHT sustainable tempo!
+- **Misunderstanding der Intensität**: Z3 tempo = "comfortably hard", du warst bei "very hard"!
+- **Trail Race Relevanz**: 34km race @ 170+ bpm = impossible! Race pace ist 154-165 bpm!
+- **Energy expenditure**: Diese Intensität ist mehr wie interval training als tempo training!
+
+**WARUM PROBLEMATISCH**:
+1. **Tempo-Training Purpose**: Z3 soll sustainable für 3-4h sein (trail race effort)
+2. **Du warst bei Z4-Z5**: Das ist 10K-Half Marathon race intensity, NICHT trail ultra!
+3. **Recovery impact**: 22min @ 170+ bpm braucht mehr recovery als 22min @ 160 bpm
+4. **Missed opportunity**: Nach 2 Wochen Pause brauchtest du Z3 stimulus, nicht Z4-Z5!
+
+### 📈 **Progression vs. Previous Sessions**
+
+- **Last Tempo**: 2+ Wochen her (massive gap!)
+- **Expected comeback**: Sollte bei 158-165 bpm nach Pause beginnen
+- **Tatsächlich**: 170.7 bpm = du hast "compensated" für 2 weeks pause mit zu viel Intensität!
+- **Pattern-Problem**: Wie Hill Intervals (Di 159-164 bpm) → jetzt Tempo (170.7 bpm) = inconsistent pacing!
+
+**Correlation mit anderen Sessions diese Woche**:
+- **Mo easy**: 138.4 bpm (perfect discipline!)
+- **Di intervals**: 159-164 bpm (mostly under target)  
+- **Mi easy**: 127.7 bpm (exceptional discipline!)
+- **Do tempo**: 170.7 bpm (massive overshoot!)
+- **Pattern**: Du kannst perfekte HR-Disziplin bei easy runs, aber struggle bei intensity targeting!
+
+### 🎯 **Bewertung: C+**
+
+Session structure und completion verdienen credit, aber zone-targeting war signifikant verfehlt. Du hast 22min sustained effort nach 2 Wochen Pause completed (impressive!), aber 170.7 bpm statt 154-165 bpm bedeutet du warst bei wrong intensity für tempo training. Das war mehr Z4 interval session als Z3 tempo session. Für 34km trail race brauchst du sustainable 3-4h @ 158-165 bpm, nicht 22min @ 170+ bpm. Die easy runs diese Woche (127-138 bpm) zeigen du KANNST perfekte HR-Disziplin - brauche nur das gleiche bei intensity sessions. Mental toughness war excellent (22min @ 170+ durchhalten!), aber für trail race prep ist consistency bei 160 bpm wichtiger als heroics bei 170+ bpm.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+- **Pace-Start viel langsamer**: Begin tempo @ 3:30-3:45 min/km, nicht 3:07 min/km!
+- **HR-Target strikt beachten**: 154-165 bpm ist MAX, nicht minimum! 
+- **Mental reframe**: Tempo = "comfortably hard für hours", nicht "very hard für minutes"
+- **Use easy run discipline**: Du kannst perfekte 127-138 bpm - apply same control bei 158-165 bpm!
+- **Trail race mindset**: 34km @ 160 bpm, nicht 10K @ 170+ bpm!
+- **Next tempo session**: START bei 158 bpm, build zu 165 bpm MAX, ignore pace initially!
+
+**Detailed Metrics**:
+- HR Range: 85-184 bpm (Tempo phase: avg 170.7 bpm, max 184 bpm)
+- Tempo Structure: 22:00 @ 170.7 bpm (Target: 154-165 bpm) - 5-16 bpm overshoot!
+- Pace: ~3:07 min/km (zu schnell für sustainable tempo)
+- Power: 267W avg (high power output, consistent with overshoot)
+- Cadence: 87.8 rpm (efficient turnover)
+- Elevation: 4.6m total gain (mostly flat terrain)
+- Distance: 9.64km in 51:21 total time
+
+**Objective Analysis**: C+ Session - excellent completion und mental toughness, aber wrong intensity zone für tempo training. 170+ bpm ist Z4-Z5 race pace, nicht Z3 sustainable tempo!
+
+---
