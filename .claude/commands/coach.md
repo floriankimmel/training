@@ -162,6 +162,7 @@ Create a weekly training plan for next week using all the context provided above
 8. **Evaluate Plan Effectiveness**: Determine if the previous week's design was appropriate based on actual performance data from Runalyze, recovery metrics trends, and target zone adherence
 9. **Plan Next Week**: Build logically on previous weeks with appropriate progression, adjusted based on detailed Runalyze activity analysis and recovery status
 10. **Save Plan**: Write the new weekly plan to `trainings/week-XX-YYYY.md`
+11. **Complete Reminder**: Run `shortcuts run "Mark item as done" -i "Training planen"` to mark the training planning reminder as complete
 
 **Weekly Plan Structure:**
 
