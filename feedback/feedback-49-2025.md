@@ -39,6 +39,60 @@
 
 ---
 
+## 2025-12-04 - Wolkersdorf • Endurance Run 45 min (Donnerstag)
+**Feel**: 7/10 (inferred from good HR execution but slightly elevated for easy effort, extended duration)
+**Energy**: Good (completed 45min vs planned 35-40min, pace consistent throughout)
+**Legs**: Good (cadence 85 rpm adequate, ground contact elevated at 275ms suggests slight fatigue/cold)
+**Effort**: Moderate-Easy (avg HR 139 bpm = Z1 upper range, well controlled)
+**Notes**: Zweite Session der Restart-Woche. Perfekte HR-Disziplin (139 bpm = exakt im Ziel 130-140 bpm). Conservative pace (6:29 min/km) nach 10-Tage Pause = smart. Completion trotz 4°C, Wind, Feuchtigkeit. Duration 5-10min länger als Plan, aber kontrolliert executed.
+
+**Detailed Metrics**:
+- HR Range: 139 bpm avg, Max 156 bpm (kurzer Peak, sofort korrigiert)
+- Pace Stability: 6:29 min/km konstant (sehr consistent über 45min)
+- Elevation: +17m/-22m (minimal, quasi flach)
+- Cadence: 85 rpm (leicht niedriger als typisch 87-89, zeigt leichte Ermüdung/Kälte)
+- Power: 221W avg (stabil über gesamte Session)
+- Ground Contact: 275ms (erhöht = Müdigkeit oder kalte Muskeln)
+- Vertical Ratio: 96 (ineffizient, noch nicht optimal)
+- Calories: ~550 kcal über 45min
+- Weather: 4°C, 88% humidity, 17 km/h wind
+- Max HR Drop: 15 bpm (excellent recovery, keine Ermüdung)
+
+---
+
 ## Weekly Summary & Patterns
 
-*To be updated at end of week with observed patterns*
+**Week 49 Restart - Completed Successfully ✅**
+
+**Sessions Completed**: 2/2 planned runs
+- Mo 2.12: 50min @ 132 bpm (hilly, 75m elevation, PERFEKT)
+- Do 4.12: 45min @ 139 bpm (flat, conservative pace, SOLID)
+
+**Total Volume**: 95min running (vs 65-75min geplant = exceeded, aber kontrolliert)
+
+**HR Discipline**: EXZELLENT - beide Sessions in Z1 (130-140 bpm range)
+- Mo: 132 bpm avg (mit hills!)
+- Do: 139 bpm avg (flat)
+- **Keine Z3+ violations** = Perfekter Restart!
+
+**Progression Observed**:
+- Nach 10-Tage Pause: Minimaler Fitness-Verlust
+- Mo @ 132 bpm mit 75m elevation = Fast W47-Level!
+- Do @ 139 bpm @ 6:29 pace = Conservative aber solid
+- **HR-Disziplin intakt** = Superkraft maintained!
+
+**Patterns**:
+- ✅ HR control: Beide sessions perfekt executed
+- ✅ Conservative approach: Slow paces = smart restart
+- ⚠️ Duration exceeded: Beide 5-15min länger als Plan (aber kein Overload)
+- ⚠️ Lauftechnik: Ground contact erhöht, Cadence reduziert = noch nicht 100%
+
+**Green Lights für W50** (3-run rebuild):
+- ✅ 2 runs completed
+- ✅ HR-Disziplin maintained (beide Z1)
+- ✅ Feel good (inferred from metrics)
+- ✅ Routine back (Mo + Do completed)
+
+**Empfehlung**: W50 → 3 easy runs (Mo/Mi/Fr @ 35-45min each), maintain Z1-Z2, no intensity yet!
+
+*To be continued with W50 sessions...*
