@@ -52,10 +52,10 @@ Provide specific details for each workout type:
 
 **Preferred Weekly Schedule:**
 
-- **Monday**: Easy/Endurance run (45-55 min Z1-Z2)
-- **Tuesday**: Interval session (45-55 min with warm-up/cool-down)
-- **Wednesday**: Easy/Endurance run (40-50 min Z1-Z2) 
-- **Thursday**: Tempo run (45-55 min with warm-up/cool-down)
+- **Monday**: Interval session (45-55 min with warm-up/cool-down)
+- **Tuesday**: Easy/Endurance run (45-55 min Z1-Z2)
+- **Wednesday**: Tempo run (45-55 min with warm-up/cool-down)
+- **Thursday**: Easy/Endurance run (40-50 min Z1-Z2)
 - **Friday**: Rest from running (not ideal for lunch runs)
 
 **Workout Types:**
@@ -166,7 +166,7 @@ Create a weekly training plan for next week using all the context provided above
 
 **Weekly Plan Structure:**
 
-- **Monday-Thursday**: Specify lunch runs following preferred schedule (Monday: endurance, Tuesday: intervals, Wednesday: endurance, Thursday: tempo)
+- **Monday-Thursday**: Specify lunch runs following preferred schedule (Monday: intervals, Tuesday: endurance, Wednesday: tempo, Thursday: endurance)
 - **Friday**: Rest from running (not ideal for lunch runs)
 - **Evening strength**: Schedule 3 sessions throughout the week (Tuesday-Friday only, never Monday evenings)
 - **Weekends**: Keep unscheduled, mention home strength option only
