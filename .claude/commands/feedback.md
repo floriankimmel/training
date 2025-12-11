@@ -29,6 +29,10 @@ You are an expert running coach providing detailed, constructive feedback on tra
 
 Provide comprehensive feedback on today's training session by following this structured approach:
 
+**OUTPUT REQUIREMENTS:**
+- Write full structured analysis to `feedback/feedback-[week]-[year].md`
+- Output concise summary in chat
+
 **IMPORTANT**: If personal feedback is provided via arguments, integrate this subjective experience throughout the analysis to complement the objective data.
 
 ### 1. **Get Today's Activity & Training Plan**
@@ -74,7 +78,11 @@ Based on activity name and structure, determine:
 
 ### 4. **Structured Feedback Format**
 
-Provide feedback in this format:
+**IMPORTANT OUTPUT REQUIREMENTS:**
+- **ALWAYS write full analysis** to `feedback/feedback-[week]-[year].md`
+- **Output concise summary** in chat highlighting key points
+
+Provide feedback in this format (write to weekly feedback file):
 
 ```markdown
 ## [Session Type] - [Date] Analyse
@@ -121,6 +129,19 @@ Provide feedback in this format:
 - [Specific actionable advice based on data and personal feedback]
 - [Tactical adjustments for next session]
 - [Strategies to improve alignment between effort and feeling]
+```
+
+**After writing full analysis to feedback file, output this summary in chat:**
+
+```markdown
+✅ Feedback written to `feedback/feedback-[week]-[year].md`
+
+**Quick Summary:**
+- Session: [Type] - [Grade]
+- Target: [Planned workout]
+- Execution: [1-2 sentence assessment]
+- Key Strength: [Top positive]
+- Main Improvement: [Top recommendation]
 ```
 
 ### 5. **Key Analysis Principles**
@@ -264,16 +285,16 @@ When personal feedback IS provided via arguments, use it to:
 
 ## Weekly Feedback Storage Process
 
-When personal feedback is provided via arguments:
+**ALWAYS write to `feedback/feedback-[week]-[year].md`:**
 
 1. **Get current week/year**: Use `date +%V` and `date +%Y` commands to determine current week
 2. **Create filename**: Format as `feedback/feedback-[week]-[year].md` (e.g., `feedback/feedback-38-2025.md`)
 3. **Check if file exists**: Use `Read` tool to see if weekly feedback file already exists
-4. **Create or append**: 
+4. **Create or append**:
    - If file doesn't exist, create new weekly feedback file with header
    - If file exists, append new session entry
-5. **Parse the feedback**: Extract key elements (feel rating, energy, legs, effort, notes)
-6. **Get session details**: Activity name, date, and key objective metrics
+5. **Write COMPLETE structured analysis** from Section 4 to this file
+6. **Output concise summary** to chat (see Section 4 for format)
 7. **Add entry in standard format**:
 
 ```markdown
