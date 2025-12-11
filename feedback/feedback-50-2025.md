@@ -355,23 +355,36 @@
 
 ## Post-Week Analysis
 
-**Week 50 Completion Status**: 3/3 key sessions completed! ✅✅✅
+**Week 50 Mid-Week Status**: 3/4 key sessions completed! ✅✅✅
 
-**Volume Achieved**:
+**Volume Achieved So Far**:
 - Di 10.12: Hill Intervals 44:30
 - Mi 11.12: Recovery Run 40:03
-- **Total so far**: ~85min (target 170-185min → need Sa long run 75-90min for completion)
+- **Total so far**: ~85min (target 170-185min → Sa long run 75-90min still needed)
 
-**Key Achievements**:
+**Mid-Week Key Achievements**:
 1. ✅ **Intensity Restart Successful**: 4x3min hills @ 354W avg (WEIT über target!)
-2. ✅ **Recovery Capacity Demonstrated**: Perfect 135 bpm recovery run 24h post-intensity
+2. ✅✅ **Recovery Capacity PERFEKT**: 135 bpm recovery run 24h post-intensity
 3. ✅ **Efficiency Improvement**: +37 sec/km faster @ -4 bpm lower vs W49!
 4. 🟢 **GREEN LIGHT für W51**: All indicators positive für full progression
 
-**Critical Next Session**:
+**Mid-Week Training Insights**:
+- **Power Retention**: 354W hills = fitness fully retained nach 3-week break!
+- **Aerobic Efficiency**: Massive improvement shown in recovery run metrics
+- **HR Discipline**: Perfekt maintained across both intensity + recovery sessions
+- **Recovery Capacity**: 24h turnaround successful (hills → recovery run)
+
+**Critical Remaining Session**:
 - **Sa 14.12: Long Run 75-90min** = Week completion test
 - Success = W51 ready für 5x3min hills + 18min tempo!
+- This is THE defining session for Week 50 success
+
+**Progression Trajectory**:
+- W49: 95min total (conservative restart)
+- W50 so far: 85min in 2 sessions (aggressive rebuild in progress!)
+- W50 target: 170-185min total → Sa long run critical für completion
+- If Sa successful: W51 = FULL W47 level (5x3min + 18min tempo + 90min long)
 
 ---
 
-*Week 50 feedback in progress - next session: Sa 14.12 Long Run 75-90min*
+*Week 50 feedback in progress - next critical session: Sa 14.12 Long Run 75-90min @ Z1-Z2*
