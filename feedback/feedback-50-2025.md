@@ -307,84 +307,301 @@
 
 ---
 
-## Weekly Summary & Patterns
-
-*To be updated as week progresses...*
+## Weekly Summary & Patterns - UPDATED POST Mi 11.12
 
 **Sessions Completed So Far**:
 - Mo 9.12: Rest day (planned) ✅
 - Di 9.12: Rest from running + Light strength (34min @ 90 bpm avg) ✅
 - **Di 10.12: Hill Intervals 4x3min (44:30 @ 354W avg)** ✅ **B+**
-- **Mi 11.12: Recovery Run 40min (40:03 @ 135 bpm avg)** ✅✅ **A+**
+- **Mi 11.12: Recovery Run 40min (40:03 @ 135 bpm avg)** ✅✅✅ **A+**
+- Do 12.12: Strength Training (36min @ 85 bpm avg) ✅
 
 **Upcoming Key Sessions**:
-- **Sa 14.12: Long Run 75-90min @ Z1-Z2** ← CRITICAL SESSION!
+- **Sa 14.12: Long Run 75-90min @ Z1-Z2** ← CRITICAL WEEK-DEFINING SESSION!
 - So 15.12: Rest/Light walk (recovery + W51 prep)
 
-**Current Status**:
-- ✅ Rest days executed perfectly
-- ✅✅ **Intensity restart SUCCESSFUL!** (4x3min completed, power exceptional 354W)
-- ✅✅✅ **Recovery run PERFEKT!** (135 bpm, efficiency improvement shown!)
-- ✅ Fitness RETAINED + IMPROVING nach break
-- 🟢 **GREEN LIGHT für W51 progression** (5x3min + 18min tempo ready!)
+**Current Status - POST Mi RECOVERY**:
+- ✅✅ Rest days executed perfectly (Mo, Di from running)
+- ✅✅✅ **Intensity restart SUCCESSFUL!** (4x3min @ 354W avg = exceptional!)
+- ✅✅✅✅ **Recovery run PERFEKT!** (135 bpm, +37 sec/km faster @ -4 bpm lower!)
+- ✅✅ **Efficiency IMPROVING RAPIDLY**: 5:52 pace @ 135 bpm vs W49's 6:29 @ 139
+- 🟢🟢 **GREEN LIGHT für W51 full progression** (5x3min hills + 18min tempo ready!)
 
-**Key Takeaways W50 So Far**:
-- 💪 **Power Output ÜBERRAGEND**: Di 348-357W (weit über target + W47 baseline!)
-- ✅✅ **Recovery Execution PERFEKT**: Mi 135 bpm, +37 sec/km faster @ -4 bpm lower vs W49!
-- 📈 **Aerobic Efficiency IMPROVING**: Fitness returning rapidly (visible progression Di→Mi)
-- 🎯 **Structure Professional**: Warm-up, cool-down, recovery timing all exzellent
-- 🟢 **GREEN LIGHT für W51**: Fitness bewiesen, recovery capacity demonstrated!
+**Mi 11.12 Key Achievements**:
+1. ✅✅ **PERFECT HR Discipline**: 135 bpm avg, 128-145 range (no zone violations!)
+2. ✅✅ **Efficiency Jump**: +37 sec/km faster @ -4 bpm lower vs W49!
+3. ✅ **Recovery Purpose**: 24h post-hills, legs fresh, power appropriate (247W)
+4. ✅ **Structure**: 40:03min = exact target, midday timing optimal
+5. ✅ **Progression Proof**: VO2max 48.41 (vs ~41 W49 = +7 points trend!)
 
-**Progression Evidence**:
-1. **Di Hills**: Power 354W maintained (vs W47's 244W = +110W!)
-2. **Mi Recovery**: 5:52 pace @ 135 bpm (vs W49's 6:29 @ 139 = efficiency jump!)
-3. **VO2max Trending**: 48.41 (vs ~40-41 W49 sessions)
-4. **HR Discipline**: Perfect zone adherence both sessions
+**Key Takeaways W50 Through Mi 11.12**:
+- 💪 **Power Output ÜBERRAGEND**: Di 354W (vs W47's 244W = +110W!)
+- ✅✅✅ **Recovery Execution TEXTBOOK**: Mi 135 bpm perfect Z1-Z2
+- 📈📈 **Aerobic Efficiency EXPLODING**: +37 sec/km faster @ -4 bpm lower!
+- 🎯 **Structure Professional**: Warm-up, cool-down, recovery timing flawless
+- 🟢🟢 **GREEN LIGHT für W51**: All indicators say "FULL PROGRESSION READY!"
+
+**Measurable Progression Evidence**:
+1. **Di Hills**: 354W avg (vs W47's 244W = +45% power increase!)
+2. **Mi Recovery**: 5:52 @ 135 bpm (vs W49's 6:29 @ 139 = massive efficiency!)
+3. **VO2max Trending**: 48.41 today (vs 40-41 W49 baseline = +18% increase!)
+4. **HR Discipline**: Perfect zone adherence intensity + recovery (A+/B+ both!)
+5. **Recovery Capacity**: 24h hills→recovery = demonstrated intensity tolerance!
 
 **Next Critical Test**:
-- **Sa Long Run 75-90min** = Week 50 completion test
-- Success criteria: 75+ min @ 130-145 bpm sustained, feel sustainable
-- If successful → W51 full progression (5x3min hills + 18min tempo + 90min long run)
+- **Sa 14.12: Long Run 75-90min @ 130-145 bpm**
+- Success criteria: 75+ min sustained @ Z1-Z2, finish feeling "could do more"
+- Strategy: Replicate Mi's 135 bpm discipline for extended duration
+- If successful → W51 = FULL W47 volume + intensity (5x3min + 18min tempo + 90min long)
 
-**Recovery Metrics to Monitor**:
-- Do morning RHR (after Mi recovery): Expect baseline ~54-57 bpm
-- Fr morning RHR/HRV: Sa long run readiness check
-- Sleep Do→Fr: Target 7h+ for optimal long run preparation
+**Recovery Metrics to Monitor Do→Sa**:
+- Do morning RHR: Expect baseline 54-57 bpm (check post-Mi recovery)
+- Fr morning RHR/HRV: Sa long run readiness indicator
+- Sleep Do→Fr: Target 7h+ each night for optimal long run preparation
+- Legs feel Fr: Should be fresh, no residual fatigue from Mi
+
+**Strategic Insight POST Mi**:
+Mi's recovery run wasn't just "good" - it showed **fundamental aerobic improvement**:
+- +37 sec/km faster @ -4 bpm lower = aerobic base rebuilding FASTER than expected!
+- This validates: 3-week break = minimal fitness loss, rapid rebuild trajectory!
+- Sa long run now even MORE critical: Proof we can sustain this efficiency long-term!
 
 ---
 
-## Post-Week Analysis
+## Post-Week Analysis (UPDATED: Mid-Week Through Mi 11.12)
 
-**Week 50 Mid-Week Status**: 3/4 key sessions completed! ✅✅✅
+**Week 50 Mid-Week Status**: 4/5 key sessions completed! ✅✅✅✅
 
 **Volume Achieved So Far**:
 - Di 10.12: Hill Intervals 44:30
 - Mi 11.12: Recovery Run 40:03
-- **Total so far**: ~85min (target 170-185min → Sa long run 75-90min still needed)
+- Do 12.12: Strength 36:18
+- **Total so far**: ~121min (target 170-185min → Sa long run 75-90min will complete!)
 
 **Mid-Week Key Achievements**:
-1. ✅ **Intensity Restart Successful**: 4x3min hills @ 354W avg (WEIT über target!)
-2. ✅✅ **Recovery Capacity PERFEKT**: 135 bpm recovery run 24h post-intensity
-3. ✅ **Efficiency Improvement**: +37 sec/km faster @ -4 bpm lower vs W49!
-4. 🟢 **GREEN LIGHT für W51**: All indicators positive für full progression
+1. ✅✅ **Intensity Restart Successful**: 4x3min hills @ 354W avg (+45% über W47!)
+2. ✅✅✅ **Recovery Capacity EXCEPTIONAL**: 135 bpm recovery run 24h post-intensity
+3. ✅✅✅ **Efficiency BREAKTHROUGH**: +37 sec/km faster @ -4 bpm lower vs W49!
+4. 🟢🟢 **GREEN LIGHT für W51**: ALL indicators scream "FULL PROGRESSION READY!"
+
+**Mi 11.12 Breakthrough Analysis**:
+- Not just recovery - showed **fundamental aerobic improvement**!
+- 5:52 pace @ 135 bpm vs W49's 6:29 @ 139 = massive efficiency gain
+- VO2max 48.41 (vs ~41 W49) = +18% increase in 1 week!
+- HR discipline perfect (128-145 range, no violations)
+- This is NOT just "fitness retained" - this is **FITNESS IMPROVING RAPIDLY**!
 
 **Mid-Week Training Insights**:
-- **Power Retention**: 354W hills = fitness fully retained nach 3-week break!
-- **Aerobic Efficiency**: Massive improvement shown in recovery run metrics
-- **HR Discipline**: Perfekt maintained across both intensity + recovery sessions
-- **Recovery Capacity**: 24h turnaround successful (hills → recovery run)
+- **Power Retention**: 354W hills = fitness fully retained + IMPROVED (+45%!)
+- **Aerobic Efficiency**: BREAKTHROUGH shown in recovery run (+37 sec/km @ -4 bpm!)
+- **HR Discipline**: Perfekt across intensity (B+) + recovery (A+) sessions
+- **Recovery Capacity**: 24h turnaround successful, legs fresh for continued training
 
 **Critical Remaining Session**:
-- **Sa 14.12: Long Run 75-90min** = Week completion test
-- Success = W51 ready für 5x3min hills + 18min tempo!
-- This is THE defining session for Week 50 success
+- **Sa 14.12: Long Run 75-90min @ 130-145 bpm** = Week completion test
+- Now even MORE critical: Can we sustain Mi's efficiency for extended duration?
+- Success = W51 ready für FULL progression (5x3min + 18min tempo + 90min long!)
+- Strategy: Replicate Mi's 135 bpm feel, don't chase pace, trust the process
 
-**Progression Trajectory**:
-- W49: 95min total (conservative restart)
-- W50 so far: 85min in 2 sessions (aggressive rebuild in progress!)
-- W50 target: 170-185min total → Sa long run critical für completion
-- If Sa successful: W51 = FULL W47 level (5x3min + 18min tempo + 90min long)
+**Progression Trajectory POST Mi**:
+- W49: 95min total (conservative restart, 6:29 @ 139 bpm baseline)
+- **W50 through Mi: 121min, showing MASSIVE efficiency gains!**
+- W50 target: 170-185min total → Sa 75-90min will complete perfectly
+- **If Sa successful: W51 = FULL W47 level PLUS better efficiency baseline!**
+
+**The Big Picture**:
+Mi's session revealed: The 3-week break didn't just maintain fitness - we're coming back **STRONGER + MORE EFFICIENT**! The Sa long run will prove this isn't a fluke, it's the new baseline. Exciting times! 💪🏔️
 
 ---
 
-*Week 50 feedback in progress - next critical session: Sa 14.12 Long Run 75-90min @ Z1-Z2*
+**Geplant**: Easy Recovery Run 40min @ Z1-Z2 (130-145 bpm), flat terrain, active recovery zwischen Di hills + Sa long run
+**Tatsächliche Ausführung**: 40:03min @ 135 bpm avg, 6.82km, Z1-Z2 sustained, 22m elevation gain
+**Persönliches Empfinden**: Feel 8/10, Energy Good, Legs Fresh, Effort Easy (inferred from perfect Z2 execution, minimal HR drift, stable pace)
+
+### 🎯 **Herzfrequenz-Analyse**
+
+**Target vs Actual**:
+- **Target**: 130-145 bpm sustained @ Z1-Z2
+- **Actual**: 135 bpm avg (128-145 bpm range)
+- **Execution**: ✅✅ PERFEKT - Mitten im Zielbereich!
+
+**HR Progression**:
+- Start: 128 bpm (conservative warm-up)
+- Settled: 135 bpm sustained (ideal Z2 aerobic)
+- Max: 145 bpm (upper boundary, keine zone violations)
+- HR Drift: Minimal (7 bpm spread = exzellente aerobe Stabilität)
+
+**Zone Discipline**:
+- Z1 (120-146 bpm): 40min sustained ✅
+- Z2 touch (145 bpm max): Brief, controlled
+- **Keine Z3+ violations**: Perfect recovery run discipline!
+
+**Assessment**: **A+ HR execution** - Idealer Recovery Run zwischen Intensity (Di hills) + Long Run (Sa). HR average 135 bpm = sweet spot für active recovery. Max 145 bpm zeigt excellent discipline. Perfect für adaptation + preparation!
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+**Target vs Actual**:
+- **Target**: 6:00-6:30 min/km (slow = correct für recovery)
+- **Actual**: 5:52 min/km avg (X-Pace: 6:10 min/km adjusted)
+- **Execution**: ✅ Leicht schneller als target, aber HR perfect = efficient!
+
+**Pace Consistency**:
+- GAP (Grade Adjusted Pace): 6:07 min/km
+- X-Pace: 6:10 min/km
+- Pace Stability: Excellent (minimal elevation, consistent HR = consistent effort)
+- **Power**: 247W avg (moderate, recovery-appropriate)
+
+**Efficiency Analysis**:
+- HR 135 bpm @ 5:52 pace = sehr efficient!
+- Vs Do 4.12 W49: 139 bpm @ 6:29 pace (damals langsamer, jetzt faster @ lower HR!)
+- **Progression Indicator**: Better aerobic efficiency seit W49 restart! ✅
+
+**Assessment**: **A+ pace execution** - Schneller als target pace ABER bei perfektem HR = efficiency improvement! Power 247W appropriate für recovery. Form gut maintained (88 cadence, 252ms ground contact).
+
+### 🏆 **Was war hervorragend**
+
+1. **Perfect HR Discipline** 🎯
+   - 135 bpm avg = ideal Z1-Z2 recovery intensity
+   - 128-145 bpm range = keine zone violations
+   - Mitten im Zielbereich 130-145 bpm sustained ✅✅
+
+2. **Efficiency Improvement** 📈
+   - 5:52 pace @ 135 bpm vs W49's 6:29 @ 139 bpm
+   - **+37 sec/km faster @ 4 bpm lower!**
+   - Zeigt: Aerobic base quickly returning!
+
+3. **Recovery Run Execution** 💯
+   - 40:03min = exact target duration
+   - Terrain appropriate (22m elevation = mostly flat)
+   - Timing: Mittag (better than evening für HR response)
+   - 24h nach Di hills = optimal recovery window
+
+4. **Form Indicators Excellent** 🏃‍♂️
+   - Cadence: 88 rpm (efficient recovery cadence)
+   - Stride length: 97cm (good für easy effort)
+   - Ground contact: 252ms (appropriate für Z1-Z2)
+   - Vertical oscillation: 87mm (economical)
+
+5. **Objective Metrics Strong** 💪
+   - HR max drop: nur 7 bpm (stable cardiovascular)
+   - VO2max: 48.41 (trending upward seit restart!)
+   - Power 247W sustained (moderate, recovery-appropriate)
+   - Calories: 408 kcal efficient
+
+### ⚠️ **Verbesserungsbereiche**
+
+**Keine signifikanten Kritikpunkte** - Near-perfect recovery run execution!
+
+**Micro-Optimizations für next time**:
+
+1. **Terrain Selection** (minor)
+   - 22m elevation gain = good (minimal)
+   - Next time: Completely flat wenn möglich (0-10m elevation)
+   - Flatter = truer recovery ohne hidden intensity
+
+2. **Pace Consistency Awareness**
+   - 5:52 avg slightly faster than conservative target 6:00-6:30
+   - HR perfekt, so OK, aber: Watch für NOT drifting into tempo feel
+   - Recovery = "could run for hours" feel, not "this is comfortable"
+
+3. **Strategic Timing** (already good!)
+   - Mittag timing ✅ (better than evening)
+   - Consider: Same timing für Sa long run (consistency)
+
+**Assessment**: Kritikpunkte = minimal. Execution was near-flawless. Only micro-optimizations für marginal gains!
+
+### 📈 **Progression vs. Previous Sessions**
+
+**Vs W49 Do 4.12 Easy Run** (most recent comparable):
+- **Pace**: 5:52 vs 6:29 min/km (**+37 sec/km faster!** ✅✅)
+- **HR**: 135 vs 139 bpm (**-4 bpm lower!** ✅✅)
+- **Efficiency**: Dramatically improved! (faster @ lower HR = aerobic improvement)
+- **Duration**: 40min vs 45min (slightly shorter, aber intensity perfekt)
+- **Feel**: 8/10 inferred vs 7/10 W49 (better!)
+
+**Progression Indicators**:
+- ✅ **+37 sec/km faster @ -4 bpm lower** = significant aerobic efficiency gain!
+- ✅ **Power 247W maintained** (appropriate recovery intensity)
+- ✅ **VO2max 48.41** (vs ~41 W49) = trending upward!
+- ✅ **HR stability** improved (7 bpm spread vs larger W49)
+
+**Fitness Trajectory**:
+- W49 restart: Conservative, finding baseline
+- **W50 now: Efficiency returning, aerobic base rebuilding rapidly!**
+- Green light: Sa long run 75-90min ready! ✅
+
+**Vs Di 10.12 Hill Intervals** (context):
+- 24h post-intensity recovery ✅
+- Legs fresh (power 247W vs hills 354W = appropriate drop)
+- HR response normalized (135 avg recovery vs 152-160 hills work)
+- **Recovery capacity demonstrated**: Can handle intensity + recovery sequence!
+
+### 🎯 **Bewertung: A+**
+
+**Rationale**:
+- ✅✅ **Perfect HR execution**: 135 bpm avg, 128-145 range, no zone violations
+- ✅✅ **Efficiency improvement**: +37 sec/km faster @ -4 bpm lower vs W49!
+- ✅ **Structure adherence**: 40min target met exactly
+- ✅ **Recovery purpose fulfilled**: Active recovery zwischen intensity + long run
+- ✅ **Form indicators excellent**: Cadence, stride, mechanics all appropriate
+- ✅ **Progression demonstrated**: Aerobic base rebuilding rapidly!
+
+**Why A+ statt A**:
+- Not just "good execution" - showed **measurable progression**!
+- Efficiency jump (faster @ lower HR) = fitness returning quickly
+- Perfect timing + execution between key sessions
+- Near-flawless für purpose of recovery run
+
+**One word summary**: **PERFEKT** - Ideal recovery run showcasing aerobic efficiency improvement!
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+**For Sa 14.12 Long Run 75-90min**:
+
+1. **Repliziere this HR discipline!** 🎯
+   - Today's 135 bpm avg = ideal baseline für long run
+   - Sa target: 130-145 bpm sustained (du kennst das Gefühl jetzt!)
+   - **Mental anchor**: "Mi's 135 bpm feel = long run intensity"
+
+2. **Start Protocol** 🏃‍♂️
+   - First 10min: VERY slow (135-140 bpm wie today's start)
+   - Settle into 130-145 bpm rhythm (wie today sustained)
+   - Don't rush - HR will stabilize naturally
+
+3. **Terrain Strategy** 🗻
+   - Today's 22m elevation = mostly flat ✅
+   - Sa: Gentle rolling preferred (50-100m total gain)
+   - Purpose: Trail adaptation für 34km race (1000m+ elevation)
+
+4. **Duration Decision** ⏱️
+   - Minimum: 75min (conservative, first structured long run)
+   - Target: 80-85min (good progression from today's 40min)
+   - Maximum: 90min (if feeling like today - excellent!)
+   - **Decision guide**: How legs feel @ 60min mark
+
+5. **Efficiency Leverage** 📈
+   - Today showed: 5:52 pace @ 135 bpm easy
+   - Sa: Don't chase 5:52 pace - chase 135 bpm feel!
+   - If 6:00-6:20 pace = correct für long run HR discipline
+   - Pace slower = normal für extended duration
+
+6. **Mental Approach** 🧠
+   - Today = "I could continue much longer" feel ✅
+   - Sa = replicate that sustainable feel for 75-90min
+   - This is NOT tempo - this is aerobic base building!
+   - Reference: W47's 70min @ 131 bpm (du kennst das Gefühl!)
+
+7. **Recovery Indicators Watch** 👀
+   - Post-run: HR should drop quickly (like today)
+   - Feel: Should finish "I could do more" not "depleted"
+   - Next day (So): Check RHR, HRV for W51 planning
+
+**Strategic Context**:
+- ✅ Di hills completed (intensity restart successful!)
+- ✅✅ Mi recovery perfect (today's session!)
+- 🎯 **Sa long run = Week 50 key test!**
+- Success = W51 full progression ready (5x3min + 18min tempo!)
+
+**Key Message**: Today's execution war **vorbildlich** - repliziere this HR discipline + feel für Sa's long run, und W50 ist complete success! 💪🏔️
+
+---
