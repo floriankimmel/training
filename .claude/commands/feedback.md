@@ -35,14 +35,23 @@ Provide comprehensive feedback on today's training session by following this str
 
 **IMPORTANT**: If personal feedback is provided via arguments, integrate this subjective experience throughout the analysis to complement the objective data.
 
-### 1. **Get Today's Activity & Training Plan**
+### 1. **Determine Current Date & Get Today's Activity**
 
+**ALWAYS start by using bash commands to get current date information:**
+- Current week number: `date +%V`
+- Current year: `date +%Y`
+- Current weekday: `date +%A`
+- Current day: `date +%d`
+- Current month: `date +%m` (numeric) or `date +%B` (name)
+- Full date: `date +%Y-%m-%d`
+
+**Then get activity data:**
 - Use `get-runalyze-activities` to find today's session
 - Get detailed activity analysis with `get-runalyze-activity-detail` for the most recent activity
 - **Analyze detailed metrics**: Use activity detail data to analyze HR progression, pace consistency, and power data
-- **Check training plan**: Look in `trainings/` directory for current week's training plan
-- Find today's planned workout to compare against actual execution
-- **Store personal feedback**: If provided via arguments, save to weekly feedback file `feedback/feedback-[week]-[year].md` for future coach reference
+- **Check training plan**: Look in `trainings/` directory for current week's training plan (using week number from bash command)
+- Find today's planned workout to compare against actual execution (using weekday from bash command)
+- **Store personal feedback**: If provided via arguments, save to weekly feedback file `feedback/feedback-[week]-[year].md` using week/year from bash commands
 - **ALWAYS fill missing details**: If no personal feedback provided, infer Feel/Energy/Legs/Effort from objective metrics
 
 ### 2. **Identify Session Type**
@@ -82,10 +91,10 @@ Based on activity name and structure, determine:
 - **ALWAYS write full analysis** to `feedback/feedback-[week]-[year].md`
 - **Output concise summary** in chat highlighting key points
 
-Provide feedback in this format (write to weekly feedback file):
+Provide feedback in this format (write to weekly feedback file). **IMPORTANT**: Use bash `date +%Y-%m-%d` for the date:
 
 ```markdown
-## [Session Type] - [Date] Analyse
+## YYYY-MM-DD - [Session Type] - [Weekday] Analyse
 
 **Geplant**: [From trainings/ directory - specific workout details for today]
 **Tatsächliche Ausführung**: [Activity detail breakdown from Runalyze]
@@ -224,13 +233,14 @@ Provide feedback in this format (write to weekly feedback file):
 - Upcoming sessions and recovery needs
 
 **Training Plan Analysis Steps:**
-1. Use `Glob` tool to find training files: `trainings/*.md`
-2. Use `Read` tool to examine the current week's training plan
-3. Locate today's planned workout (day of week)
-4. Compare planned vs. actual execution in detail
-5. Reference previous week's performance analysis if included in training plan
-6. **Integrate personal feedback**: Use arguments to understand subjective experience
-7. **Store feedback**: If personal feedback provided, append it to weekly feedback file `feedback/feedback-[week]-[year].md` with today's date and session details
+1. **Get current date info**: Use bash commands (`date +%V`, `date +%Y`, `date +%A`) to determine week number, year, and weekday
+2. Use `Glob` tool to find training files: `trainings/*.md`
+3. Use `Read` tool to examine the current week's training plan (using week number from step 1)
+4. Locate today's planned workout using the weekday from step 1
+5. Compare planned vs. actual execution in detail
+6. Reference previous week's performance analysis if included in training plan
+7. **Integrate personal feedback**: Use arguments to understand subjective experience
+8. **Store feedback**: Append to weekly feedback file `feedback/feedback-[week]-[year].md` using week/year from step 1 and full date from bash command
 
 ## Inference Guidelines for Missing Personal Feedback
 
@@ -287,15 +297,19 @@ When personal feedback IS provided via arguments, use it to:
 
 **ALWAYS write to `feedback/feedback-[week]-[year].md`:**
 
-1. **Get current week/year**: Use `date +%V` and `date +%Y` commands to determine current week
-2. **Create filename**: Format as `feedback/feedback-[week]-[year].md` (e.g., `feedback/feedback-38-2025.md`)
+1. **Get current date info**: ALWAYS use bash commands first:
+   - Week number: `date +%V`
+   - Year: `date +%Y`
+   - Full date: `date +%Y-%m-%d`
+   - Weekday: `date +%A`
+2. **Create filename**: Format as `feedback/feedback-[week]-[year].md` using values from step 1 (e.g., `feedback/feedback-38-2025.md`)
 3. **Check if file exists**: Use `Read` tool to see if weekly feedback file already exists
 4. **Create or append**:
    - If file doesn't exist, create new weekly feedback file with header
    - If file exists, append new session entry
 5. **Write COMPLETE structured analysis** from Section 4 to this file
 6. **Output concise summary** to chat (see Section 4 for format)
-7. **Add entry in standard format**:
+7. **Add entry in standard format using date from step 1**:
 
 ```markdown
 ## YYYY-MM-DD - [Activity Name from Runalyze]

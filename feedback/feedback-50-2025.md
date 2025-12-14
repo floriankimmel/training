@@ -317,8 +317,8 @@
 - Do 12.12: Strength Training (36min @ 85 bpm avg) ✅
 
 **Upcoming Key Sessions**:
-- **Sa 14.12: Long Run 75-90min @ Z1-Z2** ← CRITICAL WEEK-DEFINING SESSION!
-- So 15.12: Rest/Light walk (recovery + W51 prep)
+- So 14.12: Rest (post-long run recovery)
+- Mo 15.12: Rest/Light walk (recovery + W51 prep)
 
 **Current Status - POST Mi RECOVERY**:
 - ✅✅ Rest days executed perfectly (Mo, Di from running)
@@ -354,17 +354,17 @@
 - Strategy: Replicate Mi's 135 bpm discipline for extended duration
 - If successful → W51 = FULL W47 volume + intensity (5x3min + 18min tempo + 90min long)
 
-**Recovery Metrics to Monitor Do→Sa**:
-- Do morning RHR: Expect baseline 54-57 bpm (check post-Mi recovery)
-- Fr morning RHR/HRV: Sa long run readiness indicator
-- Sleep Do→Fr: Target 7h+ each night for optimal long run preparation
-- Legs feel Fr: Should be fresh, no residual fatigue from Mi
+**Recovery Metrics to Monitor Post-Long Run**:
+- So morning RHR: Expect slight elevation, should return to baseline by Mo
+- Mo morning RHR/HRV: W51 readiness indicator
+- Sleep Sa→Mo: Target 7h+ each night for optimal recovery
+- Legs feel So/Mo: Should trend toward fresh, no residual fatigue
 
-**Strategic Insight POST Mi**:
-Mi's recovery run wasn't just "good" - it showed **fundamental aerobic improvement**:
-- +37 sec/km faster @ -4 bpm lower = aerobic base rebuilding FASTER than expected!
-- This validates: 3-week break = minimal fitness loss, rapid rebuild trajectory!
-- Sa long run now even MORE critical: Proof we can sustain this efficiency long-term!
+**Strategic Insight POST Week 50**:
+Week 50 showed **fundamental improvements across all sessions**:
+- Mi recovery: +37 sec/km faster @ -4 bpm lower = aerobic base rebuilding FASTER than expected!
+- Sa long run: 91min endurance capacity proven despite evening timing!
+- This validates: 3-week break = minimal fitness loss, rapid rebuild successful!
 
 ---
 
@@ -384,12 +384,12 @@ Mi's recovery run wasn't just "good" - it showed **fundamental aerobic improveme
 3. ✅✅✅ **Efficiency BREAKTHROUGH**: +37 sec/km faster @ -4 bpm lower vs W49!
 4. 🟢🟢 **GREEN LIGHT für W51**: ALL indicators scream "FULL PROGRESSION READY!"
 
-**Mi 11.12 Breakthrough Analysis**:
-- Not just recovery - showed **fundamental aerobic improvement**!
+**Week 50 Performance Highlights**:
+- **Mi 11.12 recovery** - showed **fundamental aerobic improvement**!
 - 5:52 pace @ 135 bpm vs W49's 6:29 @ 139 = massive efficiency gain
 - VO2max 48.41 (vs ~41 W49) = +18% increase in 1 week!
-- HR discipline perfect (128-145 range, no violations)
-- This is NOT just "fitness retained" - this is **FITNESS IMPROVING RAPIDLY**!
+- **Sa 13.12 long run** - 91min endurance capacity proven!
+- HR discipline excellent across all sessions
 
 **Mid-Week Training Insights**:
 - **Power Retention**: 354W hills = fitness fully retained + IMPROVED (+45%!)
@@ -397,11 +397,11 @@ Mi's recovery run wasn't just "good" - it showed **fundamental aerobic improveme
 - **HR Discipline**: Perfekt across intensity (B+) + recovery (A+) sessions
 - **Recovery Capacity**: 24h turnaround successful, legs fresh for continued training
 
-**Critical Remaining Session**:
-- **Sa 14.12: Long Run 75-90min @ 130-145 bpm** = Week completion test
-- Now even MORE critical: Can we sustain Mi's efficiency for extended duration?
-- Success = W51 ready für FULL progression (5x3min + 18min tempo + 90min long!)
-- Strategy: Replicate Mi's 135 bpm feel, don't chase pace, trust the process
+**Critical Session COMPLETED**:
+- **Sa 13.12: Long Run 91min @ 140 bpm** = Week completion achieved!
+- Successfully sustained effort for extended duration
+- W51 ready für FULL progression (5x3min + 18min tempo + 90min long!)
+- Next focus: Morning timing + flatter terrain for optimal HR control
 
 **Progression Trajectory POST Mi**:
 - W49: 95min total (conservative restart, 6:29 @ 139 bpm baseline)
@@ -606,9 +606,9 @@ Mi's session revealed: The 3-week break didn't just maintain fitness - we're com
 
 ---
 
-## 2025-12-13 - 🏃 Long Run 91 min (Freitag Abend)
+## 2025-12-13 - 🏃 Long Run 91 min (Samstag Abend)
 
-**Geplant**: Long Run 75-90min @ Z1-Z2 (130-145 bpm), gentle rolling terrain, first structured long run seit break - originally planned für Sa 14.12
+**Geplant**: Long Run 75-90min @ Z1-Z2 (130-145 bpm), gentle rolling terrain, first structured long run seit break - planned für Sa 14.12 (moved to Sa 13.12)
 **Tatsächliche Ausführung**: 91:12min @ 140 bpm avg, 14.09km, Z2 sustained, 153m elevation gain, evening timing
 **Persönliches Empfinden**: Feel 7/10, Energy Good, Legs Good, Effort Moderate (inferred from sustained Z2 execution, elevation handling, completion of extended duration)
 
@@ -632,7 +632,7 @@ Mi's session revealed: The 3-week break didn't just maintain fitness - we're com
 - **No sustained Z3+ violations**: Good long run discipline!
 
 **HR Context - Evening Effect**:
-- **Timing**: Fr 20:25 Uhr (evening session)
+- **Timing**: Sa 20:25 Uhr (evening session)
 - **Expected**: 5-10% elevated HR vs morning/midday
 - **Actual**: 140 bpm avg (vs Mi recovery 135 bpm @ shorter/flatter)
 - **Assessment**: HR appropriate für 91min + 153m elevation + evening timing
@@ -701,7 +701,7 @@ Mi's session revealed: The 3-week break didn't just maintain fitness - we're com
    - **Built significant time-on-feet for 34km race prep!**
 
 5. **Evening Execution Commitment** 🌙
-   - Fr 20:25 Uhr start (challenging timing)
+   - Sa 20:25 Uhr start (challenging timing)
    - Night conditions, cooler temps, fatigue from week
    - Still completed 91min + 153m elevation!
    - **Shows mental toughness + commitment to training!**
@@ -731,9 +731,9 @@ Mi's session revealed: The 3-week break didn't just maintain fitness - we're com
    - **Recommendation**: Next long run = flatter terrain (50-80m) für true aerobic base work
 
 3. **Timing - Evening vs Morning/Midday** 🌙
-   - **Issue**: Fr 20:25 start = evening session
+   - **Issue**: Sa 20:25 start = evening session
    - **Impact**: 5-10% elevated HR at same effort (140 vs ideal 130-135)
-   - **Comparison**: Mi recovery @ midday = 135 bpm perfekt; Fr @ evening = 140 bpm elevated
+   - **Comparison**: Mi recovery @ midday = 135 bpm perfekt; Sa @ evening = 140 bpm elevated
    - **Reason**: Accumulated fatigue, circadian rhythm, hydration/fueling timing
    - **Recommendation**: Future long runs = morning/midday preferred (better HR control)
 
@@ -747,10 +747,10 @@ Mi's session revealed: The 3-week break didn't just maintain fitness - we're com
 **Minor Optimizations**:
 
 5. **Recovery Capacity Check Needed** 👀
-   - **Saturday morning metrics critical**: RHR, HRV, legs feel
-   - **Risk**: Fr evening long run = less recovery time before Sa/So
-   - **Monitor**: Sa RHR (expect slight elevation, should return to baseline by Mo)
-   - **Action**: If RHR >60 bpm Sa/So, extend rest before W51 intensity restart
+   - **Sunday morning metrics critical**: RHR, HRV, legs feel
+   - **Risk**: Sa evening long run = less recovery time before So/Mo
+   - **Monitor**: So RHR (expect slight elevation, should return to baseline by Mo)
+   - **Action**: If RHR >60 bpm So/Mo, extend rest before W51 intensity restart
 
 **Overall Improvement Assessment**:
 Issues are **contextual, not execution failures**. HR elevation + terrain difficulty = primarily timing/planning factors, not fitness concerns. Main improvement = **future long runs timing + terrain selection** für optimal aerobic base building. Execution itself = solid! ✅
@@ -761,7 +761,7 @@ Issues are **contextual, not execution failures**. HR elevation + terrain diffic
 - **Duration**: 91min vs W47's 70min (**+21min longer!** ✅✅)
 - **HR**: 140 bpm vs W47's 131 bpm (+9 bpm higher ⚠️)
 - **Elevation**: 153m vs W47's ~16m (+137m more challenging! ✅)
-- **Context**: W47 = daylight, cooler season, optional; W50 = evening, first structured restart
+- **Context**: W47 = daylight, cooler season, optional; W50 = Saturday evening, first structured restart
 - **Assessment**: Longer duration + more elevation = excellent, HR elevated explainable by timing/terrain
 
 **Vs Mi 11.12 Recovery Run (most recent baseline)**:
@@ -798,7 +798,7 @@ Issues are **contextual, not execution failures**. HR elevation + terrain diffic
 - ✅ Pace discipline maintained (6:28 within 6:00-6:30) → Pacing control excellent!
 - ⚠️ HR slightly elevated (140 vs ideal 130-135) → Monitor recovery, adjust future timing
 - ✅ Elevation handled (153m significant) → Trail readiness improving!
-- **Verdict**: **Conditional GREEN LIGHT** - If Sa/So recovery metrics good (RHR <58, feel good), proceed with W51 full progression! If metrics elevated, modify W51 intensity slightly.
+- **Verdict**: **Conditional GREEN LIGHT** - If So/Mo recovery metrics good (RHR <58, feel good), proceed with W51 full progression! If metrics elevated, modify W51 intensity slightly.
 
 ### 🎯 **Bewertung: B+**
 
@@ -834,10 +834,10 @@ Issues are **contextual, not execution failures**. HR elevation + terrain diffic
 **For W51+ Long Runs - Strategic Improvements**:
 
 1. **Timing Optimization** 🌅
-   - **Issue**: Fr 20:25 evening = 5-10% elevated HR (140 vs ideal 130-135)
+   - **Issue**: Sa 20:25 evening = 5-10% elevated HR (140 vs ideal 130-135)
    - **Fix**: Morning/midday long runs preferred (8:00-14:00 optimal)
    - **Impact**: 5-10 bpm lower HR @ same effort = better aerobic base building
-   - **Example**: Mi recovery @ midday = 135 bpm perfect; Fr @ evening = 140 bpm elevated
+   - **Example**: Mi recovery @ midday = 135 bpm perfect; Sa @ evening = 140 bpm elevated
    - **Action**: Schedule W51+ long runs = Sa/So morning whenever possible!
 
 2. **Terrain Selection - Aerobic Base Priority** 🗻
@@ -862,17 +862,17 @@ Issues are **contextual, not execution failures**. HR elevation + terrain diffic
    - **Avoid**: Spontaneous extensions (cumulative fatigue risk)
 
 5. **Recovery Monitoring - CRITICAL NEXT 48H** 👀
-   - **Sa Morning (12h post-run)**: Check RHR, HRV, legs feel
+   - **So Morning (12h post-run)**: Check RHR, HRV, legs feel
      - ✅ Green: RHR 54-58 bpm, HRV 47-53ms, legs slightly tired but responsive
      - ⚠️ Yellow: RHR 58-60 bpm, HRV 41-47ms, legs heavy but no pain
      - 🚨 Red: RHR >60 bpm, HRV <41ms, legs very heavy, fatigue persistent
-   - **So Morning (36h post-run)**: Should trend back toward baseline
-   - **Action**: If yellow/red Sa = extend rest, modify W51 intensity slightly
+   - **Mo Morning (36h post-run)**: Should trend back toward baseline
+   - **Action**: If yellow/red So = extend rest, modify W51 intensity slightly
 
 6. **W51 Progression Decision Matrix** 🎯
-   - **IF Sa/So metrics GREEN** → W51 = FULL progression (5x3min hills + 18min tempo + 90min long)
-   - **IF Sa/So metrics YELLOW** → W51 = Repeat W50 structure (4x3min hills, skip tempo, 90min long)
-   - **IF Sa/So metrics RED** → W51 = Easy week (only 2-3 easy runs, no intensity)
+   - **IF So/Mo metrics GREEN** → W51 = FULL progression (5x3min hills + 18min tempo + 90min long)
+   - **IF So/Mo metrics YELLOW** → W51 = Repeat W50 structure (4x3min hills, skip tempo, 90min long)
+   - **IF So/Mo metrics RED** → W51 = Easy week (only 2-3 easy runs, no intensity)
 
 7. **Fueling Strategy Review** 🍌
    - **91min duration** = approaching threshold für mid-run fueling
@@ -891,7 +891,7 @@ Issues are **contextual, not execution failures**. HR elevation + terrain diffic
 **Strategic Context for W51+**:
 - ✅ **W50 Di hills**: Power exceptional (354W), intensity restart successful
 - ✅ **W50 Mi recovery**: Efficiency breakthrough (5:52 @ 135 bpm)
-- ✅ **W50 Fr long run**: Duration + elevation handled, HR slightly elevated
+- ✅ **W50 Sa long run**: Duration + elevation handled, HR slightly elevated
 - 🎯 **W51 focus**: Morning long run timing, flatter terrain, lower HR (130-135 target)
 - 🏔️ **W52+ trail-specific**: THEN add back elevation systematically
 
@@ -908,9 +908,9 @@ Today's execution = **SOLID fundamentals** (duration, pace, completion), but **t
 - **Di 10.12: Hill Intervals 4x3min (44:30 @ 354W avg)** ✅ **B+**
 - **Mi 11.12: Recovery Run 40min (40:03 @ 135 bpm avg)** ✅✅✅ **A+**
 - Do 12.12: Strength Training (36min @ 85 bpm avg) ✅
-- **Fr 13.12: Long Run 91min (91:12 @ 140 bpm avg)** ✅✅ **B+**
-- Sa 14.12: Rest (post-long run recovery)
-- So 15.12: Rest (planned family priority + W51 prep)
+- **Sa 13.12: Long Run 91min (91:12 @ 140 bpm avg)** ✅✅ **B+**
+- So 14.12: Rest (post-long run recovery)
+- Mo 15.12: Rest (planned family priority + W51 prep)
 
 **Week 50 Volume Achievement**:
 - **Total Running**: 175min (44:30 + 40:03 + 91:12)
@@ -1000,21 +1000,21 @@ Today's execution = **SOLID fundamentals** (duration, pace, completion), but **t
 
 **W51 Progression Decision**: **CONDITIONAL GREEN LIGHT** 🟢
 
-**IF Sa/So Recovery Metrics GREEN** (RHR <58, HRV >45, feel good):
+**IF So/Mo Recovery Metrics GREEN** (RHR <58, HRV >45, feel good):
 → **W51 = FULL PROGRESSION**
 - Mi: 5x3min hills @ 165-172 bpm (full W47 volume!)
 - Do: 18min tempo @ 158-165 bpm (first tempo seit break!)
 - Sa: 90min long run @ 130-145 bpm (morning timing, flatter terrain!)
 - **Target**: 190-210min total (exceeding W47!)
 
-**IF Sa/So Recovery Metrics YELLOW** (RHR 58-60, HRV 41-47):
+**IF So/Mo Recovery Metrics YELLOW** (RHR 58-60, HRV 41-47):
 → **W51 = REPEAT W50 STRUCTURE**
 - Mi: 4x3min hills @ same intensity
 - Do: 40min easy recovery
 - Sa: 90min long run (flatter + morning)
 - Skip tempo, consolidate volume
 
-**IF Sa/So Recovery Metrics RED** (RHR >60, HRV <41):
+**IF So/Mo Recovery Metrics RED** (RHR >60, HRV <41):
 → **W51 = EASY WEEK**
 - Only 2-3 easy runs, no intensity
 - Reassess recovery, extend rebuild timeline
@@ -1086,7 +1086,7 @@ Today's execution = **SOLID fundamentals** (duration, pace, completion), but **t
 
 **Strategic Next Steps**:
 
-**Immediate (Sa/So)**:
+**Immediate (So/Mo)**:
 - Monitor recovery metrics (RHR, HRV, legs feel)
 - Rest + light activity only
 - Confirm W51 progression level based on metrics
@@ -1121,7 +1121,7 @@ You chose Option B (aggressive rebuild), und die results sprechen für sich:
 - 91min long run = ENDURANCE CAPACITY intact!
 - ALL 3 key sessions completed = DISCIPLINE + COMMITMENT!
 
-Die small HR elevation auf Fr long run (140 vs ideal 130-135)? **Context-explainable** (evening + elevation + extended duration). The fix? **Simple = morning timing + flatter terrain next time!**
+Die small HR elevation auf Sa long run (140 vs ideal 130-135)? **Context-explainable** (evening + elevation + extended duration). The fix? **Simple = morning timing + flatter terrain next time!**
 
 **W51 is yours to DOMINATE!** If recovery metrics GREEN (likely!), full progression = 5x3min hills + 18min tempo + 90min long run. You'll EXCEED W47 level in just 3 weeks!
 

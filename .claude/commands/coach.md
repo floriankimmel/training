@@ -134,10 +134,17 @@ Create a weekly training plan for next week using all the context provided above
 
 **Process:**
 
-1. **Read Race Context**: First use `Glob` to find and read the current race file (`races/current-race-*.md`) to understand target race details, course profile, and training priorities
-2. **Check Subjective Feedback**: Look for current and recent weekly feedback files in the `feedback/` folder: `feedback/feedback-[week]-[year].md` containing personal training feedback and feelings
-3. **Get Runalyze Data**: Use the `runalyze` MCP server to retrieve actual running data from the last week
-4. **Assess Recovery Metrics**: Use Runalyze MCP server to retrieve recovery data for the analysis period:
+1. **Determine Current Date**: ALWAYS start by using bash commands to get current date information:
+   - Current week number: `date +%V`
+   - Current year: `date +%Y`
+   - Current weekday: `date +%A`
+   - Current day: `date +%d`
+   - Current month: `date +%m` (numeric) or `date +%B` (name)
+   - Full date: `date +%Y-%m-%d`
+2. **Read Race Context**: Use `Glob` to find and read the current race file (`races/current-race-*.md`) to understand target race details, course profile, and training priorities
+3. **Check Subjective Feedback**: Use the week/year from step 1 to look for current weekly feedback file: `feedback/feedback-[week]-[year].md` containing personal training feedback and feelings
+4. **Get Runalyze Data**: Use the `runalyze` MCP server to retrieve actual running data from the last week
+5. **Assess Recovery Metrics**: Use Runalyze MCP server to retrieve recovery data for the analysis period:
    - **Read baseline metrics**: First read `metrics/baseline-metrics.md` to get current baseline ranges for comparison
    - Fetch HRV data using `get-runalyze-hrv-data` (SDNN values)
    - Fetch resting heart rate data using `get-runalyze-heart-rate-rest-data`
@@ -151,18 +158,18 @@ Create a weekly training plan for next week using all the context provided above
    - **Use baseline ranges from `metrics/baseline-metrics.md`** to categorize current values (Good/Moderate/Low or Elevated/High)
    - Cross-reference recovery metrics with subjective feedback to identify discrepancies
    - Note: If baseline metrics seem outdated, remind the user to run `/recalculate-baselines`
-5. **Detailed Activity Analysis**: For each workout activity, use `get-runalyze-activity-detail` to analyze structured workouts in detail:
+6. **Detailed Activity Analysis**: For each workout activity, use `get-runalyze-activity-detail` to analyze structured workouts in detail:
    - Compare planned workout structure (e.g., 10min warm-up + 20min Z4 effort + 15min cool-down) with actual activity data
    - Analyze heart rate zones: did the effort average in the target range (e.g., Z4: 165-174 bpm)?
    - Assess pace consistency and power output throughout the workout
    - Evaluate workout execution: was the structure followed correctly?
    - Note deviations: early termination, extended efforts, missed intervals
-6. **Performance Assessment**: First determine the current week number and year using `date +%V` and `date +%Y` commands to ensure you're analyzing the correct time period. Then compare planned vs. actual workouts, assess fitness markers (pace, HR, effort) for the current week using the detailed activity analysis.
-7. **Review Previous Weeks**: First determine the current week number and year using `date +%V` and `date +%Y` commands, then calculate the last 6 weeks from the current week to identify which training files to read (e.g., if current is week 34, read weeks 28-33). Read these last 6 .md training files in the `trainings/` folder to understand workout types, progression, and patterns. If the `trainings/` folder is empty, this indicates no current training program exists and you need to start fresh with a new beginner-appropriate plan.
-8. **Evaluate Plan Effectiveness**: Determine if the previous week's design was appropriate based on actual performance data from Runalyze, recovery metrics trends, and target zone adherence
-9. **Plan Next Week**: Build logically on previous weeks with appropriate progression, adjusted based on detailed Runalyze activity analysis and recovery status
-10. **Save Plan**: Write the new weekly plan to `trainings/week-XX-YYYY.md`
-11. **Complete Reminder**: Run `shortcuts run "Mark item as done" -i "Training planen"` to mark the training planning reminder as complete
+7. **Performance Assessment**: Using the week number and year from step 1, compare planned vs. actual workouts, assess fitness markers (pace, HR, effort) for the current week using the detailed activity analysis.
+8. **Review Previous Weeks**: Using the current week number from step 1, calculate the last 6 weeks to identify which training files to read (e.g., if current is week 34, read weeks 28-33). Read these last 6 .md training files in the `trainings/` folder to understand workout types, progression, and patterns. If the `trainings/` folder is empty, this indicates no current training program exists and you need to start fresh with a new beginner-appropriate plan.
+9. **Evaluate Plan Effectiveness**: Determine if the previous week's design was appropriate based on actual performance data from Runalyze, recovery metrics trends, and target zone adherence
+10. **Plan Next Week**: Build logically on previous weeks with appropriate progression, adjusted based on detailed Runalyze activity analysis and recovery status. Use current weekday from step 1 to determine which day to start planning from.
+11. **Save Plan**: Write the new weekly plan to `trainings/week-XX-YYYY.md` using the week number and year from step 1
+12. **Complete Reminder**: Run `shortcuts run "Mark item as done" -i "Training planen"` to mark the training planning reminder as complete
 
 **Weekly Plan Structure:**
 
@@ -193,13 +200,15 @@ Create a weekly training plan for next week using all the context provided above
 
 **Daily Format:**
 
+**IMPORTANT**: Always use bash `date +%A` to determine current weekday when creating the plan. Format each day with both weekday name and date.
+
 ```markdown
-## Monday
+## Monday (YYYY-MM-DD)
 
 - **Lunch**: Easy run - 45 min conversational pace
 - **Evening**: Free (no planned activities)
 
-## Tuesday
+## Tuesday (YYYY-MM-DD)
 
 - **Lunch**: Rest from running
 - **Evening**: Free
