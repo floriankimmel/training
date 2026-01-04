@@ -46,8 +46,9 @@ Provide comprehensive feedback on today's training session by following this str
 - Full date: `date +%Y-%m-%d`
 
 **Then get activity data:**
-- Use `get-runalyze-activities` to find today's session
-- Get detailed activity analysis with `get-runalyze-activity-detail` for the most recent activity
+- Use `get-recent-activities` (Strava) to find today's session
+- Get detailed activity analysis with `get-activity-details` (Strava) for the most recent activity
+- Use `get-activity-laps` (Strava) for lap-by-lap breakdown of interval/structured sessions
 - **Analyze detailed metrics**: Use activity detail data to analyze HR progression, pace consistency, and power data
 - **Check training plan**: Look in `trainings/` directory for current week's training plan (using week number from bash command)
 - Find today's planned workout to compare against actual execution (using weekday from bash command)
@@ -97,7 +98,7 @@ Provide feedback in this format (write to weekly feedback file). **IMPORTANT**: 
 ## YYYY-MM-DD - [Session Type] - [Weekday] Analyse
 
 **Geplant**: [From trainings/ directory - specific workout details for today]
-**Tatsächliche Ausführung**: [Activity detail breakdown from Runalyze]
+**Tatsächliche Ausführung**: [Activity detail breakdown from Strava]
 **Persönliches Empfinden**: [If provided via arguments - user's subjective experience]
 
 ### 🎯 **Herzfrequenz-Analyse**
@@ -312,7 +313,7 @@ When personal feedback IS provided via arguments, use it to:
 7. **Add entry in standard format using date from step 1**:
 
 ```markdown
-## YYYY-MM-DD - [Activity Name from Runalyze]
+## YYYY-MM-DD - [Activity Name from Strava]
 **Feel**: [Extract from feedback OR infer from execution quality: 8-10 for A+ sessions, 6-8 for A/B+ sessions, 4-6 for B/C sessions]
 **Energy**: [Extract from feedback OR infer from pace consistency and HR drift: High/Good/Moderate/Low]
 **Legs**: [Extract from feedback OR infer from cadence, power stability, pace control: Fresh/Good/Heavy/Dead]
