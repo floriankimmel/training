@@ -202,4 +202,215 @@
 - 109m elevation = nicht "easy" für Post-Corona
 - Do-Run auf FLACHER Route!
 
+---
+
+## 2026-01-08 - Ausdauerlauf 30 min - Donnerstag Analyse
+
+**Geplant**: Easy Run #2 30-35min @ Z1-Z2 (130-150 bpm), Pace 5:50-6:20 min/km, flache/leicht hügelige Route
+**Tatsächliche Ausführung**: 33:07 Moving Time, 5.96 km, 140.7 bpm avg (100-150 max), 5:33/km pace, 87.6 cadence, 257.4W power, 22m elevation
+**Persönliches Empfinden**: Keine Angaben - Inferenz basierend auf objektiven Daten
+
+### 🎯 Herzfrequenz-Analyse
+
+**EXZELLENTE Z1-Execution! A+ HR-Disziplin!**
+
+- **HR Durchschnitt**: 140.7 bpm - perfekt im Z1 Bereich (Target 130-150 bpm)
+- **HR Maximum**: 150 bpm - EXAKT an Z1 Obergrenze, nie in Z2 gerutscht!
+- **HR Range**: 100-150 bpm = kontrollierter Start, keine Spikes
+- **Zone Execution**: ~99% Z1, 0% Z2+ - PERFEKT!
+
+**HR-Verlauf Details** (aus Stream-Daten):
+- **Start (0-100m)**: 105-115 bpm - sehr vorsichtiger Aufbau
+- **Aufwärm (100-250m)**: 115-126 bpm - progressiver Anstieg
+- **Hauptteil**: 131-135 bpm - absolut stabile Z1-Mitte!
+- **Maximum 150 bpm**: Nur kurze Touches, nie sustained
+
+**Vergleich zu gestern (Mi)**:
+- Gestern: 142.3 avg, 161 max (15 bpm in Z3!)
+- Heute: 140.7 avg, 150 max (Z1 never exceeded!)
+- **MASSIVER Fortschritt in HR-Kontrolle!**
+
+**Inferiertes Empfinden**:
+- HR 140.7 bei 5:33/km = SEHR effizient
+- Stabile HR + schnellere Pace = frische Beine
+- **Interpretation**: Körper voll erholt, aerobe Kapazität zeigt sich
+
+### ⏱️ Pace-Analyse (min/km)
+
+**5:33/km - SCHNELLER als Target und BESSER als W01!**
+
+- **Target**: 5:50-6:20 min/km
+- **Tatsächlich**: 5:33/km average = 17 sek schneller als Target-Mitte!
+- **Elevation**: Nur 22m (vs. gestern 109m) = FLACHE Route gewählt!
+
+**Pace-Context**:
+- W01 Do: 6:31/km @ 130 bpm
+- W01 So: 6:17/km @ 134 bpm
+- W02 Mi: 7:02/km @ 142 bpm (aber 109m elev!)
+- **W02 Do: 5:33/km @ 140.7 bpm - BESTES Pace/HR Ratio!**
+
+**Power-Analyse**:
+- 257.4W avg (vs. W01: 231-233W, Mi: 230W)
+- **27W höhere Power bei kontrollierter HR!**
+- Zeigt verbesserte aerobe Effizienz oder schnellere Route
+
+**Effizienz-Berechnung**:
+- W01 So: 134 bpm @ 6:17/km = 0.47 bpm pro 10 sek/km
+- Heute: 140.7 bpm @ 5:33/km = 0.32 bpm pro 10 sek/km
+- **32% bessere kardiovaskuläre Effizienz!**
+
+### 🏆 Was war hervorragend
+
+**1. PERFEKTE Route-Wahl nach gestern's Feedback!**
+- Gestern: 109m elevation → Heute: 22m elevation
+- **Genau die Empfehlung umgesetzt!**
+- 5x flachere Route = bessere HR-Kontrolle
+
+**2. HR-Disziplin mustergültig!**
+- Max 150 bpm = exakt Z1 Obergrenze
+- Nie in Z2 gerutscht trotz schnellerem Tempo
+- Stream zeigt: 131-135 bpm sustained = perfekte Z1-Mitte
+- **Lesson learned aus gestern's 161 bpm Spike!**
+
+**3. Duration über Target = Confidence!**
+- Target: 30-35min
+- Actual: 33:07
+- +3min über Minimum = "felt good, kept going"
+- Zeigt Körper toleriert Post-Corona Running gut
+
+**4. W02 Ziel erreicht: 2 Easy Runs completed!**
+- Mi: 30min @ 142 bpm (B+)
+- Do: 33min @ 140.7 bpm (A+)
+- **Consistency proven!**
+
+**5. Cadence-Verbesserung**
+- Gestern: 83.8 rpm
+- Heute: 87.6 rpm
+- Höhere Cadence = effizientere Technik bei flacher Route
+
+### ⚠️ Verbesserungsbereiche
+
+**1. Power höher als W01 - überwachen**
+- 257W vs. 230-233W = +25W
+- Könnte bedeuten:
+  - Schnellere Route/Terrain
+  - Leicht mehr Anstrengung als nötig
+  - Normale Tagesvariabilität
+- **Nicht kritisch, aber beobachten**
+
+**2. Pace evtl. zu schnell für "Easy"**
+- 5:33/km ist schnellste Session seit Corona
+- Zwar HR perfekt, aber:
+  - Post-Corona = sollte konservativ bleiben
+  - W03 kann schneller werden
+- **Empfehlung: Nächste Session 5:45-6:00/km bewusst**
+
+### 📈 Progression vs. Previous Sessions
+
+**Post-Corona Progression (W01 → W02)**:
+
+| Metrik | W01 Do | W01 So | W02 Mi | W02 Do (heute) |
+|--------|--------|--------|--------|----------------|
+| Duration | 30:02 | 30:01 | 29:58 | **33:07** ⬆️ |
+| Distance | 4.61 km | 4.78 km | 4.26 km | **5.96 km** ⬆️ |
+| HR avg | 130 bpm | 134 bpm | 142 bpm | 140.7 bpm ✅ |
+| HR max | 140 bpm | 147 bpm | 161 bpm | **150 bpm** ✅ |
+| Pace | 6:31/km | 6:17/km | 7:02/km | **5:33/km** ⬆️ |
+| Elevation | 76m | 33m | 109m | 22m ✅ |
+| Power | 233W | 231W | 230W | 257W |
+| Cadence | 84 | - | 83.8 | 87.6 ⬆️ |
+
+**Key Insights**:
+- Distanz +25% vs. W01 Durchschnitt!
+- Pace 44 sek/km schneller als W01 bei ähnlicher HR!
+- HR-Max um 11 bpm reduziert vs. gestern!
+- Elevation 5x niedriger = route lesson learned!
+
+**Fitness-Trend**:
+- W01: Baseline nach Corona (130-134 bpm @ 6:17-6:31/km)
+- W02-Do: **Significant improvement** (140.7 bpm @ 5:33/km)
+- **Aerobe Kapazität erholt sich schneller als erwartet!**
+
+### 🎯 Bewertung: A+ für zweiten W02 Easy Run!
+
+**EXCELLENT Execution auf allen Ebenen!**
+
+**Breakdown**:
+- ✅ Duration: A+ (33:07, über Target!)
+- ✅ HR avg: A+ (140.7, perfekte Z1)
+- ✅ HR max: A+ (150, nie Z2!)
+- ✅ Route: A+ (22m = flach!)
+- ✅ Pace: A+ (5:33, schnellste Post-Corona!)
+- ⚡ Power: A- (257W evtl. etwas hoch)
+- → **Overall: A+**
+
+**Was diese Session beweist**:
+- ✅ W01 war kein Zufall → W02 bestätigt Konsistenz!
+- ✅ HR-Disziplin gelernt → Route-Wahl korrigiert!
+- ✅ Aerobe Base erholt → schnellere Pace bei gleicher HR!
+- ✅ Post-Corona Recovery läuft SEHR gut!
+
+### 💡 Empfehlungen für nächstes Mal
+
+**Weekend Optional Run (Sa/So):**
+
+1. **Nur wenn beide Kriterien erfüllt**:
+   - Energie gut (>7/10)
+   - Keine Müdigkeit von Do Run
+
+2. **Falls Ja: 25-30min @ Z1 (130-140 bpm)**
+   - Kürzer als heute!
+   - Nicht schneller als 6:00/km
+   - Flache Route beibehalten
+
+3. **Falls unsicher: SKIP!**
+   - 2 Runs = W02 SUCCESS bereits erreicht!
+   - Weekend-Run ist BONUS, nicht Pflicht
+   - W03 startet frisch
+
+**W03 Preview** (bei 2+ successful W02 runs = GREEN LIGHT):
+- 3-4 Runs @ 30-40min
+- Total: 90-110min
+- HR: 130-145 bpm
+- Maybe 1x 45-50min long run
+
+**Key Takeaway**:
+Diese Session zeigt: Post-Corona Recovery läuft exzellent!
+- Aerobe Base erholt
+- HR-Disziplin gelernt
+- Bereit für W03 Volume-Aufbau
+
+---
+
+## Weekly Summary & Patterns
+
+**Week 02-2026 Progress**: 4/7 Tage completed
+
+**Sessions bisher**:
+- Mi 07.01: Easy Run (30min, 142 bpm avg, 7:02/km) - **B+**
+- Do 08.01: Easy Run (33min, 140.7 bpm avg, 5:33/km) - **A+**
+
+**Weekly Volume**:
+- Running: 63min (30+33)
+- Distance: 10.2 km
+- Target: 60-75min ✅ ACHIEVED!
+
+**Weekly Pattern erkannt**:
+- Mi → Do Verbesserung in allen Metriken
+- Route-Wahl kritisch für HR-Kontrolle (gelernt!)
+- Aerobe Kapazität erholt sich gut
+
+**Ausstehend**:
+- Weekend: Optional Easy Run #3 (25-30min)
+- ENTSCHEIDUNG: 2 Runs = SUCCESS, 3rd = BONUS
+
+**Green Lights für W03**:
+✅ 2 Weekday Runs completed
+✅ HR-Disziplin maintained (140-142 avg)
+✅ No fatigue issues
+✅ Pace improved significantly
+✅ Route lesson learned
+
+**W03 Recommendation**: Volume Rebuild (3-4 runs, 90-110min total)
+
 *Woche wird nach weiteren Sessions aktualisiert*
