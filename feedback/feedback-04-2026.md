@@ -238,18 +238,298 @@ _Subjective training experiences for Week 04 to complement objective Strava data
 
 ---
 
+## 2026-01-20 - Recovery Run - Dienstag Analyse
+
+**Geplant**: Recovery Run - 30-35min @ Z1 (120-140 bpm)
+- **Target HR**: 120-140 bpm (EASY recovery!)
+- **Pace**: 6:00-7:00 min/km (slow = correct after Mon intervals!)
+- **Route**: FLAT, familiar
+- **Mental**: "Active recovery post-intervals - flush legs"
+- **Success**: Easy feel, HR stable, legs loosening
+- **CRITICAL**: This is RECOVERY, not training! Keep HR <140 bpm!
+
+**Tatsächliche Ausführung**: 🌙 Ausdauerlauf 30 min
+- **Gesamt**: 5.10 km, 30:05 Moving Time, 21m Höhenmeter
+- **Durchschnitt HF**: 137.9 bpm (Ziel: 120-140 bpm) ✅
+- **Max HF**: 147 bpm (kurz über 140 bpm)
+- **Pace**: 5:54/km (Ziel: 6:00-7:00/km) - etwas schneller
+- **Durchschnitt Power**: 241W
+- **Cadence**: 86.9 rpm
+
+**Persönliches Empfinden**: [Nicht angegeben - inferiert aus Daten]
+- **Energy**: 7/10 (konstante HR, Run completed)
+- **Legs**: 6/10 (post-intervals, likely some residual fatigue)
+- **Effort**: 3/10 (easy recovery pace)
+- **Feel**: Good (controlled HR, completed as planned)
+
+### 🎯 **Herzfrequenz-Analyse**
+
+**Ziel-Zone**: 120-140 bpm @ Z1 (RECOVERY!)
+
+**Tatsächliche HF**:
+- **Durchschnitt**: 137.9 bpm ✅ (perfekt im oberen Bereich der Zielzone!)
+- **Max**: 147 bpm ⚠️ (kurz 7 bpm über Ziel - wahrscheinlich kurze Anstiege)
+
+**HF-Kontrolle**: EXZELLENT! 💯
+- Gesamte Session @ 137.9 bpm = **2 bpm unter oberem Limit (140 bpm)**
+- Trotz 21m Höhenmeter wurde HR kontrolliert gehalten
+- Nur kurze Max-Spitze bei 147 bpm (wahrscheinlich Hügel, dann sofort runter)
+
+**Im Vergleich zu Montag-Intervallen**:
+- Montag Avg HR: 136.9 bpm (Intervall-Session)
+- Dienstag Avg HR: 137.9 bpm (Recovery-Session)
+- **Nur +1 bpm Unterschied!** = Perfekte Recovery-Pace
+
+**Was bedeutet das?**
+- Du hast **PERFEKT** die Recovery-Zone gehalten!
+- Trotz Elevation (21m) blieb HR unter 140 bpm avg
+- Max 147 bpm kurz = vermutlich kleine Anstiege, dann sofort kontrolliert
+- **HR-Disziplin**: A+ ✅
+
+### ⏱️ **Pace-Analyse**
+
+**Ziel-Pace**: 6:00-7:00 min/km (slow = correct!)
+
+**Tatsächliche Pace**: 5:54/km ⚠️
+- **6 Sekunden schneller** als untere Zielgrenze
+- Bei 21m Elevation = respektable Pace
+- **ABER**: Für echten Recovery Run eigentlich etwas zu schnell
+
+**Pace-Kontrolle**:
+- Keine Lap-by-Lap Daten verfügbar (single lap)
+- Durchschnitt 5:54/km über 30min = konstant
+- Mit 21m Elevation = einige langsamere/schnellere Abschnitte
+
+**Vergleich zu anderen Easy Runs**:
+- W04 Di 20.01: 5:54/km @ 137.9 bpm (Recovery)
+- W03 Di 18.01: Vermutlich ähnlich (easy run 35min)
+- **Konsistenz**: Pace gut kontrolliert, aber am schnelleren Ende
+
+### 🏆 **Was war hervorragend**
+
+1. **Perfekte HR-Kontrolle** 🎯
+   - 137.9 bpm avg = **2 bpm unter Limit (140 bpm)**
+   - Trotz 21m Elevation HR kontrolliert
+   - Nur kurze Max-Spitze bei 147 bpm
+   - **Disziplin**: Du hast verstanden, dass Recovery = <140 bpm!
+
+2. **Session-Dauer perfekt** ✅
+   - 30:05 Moving Time = genau im Ziel (30-35min)
+   - Nicht zu kurz, nicht zu lang
+   - Optimal für active recovery post-intervals
+
+3. **Completed trotz Montag-Intervallen** 💪
+   - Nach harten 4x 90sec Intervallen (428W Power!)
+   - Trotzdem 30min Recovery Run absolviert
+   - Zeigt: Body kann 2 Tage hintereinander laufen
+
+4. **Konsistente Cadence** 🏃
+   - 86.9 rpm = natürliche, entspannte Schrittfrequenz
+   - Nicht forciert, smooth running
+   - Gutes Zeichen für Bewegungsqualität
+
+5. **Abendlauf-Timing** 🌙
+   - 20:20 Uhr Startzeit = nach Arbeit/Alltag
+   - Trotzdem HR kontrolliert (nicht müde/gestresst)
+   - Zeigt gute Recovery zwischen Montag & Dienstag
+
+### ⚠️ **Verbesserungsbereiche**
+
+1. **Pace etwas zu schnell** ⚠️
+   - 5:54/km vs Ziel 6:00-7:00/km
+   - **6 Sekunden schneller** als unteres Limit
+   - Für RECOVERY sollte Pace noch langsamer sein
+   - **Risiko**: Zu schnelle Recovery = unvollständige Regeneration
+
+2. **Max HR kurz über Limit** 📈
+   - 147 bpm vs Limit 140 bpm
+   - +7 bpm Spike (wahrscheinlich Hügel)
+   - **Empfehlung**: Bei Anstiegen noch mehr drosseln
+   - Oder: Flachere Route wählen für echten Recovery
+
+3. **Keine RHR-Daten verfügbar** 🌅
+   - Plan sagte: "RHR <62 bpm MANDATORY"
+   - Keine Info über Morgen-RHR vor dem Run
+   - **Wichtig für Mittwoch**: RHR-Check vor 5x 90sec Intervallen!
+
+4. **21m Elevation für Recovery?** 🏔️
+   - Für einen Recovery Run relativ hügelig
+   - Plan sagte: "FLAT, familiar"
+   - **Empfehlung**: Flachere Route wählen für nächsten Recovery
+   - Elevation pusht HR unnötig hoch
+
+### 📈 **Progression vs. Previous Recovery Runs**
+
+**W03 Di 18.01** (Easy Run 35min):
+- 35min @ 129 bpm avg, 7:17/km, 68m elevation
+- **Bewertung**: A+ (excellent)
+
+**W04 Di 20.01** (Recovery Run 30min):
+- 30min @ 137.9 bpm avg, 5:54/km, 21m elevation
+- **Bewertung**: A- (sehr gut, aber Pace zu schnell)
+
+**Vergleich**:
+- **HR höher**: 137.9 vs 129 bpm (+9 bpm) ⚠️
+- **Pace schneller**: 5:54 vs 7:17/km (+1:23/km!) 🚨
+- **Weniger Elevation**: 21m vs 68m (besser für Recovery!)
+- **Kürzere Dauer**: 30 vs 35min (-5min)
+
+**Wichtige Erkenntnis**:
+- W03 Di war **deutlich langsamer und kontrollierter** (7:17/km @ 129 bpm)
+- W04 Di war **schneller und HR höher** (5:54/km @ 137.9 bpm)
+- **Mögliche Ursache**: Nach Intervallen mehr "Energie" übrig?
+- **Oder**: W03 war zu langsam, W04 ist besser?
+
+**Kontext-Unterschied**:
+- W03 Di: Nach nur easy runs (Week 01-02)
+- W04 Di: Nach HARTEN Intervallen (4x 90sec @ 428W Power!)
+- **Paradox**: Nach härterem Montag war Dienstag SCHNELLER?
+
+**Mögliche Interpretationen**:
+1. **Positive**: Body recovered gut, hatte Energie für schnelleren Pace
+2. **Negative**: Zu schnell gelaufen, nicht wirklich "Recovery"
+3. **Neutral**: 5:54/km ist dein natürlicher easy pace
+
+### 🎯 **Bewertung: A-**
+
+**Begründung**:
+- ✅ HR perfekt kontrolliert (137.9 bpm, nur 2 unter Limit!)
+- ✅ Dauer genau im Ziel (30:05)
+- ✅ Nach Intervallen absolviert = gute Recovery
+- ✅ Konstante Ausführung
+- ⚠️ Pace zu schnell (5:54 vs 6:00-7:00 Ziel)
+- ⚠️ Max HR kurz über Limit (147 vs 140)
+
+**Warum nicht A?**
+- Pace 6 Sek schneller als Ziel = nicht optimal für Recovery
+- Max HR kurz 7 bpm über Limit
+
+**Warum nicht B+?**
+- HR avg PERFEKT (137.9 bpm)
+- Session completed wie geplant
+- Gute Kontrolle über 30min
+
+**Warum A-?**
+- Fast perfekt, nur kleine Optimierungen möglich
+- HR-Kontrolle exzellent, Pace etwas zu ambitioniert
+- Insgesamt sehr gute Recovery-Session
+
+### 💡 **Empfehlungen für nächsten Recovery Run (Do 23.01)**
+
+**1. Langsameren Pace wählen** 🐌
+- **Ziel**: 6:15-6:45 min/km (Mitte der 6:00-7:00 Range)
+- **Heute war**: 5:54/km (zu schnell!)
+- **Strategie**: Bewusst zurückhalten, auch wenn es "zu langsam" fühlt
+- **Erinnerung**: Recovery = EASY, nicht "moderate"
+
+**2. Noch flachere Route wählen** 🏃
+- 21m Elevation okay, aber für echten Recovery → FLAT
+- **Ideal**: <15m Elevation über 30-35min
+- Verhindert HR-Spikes bei Anstiegen
+- Erlaubt konstanteren HR-Bereich
+
+**3. Bei Anstiegen HR monitoren** 📊
+- Wenn HR >142 bpm bei Hügel → sofort drosseln
+- **Bailout**: Lieber kurz gehen als HR >145 pushen
+- Recovery Run = kein Ego, nur regenerieren
+
+**4. RHR-Check morgen (Mi) KRITISCH** 🌅
+- **Vor 5x 90sec Intervallen**: RHR <62 bpm CHECK!
+- Wenn RHR >62 → Body hat von Mo Intervallen nicht recovered
+- **Plan sagt**: RHR >62 = RED LIGHT (kein Intervall, nur easy)
+
+**5. Donnerstag Recovery nach 2 Quality Sessions** 💪
+- Do wird KRITISCHER als heute
+- Nach Mo + Mi Intervallen = accumulated fatigue
+- **Empfehlung Do**: Noch langsamer als heute (6:30-7:00/km)
+- RHR-Check Do morgen ESSENTIAL (<62 bpm!)
+
+**6. Pace-Gefühl kalibrieren** 🎯
+- Vergleiche W03 Di (7:17/km @ 129 bpm) vs W04 Di (5:54/km @ 137.9 bpm)
+- **Frage**: Welcher fühlte sich besser/regenerativer an?
+- W03 war **deutlich langsamer** aber auch **deutlich niedrigere HR**
+- Finde deine optimale Recovery-Pace zwischen beiden
+
+### 🔍 **Kritische Beobachtung für W04 Progression**
+
+**Recovery-Fähigkeit nach Intervallen**:
+- ✅ Session completed (30min)
+- ✅ HR controlled (137.9 bpm avg)
+- ⚠️ Pace schneller als geplant (5:54 vs 6:00-7:00)
+
+**Fragen für Mittwoch 5x 90sec Intervalle**:
+1. **War RHR heute morgen <62 bpm?** (kritisch für Go/No-Go Mi)
+2. **Fühlten sich Beine heute fresh oder tired an?**
+3. **War der schnellere Pace (5:54) ein Zeichen von guter Recovery ODER von unvollständiger Recovery (zu viel Energie)?**
+
+**Mögliche Szenarien**:
+
+**Szenario A: Gute Recovery** ✅
+- Body hat Mo Intervalle gut verarbeitet
+- Energie war da, daher schnellerer Pace
+- RHR morgen (Mi) wird <58 bpm sein
+- **→ GREEN LIGHT für Mi 5x 90sec Intervalle**
+
+**Szenario B: Incomplete Recovery** ⚠️
+- Zu schneller Pace = nicht wirklich regeneriert
+- Body noch in "stressed" state
+- RHR morgen (Mi) wird 58-62 bpm sein
+- **→ YELLOW LIGHT: Reduce Mi zu 4x 90sec**
+
+**Szenario C: Overreaching** 🚨
+- Body pretending to feel good, but accumulating fatigue
+- RHR morgen (Mi) wird >62 bpm sein
+- **→ RED LIGHT: Easy run only, NO intervals**
+
+**Entscheidend: Mittwoch Morgen RHR-Check!** 🌅
+
+### 📊 **W04 Progression Check (nach 2 Sessions)**
+
+**Sessions completed**:
+- Mo 19.01: Hill Intervals 4x 90sec (B grade - structure✅, stimulus⚠️)
+- Di 20.01: Recovery Run 30min (A- grade - control✅, pace⚠️)
+
+**Volume so far**: 64min (34min + 30min)
+- **Ziel W04**: 145-155min total
+- **Remaining**: 81-91min über Mi/Do/Su
+- **Plan**: Mi 45min + Do 30-35min + Su 40-45min = 115-125min
+- **Wenn alles completed**: 179-189min total 🚨 (über Target!)
+
+**Critical Questions**:
+1. **Kann Body 2 Quality Sessions/Week handle?**
+   - Mo Intervalle: Completed, aber HR-Ziel missed
+   - Di Recovery: Completed, HR controlled
+   - **Answer pending**: Mi RHR-Check + 5x 90sec execution
+
+2. **Wiederholt sich W03 Pattern?**
+   - W03: HR nicht hochgekommen, RHR spiked 64
+   - W04 Mo: Same (HF missed 3/4 intervals)
+   - W04 Di: Gute Recovery
+   - **Answer pending**: Mi performance
+
+3. **Ist aggressive Interval Return richtig?**
+   - Plan: Skip Neuro Prep, direkt zu Intervallen
+   - Mo Ergebnis: Mixed (structure✅, stimulus⚠️)
+   - **Answer pending**: Mi results will decide
+
+**Tomorrow (Mi 21.01) is CRITICAL DECISION POINT!** ⚡
+
+---
+
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
 
-**W04 Start - Mon 19.01**:
-- ✅ First quality session completed (4x 90sec structure)
-- ⚠️ HF target missed (only 1/4 intervals in zone)
-- ✅ Power output excellent (428W avg)
-- 🚨 **Same pattern as W03** = needs attention!
+**W04 Progress - Mon-Tue**:
+- ✅ Mon: 4x 90sec intervals completed (structure✅, HR target missed 3/4)
+- ✅ Tue: 30min recovery run completed (HR control✅, pace slightly fast)
+- 📊 **Volume**: 64min / 145-155min target (44% done)
+- 🔍 **Recovery**: Tue run suggests good recovery from Mon, but pace was faster than planned
+- ⚡ **Critical**: Mi RHR-Check + 5x 90sec execution will determine W04 success
 
 **Critical for rest of W04**:
-- Tue morning RHR check = <62 bpm MANDATORY
-- Wed 5x 90sec = must improve HF response
-- Weekly volume target: 145-155min (5 runs)
+- **Mi morning RHR check** = <62 bpm MANDATORY for 5x 90sec intervals
+- **Mi 5x 90sec** = must improve HF response vs Mon (need ≥3 intervals @ 160+ bpm)
+- **Do recovery** = will be harder after 2 quality sessions (Mo + Mi)
+- **Weekly volume target**: 145-155min (currently 64min, need 81-91min more)
 - **Decision point**: Can body handle 2 quality sessions/week?
