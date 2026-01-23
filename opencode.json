@@ -1,0 +1,23 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "chrome": {
+      "enabled": false
+    },
+    "figma": {
+      "enabled": false
+    },
+    "runalyze": {
+      "enabled": true
+    },
+    "strava": {
+      "enabled": true
+    },
+    "mcp_server_mysql": {
+      "enabled": false
+    },
+    "n8n-mcp": {
+      "enabled": true
+    }
+  }
+}
