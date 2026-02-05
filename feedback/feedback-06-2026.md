@@ -280,6 +280,276 @@ _Subjective training experiences for Week 06 to complement objective Strava data
 
 ---
 
+## 2026-02-05 - Recovery Run - Donnerstag Analyse
+
+**Geplant**: Recovery Run 30-35min @ Z1 (120-140 bpm), Pace 6:00-7:00 min/km, FLAT route
+
+**Tatsächliche Ausführung**:
+- **Total**: 34:00 moving time (36:29 elapsed), 5.88km, 20m elevation
+- **Avg HR**: 142.8 bpm (ÜBER Target!)
+- **Max HR**: 159 bpm
+- **Pace**: 5:47 min/km (Moving Time)
+- **Avg Cadence**: 88.5 rpm
+- **Avg Power**: 251.8W
+
+**Persönliches Empfinden**: _Keine explizite Rückmeldung - Inferenz aus Daten_
+
+---
+
+### 🎯 **Herzfrequenz-Analyse**
+
+**Target**: Z1 Recovery @ 120-140 bpm (STRICT!)
+
+**Actual**: 142.8 bpm avg, 159 bpm max
+
+**PROBLEM - TARGET VERFEHLT! 🚨**:
+- **Avg HR**: 142.8 bpm = **+2.8 bpm ÜBER dem Target-Maximum (140 bpm)!**
+- **Max HR**: 159 bpm = viel zu hoch für Recovery!
+- **Z1-Compliance**: FAILED ❌
+
+**Vergleich zu perfekten Recovery Runs**:
+- **W05 Thu**: 129 bpm avg @ 6:09/km = **TEXTBOOK EXECUTION** ✅
+- **W06 Thu**: 142.8 bpm avg @ 5:47/km = **ZU SCHNELL!** ❌
+- **Differenz**: +13.8 bpm vs W05 = **DEUTLICH ZU HOCH!**
+
+**HR-Verteilung während Run**:
+- Avg 142.8 bpm = vermutlich meiste Zeit bei 140-145 bpm
+- Max 159 bpm = mindestens ein Peak deutlich über Recovery-Zone
+- **Interpretation**: Lauf war durchgehend zu intensiv, NICHT easy/recovery pace!
+
+---
+
+### ⚡ **Pace-Analyse (min/km)**
+
+**Target**: 6:00-7:00 min/km (LANGSAM für Recovery!)
+
+**Actual**: 5:47 min/km (Moving Time basis)
+
+**PROBLEM - ZU SCHNELL! 🚨**:
+- **5:47/km** = **13-20 Sekunden/km schneller** als Target-Minimum!
+- **vs W05 Thu**: 6:09/km → 5:47/km = **22 Sekunden/km schneller** = **6% Pace-Steigerung!**
+- **Für Recovery**: WAY TOO FAST!
+
+**Warum ist das ein Problem?**:
+- Recovery Runs sollen LANGSAM sein (6:00-7:00/km)
+- Schneller = höhere HR = kein Recovery-Effekt!
+- **5:47/km @ 142.8 bpm** = eher **Easy Run Pace**, NICHT Recovery!
+
+**Interpretation**:
+- Du bist diesen Lauf im **Easy Run Tempo** gelaufen, nicht Recovery!
+- **W05 Thu**: 6:09/km @ 129 bpm = perfekte Recovery Execution
+- **W06 Thu**: 5:47/km @ 142.8 bpm = zu schnell, zu hoch in HR
+
+---
+
+### 💪 **Power-Analyse**
+
+**Actual**: 251.8W avg
+
+**vs Recovery Target**: WAY TOO HIGH!
+
+**Kontext**:
+- **Recovery Target**: 180-220W wäre angemessen
+- **Actual**: 251.8W = **+14-40% ÜBER Recovery-Level!**
+- **Easy Run Power**: ~230-260W = genau wo du warst!
+
+**Bedeutung**: Power bestätigt, dass dies ein **Easy Run** war, NICHT Recovery!
+
+---
+
+### 🏆 **Was war hervorragend**
+
+1. ✅ **Run completed nach Dienstag-Ausfall**
+   - Du bist nach dem verpassten Dienstag wieder gelaufen!
+   - Engagement + Disziplin vorhanden!
+
+2. ✅ **Konsistente Pace**
+   - 5:47/km über 5.88km = gleichmäßiges Tempo gehalten
+   - Keine großen Pace-Schwankungen sichtbar
+
+3. ✅ **Duration passt**
+   - 34min moving time = im Target-Bereich (30-35min) ✅
+
+4. ✅ **FLAT Route**
+   - 20m elevation über 5.88km = fast flach ✅
+   - Route-Wahl war korrekt!
+
+---
+
+### ⚠️ **Verbesserungsbereiche**
+
+1. 🚨 **HAUPTPROBLEM: ZU SCHNELL GELAUFEN!**
+   - **Pace**: 5:47/km statt 6:00-7:00/km = **13-83 Sekunden/km ZU SCHNELL!**
+   - **HR**: 142.8 bpm statt 120-140 bpm = **+2.8 bpm über Target!**
+   - **Effekt**: Dies war ein **Easy Run**, NICHT ein Recovery Run!
+   - **Problem**: Nach intensiven Dienstag (verpasst) + intensiven Montag braucht Körper ECHTE Recovery!
+
+2. 🚨 **Max HR zu hoch (159 bpm)**
+   - Max 159 bpm = **19 bpm ÜBER dem Target-Maximum (140 bpm)!**
+   - **Frage**: Gab es einen Anstieg? Sprint? Oder durchgehend zu intensiv?
+   - **Bedeutung**: Recovery Runs sollten NIEMALS >145 bpm gehen!
+
+3. 🚨 **Power viel zu hoch (251.8W)**
+   - 251.8W = Easy Run Level, nicht Recovery!
+   - **Target**: 180-220W für echte Recovery
+   - **Bedeutung**: Muskulär zu viel Load für Recovery-Tag
+
+4. ⚠️ **Verpasster Dienstag-Run**
+   - **Plan**: Mon (Intervalle) → Tue (Recovery) → Wed (verpasst laut Daten?) → Thu (dieser Run)
+   - **Actual**: Mon (Intervalle) → Di verpasst → Mi verpasst → Do dieser Run
+   - **Problem**: Nach Mon Intervallen KEINE Recovery-Phase bis Thu!
+   - **Bedeutung**: 3 Tage Pause + dann zu schneller "Recovery" Run = nicht optimal
+
+---
+
+### 📈 **Progression vs. Previous Sessions**
+
+**vs. W05 Thu Recovery Run (TEXTBOOK)**:
+| Metrik | W05 Thu | W06 Thu | Differenz |
+|--------|---------|---------|-----------|
+| **Duration** | 35min | 34min | -1min (ähnlich) |
+| **Avg HR** | **129 bpm** ✅ | **142.8 bpm** ❌ | **+13.8 bpm** 🚨 |
+| **Pace** | **6:09/km** ✅ | **5:47/km** ❌ | **-22 sec/km** 🚨 |
+| **Target Compliance** | ✅ PERFEKT | ❌ VERFEHLT | - |
+
+**Interpretation**:
+- **W05 Thu**: 129 bpm @ 6:09/km = **PERFEKTE Recovery Execution!** ✅
+- **W06 Thu**: 142.8 bpm @ 5:47/km = **Easy Run, NICHT Recovery!** ❌
+- **Regression**: Du bist vom perfekten Recovery-Level (W05) ZURÜCKGEFALLEN (W06)
+
+**Fitness-Indikatoren**:
+- ⚠️ **Pace-Kontrolle verloren**: W05 = 6:09/km perfekt, W06 = 5:47/km zu schnell
+- ⚠️ **HR-Disziplin fehlt**: W05 = 129 bpm, W06 = 142.8 bpm
+- ⚠️ **Recovery-Konzept nicht verstanden**: Dies sollte LANGSAM sein, nicht schnell!
+
+---
+
+### 🎯 **Bewertung: C (Unzureichend für Recovery)**
+
+**Begründung**:
+
+**Positives**:
+- ✅ Run completed (Disziplin vorhanden!)
+- ✅ Duration passt (34min = Target!)
+- ✅ Route FLAT (korrekte Wahl!)
+
+**Negatives**:
+- 🚨 **HR ZU HOCH**: 142.8 bpm vs 120-140 Target = +2.8 bpm über Maximum!
+- 🚨 **Pace ZU SCHNELL**: 5:47/km vs 6:00-7:00 Target = 13-83 sec/km zu schnell!
+- 🚨 **Power ZU HOCH**: 251.8W = Easy Run Level, nicht Recovery!
+- 🚨 **Max HR viel zu hoch**: 159 bpm = 19 bpm über Target!
+- 🚨 **Regression vs W05**: W05 = 129 bpm perfekt, W06 = 142.8 bpm versagt
+
+**Warum C statt D/F?**
+- Run wurde completed (nicht abgebrochen)
+- Duration + Route korrekt
+- **ABER**: Hauptzweck (Recovery @ 120-140 bpm) KOMPLETT VERFEHLT!
+
+**Warum NICHT B?**
+- **B** würde bedeuten: "Nahe am Target, kleine Abweichungen"
+- **Actual**: +13.8 bpm über W05, +2.8 bpm über Maximum = **GROSSE Abweichung!**
+- **Purpose FAILED**: Dies war KEIN Recovery Run, sondern ein Easy Run!
+
+---
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+**KRITISCH - Recovery Run Execution FIX! 🚨**
+
+1. **Pace RADIKAL reduzieren!**
+   - **Aktuell**: 5:47/km = ZU SCHNELL!
+   - **Target**: 6:00-7:00 min/km (W05 war 6:09/km = PERFEKT!)
+   - **Strategie**:
+     - Start: 6:30-7:00/km für erste 5min (LANGSAM beginnen!)
+     - Dann: 6:00-6:15/km halten (nicht schneller!)
+     - Mental: "Recovery = SLOW is CORRECT!"
+   - **Test**: Kannst du dabei leicht sprechen/atmen? JA = richtige Pace!
+
+2. **HR STRIKT unter 140 bpm halten!**
+   - **Target**: 120-140 bpm (W05: 129 bpm war ideal!)
+   - **Execution**:
+     - Alle 5min HR checken
+     - Wenn HR >138 bpm → LANGSAMER laufen!
+     - Wenn HR >142 bpm → WALKING BREAK nehmen (1-2min), dann weiter joggen
+   - **Mental**: "Ich WILL niedrige HR, dies ist Recovery!"
+
+3. **Recovery-Run-Zweck verstehen!**
+   - **Zweck**: Aktive Regeneration, Beine lockern, Durchblutung fördern
+   - **NICHT**: Fitness verbessern, schneller werden
+   - **Analogie**: Recovery Run = "Spaziergang mit leichtem Joggen"
+   - **Gefühl**: Sollte sich "fast zu leicht" anfühlen = RICHTIG für Recovery!
+
+4. **W05 Thu als BENCHMARK verwenden!**
+   - **W05 Thu**: 129 bpm @ 6:09/km = **DEIN PERFEKTES Recovery-Template!** ✅
+   - **Strategie**: Nächster Recovery Run = versuche W05 Thu zu WIEDERHOLEN!
+   - **Target**: 125-135 bpm @ 6:00-6:15/km = ähnlich wie W05
+
+5. **Start LANGSAM!**
+   - **Problem heute**: Wahrscheinlich zu schnell gestartet → HR stieg → blieb hoch
+   - **Lösung**: Erste 5-10min BEWUSST langsam (6:30-7:00/km)
+   - **Effekt**: HR bleibt niedrig von Anfang an = einfacher unter 140 zu bleiben
+
+6. **Power ignorieren auf Recovery Runs!**
+   - **Heute**: 251.8W = zu viel!
+   - **Fokus**: NUR auf HR + Pace achten, Power egal!
+   - **Reason**: HR + langsame Pace = automatisch niedrige Power
+
+7. **Zwischen-Session Recovery beachten!**
+   - **Aktuell**: Mon Intervalle → Di/Mi verpasst → Do zu schnell
+   - **Problem**: Keine echte Recovery zwischen Mon + Do!
+   - **Lösung**: Nächste Woche ALLE Recovery Runs machen (Di + Do)!
+   - **Effekt**: Bessere Erholung zwischen Quality Sessions
+
+---
+
+### 📊 **Session-Statistiken**
+
+| Metrik | Target | Actual | Status |
+|--------|--------|--------|--------|
+| **Duration** | 30-35min | 34min | ✅ |
+| **Route** | FLAT | 20m elev | ✅ |
+| **Avg HR** | 120-140 bpm | **142.8 bpm** | 🚨 |
+| **Max HR** | <145 bpm | **159 bpm** | 🚨 |
+| **Pace** | 6:00-7:00/km | **5:47/km** | 🚨 |
+| **Power** | 180-220W | **251.8W** | 🚨 |
+| **Recovery Effect** | YES | **NO** | 🚨 |
+
+**Overall**: 2/7 Targets ✅, 5/7 Targets 🚨
+
+---
+
+### 🔍 **Key Takeaway**
+
+**KRITISCH: Du hast den Recovery Run NICHT als Recovery ausgeführt! 🚨**
+
+**Das Problem**:
+- **HR**: 142.8 bpm (Target: 120-140) = +2.8 bpm ÜBER Maximum!
+- **Pace**: 5:47/km (Target: 6:00-7:00) = 13-83 sec/km ZU SCHNELL!
+- **Resultat**: Dies war ein **Easy Run**, NICHT ein Recovery Run!
+
+**Warum ist das schlimm?**:
+- Nach Mon Intervallen (4x 3min) braucht Körper **echte Recovery**!
+- Zu schneller "Recovery" Run = KEIN Erholungseffekt = Risiko für Übertraining!
+- **W05 hattest du es PERFEKT gemacht (129 bpm @ 6:09/km)** - dann diesmal verloren!
+
+**Die harte Wahrheit**:
+- **W05 Thu**: 129 bpm @ 6:09/km = **TEXTBOOK PERFEKT** ✅
+- **W06 Thu**: 142.8 bpm @ 5:47/km = **GESCHEITERT** ❌
+- **Regression**: Du bist vom perfekten Level ZURÜCKGEFALLEN!
+
+**Was MUSS sich ändern**:
+1. **LANGSAMER laufen**: 6:00-6:15/km (wie W05!)
+2. **HR strikt <140 bpm**: Bei >138 → langsamer, bei >142 → walking break!
+3. **Recovery-Mindset**: "Slow = richtig, fast = falsch für Recovery!"
+
+**Die gute Nachricht**: Du KANNST es! W05 Thu war PERFEKT (129 bpm)! Du musst nur das gleiche nächstes Mal wieder tun! 💪
+
+**Action für nächsten Recovery Run**: 
+- **Ziel**: W05 Thu wiederholen (125-135 bpm @ 6:00-6:15/km)
+- **Mental**: "Langsamer ist besser, ich will niedrige HR!"
+
+---
+
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
