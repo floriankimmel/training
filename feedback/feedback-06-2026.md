@@ -552,10 +552,8 @@ _Subjective training experiences for Week 06 to complement objective Strava data
 
 ## 2026-02-06 - Tempo Run (verschoben von Mittwoch) - Freitag
 
-**Hinweis**: Das geplante Mittwoch-Tempo-Training wurde auf Freitag verschoben.
-
-**Geplant (ursprünglich Mi 04.02, jetzt Fr 06.02)**: Tempo Run 50-55min total
-- 15min @ Z1 warmup
+**Geplant (ursprünglich Mi 04.02, verschoben auf Fr 06.02)**: Tempo Run 50-55min total
+- 15min @ Z1 warmup (130-145 bpm)
 - 20-25min @ Z3-Z4 (155-167 bpm) sustained tempo
 - 10-15min @ Z1 cooldown
 
