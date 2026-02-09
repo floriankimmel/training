@@ -957,3 +957,473 @@ _Subjective training experiences for Week 06 to complement objective Strava data
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
+
+## 2026-02-08 - Easy Run (Abendlauf) - Sonntag Analyse
+
+**Geplant**: Easy Run 45-50min @ Z1 (130-145 bpm), Pace 5:45-6:30 min/km, flat or slightly rolling
+
+**Tatsächliche Ausführung**:
+- **Total**: 50:20 moving time (51:46 elapsed), 6.04km, **+265m elevation** 🏔️
+- **Avg HR**: 147.6 bpm (ÜBER Target!)
+- **Max HR**: 172 bpm
+- **Pace**: 8:20 min/km (Moving Time)
+- **Avg Cadence**: 68.4 rpm (sehr niedrig!)
+- **Avg Power**: 183.9W
+- **Struktur (Lap-by-Lap)**:
+  - **Lap 1** (Warmup): 7:37, 1.00km, 121.7 bpm avg, 142 max, 233W, 33.2m elev
+  - **Lap 2** (Climb): 9:14, 1.00km, 139.6 bpm avg, 150 max, 201W, **68.8m elev** 🏔️
+  - **Lap 3** (Climb): 9:18, 1.00km, 151.1 bpm avg, 166 max, 172W, **57.8m elev** 🏔️
+  - **Lap 4** (Climb): 9:29, 1.00km, 157.6 bpm avg, 169 max, 139W, **49.7m elev** 🏔️
+  - **Lap 5** (Climb): 8:42, 1.00km, 152.0 bpm avg, 156 max, 166W, **55.4m elev** 🏔️
+  - **Lap 6** (Descent): 5:41, 1.00km, 161.3 bpm avg, 170 max, 215W, **0m elev** (downhill)
+  - **Lap 7** (Finish): 0:14, 0.04km, 171.1 bpm avg, 172 max, 207W
+
+**Persönliches Empfinden**: _Keine explizite Rückmeldung - Inferenz aus Daten_
+
+---
+
+### 🎯 **Herzfrequenz-Analyse**
+
+**Target**: Z1 Easy Run @ 130-145 bpm
+
+**Actual**: 147.6 bpm avg, 172 bpm max
+
+**PROBLEM - TARGET DEUTLICH ÜBERSCHRITTEN! 🚨**:
+- **Avg HR**: 147.6 bpm = **+2.6 bpm ÜBER dem Target-Maximum (145 bpm)!**
+- **Max HR**: 172 bpm = **+27 bpm ÜBER Target** = viel zu hoch für Easy Run!
+- **Z1-Compliance**: FAILED ❌
+
+**Lap-by-Lap HR-Analyse**:
+- **Lap 1** (Warmup): 121.7 bpm avg = **PERFEKT!** ✅ (unter Z1 Target!)
+- **Lap 2** (Climb): 139.6 bpm avg = **OK** ✅ (in Z1, aber am oberen Ende)
+- **Lap 3** (Climb): 151.1 bpm avg = **ÜBER TARGET** 🚨 (+6.1 bpm)
+- **Lap 4** (Climb): 157.6 bpm avg = **WEIT ÜBER TARGET** 🚨 (+12.6 bpm)
+- **Lap 5** (Climb): 152.0 bpm avg = **ÜBER TARGET** 🚨 (+7.0 bpm)
+- **Lap 6** (Descent): 161.3 bpm avg = **WEIT ÜBER TARGET** 🚨 (+16.3 bpm!) - **SEHR UNGEWÖHNLICH FÜR ABFAHRT!**
+- **Lap 7** (Finish): 171.1 bpm avg, 172 max = **MAXIMAL** 🚨
+
+**HR-Interpretation**:
+
+**PROBLEM #1: Anstiege zu intensiv gelaufen!**
+- Laps 3-5: 151-158 bpm avg auf Climbs = **Z2-Z3 Intensität**, NICHT Z1!
+- **Target für Easy Run auf Climbs**: Max 145-150 bpm, besser 140-145 bpm
+- **Actual**: 151-158 bpm = zu hart gepusht auf Anstiegen!
+
+**PROBLEM #2: Abfahrt HR nicht gesunken!**
+- **Lap 6** (Descent): 161.3 bpm avg = **HÖCHSTE HR der Session!** 🚨
+- **Erwartet**: HR sollte auf Abfahrt auf 130-140 bpm fallen!
+- **Actual**: 161 bpm = HR blieb HOCH oder stieg sogar!
+- **Mögliche Gründe**:
+  1. **Zu schnell runtergelaufen** (5:41/km = schnellste Lap!)
+  2. **Accumulated fatigue**: Nach 4 langen Climbs war Körper erschöpft
+  3. **HR-Lag**: HR braucht Zeit um nach effort zu sinken
+
+**PROBLEM #3: Finish Sprint!**
+- **Lap 7**: 171 bpm avg, 172 max in nur 14 Sekunden = **ALL-OUT SPRINT!** 🚨
+- **Für Easy Run**: KOMPLETT FALSCH! ❌
+- **Bedeutung**: Am Ende nochmal maximal gepusht statt easy auszulaufen
+
+**Vergleich zu anderen W06 Sessions**:
+- **W06 Do Recovery**: 142.8 bpm (zu hoch!) vs **W06 So Easy**: 147.6 bpm (noch höher!)
+- **W06 Fr Tempo**: 150 bpm (Tempo-Run!) vs **W06 So Easy**: 147.6 bpm (fast gleich!) 🚨
+- **PROBLEM**: "Easy" Run war fast so intensiv wie Tempo Run! ❌
+
+---
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+**Target**: 5:45-6:30 min/km
+
+**Actual**: 8:20 min/km (Moving Time) overall
+
+**PACE-VERTEILUNG EXTREM! ⚠️**:
+- **Lap 1** (Warmup, flach): 7:37/km = **langsamer als Target!**
+- **Laps 2-5** (Climbs): **9:14-9:29/km** = SEHR langsam (wegen Steigung!)
+- **Lap 6** (Descent): **5:41/km** = SEHR schnell!
+- **Overall**: 8:20/km = durch Climbs viel langsamer
+
+**Pace-Interpretation**:
+
+**Steigungen vs Abfahrt - EXTREME Varianz**:
+- **Uphill pace**: 8:42-9:29/km (Laps 2-5)
+- **Downhill pace**: 5:41/km (Lap 6) = **-3:48/km Differenz!** 🚨
+- **Bedeutung**: Pace-Control auf variablem Terrain sehr schwierig!
+
+**Pace vs HR - MISMATCH!**:
+- **Uphill** (9:14-9:29/km @ 151-158 bpm): Langsam ABER hohe HR = sehr steile Climbs!
+- **Downhill** (5:41/km @ 161 bpm): Schnell UND hohe HR = zu schnell runtergerannt!
+
+**Problem-Analyse**:
+- **Anstiege**: Zu steile Climbs = selbst langsame Pace (9:00+/km) trieb HR zu hoch (151-158 bpm)
+- **Abfahrt**: Zu schnell runtergelaufen (5:41/km) = HR blieb hoch (161 bpm)
+- **Fehlendes Pacing**: Kein effort-control auf Climbs, kein recovery auf Descent
+
+---
+
+### 🏔️ **Elevation-Analyse - DAS HAUPTPROBLEM!**
+
+**Geplant**: "Flat or slightly rolling" für Easy Run
+
+**Actual**: **+265m elevation über 6.04km** = **43.9m/km average!** 🚨🚨🚨
+
+**ANALYSE - ROUTE KOMPLETT FALSCH FÜR EASY RUN! 🚨**:
+
+**Elevation-Breakdown**:
+- **Lap 1**: 33.2m elev (ok, slight uphill)
+- **Lap 2**: **68.8m elev** (STEILSTER Climb!)
+- **Lap 3**: 57.8m elev (sehr steil!)
+- **Lap 4**: 49.7m elev (steil!)
+- **Lap 5**: 55.4m elev (steil!)
+- **Lap 6**: 0m elev (downhill!)
+- **Total Climbs**: ~265m über 5km = **BERGAUF-TRAINING, nicht Easy Run!** 🏔️
+
+**Vergleich zu anderen Sessions**:
+- **W06 Fr Tempo** (rolling): +160m über 7.5km = 21m/km
+- **W06 So Easy** (heute): +265m über 6.0km = **44m/km** 🚨
+- **Bedeutung**: "Easy Run" hatte **DOPPELT so viel elevation/km** wie Tempo Run! ❌
+
+**Warum ist das ein Problem?**:
+1. **Easy Runs sollen FLAT sein**: Target war "flat or slightly rolling"
+2. **265m elevation = Berg-Training**: Dies ist ein HILLWORK SESSION, nicht Easy!
+3. **HR unmöglich niedrig zu halten**: Selbst langsame Pace (9:00/km) treibt HR auf 151-158 bpm bei steilen Climbs!
+4. **Kein Recovery-Effekt**: Easy Run soll erholen, aber Climbs = zu viel Load!
+
+**Route-Assessment**:
+- **Route-Wahl**: KOMPLETT FALSCH für "Easy Run Sunday" ❌
+- **Sollte sein**: Flat, max 50-80m elevation total
+- **War tatsächlich**: 265m elevation = Hillwork/Trail session!
+
+---
+
+### 💪 **Power-Analyse**
+
+**Actual**: 183.9W avg
+
+**Lap-by-Lap Power**:
+- **Lap 1** (Warmup): 233W = hoch (aber flach, daher ok)
+- **Lap 2** (Climb): 201W = moderate climb power
+- **Lap 3** (Climb): 172W = niedrigere power (ermüdet?)
+- **Lap 4** (Climb): **139W** = sehr niedrig (erschöpft!)
+- **Lap 5** (Climb): 166W = recovery
+- **Lap 6** (Descent): **215W** = hohe power (schnell runter!)
+
+**Power-Interpretation**:
+
+**Climb Power Decline**:
+- Lap 2: 201W → Lap 3: 172W → Lap 4: **139W** = **-31% power drop!** 🚨
+- **Bedeutung**: Auf Lap 4 (4. Climb) war Körper erschöpft!
+- **Reason**: 4 consecutive climbs = accumulated fatigue
+
+**Descent Power Spike**:
+- **Lap 6**: 215W = fast so hoch wie Lap 1 (233W)
+- **Bedeutung**: Zu schnell/intensiv die Abfahrt runter!
+
+**Overall Power 183.9W**:
+- **Für Easy Run**: Angemessen (180-220W range)
+- **ABER**: Power-Verteilung zeigt accumulated fatigue + intense descent!
+
+---
+
+### 🏆 **Was war hervorragend**
+
+1. ✅ **Volume Target ERREICHT!**
+   - **50:20 moving time** = exakt im Target-Bereich (45-50min) ✅
+   - Mit dieser Session: W06 Volume = **126min (Mon+Do+Fr) + 50min (So) = 176min total!** 🎯
+   - **W06 Volume Target**: 160-175min → **176min = ÜBERTROFFEN!** ✅✅✅
+
+2. ✅ **Run completed nach intensiver Woche**
+   - Nach Mon (Intervalle) + Fr (Tempo) trotzdem noch Long Run gemacht!
+   - **Disziplin + Engagement vorhanden!** 💪
+
+3. ✅ **Elevation Training - Race-Specific!**
+   - **+265m elevation** = viel Bergauf-Arbeit = **gut für Lindkogel (1000m+)!** 🏔️
+   - **43.9m/km** = sehr steiles Profil = trail-like conditions!
+   - **Bedeutung**: Selbst wenn falsch für "Easy Run", war es race-specific training!
+
+4. ✅ **Warmup perfekt (Lap 1)**
+   - Lap 1: 121.7 bpm avg @ 7:37/km = **TEXTBOOK Easy Start!** ✅
+   - Zeigt: Du KANNST easy pace, wenn Route flach ist!
+
+5. ✅ **Duration durchgehalten**
+   - Trotz 4 steiler Climbs + accumulated fatigue = **durchgezogen ohne Abbruch!**
+   - Mental strong! 💪
+
+---
+
+### ⚠️ **Verbesserungsbereiche**
+
+1. 🚨 **ROUTE KOMPLETT FALSCH FÜR EASY RUN! - HAUPTPROBLEM!**
+   - **Geplant**: "Flat or slightly rolling"
+   - **Tatsächlich**: +265m elevation über 6km = **44m/km** = BERGAUF-TRAINING! 🏔️
+   - **Problem**: Auf steilen Climbs ist es UNMÖGLICH, HR unter 145 bpm zu halten!
+   - **Bedeutung**: Dies war KEIN Easy Run, sondern ein **Hill Training Session!**
+   - **Effekt**: Statt Erholung = zusätzliche Belastung!
+
+2. 🚨 **HR viel zu hoch (147.6 avg, 172 max)**
+   - **Avg HR**: 147.6 bpm = +2.6 bpm über Target (145 bpm)
+   - **Max HR**: 172 bpm = +27 bpm über Target!
+   - **Laps 3-6**: 151-161 bpm avg = **Z2-Z3 Intensität**, nicht Z1!
+   - **Grund**: Route zu steil + zu schneller Descent + Finish Sprint
+
+3. 🚨 **Abfahrt zu schnell/intensiv (Lap 6)**
+   - **5:41/km @ 161 bpm avg** = HÖCHSTE HR der Session auf Descent! 🚨
+   - **Erwartet**: Abfahrt = Recovery, HR sollte sinken auf 130-140 bpm
+   - **Actual**: 161 bpm = HR blieb extrem hoch!
+   - **Problem**: Zu schnell runtergerannt statt kontrolliert easy
+
+4. 🚨 **Finish Sprint (Lap 7)**
+   - **171 bpm avg, 172 max** in nur 14 Sekunden = **ALL-OUT SPRINT!** 🚨
+   - **Für Easy Run**: KOMPLETT FALSCH! ❌
+   - **Problem**: Am Ende nochmal maximal gepusht statt easy auszulaufen
+
+5. 🚨 **Cadence extrem niedrig (68.4 rpm)**
+   - **68.4 rpm overall** = **14-20 rpm niedriger** als optimal (82-88 rpm)!
+   - **Grund**: Steile Anstiege (9:00+/km pace) = sehr langsame, schwere Schritte
+   - **Problem**: Niedrige Cadence = höhere Belastung pro Schritt = injury risk!
+   - **vs W06 andere Runs**: Fr 82 rpm, Do 88.5 rpm → So **68.4 rpm** = -14 bis -20 rpm! 🚨
+
+6. ⚠️ **Anstiege zu intensiv gepusht**
+   - **Laps 3-5**: 151-158 bpm = Z2-Z3, nicht Z1!
+   - **Problem**: Auf steilen Climbs zu hart gepusht statt slow & controlled
+   - **Sollte**: Auch auf Climbs max 145-150 bpm anpeilen (notfalls walking breaks!)
+
+7. ⚠️ **Power Decline zeigt Fatigue**
+   - Lap 2: 201W → Lap 4: 139W = -31% power drop!
+   - **Bedeutung**: Nach 3 Climbs war Körper erschöpft
+   - **Problem**: Accumulated fatigue bei zu vielen steilen Climbs
+
+---
+
+### 📈 **Progression vs. Previous Sessions**
+
+**vs. W06 Fr Tempo Run (Rolling)**:
+| Metrik | W06 Fr (Tempo) | W06 So (Easy) | Differenz |
+|--------|----------------|---------------|-----------|
+| **Session Type** | Tempo | Easy (geplant) | - |
+| **Duration** | 50:05 | 50:20 | +15s (gleich) |
+| **Elevation** | +160m | **+265m** 🏔️ | **+105m** (+66%!) |
+| **Elev/km** | 21m/km | **44m/km** | **+23m/km** (+109%!) |
+| **Avg HR** | 150 bpm | 147.6 bpm | -2.4 bpm |
+| **Max HR** | 173 bpm | 172 bpm | -1 bpm (gleich) |
+| **Pace** | 6:41/km | 8:20/km | +1:39/km (langsamer) |
+| **Cadence** | 82 rpm | **68.4 rpm** | **-13.6 rpm** 🚨 |
+
+**Interpretation**:
+- **"Easy" Run hatte MEHR elevation** (+105m) als Tempo Run! 🚨
+- **Elev/km DOPPELT** so hoch (44m/km vs 21m/km)! 🚨
+- **HR fast gleich** (147.6 vs 150 bpm) = "Easy" war fast so intensiv wie Tempo! ❌
+- **Pace langsamer** aber nur wegen steilen Climbs!
+- **Cadence 13.6 rpm niedriger** = sehr schwere, langsame Schritte auf Climbs!
+
+**Fazit**: "Easy Run" war tatsächlich **intensiver (mehr elevation)** und **gleich hart (ähnliche HR)** wie Tempo Run! ❌
+
+---
+
+**vs. W05 Weekend Easy Run (Reference)**:
+_Kein direkter Vergleich verfügbar, aber W05 So war geplant für 45-50min @ 130-145 bpm auf flacher Route_
+
+**vs. W06 Do Recovery Run**:
+| Metrik | W06 Do (Recovery) | W06 So (Easy) | Differenz |
+|--------|------------------|---------------|-----------|
+| **Target HR** | 120-140 bpm | 130-145 bpm | - |
+| **Actual HR** | 142.8 bpm | 147.6 bpm | +4.8 bpm |
+| **Target Compliance** | FAILED (C) | FAILED | Both ❌ |
+| **Elevation** | 20m (flat) | **265m** | **+245m**! |
+| **Pace** | 5:47/km | 8:20/km | +2:33/km |
+
+**Interpretation**:
+- **Beide Läufe verfehlt**: Do 142.8 bpm (Target: 120-140), So 147.6 bpm (Target: 130-145)
+- **So Easy war NOCH HÖHER** in HR als Do Recovery! 🚨
+- **Grund**: Route zu steil (265m vs 20m elevation)!
+
+---
+
+### 🎯 **Bewertung: C (Unzureichend für Easy Run, aber Hillwork ✅)**
+
+**Begründung**:
+
+**Als EASY RUN bewertet**: **C (Unzureichend)** ❌
+
+**Negatives für Easy Run**:
+- 🚨 **Route KOMPLETT FALSCH**: +265m elevation = Hillwork, nicht Easy/Flat! ❌
+- 🚨 **HR zu hoch**: 147.6 bpm avg (Target: 130-145) = +2.6 bpm über Maximum!
+- 🚨 **Max HR viel zu hoch**: 172 bpm = +27 bpm über Target!
+- 🚨 **Descent zu intensiv**: Lap 6 @ 161 bpm = höchste HR statt Recovery!
+- 🚨 **Finish Sprint**: Lap 7 @ 171-172 bpm = all-out statt easy!
+- 🚨 **Cadence extrem niedrig**: 68.4 rpm = -14 bis -20 rpm vs andere Runs!
+- 🚨 **Kein Recovery-Effekt**: "Easy" Run war fast so intensiv wie Tempo Run!
+
+**Positives (allgemein)**:
+- ✅ **Volume Target erreicht**: 50min = W06 total 176min ✅
+- ✅ **Elevation Training**: +265m = race-specific für Lindkogel!
+- ✅ **Disziplin**: Durchgezogen trotz intensiver Woche!
+- ✅ **Lap 1 perfekt**: 121.7 bpm = easy start!
+
+**Warum C statt D/F?**
+- **C** = "Unzureichend aber nicht komplett gescheitert"
+- Du hast 50min completed = Duration ✅
+- Volume Target W06 erreicht (176min) = ✅
+- **ABER**: Hauptzweck (Easy Run @ 130-145 bpm) KOMPLETT VERFEHLT! ❌
+
+**Warum NICHT B?**
+- **B** würde bedeuten: "Nahe am Target, kleine Abweichungen"
+- **Actual**: +265m elevation statt flat = RIESIGE Abweichung! 🚨
+- HR +2.6 bpm avg, +27 bpm max = MASSIVE Überschreitung!
+- Purpose FAILED: Dies war Hillwork, nicht Easy Run!
+
+**ALS HILLWORK SESSION bewertet**: **B+ (Gut!)** ✅
+- +265m elevation = sehr gutes Vertical Training!
+- Race-specific für Lindkogel (1000m+)
+- Durchgehalten trotz 4 consecutive climbs
+- **ABER**: Nicht geplant, daher falsch platziert in Woche!
+
+---
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+**KRITISCH - Route-Wahl & Easy Run Execution FIX! 🚨**
+
+1. **ROUTE MUSS FLAT SEIN FÜR EASY RUNS! - TOP PRIORITÄT! 🚨**
+   - **Problem heute**: +265m elevation = **44m/km** = HILLWORK, nicht Easy!
+   - **Regel**: Easy Runs = **MAX 50-80m elevation total**, nicht >250m!
+   - **Route-Kriterien für Easy Run**:
+     - Flat oder "slightly rolling" (max 10-15m/km elevation)
+     - Keine steilen Anstiege (max 3-5% Steigung)
+     - Bekannte, sichere Route
+   - **Beispiele GUTER Easy Run Routes**:
+     - Flache Straßen/Radwege
+     - Park-Runden (flat)
+     - Laufbahn/Track
+   - **Beispiele SCHLECHTER Easy Run Routes**:
+     - Hügelige Trails (wie heute!) ❌
+     - Bergwege ❌
+     - Alles mit >100m elevation über <10km ❌
+
+2. **HR strikt unter 145 bpm halten!**
+   - **Target**: 130-145 bpm für Easy Run
+   - **Heute**: 147.6 bpm avg, 172 max = viel zu hoch!
+   - **Execution**:
+     - Alle 5min HR checken
+     - Wenn HR >143 bpm → **LANGSAMER laufen!**
+     - Wenn HR >145 bpm → **WALKING BREAK nehmen**, dann weiter
+     - Auf FLACHER Route sollte dies leicht sein!
+   - **Mental**: "Easy = ich will niedrige HR, nicht speed!"
+
+3. **Abfahrten als RECOVERY nutzen!**
+   - **Problem heute**: Lap 6 (Descent) @ 161 bpm = HÖCHSTE HR! 🚨
+   - **Sollte**: Abfahrten = HR sinken lassen auf 130-140 bpm!
+   - **Execution**:
+     - Abfahrten LANGSAM laufen (nicht schnell rennen!)
+     - Nutzen für HR-Recovery zwischen efforts
+     - Kontrolle behalten, nicht "fallen lassen"
+   - **Mental**: "Downhill = Recovery-Zeit, nicht Speed-Zeit!"
+
+4. **KEIN Finish Sprint bei Easy Runs!**
+   - **Problem heute**: Lap 7 @ 171-172 bpm = all-out sprint! 🚨
+   - **Regel**: Easy Runs haben KEINEN Sprint-Finish!
+   - **Execution**: Letzte 500m genauso easy wie der Rest!
+   - **Mental**: "Easy bis zum Ende, kein ego-finish!"
+
+5. **Cadence bewusst halten, auch auf Climbs**
+   - **Problem heute**: 68.4 rpm = extrem niedrig!
+   - **Grund**: Steile Climbs = langsame, schwere Schritte
+   - **Lösung für flache Easy Runs**: Cadence 82-86 rpm halten!
+   - **Wenn doch Climbs**: Kürzere Schritte (80+ rpm) statt lange, schwere Schritte
+
+6. **Hillwork Sessions SEPARAT planen!**
+   - **Heute war tatsächlich ein Hillwork Session** (265m elevation!)
+   - **Problem**: War als "Easy Run" geplant, aber zu intensiv!
+   - **Lösung**: Hillwork = eigene Quality Session, NICHT Easy Run!
+   - **Beispiel richtige Platzierung**:
+     - Mo: Intervals
+     - Di: Recovery (flat!)
+     - Mi: **Hillwork Session** (+250m elevation, controlled effort)
+     - Do: Recovery (flat!)
+     - Fr: Rest
+     - Weekend: Easy Run (flat!)
+
+7. **W06 Muster erkennen - Recovery/Easy Runs BEIDE zu intensiv!**
+   - **W06 Do**: Recovery @ 142.8 bpm (Target: 120-140) = FAILED ❌
+   - **W06 So**: Easy @ 147.6 bpm (Target: 130-145) = FAILED ❌
+   - **PATTERN**: Beide "easy" runs zu schnell/intensiv gelaufen!
+   - **Grund**: Route (So: zu steil!) + Pace (Do: zu schnell!) + fehlende Disziplin
+   - **MUST FIX für W07**: BEIDE Recovery + Easy runs müssen on-target sein! 🚨
+
+8. **W07 Easy Run MUSS besser sein!**
+   - **Route**: FLAT (max 50-80m elevation total!)
+   - **HR**: 130-145 bpm (STRIKT!)
+   - **Pace**: 5:45-6:30/km (easy, conversational)
+   - **Cadence**: 82-86 rpm
+   - **Mental**: "Easy = niedrige HR, nicht schnelle Pace!"
+   - **NO**: Climbs, Sprint-Finish, Descent-Rush!
+
+---
+
+### 📊 **Session-Statistiken**
+
+| Metrik | Target | Actual | Status |
+|--------|--------|--------|--------|
+| **Duration** | 45-50min | 50:20 | ✅ |
+| **Route** | Flat/slightly rolling | **+265m elev** 🏔️ | 🚨🚨🚨 |
+| **Avg HR** | 130-145 bpm | **147.6 bpm** | 🚨 |
+| **Max HR** | <155 bpm | **172 bpm** | 🚨 |
+| **Pace** | 5:45-6:30/km | 8:20/km (aber Climbs!) | ⚠️ |
+| **Cadence** | 82+ rpm | **68.4 rpm** | 🚨 |
+| **Recovery Effect** | YES | **NO** | 🚨 |
+| **Volume Contribution** | YES | ✅ (176min W06 total) | ✅✅ |
+
+**Overall**: 2/8 Targets ✅, 6/8 Targets 🚨
+
+---
+
+### 🔍 **Key Takeaway**
+
+**KRITISCH: "Easy Run" war eigentlich ein HILLWORK SESSION - falsche Route! 🚨**
+
+**Das Problem**:
+- **Route**: +265m elevation = **44m/km** = BERGAUF-TRAINING, nicht Easy! 🏔️
+- **HR**: 147.6 bpm (Target: 130-145) + Max 172 bpm = zu intensiv!
+- **Resultat**: Dies war **Hillwork/Climbing Session**, NICHT Easy Run!
+
+**Warum ist das schlimm?**:
+- Nach Mon (Intervalle) + Fr (Tempo) braucht Körper **echte Erholung** (Easy Run)!
+- Stattdessen: Noch eine intensive Session (265m elevation + hohe HR) = **kein Recovery-Effekt!**
+- **W06 Pattern**: Do Recovery zu schnell (142.8 bpm) + So Easy zu steil (147.6 bpm) = **BEIDE verfehlt!** 🚨
+
+**Die harte Wahrheit**:
+- **"Easy" Run war fast so intensiv wie Tempo Run**:
+  - Tempo (Fr): 150 bpm avg, 160m elev
+  - Easy (So): 147.6 bpm avg, **265m elev** (+105m mehr!)
+- **Bedeutung**: Körper hatte 3 intensive Sessions in W06 (Mon/Fr/So) statt 2 (Mon/Fr)!
+- **Risiko**: Overtraining, unzureichende Recovery für W07!
+
+**Was MUSS sich ändern**:
+1. **Route FLAT wählen**: Max 50-80m elevation für Easy Runs!
+2. **HR strikt <145 bpm**: Bei >143 → langsamer, bei >145 → walking break!
+3. **Kein Sprint-Finish**: Easy bis zum Ende!
+4. **W07 Recovery/Easy Runs**: BEIDE müssen on-target sein (Do 120-140, So 130-145)!
+
+**Die gute Nachricht**:
+- **Volume Target W06 erreicht**: 176min total ✅
+- **Elevation Training war race-specific**: +265m = gut für Lindkogel! 🏔️
+- **Du KANNST easy pace**: Lap 1 @ 121.7 bpm = perfekt!
+- **Mental strong**: Durchgezogen trotz intensiver Woche!
+
+**Die Lektion**:
+- **Easy Run ≠ Hillwork!** Flat Route = essential für echte Recovery!
+- **Lap 1 @ 121.7 bpm** = du KANNST easy, wenn Route stimmt!
+- **W07 MUST FIX**: Flat route, 130-145 bpm, no exceptions!
+
+**Action für W07 Easy Run**:
+- **Route**: FLAT wählen (max 50-80m elevation total!)
+- **Target**: 130-145 bpm STRIKT einhalten!
+- **Pace**: 5:45-6:30/km easy
+- **Mental**: "Easy = niedrige HR auf flacher Route!"
+
+**W06 Woche Assessment**:
+- ✅ **Positiv**: Volume 176min erreicht, 2 Quality Sessions completed!
+- ⚠️ **Concern**: Do Recovery + So Easy BEIDE zu intensiv = unzureichende Erholung!
+- 🚨 **Kritisch**: Recovery Discipline fehlt = must fix für W07!
+
+---
+
