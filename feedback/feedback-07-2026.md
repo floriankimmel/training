@@ -674,6 +674,129 @@ _Subjective training experiences for Week 07 to complement objective Strava data
 
 ---
 
+## 2026-02-15 - Long Run - Sonntag Analyse
+
+**Geplant**: Long Run - aerober Dauerlauf, locker, HR Zone 2-3 (~145-155 bpm)
+**Tatsächliche Ausführung**: 
+- Distanz: 12.29 km
+- Zeit: 75:01 (Moving Time) / 78:49 (Elapsed)
+- Pace: 6:06 min/km (Moving), 6:25 min/km (Elapsed)
+- Elevation: +145m / -162m (48% hilly)
+- HR: ⌀149 bpm, Max 182 bpm
+- Power: ⌀236W
+- Cadence: 85 spm
+- RPE: 16 (hard effort)
+- Bedingungen: -2°C, 9 km/h Wind, Nachtlauf, sonnig
+
+**Persönliches Empfinden**: Uhr hatte technische Probleme - HR-Daten unreliable, Pace war konstant
+
+### 🎯 **Herzfrequenz-Analyse**
+
+**⚠️ HR-Daten vermutlich fehlerhaft**
+
+- Average 149 bpm erscheint plausibel für Long Run
+- **ABER**: Max HR 182 bpm + Aerobic Decoupling 870% = technisch unmöglich
+- **Wahrscheinlich**: Uhr-Sensor-Problem (Kälte -2°C, schlechter Kontakt?)
+- **Subjektiv**: RPE 16 fühlt sich hart an, aber bei 12km Long Run nicht unrealistisch für fortgeschrittenen Läufer
+
+**Realistisches Assessment**:
+- Bei konstantem Pace über 12km würde HR stabil bleiben
+- 870% Decoupling = sensor drift/failure, nicht physiologische Realität
+- Pace 6:06 min/km durchgehend → HR sollte steady 145-155 sein
+- **Verdict**: Training wahrscheinlich OK ausgeführt, aber Daten unzuverlässig durch Uhren-Problem
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+**Pace**: 6:06 min/km (Moving Time) für 12.29km Long Run
+- Konstant durchgezogen laut deiner Aussage
+- GAP (Grade Adjusted Pace): 6:00 min/km - auf 145m Elevation solide
+- Für Long Run bei -2°C und 48% hilly = angemessenes Tempo
+
+**Assessment**:
+- ✅ Pace konstant gehalten = gute Disziplin
+- ✅ 6:06 auf hügeligem Terrain = passend für Long Run
+- ✅ Keine Überpacing erkennbar (trotz Uhr-Fehlern)
+
+### 🏆 **Was war hervorragend**
+
+- **12.29km bei -2°C durchgezogen**: Mentale Stärke bei widrigen Bedingungen
+- **Konstante Pace**: 6:06 min/km durchgehalten über gesamte Distanz
+- **Elevation gemeistert**: 145m auf hügeligem Terrain (48% hilly)
+- **Training absolviert**: Nachtlauf bei Minusgraden erfordert Commitment
+- **Pacing-Disziplin**: Keine Überpacing trotz Bedingungen
+
+### ⚠️ **Verbesserungsbereiche**
+
+1. **Uhren-Setup überprüfen** 🔧
+   - HR max 182 + Decoupling 870% = eindeutig Sensor-Problem
+   - Bei -2°C: Uhr enger anziehen, eventuell vorwärmen
+   - HR-Sensor-Kontakt prüfen (Schweiß fehlt bei Kälte)
+   - Eventuell Brustgurt bei Kälte zuverlässiger als optischer Sensor
+
+2. **RPE 16 für Long Run zu hoch** ⚠️
+   - Long Run sollte sich locker anfühlen (RPE 12-14)
+   - RPE 16 = "hard effort" ist zu intensiv für Grundlagen-Training
+   - Bei konstantem 6:06 Pace sollte RPE niedriger sein
+   - **Mögliche Ursachen**: Kälte (-2°C), Nachtlauf, accumulated fatigue?
+
+3. **Warm-Up bei Kälte** ❄️
+   - Bei -2°C braucht Körper länger zum Einlaufen
+   - Erste 2-3km bewusst langsamer starten
+   - Aufwärmen indoor vor dem Lauf?
+
+### 📈 **Progression vs. Previous Sessions**
+
+Keine direkten Vergleichsdaten verfügbar, aber:
+- 12.29km @ 6:06 min/km auf hügeligem Terrain = solide Long Run Leistung
+- VO2max 40.29 (40.81 mit Elevation) = gutes aerobes Niveau
+- 236W average Power auf hilly terrain = gute Kraft-Ausdauer
+
+### 🎯 **Bewertung: B+**
+
+**Begründung:**
+- ✅ Distanz absolviert, Pace konstant
+- ✅ 12km bei -2°C + hilly = mentale Stärke
+- ✅ Pacing-Disziplin gut
+- ⚠️ RPE 16 zu hoch für Long Run (sollte 12-14 sein)
+- ⚠️ HR-Daten unzuverlässig (technisches Problem)
+- ? Schwer zu bewerten ohne reliable HR-Daten
+
+**Fazit**: Training durchgezogen unter schwierigen Bedingungen, Pace gut kontrolliert. RPE erscheint zu hoch für Long Run - entweder zu intensiv gelaufen oder accumulated fatigue. HR-Daten durch Uhr-Problem verfälscht.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+1. **Uhren-Setup bei Kälte** 🔧
+   - Uhr sehr eng anziehen
+   - Optionaler Brustgurt statt optischer Sensor bei <0°C
+   - Sensor-Kontakt mit Wasser/Gel verbessern
+   - Uhr unter Jacke tragen zum Vorwärmen
+
+2. **RPE senken für Long Run** 
+   - Target RPE: 12-14 (locker, gesprächsfähig)
+   - Bei RPE 16 → Pace reduzieren
+   - Lieber 15-20 Sek/km langsamer, dafür lockerer
+   - Long Run = aerobe Basis, nicht Tempo-Training
+
+3. **Kälte-Anpassung** ❄️
+   - Bei -2°C: 30 Sek/km langsamer als normal
+   - Längeres Warm-Up (erste 3km sehr locker)
+   - Indoor-Aufwärmen vor dem Lauf
+   - Körper braucht Zeit bei Kälte
+
+4. **Effort-Check alle 3km**
+   - "Kann ich mich unterhalten?" → Wenn nein, zu schnell
+   - Ignoriere Uhr-Pace, gehe nach Gefühl
+   - Long Run = Unterhaltungstempo
+
+5. **Recovery-Status checken**
+   - RPE 16 könnte auf accumulated fatigue hindeuten
+   - Wie war Erholung von vorherigen Sessions?
+   - Evtl. zusätzlicher Recovery-Tag vor Long Run?
+
+**Nächster Long Run**: 12-15km, bewusst RPE 13 anpeilen, bei Kälte Equipment checken
+
+---
+
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
