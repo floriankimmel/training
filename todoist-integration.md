@@ -6,7 +6,7 @@ Nach dem Erstellen eines neuen Wochenplans werden die einzelnen Trainingseinheit
 
 ## Konfiguration
 
-- **API Key**: `1a35bc787b7394d395ccc02daed365b893db6237`
+- **API Key**: Siehe Fritz's TOOLS.md (nicht im Repo!)
 - **API Version**: v1
 - **Projekt**: 🗓️ Trainingsplan
 - **Project ID**: `6g6FfGCGXJpv2qG4`
@@ -39,7 +39,7 @@ Description:
 
 ```bash
 curl -s -X POST "https://api.todoist.com/api/v1/tasks" \
-  -H "Authorization: Bearer 1a35bc787b7394d395ccc02daed365b893db6237" \
+  -H "Authorization: Bearer $TODOIST_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
     "content": "👟 Laufen: <Name>",
@@ -48,6 +48,8 @@ curl -s -X POST "https://api.todoist.com/api/v1/tasks" \
     "description": "<Details>"
   }'
 ```
+
+> **Note**: API Key ist in Fritz's TOOLS.md gespeichert, nicht im Repo.
 
 ## Workflow
 
