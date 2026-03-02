@@ -52,6 +52,7 @@ This repository contains weekly training plans designed around:
 - 🎯 **Race Predictions**: Data-driven race time predictions with pacing and fueling strategies
 - 🔄 **Weekly Feedback**: Detailed post-workout analysis comparing planned vs. actual execution
 - 📁 **Structured Organization**: Separate folders for training plans, feedback, races, and predictions
+- ✅ **Todoist Integration**: Automatic todo creation for each training session (see [todoist-integration.md](todoist-integration.md))
 
 ## 🎓 Training Philosophy
 
