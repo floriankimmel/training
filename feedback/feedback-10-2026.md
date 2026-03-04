@@ -83,9 +83,55 @@ Bilderbuch-Session! Easy Run war wirklich easy (HR avg 141), und die Strides hab
 
 ---
 
-## Wednesday, March 4 - Tempo Run
+## Wednesday, March 4 - Tempo Run (Rolling)
 
-*Pending*
+### Session Data
+
+| Metrik | Wert | Plan | Status |
+|--------|------|------|--------|
+| **Dauer** | 54:47 min | 55min | ✅ perfekt! |
+| **Distanz** | 10.14 km | — | 💪 stark! |
+| **HR avg** | 147 bpm | 154-165 (Z3) | ⚠️ siehe Analyse |
+| **HR max** | 178 bpm | — | 🔥 Z5 touched! |
+| **Power avg** | 272W | 270-285W | ✅ spot on! |
+| **Elevation** | +108m | rolling terrain | ✅ |
+| **TRIMP** | 103 | — | 💪 solide Belastung |
+| **RPE** | 16 (Hard) | — | ✅ |
+| **VO2max** | 47.76 | — | ✅ |
+
+### Analysis
+
+**Workout-Stil: Rolling/Fartlek statt Sustained Tempo**
+
+Der Titel "Rollende 30 min" zeigt: Florian hat ein **Fartlek-artiges Workout** gemacht statt klassisches sustained tempo. Das ist für Trail-Vorbereitung **mindestens genauso wertvoll!**
+
+**Was super lief:**
+- ✅ **Power perfekt!** 272W genau im Target (270-285W)
+- ✅ **Starke Distanz** — 10.14 km bei 108m Höhe
+- ✅ **Rolling terrain** wie empfohlen
+- ✅ **TRIMP 103** = solide Trainingsbelastung
+- ✅ **Brustgurt dabei!**
+
+**HR-Analyse:**
+- Avg HR 147 bpm liegt knapp unter Z3 (154-165)
+- **ABER:** Bei Rolling-Intervallen ist der Schnitt irreführend!
+- Max HR 178 = bergauf/Push-Phasen waren definitiv Z3-Z4
+- Erholungsphasen (bergab/flach) drücken den Schnitt runter
+
+**Warum das für Lindkogel perfekt ist:**
+- Trail = ständiges An/Aus (Anstieg → Push, Abstieg → Erholen)
+- Rolling-Training simuliert genau dieses Muster
+- Besser als "künstliches" sustained tempo auf flacher Strecke
+
+### Grade: A- ⭐
+
+Starke Session! Power on point, gute Distanz, ordentlich Höhenmeter. Das Rolling-Format ist für Trail-Vorbereitung ideal — trainiert genau das Belastungsmuster, das am Lindkogel gebraucht wird.
+
+### Learnings
+
+1. Rolling/Fartlek = valide Alternative zu sustained tempo für Trail-Vorbereitung
+2. Bei hügeligem Terrain: Avg HR nicht überbewerten, Push-Phasen zählen
+3. Power bleibt besserer Indikator als HR bei variablem Terrain
 
 ---
 
