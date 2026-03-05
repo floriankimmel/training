@@ -137,7 +137,50 @@ Starke Session! Power on point, gute Distanz, ordentlich Höhenmeter. Das Rollin
 
 ## Thursday, March 5 - Medium-Long Run
 
-*Pending*
+### Session Data
+
+| Metrik | Wert | Plan | Status |
+|--------|------|------|--------|
+| **Dauer** | 69:43 min | 65-70min | ✅ perfekt! |
+| **Distanz** | 10.55 km | — | 💪 |
+| **HR avg** | 126 bpm | 146-154 (Z2) | ⚠️ Z1 |
+| **HR max** | 144 bpm | — | Z1 geblieben |
+| **Power avg** | 216W | — | Locker |
+| **Elevation** | +8m | 100-150m | Flach (Wien) |
+| **TRIMP** | 72 | — | Moderat |
+| **RPE** | 13 | — | Kontrolliert |
+| **Aero Decoupling** | -80 | — | 🌟 Excellent! |
+| **Brustgurt** | ✅ | — | ✅ |
+
+### Context
+
+**Lauf mit Papa!** 👨‍👦 Florian ist mit seinem Vater gelaufen — daher das langsamere Tempo und Z1 statt Z2.
+
+### Analysis
+
+**Was super lief:**
+- ✅ **Dauer perfekt!** 70 min genau im Zielbereich
+- ✅ **10.5 km** — solide Distanz
+- ✅ **Aerobic Decoupling -80** = hervorragende aerobe Effizienz!
+- ✅ **RPE 13** = kontrolliert und entspannt
+- ✅ **Quality Time mit Papa** = unbezahlbar! 🙂
+
+**Was vom Plan abwich:**
+- HR avg 126 bpm = Z1 statt Z2 (146-154)
+- Flaches Terrain (Wien, +8m) statt Hügel
+- Aber: Beides durch Umstände erklärt und völlig OK!
+
+### Grade: B+ ✅
+
+Solider Medium-Long! HR war unter Z2, aber das war der Situation geschuldet (Lauf mit Papa). Die **Dauer war perfekt**, die **aerobe Effizienz hervorragend**, und Quality Time mit Familie ist auch Training fürs Leben! 
+
+Für die Trail-Vorbereitung wäre mehr Elevation besser gewesen, aber 16 Tage vor dem Race ist Erholung wichtiger als maximale Belastung.
+
+### Learnings
+
+1. Gemeinsame Läufe = langsamer, aber sozial wertvoll
+2. Z1 statt Z2 vor Taper = kein Problem
+3. Negative aerobic decoupling = aerobe Basis ist stark!
 
 ---
 
