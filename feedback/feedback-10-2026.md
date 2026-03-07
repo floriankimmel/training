@@ -184,9 +184,58 @@ Für die Trail-Vorbereitung wäre mehr Elevation besser gewesen, aber 16 Tage vo
 
 ---
 
-## Weekend - Long Run (optional)
+## Saturday, March 7 - Long Run
 
-*Pending*
+### Session Data
+
+| Metrik | Wert | Plan | Status |
+|--------|------|------|--------|
+| **Dauer** | 80:02 min | 70-80min | ✅ perfekt! |
+| **Distanz** | 12 km | — | 💪 stark! |
+| **Elevation** | +319m | 300-400m | ✅ spot on! |
+| **HR avg** | 136 bpm | 140-158 | ⚠️ leicht drunter |
+| **HR max** | 155 bpm | Z3 Spitzen | ✅ |
+| **Power avg** | 233W | — | 💪 solide |
+| **Cadence** | 75 spm | — | Trail-typisch |
+| **TRIMP** | 114 | — | 🔥 gute Last |
+| **RPE** | 15 (Hard) | — | Angemessen |
+| **Aero Decoupling** | -800 | — | 🌟 EXZELLENT! |
+| **Brustgurt** | ✅ | — | ✅ |
+
+### Analysis
+
+**Was SUPER lief:**
+- ✅ **80 min** — genau im oberen Zielbereich
+- ✅ **+319m** — perfekt für Trail-Vorbereitung!
+- ✅ **12 km** bei dem Profil = stark
+- ✅ **Aerobic Decoupling -800** = wurde EFFIZIENTER über die Zeit!
+- ✅ **TRIMP 114** = ordentliche Trainingsbelastung
+
+**HR-Analyse:**
+- Avg HR 136 leicht unter Z2 (146-154)
+- Aber: Mit +319m Elevation definitiv Z3 auf Anstiegen
+- Max 155 bestätigt das!
+- Bei hügeligem Terrain ist avg HR nicht aussagekräftig
+
+### Grade: A- ⭐
+
+Starker Long Run! Dauer, Distanz und Elevation alle im Ziel. Der negative Aerobic Decoupling zeigt: Die aerobe Basis ist STARK. Perfekte Session vor dem Taper!
+
+---
+
+## W10 Summary
+
+| Tag | Session | Note |
+|-----|---------|------|
+| Mo | Hill Intervals | B+ |
+| Di | Easy + Strides | A |
+| Mi | Tempo Rolling | A- |
+| Do | Medium-Long (Papa) | B+ |
+| Sa | Long Run | A- |
+
+**Gesamtnote W10: A-** ✅
+
+Solide letzte harte Woche vor dem Taper! Alle Key Sessions geschafft, gute Elevation, aerobe Basis stark. Ready für Taper und Lindkogel!
 
 ---
 
