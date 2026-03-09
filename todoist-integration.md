@@ -57,7 +57,28 @@ Nach `/coach` oder Weekly Training Check-in:
 
 1. ✅ Trainingsplan erstellen und committen
 2. ✅ Für jede Lauf-Einheit ein Todo in Todoist anlegen
-3. ✅ Florian informieren dass Plan + Todos ready sind
+3. ✅ **Task "👟 Training Planen" abhaken** (recurring task)
+4. ✅ Florian informieren dass Plan + Todos ready sind
+
+### "Training Planen" Task abhaken
+
+```bash
+# Task-ID finden
+curl -s -X GET "https://api.todoist.com/api/v1/tasks" \
+  -H "Authorization: Bearer $TODOIST_API_KEY" | \
+  python3 -c "
+import sys, json
+data = json.loads(sys.stdin.read())
+tasks = data.get('results', [])
+for t in tasks:
+    if 'Training Planen' in str(t.get('content', '')):
+        print(t.get('id'))
+"
+
+# Task abhaken (mit gefundener ID)
+curl -s -X POST "https://api.todoist.com/api/v1/tasks/<TASK_ID>/close" \
+  -H "Authorization: Bearer $TODOIST_API_KEY"
+```
 
 ---
 
