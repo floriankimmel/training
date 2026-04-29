@@ -34,9 +34,19 @@ Bilderbuch-Taper-Intervalle! Kurz, knackig, intensiv — und dann fertig. Genau 
 
 ---
 
-## Tuesday, March 10 - Easy Run
+## Tuesday, March 10 - Easy Cycling
 
-*Pending*
+| Metrik | Wert | Ziel | Status |
+|--------|------|------|--------|
+| Dauer | 47:21 | 45-50min | ✅ |
+| Distanz | 15.1 km | - | ✅ |
+| ⌀ HR | 120 bpm | Z1 (120-146) | ✅ |
+| Max HR | 142 bpm | <150 | ✅ |
+| Höhenmeter | 117m ↑ | - | ✅ |
+
+### Grade: A ⭐
+
+Perfekte aktive Erholung. HR im unteren Z1-Bereich, Radfahren schont die Laufmuskulatur.
 
 ---
 
@@ -48,7 +58,17 @@ Bilderbuch-Taper-Intervalle! Kurz, knackig, intensiv — und dann fertig. Genau 
 
 ## Thursday, March 12 - Easy + Strides
 
-*Pending*
+| Metrik | Wert | Ziel | Status |
+|--------|------|------|--------|
+| Dauer | 35:15 | 35min | ✅ |
+| Distanz | 6.15 km | - | ✅ |
+| ⌀ HR | 135 bpm | Z1-Z2 | ✅ |
+| Max HR | 170 bpm | >165 (Strides) | ✅ |
+| VO2max | 49.88 | - | ✅ |
+
+### Grade: A ⭐
+
+Perfekte Taper-Einheit. Strides aktivieren neuromuskuläre Koordination ohne Ermüdung.
 
 ---
 
@@ -58,10 +78,22 @@ Bilderbuch-Taper-Intervalle! Kurz, knackig, intensiv — und dann fertig. Genau 
 
 ---
 
-## Weekend - Medium Run
+## Sunday, March 15 - Wolkersdorfer Crosslauf (Tune-Up Race)
 
-*Pending*
+| Metrik | Wert |
+|--------|------|
+| **Zeit** | **28:10** |
+| Distanz | 6.04 km |
+| Pace | 4:40/km |
+| Vorjahr | 28:17 |
+| **Verbesserung** | **-7 Sek** ✅ |
+| ⌀ HR | 169 bpm (Z4-Z5) |
+| Max HR | 177 bpm |
+
+### Grade: A-
+
+Zeit von 2025 verbessert! Perfektes Tune-Up Race 7 Tage vor Lindkogel. Kontrollierter Effort, keine Überlastung.
 
 ---
 
-*Feedback file created 2026-03-09 by Fritz 👾*
+*Feedback file created 2026-03-09, updated 2026-04-29 by Fritz 👾*
