@@ -51,7 +51,20 @@ Erste Hill Strides Session erfolgreich!
 
 ## Thursday, April 30 - Pre-Race Easy Run
 
-*Geplant: 30min Z1 only — SEHR locker!*
+| Metrik | Wert | Ziel | Status |
+|--------|------|------|--------|
+| Dauer | 30:07 | 30min | ✅ |
+| Distanz | 5.06 km | - | ✅ |
+| ⌀ HR | 132 bpm | Z1 (120-140) | ✅ |
+| Max HR | 139 bpm | <145 | ✅ |
+| RPE | 11 | leicht | ✅ |
+| TRIMP | 36 | niedrig | ✅ |
+
+**Runalyze Activity ID:** 176420272
+
+### Grade: A ⭐
+
+Textbook Pre-Race Shakeout! HR perfekt in Z1 gehalten (132 avg, max 139), nie aus der Zone. Beine durchbewegt ohne Stress — perfekte Vorbereitung für den Wodo Double!
 
 ---
 
