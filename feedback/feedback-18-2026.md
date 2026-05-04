@@ -78,21 +78,38 @@ Textbook Pre-Race Shakeout! HR perfekt in Z1 gehalten (132 avg, max 139), nie au
 
 **8. Wolkersdorfer Schlossparklauf**
 
-| Zeit | Event | Distanz |
-|------|-------|---------|
-| 15:40 | 🧒 Kinderlauf (Tobias!) | - |
-| 17:00 | Hobbylauf | ~5km |
-| 18:00 | Hauptlauf | ~10km |
+### Race Results
 
-**= 15km total (Wodo Double)**
+| Rennen | Distanz | Zeit | Pace | Ø HR | Max HR |
+|--------|---------|------|------|------|--------|
+| **Hobbylauf** | 4.98 km | 23:32 | **4:43/km** | 162 bpm | 173 bpm |
+| **Hauptlauf** | 10.08 km | 55:38 | **5:31/km** | 160 bpm | 180 bpm |
+| **TOTAL** | **15.06 km** | **1:19:10** | - | - | - |
 
-*Pending...*
+**Runalyze Activity IDs:** 176675240 (5k), 176685871 (10k)
+
+### Hobbylauf (5km)
+- Pace: 4:43/km 🔥
+- Power: 303W
+- TRIMP: 64
+
+### Hauptlauf (10km)
+- Pace: 5:31/km
+- Power: 263W
+- Elevation: +92m
+- TRIMP: 142
+
+### Grade: A ⭐
+
+**WODO DOUBLE geschafft!** 💪
+
+Smart gepaced: Hobbylauf schnell (4:43/km), Hauptlauf kontrolliert mit vorbelasteten Beinen. HR-Max 180 im 10er bestätigt den Endspurt. Beine fühlen sich gut an, Motivation wieder da!
 
 ---
 
-## Sunday, May 3 - REST oder Krafttraining
+## Sunday, May 3 - REST
 
-*Pending...*
+*Erholung nach Wodo Double*
 
 ---
 
