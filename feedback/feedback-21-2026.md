@@ -60,6 +60,64 @@ Solide Rückkehr nach 6 Wochen Laufpause. Plan korrekt umgesetzt, HR-Disziplin g
 
 ---
 
+## 2026-05-19 - Recovery Run - Dienstag Analyse
+
+**Geplant**: Recovery Run 30min, Z1 only (120-140 bpm), 6:30-7:00/km
+**Tatsächliche Ausführung**: 6.03km in 35:41 (Moving), 5:55/km avg, HR avg 140, max 153, Cadence 176spm, Power 245W
+
+### 🎯 **Herzfrequenz-Analyse**
+
+- **Ziel:** Z1 only (120-140 bpm)
+- **Tatsächlich:** Avg 140 bpm = exakt obere Grenze Z1, Max 153 = Z2-Spitzen
+- **Problem:** Max 153 zeigt Phasen in Z2. Bei Recovery Run sollte HR komplett unter 140 bleiben.
+- **Aerobe Entkopplung:** 9.1% Pace / 5.2% Power — erhöht für einen Recovery Run. Zeigt Cardiac Drift → Intensität war höher als gewollt.
+
+**Bewertung:** HR marginal zu hoch. Avg 140 = gerade noch Z1, aber Max 153 + hohe Entkopplung zeigen: Tempo war zu schnell für echte Recovery.
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- **Avg Pace:** 5:55/km
+- **Ziel-Pace:** 6:30-7:00/km
+- **Differenz:** ~35-65sec/km zu schnell!
+- **Power:** 245W — deutlich höher als gestern (228W) trotz Easy-Intention
+
+### 🏆 **Was war hervorragend**
+
+- ✅ **Cadence verbessert:** 176 spm (vs 164 gestern) — deutliche Verbesserung, im guten Bereich
+- ✅ **Stride Length:** 96cm — effizient
+- ✅ **Groundcontact:** 247ms — niedrig = gute Laufökonomie
+- ✅ **Vertical Ratio:** 9.2% — besser als gestern (9.8%)
+- ✅ **Konsistenz:** 2 Tage hintereinander gelaufen nach 6-Wochen-Pause
+
+### ⚠️ **Verbesserungsbereiche**
+
+- ❌ **Zu schnell:** 5:55/km statt 6:30-7:00/km. Recovery Run = LANGSAM. Ego-Pace vermeiden.
+- ❌ **RPE 15 ("hard"):** Recovery Run sollte RPE 9-11 sein. RPE 15 = viel zu anstrengend.
+- ⚠️ **Dauer:** 35:41 statt 30min = 5:41 zu lang. Kombination aus zu lang + zu schnell = zu viel Load.
+- ⚠️ **Distanz:** 6.03km statt ~4-4.5km (bei 6:30-7:00 Pace in 30min). Mehr Volumen als geplant.
+- ⚠️ **Tag nach Hill Strides:** Beine sollten locker werden, nicht weiter belastet.
+
+### 📈 **Progression vs. Previous Sessions**
+
+- **Gestern (Mo):** 6.38km, HR 139, 6:32/km — Easy + Strides
+- **Heute (Di):** 6.03km, HR 140, 5:55/km — schneller bei ähnlicher HR
+- **VO2max:** 45.69 (heute) vs 40.82 (gestern) — deutliche Verbesserung, zeigt dass gestrige Session bei Berechnung durch Strides verzerrt war
+- **Vergleich W20 Easy Runs:** 07.04 Leopoldstadt 5.81km, HR 141, 6:10/km — heute schneller
+
+### 🎯 **Bewertung: C+**
+
+Session war kein echter Recovery Run. Tempo deutlich zu hoch, RPE zu hoch, Dauer etwas zu lang. Ziel "Beine lockern nach Hill Strides" nicht erreicht — eher zusätzliche Belastung. Cadence-Verbesserung und Laufökonomie-Werte positiv.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+1. **Recovery = LANGSAM:** Pace-Alarm auf 6:30/km setzen. Wenn schneller → aktiv bremsen.
+2. **HR-Obergrenze 135:** Statt 140 als Ceiling lieber 135 anvisieren, dann bleibt Spielraum.
+3. **30min = 30min:** Timer stellen, nach 30min aufhören. Nicht "noch eine Runde".
+4. **Mittwoch Intervalle:** Trotz zu schnellem Recovery-Run machbar — aber nur wenn Beine morgen nicht müde. Sonst einen Tag Pause einschieben.
+5. **RPE-Check:** Recovery Run soll sich anfühlen wie "könnte ewig so laufen" (RPE 9-11). Wenn höher → langsamer.
+
+---
+
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
