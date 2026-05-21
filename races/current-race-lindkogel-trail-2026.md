@@ -1,6 +1,6 @@
-# Lindkogel Trail 2026 - Super Trail (34km) - CURRENT RACE
+# Lindkogel Trail 2026 - Super Trail (34km) - COMPLETED
 
-> **Status**: Current target race for 2026
+> **Status**: Completed / Past race
 > **Training Start**: Week 44, 2025 (November 2025)
 
 ## Race Details

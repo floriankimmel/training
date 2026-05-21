@@ -1,10 +1,15 @@
-# Vienna Trail Run 2026 - 23.8km
+# Vienna Trail Run 2026 - 23.8km - CURRENT RACE
+
+> **Status**: Current target race for 2026
+> **Training Start**: Week 21, 2026 (Monday 2026-05-18)
+> **Tredict Plan ID**: `AiJc4wSqL`
+> **Plan Start**: Week 21, 2026 (2026-05-18)
 
 ## Race Details
 
 **Event**: Vienna Trail Run
 **Location**: Am Cobenzl 96, 1190 Wien, Austria
-**Date**: October 2026 (TBD - typically mid-October, 2025 was Oct 12)
+**Date**: October 18, 2026 (Sunday)
 **Distance**: 23.8 km
 **Elevation Gain**: ~1000 m
 **Race Type**: Trail Running
