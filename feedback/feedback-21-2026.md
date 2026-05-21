@@ -118,6 +118,165 @@ Session war kein echter Recovery Run. Tempo deutlich zu hoch, RPE zu hoch, Dauer
 
 ---
 
+## 2026-05-21 - Easy Run - Donnerstag Analyse
+
+**Geplant**: Kein geplanter Workout in Tredict gefunden
+**Tatsächliche Ausführung**: 5.89km in 35:34 (Moving), 6:03/km avg, HR avg 134, max 148, Power 239W, Cadence 176spm, 41m Ascent, Temp 20°C
+**Persönliches Empfinden**: Nicht angegeben – Ableitung aus Metriken
+
+### 🎯 **Herzfrequenz-Analyse**
+
+- **Ziel Easy Run**: Z1 (120-146 bpm)
+- **Ergebnis**: HR avg 134, max 148
+- **Zeit in Z1**: 1914s von 2134s = **90% in Zielzone** ✅ EXZELLENT
+- **Zeit in Z2**: 202s (10%) – kurze Passagen, wahrscheinlich leichte Anstiege
+- **Zeit in Z3+**: 0s = perfekt, nie übertrieben
+- HR-Verlauf sehr stabil: 122-143 bpm Hauptbereich, nur kurz 146-148 bei Anstiegen
+
+### ⏱️ **Pace-Analyse**
+
+- Avg Pace: 6:03/km – ideal für Easy Run
+- Pace-Range: überwiegend 5:30-6:30/km
+- Kurze langsamere Phasen (~7:00+/km) bei Ampeln/Übergängen (20s Walking)
+- Leichtes Negative Split erkennbar: zweite Hälfte etwas flotter (2.9-3.1 m/s) vs. erste (2.6-2.8 m/s)
+- Sehr kontrolliert, kein "Easy Run zu schnell"-Problem
+
+### 💪 **Power-Analyse**
+
+- Avg Power: 239W – passend für Easy-Intensität
+- Sehr gleichmäßig: 230-250W Hauptbereich
+- Kurzer Spike auf 434W (sample ~193) – vermutlich kurzer Hügelantritt oder Straßenüberquerung
+- Power-Variabilität gering = sauberes, gleichmäßiges Laufen
+
+### 🏆 **Was war hervorragend**
+
+- **Perfekte HR-Kontrolle**: 90% in Z1, nie über Z2 – exzellente Disziplin am Tag nach Hill Intervals
+- **Ideales Pacing**: 6:03/km, kein Tempo-Creep trotz guter Beine
+- **Hohe Cadence**: 176spm bei Easy Pace = effizient, kein Overstriding
+- **Regenerationsfördernd**: Genau richtige Intensität nach gestrigem harten Intervall-Tag
+- **Gleichmäßiger Effort**: Power und Pace extrem konsistent
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Kaum etwas zu bemängeln** bei diesem Easy Run
+- **Walking-Duration nur 20s** → kaum Unterbrechungen, sauberer Lauf
+- Optional: Etwas länger (40-45min) wäre für Grundlagenausdauer noch besser, aber 35min ist völlig OK als Recovery-Easy
+
+### 📈 **Progression vs. Previous Sessions**
+
+- Tag nach Hill Intervals (HR avg 144, Power 259W): Heute deutlich leichter (HR 134, Power 239W) ✅
+- Gute Belastungssteuerung: Hart → Leicht Rhythmus eingehalten
+- VO2max: 45.17 (leicht höher als gestern 43.18 – Easy Runs liefern oft höhere Werte wegen stabilerer HR)
+- Running Effectiveness: 0.77 (gut, leicht besser als gestern 0.75)
+
+### 🎯 **Bewertung: A**
+
+Mustergültiger Easy Run. Perfekte HR-Kontrolle, ideales Pacing, saubere Ausführung am Tag nach harter Belastung. Genau so sieht aktive Regeneration aus.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+1. **Weiter so**: Dieses Tempo und diese HR-Disziplin beibehalten
+2. **Optional länger**: 40-50min wären ideal für Grundlagenausdauer, wenn Zeit vorhanden
+3. **Geplanten Workout anlegen**: Soll-Ist-Vergleich ermöglichen
+
+---
+
+## 2026-05-20 - Hill Intervals - Mittwoch Analyse
+
+**Geplant**: Kein geplanter Workout in Tredict gefunden
+**Tatsächliche Ausführung**: 6.81km in 39:22 (Moving), 5:47/km avg, HR avg 144, max 173, 137m Ascent, Power avg 259W, Cadence 169spm, Temp 22°C
+**Persönliches Empfinden**: Nicht angegeben – Ableitung aus Metriken
+
+### 🎯 **Herzfrequenz-Analyse (Time-in-Zone)**
+
+Session-Titel "Hill Intervalls" - 5 Bergwiederholungen identifiziert auf ~43m Höhendifferenz (170-213m).
+
+**Intervall #1** (~1:52min bergauf):
+- HR: 116→170 bpm, Peak 170
+- Zeit in Z4 (165-174): ~56s (50%) – erste Rep, Ramp-up dominiert
+- Power: 349-472W (Spitzenwert!), avg ~410W
+- Ramp-up: ~64s bis Z4
+
+**Intervall #2** (~2:00min bergauf):
+- HR: 142→172 bpm, Peak 172
+- Zeit in Z4: ~72s (60%) ✓ GUT
+- Power: avg ~395W
+- Ramp-up: ~48s bis Z4
+
+**Intervall #3** (~1:52min bergauf):
+- HR: 141→170 bpm, Peak 170
+- Zeit in Z4: ~48s (43%) – etwas kürzer, HR kam langsamer hoch
+- Power: avg ~370W
+
+**Intervall #4** (~2:08min bergauf):
+- HR: 140→172 bpm, Peak 172
+- Zeit in Z4: ~72s (56%)
+- Power: avg ~380W
+
+**Intervall #5** (~2:08min bergauf):
+- HR: 143→171 bpm, Peak 171
+- Zeit in Z4: ~64s (50%)
+- Power: avg ~370W
+
+**Gesamt**: ~5:12min in Z4 von ~10:00min Intervallzeit = **52% Zeit in Z4**
+
+**Hinweis**: Bei Hill Intervals ist die Z4-Time-in-Zone naturgemäß niedriger als bei flachen Intervallen, da:
+1. Kurze Reps (~2min) = viel Ramp-up-Anteil
+2. HR reagiert verzögert auf Power-Output bergauf
+3. Der Power-Output (350-470W!) zeigt massive muskuläre Belastung, die HR übersteigt
+
+### ⏱️ **Pace-Analyse**
+
+- Gesamt avg: 5:47/km (inkl. Warmup/Cooldown/Recovery)
+- Hill-Reps bergauf: ~3:20-4:00/km Geschwindigkeit (3.2-4.1 m/s auf 4-5% Steigung!)
+- Recovery bergab: ~5:00-5:30/km
+- Warmup/Cooldown: ~5:45-6:00/km
+- Sehr konsistente Recovery-Phasen, HR kam jedes Mal sauber auf 140-143 zurück
+
+### 💪 **Power-Analyse**
+
+- Intervall-Power: 350-472W (Peak Rep 1!)
+- Leichte Abnahme über Reps: 410→395→370→380→370W (normal bei kumulativer Ermüdung)
+- Warmup/Cooldown: 190-250W
+- Recovery: 195-225W
+- Power-Differenz Arbeit vs. Erholung: ~170W = saubere Intensitätstrennung
+
+### 🏆 **Was war hervorragend**
+
+- **Massive Power bergauf**: 350-470W auf Steigung = extrem kraftvolle Hill Reps
+- **Konsistente Erholung**: HR kam nach jeder Rep sauber auf 140-143 zurück
+- **Gleichmäßiger Effort**: Power-Abfall nur ~10% über 5 Reps = gutes Pacing
+- **Saubere Struktur**: Warmup → 5 Reps → Cooldown, textbook execution
+- **Cadence bergauf**: 163-185 spm = aggressiver, schneller Bergstil (nicht grinding)
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Kein geplanter Workout**: Session nicht in Trainingsplan → Vergleich schwierig
+- **Rep 1 evtl. zu aggressiv**: 472W Peak deutlich über Rest (max ~420W). Könnte die folgenden Reps leicht beeinträchtigt haben
+- **Walking-Phase vor Intervallen**: 101s Walking-Time – ggf. fließenderen Übergang zum Intervall-Block finden
+
+### 📈 **Progression vs. Previous Sessions**
+
+- Vergleich mit Montag (Easy + Hill Strides): Montag 6.38km/41:41, HR 139, 84m Höhenmeter
+- Mittwoch deutlich intensiver: HR avg 144 bei kürzerer Zeit, 137m Höhenmeter, Power 259W avg
+- Gute Progression im Wochenverlauf: Easy → Intensity
+
+### 🎯 **Bewertung: B+**
+
+Sehr solide Hill-Intervall-Session mit beeindruckenden Power-Werten. B+ statt A wegen:
+- Z4-Time-in-Zone nur 52% (Struktur-bedingt bei kurzen Hügel-Reps akzeptabel)
+- Leicht zu aggressive erste Rep
+- Kein Plan-Vergleich möglich
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+1. **Erste Rep konservativer**: Max 420W statt 472W, dann gleichmäßiger über alle Reps
+2. **Ggf. längere Reps**: 2:30-3:00min statt ~2:00min → mehr Zeit in Z4
+3. **Fließenderer Übergang**: Statt Walking direkt aus dem WU-Lauf ins erste Intervall
+4. **Geplanten Workout anlegen**: So ist Soll-Ist-Vergleich möglich
+
+---
+
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
