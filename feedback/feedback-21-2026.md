@@ -277,6 +277,81 @@ Sehr solide Hill-Intervall-Session mit beeindruckenden Power-Werten. B+ statt A 
 
 ---
 
+## 2026-05-22 - Easy Long Run - Freitag Analyse
+
+**Geplant**: Easy Long Run 52:30min, HR 120-130 bpm, ~8.5km, Pace ~6:15/km
+**Tatsächliche Ausführung**: 8.43km in 53:44 (Moving), 6:22/km avg, HR avg 127, max 135, Power 224W, Cadence 174spm, 41m Ascent, Temp 24°C
+
+### 🎯 **Herzfrequenz-Analyse**
+
+- **Ziel:** 120-130 bpm
+- **Ergebnis:** Avg 127 bpm = **exakt in Mitte der Zielzone** ✅
+- **Max:** 135 bpm = nur 5 bpm über Obergrenze, sehr kontrolliert
+- **Zeit in Z1 (120-146):** 3224s / 3224s = **100% in Z1** 🏆
+- **Zeit in Z2+:** 0s = nie übertrieben
+- **HR-Verlauf:** Ramp-up von 88→125 in ersten ~5min, dann extrem stabil 123-133 bpm über gesamte Session
+- **Aerobe Entkopplung:** Minimal — HR blieb stabil trotz 53min Belastung
+
+**Bewertung:** Perfekte HR-Disziplin. Exakt im vorgegebenen Fenster, nie drüber, extrem konsistent.
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- **Avg Pace:** 6:22/km (382s/km)
+- **Ziel-Pace:** ~6:15/km (375s/km)
+- **Differenz:** +7s/km = marginal langsamer, völlig akzeptabel
+- **Pace-Konsistenz:** Speed-Serie zeigt 2.5-2.95 m/s Hauptbereich = 5:39-6:40/km
+- **Zwei kurze Dips:** Sample 73 (1.86 m/s) und Sample 93 (1.81 m/s) — vermutlich Ampeln/Übergänge
+- **Leichtes Negative Split erkennbar:** Zweite Hälfte minimal flotter (2.6-2.7 m/s)
+
+### 💪 **Power-Analyse**
+
+- **Avg Power:** 224W — deutlich niedriger als Di (245W) und Do (239W)
+- **Konsistenz:** Hauptbereich 210-235W, sehr gleichmäßig
+- **Kein Power-Creep:** Stabil über gesamte 53min
+- **Effizienz:** Bei niedrigerem Power trotzdem ähnliche Pace → flachere Route, bessere Ökonomie
+
+### 🏆 **Was war hervorragend**
+
+- ✅ **100% Zone Compliance:** Gesamte Session in HR 120-130 Fenster — textbook execution
+- ✅ **Plan-Treue:** Distanz (8.43 vs 8.5km), Dauer (53:44 vs 52:30), HR (127 vs 120-130) — alles im Ziel
+- ✅ **Konservativ wie beabsichtigt:** Notes sagten "konservativ da letzter Long Run ausgefallen" — perfekt umgesetzt
+- ✅ **Gleichmäßiger Effort:** Power und HR extrem stabil über 53min
+- ✅ **Cadence gut:** 174spm bei 6:22/km = effizient, kein Overstriding
+- ✅ **VO2max 45.37:** Stabil auf hohem Niveau, konsistent mit Wochenwerten
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Kaum etwas zu bemängeln** — dies ist der mustergültigste Lauf der Woche
+- ℹ️ **Walking 14s:** Minimal, wahrscheinlich Ampel — nicht relevant
+- ℹ️ **Running Effectiveness 0.78:** Gut, aber nicht herausragend. Könnte mit etwas mehr Cadence (178+) noch besser werden
+
+### 📈 **Progression vs. Previous Sessions**
+
+| Metrik | Di Recovery | Do Easy | Fr Long Run |
+|--------|------------|---------|-------------|
+| Distanz | 6.03km | 5.89km | **8.43km** |
+| Dauer | 35:41 | 35:34 | **53:44** |
+| HR avg | 140 | 134 | **127** |
+| Pace | 5:55/km | 6:03/km | **6:22/km** |
+| Power | 245W | 239W | **224W** |
+
+- **Perfekte Periodisierung:** Niedrigste HR + niedrigste Power bei längster Session = genau richtig für Long Run
+- **Lernerfolg:** Nach zu schnellem Recovery-Run (Di) jetzt perfekte Tempokontrolle
+- **Woche gesamt:** Gute Belastungssteuerung Mo(Easy+Strides) → Di(zu schnell) → Mi(Hill Intervals) → Do(Easy) → Fr(Long Run)
+
+### 🎯 **Bewertung: A+**
+
+Perfekter Easy Long Run. Alle Planvorgaben exakt getroffen, HR-Disziplin makellos, konservative Herangehensweise nach ausgefallener Vorwoche korrekt umgesetzt. Bester Lauf der Woche in Bezug auf Plan-Compliance.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+1. **Nächste Woche Long Run verlängern:** 55-60min bei gleicher Intensität — Körper hat gezeigt, dass 53min problemlos geht
+2. **Pace beibehalten:** 6:15-6:25/km ist perfekt für Long Run Intensity
+3. **Wochenende:** Ruhetag oder max. leichter Walk/Mobilität nach längstem Lauf der Woche
+4. **Positiv:** Die Disziplin vom Di-Feedback (zu schnell) wurde heute perfekt umgesetzt 👏
+
+---
+
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
