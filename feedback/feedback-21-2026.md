@@ -352,6 +352,83 @@ Perfekter Easy Long Run. Alle Planvorgaben exakt getroffen, HR-Disziplin makello
 
 ---
 
+## 2026-05-26 - Hill Repeats 5x3min Z4 - Dienstag Analyse
+
+**Geplant**: 10min Warmup → 5x3min bergauf @ Z4 (165-174bpm) mit 3min Trabpause bergab → 5min Cooldown. Max 400W in Rep 1, gleichmäßige Power.
+**Tatsächliche Ausführung**: 48:58min Moving Time, 6.56km, 237m D+/D-, Ø149bpm, Max 175bpm, Ø233W
+**Wetter**: 26°C, klar - warm
+
+### 🎯 Herzfrequenz-Analyse (Time-in-Zone)
+
+**Ziel**: Z4 = 165-174bpm während der 5 Bergauf-Intervalle
+
+| Rep | Zeit in Z4 (165-174) | Peak HR | Ramp-up | Bewertung |
+|-----|---------------------|---------|---------|-----------|
+| 1 | ~120s / 180s (67%) | 170 | ~40s | ✓ Gut |
+| 2 | ~130s / 170s (76%) | 173 | ~50s | ✅ Sehr gut |
+| 3 | ~100s / 170s (59%) | 174 | ~60s | ⚠️ Zu viel Z5 |
+| 4 | ~130s / 180s (72%) | 173 | ~40s | ✅ Sehr gut |
+| 5 | ~140s / 170s (82%) | 174 | ~30s | ✅ Exzellent |
+
+**Gesamt**: ~620s in Z4 von ~870s Intervallzeit = **71% Zeit in Zielzone** ✅ Sehr gut
+
+**HR-Intensitätsverteilung gesamt**: 1217s niedrig / 815s mittel / 905s hoch
+→ 905s in hoher Intensität = ~15min, passt zu 5×3min Intervalle
+
+### ⚡ Power-Analyse
+
+| Rep | Ø Power (geschätzt) | Max Power | Bewertung |
+|-----|---------------------|-----------|-----------|
+| 1 | ~325W | 395W | ✅ Unter 400W-Limit |
+| 2 | ~340W | 404W | ⚠️ Knapp über 400W |
+| 3 | ~330W | 527W (Spike) | ⚠️ Starker Anfangsspike |
+| 4 | ~300W | 449W | ⚠️ Über 400W, ungleichmäßig |
+| 5 | ~320W | 381W | ✅ Kontrolliert |
+
+**Power-Verteilung**: 1099s in hoher Intensität → konsistent hohes Arbeitsniveau
+
+### ⏱️ Pace-Analyse
+
+- Gesamt: Ø 7:28/km (erwartet bei Bergintervallen + Pausen)
+- Bergauf-Pace: ~8:00-9:00/km (typisch für steile Anstiege mit Power-Fokus)
+- Bergab-Recovery: ~3:30-4:30/km (schnelles Traben bergab)
+- 237m Höhenmeter auf 6.5km = durchschnittlich 7.2% Steigung bergauf
+
+### 🏆 Was war hervorragend
+
+1. **Zielzone gut getroffen**: 71% Time-in-Zone über alle Reps - sehr gute Ausführung
+2. **Rep 1 kontrolliert gestartet**: Max 395W, unter dem 400W-Limit ✓
+3. **Positive Progression**: Rep 5 war die beste (82% in Zone) - starker Finish
+4. **Konsistente Höhenmeter**: Jede Rep ~40m Anstieg, gleichmäßige Strecke gewählt
+5. **Gesamtbelastung passend**: Effort 102 (HR) / 121 (Power) - produktive Session
+
+### ⚠️ Verbesserungsbereiche
+
+1. **Power-Spikes in Rep 3 (527W) und Rep 4 (449W)**: Zu aggressiver Start, führt zu früher Ermüdung. Ziel war gleichmäßige Power über alle Reps.
+2. **Rep 4 hatte Einbruch**: Power fiel auf 237W mittendrin (kurze Gehpause?). Besser gleichmäßig durchziehen.
+3. **Rep 3 zu viel Z5**: HR ging bis 174bpm an die Grenze, Steady-State etwas zu hoch
+4. **Ramp-up in Rep 2+3 langsam** (~50-60s): Schnelleres Einfinden in die Zone würde mehr produktive Zeit bringen
+
+### 📈 Progression vs. Previous Sessions
+
+- Erste Hill Repeats Session in der Analyse → Baseline etabliert
+- Ø Power 233W gesamt bei 149bpm Ø HR → guter aerober Faktor (31.72)
+- VO2max Schätzung: 29.84 (niedrig, typisch für hügeliges Terrain mit Pausen)
+- Running Effectiveness: 0.64 (typisch für Bergtraining)
+
+### 🎯 Bewertung: B+
+
+Solide Hill Repeats Session mit guter Zonenausführung (71% TiZ). Abzug für Power-Inkonsistenz (Spikes in Rep 3-4) und den kurzen Einbruch in Rep 4. Die positive Progression zu Rep 5 zeigt gutes Pacing-Lernen innerhalb der Session.
+
+### 💡 Empfehlungen für nächstes Mal
+
+1. **Power-Cap strikt einhalten**: Ersten 30s jeder Rep bewusst 300-320W, dann steigern auf max 350W
+2. **Gleichmäßiger starten**: Nicht über 350W in den ersten 60s einer Rep
+3. **Bei Einbruch Tempo reduzieren statt stehen**: Lieber 250W gleichmäßig als 350W mit Pause
+4. **Schnellerer Ramp-up**: Erste 20s aggressiver in HR-Zone kommen (Trittfrequenz erhöhen am Start)
+
+---
+
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
