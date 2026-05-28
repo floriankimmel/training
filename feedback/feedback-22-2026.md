@@ -64,6 +64,80 @@ Sehr solider Recovery Run mit exzellenter Zonendisziplin. Abzug für Überziehun
 
 ---
 
+## 2026-05-28 - Intervalle 5x3min Z4 - Donnerstag Analyse
+
+**Geplant**: 5x3min @ Z4 (160-172bpm) mit 2:30min Z1 Trabpause. 10min WU/CD. Pace ~5:00-5:15/km.
+**Tatsächliche Ausführung**: 48:00min Moving Time, 7.81km, Avg HR 139bpm, Max HR 174bpm, Avg Pace 6:08/km, 22°C
+
+### 🎯 **Herzfrequenz-Analyse**
+
+| Intervall | Ziel-HR | Avg HR (steady) | Max HR | Time-in-Z4 (steady) |
+|-----------|---------|-----------------|--------|---------------------|
+| 1 | 160-172 | ~163 | 170 | ~100% nach Ramp-up |
+| 2 | 160-172 | ~168 | 172 | ~100% nach Ramp-up |
+| 3 | 160-172 | ~168 | 173 | ~100% nach Ramp-up |
+| 4 | 160-172 | ~167 | 171 | ~100% nach Ramp-up |
+| 5 | 160-172 | ~165 | 167 | ~100% nach Ramp-up |
+
+**Ramp-up Phase**: Jedes Intervall benötigt ~30-50s bis HR in Z4 ankommt (normal bei 3min-Intervallen). Ab Steady-State durchgehend im Zielbereich.
+
+**Recovery-Phasen**: HR fällt zuverlässig auf 115-125bpm zurück → gute Erholung zwischen Intervallen ✅
+
+**Zonenverteilung gesamt** (Sekunden):
+- Low Intensity (Warmup/Cooldown/Recovery): 1861s
+- Medium Intensity: 287s (Ramp-up/Übergänge)
+- High Intensity (Z4 Arbeit): 712s ≈ 5x ~142s steady Z4
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+| Intervall | Pace | Speed (m/s) |
+|-----------|------|-------------|
+| 1 | 4:16/km | 3.90 |
+| 2 | 4:09/km | 4.01 |
+| 3 | 4:14/km | 3.93 |
+| 4 | 4:13/km | 3.95 |
+| 5 | 4:22/km | 3.81 |
+
+**Geplant war 5:00-5:15/km** → tatsächlich ~4:09-4:22/km = **45-55 Sekunden/km schneller als geplant!**
+
+Da das Workout HR-gesteuert war (Ziel: Z4 per Herzfrequenz), ist die schnellere Pace ein positives Fitness-Signal: Die aerobe Kapazität erlaubt Z4-HR bei deutlich höherem Tempo als angenommen.
+
+**Pace-Drift**: Intervall 5 war ~13s/km langsamer als Intervall 2 → leichte Ermüdung, aber HR blieb kontrolliert bei ~165 (unterer Z4). Gutes Pacing-Management.
+
+### 🏆 **Was war hervorragend**
+
+- **Exzellente HR-Zielzone**: Alle 5 Intervalle im Steady-State durchgehend in Z4 (160-172)
+- **Konsistente Ausführung**: HR-Peaks bei 170-173 (nie über 174) → kein Überschießen
+- **Recovery-Qualität**: HR fällt in jeder Pause zuverlässig auf ~115-120 → gute kardiovaskuläre Erholung
+- **Pace zeigt Fitness**: 4:09-4:22/km bei Z4-HR deutlich besser als geschätzte 5:00-5:15
+- **Flaches Profil**: Nur 11m Anstieg → Plan befolgt ("flach laufen")
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Pace-Angabe im Plan anpassen**: 5:00-5:15/km ist deutlich zu konservativ. Realistisch: 4:10-4:25/km für Z4
+- **Intervall 5 leichter Abfall**: Speed 3.81 vs 4.01 (Int. 2). Nicht kritisch da HR kontrolliert, aber Tendenz zur Ermüdung erkennbar
+- **Warmup-HR**: Avg 127bpm im Warmup (Ziel 119-129) → oberer Rand, könnte etwas entspannter starten
+
+### 📈 **Progression vs. Previous Sessions**
+
+- **Power**: 229W avg gesamt, Intervalle ~330-345W → starke Leistungsabgabe
+- **Cadence**: 156 avg gesamt, ~179-183 in Intervallen → gute Frequenzerhöhung bei Tempo
+- **Running Effectiveness**: 0.8 → solider Wert
+- **VO2max Schätzung**: 42.12 (aus dieser Session)
+
+### 🎯 **Bewertung: A-**
+
+Hervorragend ausgeführtes Intervall-Training. HR-Zieldisziplin nahezu perfekt, Recovery-Management stark, keine Überbelastung. Leichter Abzug für den konservativen Start (Int. 1 etwas unter Ziel-Speed) und den Pace-Drift im letzten Intervall. Die deutlich schnellere Pace vs. Plan zeigt, dass die Pace-Schätzung im Trainingsplan aktualisiert werden sollte.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+1. **Pace-Ziel für Z4-Intervalle auf 4:10-4:25/km aktualisieren** - das reflektiert die aktuelle Fitness realistischer
+2. **Erstes Intervall mutiger starten**: HR darf schneller in Z4 kommen, 30s Anlaufzeit genügt
+3. **Bei 5. Intervall**: Bewusst Pace halten statt nachlassen - Cadence hochhalten als Stütze
+4. **Nächste Progression**: 5x4min oder 6x3min bei gleichem HR-Target
+
+---
+
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
