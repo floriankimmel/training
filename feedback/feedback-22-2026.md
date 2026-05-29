@@ -138,6 +138,67 @@ Hervorragend ausgeführtes Intervall-Training. HR-Zieldisziplin nahezu perfekt, 
 
 ---
 
+## 2026-05-29 - Recovery Run - Freitag Analyse
+
+**Geplant**: Recovery Run, 30min, Z1 only (120-135bpm). Beine lockern nach Intervallen.
+**Tatsächliche Ausführung**: 30:04min Moving Time, 4.42km, Avg HR 123bpm, Max HR 137bpm, Avg Pace 6:48/km
+
+### 🎯 **Herzfrequenz-Analyse**
+
+| Metrik | Ziel | Ist |
+|--------|------|-----|
+| Zielzone | 120-135 bpm (Z1) | Avg 123 bpm ✅ |
+| Max HR | ≤135 bpm | 137 bpm ⚠️ (minimal) |
+| Zeit in Aktive Erholung (<124) | - | 935s (52%) |
+| Zeit in Z1 (125-142) | ~100% | 869s (48%) |
+| Zeit in Z2+ | 0% | 0s ✅ |
+
+**Bewertung**: Exzellente HR-Disziplin. Durchschnitt 123bpm liegt sogar im unteren Bereich der Zielzone. Max 137bpm nur kurz überschritten (2bpm über Ziel), vernachlässigbar. Null Zeit in mittlerer oder hoher Intensität. Deutliche Verbesserung gegenüber dem Recovery Run am Mittwoch (131bpm avg, 147bpm max).
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+| Metrik | Wert |
+|--------|------|
+| Avg Pace | 6:48/km |
+| Schnellste Pace | 5:29/km (kurzes Segment) |
+| Cadence | 172 spm avg |
+
+Pace war gleichmäßig und angemessen langsam für einen Recovery Run. Keine Tempoausreißer die HR-Spikes verursacht hätten.
+
+### 🏆 **Was war hervorragend**
+
+- **Perfekte Dauer**: Exakt 30min wie geplant (30:04) – keine Überlänge
+- **HR-Disziplin drastisch verbessert**: 123bpm avg vs 131bpm am Mittwoch
+- **Kein Überschreiten**: Null Zeit in Z2+, kein "schleichendes Tempo-Erhöhen"
+- **Max HR kontrolliert**: 137bpm vs 147bpm am Mittwoch – 10 Schläge weniger
+
+### ⚠️ **Verbesserungsbereiche**
+
+- Praktisch keine – dies ist ein mustergültig ausgeführter Recovery Run
+- Einziger Punkt: Die ersten ~70s zeigen HR-Anstieg 82→115 (normaler Warm-Start), danach stabil
+
+### 📈 **Progression vs. Previous Sessions**
+
+| Metrik | Mi 27.05 | Fr 29.05 | Verbesserung |
+|--------|----------|----------|--------------|
+| Avg HR | 131 bpm | 123 bpm | -8 bpm ✅ |
+| Max HR | 147 bpm | 137 bpm | -10 bpm ✅ |
+| Dauer | 34:30 (zu lang) | 30:04 (perfekt) | ✅ |
+| Z2+ Zeit | 48s | 0s | ✅ |
+
+Klare Lernkurve bei Recovery-Runs. Die Empfehlungen vom Mittwoch wurden vollständig umgesetzt.
+
+### 🎯 **Bewertung: A+**
+
+Vorbildliche Ausführung. Alle Parameter im Zielbereich oder besser. Perfekte Regenerationsdisziplin.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+- Weiter so – dieses Ausführungsniveau als Standard für Recovery Runs beibehalten
+- Subjektives Gefühl nach dem Lauf beachten: Fühlen sich die Beine tatsächlich lockerer an?
+
+---
+
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
