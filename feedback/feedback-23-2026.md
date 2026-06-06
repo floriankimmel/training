@@ -188,8 +188,62 @@ Mustergültiger Abschluss-Lauf. "Bewusst langsam" voll umgesetzt. Einziger Punkt
 
 ---
 
+---
+
+## 2026-06-06 - Recovery Run - Samstag Analyse
+
+**Geplant**: Recovery Run 30min (optional) — nur wenn Beine sich gut anfühlen. Sonst REST. Open Intensity, ~5km/1800s.
+**Tatsächliche Ausführung**: 23min Moving Time / 31.7min Elapsed, 2.39km, Avg HR 102bpm, Max HR 120bpm, Avg Pace 9:38 min/km
+**Persönliches Empfinden**: Mit den Kindern gelaufen — daher viele Gehpausen und niedrige Pace. Kein Zeichen schwerer Beine, sondern bewusster Familienlauf.
+
+### 🎯 **Herzfrequenz-Analyse**
+
+- Avg HR: 102 bpm — weit unter aktiver Erholung (<124 bpm)
+- Max HR: 120 bpm — nie auch nur Z1 erreicht
+- 100% der Zeit in Zone 0 (Aktive Erholung)
+- HR-Verlauf: Start bei 89bpm, langsamer Anstieg auf ~118-120 in Laufphasen, Rückgang auf 87-93 in Gehpausen
+- **Exzellente HR-Kontrolle** für einen Recovery Run
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- Avg Pace: 9:38 min/km (Moving Time)
+- Viele Gehpausen: ~430s Walking Duration (7+ Minuten von 32 Minuten)
+- Speed-Profil zeigt klares Run/Walk-Pattern: Laufphasen ~1.8-2.5 m/s, Gehphasen ~0.8-1.3 m/s
+- Mehrere komplette Stopps (null-Werte in Speed-Daten)
+- Für einen Recovery Run absolut angemessen
+
+### 🏆 **Was war hervorragend**
+
+- **Perfekte Recovery-Disziplin**: HR nie über 120bpm — wirklich regenerativ
+- **Kluge Entscheidung**: Trotz "optional" draußen gewesen, aber extrem konservativ gehalten
+- **Walk/Run-Strategie**: Intelligent Gehpausen eingebaut statt durchzulaufen und HR hochzutreiben
+- **Kurze Distanz**: Nur 2.4km statt geplanter 5km — Ego zurückgestellt zugunsten der Erholung
+
+### ⚠️ **Verbesserungsbereiche**
+
+- Keine echten Kritikpunkte — mit Kindern laufen ist perfekte Active Recovery
+- Null-Speed-Werte = Kinderpausen, nicht Erschöpfung
+
+### 📈 **Progression vs. Previous Sessions**
+
+- Göteborg Easy Runs (Mo-Mi): Max HR 174→153→144, heute nur 120
+- Klar der konservativste Lauf der Woche
+- Nach 3 Tagen Laufen in Göteborg + Reisetag ein sinnvoller "Active Recovery" Abschluss
+
+### 🎯 **Bewertung: A**
+
+Perfekte Ausführung eines Recovery Runs. Das Ziel war Regeneration, nicht Fitness — und genau das wurde geliefert. HR durchgehend unter Z1, kurze Distanz, viele Gehpausen. Kein Ego-Lauf.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+- Familienlauf als Recovery-Option beibehalten — motiviert und regeneriert gleichzeitig
+- HR unter 124 gehalten — perfektes Recovery-Niveau
+- Nächste Woche kann mit frischen Beinen wieder mehr Struktur rein
+
+---
+
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
 
-Bisherige Woche: 3 Easy Runs in Göteborg absolviert. Exzellente Progression der HR-Kontrolle über 3 Tage (174→153→144 Max). Tag 3 sogar zu konservativ (unter Z1), aber als bewusster Abschluss vertretbar. GPS-Tracking-Problem seit Tag 2 ungeklärt.
+Bisherige Woche: 3 Easy Runs in Göteborg (Mo-Mi) + 1 Recovery/Familienlauf (Sa) in Wien. Exzellente HR-Progression über die Woche (174→153→144→120 Max). Konsequent aerob geblieben, keine Überlastung. GPS-Problem Tag 2+3 geklärt: Komoot-Export liefert keine genauen GPS-Daten. Solide Regenerationswoche.
