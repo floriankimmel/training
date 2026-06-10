@@ -76,3 +76,59 @@ Exzellente Ausführung der Hill Repeats. Alle Intervalle konsistent in Z4, keine
 3. **Progression**: Nächste Session evtl. 6x3min oder 5x3:30min bei gleichem HR-Ziel
 
 ---
+
+## 2026-06-09 - Recovery Run 30min - Dienstag Analyse
+
+**Geplant**: Recovery Run 30min — HR 122-132 bpm, ~4.6km
+**Tatsächliche Ausführung**: 5.51km in 33:09min (Moving Time), Ø HR 130, Max HR 142, Ø Pace 6:01/km, Ø Power 242W
+
+### 🎯 **Herzfrequenz-Analyse**
+
+| Metrik | Wert |
+|--------|------|
+| Ziel-Zone | 122-132 bpm |
+| Ø HR (ohne Warmup) | 130.3 bpm |
+| Zeit in Zone (122-132) | ~19 min (66%) |
+| Zeit über Zone (>132) | ~9.3 min (33%) |
+| Max HR | 142 bpm |
+
+Die Durchschnitts-HR von 130 bpm liegt perfekt im Zielbereich. Allerdings waren ~33% der Zeit über dem Target. Besonders in der zweiten Hälfte stieg die HR auf 135-142 bpm — vermutlich durch Anstiege (46 Hm+) und/oder leicht zu schnelles Tempo.
+
+### ⏱️ **Pace-Analyse**
+
+| Metrik | Wert |
+|--------|------|
+| Ø Pace | 6:01 min/km |
+| Geplante Distanz | 4.6 km |
+| Tatsächliche Distanz | 5.51 km |
+| Dauer geplant vs. tatsächlich | 30:00 vs. 33:09 |
+
+Pace war für einen Recovery Run angemessen. Du bist ~900m weiter gelaufen als geplant (5.51 vs 4.6km) und 3min länger (33 vs 30min). Das erklärt teilweise die höhere HR in der zweiten Hälfte.
+
+### 🏆 **Was war hervorragend**
+
+- Durchschnitts-HR exakt im Zielbereich (130 bpm)
+- Gleichmäßige Kadenz (Ø 174 spm)
+- Guter Recovery-Charakter beibehalten — kein übermäßiges Tempobolzen
+
+### ⚠️ **Verbesserungsbereiche**
+
+- HR-Drift in der 2. Hälfte (bis 142 bpm) — für Recovery etwas hoch
+- Distanz/Dauer überzogen: Plan war 30min/4.6km, gelaufen 33min/5.5km
+- Bei Anstiegen bewusster Tempo rausnehmen um HR unter 132 zu halten
+
+### 📈 **Progression vs. Previous Sessions**
+
+Verglichen mit dem harten Hill Repeats-Training am Vortag (Ø HR 144, 7.1km, 233Hm+) war dies ein angemessener Recovery-Tag. Die Beine dürften nach den Bergwiederholungen noch müde gewesen sein.
+
+### 🎯 **Bewertung: B+**
+
+Solide Recovery-Einheit mit guter Grundintention. Die HR-Kontrolle war in der ersten Hälfte ausgezeichnet, in der zweiten etwas zu locker. Distanz/Dauer-Überschreitung bei Recovery-Runs nicht ideal für die Regeneration.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+- Strikte Zeitlimit bei 30min einhalten — Timer stellen
+- Bei Anstiegen auf HR achten und bewusst Tempo rausnehmen wenn >132
+- Nach harten Vortagseinheiten lieber kürzer als länger laufen
+
+---
