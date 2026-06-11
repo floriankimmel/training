@@ -169,7 +169,7 @@ export default function (pi: ExtensionAPI) {
     await loadWeekData(ctx.cwd);
 
     if (cachedDays.length === 0) {
-      ctx.ui.setHeader(undefined);
+      ctx.ui.setWidget("weekly-view", undefined);
       return;
     }
 
@@ -179,9 +179,9 @@ export default function (pi: ExtensionAPI) {
     const weekStr = String(weekNum).padStart(2, "0");
     const todayStr = today.toISOString().slice(0, 10);
 
-    ctx.ui.setHeader((_tui: any, theme: any) => {
+    ctx.ui.setWidget("weekly-view", (_tui: any, theme: any) => {
       return {
-        render(_width: number): string[] {
+        render(): string[] {
           const lines: string[] = [];
 
           const header = theme.fg(
@@ -237,13 +237,12 @@ export default function (pi: ExtensionAPI) {
           }
 
           lines.push(theme.fg("dim", `  ↩ /week to view feedback`));
-          lines.push("");
 
           return lines;
         },
         invalidate() {},
       };
-    });
+    }, { placement: "belowEditor" });
   }
 
   // Interactive day picker command
@@ -403,6 +402,12 @@ export default function (pi: ExtensionAPI) {
 
   pi.on("session_start", async (_event, ctx) => {
     await refreshWidget(ctx);
+
+    // Hide built-in footer (cwd, costs, MCP status)
+    ctx.ui.setFooter((_tui, _theme, _footerData) => ({
+      render(_width: number): string[] { return []; },
+      invalidate() {},
+    }));
   });
 
   pi.on("tool_result", async (event, ctx) => {
