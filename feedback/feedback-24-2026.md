@@ -214,3 +214,83 @@ Exzellente Intervall-Session. 82% Time-in-Zone bei 5×4min ist herausragend. Sau
 4. **Nächste Progression**: 5×4:30min oder 6×4min bei gleichem HR-Ziel
 
 ---
+
+## 2026-06-13 - Recovery Run 30min - Samstag Analyse
+
+**Geplant**: Recovery Run 30min — HR 122-132 bpm, ~4.5km
+**Tatsächliche Ausführung**: 4.47km in 30:02min (Moving Time), 81 Hm+, Ø HR 122, Max HR 134, Ø Pace 6:43/km, Ø Power 218W
+
+### 🎯 **Herzfrequenz-Analyse**
+
+| Metrik | Wert |
+|--------|------|
+| Ziel-Zone | 122-132 bpm |
+| Ø HR | 122 bpm |
+| Zeit in Zone (122-132) | 16:20 min (54%) |
+| Zeit unter Zone (<122) | 13:07 min (43%) |
+| Zeit über Zone (>132) | 0:42 min (2%) |
+| Max HR | 134 bpm |
+
+**Ø HR exakt an unterer Zielgrenze — perfekte Intensitätskontrolle!** Max HR nur 2 bpm über Ziel-Obergrenze.
+
+Die 43% unter Zone erklären sich durch:
+- **Warmup** (0-2:12min): HR-Aufbau von 79→122 bpm
+- **Bergauf-Gehpassage** (~15-24min): Steiler Anstieg (+30m über 140s), Geschwindigkeit auf 1.68-1.97 m/s gedrosselt, HR fiel auf 110-114 bpm
+
+### ⏱️ **Pace/Profil-Analyse**
+
+| Abschnitt | Pace | Terrain |
+|-----------|------|---------|
+| 0-10min | 6:48/km | Flach/leicht wellig (174-189m) |
+| 10-20min | 7:23/km | Deutlich bergauf (190→221m) |
+| 20-30min | 5:56/km | Bergab zurück (221→174m) |
+
+Hügeliges Profil (81 Hm+ auf 4.5km!) für Recovery Run. Speed sank bergauf auf Gehtempo (9:55/km), bergab zügiger (5:19/km) — beides mit niedrigem HR.
+
+### 🏆 **Was war hervorragend**
+
+- **Ø HR = 122 bpm** — exakt an unterer Zielgrenze, deutlich besser als letzter Recovery Run (130 bpm am 09.06.)
+- **Max HR nur 134** — vs. 142 letzte Woche! Hervorragende Disziplin
+- **Kein Überpacen**: Trotz Bergab-Passage nie in höhere Zonen geraten
+- **Perfekte Dauer**: 30:02 vs. Plan 30:00 — letztes Mal 33min überzogen, jetzt exakt eingehalten
+- **Distanz passend**: 4.47km vs. Plan 4.5km ✓
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Routenwahl**: 81 Hm+ für Recovery Run unnötig hügelig. Erzwingt Gehpassagen bergauf (→HR fällt unter Zone) und schnellere Pace bergab
+- **Gehtempo bergauf**: ~10min/km im Anstieg — für Recovery akzeptabel, aber flache Route würde gleichmäßigere HR-Belastung im Zielbereich ermöglichen
+- **HR-Verteilung bimodal**: Entweder unter Zone (Gehen/bergab) oder in Zone — idealer wäre durchgängig 122-132
+
+### 📈 **Progression vs. Recovery Run (09.06.)**
+
+| Metrik | 09.06. | 13.06. | Trend |
+|--------|--------|--------|-------|
+| Ø HR | 130 bpm | 122 bpm | ✅ -8 bpm |
+| Max HR | 142 bpm | 134 bpm | ✅ -8 bpm |
+| Zeit über Zone | 33% | 2% | ✅ Massiv verbessert |
+| Dauer vs. Plan | +3:09 überzogen | +0:02 | ✅ Exakt |
+| Distanz vs. Plan | +910m | -30m | ✅ Passend |
+
+**Riesiger Fortschritt!** Vom B+ (zu schnell/lang) zum kontrollierten Recovery Run. Die Lektion aus dem letzten Feedback wurde umgesetzt.
+
+### 🎯 **Bewertung: A-**
+
+Hervorragende Verbesserung gegenüber letztem Recovery Run. HR-Kontrolle exzellent, Dauer/Distanz perfekt eingehalten. Leichter Abzug für suboptimale Routenwahl (zu hügelig → erzwingt Gehphasen und bimodale HR-Verteilung).
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+1. **Flachere Route wählen**: Max 20-30 Hm für Recovery Runs → gleichmäßigere HR-Verteilung
+2. **Aktuelle HR-Disziplin beibehalten**: Der Fortschritt von 130→122 Ø zeigt exzellentes Lernen
+3. **Bei Anstiegen**: Wenn Route hügelig sein muss, sehr langsam joggen statt gehen → HR bleibt eher in Zone
+
+**Detailed Metrics:**
+- HR Range: 79-134 bpm (Arbeitsbereich 118-132)
+- Pace Stability: 5:56-7:23/km (bergabbedingte Varianz)
+- Elevation: 81m↑ / 82m↓ (hügelig)
+- Cadence: Ø 172 spm (Max 187)
+- Power: Ø 218W (Max 330)
+- Calories: 363 kcal
+- Ground Contact: Ø 264ms
+- Temperatur: 21°C
+
+---
