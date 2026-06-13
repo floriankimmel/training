@@ -1,14 +1,10 @@
 {
-  "mcpServers": {
-    "tredict": {
-      "url": "https://www.tredict.com/api/mcp/v2",
-      "headers": {
-        "Authorization": "Bearer $env:TREDICT_API_KEY"
-      }
-    },
-    "todoist": {
-      "url": "https://ai.todoist.net/mcp",
-      "auth": "oauth"
+    "mcpServers": {
+        "tredict": {
+            "url": "https://www.tredict.com/api/mcp/v2",
+            "headers": {
+                "Authorization": "Bearer $env:TREDICT_API_KEY"
+            }
+        }
     }
-  }
 }

@@ -391,14 +391,6 @@ export default function (pi: ExtensionAPI) {
     },
   });
 
-  // Keyboard shortcut for quick access
-  pi.registerShortcut("ctrl+w", {
-    description: "View weekly training feedback",
-    handler: async (ctx) => {
-      // Trigger the /week command via sendUserMessage
-      pi.sendUserMessage("/week", { deliverAs: "followUp" });
-    },
-  });
 
   pi.on("session_start", async (_event, ctx) => {
     await refreshWidget(ctx);
