@@ -294,3 +294,105 @@ Hervorragende Verbesserung gegenüber letztem Recovery Run. HR-Kontrolle exzelle
 - Temperatur: 21°C
 
 ---
+
+## 2026-06-14 - Long Run 65min - Sonntag Analyse
+
+**Geplant**: Long Run 65min — 10min Warmup (HR 125-135), 55min Hauptteil (HR 131-141)
+**Tatsächliche Ausführung**: 10.31km in 65:28min (Moving Time), 107 Hm+, Ø HR 128, Max HR 141, Ø Pace 6:21/km, Ø Power 226W
+
+### 🎯 **Herzfrequenz-Analyse**
+
+| Metrik | Wert |
+|--------|------|
+| Ziel-Zone Hauptteil | 131-141 bpm |
+| Ø HR gesamt | 128 bpm |
+| Max HR | 141 bpm |
+| Zeit < 125 bpm | 892s (23%) |
+| Zeit 125-142 bpm (Z1) | 3036s (77%) |
+| Zeit > 142 bpm | 0s (0%) |
+
+**Beobachtung:** Ø HR 128 liegt 3 bpm UNTER unterer Zielgrenze (131) des Hauptteils. Max HR exakt bei 141 = obere Zielgrenze nie überschritten.
+
+**Detailanalyse aus Zeitserie (Sample-Size 14s):**
+
+**Warmup (0-10min):**
+- HR-Aufbau: 74→136 bpm, progressive Steigerung ✓
+- Kurzer Anstieg auf 131-136 am Ende des Warmups (Bergpassage)
+- Ziel 125-135: ✓ gut erreicht
+
+**Hauptteil (10-65min):**
+- Großteil der Zeit bei 125-132 bpm (untere Z1)
+- Segmente mit 131-141: primär bei den Anstiegen und letztem Drittel
+- Bergauf-Phase (ab ~25min): HR steigt auf 131-135, Speed sinkt auf 2.1-2.5 m/s
+- Abstieg: HR fällt auf 127-131, Speed steigt auf 3.0-3.5 m/s
+- Finale Phase: HR 131-137 (endlich im Zielbereich bei gleichmäßigem Terrain)
+
+**Geschätzte Time-in-Zone (131-141 bpm) im Hauptteil:** ~35-40% — deutlich unter optimal
+
+### ⏱️ **Pace-Analyse**
+
+| Abschnitt | Pace | Terrain |
+|-----------|------|---------|
+| Warmup (0-10min) | ~6:20/km | Flach (172m) |
+| Flachstück (10-25min) | ~6:05/km | Leicht wellig |
+| Bergauf (25-45min) | ~7:00-7:30/km | Anstieg auf 249m (+79m) |
+| Bergab (45-55min) | ~5:10-5:30/km | Abstieg zurück |
+| Flach zurück (55-65min) | ~6:00/km | Flach (172m) |
+
+- Ø Pace: 6:21/km (381 s/km) — angemessen für Long Run
+- Pace-Variabilität durch Höhenprofil bedingt: 5:10-7:30/km Bandbreite
+- Bergauf bewusst langsamer → HR trotzdem nur 131-135 statt höher
+
+### 🏆 **Was war hervorragend**
+
+- **Null Sekunden über Z1**: Perfekte Obergrenze-Kontrolle, nie über 141 bpm
+- **Dauer exakt eingehalten**: 65:28 vs. Plan 65:00 ✓
+- **Distanz passend**: 10.31km vs. Plan 10.7km (≈ -4%, akzeptabel bei Hügeln)
+- **Gleichmäßige Kadenz**: Ø 176 spm — guter Rhythmus durchgehend
+- **Kein Überpacen bergab**: Trotz 3.0-3.5 m/s blieb HR unter 132
+- **Recovery vom Donnerstags-Intervall**: Gut erholt — keine auffälligen Ermüdungszeichen
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **HR deutlich unter Ziel**: Ø 128 vs. Ziel 131-141. Nur ~35-40% der Hauptteil-Zeit tatsächlich in Zielzone
+- **Zu konservatives Tempo im Flachen**: Bei flachen Abschnitten 6:00-6:20/km → HR nur 125-130. Etwas schneller (5:45-6:00) würde HR auf 131-135 bringen
+- **Höhenprofil suboptimal für HR-Steuerung**: 107 Hm+ erzwingen Pace-Anpassungen die HR-Variabilität erhöhen. Flachere Route = gleichmäßigere HR im Zielbereich
+- **Bergab zu schnell für HR-Ziel**: Speed 3.0-3.5 m/s bergab = Schwerkraft zieht, aber HR fällt unter Ziel
+
+### 📈 **Progression & Kontext**
+
+**Wochenbelastung W24:**
+- Mo: Hill Repeats 5×3min Z4 (A-)
+- Di: Recovery Run 30min (B+)
+- Do: Intervalle 5×4min Z4 (A)
+- Sa: Recovery Run 30min (A-)
+- So: Long Run 65min ← heute
+
+Guter Wochenabschluss. Nach zwei harten Z4-Sessions und zwei Recovery-Runs war die niedrigere Intensität beim Long Run möglicherweise vom Körper gewollt — leicht eingebremst durch kumulative Fatigue. HR max 141 (nie höher!) deutet auf konservativen Ansatz hin.
+
+### 🎯 **Bewertung: B+**
+
+Solider Long Run mit exzellenter Oberzonen-Kontrolle und perfekter Dauer/Distanz. Abzug für zu niedrige HR-Intensität — das Ziel 131-141 wurde größtenteils nicht erreicht. Für einen "Long Run" ist konservativ besser als zu hart, aber 8 bpm unter Zielzentrum ist etwas zu viel Zurückhaltung.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+1. **Tempo im Flachen anheben**: 5:45-6:00/km statt 6:15-6:20/km → sollte HR auf 131-135 bringen
+2. **Flachere Route wählen**: Max 40-50 Hm für Long Runs → gleichmäßigere HR im Zielbereich
+3. **Nach 10min Warmup HR checken**: Wenn unter 130, Tempo leicht steigern
+4. **Positive Split akzeptabel**: Lieber erste Hälfte bei 129-131, zweite Hälfte bei 133-137 durch natürlichen Drift
+
+**Detailed Metrics:**
+- HR Range: 74-141 bpm (Arbeitsbereich 125-137)
+- Pace Stability: 5:10-7:30/km (höhenbedingt variabel)
+- Elevation: 107m↑ / 111m↓ (signifikant hügelig)
+- Cadence: Ø 176 spm (Max 218)
+- Power: Ø 226W (Max 385)
+- Ground Contact: Ø 257ms
+- Calories: 807 kcal
+- Temperatur: 20°C (ideal)
+- Inferred Feel: 7/10
+- Energy: Good
+- Legs: Good (frisch genug nach Sa Recovery)
+- Effort: Easy/Moderate
+
+---
