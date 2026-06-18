@@ -15,13 +15,71 @@ export default function ChatModal() {
 
   useEffect(() => {
     const handler = () => setIsOpen(prev => !prev);
+    const msgHandler = (e: Event) => {
+      const detail = (e as CustomEvent<{ message: string; autoSend?: boolean }>).detail;
+      if (detail?.message) {
+        if (detail.autoSend) {
+          // Auto-submit: add as user message and send immediately
+          const userMessage = detail.message;
+          setMessages(prev => [...prev, { role: 'user', content: userMessage }]);
+          setIsLoading(true);
+          setIsOpen(true);
+          fetch('/api/chat', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message: userMessage, history: [] }),
+          }).then(async (response) => {
+            if (response.ok && response.body) {
+              const reader = response.body.getReader();
+              const decoder = new TextDecoder();
+              let assistantMsg = '';
+              setMessages(prev => [...prev, { role: 'assistant', content: '' }]);
+              while (true) {
+                const { done, value } = await reader.read();
+                if (done) break;
+                assistantMsg += decoder.decode(value, { stream: true });
+                setMessages(prev => [
+                  ...prev.slice(0, -1),
+                  { role: 'assistant', content: assistantMsg },
+                ]);
+              }
+              if (!assistantMsg.trim()) {
+                setMessages(prev => [
+                  ...prev.slice(0, -1),
+                  { role: 'assistant', content: '(no response)' },
+                ]);
+              }
+            } else {
+              setMessages(prev => [...prev, { role: 'assistant', content: '❌ Error connecting to pi' }]);
+            }
+          }).catch(() => {
+            setMessages(prev => [...prev, { role: 'assistant', content: '❌ Connection failed.' }]);
+          }).finally(() => setIsLoading(false));
+        } else {
+          setInput(detail.message);
+          setIsOpen(true);
+        }
+      } else {
+        setIsOpen(true);
+      }
+    };
     document.addEventListener('toggle-chat', handler);
-    return () => document.removeEventListener('toggle-chat', handler);
+    document.addEventListener('open-chat-with-message', msgHandler);
+    return () => {
+      document.removeEventListener('toggle-chat', handler);
+      document.removeEventListener('open-chat-with-message', msgHandler);
+    };
   }, []);
 
   useEffect(() => {
     if (isOpen) {
-      setTimeout(() => inputRef.current?.focus(), 100);
+      setTimeout(() => {
+        inputRef.current?.focus();
+        // Move cursor to end of pre-filled input
+        if (inputRef.current && input) {
+          inputRef.current.selectionStart = inputRef.current.value.length;
+        }
+      }, 100);
     }
   }, [isOpen]);
 

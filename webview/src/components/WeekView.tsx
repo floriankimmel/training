@@ -87,6 +87,13 @@ export default function WeekView({ weekData, feedbackData }: Props) {
         e.preventDefault();
         setModalOpen(true);
       }
+      if (e.key === 'f' && selectedIndex !== null) {
+        e.preventDefault();
+        const session = selectableSessions[selectedIndex];
+        document.dispatchEvent(new CustomEvent('open-chat-with-message', {
+          detail: { message: `Give me feedback for the session on ${session.date}`, autoSend: true }
+        }));
+      }
       if (e.key === 't') {
         e.preventDefault();
         // Check if today is in this week (any session, including rest)
