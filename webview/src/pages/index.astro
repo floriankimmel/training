@@ -1,0 +1,74 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getAvailableWeeks, parseWeekFile, parseFeedbackFile, getWeekDates } from '../lib/parseTraining';
+import WeekView from '../components/WeekView';
+import ChatModal from '../components/ChatModal';
+
+// Determine which week to show (default: latest)
+const weeks = getAvailableWeeks();
+const urlWeek = Astro.url.searchParams.get('week');
+const urlYear = Astro.url.searchParams.get('year');
+
+let currentWeek: { week: number; year: number };
+if (urlWeek && urlYear) {
+  currentWeek = { week: parseInt(urlWeek), year: parseInt(urlYear) };
+} else {
+  currentWeek = weeks[weeks.length - 1];
+}
+
+const weekData = parseWeekFile(currentWeek.week, currentWeek.year);
+const feedbackData = parseFeedbackFile(currentWeek.week, currentWeek.year);
+const dates = getWeekDates(currentWeek.week, currentWeek.year);
+
+// Find prev/next week
+const currentIdx = weeks.findIndex(w => w.week === currentWeek.week && w.year === currentWeek.year);
+const prevWeek = currentIdx > 0 ? weeks[currentIdx - 1] : null;
+const nextWeek = currentIdx < weeks.length - 1 ? weeks[currentIdx + 1] : null;
+---
+
+<Layout title={`Woche ${currentWeek.week} - Training`}>
+  <!-- Week Navigation -->
+  <div class="flex items-center justify-between mb-6">
+    <div class="flex items-center gap-4">
+      {prevWeek && (
+        <a data-nav="prev" href={`/?week=${prevWeek.week}&year=${prevWeek.year}`} class="text-slate-400 hover:text-white text-xl">◀</a>
+      )}
+      <h1 class="text-2xl font-bold">
+        Woche {currentWeek.week}
+        <span class="text-slate-400 text-lg ml-2">{dates.start} - {dates.end}</span>
+      </h1>
+      {nextWeek && (
+        <a data-nav="next" href={`/?week=${nextWeek.week}&year=${nextWeek.year}`} class="text-slate-400 hover:text-white text-xl">▶</a>
+      )}
+    </div>
+    <div class="text-sm text-slate-500">
+      <kbd class="bg-slate-700 px-2 py-0.5 rounded text-xs">j</kbd>/<kbd class="bg-slate-700 px-2 py-0.5 rounded text-xs">k</kbd> select
+      <kbd class="bg-slate-700 px-2 py-0.5 rounded text-xs ml-2">o</kbd> open
+      <kbd class="bg-slate-700 px-2 py-0.5 rounded text-xs ml-2">h</kbd>/<kbd class="bg-slate-700 px-2 py-0.5 rounded text-xs">l</kbd> week
+      <span class="ml-3"><kbd class="bg-slate-700 px-2 py-0.5 rounded text-xs">⌘K</kbd> Chat</span>
+    </div>
+  </div>
+
+  {weekData && (
+    <>
+      {weekData.philosophy && (
+        <div class="bg-slate-800/50 border border-slate-700 rounded-lg px-4 py-3 mb-6 text-sm text-slate-300 italic">
+          {weekData.philosophy}
+        </div>
+      )}
+      <WeekView
+        client:load
+        weekData={weekData}
+        feedbackData={feedbackData}
+      />
+    </>
+  )}
+
+  {!weekData && (
+    <div class="text-center text-slate-500 py-20">
+      Keine Daten für Woche {currentWeek.week}/{currentWeek.year}
+    </div>
+  )}
+
+  <ChatModal client:load />
+</Layout>
