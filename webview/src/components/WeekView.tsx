@@ -28,6 +28,28 @@ function isToday(dateStr: string): boolean {
   return dateStr === today;
 }
 
+function isPast(dateStr: string): boolean {
+  const today = new Date().toISOString().split('T')[0];
+  return dateStr < today;
+}
+
+type SessionStatus = 'missed' | 'done' | 'upcoming' | 'today';
+
+function getSessionStatus(session: Session, hasFeedback: boolean): SessionStatus {
+  if (session.type === 'rest') return 'upcoming'; // rest days neutral
+  if (hasFeedback) return 'done';
+  if (isPast(session.date)) return 'missed';
+  if (isToday(session.date)) return 'today';
+  return 'upcoming';
+}
+
+const statusColors: Record<SessionStatus, { border: string; bg: string; text: string }> = {
+  missed: { border: 'border-l-red-500', bg: 'bg-red-900/15', text: 'text-red-400' },
+  done: { border: 'border-l-emerald-500', bg: 'bg-emerald-900/15', text: 'text-emerald-400' },
+  today: { border: 'border-l-slate-400', bg: 'bg-slate-800/60', text: 'text-slate-300' },
+  upcoming: { border: 'border-l-yellow-500', bg: 'bg-yellow-900/10', text: 'text-yellow-400' },
+};
+
 export default function WeekView({ weekData, feedbackData }: Props) {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
@@ -144,6 +166,8 @@ export default function WeekView({ weekData, feedbackData }: Props) {
           const hasFeedback = !!feedback;
           const isRest = session.type === 'rest';
           const today = isToday(session.date);
+          const status = getSessionStatus(session, hasFeedback);
+          const colors = isRest ? null : statusColors[status];
           
           return (
             <div
@@ -151,8 +175,9 @@ export default function WeekView({ weekData, feedbackData }: Props) {
               data-today={today ? 'true' : undefined}
               onClick={() => handleSessionClick(session)}
               className={`
-                border-l-4 ${typeColors[session.type]}
-                ${today ? 'bg-emerald-900/20 ring-1 ring-emerald-500/30' : 'bg-slate-800/60'}
+                border-l-4 ${colors ? colors.border : typeColors[session.type]}
+                ${today ? 'ring-1 ring-emerald-500/30' : ''}
+                ${colors ? colors.bg : 'bg-slate-800/60'}
                 rounded-r-lg px-4 py-3
                 ${!isRest ? 'cursor-pointer hover:bg-slate-700/60 transition-colors' : 'opacity-60'}
                 ${selectedSession?.session.date === session.date && session.type !== 'rest' ? 'ring-1 ring-emerald-500/50 bg-slate-700/60' : ''}
