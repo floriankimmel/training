@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import type { Session, FeedbackSession } from '../lib/parseTraining';
+import WorkoutPlanView from './WorkoutPlanView';
 
 interface Props {
   session: Session;
@@ -71,22 +72,25 @@ export default function FeedbackModal({ session, feedback, onClose }: Props) {
 
         {/* Content */}
         <div ref={scrollRef} className="px-6 py-5 overflow-y-auto flex-1">
+          {/* Planned workout always on top */}
+          <div className="mb-6">
+            <h4 className="text-xs uppercase tracking-wider text-slate-500 mb-3">Geplant</h4>
+            <WorkoutPlanView rawContent={session.rawContent} title={session.title} />
+          </div>
+
+          {/* Feedback below */}
           {feedback ? (
-            <div className="prose prose-invert prose-sm max-w-none">
-              <div
-                className="markdown-content"
-                dangerouslySetInnerHTML={{ __html: renderMarkdown(feedback.content) }}
-              />
+            <div className="border-t border-slate-700 pt-5">
+              <h4 className="text-xs uppercase tracking-wider text-slate-500 mb-3">Feedback</h4>
+              <div className="prose prose-invert prose-sm max-w-none">
+                <div
+                  className="markdown-content"
+                  dangerouslySetInnerHTML={{ __html: renderMarkdown(feedback.content) }}
+                />
+              </div>
             </div>
           ) : (
-            <div className="text-center text-slate-500 py-8">
-              <p className="text-xl mb-2">📝</p>
-              <p>Kein Feedback für diese Session</p>
-              <p className="text-xs mt-4 text-slate-600">Plan:</p>
-              <pre className="text-left text-xs bg-slate-800 p-3 rounded mt-2 whitespace-pre-wrap text-slate-300">
-                {session.rawContent}
-              </pre>
-            </div>
+            <p className="text-center text-slate-600 text-sm pt-4 border-t border-slate-700">Kein Feedback für diese Session</p>
           )}
         </div>
       </div>
