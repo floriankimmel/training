@@ -53,7 +53,7 @@ const statusColors: Record<SessionStatus, { border: string; bg: string; text: st
 export default function WeekView({ weekData, feedbackData }: Props) {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
-  const selectableSessions = weekData.sessions.filter(s => s.type !== 'rest');
+  const selectableSessions = weekData.sessions;
 
   const selectedSession = selectedIndex !== null ? (() => {
     const session = selectableSessions[selectedIndex];
@@ -69,9 +69,9 @@ export default function WeekView({ weekData, feedbackData }: Props) {
   // Auto-select today on mount if in this week
   useEffect(() => {
     const todayDate = new Date().toISOString().split('T')[0];
-    const selectableIdx = selectableSessions.findIndex(s => s.date === todayDate);
-    if (selectableIdx >= 0) {
-      setSelectedIndex(selectableIdx);
+    const idx = selectableSessions.findIndex(s => s.date === todayDate);
+    if (idx >= 0) {
+      setSelectedIndex(idx);
     }
   }, []);
 
@@ -107,7 +107,10 @@ export default function WeekView({ weekData, feedbackData }: Props) {
       }
       if (e.key === 'o' && selectedIndex !== null) {
         e.preventDefault();
-        setModalOpen(true);
+        const session = selectableSessions[selectedIndex];
+        if (session?.type !== 'rest' || findFeedbackForSession(session)) {
+          setModalOpen(true);
+        }
       }
       if (e.key === 'f' && selectedIndex !== null) {
         e.preventDefault();
@@ -151,10 +154,9 @@ export default function WeekView({ weekData, feedbackData }: Props) {
   }
 
   function handleSessionClick(session: Session) {
-    if (session.type === 'rest') return;
     const idx = selectableSessions.findIndex(s => s.date === session.date);
     setSelectedIndex(idx >= 0 ? idx : null);
-    setModalOpen(true);
+    if (session.type !== 'rest' || findFeedbackForSession(session)) setModalOpen(true);
   }
 
   return (
@@ -179,8 +181,8 @@ export default function WeekView({ weekData, feedbackData }: Props) {
                 ${today ? 'ring-1 ring-emerald-500/30' : ''}
                 ${colors ? colors.bg : 'bg-slate-800/60'}
                 rounded-r-lg px-4 py-3
-                ${!isRest ? 'cursor-pointer hover:bg-slate-700/60 transition-colors' : 'opacity-60'}
-                ${selectedSession?.session.date === session.date && session.type !== 'rest' ? 'ring-1 ring-emerald-500/50 bg-slate-700/60' : ''}
+                ${!isRest ? 'cursor-pointer hover:bg-slate-700/60 transition-colors' : 'cursor-pointer opacity-60 hover:opacity-80 transition-colors'}
+                ${selectedSession?.session.date === session.date ? 'ring-1 ring-emerald-500/50 bg-slate-700/60' : ''}
               `}
             >
               <div className="flex items-center justify-between">
