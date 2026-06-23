@@ -59,9 +59,9 @@ const { title } = Astro.props;
       }
     });
 
-    // Auto-refresh every 5 minutes (skip when chat is open)
+    // Auto-refresh every 5 minutes (skip when modal/panel is open)
     setInterval(() => {
-      if (!document.querySelector('.fixed.inset-0.z-50')) location.reload();
+      if (!document.querySelector('.fixed.inset-0')) location.reload();
     }, 5 * 60 * 1000);
 
     // Register service worker for PWA
