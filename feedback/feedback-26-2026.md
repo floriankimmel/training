@@ -98,6 +98,80 @@ Intervalle 1-5 verdienen ein klares A. Die Watch-Situation bei Intervall 6 mit H
 
 ---
 
+## 2026-06-23 - Recovery Run 30min - Dienstag Analyse
+
+**Geplant**: Recovery Run 30min – Aktive Erholung, HR strikt unter 142, Pace egal. Target HR 126-142.
+**Tatsächliche Ausführung**: 4,49 km, 30:03min Moving Time, +33m, Ø HR 121, Max HR 140, Ø Power 214W
+**Persönliches Empfinden**: (nicht angegeben – inferiert aus Daten)
+
+### 🎯 **Herzfrequenz-Analyse**
+
+**Primäres Ziel: HR strikt unter 142 bpm**
+
+| Metrik | Wert | Bewertung |
+|--------|------|-----------|
+| Ø HR | 121 bpm | ✅ Perfekt in Aktiver Erholung |
+| Max HR | 140 bpm | ✅ Unter 142-Limit geblieben! |
+| Zeit < 125 bpm (Akt. Erholung) | 1160s (64%) | Hauptanteil in tiefster Zone |
+| Zeit 125-142 bpm (Z1) | 643s (36%) | Akzeptabel für Endphase |
+| Zeit > 142 bpm | 0s (0%) | ✅ Perfekt |
+
+**HR-Verlauf**: Erste ~18min komplett unter 125 bpm. Ab Minute 18-20 langsamer Anstieg auf 125-140 durch kardialen Drift bei 28°C Außentemperatur. Letzte 3-4 Minuten bei 136-140 – absolut normaler Hitzedrift, kein Zeichen von zu hoher Intensität.
+
+**Fazit**: Hervorragende HR-Disziplin. Das 142-Limit wurde nie überschritten, trotz 28°C. Der Drift in der Schlussphase ist physiologisch normal (Dehydration + Hitze).
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- **Ø Pace**: 6:42 min/km (402 s/km)
+- **Anfangsphase**: ~7:30-8:00 min/km (bewusst sehr langsam gestartet)
+- **Mittelphase**: ~6:30-7:00 min/km (eingependelt)
+- **Schlussphase**: ~5:30-5:50 min/km (leichte Beschleunigung am Ende)
+
+Die Beschleunigung am Ende erklärt den HR-Anstieg auf 136-140. Etwas mehr Pace-Disziplin in den letzten 5min hätte HR noch tiefer gehalten – aber immer unter 142, also kein Problem.
+
+### 🏆 **Was war hervorragend**
+
+- **Perfekte HR-Disziplin**: 142-Limit nie überschritten – nach den intensiven Hill Repeats gestern genau richtig
+- **Langsamer Start**: 7:30+ min/km zeigt mentale Reife, wirklich easy zu starten
+- **Recovery-Fokus**: Ø 121 bpm = echte aktive Erholung, kein "Junk Miles" Tempo
+- **Cadence**: 171 spm bei Recovery-Pace – gute Laufökonomie beibehalten, nicht geschlurft
+- **Ausführung bei Hitze**: 28°C und trotzdem kontrolliert – gutes Hitzebewusstsein
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Endphasen-Beschleunigung**: Letzte 5 Minuten leicht schneller geworden (Pace ~5:30-5:50), was HR auf 136-140 trieb. Für optimale Recovery: letzte Minuten bewusst noch langsamer, nicht schneller.
+- **Kleiner Punkt, kein echtes Problem**: HR-Drift von 121→140 über 30min ist bei 28°C normal, aber wenn du die Beschleunigung am Ende rausnimmst, wärst du bei max ~132.
+
+### 📈 **Progression vs. Gestern**
+
+- **Gestern**: Hill Repeats, HR bis 181, 792 kcal, intensive Bergarbeit
+- **Heute**: Recovery Run, Ø HR 121, 329 kcal, perfekte Kontrastbelastung
+- **Recovery-Qualität**: Exzellente Tagesplanung. Der Körper bekommt genau die Erholung, die er nach 6×3min Z4 bergauf braucht.
+
+### 🎯 **Bewertung: A**
+
+Nahezu perfekte Ausführung eines Recovery Runs. HR-Limit eingehalten, bewusst langsames Tempo, gute Lauftechnik trotz niedriger Intensität. Die minimale Endbeschleunigung verhindert A+.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+1. **Letzte 5 Minuten**: Bewusst auf Pace achten und NICHT beschleunigen – ideal wäre, die letzten Minuten sogar noch langsamer zu laufen als den Mittelteil.
+2. **28°C-Anpassung**: Bei Hitze eher morgens oder spätabends laufen, um kardialen Drift zu minimieren.
+3. **Perfektes Recovery-Pattern**: Dieses Tempo und diese HR-Disziplin für alle Recovery Runs beibehalten!
+
+**Detailed Metrics**:
+- HR Range: 75-140 bpm (Arbeitsbereich primär 109-134)
+- Power: Ø 214W / Max 361W
+- Pace: Ø 6:42 min/km / schnellste 3:34 min/km
+- Elevation: +33m / -35m
+- Cadence: Ø 171 / Max 196 spm
+- Ground Contact Time: Ø 266ms
+- Step Length: 89 cm
+- Calories: 329 kcal
+- Temperatur: 28°C, überwiegend klar
+- Walking Duration: 28s
+
+---
+
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
