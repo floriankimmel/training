@@ -14,6 +14,20 @@ export default function PushButton() {
     }
   }, [state]);
 
+  // Shift+P global shortcut to start push
+  useEffect(() => {
+    function handleKey(e: KeyboardEvent) {
+      if (e.key === 'P' && e.shiftKey && !e.metaKey && !e.ctrlKey && !e.altKey) {
+        const tag = (e.target as HTMLElement).tagName;
+        if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+        e.preventDefault();
+        setState('pin-entry');
+      }
+    }
+    document.addEventListener('keydown', handleKey);
+    return () => document.removeEventListener('keydown', handleKey);
+  }, []);
+
   // Auto-reset success/error after 4s
   useEffect(() => {
     if (state === 'success' || state === 'error') {
