@@ -24,12 +24,14 @@ function getSessionIcon(title: string): string {
 }
 
 function isToday(dateStr: string): boolean {
-  const today = new Date().toISOString().split('T')[0];
+  const now = new Date();
+  const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
   return dateStr === today;
 }
 
 function isPast(dateStr: string): boolean {
-  const today = new Date().toISOString().split('T')[0];
+  const now = new Date();
+  const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
   return dateStr < today;
 }
 
@@ -66,12 +68,15 @@ export default function WeekView({ weekData, feedbackData }: Props) {
     return feedbackData.sessions.find(f => f.date === session.date);
   }
 
-  // Auto-select today on mount if in this week
+  // Auto-select today on mount, or first session if today not in week
   useEffect(() => {
-    const todayDate = new Date().toISOString().split('T')[0];
+    const now = new Date();
+    const todayDate = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
     const idx = selectableSessions.findIndex(s => s.date === todayDate);
     if (idx >= 0) {
       setSelectedIndex(idx);
+    } else if (selectableSessions.length > 0) {
+      setSelectedIndex(0);
     }
   }, []);
 

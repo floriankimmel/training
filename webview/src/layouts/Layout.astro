@@ -57,18 +57,19 @@ const { title } = Astro.props;
       // h = prev week, l = next week
       if (e.key === 'h' || e.key === 'H') {
         const prev = document.querySelector<HTMLAnchorElement>('[data-nav="prev"]');
-        if (prev) prev.click();
+        if (prev) { e.preventDefault(); prev.click(); return; }
       }
       if (e.key === 'l' || e.key === 'L') {
         const next = document.querySelector<HTMLAnchorElement>('[data-nav="next"]');
-        if (next) next.click();
+        if (next) { e.preventDefault(); next.click(); return; }
+      }
+      // r = manual refresh
+      if (e.key === 'r' || e.key === 'R') {
+        e.preventDefault();
+        if (!document.querySelector('.fixed.inset-0')) location.reload();
+        return;
       }
     });
-
-    // Auto-refresh every 5 minutes (skip when modal/panel is open)
-    setInterval(() => {
-      if (!document.querySelector('.fixed.inset-0')) location.reload();
-    }, 5 * 60 * 1000);
 
     // Register service worker for PWA
     if ('serviceWorker' in navigator) {
