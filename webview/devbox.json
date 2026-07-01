@@ -21,6 +21,9 @@
             ],
             "install": [
                 "bun install"
+            ],
+            "serve": [
+                "bun run build && HOST=0.0.0.0 PORT=1600 node dist/server/entry.mjs"
             ]
         }
     }
