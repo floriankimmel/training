@@ -82,6 +82,119 @@ Gute Recovery-Session mit solider Z1-Disziplin. Punktabzug für den Z3-Spike und
 
 ---
 
+## 2026-07-08 - Intervalle 5x2min Z4 - Mittwoch Analyse
+
+**Geplant**: Intervalle 5x2min Z4 — Erste Z4-Belastung seit W26! Kurze Intervalle zum Wiedereinstieg.
+- Warmup: 12min @ 119-129 bpm
+- 5× (2min Z4 @ 161-175 bpm + 2min Recovery @ 125-143 bpm)
+- Cooldown: 10min @ 119-129 bpm
+
+**Tatsächliche Ausführung**: 42:11min, 6.85km, Ø 136 bpm, Max 172 bpm
+**Persönliches Empfinden**: (nicht angegeben)
+
+**Feel**: 7/10
+**Energy**: Good
+**Legs**: Good
+**Effort**: Hard
+**Notes**: Alle 5 Intervalle absolviert, HR-Max bei 172 (unter 175-Ceiling). Positive Pace-Entwicklung über die Intervalle.
+
+### 🎯 **Herzfrequenz-Analyse (Time-in-Zone)**
+
+**Intervall #1** (2:00min @ Ziel Z4 161-175 bpm):
+- Zeit in Z4: 1:30min (77% der Intervallzeit) ✅ SEHR GUT
+- Steady-state HR: 162-167 bpm (nach ~27s Ramp-up)
+- Peak HR: 167 bpm
+- Ramp-up: ~27s bis Z4
+
+**Intervall #2** (2:00min @ Ziel Z4 161-175 bpm):
+- Zeit in Z4: 1:21min (69% der Intervallzeit) ✓ GUT
+- Steady-state HR: 162-172 bpm (nach ~36s Ramp-up)
+- Peak HR: 172 bpm
+- Ramp-up: ~36s bis Z4
+
+**Intervall #3** (2:06min @ Ziel Z4 161-175 bpm):
+- Zeit in Z4: 1:12min (57% der Intervallzeit) ⚠️ GRENZWERTIG
+- Steady-state HR: 162-169 bpm (nach ~54s Ramp-up)
+- Peak HR: 169 bpm
+- Ramp-up: ~54s bis Z4 (langer Ramp-up wegen tiefer Recovery-HR)
+
+**Intervall #4** (2:06min @ Ziel Z4 161-175 bpm):
+- Zeit in Z4: 1:21min (64% der Intervallzeit) ✓ GUT
+- Steady-state HR: 162-171 bpm (nach ~45s Ramp-up)
+- Peak HR: 171 bpm
+- Ramp-up: ~45s bis Z4
+
+**Intervall #5** (2:00min @ Ziel Z4 161-175 bpm):
+- Zeit in Z4: 1:03min (54% der Intervallzeit) ⚠️ GRENZWERTIG
+- Steady-state HR: 164-171 bpm (nach ~54s Ramp-up)
+- Peak HR: 172 bpm
+- Ramp-up: ~54s bis Z4 (tiefste Recovery-HR vorher: 111 bpm)
+
+**Gesamt**: 6:27min in Z4 von 10:12min Intervallzeit = **64% Zeit in Zielzone** ✓ GUT
+
+**Fazit**: Solide Zonenausführung für erste Z4-Belastung nach Pause. Die Ramp-up-Zeiten steigen mit den Intervallen, weil die Recovery-Phasen HR sehr tief absenken (bis 111 bpm). Kein Intervall überschritt 172 bpm — gute obere Grenze.
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+| Intervall | Ø Pace | Ø Speed |
+|-----------|--------|---------|
+| #1 | 4:10 min/km | 4.0 m/s |
+| #2 | 3:58 min/km | 4.2 m/s |
+| #3 | 4:13 min/km | 3.95 m/s |
+| #4 | 4:01 min/km | 4.15 m/s |
+| #5 | 3:53 min/km | 4.3 m/s |
+
+**Positive Progression**: Intervall 5 war das schnellste! Das zeigt Reserven und mentale Stärke. Die Pace-Variation (3:53-4:13) ist akzeptabel für 2min-Intervalle.
+
+**Warmup-Pace**: ~6:30 min/km (angemessen)
+**Cooldown-Pace**: ~6:15-6:40 min/km (gut)
+
+### 🏆 **Was war hervorragend**
+
+- **Alle 5 Intervalle sauber absolviert** — erster Z4-Belastungstest seit W26 bestanden
+- **HR-Ceiling respektiert**: Max 172 bei Plan-Obergrenze 175 → perfekte Kontrolle
+- **Negative Split in Pace**: Letztes Intervall am schnellsten (3:53) — zeigt Fitness-Reserven
+- **Schneller Ramp-up im 1. Intervall** (nur 27s) — Warmup war effektiv
+- **Power-Daten konsistent**: 320-395W in Intervallen, stabile Leistungsabgabe
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Recovery zu tief**: HR fällt in Pausen auf 111-116 bpm (weit unter Z1). Das verlängert Ramp-up in folgenden Intervallen erheblich
+- **Ramp-up verschlechtert sich**: Von 27s (Int.1) auf 54s (Int.5) — halbe Intervallzeit geht für Aufbau drauf
+- **Time-in-Zone sinkt**: 77% → 54% über die 5 Intervalle. Die Intervalle werden effektiv kürzer
+- **Recovery-Pace zu langsam**: ~1.4 m/s (12:00 min/km) ist fast Gehen. Aktives Traben bei 2.0-2.3 m/s (~7:30-8:20 min/km) würde HR höher halten und Ramp-up verkürzen
+
+### 📈 **Progression vs. Previous Sessions**
+
+- Erste Z4-Session seit W26 — Baseline-Messung
+- VO2max lt. Tredict: 43.26 ml/kg/min
+- Power @ Z4: 320-395W → gute Kraft-Ausdauer
+- Cadence in Intervallen: 175-187 spm (effizient, gute Beinfrequenz)
+- Ground Contact Time: 192-200ms in Intervallen (gut)
+
+### 🎯 **Bewertung: B+**
+
+Solider Wiedereinstieg in Z4-Belastungen. Alle Intervalle absolviert, HR-Ceiling respektiert, positive Pace-Progression. Punktabzug für sinkende Time-in-Zone (77%→54%) durch zu tiefe Recovery-HR. Für A müsste Time-in-Zone >70% über alle 5 Intervalle gehalten werden.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+1. **Recovery aktiver gestalten**: Statt fast-Gehen (12:00/km) locker traben bei ~7:30-8:00/km. Ziel: HR bleibt bei 130-140 bpm in der Pause
+2. **Ramp-up verkürzen**: Die ersten 10-15s des Intervalls bewusst etwas aggressiver angehen, um HR schneller in die Zone zu bringen
+3. **Progression planen**: Nächste Woche evtl. 5x2:30min oder 4x3min Z4, wenn diese Session gut vertragen wurde
+4. **Recovery-Dauer anpassen**: Bei kürzerer aktiver Recovery (HR 130-140 statt 111) könnte Recovery auf 90s verkürzt werden
+
+**Detailed Metrics**:
+- HR Range: 95-172 bpm (Intervalle: 162-172 bpm steady-state)
+- Pace Stability: Intervalle 3:53-4:13 min/km (±10s, gut)
+- Elevation: +38m / -39m (flach)
+- Cadence: Ø 158 spm (Intervalle: 175-187 spm)
+- Power: Ø 228W, Intervalle 320-395W, Max 436W
+- Calories: 521 kcal
+- Ground Contact Time: Intervalle 192-200ms
+- Temperatur: 22°C, bewölkt (gute Bedingungen)
+
+---
+
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
