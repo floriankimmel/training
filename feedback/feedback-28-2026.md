@@ -195,6 +195,79 @@ Solider Wiedereinstieg in Z4-Belastungen. Alle Intervalle absolviert, HR-Ceiling
 
 ---
 
+## 2026-07-09 - Recovery Run 30min - Donnerstag Analyse
+
+**Geplant**: Recovery Run 30min — Aktive Erholung nach Intervallen. Strict Z1! (125-142 bpm), Pace 6:30-7:00/km
+**Tatsächliche Ausführung**: 29:58min, 4.57km, Ø 127 bpm, Max 140 bpm
+**Persönliches Empfinden**: (nicht angegeben)
+
+**Feel**: 9/10
+**Energy**: Good
+**Legs**: Good
+**Effort**: Easy
+**Notes**: Perfekte Z1-Disziplin. Keine Zonenüberschreitung. Deutliche Verbesserung gegenüber Dienstag.
+
+### 🎯 **Herzfrequenz-Analyse**
+
+- **Ø HR**: 127 bpm (untere Z1 ✅✅)
+- **Max HR**: 140 bpm (unter 142-Limit! ✅✅)
+- **Zonendisziplin**: PERFEKT — kein einziger Moment über Z1
+
+| Metrik | Dienstag | Donnerstag | Δ |
+|--------|----------|------------|---|
+| Ø HR | 134 bpm | 127 bpm | -7 bpm ✅ |
+| Max HR | 158 bpm | 140 bpm | -18 bpm ✅✅ |
+| Z1-Anteil | 82.5% | ~100% | +17.5% ✅✅ |
+| Z3-Spikes | Ja (158) | Nein | Eliminiert ✅ |
+
+**Bewertung**: Das "Strict Z1!" wurde diesmal zu 100% eingehalten. Ø 127 bpm liegt sogar im unteren Drittel der Z1 — optimal für aktive Erholung nach gestrigen Z4-Intervallen.
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- **Ø Pace**: 6:34 min/km (geplant: 6:30-7:00) ✅ Exakt im Zielbereich
+- **Vergleich Di**: 6:17 → 6:34 = +17s/km langsamer = BESSER für Recovery
+- **Distanz**: 4.57km in 30min — perfekte Recovery-Pace ohne Tempo-Versuchung
+
+### 🏆 **Was war hervorragend**
+
+- **100% Z1-Einhaltung**: Kein einziger Ausreißer über 142 bpm — genau was der Plan verlangt
+- **Lerneffekt von Dienstag**: Nach B+ am Dienstag (Z3-Spike, zu schnell) heute alles korrigiert
+- **HR-Durchschnitt optimal**: 127 bpm = untere Z1, perfekt für Regeneration nach Z4-Intervallen
+- **Pace-Kontrolle**: 6:34/km genau im geplanten Fenster, keine schnellen Passagen
+- **Cadence**: 172 spm — gleich effizient wie bei höherem Tempo
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Keine nennenswerten** — das war eine nahezu perfekte Recovery-Session
+- Optional: Bei 25°C könnte man HR-Alarm auf 138 statt 142 setzen, um noch mehr Puffer bei Hitze zu haben
+
+### 📈 **Progression vs. Previous Sessions**
+
+- **Di→Do Vergleich zeigt Lernkurve**: Z1-Disziplin von 82.5% auf ~100% verbessert
+- **Erholung nach Intervallen**: HR avg 127 am Tag nach 5x2min Z4 (max 172) = gute Erholungsfähigkeit
+- **Kein kardiovaskulärer Stress erkennbar**: Max 140 nach gestrigen Z4-Belastungen zeigt, dass der Körper gut regeneriert
+
+### 🎯 **Bewertung: A+**
+
+Mustergültige Recovery-Session. Alle Parameter im Zielbereich, strikte Z1-Einhaltung, perfekte Pace-Kontrolle. Exakt das, was nach Z4-Intervallen gebraucht wird. Deutliche Verbesserung gegenüber Dienstag — Feedback wurde umgesetzt.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+1. **Genau so weitermachen** — diese Ausführung ist der Standard für Recovery Runs
+2. **Sonntag Long Run (50min)**: Gleiches Prinzip anwenden — HR unter 152, lieber konservativ
+3. **Bei Hitze >28°C**: Pace nochmal 10-15s/km langsamer ansetzen
+
+**Detailed Metrics**:
+- HR Range: ~110-140 bpm (Arbeit: 125-140 bpm)
+- Pace Stability: 6:34 min/km Ø (±wenige Sekunden, sehr konsistent)
+- Elevation: +20m / -21m (flach)
+- Cadence: Ø 172 spm (effizient)
+- Power: Ø 221W, Max 344W
+- Calories: 356 kcal
+- Temperatur: 25°C
+
+---
+
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
