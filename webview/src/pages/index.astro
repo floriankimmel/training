@@ -31,14 +31,14 @@ const nextWeek = currentIdx < weeks.length - 1 ? weeks[currentIdx + 1] : null;
   <div class="flex items-center justify-between mb-6">
     <div class="flex items-center gap-4">
       {prevWeek && (
-        <a data-nav="prev" href={`/?week=${prevWeek.week}&year=${prevWeek.year}`} class="text-slate-400 hover:text-white text-xl">◀</a>
+        <a data-nav="prev" data-astro-prefetch="load" href={`/?week=${prevWeek.week}&year=${prevWeek.year}`} class="text-slate-400 hover:text-white text-xl">◀</a>
       )}
       <h1 class="text-2xl font-bold">
         Woche {currentWeek.week}
         <span class="text-slate-400 text-lg ml-2">{dates.start} - {dates.end}</span>
       </h1>
       {nextWeek && (
-        <a data-nav="next" href={`/?week=${nextWeek.week}&year=${nextWeek.year}`} class="text-slate-400 hover:text-white text-xl">▶</a>
+        <a data-nav="next" data-astro-prefetch="load" href={`/?week=${nextWeek.week}&year=${nextWeek.year}`} class="text-slate-400 hover:text-white text-xl">▶</a>
       )}
     </div>
     <div class="text-sm text-slate-500">

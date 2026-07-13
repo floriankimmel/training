@@ -5,13 +5,6 @@ const CWD = '/Users/fkimmel/Documents/workspace/training';
 
 export const GET: APIRoute = async () => {
   try {
-    // Fetch remote silently to get accurate behind count
-    try {
-      execSync('git fetch --quiet 2>/dev/null', { cwd: CWD, timeout: 5000 });
-    } catch {
-      // fetch may fail if offline - continue with cached info
-    }
-
     const ahead = execSync('git rev-list --count @{u}..HEAD 2>/dev/null || echo 0', {
       cwd: CWD, encoding: 'utf-8',
     }).trim();
