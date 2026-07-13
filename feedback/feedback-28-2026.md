@@ -268,6 +268,108 @@ Mustergültige Recovery-Session. Alle Parameter im Zielbereich, strikte Z1-Einha
 
 ---
 
+## 2026-07-12 - Long Run 50min - Sonntag Analyse
+
+**Geplant**: Long Run 50min — Aerobe Basis. Sanft Dauer aufbauen. Hügelig OK, HR bei Anstiegen kontrollieren.
+- Warmup: 10min @ 119-129 bpm
+- Hauptteil: 40min @ 125-153 bpm (Z1-Z2)
+
+**Tatsächliche Ausführung**: 50:03min, 7.40km, Ø 132 bpm, Max 147 bpm
+**Persönliches Empfinden**: (nicht angegeben)
+
+**Feel**: 8/10
+**Energy**: Good
+**Legs**: Good
+**Effort**: Easy-Moderate
+**Notes**: Hügeliger Long Run mit +117m Höhenmeter. Zwei Walking-Passagen an steilen Anstiegen (3:33min gesamt). HR-Kontrolle hervorragend — nie über Z2 trotz signifikanter Anstiege.
+
+### 🎯 **Herzfrequenz-Analyse**
+
+| Zone | Zeit | Anteil |
+|------|------|--------|
+| Unter Z1 (<125) | 11:54min | 23.8% |
+| Z1 (125-142) | 34:30min | 68.9% |
+| Z2 (143-152) | 3:39min | 7.3% |
+| Z3+ (>153) | 0:00min | 0% ✅✅ |
+
+**Ø HR**: 132 bpm (mittlere Z1 ✅)
+**Max HR**: 147 bpm (mittlere Z2 — nur auf Anstiegen ✅)
+
+**Warmup-Phase (0-10min)**: HR ramp-up von 81→130 bpm. Überwiegend 119-130 bpm — gute Zielbereich-Einhaltung (119-129).
+
+**Hügelabschnitt 1 (~10-13min, +34 Höhenmeter, 184→218m)**: HR steigt auf 143-146 bpm (untere Z2). Geschwindigkeit sinkt auf 1.08-1.36 m/s (Walking). Smarte Entscheidung: lieber Tempo rausnehmen als HR explodieren lassen.
+
+**Hügelabschnitt 2 (~29-31min, +19 Höhenmeter, 189→208m)**: HR bleibt bei 130-138 bpm trotz Walking (1.35-1.52 m/s). Bessere HR-Response als beim 1. Anstieg — Körper hat sich akklimatisiert.
+
+**Flache/Abwärts-Passagen**: HR konstant 119-140 bpm — perfekte Z1-Ausführung.
+
+**Bewertung**: Nur 7.3% in Z2 — und das ausschließlich auf Anstiegen. 0% in Z3+ trotz +117m Elevation = exzellente Intensitätskontrolle. Die Anweisung "HR bei Anstiegen kontrollieren" wurde mustergültig umgesetzt.
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- **Ø Pace**: 6:46 min/km (Moving Time)
+- **Pace-Range**: 4:14 - 15:26 min/km (inkl. Walking-Passagen)
+- **Flache Abschnitte**: ~5:40-6:30 min/km
+- **Bergab-Passagen**: ~5:10-5:40 min/km
+- **Anstiege**: Walking 10:00-15:00 min/km (bewusst)
+- **Distanz**: 7.40km (Plan 7.9km, Differenz durch Höhenmeter erwartet)
+
+Die 500m Distanz-Differenz zum Plan ist durch +117m Elevation verursacht — bei hügeligem Terrain und Walking-Passagen völlig normal. Pace auf flachen Abschnitten konsistent und angemessen.
+
+### 🏆 **Was war hervorragend**
+
+- **Perfekte HR-Kontrolle auf Hügeln**: Max 147 bpm trotz +117m Elevation — die Anweisung "HR bei Anstiegen kontrollieren" wurde 1:1 umgesetzt
+- **Kein einziger Z3-Moment**: 0% Zeit über 153 bpm bei einem hügeligen Lauf = exzellente Disziplin
+- **Intelligentes Walking**: 3:33min Walking auf steilen Anstiegen statt HR unkontrolliert steigen zu lassen — taktisch kluge Entscheidung
+- **Zweiter Anstieg besser als erster**: HR-Response verbessert (146→138 bpm), Körper hat sich eingependelt
+- **Cadence**: Ø 164 spm in Laufpassagen, stabil trotz wechselndem Terrain
+- **Dauer exakt getroffen**: 50:03 statt 50:00 = perfekt
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Walking-Anteil hoch (3:33min = 7%)**: Bei einem Long Run idealerweise <5% Walking. Routenwahl mit moderateren Anstiegen könnte durchgehendes Laufen ermöglichen
+- **Warmup leicht über Ziel**: Einige Samples 126-130 bpm (Ziel 119-129). Marginal, aber bei strikter Interpretation leicht drüber
+- **Pace auf Flachen etwas variabel**: 5:40-6:30 = 50s Spread. Für Ausdauer-Ökonomie wäre konstantere Pace optimal (~±15s)
+
+### 📈 **Progression vs. Previous Sessions**
+
+| Metrik | Di Recovery | Do Recovery | **So Long Run** |
+|--------|-------------|-------------|-----------------|
+| Dauer | 30:03 | 29:58 | **50:03** |
+| Distanz | 4.78km | 4.57km | **7.40km** |
+| Ø HR | 134 | 127 | **132** |
+| Max HR | 158 | 140 | **147** |
+| Z1-Anteil | 82.5% | ~100% | **68.9%** |
+| Z1+Z2 | ~89% | ~100% | **76.2%** |
+| Elevation | +42m | +20m | **+117m** |
+
+**Wochentrend**: Klare Verbesserung der Zonendisziplin von Di→Do. Sonntag mit deutlich mehr Elevation und Dauer, trotzdem saubere HR-Kontrolle. Die 23.8% unter Z1 sind dem hügeligen Profil geschuldet (Walking-Phasen + Bergab mit niedrigem HR).
+
+### 🎯 **Bewertung: A**
+
+Exzellente Ausführung eines hügeligen Long Runs. HR-Kontrolle bei Anstiegen war die Kernaufgabe — und wurde perfekt gelöst. Max HR 147 bei +117m Elevation zeigt hohe Körperwahrnehmung und Disziplin. Kein A+ wegen Walking-Anteil und leichter Pace-Variabilität auf Flachen, aber für einen hügeligen Sommerlauf bei 26°C eine sehr starke Leistung.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+1. **Routenwahl variieren**: Für Long Runs mit Fokus auf durchgehendes Laufen flachere Strecken wählen. Hügelige Routen bewusst für "Hill Training" reservieren
+2. **Pace-Konsistenz auf Flachen**: Versuch, auf flachen Abschnitten ±15s/km-Korridor zu halten (z.B. 6:00-6:30)
+3. **Bergauf-Laufstrategie**: Statt Walking kleinere Schritte und 7:30-8:00/km Pace versuchen, um HR unter 145 zu halten aber weiter zu laufen
+4. **Long Run progressiv steigern**: 50min gut toleriert → nächste Woche evtl. 55min möglich
+
+**Detailed Metrics**:
+- HR Range: 81-147 bpm (Arbeit: 119-147 bpm)
+- Pace Stability: 6:46 min/km Ø (Flach: 5:40-6:30, Berge: Walking)
+- Elevation: +117m / -120m (hügelig, max 223.6m, min 170.8m)
+- Cadence: Ø 164 spm (Laufen), reduziert in Walking-Passagen
+- Power: Ø 222W, Max 366W (Anstiege)
+- Calories: 625 kcal
+- Ground Contact Time: Ø 265ms
+- Step Length: Ø 92cm
+- Temperatur: 26°C, 25% Bewölkung (klar)
+- Walking-Anteil: 213s (3:33min, ~7%)
+
+---
+
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
