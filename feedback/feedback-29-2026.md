@@ -190,3 +190,116 @@ Starke VO2max-Session. Progressionsziel (6 Reps) vollständig erreicht, Zonenaus
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
+
+## 2026-07-16 - Recovery Run 30min - Donnerstag Analyse
+
+**Geplant**: Recovery Run 30min, strict Z1 (124-142 bpm), "Aktive Erholung nach Intervallen, Beine durchspülen"
+**Tatsächliche Ausführung**: 33:13 Moving Time (35:06 Elapsed), 4,15 km, Ø 111 bpm, Max 132 bpm. ~11 min Gehpause (Telefonat).
+**Persönliches Empfinden**: Zwischendurch mit Irene telefoniert, dabei pausiert/gegangen. Gefühl: Apple Watch hat Gehzeit mitgerechnet. 27°C.
+
+**Feel**: 7/10
+**Energy**: Gut
+**Legs**: Gut (Erholung nach gestern VO2max)
+**Effort**: Sehr leicht
+**Notes**: Recovery Run durch Telefonat unterbrochen. Laufanteile sauber ausgeführt, HR durchgehend unter Z1-Obergrenze. Walking-Anteil 672s (~11min).
+
+### 🎯 **Herzfrequenz-Analyse**
+
+**Ziel**: Strict Z1 (124-142 bpm)
+
+**Zonenverteilung (Moving Time = 1993s)**:
+| Zone | Bereich | Zeit | Anteil |
+|------|---------|------|--------|
+| Aktive Erholung | <125 bpm | ~24:10 min | **72,7%** |
+| Z1 | 125-142 bpm | ~9:03 min | **27,3%** |
+| Z2+ | >142 bpm | 0:00 | **0%** |
+
+**Bewertung**: Max HR 132 bpm — weit unter Z1-Obergrenze (142). **Perfekte Intensitätskontrolle.** Kein einziges Mal über Z1 gegangen.
+
+**HR-Verlauf in 3 Phasen** (Zeitreihe sampleSize=7s, 285 Samples):
+
+**Phase 1 — Laufen (0-9:00 min, ~546s)**:
+- HR: 89 → 117 → 127 bpm (langsamer Aufbau)
+- Pace: ~6:55 min/km
+- Erste 5 min: 95-108 bpm (Warmup, sauber)
+- Ab Min 6: 115-127 bpm, gegen Ende Z1-Eintritt
+- ✅ Sehr kontrollierter Start
+
+**Phase 2 — Gehen/Telefonat (~9:00-19:30 min, ~630s)**:
+- Speed: 0,1-1,3 m/s (Gehen + kurze Stehphasen)
+- HR: 127 → sinkt kontinuierlich auf 86 bpm
+- Vollständige Erholung während Telefonat
+- ⚠️ Apple Watch hat korrekt weiter aufgezeichnet — daher die verfälschten Gesamtwerte
+
+**Phase 3 — Laufen (ab ~19:30 min, ~819s = ~13:40 min)**:
+- HR: 88 → steigt auf 122-131 bpm (Steady State ~124-129)
+- Pace: ~6:34 min/km (etwas schneller als Phase 1)
+- Steady State ab ~Minute 23: stabil 124-129 bpm = untere Z1
+- Max HR 131-132 in letzten 3 min
+- ✅ Exzellente Zonendisziplin auch nach langer Gehpause
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+**Nur Laufanteile** (~23 min effektive Laufzeit):
+- **Phase 1**: ~6:55 min/km — perfekt für Recovery
+- **Phase 3**: ~6:34 min/km — leicht schneller, aber HR blieb kontrolliert
+- **Gesamt-Ø 8:00/km** ist durch 11 min Gehen verzerrt — **nicht aussagekräftig**
+
+**Pace-Konsistenz in Laufphasen**: Sehr gleichmäßig, keine Ausreißer in Richtung Tempo.
+
+### 🏆 **Was war hervorragend**
+
+1. **Perfekte Intensitätskontrolle**: Max HR 132 — 10 bpm unter Z1-Limit. Kein einziges Überschreiten. Besser als Dienstags Recovery Run (146 bpm Max)!
+2. **Bewusste Pace**: Beide Laufphasen im 6:30-7:00/km Bereich — genau richtig für Recovery
+3. **HR nach Pause schnell stabilisiert**: Phase 3 zeigt sauberen Wiederaufbau von 88 → 124-129 bpm innerhalb ~4 min
+4. **Fortschritt zu Dienstag**: Di Recovery hatte 6,6% Z2-Überschreitung → heute **0%**. "Strict Z1" perfekt umgesetzt
+5. **Kadenz locker**: Ø 146 spm gesamt, in Laufphasen ~170 spm — entspannter Stil
+
+### ⚠️ **Verbesserungsbereiche**
+
+1. **Unterbrechung**: 11 min Telefonat-Pause bricht den Laufrhythmus. Für Recovery nicht schädlich, aber suboptimal für:
+   - Durchblutungs-Effekt (gleichmäßige Belastung besser für "Beine durchspülen")
+   - Trainingsstruktur-Einhaltung (30 min am Stück geplant)
+2. **Effektive Laufzeit nur ~23 min**: Plan war 30 min. ~7 min fehlen. Recovery-Effekt dadurch etwas reduziert
+3. **Gesamtdaten verfälscht**: Walking-Anteil macht Gesamt-Pace (8:00/km), Ø HR (111), Power (218W mit Nullen) unbrauchbar für Vergleiche
+
+### 📈 **Progression vs. Previous Sessions**
+
+| Metrik | Di 14.07 Recovery | **Do 16.07 Recovery** |
+|--------|-------------------|----------------------|
+| Ø HR | 134 bpm | **111 bpm** (Laufphasen: ~120) |
+| Max HR | 146 bpm | **132 bpm** ✅ |
+| Z2-Überschreitung | 6,6% (119s) | **0%** ✅✅ |
+| Pace (Laufen) | 6:23/km | ~6:45/km |
+| Dauer | 29:55 | ~23 min Laufen |
+| Temp | 29°C | 27°C |
+
+**Klare Verbesserung bei Zonendisziplin!** Trotz Unterbrechung: Die Laufanteile waren exakt im Ziel. Der Lerneffekt vom Dienstag (wo Z1 leicht überschritten wurde) ist sichtbar.
+
+### 🎯 **Bewertung: B+**
+
+Die Laufphasen isoliert betrachtet: **A** — perfekte HR-Kontrolle, saubere Z1-Ausführung, kein Überschreiten. Abzug wegen:
+- Unterbrechung durch Telefonat (11 min Gehen)
+- Effektive Laufzeit nur 23 statt 30 min
+- "Beine durchspülen" funktioniert besser am Stück
+
+Für den Recovery-Zweck (Erholung nach gestern 6×2min VO2max) war die Session trotzdem effektiv. HR nie in kritische Bereiche, Beine wurden bewegt.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+1. **Telefon auf lautlos**: Bei Recovery-Runs Handy stumm stellen oder vorher/nachher telefonieren
+2. **Bei Unterbrechung verlängern**: Wenn Pause passiert, danach die fehlenden Minuten dranhängen (hier: nach Telefonat noch 7 min länger laufen)
+3. **Apple Watch Tipp**: Bei längeren Pausen auf der Watch "Pause" drücken — dann werden Gehphasen nicht in die Laufdaten gerechnet
+4. **Aktuelles HR-Level beibehalten**: Die Zonendisziplin heute war vorbildlich — genau so weitermachen
+
+**Detailed Metrics**:
+- HR Range: 86-132 bpm (Laufphasen: 89-132 bpm)
+- Pace (Laufen): Phase 1 ~6:55/km, Phase 3 ~6:34/km
+- Elevation: +14m / -12m (flach)
+- Cadence: Ø 146 spm gesamt (Laufen ~170 spm)
+- Power: Ø 218W (nur Laufphasen, Walking = null)
+- Calories: 290 kcal
+- Ground Contact Time (Laufen): ~260-270ms
+- Walking-Anteil: 672s (11:12 min) — Telefonat mit Irene
+- Steps: 4837
+- Temperatur: 27°C, teilweise bewölkt
