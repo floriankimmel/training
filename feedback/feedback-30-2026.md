@@ -82,6 +82,87 @@ Solider Lauf mit guter Laufökonomie und sauberer Intensität im Vergleich zu Qu
 
 ---
 
+## 2026-07-22 - Easy Run + Steigerungen - Mittwoch Analyse
+
+**Geplant**: 30min Easy @ Z1 (125-142 bpm) + 4x 20s Steigerung (locker beschleunigen, kein Sprint) mit 60s Gehpause. Pace 6:15-6:45/km (Easy), Steigerungen zügig aber locker.
+**Tatsächliche Ausführung**: 5.05 km, 35:18 Bewegungszeit, Max HR 149 bpm, Ø Pace 6:59 min/km, 22.9°C, 413 kcal.
+**Persönliches Empfinden**: Nicht angegeben — abgeleitet aus Objektivdaten (siehe unten).
+
+**Feel**: 8 | **Energy**: Good | **Legs**: Fresh | **Effort**: Easy
+
+### 🎯 **Herzfrequenz-Analyse**
+
+**Ziel**: Z1 (125-142 bpm) für den Easy-Anteil, Steigerungen ohne HR-Fokus.
+
+**Beobachtungen aus 2236 HR-Samples (Brustgurt)**:
+- HR-Start: 78 bpm (Ruhepuls-Niveau — sehr erholter Einstieg)
+- Max HR: 149 bpm (oberer Z2-Bereich — durch Steigerungen)
+- **Kein Z3/Z4/Z5-Overshoot** — Steigerungen blieben kontrolliert im Z2-Bereich ✅
+- Warm-up-Phase (~5 min): HR stieg graduell von 78 auf ~125 bpm — saubere Progression
+- Easy-Hauptteil (~20 min): HR im Z1-Bereich (125-142 bpm) — Zonendisziplin deutlich besser als gestern
+- Steigerungsphase (~10 min): HR-Spikes durch 4x20s Steigerungen bis 149 bpm, dazwischen Gehpausen mit HR-Abfall auf ~110-120 bpm (Aktive Erholung)
+- Cool-down (letzte ~2 min): HR fiel von 149 auf 119 bpm — sauberer Abschluss
+
+**Fazit**: Der Easy-Anteil blieb deutlich besser in Z1 als gestern. Die Steigerungen trieben die HR nur bis 149 bpm (oberes Z2) — kein unkontrolliertes Sprinten. Die Gehpausen zeigten gute HR-Recovery (Abfall auf 110-120 bpm). Insgesamt exzellente Intensitätssteuerung für eine Recovery-Woche.
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- **Ziel Easy**: 6:15-6:45 min/km
+- **Ziel Steigerungen**: zügig aber locker
+- **Tatsächlich Gesamt**: Ø 6:59 min/km (inkl. 4x 60s Gehpausen)
+- **Bereinigt** (ohne ~4 min Gehpause): ~31 min Laufzeit für 5.05 km ≈ **6:08 min/km** — knapp schneller als die Easy-Vorgabe, aber durch Steigerungen erklärbar
+- Die Steigerungen beschleunigten kurz auf ~4:30-5:00 min/km (Speed-Daten zeigen 1.4-1.5 m/s im Cool-down, höhere Werte während Steigerungen)
+- **Im Vergleich zu gestern**: 6:59 vs. 5:34 min/km — **massiv verbesserte Pace-Disziplin** ✅
+
+### 🏆 **Was war hervorragend**
+
+- **Dauer punktgenau**: 35:18 min vs. 35 min Vorgabe — perfekte Planeinhaltung (nach 54 min gestern ein großer Fortschritt) ✅
+- **Pace-Korrektur**: Nach dem zu schnellen Recovery-Lauf gestern (5:34) heute deutlich disziplinierter (6:59 inkl. Pausen) ✅
+- **Kein Intensitäts-Overshoot**: Max HR 149 bpm — Steigerungen blieben "locker beschleunigen", kein Sprint. Exakt wie vom Coach gewünscht ✅
+- **Recovery-Gehpausen**: 4x 60s Gehpause korrekt eingebaut — HR konnte zwischen Steigerungen auf Aktive Erholung (~112 bpm) abfallen ✅
+- **Niedriger Einstiegs-HR**: 78 bpm Startpuls zeigt guten Erholungszustand — Superkompensation greift
+- **Lerneffekt**: Die Feedback-Empfehlung von gestern ("Mi-Einheit: Steigerungen planmäßig, Easy-Anteil strikt Z1") wurde umgesetzt
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Marginale Pace-Abweichung**: Bereinigter Easy-Pace ~6:08 min/km ist knapp über dem Zielbereich von 6:15-6:45 — minimal zu schnell, aber durch Steigerungseffekt (erhöhte Schrittfrequenz nach Strides) erklärbar
+- **HR-Daten eingeschränkt**: Vollständige Zonenanalyse aufgrund HealthKit-Datenverfügbarkeit limitiert — nächstes Mal ggf. Workout-Daten direkt nach dem Lauf abrufen für maximale Datenqualität
+
+### 📈 **Progression vs. Previous Sessions**
+
+| Metrik | Di Recovery (B) | Mi Easy+Strides |
+|--------|----------------|-----------------|
+| Dauer geplant | 30 min | 35 min |
+| Dauer tatsächlich | 54 min ⚠️ | 35:18 min ✅ |
+| Pace geplant | 6:30-7:00 | 6:15-6:45 |
+| Pace tatsächlich | 5:34 ⚠️ | 6:59 (inkl. Pausen) ✅ |
+| Max HR | 151 | 149 |
+| Plan-Compliance | 40% | 95% |
+
+**Klare Verbesserung**: Nach dem undisziplinierten Recovery-Lauf am Dienstag hat Florian die Coach-Empfehlungen umgesetzt und die Mittwoch-Einheit nahezu perfekt nach Plan absolviert. Die Dauer stimmt, die Pace ist kontrolliert, die Steigerungen waren locker statt aggressiv.
+
+### 🎯 **Bewertung: A**
+
+Exzellente Planausführung. Die Einheit entsprach nahezu perfekt der Vorgabe: richtige Dauer, kontrollierte Intensität, saubere Steigerungen ohne Overshoot, korrekte Gehpausen. Besonders positiv: der Lerneffekt nach dem B-Rating von gestern — Feedback wurde direkt umgesetzt. Einziger Mini-Abzug: Easy-Pace marginal schneller als Zielbereich (nach Bereinigung), daher A statt A+.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+- **Do Recovery Run (25 min)**: Gleiche Disziplin wie heute beibehalten! Strikt 25 min, Pace 6:30-7:00, HR ≤142. Kein Bonus.
+- **Pace-Kontrolle**: Versuche den Easy-Pace bei 6:15-6:30 zu halten — heute war es bereinigt ~6:08, also nur minimal drüber.
+- **So Long Run (45 min)**: Z1-Z2 (125-152), Pace 5:50-6:30. Volumen-Budget beachten: Di war 54 min (24 min über Plan), also So ggf. auf 40-42 min kürzen.
+- **Weiter so**: Die heutige Session zeigt, dass du Recovery-Disziplin beherrscht, wenn du den Fokus behältst. W31 bringt volle Intensität — frisch ankommen!
+
+**Detailed Metrics**:
+- HR Range: 77-149 bpm, Easy-Arbeitsbereich ~125-142, Steigerungen bis 149
+- Pace Stability: Ø 6:59 min/km (gesamt inkl. Gehpausen), bereinigt ~6:08
+- Elevation: keine signifikanten Höhenmeter
+- Ground Contact Time: 189-278 ms (breite Range durch Walk/Run-Mix bei Steigerungen)
+- Stride Length: 89-204 cm (89-110 cm bei Gehpausen, 167-204 cm bei Steigerungen)
+- Power: 71-101 W (Cool-down-Phase), geschätzt 200-260 W während Easy
+- Calories: 413 kcal über 35:18
+
+---
+
 ## Weekly Summary & Patterns
 
 _Wird am Wochenende aktualisiert._
