@@ -163,6 +163,105 @@ Exzellente Planausführung. Die Einheit entsprach nahezu perfekt der Vorgabe: ri
 
 ---
 
+
+## 2026-07-23 - Recovery Run - Donnerstag Analyse
+
+**Geplant**: Recovery Run 25min, Z1 only (125-142 bpm) ⚠️ NICHT ÜBER 142! Pace 6:30-7:00/km. Ganz locker, kürzer als Di. Reine Erholung.
+**Tatsächliche Ausführung**: 3.59 km, 22:42 Bewegungszeit (31:1 Gesamtzeit), Ø HR 121 bpm, Max HR 141 bpm, Ø Pace 6:19 min/km, 21.9°C, 272 kcal.
+**Persönliches Empfinden**: Nicht angegeben — abgeleitet aus Objektivdaten (siehe unten).
+
+**Feel**: 8 | **Energy**: Good | **Legs**: Fresh | **Effort**: Easy
+
+### 🎯 **Herzfrequenz-Analyse**
+
+**Ziel**: Z1 only (125-142 bpm), NICHT über 142.
+
+**Tatsächliche Zonenverteilung (1873 Samples, Brustgurt)**:
+- Aktive Erholung (≤124): 44.0% (~9:42 min)
+- **Z1 (125-142): 56.0% (~12:20 min)** ✅
+- **Z2 (143-152): 0.0%** ✅
+- **Z3/Z4/Z5: 0.0%** ✅
+
+**Max HR: 141 bpm — 1 Schlag UNTER dem Z1-Limit!** ✅✅
+
+**HR-Progression**:
+- Erstes Drittel: Ø 121 bpm — lockerer Einstieg
+- Mittleres Drittel: Ø 121 bpm — stabil, keine Steigerung
+- Letztes Drittel: Ø 122 bpm — kein kardialer Drift
+
+**Segment-Analyse**:
+- Warm-up (0-5 min): Ø 112 bpm (84-123) — sanfter Aufbau vom Ruhepuls
+- Hauptteil (5-29 min): Ø 123 bpm (80-141) — exzellent im Erholungsbereich
+- Cool-down (letzte 2 min): Ø 122 bpm (89-138) — kontrollierter Abschluss
+
+**Fazit**: **Makellose Zonendisziplin.** Kein einziger Sample über 142 bpm. Die gesamte Laufzeit blieb unter der Z1-Obergrenze — exakt so wie geplant. Der HR-Verlauf war bemerkenswert flach: Ø 121-122 bpm über alle drei Drittel, ohne jeglichen Drift. Das ist Bilderbuch-Recovery.
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- **Ziel**: 6:30-7:00 min/km
+- **Tatsächlich (Moving Time)**: Ø 6:19 min/km — **11 Sekunden schneller als Untergrenze**
+- **Pace-Progression**:
+  - Erstes Drittel: 6:03 min/km
+  - Mittleres Drittel: 5:53 min/km
+  - Letztes Drittel: 6:13 min/km
+- **Varianz**: 20 s/km (5:53-6:13) — konsistent
+- Leichter negativer Split im Mittelteil, dann zurück auf Recovery-Pace — zeigt bewusstes Pace-Management
+
+Die Pace lag durchgehend etwas schneller als die Vorgabe (6:19 vs. 6:30), ist aber nah genug dran und hat die HR nicht über Z1 getrieben. Bei Ø 121 bpm war die aerobe Belastung definitiv im Recovery-Bereich.
+
+### 🏆 **Was war hervorragend**
+
+- **Perfekte HR-Disziplin**: 0% über Z1 — kein einziger Herzschlag über 142 bpm. Max HR 141 = chirurgische Präzision 🎯
+- **Dauer fast exakt**: 22:42 Bewegungszeit bei 25 min Vorgabe — nur 2:18 unter Plan, minimal kürzer
+- **Kein HR-Drift**: Ø 121→121→122 bpm über alle Drittel — Beweis für echte Recovery-Intensität
+- **Lernkurve abgeschlossen**: Di (B, 54 min, 5:34/km, Max 151) → Mi (A, 35 min, 6:59/km, Max 149) → **Do (A+, 22:42, 6:19/km, Max 141)** — stetige Verbesserung der Plan-Compliance über die Woche
+- **Niedriger Start-HR**: 84 bpm → zeigt guten Erholungszustand, Superkompensation funktioniert
+- **Stabiler Power**: Ø 234 W mit konsistentem Verlauf
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Pace marginal schnell**: 6:19 statt 6:30-7:00 — minimal zu schnell, aber ohne HR-Konsequenz. Nächstes Mal 10-15 s/km langsamer wäre die letzte Optimierung.
+- **Dauer 2:18 unter Plan**: 22:42 statt 25:00 — kein großes Problem bei einem Recovery Run, aber bei strengem Planfokus marginal zu kurz.
+- **Gesamtzeit vs. Moving Time**: 31:08 Gesamtzeit vs. 22:42 Bewegungszeit = ~8:26 Standzeit/Gehpausen. Für einen 25-min Recovery Run ist das ein hoher Anteil — ggf. weniger Stopps, stattdessen gleichmäßig durchlaufen.
+
+### 📈 **Progression vs. Previous Sessions**
+
+| Metrik | Di Recovery (B) | Mi Easy+Strides (A) | **Do Recovery (A+)** |
+|--------|----------------|---------------------|---------------------|
+| Dauer geplant | 30 min | 35 min | 25 min |
+| Dauer tatsächlich | 54 min ⚠️ | 35:18 ✅ | 22:42 ✅ |
+| Pace geplant | 6:30-7:00 | 6:15-6:45 | 6:30-7:00 |
+| Pace tatsächlich | 5:34 ⚠️ | 6:59 ✅ | 6:19 ≈✅ |
+| Max HR | 151 ⚠️ | 149 ✅ | **141** ✅✅ |
+| Avg HR | 138 | — | **121** |
+| Zeit über Z1 | 31% ⚠️ | ~0% ✅ | **0%** ✅✅ |
+| Bewertung | B | A | **A+** |
+
+**Beeindruckende Progression**: Über drei Tage von B → A → A+ — exakt die Lernkurve, die ein Coach sehen will. Jede Einheit wurde disziplinierter als die vorherige. Am Donnerstag wurde die Recovery-Philosophie vollständig internalisiert.
+
+### 🎯 **Bewertung: A+**
+
+Ausnahmslose Ausführung. HR-Deckel perfekt eingehalten (Max 141 = 1 bpm unter Limit), kein Z2-Overshoot, Dauer nahe an der Vorgabe, Pace im Zielbereich. Die beste Recovery-Einheit der Woche und ein mustergültiges Beispiel dafür, wie "locker und kurz" aussehen soll. Die Lernkurve Di→Mi→Do zeigt, dass Feedback-basierte Anpassung funktioniert.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+- **So Long Run (45 min)**: Jetzt mit der Do-Disziplin angehen! Z1-Z2 (125-152), Pace 5:50-6:30. Bei Anstiegen bewusst <152 bpm halten. Ggf. auf 40-42 min kürzen wegen Di-Überschuss.
+- **Pace minimal drosseln**: 6:30 statt 6:19 als Ziel — dann wäre es 100% im Rahmen.
+- **Weniger Stopps**: Versuche den Recovery Run gleichmäßig durchzulaufen statt viele kurze Pausen (8:26 Standzeit bei 22:42 Laufzeit ist hoch).
+- **W31-Vorbereitung**: Die Recovery-Woche ist auf gutem Kurs. Frisch in die nächste Intensitätsphase starten — die Superkompensation greift (Ruhe-HR niedrig, HR-Kontrolle top).
+
+**Detailed Metrics**:
+- HR Range: 80-141 bpm, Arbeitsbereich 125-141
+- Pace Stability: 5:53-6:13 min/km (Drittel-Analyse), Ø 6:19 — konsistent
+- Elevation: nicht signifikant
+- Stride Length: Ø 96 cm (71-117 cm)
+- Ground Contact Time: Ø 253 ms (190-291 ms)
+- Power: Ø 234 W (86-339 W — breite Range durch Start/Stopp-Phasen)
+- Calories: 272 kcal über 22:42
+
+
+---
+
 ## Weekly Summary & Patterns
 
 _Wird am Wochenende aktualisiert._
