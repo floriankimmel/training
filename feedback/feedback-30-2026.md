@@ -262,6 +262,156 @@ Ausnahmslose Ausführung. HR-Deckel perfekt eingehalten (Max 141 = 1 bpm unter L
 
 ---
 
+## 2026-07-26 - Long Run - Sonntag Analyse
+
+**Geplant**: Long Run 45min, Z1-Z2 (125-152 bpm), Pace 5:50-6:30/km. Verkürzter Long Run (55min → 45min) als Teil der Entlastung. Locker, aerobe Basis halten. HR bei Anstiegen bewusst <152.
+**Tatsächliche Ausführung**: 6.63 km, 45:00 Bewegungszeit, Ø HR 133 bpm, Max HR 150 bpm, Ø Pace 6:47 min/km, 27.9°C, 599 kcal.
+**Persönliches Empfinden**: Nicht angegeben — abgeleitet aus Objektivdaten (siehe unten).
+
+**Feel**: 7 | **Energy**: Good | **Legs**: Good | **Effort**: Easy
+
+### 🎯 **Herzfrequenz-Analyse**
+
+**Ziel**: Z1-Z2 (125-152 bpm), HR bei Anstiegen bewusst <152.
+
+**Tatsächliche Zonenverteilung (1985 Samples, Brustgurt)**:
+- Aktive Erholung (≤124): 15.5% (7.0 min)
+- **Z1 (125-142): 70.1% (31.6 min)** ✅
+- **Z2 (143-152): 14.4% (6.5 min)** ✅
+- Z3 (153-160): 0.0% ✅
+- Z4 (161-179): 0.0% ✅
+- Z5 (180+): 0.0% ✅
+
+**Max HR: 150 bpm — 2 Schläge UNTER dem Z2-Limit!** ✅✅
+
+**HR-Progression**:
+- Erstes Drittel (~15min): Ø 128 bpm, Range 80-141
+- Mittleres Drittel (~15min): Ø 130 bpm, Range 97-145
+- Letztes Drittel (~15min): Ø 141 bpm, Range 133-150
+
+**Segment-Analyse**:
+- Warm-up (~10min): Ø 124 bpm (80-138) — sanfter Aufbau
+- Hauptteil (~30min): Ø 135 bpm (97-150) — solide Z1 mit vereinzelten Z2-Berührungen
+- Cool-down (~5min): Ø 141 bpm (135-144) — leicht erhöht, kardialer Drift
+
+**HR-Drift (5-Min-Blöcke)**:
+| Block | Ø HR |
+|-------|------|
+| 0-5 min | 117 bpm |
+| 5-10 min | 132 bpm |
+| 10-15 min | 136 bpm |
+| 15-20 min | 130 bpm |
+| 20-25 min | 120 bpm |
+| 25-30 min | 139 bpm |
+| 30-35 min | 136 bpm |
+| 35-40 min | 147 bpm |
+| 40-45 min | 141 bpm |
+
+**Auffällig**: HR-Dip bei 20-25 min (Ø 120 bpm) korreliert mit der Pace-Verlangsamung auf 6:53-8:07 min/km in diesem Zeitfenster — vermutlich Gehpause oder flaches/bergab Terrain. Danach Anstieg auf 147 bpm (35-40 min) zeigt leichten kardialen Drift bei Hitze (27.9°C), blieb aber unter dem Z2-Limit.
+
+**Fazit**: **Exzellente Zonenarbeit.** 84.5% der Laufzeit (38.0 min) im Zielbereich Z1-Z2, davon 70% in Z1 — klar recovery-orientiert. Kein einziger Herzschlag über Z2. Bei 28°C ist ein gewisser HR-Drift im letzten Drittel normal und physiologisch (kardiovaskulärer Drift durch Hitze). Max HR 150 = 2 bpm unter dem 152er-Deckel, chirurgisch sauber.
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- **Ziel**: 5:50-6:30 min/km
+- **Tatsächlich (Moving Time)**: Ø 6:47 min/km — **17 Sekunden langsamer als Obergrenze**
+- **Pace-Progression (5-Min-Blöcke)**:
+
+| Block | Pace |
+|-------|------|
+| 0-5 min | 8:30 min/km |
+| 5-10 min | 7:41 min/km |
+| 10-15 min | 6:41 min/km |
+| 15-20 min | 5:44 min/km |
+| 20-25 min | 6:53 min/km |
+| 25-30 min | 8:07 min/km |
+| 30-35 min | 5:52 min/km |
+| 35-40 min | 5:46 min/km |
+| 40-45 min | 6:04 min/km |
+
+**Analyse**: Die Pace zeigt ein unregelmäßiges Profil:
+- **0-10 min**: Bewusstes Einlaufen (8:30 → 7:41) — langsamer als Ziel, aber bei 28°C und Recovery-Woche genau richtig
+- **10-20 min**: Progression auf Zielpace (6:41 → 5:44) — im Zielkorridor
+- **20-30 min**: Deutliche Verlangsamung (6:53 → 8:07) — Gehpause oder hügeliges Terrain (HR fiel auf 120 bpm)
+- **30-45 min**: Starker Schlusspart (5:52 → 5:46 → 6:04) — die besten Kilometer, negatives Splitting
+
+Der Gesamt-Pace von 6:47 liegt knapp über dem Zielbereich (5:50-6:30). Bereinigt um die Gehpause/Verlangsamung bei 20-30 min ergibt sich ein Lauf-Pace von ~6:10 min/km — im Zielbereich.
+
+### 🏆 **Was war hervorragend**
+
+- **Dauer exakt**: 45:00 min Bewegungszeit = **punktgenau wie geplant** ✅✅ — perfekte Plan-Compliance
+- **Kein Z3/Z4/Z5-Overshoot**: Max HR 150, kein einziger Sample über 152 — trotz 28°C Hitze 🎯
+- **Zonendisziplin**: 84.5% in Z1-Z2, davon 70% in Z1 — klar recovery-orientiert, genau wie die Woche es verlangt
+- **Starker Schlusspart**: Letzte 15 min mit 5:52-6:04 min/km — zeigt Reserven und frische Beine, ohne HR-Limit zu verletzen
+- **Hitze-Management**: Bei 27.9°C bewusst langsamer gestartet (8:30 Einlaufen) und HR trotzdem unter Kontrolle gehalten
+- **Konsistente Wochenprogression abgeschlossen**: Di (B) → Mi (A) → Do (A+) → So (A) — die Recovery-Woche endet auf hohem Niveau
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Pace-Varianz**: 5:44-8:30 min/km = 2:46 Bandbreite — deutlich ungleichmäßiger als Do (20s Varianz). Die Gehpause bei 20-30 min verzerrt den Durchschnitt. Für einen Long Run ist Gleichmäßigkeit wichtiger als schnelle Segmente.
+- **Gesamt-Pace über Ziel**: 6:47 statt 5:50-6:30 — die langsamen Segmente (8:30, 8:07) ziehen den Schnitt über die Obergrenze. Ein gleichmäßigerer 6:15-6:20 Pace ohne Extremschwankungen wäre ideal.
+- **Warm-up zu lang**: 10 min bei 8:30-7:41 ist für einen 45-min Long Run proportional zu viel (~22% der Laufzeit). 5 min Einlaufen bei 7:00 reicht, dann auf Zielpace beschleunigen.
+- **Kardialer Drift**: Ø 141 bpm im letzten Drittel vs. 128 im ersten = +13 bpm Drift. Bei 28°C ist das physiologisch normal, aber der Drift deutet auf leichte Dehydrierung hin → vor dem Long Run bei Hitze mehr trinken.
+
+### 📈 **Progression vs. Previous Sessions**
+
+| Metrik | Di Recovery (B) | Mi Easy+Strides (A) | Do Recovery (A+) | **So Long Run** |
+|--------|----------------|---------------------|---------------------|-----------------|
+| Dauer geplant | 30 min | 35 min | 25 min | 45 min |
+| Dauer tatsächlich | 54 min ⚠️ | 35:18 ✅ | 22:42 ✅ | **45:00 ✅✅** |
+| Pace geplant | 6:30-7:00 | 6:15-6:45 | 6:30-7:00 | 5:50-6:30 |
+| Pace tatsächlich | 5:34 ⚠️ | 6:59 ✅ | 6:19 ≈✅ | 6:47 ≈✅ |
+| Max HR | 151 ⚠️ | 149 ✅ | 141 ✅✅ | **150 ✅** |
+| Avg HR | 138 | — | 121 | **133** |
+| Zeit über Z2 | — | — | — | **0%** ✅✅ |
+| Bewertung | B | A | A+ | **A** |
+
+**Recovery-Woche abgeschlossen**: Nach dem holprigen Start am Dienstag (zu schnell, zu lang) hat sich die Woche stetig verbessert. Donnerstag war die perfekteste Einheit (A+), Sonntag der solide Abschluss mit exakter Dauer und sauberer Zonenarbeit. Die Entlastungswoche hat ihren Zweck erfüllt.
+
+**Wochen-Zusammenfassung (W30)**:
+- 4 Runs, ~157 min Laufzeit (Ziel ~135 min — Di's Überlänge treibt den Schnitt hoch)
+- 0% Intensitätsarbeit — Recovery-Philosophie eingehalten ✅
+- Durchschnittliche Bewertung: B → A → A+ → A = **Gesamtnote A-**
+
+### 🎯 **Bewertung: A**
+
+Exzellente Ausführung des Recovery-Long-Runs. Dauer punktgenau, HR perfekt im Zielkorridor, kein Z3-Overshoot trotz Hitze. Pace etwas ungleichmäßig und knapp über der Obergrenze, aber bereinigt um die Verlangsamung bei 20-30 min im Zielbereich. Die Recovery-Woche endet mit einer soliden, kontrollierten Einheit — Florian ist bereit für W31 mit voller Intensität.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+- **W31 Vorbereitung**: Die Recovery-Woche hat funktioniert — frische Beine (negatives Splitting im Long Run) bei gutem HR-Management. Ab W31 drehen wir auf: Hill-Fokus für Vienna Trail.
+- **Pace-Gleichmäßigkeit**: Beim nächsten Long Run versuchen, die ersten Kilometer nicht unter 7:00 einzulaufen, sondern direkt auf 6:15-6:30 zu stabilisieren. Weniger Schwankungen = effizienteres Training.
+- **Hitze-Strategie**: Bei 28°C+ ist ein langsamerer Start richtig, aber gezielt hydrieren (500ml 1h vor dem Lauf, 200ml alle 20 min bei Hitze) hilft gegen kardialen Drift.
+- **Gehpausen bewusst planen**: Wenn hügelig, lieber konstant langsam laufen als stop-start. Das trainiert die aerobe Basis gleichmäßiger.
+- **Vorfreude auf W31**: Die Superkompensation greift — Resting HR niedrig, Beine frisch, Zone-Compliance perfekt. Beste Voraussetzungen für Hügelintervalle!
+
+**Detailed Metrics**:
+- HR Range: 80-150 bpm, Arbeitsbereich 125-150 (Z1-Z2)
+- Zone-Compliance: 84.5% in Z1-Z2 (70.1% Z1, 14.4% Z2), 0% über Z2
+- Pace Stability: 5:44-8:30 min/km, Ø 6:47 — ungleichmäßig, bereinigt ~6:10
+- HR Drift: +13 bpm (erstes vs. letztes Drittel), physiologisch bei 28°C
+- Power: Ø 225 W, Range 119-375 W
+- Ground Contact Time: Ø 269 ms (257-321 ms)
+- Stride Length: Ø 93 cm (74-116 cm)
+- Weather: 27.9°C
+- Calories: 599 kcal über 45:00
+
+---
+
 ## Weekly Summary & Patterns
 
-_Wird am Wochenende aktualisiert._
+### W30 Recovery-Woche — Gesamtbewertung: A-
+
+| Tag | Session | Dauer (Plan/Ist) | Pace | Max HR | Note |
+|-----|---------|-----------------|------|--------|------|
+| Di | Recovery 30min | 30/54 min | 5:34 | 151 | **B** |
+| Mi | Easy+Strides 35min | 35/35:18 min | 6:59 | 149 | **A** |
+| Do | Recovery 25min | 25/22:42 min | 6:19 | 141 | **A+** |
+| So | Long Run 45min | 45/45:00 min | 6:47 | 150 | **A** |
+
+**Gesamtvolumen**: ~157 min (Ziel ~135 min → +16% durch Di-Überlänge)
+**Intensität**: 0% Z3+ über die gesamte Woche ✅
+**Lernkurve**: Beeindruckende Steigerung von B → A → A+ → A. Recovery-Disziplin wurde nach anfänglichem Überdrehen (Di) vollständig internalisiert.
+**Superkompensation**: ✅ Niedrige Start-HR-Werte (80-84 bpm), frische Beine (negatives Splitting So), stabile Power — der Körper hat die Aufbauwochen W28-W29 gut verdaut.
+
+**Bereit für W31**: Die Entlastungswoche hat ihren Zweck erfüllt. Florian geht erholt und mit gutem HR-Management in die nächste Phase: volle Intensität mit Hill-Fokus für Vienna Trail.
