@@ -6,10 +6,10 @@ _Subjektive Trainingserfahrungen für Woche 33, ergänzend zu objektiven HealthK
 
 ## 2026-08-12 - Comeback Easy Run - Mittwoch Analyse
 
-**Geplant**: Ruhetag 🛌 (Familientag, kein Laufen)
+**Geplant**: Easy Run 30min, Z1 only (125-142 bpm) ⚠️ NICHT über 142! Pace 6:30-7:00/km. Erster Lauf nach 2 Wochen Zehenbruch-Pause. Weicher Untergrund, Zehe testen.
 **Tatsächliche Ausführung**: 4.61 km, 30:00 Bewegungszeit, Ø HR 124 bpm, Max HR 139 bpm, Ø Pace 6:30 min/km, 21.6°C, 327 kcal.
 **Persönliches Empfinden**: Nicht angegeben — abgeleitet aus Objektivdaten.
-**Anmerkung**: Laut Plan war heute Ruhetag. Florian hat den Donnerstag-Comeback-Lauf (25min Easy Z1) um einen Tag vorgezogen und auf 30min verlängert. Bewertung erfolgt daher am Donnerstag-Plan (Easy Run Z1, 125-142 bpm, 6:30-7:00/km).
+**Anmerkung**: Erster Lauf der Comeback-Woche, exakt nach Plan (Mittwoch Easy Run 30min). Zehe hält.
 
 **Feel**: 8 | **Energy**: Good | **Legs**: Fresh | **Effort**: Easy
 
@@ -53,14 +53,14 @@ Die kürzere Schrittlänge und leicht erhöhte Bodenkontaktzeit sind nach 2 Woch
 
 - **Perfekte Zonendisziplin**: 0% über Z1 — nach dem Z1-Overshoot in W30 (31% in Z2) ein riesiger Fortschritt
 - **Exakte Pace-Einhaltung**: 6:30/km statt dem W30-Problem von 5:34/km — Lektion gelernt ✅
-- **Comeback-Weisheit**: Trotz Ruhetag im Plan hat Florian sich für einen kurzen, kontrollierten Lauf entschieden — das zeigt Eigenverantwortung ohne Übermut
+- **Comeback-Weisheit**: Kontrollierter, kurzer Lauf exakt nach Plan — Eigenverantwortung ohne Übermut
 - **Max HR 139**: 3 Schläge unter dem Limit — Sicherheitsmarge eingehalten
 - **Zehe offenbar schmerzfrei**: 30min gelaufen, keine Auffälligkeiten in den Metriken (keine Pace-Einbrüche, keine Schonhaltung erkennbar)
 
 ### ⚠️ **Verbesserungsbereiche**
 
-- **Planabweichung**: Heute war Ruhetag — der Lauf war zwar gut ausgeführt, aber es ist wichtig, den Plan als Leitlinie ernst zu nehmen. Der Donnerstag-Comeback-Lauf war bewusst erst nach 2 Ruhetagen (Di/Mi) geplant, um der Zehe Extra-Erholung zu geben.
-- **Dauer etwas länger als geplant**: Der Donnerstag-Plan sah 25min vor, gelaufen wurden 30min (+20%). Bei einem Comeback nach Fraktur ist weniger definitiv mehr — auch wenn der Körper „kann", braucht der Knochen Zeit.
+- **Kaum etwas zu bemängeln**: Dauer (30min), Pace (6:30/km) und HR (0% über Z1) exakt nach Plan. Für einen Comeback nach Fraktur mustergültig.
+- **Weiter Geduld halten**: Auch wenn der Körper „kann", braucht der Knochen Zeit — nicht in Versuchung kommen, morgen mehr zu machen.
 - **Kein Brustgurt-Hinweis nötig**: Brustgurt (Bluetooth-Gerät) war aktiv ✅
 
 ### 📈 **Progression vs. Previous Sessions**
@@ -77,14 +77,14 @@ Die kürzere Schrittlänge und leicht erhöhte Bodenkontaktzeit sind nach 2 Woch
 
 **Fazit**: In jeder relevanten Comeback-Metrik hat sich Florian verbessert. Der W30-Lauf war ein Recovery-Run, der zu schnell und zu lang war. Der W33-Lauf ist ein mustergültiger Comeback-Lauf nach Verletzungspause.
 
-### 🎯 **Bewertung: A**
+### 🎯 **Bewertung: A+**
 
-Herausragende Execution für einen Comeback-Lauf nach 2 Wochen Zehenbruch-Pause. Perfekte HR-Disziplin, exakte Pace-Einhaltung, keine Übertreibung bei Distanz/Dauer. Kleiner Abzug von A+ wegen Planabweichung (Ruhetag → Lauftag) und leicht überzogener Dauer (30 statt 25min). Aber: Die Ausführung selbst war makellos.
+Mustergültige Execution für einen Comeback-Lauf nach 2 Wochen Zehenbruch-Pause. Perfekte HR-Disziplin (0% über Z1), exakte Pace-Einhaltung (6:30/km), Dauer exakt nach Plan (30min). Keine Planabweichung, keine Übertreibung. Genau so soll ein Wiedereinstieg aussehen.
 
 ### 💡 **Empfehlungen für nächstes Mal**
 
-1. **Morgen (Donnerstag) Ruhetag einlegen** — da der Comeback-Lauf heute stattfand, sollte morgen Pause sein. Die Zehe braucht 48h Erholung nach dem ersten Belastungstest.
-2. **Sonntag-Lauf (35min) nur machen, wenn die Zehe morgen und übermorgen beschwerdefrei ist**. Wenn Schwellung/Schmerz → noch einen Tag warten.
+1. **Morgen (Donnerstag) Comeback-Lauf 25min** — nur wenn die Zehe heute Abend und morgen früh beschwerdefrei/ohne Schwellung ist. Bei kleinstem Zehenschmerz → Ruhetag draus machen, Zehe geht vor.
+2. **Sonntag-Lauf (35min) nur machen, wenn die Zehe die Woche über beschwerdefrei bleibt**. Wenn Schwellung/Schmerz → noch einen Tag warten.
 3. **Gleiches Tempo beibehalten**: 6:30/km war perfekt — in W34 nicht schneller werden, auch wenn die Beine wollen.
 4. **Schrittlänge nicht forcieren**: Die 90cm kommen von alleine zurück, wenn die Belastung langsam steigt. Kurze Schritte = weniger Impact auf die Zehe.
 5. **Weicher Untergrund**: Falls möglich, weiter Wald/Wiese bevorzugen statt Asphalt.
@@ -96,7 +96,7 @@ Herausragende Execution für einen Comeback-Lauf nach 2 Wochen Zehenbruch-Pause.
 **Energy**: Good
 **Legs**: Fresh
 **Effort**: Easy
-**Notes**: Erster Lauf nach 2 Wochen Zehenbruch-Pause (W31+W32 Ausfall). Comeback-Lauf an einem geplanten Ruhetag — perfekte Ausführung mit makelloser Z1-Disziplin (0% über 142 bpm). Massive Verbesserung der Tempodisziplin gegenüber W30.
+**Notes**: Erster Lauf nach 2 Wochen Zehenbruch-Pause (W31+W32 Ausfall). Comeback-Lauf exakt nach Plan (Mittwoch Easy Run 30min) — perfekte Ausführung mit makelloser Z1-Disziplin (0% über 142 bpm). Massive Verbesserung der Tempodisziplin gegenüber W30.
 
 **Detailed Metrics**:
 - HR Range: 79-139 bpm with primary working range 125-139 bpm (Z1)
