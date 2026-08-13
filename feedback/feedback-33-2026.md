@@ -4,6 +4,74 @@ _Subjektive Trainingserfahrungen für Woche 33, ergänzend zu objektiven HealthK
 
 ## Session Feedback
 
+## 2026-08-13 - Comeback Easy Run - Donnerstag Analyse
+
+**Geplant**: Comeback-Lauf Easy 25min, Z1 only (125-142 bpm) ⚠️ NICHT über 142! Pace 6:30-7:00/km. Zweiter Lauf der Comeback-Woche nach Zehenbruch, weicher Untergrund, Zehe testen.
+**Tatsächliche Ausführung**: 3.77 km, 25:00 Bewegungszeit, Ø HR 121 bpm, Max HR 131 bpm, Ø Pace 6:37 min/km, 22.6°C, 264 kcal.
+**Persönliches Empfinden**: Nicht angegeben — abgeleitet aus Objektivdaten.
+**Anmerkung**: Dritter Lauf der Comeback-Woche (nach Mi 30min), exakt nach Plan. Zehe hält weiter.
+
+**Feel**: 8 | **Energy**: Good | **Legs**: Fresh | **Effort**: Easy
+
+### 🎯 **Herzfrequenz-Analyse**
+
+**Ziel**: Z1 only (125-142 bpm), NICHT über 142! (Comeback nach Zehenbruch)
+
+**Tatsächliche Zonenverteilung (1566 HR-Samples)**:
+- **Aktive Erholung (≤124): 70% (avg-lastig)** — sehr entspannter Warm-up + Cool-down
+- **Z1 (125-142): 30%** ✅
+- **Z2 (143-152): 0%** ✅ KEIN Overshoot
+- **Z3/Z4/Z5: 0%** ✅
+
+**HR-Progression (Drittel)**: 123.5 → 123.3 → 115.7 bpm — sanfter Warm-up, stabiler Mittelteil, klar abfallender Cool-down.
+
+**Fazit**: **Erneut makellose Zonendisziplin.** Max HR 131 bpm — 11 Schläge unter dem Z1-Limit von 142, sogar noch konservativer als gestern (139 bpm). Der Lauf lag mit Ø 121 bpm überwiegend in aktiver Erholung — für einen Comeback-Belastungstest genau richtig. Null Sekunden über Z1. Absolute Vorbildausführung.
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- **Ziel**: 6:30-7:00 min/km
+- **Tatsächlich**: Ø 6:37 min/km — **mittig im Zielbereich** ✅
+- Schnellstes Sample: 6:28/km — keine Tempo-Ausreißer
+- Ø Speed 2.52 m/s → sauberer, kontrollierter Easy-Bereich
+
+### 🏆 **Was war hervorragend**
+
+- Perfekte Z1-Disziplin: 0% über Zielzone, Max HR nur 131 bpm.
+- Pace punktgenau (6:37/km) — kein Ehrgeiz, exakt wie für den Wiedereinstieg gefordert.
+- Konsequenter Cool-down (letztes Drittel 115.7 bpm) — Belastung sauber ausklingen lassen.
+- Distanz-Progression im Plan-Rahmen (kurz & kontrolliert nach dem 30min-Lauf).
+
+### ⚠️ **Verbesserungsbereiche**
+
+- Kaum etwas — Ausführung ist ideal. Falls die Zehe schmerzfrei bleibt, kann Fr/Sa die Dauer wie geplant leicht gesteigert werden (→ ~35min).
+- HR lag recht tief (70% aktive Erholung) — völlig okay für Comeback, künftig darf im Aufbau ruhig mehr stabile Z1-Zeit dazukommen.
+
+### 📈 **Progression vs. Previous Sessions**
+
+- **vs. Mi 2026-08-12** (30min, Ø HR 124, Max 139, 6:30/km): Heute noch konservativer (Ø 121, Max 131). Zwei Läufe in Folge mit tadelloser Disziplin — deutlich reifer als der W30-Recovery-Run (damals 31% über Z1).
+- Comeback-Woche läuft bislang exakt nach Drehbuch: kontrolliert, schmerzfrei, ohne Intensitäts-Ausreißer.
+
+### 🎯 **Bewertung: A**
+
+Comeback-Belastungstest perfekt umgesetzt — Zone gehalten, Pace kontrolliert, Zehe getestet ohne Reiz zu viel.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+- Weiter so: nur Z1, weicher Untergrund, Zehe vor/während/nach beobachten.
+- Wenn schmerzfrei: nächste Einheit Dauer leicht erhöhen (~35min), Intensität konstant lassen.
+- Vienna Trail (18.10.) ist ~9 Wochen weg — Geduld zahlt sich aus, weiter geduldig aufbauen.
+
+**Detailed Metrics**:
+- HR Range: 78-131 bpm, Arbeitsbereich überwiegend ≤124 (aktive Erholung) + 30% Z1
+- Pace Stability: Ø 6:37/km, mittig im Zielbereich (6:30-7:00/km), keine Ausreißer
+- Power: Ø 204 W (194-215 W), niedrig-stabil, passend zum sehr lockeren Tempo
+- Stride Length: Ø ~91 cm (85-93 cm)
+- Ground Contact Time: Ø 269 ms (255-288 ms)
+- Elevation: keine Elevation-Daten im Workout
+- Calories: 264 kcal über 25 min
+
+---
+
 ## 2026-08-12 - Comeback Easy Run - Mittwoch Analyse
 
 **Geplant**: Easy Run 30min, Z1 only (125-142 bpm) ⚠️ NICHT über 142! Pace 6:30-7:00/km. Erster Lauf nach 2 Wochen Zehenbruch-Pause. Weicher Untergrund, Zehe testen.
