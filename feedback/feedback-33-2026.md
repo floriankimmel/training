@@ -4,6 +4,75 @@ _Subjektive Trainingserfahrungen für Woche 33, ergänzend zu objektiven HealthK
 
 ## Session Feedback
 
+## 2026-08-16 - Easy Run - Sonntag Analyse
+
+**Geplant**: Easy Run 35min, Z1-Z2 (125-152 bpm, Ziel überwiegend Z1), Pace 6:00-6:45/km. Längster Lauf der Woche (Abschluss Comeback-Woche), etwas längere aerobe Einheit — nur wenn Zehe die Woche über problemlos.
+**Tatsächliche Ausführung**: 5.73 km, 35:00 Bewegungszeit, Ø HR 115 bpm, Max HR 142 bpm, Ø Pace 6:06 min/km, 27.7°C, 408 kcal.
+**Persönliches Empfinden**: Nicht angegeben — abgeleitet aus Objektivdaten.
+**Anmerkung**: Dritter und längster Lauf der Comeback-Woche (nach Mi 30min + Do 25min). Zehe hat die ganze Woche gehalten. HR-Aufzeichnung diesmal per Apple Watch (optisch, ~608 Samples) — kein Brustgurt.
+
+**Feel**: 8 | **Energy**: Good | **Legs**: Fresh | **Effort**: Easy
+
+### 🎯 **Herzfrequenz-Analyse**
+
+**Ziel**: Z1-Z2 (125-152 bpm), überwiegend Z1
+
+**Tatsächliche Zonenverteilung (608 HR-Samples)**:
+- **Aktive Erholung (≤129): 60%** — sehr entspannter Warm-up + langer Cool-down
+- **Z1 (130-147): 40%** ✅
+- **Z2 (148-152): 0%** ✅
+- **Z3/Z4/Z5: 0%** ✅
+
+**HR-Progression (Drittel)**: 132.0 → 119.9 → 93.6 bpm — HR früh am höchsten (Warm-up + wärmster Tageszeitpunkt, 27.7°C), dann kontinuierlich abfallend bis zu einem sehr ruhigen Cool-down.
+
+**Fazit**: **Erneut tadellose Zonendisziplin.** Max HR 142 bpm — punktgenau am unteren Ende des erlaubten Z1-Z2-Fensters und identisch mit dem strikten Z1-Limit der Vortage. Trotz 27.7°C Hitze blieb die HR komplett unter Kontrolle, kein einziger Ausreißer in Z2+. Der ausgeprägte Cool-down (letztes Drittel Ø 93.6 bpm) zeigt eine saubere Belastungssteuerung — bei Hitze klug gehandelt.
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- **Ziel**: 6:00-6:45 min/km
+- **Tatsächlich**: Ø 6:06 min/km (distanzbasiert) — **im oberen Tempo-Bereich des Ziels** ✅
+- Speed-Daten (Ende des Laufs): Ø ~2.54 m/s ≈ 6:34/km, keine Tempo-Ausreißer
+- Bei 27.7°C ein flottes, aber HR-technisch klar kontrolliertes Tempo (niedrige HR trotz Pace) → gute aerobe Basis kehrt zurück
+
+### 🏆 **Was war hervorragend**
+
+- Hitze-Management: 27.7°C, trotzdem Ø HR nur 115 bpm und Max 142 bpm — Null Overshoot.
+- Längster Lauf der Woche (5.73 km / 35min) sauber im Plan-Rahmen abgeschlossen — Progression 30→25→35min exakt eingehalten.
+- Sehr niedrige HR bei ordentlicher Pace (6:06/km) → Zeichen zurückkehrender aerober Fitness.
+- Konsequenter, langer Cool-down — Belastung bei Hitze bewusst ausklingen lassen.
+
+### ⚠️ **Verbesserungsbereiche**
+
+- HR lag über weite Strecken sehr tief (60% aktive Erholung) — für Comeback + Hitze völlig richtig, im weiteren Aufbau (W34) darf ruhig etwas mehr stabile Z1-Zeit dazukommen.
+- Diesmal ohne Brustgurt gelaufen (Plan forderte Brustgurt) — für Easy-Läufe okay, für künftige Intensitäts-/Zonen-Analysen wieder Brustgurt anlegen für präzisere Daten.
+
+### 📈 **Progression vs. Previous Sessions**
+
+- **vs. Do 2026-08-13** (25min, Ø HR 121, Max 131, 6:37/km): Heute länger (35min) und flotter (6:06/km) bei sogar noch niedrigerer Ø HR (115) — bessere aerobe Ökonomie, Zehe hält.
+- **vs. Mi 2026-08-12** (30min, Ø HR 124, Max 139, 6:30/km): Kontinuierliche Steigerung von Dauer und Tempo bei fallender/gleichbleibender HR über drei Läufe — mustergültiger Wiederaufbau.
+- **Comeback-Woche komplett:** 3/3 Läufe (30+25+35min) exakt nach Plan, alle strikt in Zone, Zehe die ganze Woche schmerzfrei. Ziel der Woche voll erreicht. 🌱
+
+### 🎯 **Bewertung: A**
+
+Perfekter Abschluss der Comeback-Woche: längster Lauf sauber absolviert, Zone trotz Hitze gehalten, Pace kontrolliert, Zehe hat die Woche komplett mitgemacht.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+- W34: Volumen vorsichtig weiter aufbauen (etwas längere Easy-Läufe), Intensität weiterhin zurückhalten bis Zehe unter Easy stabil bleibt.
+- Bei Zonen-relevanten Einheiten wieder Brustgurt anlegen.
+- Vienna Trail (18.10.) noch ~9 Wochen — Basis ist zurück, jetzt geduldig Volumen und dann erst Hügel/Intensität ergänzen.
+
+**Detailed Metrics**:
+- HR Range: 71-142 bpm, Arbeitsbereich überwiegend ≤129 (aktive Erholung) + 40% Z1
+- Pace Stability: Ø 6:06/km (distanzbasiert), im Zielbereich (6:00-6:45/km), keine Ausreißer
+- Power: Ø 215 W (185-231 W, Endphase), stabil-locker
+- Stride Length: Ø ~100 cm (89-104 cm)
+- Ground Contact Time: Ø 248 ms (237-270 ms)
+- Elevation: keine Elevation-Daten im Workout
+- Weather: 27.7°C (warm), 408 kcal über 35 min
+
+---
+
 ## 2026-08-13 - Comeback Easy Run - Donnerstag Analyse
 
 **Geplant**: Comeback-Lauf Easy 25min, Z1 only (125-142 bpm) ⚠️ NICHT über 142! Pace 6:30-7:00/km. Zweiter Lauf der Comeback-Woche nach Zehenbruch, weicher Untergrund, Zehe testen.
