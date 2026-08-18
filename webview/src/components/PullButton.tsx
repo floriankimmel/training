@@ -53,7 +53,9 @@ export default function PullButton() {
       const data = await res.json();
       if (data.success) {
         setState('success');
-        setMessage(data.message?.slice(0, 40) || 'Pulled ✓');
+        setMessage(data.message?.slice(0, 40) || 'Pulled ✓ — reloading');
+        // Pull may bring changes → refresh UI automatically
+        setTimeout(() => window.location.reload(), 800);
       } else {
         setState('error');
         setMessage(data.error || 'Pull failed');
