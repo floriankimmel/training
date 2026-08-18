@@ -111,3 +111,82 @@ Exzellente Ausführung des ersten harten Reizes nach der Verletzung. Alle 5 Inte
 - Elevation: nicht verfügbar
 - Wetter: 28,3 °C (heiß)
 - Calories: 600 kcal
+
+## 2026-08-18 - Recovery Run - Tuesday Analyse
+
+**Geplant**: Recovery Run — 30min. Z1 only (125-142 bpm) ⚠️ NICHT ÜBER 142! Pace 6:30-7:00/km. Fokus: aktive Erholung nach den Z4-Intervallen (Mo), Beine durchspülen. Disziplin: nicht länger, nicht schneller. Abends Kraft Tag 2 (Beine/Gesäß, keine Sprünge).
+**Tatsächliche Ausführung**: 4,47 km in 30:00 (Moving Time), Ø Pace 6:40/km, 342 kcal, 22,3 °C. Ø HR 128 bpm, Max HR **142 bpm** (Ceiling exakt getroffen, nie überschritten!), Min HR 78 bpm. n=1977 HR-Samples.
+**Persönliches Empfinden**: Nicht angegeben — aus den Daten abgeleitet: kontrollierter, disziplinierter Recovery-Lauf ohne einen einzigen Ausreißer nach oben.
+
+### 🎯 **Herzfrequenz-Analyse**
+
+Musterhafte Recovery-Disziplin. Das HR-Ceiling von 142 bpm wurde **exakt getroffen und kein einziges Mal überschritten** (Max = 142). Ø 128 bpm liegt perfekt im unteren Zielband (125-142).
+
+HR-Verteilung (n=1977 Sekunden-Samples):
+- **≤119 (sehr locker)**: 16% — Start/Einlaufen, tiefe Phasen
+- **120-139 (Zielband Recovery)**: 77% ✅ — der gesamte Hauptteil
+- **140-142 (oberer Zielrand)**: 7% — kurze Momente am Ceiling, sauber gedeckelt
+- **Über 142**: **0%** ✅✅
+
+HR-Progression über die Drittel: **125,5 → 132,5 → 125,7 bpm** — sauber symmetrisch: lockeres Einlaufen, kontrollierte Mitte, ruhiges Auslaufen. Kein Drift nach oben trotz 22 °C. Genau das Profil, das ein Recovery-Lauf haben soll.
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+Ø **6:40/km** — punktgenau im Zielband 6:30-7:00. Bemerkenswert konstant:
+- **1. Drittel**: 6:41/km
+- **2. Drittel**: 6:37/km
+- **3. Drittel**: 6:41/km
+- Spanne über die gesamte Distanz: nur 6:33–6:47/km
+
+Praktisch keine Pace-Varianz — kein Beschleunigen, kein Schleichen. Diese Gleichmäßigkeit bei gleichzeitig sauberem HR-Ceiling zeigt, dass du das Recovery-Tempo mittlerweile im Gefühl hast.
+
+Weitere Metriken:
+- **Power**: Ø 209 W (206-213), stabil
+- **Bodenkontaktzeit**: Ø 244 ms (222-270) — gut für lockeres Tempo, leicht besser als der Cooldown gestern (271 ms)
+
+### 🏆 **Was war hervorragend**
+
+- **Ceiling perfekt gedeckelt**: Max 142 bpm = exakt die Obergrenze, **0% über 142**. Die "NICHT ÜBER 142"-Ansage 1:1 umgesetzt.
+- **77% im Zielband**, symmetrische HR-Kurve (125→132→126) — kein Aufwärtsdrift, echtes Durchspülen der Beine.
+- **Pace-Konstanz auf Weltklasse-Niveau**: 6:37-6:41 über alle Drittel, nur 14s Gesamtspanne.
+- **Dauer-Disziplin**: exakt 30:00 — nicht länger gemacht, wie vom Plan gefordert. Genau die Zurückhaltung, die einen Tag nach harten Intervallen zählt.
+
+### ⚠️ **Verbesserungsbereiche**
+
+- Praktisch nichts zu meckern — das ist die textbook-Ausführung eines Recovery-Laufs. Einzige Mini-Notiz: 7% der Zeit am oberen Rand (140-142) ist völlig okay, aber wenn die Beine sich noch platt anfühlen, darfst du bewusst auch mal 5-10 bpm tiefer laufen (Richtung 120-130). Recovery darf sich fast zu langsam anfühlen.
+
+### 📈 **Progression vs. Previous Sessions**
+
+- **Gestern (Mo, Z4-Intervalle)**: Peak 174 bpm, 22% Z4, harte Belastung. Heute sauber runtergefahren auf Ø 128 bpm — das Kontrast-Muster (hart → locker) sitzt.
+- **Recovery-Muster konsistent**: Wie schon in früheren Wochen fährst du Recovery-Läufe diszipliniert unter dem Ceiling. Nach dem ersten harten Reiz seit dem Zehenbruch ist diese saubere Erholung genau richtig — sie schützt die Adaption der Intervallarbeit.
+
+### 🎯 **Bewertung: A+**
+
+Fehlerlose Recovery-Ausführung: HR-Ceiling exakt getroffen (0% Überschreitung), Pace punktgenau und ultra-konstant, Dauer diszipliniert eingehalten. Nichts überzogen, nichts vertrödelt.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+- Weiter so — bei Recovery gilt: lieber 5 bpm zu tief als zu hoch. Wenn die Beine von den Intervallen noch müde sind, ruhig Richtung 120-130 bpm gehen.
+- Zehe-Check nach der Kraft-Einheit (Beine/Gesäß) heute Abend — keine Sprünge, wie geplant.
+- Mittwoch Tempo 3x8min Z3 (153-160): das wird die nächste Quality-Session. Heute gut erholt = gute Voraussetzung dafür.
+
+---
+
+### Entry: 2026-08-18 Recovery Run (Tuesday)
+
+**Session Type**: Easy/Recovery Run
+**Planned**: 30min Z1 (125-142 bpm, Ceiling 142), Pace 6:30-7:00/km
+**Grade**: A+
+**Effort**: Easy (Recovery)
+**Notes**: Fehlerlose Recovery-Ausführung nach den Z4-Intervallen vom Vortag. HR-Ceiling 142 exakt getroffen, 0% Überschreitung. Pace 6:40/km punktgenau und ultra-konstant. Dauer diszipliniert bei exakt 30min. Zehe-Monitoring läuft weiter, Kraft Tag 2 abends geplant.
+
+**Detailed Metrics**:
+- HR Range: 78-142 bpm, Ø 128 bpm (n=1977 Samples)
+- HR-Zonen: ≤119 16% | 120-139 (Zielband) 77% | 140-142 7% | >142 0% ✅
+- HR-Progression Drittel: 125,5 → 132,5 → 125,7 bpm
+- Pace: Ø 6:40/km (Drittel 6:41 / 6:37 / 6:41), Spanne 6:33-6:47
+- Power: Ø 209 W (206-213)
+- GCT: Ø 244 ms (222-270)
+- Distanz/Dauer: 4,47 km in 30:00 (Moving Time)
+- Wetter: 22,3 °C
+- Calories: 342 kcal
