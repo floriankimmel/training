@@ -2,9 +2,7 @@
 
 > **Status**: Current target race for 2026
 > **Training Start**: Week 21, 2026 (Monday 2026-05-18)
-> **Tredict Plan ID**: `AiJc4wSqL`
-> **Plan Start**: Week 21, 2026 (2026-05-18)
-> **Todoist Goal ID**: `019e6087-4879-7714-9727-7dc56af9ee08`
+> **Data source**: HealthFit `.fit` only (offline)
 
 ## Race Details
 
