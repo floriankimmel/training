@@ -11,7 +11,8 @@
 - **Onset**: 2026-08-19 (W34, Wed) — diarrhea, mild fever.
 - **Effect**: Thu 08-20 + Fri 08-21 OFF. Earliest return **Sat 08-22**, and only if fever gone ≥24–48 h and gut settled.
 - **Return protocol**: first run short easy **Z1**, abort on discomfort. No long run / quality until 2–3 symptom-free easy runs. Hydration + electrolytes priority after GI loss.
-- **Status**: active (as of 2026-08-20).
+- **Progress 2026-08-20**: fever gone (no fever today). Stomach still mildly off; morning diarrhea, but stool solid again since. Improving — fever-free clock started today; earliest return **Sat 08-22** if fever stays gone ≥24–48 h and gut stays settled.
+- **Status**: active but improving (as of 2026-08-20).
 
 ## 2026 — Toe fracture (Zehenbruch)
 

@@ -8,6 +8,7 @@
 ## ⚠️ Recovering: GI illness (since 2026-08-19)
 
 - Magen-Darm + mild fever from Wed 08-19; W34 cut short. Return protocol: 2–3 easy Z1-Z2 runs before intensity.
+- **08-20 update**: fever gone today; stomach still mildly off (AM diarrhea, then solid again). Improving — fever-free clock started 08-20.
 - **W35 = controlled reboot + Göteborg trip** — no hard quality, aerobic rebuild only, vert softened. Watch for residual GI symptoms.
 
 ## Current Target
