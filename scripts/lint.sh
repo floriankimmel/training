@@ -76,6 +76,71 @@ for f in STATUS.md athlete.md injuries.md benchmarks.md; do
   else ok "$f fresh (${age}d)"; fi
 done
 
+echo "== 5. strength vs. calendar travel days =="
+# HARD rule: no Kraft (🏋️/💪/"Kraft Tag") on days the calendar marks strength "not possible"
+# (travel/trip days). Cross-check each trainings/week-*.md day against calendar no-strength ranges.
+CAL_HITS=$(python3 - <<'PY'
+import re, glob
+from datetime import date, timedelta
+
+def dates(s):
+    return re.findall(r'\d{4}-\d{2}-\d{2}', s)
+
+def d(s):
+    y,m,dd=map(int,s.split('-')); return date(y,m,dd)
+
+ranges=[]
+try:
+    cal=open('calendar.md',encoding='utf-8').read()
+except OSError:
+    cal=''
+for line in cal.splitlines():
+    if not line.strip().startswith('|'):
+        continue
+    cols=[c.strip() for c in line.strip().strip('|').split('|')]
+    if len(cols) < 5:
+        continue
+    strength_col=cols[4]
+    if 'not possible' not in strength_col.lower():
+        continue
+    ds=dates(cols[0])
+    if not ds:
+        continue
+    start, end = ds[0], ds[-1]
+    # Fly-out day (range start) allows AM Kraft before flight (calendar convention:
+    # "shift Kraft to Mon before flight"). Ban only the full away days start+1..end.
+    if len(ds)>=2 and start!=end:
+        start=(d(start)+timedelta(days=1)).isoformat()
+    ranges.append((start, end))
+
+def within(d):
+    for a,b in ranges:
+        if a<=d<=b:
+            return (a,b)
+    return None
+
+bad=[]
+for f in glob.glob('trainings/week-*.md'):
+    day=None
+    for line in open(f,encoding='utf-8'):
+        m=re.match(r'##\s+\w+,\s*(\d{4}-\d{2}-\d{2})', line)
+        if m:
+            day=m.group(1); continue
+        if day and ('🏋' in line or '💪' in line or 'Kraft Tag' in line):
+            r=within(day)
+            if r:
+                bad.append(f"{f}: Kraft on {day} (travel {r[0]}..{r[1]})")
+                day=None
+for b in sorted(set(bad)):
+    print(b)
+PY
+)
+if [ -n "$CAL_HITS" ]; then
+  while IFS= read -r l; do err "$l"; done <<< "$CAL_HITS"
+else
+  ok "no Kraft scheduled on calendar travel days"
+fi
+
 echo
 if [ "$ERRORS" -gt 0 ]; then
   printf '\033[31m%d error(s), %d warning(s)\033[0m\n' "$ERRORS" "$WARNINGS"; exit 1

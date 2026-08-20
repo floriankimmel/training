@@ -3,13 +3,12 @@
 > Rolling "where am I right now" file so agents don't have to read 6 week files.
 > Update at the end of each coach/feedback run.
 
-**Last updated**: 2026-08-20 (Week 34, 2026)
+**Last updated**: 2026-08-20 (Week 35 plan, 2026)
 
-## ⚠️ Active: GI illness (since 2026-08-19)
+## ⚠️ Recovering: GI illness (since 2026-08-19)
 
-- Magen-Darm + mild fever since Wed 08-19. **Thu 08-20 + Fri 08-21 OFF.**
-- Earliest return **Sat 08-22**, only if fever gone ≥24–48 h + gut settled. First run short easy Z1.
-- **Sun long run downgraded** — no 60min long run this week; easy Z1 by feel if returned. See `injuries.md`.
+- Magen-Darm + mild fever from Wed 08-19; W34 cut short. Return protocol: 2–3 easy Z1-Z2 runs before intensity.
+- **W35 = controlled reboot + Göteborg trip** — no hard quality, aerobic rebuild only, vert softened. Watch for residual GI symptoms.
 
 ## Current Target
 
@@ -20,15 +19,15 @@
 
 ## Long Run / Vert Progression
 
-- **This week (W34)**: LR 60min flat, vert ~100 hm (toe-safe reboot)
+- **This week (W35)**: LR 90min Wed in Göteborg (hilly), vert ~300-350 hm (Build 1, post-illness but not passive)
 - **Peak target**: LR 1:30 solid → reach 1:45–2:00 once/twice; weekly vert build to ~800 hm
 - **Currency**: for the trail race, **weekly hm > flat minutes**.
 
 ## Current Phase
 
-- **Block**: Rebuild after illness (W34). Toe fracture healed — no longer a limiter.
-- **This week (W34)**: cut short by GI illness (see above). Prior Mo/Mi quality + Kraft done.
-- **Next (W35+)**: back to build — hills + vertical fair game (toe healed; athlete is advanced, aggressive ramp OK).
+- **Block**: Build 1 (softened) — reboot after GI illness. Toe fracture healed — no longer a limiter.
+- **This week (W35)**: Göteborg trip Mo–Do (AM run windows Di/Mi/Do). **Long Run 90min Wed in Göteborg (hilly, vert ~300-400 hm)**, endurance+strides Tue, short run Sat. No hard intervals yet (post-fever). Kraft stays First Class **Woche 7** (Tag 2/3/4/5; no Kraft on Göteborg travel days).
+- **Next (W36+)**: if healthy → real hill build (hill intervals, vert → ~450 hm), Kraft advances to Woche 8.
 
 ## Recent Progression
 
@@ -36,7 +35,8 @@
 |------|-------|------|
 | W31–W32 | ⛔ Ausfall | Toe fracture (non-training, pool), zero training |
 | W33 | Wiedereinstieg | 3 easy Z1 runs, ~90 min, toe pain-free ✅ |
-| W34 | Reboot, then illness | quality Mo/Mi done, then GI illness cut the week |
+| W34 | Reboot, then illness | quality Mo/Mi + Kraft Tag 1 done, then GI illness cut the week |
+| W35 | Reboot + Göteborg | Build 1: LR 90min Göteborg (hilly), endurance+strides, Kraft Woche 7 Tag 2-5 |
 
 ## Open Watch-Items
 
