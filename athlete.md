@@ -11,6 +11,8 @@
 - **Sport**: Running (road + trail), bodyweight strength (Mark Lauren)
 - **hrMax**: 180 bpm (see `zones.md` for full zone table)
 - **Life context**: Parent-athlete. Training must fit work + family. Consistency > volume.
+- **Location**: Wolkersdorf — flat terrain. **Max local climb ~60 hm.** Vertical must be
+  *accumulated* (hill repeats / stairs / treadmill incline) or sought out (Vienna Woods trips).
 
 ## Goals
 

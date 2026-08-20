@@ -33,6 +33,13 @@ If toe complains, hold flat one more week and shift the build back.
 
 ## Rules
 
+- **Terrain constraint (Wolkersdorf, max ~60 hm climb)**: weekly vert is **accumulated**, not from single climbs. Methods to hit the hm target:
+  - **Hill repeats** on the local ~60 hm climb — e.g. 5x = 300 hm, 10x = 600 hm (main workhorse).
+  - **Stairs / incline treadmill** — continuous vert without terrain, good for bad weather / time crunch.
+  - **Vienna Woods trips** — for key long runs (weekend, when family allows): real continuous climb
+    **and descent** practice (downhill is otherwise untrainable locally).
+  - **Rolling loops** — stack small rises repeatedly during long runs.
+  - Prioritize getting to real trail for at least the peak-week long runs (W39/W40) so quads see sustained descent.
 - **Toe gate**: no uphill push-off intensity until a hard flat session is symptom-free. Shift the table, don't force it.
 - **Family flex**: long runs are flexible in day/length. Hitting the vert target matters more than the exact minutes.
 - **Vert > minutes**: for a trail race, weekly climbing (hm) is the key currency. Prioritize elevation over flat distance.
