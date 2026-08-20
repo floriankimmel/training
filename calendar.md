@@ -18,7 +18,8 @@
 
 | Dates | Type | Location | Running | Strength | Notes |
 |-------|------|----------|---------|----------|-------|
-| _(none scheduled yet)_ | | | | | |
+| 2026-08-24 – 2026-08-27 | Work trip | Göteborg | Tue/Wed/Thu AM: **1.5–2h** @ ~06:00 (work starts ~09:00) — athlete wants these, aggressive OK | Not possible on trip days → shift Kraft to weekend/other days | Fly out Mon 15:50 (travel day, easy/rest); Thu departure Göteborg 14:50 (Thu AM run before flight OK) |
+| 2026-10-08 – 2026-10-10 | Company trip | Barcelona | Uncertain — maybe short easy AM if possible, don't count on it | Not possible | Falls in **W41 taper** (Vienna 10-18). Low volume anyway → missed runs are fine, no makeup needed. Prioritize freshness. |
 
 <!-- Example row (delete when adding real ones):
 | 2026-09-14 – 2026-09-17 | Work trip | Göteborg | Tue–Thu: up to 2h @ 06:00 before 09:00 start | Not possible on trip days | Fly out Mon PM, back Thu PM |
