@@ -26,23 +26,23 @@
 
 ## Current Phase
 
-- **Block**: Reboot / rebuild after toe fracture (see `injuries.md`).
-- **This week (W34)**: Intensity back on FLAT terrain (Zehe-safe). 2 quality + long run, ~224 min.
-- **Next (W35+)**: Reintroduce hill intervals + long runs with elevation, IF toe tolerates hard flat load.
+- **Block**: Rebuild after illness (W34). Toe fracture healed — no longer a limiter.
+- **This week (W34)**: cut short by GI illness (see above). Prior Mo/Mi quality + Kraft done.
+- **Next (W35+)**: back to build — hills + vertical fair game (toe healed; athlete is advanced, aggressive ramp OK).
 
 ## Recent Progression
 
 | Week | Focus | Note |
 |------|-------|------|
-| W31–W32 | ⛔ Ausfall | Toe fracture, zero training |
+| W31–W32 | ⛔ Ausfall | Toe fracture (non-training, pool), zero training |
 | W33 | Wiedereinstieg | 3 easy Z1 runs, ~90 min, toe pain-free ✅ |
-| W34 | Reboot Intensität (flat) | quality back, hills deferred |
+| W34 | Reboot, then illness | quality Mo/Mi done, then GI illness cut the week |
 
 ## Open Watch-Items
 
-- **Toe monitoring**: check before/during/after every run, esp. after hard sessions. Pain/swelling → abort + log.
-- Hills return only after a hard flat stimulus is pain-free.
-- Vienna needs hill/elevation volume — 8 weeks left, enough buffer if toe holds.
+- **Illness recovery** (active): return only when fever-free ≥24–48 h + gut settled; first runs easy Z1.
+- **Vertical gap**: Wolkersdorf is flat (max ~60 hm) — must accumulate hm (repeats/stairs/Woods). Vienna needs ~1000 hm; don't under-train climbing.
+- Toe: healed, no special monitoring needed unless symptoms actually return.
 
 ## Baselines (subjective, offline)
 

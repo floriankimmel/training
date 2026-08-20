@@ -19,7 +19,7 @@
 | Week | Dates (Mon) | Phase | Long Run | Weekly Vert (hm) | Long-run Vert | Focus |
 |------|-------------|-------|----------|------------------|---------------|-------|
 | W34 | 08-17 | Reboot (flat) | 60min | ~100 (flat) | 0–100 | toe-safe, flat, no hills |
-| W35 | 08-24 | Build 1 (hills return*) | 75min | ~300 | 150–250 | reintroduce hill intervals + rolling long run |
+| W35 | 08-24 | Build 1 (hills + vert) | 75min | ~300 | 150–250 | hill intervals + rolling long run (Göteborg trip: use AM windows) |
 | W36 | 08-31 | Build 2 | 85min | ~450 | 250–350 | more vert, sustained climbs |
 | W37 | 09-07 | Build 3 | 95min | ~600 | 350–450 | biggest build, climb at effort |
 | W38 | 09-14 | Deload | 75min | ~350 | ~200 | absorb — cut volume ~30% |
@@ -28,8 +28,8 @@
 | W41 | 10-05 | Taper 1 | 75min | ~400 | ~300 | cut volume ~40%, keep intensity short |
 | W42 | 10-12 | Race week | shakeout + RACE | race ~1000 | race | Sun 10-18 RACE |
 
-\* Hills return in W35 **only if** the hard flat stimulus in W34 was pain-free (toe gate).
-If toe complains, hold flat one more week and shift the build back.
+\* Toe is healed — hills/vert are fair game from W35. Athlete is advanced (ultra experience);
+progress aggressively. Only back off for real acute pain, not as routine caution.
 
 ## Rules
 
@@ -40,7 +40,7 @@ If toe complains, hold flat one more week and shift the build back.
     **and descent** practice (downhill is otherwise untrainable locally).
   - **Rolling loops** — stack small rises repeatedly during long runs.
   - Prioritize getting to real trail for at least the peak-week long runs (W39/W40) so quads see sustained descent.
-- **Toe gate**: no uphill push-off intensity until a hard flat session is symptom-free. Shift the table, don't force it.
+- **Injury stance**: toe healed; no routine gating. Ramp aggressively (advanced athlete). Back off only for real acute pain or actual illness.
 - **Family flex**: long runs are flexible in day/length. Hitting the vert target matters more than the exact minutes.
 - **Vert > minutes**: for a trail race, weekly climbing (hm) is the key currency. Prioritize elevation over flat distance.
 - **Deload W38**: real reduction so the two peak weeks land fresh.

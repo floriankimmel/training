@@ -22,7 +22,7 @@
 - **Reboot**: W34 intensity back but FLAT only (uphill push-off stresses toe most)
 - **Rule learned**: after bone healing, don't jump back into intensity block. Test flat hard
   stimulus pain-free before adding hill/push-off work.
-- **Status**: healed, monitoring continues.
+- **Status**: healed. No special monitoring needed — athlete is advanced, treat as resolved unless symptoms actually return.
 
 ## 2026 — Ear pain (Ohrenschmerzen)
 
