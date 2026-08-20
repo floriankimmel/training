@@ -39,6 +39,8 @@
 ## Data & Tooling
 
 - **Only data source**: HealthFit `.fit` files, parsed offline via `parse_fit.py` (feedback skill).
+- **Schedule source of truth**: **Todoist** project 🏅 Trainingsplan (label `training`). Any change to a
+  `trainings/week-*` plan must be mirrored to Todoist in the same change (see `AGENTS.md` contract).
 - Wellness (HRV/RHR/sleep) is NOT available offline → supply manually or via feedback file.
 - Skills: `coach` (plan), `feedback` (analyze), `reschedule`, `race-prediction`, `findracepace`.
 

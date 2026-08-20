@@ -5,9 +5,10 @@
 - `zones.md` — **HR zones (single source of truth)** — all zone values live here
 - `athlete.md` — athlete profile, goals, equipment, data rules
 - `STATUS.md` — current training state snapshot (where am I now)
+- `calendar.md` — known future events (travel/work/family) that affect weekly planning
 - `injuries.md` — injury/illness log + return protocols
 - `benchmarks.md` — PRs, test runs, reference paces
-- `strength-plan.md` — strength routine reference
+- `strength-plan.md` — strength reference (Mark Lauren; digitized program in `plans/strength-program-mark-lauren.md`; coach plans it, advancing 1 week/week; Todoist = schedule truth)
 - `fueling.md` — carb-intake strategy (No Carbs No Glory, g/h per session type)
 - `races/current-race-*.md` — current target race (Vienna Trail Run 2026)
 - `plans/build-plan-vienna-2026.md` — 8-week macro plan: long-run + weekly vertical (hm) progression
@@ -26,6 +27,12 @@ Each carries a `Last updated` line — treat >30 days stale as a flag.
 | `benchmarks.md` | After a race, time trial, or notable test/PR run | feedback (race/test session) |
 | `athlete.md` | Goal / equipment / target-race change | manual or coach when race changes |
 | `zones.md` | New lactate test / zone change | manual — edit ONLY this file |
+| **Todoist** — project **🏅 Trainingsplan** (`project_id` `6h7vq89H23JGj943`, label `training`) | **ANY change to a `trainings/week-*` plan** (new plan, reschedule, cancel, illness/injury edit) | coach/reschedule skill via todoist skill |
+
+**Todoist is the source of truth for the active training schedule.** Whenever a training-plan
+day is added, changed, moved, or cancelled in `trainings/`, mirror it in Todoist in the SAME change:
+create/update/complete/delete the matching task (project 🏅 Trainingsplan, label `training`,
+`@workout` spec line on running tasks). Rest days = no task.
 
 Rule: update the relevant file in the SAME change as the plan/feedback, and commit together.
 When unsure if something changed, re-read `STATUS.md` first and reconcile.

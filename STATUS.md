@@ -5,6 +5,12 @@
 
 **Last updated**: 2026-08-20 (Week 34, 2026)
 
+## ⚠️ Active: GI illness (since 2026-08-19)
+
+- Magen-Darm + mild fever since Wed 08-19. **Thu 08-20 + Fri 08-21 OFF.**
+- Earliest return **Sat 08-22**, only if fever gone ≥24–48 h + gut settled. First run short easy Z1.
+- **Sun long run downgraded** — no 60min long run this week; easy Z1 by feel if returned. See `injuries.md`.
+
 ## Current Target
 
 - **Race**: Vienna Trail Run — 23.8 km / ~1000 hm — 2026-10-18

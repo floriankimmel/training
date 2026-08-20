@@ -5,6 +5,14 @@
 
 **Last updated**: 2026-08-20
 
+## 2026 — GI illness (Magen-Darm + Fieber)
+
+- **Cause**: illness (stomach/GI + mild fever) — not training-related.
+- **Onset**: 2026-08-19 (W34, Wed) — diarrhea, mild fever.
+- **Effect**: Thu 08-20 + Fri 08-21 OFF. Earliest return **Sat 08-22**, and only if fever gone ≥24–48 h and gut settled.
+- **Return protocol**: first run short easy **Z1**, abort on discomfort. No long run / quality until 2–3 symptom-free easy runs. Hydration + electrolytes priority after GI loss.
+- **Status**: active (as of 2026-08-20).
+
 ## 2026 — Toe fracture (Zehenbruch)
 
 - **Cause**: NON-training — happened at the indoor pool (Hallenbad). Not a running/load issue.
