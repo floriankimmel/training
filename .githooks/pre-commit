@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Pre-commit hook: run the training-repo consistency lint before every commit.
+# Wired via: git config core.hooksPath .githooks
+# Blocks the commit if scripts/lint.sh exits non-zero (errors). Warnings pass.
+set -uo pipefail
+
+repo_root="$(git rev-parse --show-toplevel)"
+lint="$repo_root/scripts/lint.sh"
+
+[ -x "$lint" ] || { echo "pre-commit: $lint not found/executable, skipping"; exit 0; }
+
+echo "pre-commit: running scripts/lint.sh ..."
+if ! "$lint"; then
+  echo
+  echo "pre-commit: lint FAILED — commit blocked. Fix errors or bypass with 'git commit --no-verify'."
+  exit 1
+fi
