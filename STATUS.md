@@ -3,7 +3,7 @@
 > Rolling "where am I right now" file so agents don't have to read 6 week files.
 > Update at the end of each coach/feedback run.
 
-**Last updated**: 2026-08-20 (Week 35 plan, 2026)
+**Last updated**: 2026-08-23 (W34 Sunday Easy Run feedback)
 
 ## ⚠️ Recovering: GI illness (since 2026-08-19)
 
@@ -36,7 +36,7 @@
 |------|-------|------|
 | W31–W32 | ⛔ Ausfall | Toe fracture (non-training, pool), zero training |
 | W33 | Wiedereinstieg | 3 easy Z1 runs, ~90 min, toe pain-free ✅ |
-| W34 | Reboot, then illness | quality Mo/Mi + Kraft Tag 1 done, then GI illness cut the week |
+| W34 | Reboot, then illness | quality Mo/Mi + Kraft Tag 1 done, GI illness cut Do/Fr; So Easy Run 5,37km/35min beschwerdefrei (A) ✅ |
 | W35 | Reboot + Göteborg | Build 1: LR 90min Göteborg (hilly), endurance+strides, Kraft Woche 7 Tag 2-5 |
 
 ## Open Watch-Items

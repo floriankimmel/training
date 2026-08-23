@@ -190,3 +190,65 @@ Fehlerlose Recovery-Ausführung: HR-Ceiling exakt getroffen (0% Überschreitung)
 - Distanz/Dauer: 4,47 km in 30:00 (Moving Time)
 - Wetter: 22,3 °C
 - Calories: 342 kcal
+
+## 2026-08-23 - Easy Run (statt Long Run) - Sunday Analyse
+
+**Geplant**: Easy Run statt Long Run (nach Krankheit) — 30-40min. Z1 (125-142 bpm), Pace 6:00-6:45/km nach Gefühl, flach. Long Run gestrichen wegen Fieber Mi–Do. Fokus: vorsichtig aerob wieder antasten, kein Volumen-Push. ⌚ Brustgurt.
+**Tatsächliche Ausführung**: 5,37 km in 35:00 (Moving Time), Ø Pace 6:31/km (Distanz/Zeit), 413 kcal, 21,4 °C. Ø HR 131 bpm, Max 148 bpm, Min 76 bpm (n=2233 HR-Samples, Sekunden-Auflösung).
+**Persönliches Empfinden**: Nicht angegeben — aus den Daten abgeleitet: ruhig, kontrolliert, mit sauberem Auslaufen zum Schluss (letztes Drittel Ø 124 bpm). Kein Anzeichen von Überdrehen oder Nachwirkung der Krankheit.
+
+### 🎯 **Herzfrequenz-Analyse (Time-in-Zone)**
+
+Genau so soll ein Wiedereinstieg nach Fieber aussehen. Time-in-Zone über 2233 Roh-Samples:
+
+| Zone | Bereich (bpm) | Zeit | Anteil |
+|------|---------------|------|--------|
+| Aktive Erholung | ≤124 | 318 | 14,2 % |
+| **Z1** | 125–142 | **1762** | **78,9 %** |
+| Z2 | 143–152 | 153 | 6,9 % |
+| Z3+ | ≥153 | 0 | 0,0 % |
+
+**93 % in AR+Z1, 0 % über Z2, Max nur 148 bpm** — makellose Disziplin. Die 6,9 % Z2 (143–152) sind wenige kurze Ausreißer knapp über die 142er-Grenze, völlig unkritisch für einen Easy-Lauf und deutlich innerhalb dessen, was nach einer Krankheitswoche sinnvoll ist. HR-Verlauf über die Drittel: **137 → 133 → 124 bpm** — kein kardiovaskulärer Drift nach oben, sondern ein sauberes Absinken zum Ende. Das Herz hatte nie zu kämpfen; der Körper hat die Belastung problemlos weggesteckt.
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+Ø 6:31/km — sitzt punktgenau im Zielfenster 6:00–6:45/km, praktisch identisch zum Comeback-Tempo aus W33 (6:30/km). Pace-Verlauf (aus den Speed-Samples): erstes Drittel ~7:20, danach 6:48 → 6:46 — sauberes Einlaufen, dann stabil. Kein Tempo-Push trotz „Beine wollen". Genau die Zurückhaltung, die nach Fieber gefragt war.
+
+### 🏆 **Was war hervorragend**
+
+- **HR-Disziplin auf Comeback-Niveau**: 0 % über Z2, Max 148, HR fällt zum Ende ab statt zu driften. Vorbildlich.
+- **Pace exakt getroffen** (6:31/km) — keine Ehrgeiz-Ausreißer, obwohl es der erste „richtige" Sonntagslauf seit dem Long-Run-Streichen ist.
+- **Vernünftig dosiert**: 35min statt 60min Long Run — du hast die Krankheits-Vorgabe respektiert und nicht überzogen.
+
+### ⚠️ **Verbesserungsbereiche**
+
+- Kaum Kritikpunkte. Die 6,9 % in Z2 zeigen ein paar kurze Drüber-Momente über 142 — bei einem strikten Recovery-Lauf würde ich das anmahnen, hier ist es irrelevant. Bewusst am unteren Z1-Ende bleiben, dann sind es 0 %.
+- **Nur 20 Speed-/Power-Samples** vom Watch geliefert — falls die Pace-Live-Anzeige diesmal sparsamer war, Brustgurt-/Sensor-Kopplung vor dem nächsten Lauf checken (HR selbst kam sauber mit 2233 Samples).
+
+### 📈 **Progression vs. Previous Sessions**
+
+- vs. **W33 Comeback Easy (6:30/km, 100 % Z1, 30min)**: quasi deckungsgleiche Ausführung — nur +5min Dauer, +5min HR-Kontrolle hält. Kein Rückschritt durch die Krankheitswoche.
+- vs. **Mo Intervalle (A+)** und **Mi Tempo** dieser Woche: nach zwei Quality-Sessions und Fieber-Ausfall ist dieser ruhige aerobe Reiz genau richtig. Woche sauber abgeschlossen.
+
+### 🎯 **Bewertung: A**
+
+Mustergültiger Wiedereinstiegslauf nach Fieber. Perfekte HR-Disziplin, exakte Pace, vernünftige Dauer, kein Drift. Genau so beendet man eine Krankheitswoche — kontrolliert, ohne Rückfall-Risiko. Kein A+ nur wegen der wenigen Z2-Momente und der dünnen Pace-Daten, aber das ist Erbsenzählerei.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+1. **W35 = Hügelarbeit zurück** — Voraussetzung war „harter Reiz flach schmerzfrei". Mo-Intervalle waren A+ und schmerzfrei, dieser Lauf beschwerdefrei → grünes Licht für Hügelintervalle, wenn die Zehe die Woche über still bleibt.
+2. **Long Run zurückholen**: Nach 2–3 beschwerdefreien Läufen (jetzt erfüllt) kann der 60min-Long-Run in W35 wieder rein — erst flach, dann mit Hm.
+3. **Tempo halten**: 6:30/km ist dein sauberes Easy-Tempo. In Z1 bleiben, auch wenn nach der Krankheit die Energie zurückkommt.
+4. **Nach Krankheit noch 1 Woche kein Volumen-Sprung** — die Intensität ist zurück, das Volumen darf in W35 wieder steigen, aber schrittweise.
+
+**Detailed Metrics**:
+- HR: Ø 131 bpm, Range 76–148, Working-Range 125–142 (Z1), Drittel 137/133/124
+- Time-in-Zone: AR 14,2 % / Z1 78,9 % / Z2 6,9 % / Z3+ 0 %
+- Pace: Ø 6:31/km (Distanz/Zeit), Speed-Samples 6:36–7:28 (n=20, dünn)
+- Power: Ø 189 W (176–198)
+- Stride: Ø 85 cm (79–90)
+- GCT: Ø 280 ms (261–288)
+- Cadence: keine Daten
+- Distanz/Dauer: 5,37 km in 35:00 (Moving Time)
+- Wetter: 21,4 °C
+- Calories: 413 kcal
