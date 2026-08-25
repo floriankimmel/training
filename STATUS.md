@@ -3,7 +3,7 @@
 > Rolling "where am I right now" file so agents don't have to read 6 week files.
 > Update at the end of each coach/feedback run.
 
-**Last updated**: 2026-08-23 (W34 Sunday Easy Run feedback)
+**Last updated**: 2026-08-25 (W35 Tue easy social run feedback)
 
 ## ⚠️ Recovering: GI illness (since 2026-08-19)
 
