@@ -4,6 +4,56 @@ _Subjective training experiences for Week 35 to complement objective HealthFit d
 
 ## Session Feedback
 
+## 2026-08-26 - Long Run + Vert (Göteborg AM) - Mittwoch Analyse
+
+**Geplant**: 90min Long Run @ Z1–Z2 (125–152 bpm), 5:50–6:30/km, ~300–400 hm, Anstiege aktiv laufen, ~60 g KH/h. Key-Session der Woche, erster längerer Reiz nach GI-Infekt.
+**Tatsächliche Ausführung**: **15,15 km**, 116min moving / 126min elapsed, avg HR **138**, max HR 159, avg pace 7:38/km, **+475 hm**, Kadenz ~146 spm, 1385 kcal. Nach Gefühl gelaufen (Navigation im Blick → kein Zonen-Starren), technischer Waldboden, viel steiles Gehen. Komoot-Plan war 14 km / 300 hm / 90min @ 6:31 — real mehr von allem.
+**Persönliches Empfinden**: Sehr gut gelaufen, fühlt sich gut. 2 Flaschen à 60 g No Carbs No Glory getrunken. Guter langer Lauf.
+
+### 🎯 Herzfrequenz-Analyse
+
+- **Time-in-Zone**: Z0 6,6 % · Z1 **61,8 %** · Z2 **26,5 %** · Z3 5,0 % (steile Anstiege). avg 138 = obere Z1.
+- **Punktlandung im Zielfenster** Z1–Z2 (125–152), 88 % der Zeit genau dort. Nur 5 % Z3 an den steilsten Rampen — sauber kontrolliert.
+- **Kein Cardiac Drift**: 1. Hälfte 138 / 2. Hälfte 139 bpm; Drittel 138/137/140. Über 2h flach = starke aerobe Kontrolle, besonders als erster Long Run nach Krankheit.
+- Nach-Gefühl-Laufen ohne Watch-Blick hat perfekt funktioniert — Zonendisziplin war intuitiv da.
+
+### ⏱️ Pace-Analyse (min/km)
+
+- avg 7:38/km moving, langsamer als Plan-Pace (5:50–6:30) — aber **irrelevant**: technischer Trail + 475 hm + viel Gehen. Auf so einem Untergrund regiert die HF, nicht die Pace. HF war goldrichtig.
+- Elapsed − Moving ≈ 10min Standzeit (Navigation/technische Stellen) — normal fürs Terrain.
+
+### ⛰️ Vert & Fueling
+
+- **475 hm** statt geplanter 300–400 → mehr als Ziel. Genau die richtige Währung für Vienna Trail (weekly hm > flache Minuten). Apple Watch +170 hm über Komoot-Schätzung — realistisch, GPS-Baro schlägt Kartenplanung.
+- **Fueling**: 120 g KH über ~2h = **~60 g/h → Plan-Target exakt getroffen.** Gut trainierter Darm-Reiz für lange Trail-Belastung.
+
+### 🏆 Was war hervorragend
+
+- Intuitive Zonendisziplin ohne Watch-Kontrolle. 88 % Z1–Z2, null Drift, kontrolliert an den Rampen.
+- Vert-Ziel übertroffen auf technischem Terrain — race-spezifischer geht kaum.
+- Fueling sauber umgesetzt. Erster langer Post-Illness-Reiz komplett verdaut, Gefühl gut.
+
+### ⚠️ Verbesserungsbereiche
+
+- Kaum was. Kadenz ~146 ist niedrig, aber das ist Wander-/Technik-bedingt, kein Formfehler.
+- Nur Detail: Brustgurt war geplant (⌚ BRUSTGURT!) — Daten kamen von der Apple Watch (Optik). Fürs nächste Mal Gurt für exaktere HF, sonst top.
+
+### 📈 Progression
+
+- Deutlicher Schritt raus aus der GI-Reboot-Phase: 2h, 475 hm, stabile HF, gutes Gefühl. Aerobe Basis kehrt zurück — grünes Licht für weiteren Vert-Aufbau Richtung ~800 hm/Woche.
+
+### 🎯 Bewertung: A
+
+Key-Session der Woche voll getroffen: Zone, Vert, Fueling, Gefühl — alles passt. Länger/höher als Plan, aber genau in die richtige Richtung.
+
+### 💡 Empfehlungen fürs nächste Mal
+
+- Weiter nach Gefühl auf Trails laufen — funktioniert. Pace ignorieren, HF führt.
+- Brustgurt anlegen für saubere HF auf der Key-Session.
+- Diesen Vert-Level halten/ausbauen; nächster Long Run Richtung 1:45–2:00 solid + weiter hm sammeln.
+
+---
+
 ## 2026-08-25 - Easy/Social Run (Ersatz für Endurance+Bergstrides) - Dienstag Analyse
 
 **Geplant**: 70min Endurance @ Z2 (143–152 bpm), rollendes Terrain + 6× 15s Bergstrides zügig bergauf
