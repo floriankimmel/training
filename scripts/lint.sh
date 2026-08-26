@@ -79,6 +79,14 @@ done
 echo "== 5. strength vs. calendar travel days =="
 # HARD rule: no Kraft (🏋️/💪/"Kraft Tag") on days the calendar marks strength "not possible"
 # (travel/trip days). Cross-check each trainings/week-*.md day against calendar no-strength ranges.
+#
+# Two escape hatches:
+#   1) Fly-out day (range start) + return day (range end, when calendar Notes mention
+#      departure/return that day → you're home in the evening) allow Kraft. Only the full
+#      away days between are banned.
+#   2) Explicit, remembered override: put `<!-- lint-allow: kraft-travel — reason -->`
+#      anywhere inside that day's section in trainings/week-*.md. Lint then skips that day
+#      silently (self-documenting, lives next to the plan, travels with it).
 CAL_HITS=$(python3 - <<'PY'
 import re, glob
 from datetime import date, timedelta
@@ -88,6 +96,8 @@ def dates(s):
 
 def d(s):
     y,m,dd=map(int,s.split('-')); return date(y,m,dd)
+
+RETURN_KW = ('departure', 'back ', 'return', 'rückflug', 'rückkehr', 'heimflug')
 
 ranges=[]
 try:
@@ -107,11 +117,15 @@ for line in cal.splitlines():
     if not ds:
         continue
     start, end = ds[0], ds[-1]
-    # Fly-out day (range start) allows AM Kraft before flight (calendar convention:
-    # "shift Kraft to Mon before flight"). Ban only the full away days start+1..end.
+    notes = cols[5].lower() if len(cols) > 5 else ''
     if len(ds)>=2 and start!=end:
+        # Fly-out day (range start) allows AM Kraft before flight.
         start=(d(start)+timedelta(days=1)).isoformat()
-    ranges.append((start, end))
+        # Return day (range end) allows evening Kraft at home, when Notes say so.
+        if any(k in notes for k in RETURN_KW):
+            end=(d(end)-timedelta(days=1)).isoformat()
+    if start <= end:
+        ranges.append((start, end))
 
 def within(d):
     for a,b in ranges:
@@ -119,18 +133,29 @@ def within(d):
             return (a,b)
     return None
 
+ALLOW_MARK='lint-allow: kraft-travel'
+
 bad=[]
 for f in glob.glob('trainings/week-*.md'):
-    day=None
-    for line in open(f,encoding='utf-8'):
-        m=re.match(r'##\s+\w+,\s*(\d{4}-\d{2}-\d{2})', line)
-        if m:
-            day=m.group(1); continue
-        if day and ('🏋' in line or '💪' in line or 'Kraft Tag' in line):
-            r=within(day)
-            if r:
-                bad.append(f"{f}: Kraft on {day} (travel {r[0]}..{r[1]})")
-                day=None
+    # Split file into day blocks so an override marker anywhere in the day counts.
+    text=open(f,encoding='utf-8').read()
+    parts=re.split(r'(?m)^(##\s+\w+,\s*\d{4}-\d{2}-\d{2}.*)$', text)
+    # parts = [pre, heading1, body1, heading2, body2, ...]
+    for i in range(1, len(parts), 2):
+        heading=parts[i]; body=parts[i+1] if i+1 < len(parts) else ''
+        m=re.match(r'##\s+\w+,\s*(\d{4}-\d{2}-\d{2})', heading)
+        if not m:
+            continue
+        day=m.group(1)
+        block=heading+body
+        has_kraft = ('🏋' in block or '💪' in block or 'Kraft Tag' in block)
+        if not has_kraft:
+            continue
+        if ALLOW_MARK in block:
+            continue  # explicit remembered override — stay silent
+        r=within(day)
+        if r:
+            bad.append(f"{f}: Kraft on {day} (travel {r[0]}..{r[1]})")
 for b in sorted(set(bad)):
     print(b)
 PY

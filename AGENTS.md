@@ -40,6 +40,12 @@ When unsure if something changed, re-read `STATUS.md` first and reconcile.
 **Consistency check**: run `scripts/lint.sh` before committing training-doc changes.
 It verifies the current-race symlink, single zone source, HealthFit-only rule, and staleness.
 
+**Bewusste Kraft-am-Reisetag-Ausnahme merken**: Lint sperrt Kraft an Kalender-Reisetagen.
+Abflug- und Rückflugtag (letzterer, wenn die Kalender-Notes departure/return/Rückflug nennen)
+sind automatisch erlaubt. Für jeden anderen bewussten Ausnahme-Tag den Marker
+`<!-- lint-allow: kraft-travel — Grund -->` irgendwo in den Tagesabschnitt der
+`trainings/week-*.md` schreiben. Lint überspringt diesen Tag dann dauerhaft & still.
+
 ## Athlete Capacity & Zones (Running)
 
 **hrMax: 180 bpm**
