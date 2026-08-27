@@ -3,7 +3,7 @@
 > Rolling "where am I right now" file so agents don't have to read 6 week files.
 > Update at the end of each coach/feedback run.
 
-**Last updated**: 2026-08-26 (W35 Wed Long Run + Vert feedback)
+**Last updated**: 2026-08-27 (W35 Thu Recovery Easy feedback)
 
 ## ⚠️ Recovering: GI illness (since 2026-08-19)
 
@@ -11,6 +11,7 @@
 - **08-20 update**: fever gone today; stomach still mildly off (AM diarrhea, then solid again). Improving — fever-free clock started 08-20.
 - **W35 = controlled reboot + Göteborg trip** — no hard quality, aerobic rebuild only, vert softened. Watch for residual GI symptoms.
 - **08-26 update**: reboot succeeded — 2h Long Run (15k / 475 hm) fully digested, HF stable, good feel. GI recovery effectively complete; W36 can resume real hill build.
+- **08-27 update**: Thu recovery easy 6.3k / 46min / 154 hm, avg HR 125 (bottom Z1), max 143 — textbook recovery cap held. Legs heavy early from LR (expected), good feel. No residual GI symptoms. Reboot fully successful.
 
 ## Current Target
 

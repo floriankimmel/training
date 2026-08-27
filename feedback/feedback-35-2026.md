@@ -4,6 +4,44 @@ _Subjective training experiences for Week 35 to complement objective HealthFit d
 
 ## Session Feedback
 
+## 2026-08-27 - Recovery Easy (Göteborg AM vor Flug) - Donnerstag Analyse
+
+**Geplant**: 45min Recovery Easy @ Z1 only (125–142 bpm) ⚠️ NICHT über 142, Pace 6:30–7:00/km, Beine durchspülen vor Rückflug. + Kraft Tag 2 Beine/Gesäß.
+**Tatsächliche Ausführung**: **6,29 km**, 46,2min moving/elapsed, avg HR **125**, max HR **143**, avg pace 7:20/km, **+154 hm**, Kadenz ~78 spm (Gehpassagen ziehen Schnitt runter), 531 kcal. Technisches Terrain zwischendurch → ein paar Gehpassagen.
+**Persönliches Empfinden**: Gutes Gefühl, gut getrunken. Beine am Anfang noch schwer von gestern (Long Run) — erwartbar. Strecke leicht technisch, deshalb ein paar Gehpassagen.
+
+### 🎯 Herzfrequenz-Analyse
+
+- **Time-in-Zone**: Z0 (aktive Erholung <124) **23,4 %** · Z1 **76,6 %**. avg 125 = exakt untere Z1-Grenze, max 143 nur kurz an einer Rampe.
+- **Perfekte Recovery-Disziplin**: Cap war 142 — 1 bpm Overshoot an einem Anstieg, sonst komplett unter Kontrolle. Kein Überdrehen trotz 154 hm und technischem Untergrund.
+- avg 125 auf hügeligem Terrain = sehr sauber gebremst. Genau das, was ein Auslauf am Tag nach dem Long Run leisten soll.
+
+### ⏱️ Pace-Analyse (min/km)
+
+- avg 7:20/km, minimal langsamer als Plan (6:30–7:00) — **irrelevant**: technischer Trail + 154 hm + Gehpassagen. HF regiert, nicht Pace. HF war goldrichtig.
+- Schwere Beine zu Beginn (Long-Run-Nachwirkung) → langsamer Start, danach eingelaufen. Normale Post-LR-Reaktion.
+
+### 🏆 Was war hervorragend
+
+- Recovery-HF-Cap gehalten (avg 125, quasi Z0/unteres Z1) trotz Vert und Technik. Genau richtig dosiert.
+- Beine bewusst durchgespült statt Tempo geholt. Disziplinierter Auslauf.
+- Fueling/Trinken sauber. Gefühl gut — Post-Illness-Motor läuft rund.
+
+### ⚠️ Verbesserungsbereiche
+
+- Kaum was. Gehpassagen sind terrain-bedingt, kein Fehler bei einem Recovery-Lauf.
+- Detail: Brustgurt geplant (⌚ BRUSTGURT!) — HF kam wohl von Apple Watch (Optik). Für Recovery unkritisch, aber Gurt gibt sauberere Werte.
+
+### 🎯 Bewertung: **A**
+
+Mustergültiger Recovery-Lauf: HF-Cap gehalten, Beine gelockert, kein Ego-Tempo trotz Terrain. Schwere Beine waren erwartbar und richtig gemanagt. Kraft Tag 2 noch offen (AM vor Flug oder abends).
+
+### 💡 Empfehlungen für nächstes Mal
+
+- Genauso weiter — bei Recovery lieber gehen als HF über 142 treiben. War hier korrekt.
+- Kraft Tag 2 Beine/Gesäß nicht vergessen (verschoben von Mo).
+- Brustgurt anlegen für exaktere HF, wenn greifbar.
+
 ## 2026-08-26 - Long Run + Vert (Göteborg AM) - Mittwoch Analyse
 
 **Geplant**: 90min Long Run @ Z1–Z2 (125–152 bpm), 5:50–6:30/km, ~300–400 hm, Anstiege aktiv laufen, ~60 g KH/h. Key-Session der Woche, erster längerer Reiz nach GI-Infekt.
