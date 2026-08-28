@@ -1,0 +1,5 @@
+.venv/
+training.duckdb
+training.duckdb.wal
+*.duckdb
+__pycache__/
