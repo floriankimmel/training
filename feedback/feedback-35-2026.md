@@ -137,6 +137,51 @@ Als Reboot-Lauf solide und sicher. Für die geplante Session fehlen die leichten
 
 ---
 
+## 2026-08-29 - Kurzer Lauf + Pickups - Samstag Analyse
+
+**Geplant**: 35min locker @ Z1-Z2 (125-152) + 5x 20s Pickups zügig (je locker zurück) + 5min ausrollen @ Z1. Pace 5:50-6:45. Abends Kraft Tag 4 Core.
+**Tatsächliche Ausführung**: 7.25 km / 46:42 moving, avg HR 135, max 159, avg pace 6:26, avg power 224, Aufstieg ~68 hm. 5.5 km lockerer Block + 5x 20s Pickups (60s Trab dazwischen) + 5min Cooldown.
+**Persönliches Empfinden**: "lief gut".
+
+### 🎯 Herzfrequenz-Analyse
+
+- Z1 93.3% · Z2 3.1% · Z3 1.7% · Z0 1.9%. Praktisch reiner Z1-Lauf — genau richtig für Recovery-nahen Kurzlauf am Ende der Reboot-Woche.
+- Pickups sauber gesteuert: HR-Spitzen nur bis 145-159 in den Erholungspausen (HR lagt bei 20s-Reizen nach), kein Überdrehen. Max 159 = kurz Z3, völlig unkritisch.
+- Warmup-Block bei avg 135 — unteres Z1, ruhig. Plan erlaubte bis Z2, aber an einem Kurz-/Pickup-Tag ist reiner Z1-Untergrund korrekt.
+
+### ⏱️ Pace-Analyse (min/km)
+
+- Grundlagen-Block 6:19-6:25 — in der Zielspanne (5:50-6:45), gleichmäßig.
+- Pickups: 4:17 / 3:40 / 3:19 / 3:33 / 4:01 — deutlicher Tempowechsel, Power 329-357 W. Spritzig, genau der Reiz den die Session wollte.
+- Cooldown 6:25 sauber ausgerollt.
+
+### 🏆 Was war hervorragend
+
+- Plan zu 100% umgesetzt: alle 5 Pickups drin, Umfang (46min) und Vert (~68 hm) sogar leicht über Soll.
+- Disziplinierte Intensitätsverteilung — kein Post-Illness-Überdrehen, Reize kurz und knackig.
+- Dritter beschwerdefreier Lauf der Woche → grünes Licht für Intensität ab nächster Woche.
+
+### ⚠️ Verbesserungsbereiche
+
+- Kleinigkeit: bei zwei Pickups fiel Kadenz auf 60-65 (statt 90+) — GPS-/Terrain-Artefakt oder zu langer Schritt. Bei Pickups aktiv über die Frequenz gehen, nicht über die Schrittlänge.
+
+### 📈 Progression vs. Previous Sessions
+
+- Nach dem Social-Run-Feedback (Bergstrides ausgelassen, B-): diesmal die kurzen Reize **gemacht**. Klare Verbesserung in der Ausführungsdisziplin.
+- Woche 7 Reboot sauber abgeschlossen aerob — Motor wieder da, keine Restsymptome.
+
+### 🎯 Bewertung: A-
+
+Genau die Session, die der Plan wollte: lockerer Untergrund + spritzige Pickups, sauber gesteuert, komplett umgesetzt. Perfekter Abschluss der Wiedereinstiegswoche.
+
+### 💡 Empfehlungen fürs nächste Mal
+
+- Ab nächster Woche: harte Intervalle wieder freigegeben (3 Läufe beschwerdefrei). Z4-Reize einbauen.
+- Bei Pickups Kadenz bewusst hochhalten (90+), Tempo über Frequenz statt Schrittlänge.
+- Kraft Tag 4 Core heute Abend nicht vergessen — schließt zusammen mit So Tag 5 die Woche 7 ab.
+
+---
+
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
