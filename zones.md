@@ -7,6 +7,10 @@
 **hrMax**: 180 bpm
 **Basis**: per Test bestimmt (nicht HFMax-geschätzt). Nach neuem Laktat-/Feldtest hier ersetzen + Datum/Quelle updaten.
 
+> ⚠️ **Daten-Flag (2026-08-29)**: DuckDB-Records zeigen echte Peaks bis **186 bpm** (Läufe seit 2025).
+> Aktueller Test-Wert 180 wird im Feld überschritten → bei nächstem Test hrMax neu bestimmen.
+> Zonen-Obergrenzen ggf. nach oben korrigieren. Quelle: `db/training.duckdb` records.max_hr.
+
 ## Zones
 
 | Zone | Name | Bereich (bpm) |

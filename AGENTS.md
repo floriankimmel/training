@@ -8,12 +8,14 @@
 - `calendar.md` — known future events (travel/work/family) that affect weekly planning
 - `injuries.md` — injury/illness log + return protocols
 - `benchmarks.md` — PRs, test runs, reference paces
+- `db/` — **DuckDB (`db/training.duckdb`) — 1469+ runs, 6M+ per-second records** from HealthFit `.fit`. Query for objective pace/HF/vert trends. See `db/README.md`. Trend-Fragen → **`training-db` skill**.
 - `strength-plan.md` — strength reference (Mark Lauren; digitized program in `plans/strength-program-mark-lauren.md`; coach plans it, advancing 1 week/week; Todoist = schedule truth)
 - `fueling.md` — carb-intake strategy (No Carbs No Glory, g/h per session type)
 - `races/current-race-*.md` — current target race (Vienna Trail Run 2026)
 - `plans/build-plan-vienna-2026.md` — 8-week macro plan: long-run + weekly vertical (hm) progression
 - `trainings/week-XX-YYYY.md` — weekly plans · `feedback/feedback-XX-YYYY.md` — session feedback
 - **Data source**: HealthFit `.fit` only (offline). No Tredict / Strava / Runalyze / MCP.
+- **Objective analysis**: query `db/training.duckdb` (DuckDB) for real pace/HF/vert trends instead of guessing. Terrain-robust metric = median per-second pace within an HR band (see `benchmarks.md` method note).
 
 ## Maintenance Contract (keep living docs fresh)
 
@@ -25,6 +27,7 @@ Each carries a `Last updated` line — treat >30 days stale as a flag.
 | `STATUS.md` | Every plan or feedback run | coach skill step 14 · feedback skill step 7 |
 | `injuries.md` | Any pain/illness/injury reported, or comeback/deload week | feedback (on report) · coach (on reaction) |
 | `benchmarks.md` | After a race, time trial, or notable test/PR run | feedback (race/test session) |
+| `benchmarks.md` reference paces | After a training block — refresh from DuckDB (median-per-second pace in HR bands) | manual/coach |
 | `athlete.md` | Goal / equipment / target-race change | manual or coach when race changes |
 | `zones.md` | New lactate test / zone change | manual — edit ONLY this file |
 | **Todoist** — project **🏅 Trainingsplan** (`project_id` `6h7vq89H23JGj943`, label `training`) | **ANY change to a `trainings/week-*` plan** (new plan, reschedule, cancel, illness/injury edit) | coach/reschedule skill via todoist skill |
