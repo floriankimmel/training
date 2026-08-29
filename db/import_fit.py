@@ -4,11 +4,11 @@
 Multi-source aware (HealthFit + TrainingPeaks). Timestamps are normalized to
 UTC. Deduplication is source-independent:
 
-  * activity id = UTC start_time ISO string (second precision)
+  * activity id = surrogate BIGINT from seq_activities
   * an incoming file matches an existing activity when their start_time is
-    within START_TOLERANCE_S and the sport matches
-  * on a match, the higher-fidelity file (more record rows) wins; ties keep the
-    existing row unless --force
+    within START_TOLERANCE_S and the sport matches (id is not used for dedup)
+  * on a match, the higher-fidelity file (more record rows) wins and reuses the
+    existing numeric id; ties keep the existing row unless --force
 
 So the same workout exported from both HealthFit and TrainingPeaks lands as a
 single row.
@@ -74,8 +74,8 @@ def decode(path: Path):
     return Decoder(stream).read()
 
 
-def activity_id(start_utc) -> str:
-    return start_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
+def next_activity_id(con) -> int:
+    return con.execute("SELECT nextval('seq_activities')").fetchone()[0]
 
 
 def parse_activity(msgs, path, source, aid, start_utc, rec_count):
@@ -209,7 +209,6 @@ def import_file(con, path: Path, force: bool, force_source=None):
     if force_source:
         source = force_source
     rec_count = len(msgs.get("record_mesgs") or [])
-    aid = activity_id(start_utc)
     sport = g(sess, "sport") or g((msgs.get("sport_mesgs") or [{}])[0], "sport")
 
     match = find_match(con, start_utc, sport)
@@ -218,8 +217,10 @@ def import_file(con, path: Path, force: bool, force_source=None):
         if not force and rec_count <= (existing_recs or 0):
             return "skip"          # existing is equal/better fidelity
         delete_activity(con, existing_id)  # replace with richer file
+        aid = existing_id                  # keep the stable numeric id
         status = "replace"
     else:
+        aid = next_activity_id(con)
         status = "ok"
 
     insert_rows(con, "activities", [parse_activity(msgs, path, source, aid, start_utc, rec_count)])

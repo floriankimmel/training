@@ -3,14 +3,16 @@
 --
 -- Design for multi-source import (HealthFit + TrainingPeaks):
 --   * All timestamps stored TIMESTAMPTZ in UTC (no local-time drift).
---   * activity id = UTC start_time ISO string ('2026-03-02T10:22:46Z') -> stable
---     across sources, so the same activity from HealthFit and TrainingPeaks
---     collapses to one row.
+--   * activity id = surrogate BIGINT from seq_activities. Dedup is by start_time
+--     (+/- tolerance) + sport, so the same activity from HealthFit and
+--     TrainingPeaks still collapses to one row regardless of the numeric id.
 --   * source column tracks provenance; on collision the higher-fidelity file
 --     (more record rows) wins.
 
+CREATE SEQUENCE IF NOT EXISTS seq_activities START 1;
+
 CREATE TABLE IF NOT EXISTS activities (
-  id              VARCHAR PRIMARY KEY,   -- UTC start_time ISO, e.g. 2026-03-02T10:22:46Z
+  id              BIGINT PRIMARY KEY DEFAULT nextval('seq_activities'),
   start_time      TIMESTAMPTZ,
   timestamp       TIMESTAMPTZ,           -- session end time
   sport           VARCHAR,
@@ -37,7 +39,7 @@ CREATE TABLE IF NOT EXISTS activities (
 );
 
 CREATE TABLE IF NOT EXISTS laps (
-  activity_id     VARCHAR,
+  activity_id     BIGINT,
   lap_index       INTEGER,
   start_time      TIMESTAMPTZ,
   timestamp       TIMESTAMPTZ,
@@ -56,7 +58,7 @@ CREATE TABLE IF NOT EXISTS laps (
 );
 
 CREATE TABLE IF NOT EXISTS records (
-  activity_id     VARCHAR,
+  activity_id     BIGINT,
   ts              TIMESTAMPTZ,
   distance_m      DOUBLE,
   hr              INTEGER,

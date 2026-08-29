@@ -53,11 +53,12 @@ source hint). Dedup still applies, so re-importing is safe.
 
 ### Deduplication (source-independent)
 
-- activity id = **UTC start_time** (`2026-03-02T10:22:46Z`)
+- activity id = **surrogate BIGINT** (chronological by start_time; dedup does
+  **not** use the id)
 - an incoming file matches an existing activity when start_time is within
   **90 s** and sport matches
-- on a match the **higher-fidelity file (more record rows) wins**; ties keep the
-  existing row unless `--force`
+- on a match the **higher-fidelity file (more record rows) wins** and reuses the
+  existing numeric id; ties keep the existing row unless `--force`
 
 So the same workout from HealthFit *and* TrainingPeaks lands as one row, and
 re-running any folder is safe. Import statuses: `ok` (new), `replace` (richer
@@ -87,7 +88,7 @@ GROUP BY hrzone ORDER BY hrzone;
 
 - **activities** — 1 row/session: distance, elapsed/timer, avg/max HR + power + speed,
   cadence, ascent/descent, calories, sport, `source`, `record_count`, source_file.
-  PK = UTC start_time id.
+  PK = surrogate BIGINT id (`seq_activities`, chronological by start_time).
 - **laps** — per-lap splits. PK = (activity_id, lap_index).
 - **records** — per-second samples: ts, distance, hr, cadence, power, speed, altitude.
 
@@ -103,7 +104,8 @@ GROUP BY hrzone ORDER BY hrzone;
    FROM records;
    ```
 2. **Timestamps are UTC** (`TIMESTAMPTZ`). DuckDB displays them in the session
-   timezone; the stored instant is UTC. The `id` is always the UTC start.
+   timezone; the stored instant is UTC. The `id` is a surrogate BIGINT; use
+   `start_time` for the actual UTC start.
 3. **Filenames vary wildly** across sources (nbsp/hyphen separators, hashes,
    `Apple Watch`, `Komoot`, `Suunto`). `source` is best-effort provenance; genuine
    Suunto/Zwift device files keep their own source tag.
