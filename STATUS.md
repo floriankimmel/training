@@ -35,7 +35,7 @@
 | W31–W32 | ⛔ Ausfall | Toe fracture (non-training, pool), zero training |
 | W33 | Wiedereinstieg | 3 easy Z1 runs, ~90 min, toe pain-free ✅ |
 | W34 | Reboot, then illness | quality Mo/Mi + Kraft Tag 1 done, GI illness cut Do/Fr; So Easy Run 5,37km/35min beschwerdefrei (A) ✅ |
-| W35 | Reboot + Göteborg | Build 1: Di easy social run 10k (C→B-); **Mi Long Run 15,15k / 475 hm / 2h, HF 138 Z1-Z2, kein Drift, Fuel 60g/h (A)** ✅; Sa short run + pickups 7,25k, saubere Reize (A-); Kraft Woche 7 Tag 2-5 |
+| W35 | Reboot + Göteborg | Build 1: Di easy social run 10k (C→B-); **Mi Long Run 15,15k / 475 hm / 2h, HF 138 Z1-Z2, kein Drift, Fuel 60g/h (A)** ✅; Sa short run + pickups 7,25k, saubere Reize (A-); **So Recovery 5,10k/35min, 128 HF strikt Z1 (A)** ✅; Kraft Woche 7 Tag 2-5 |
 | W36 | Build 2: Intensität zurück | Hügel-Intervalle Mo + Bergtempo Mi + LR 85min/250-350 hm So, Vert ~450 hm; Kraft Woche 8 — *geplant* |
 
 ## Open Watch-Items

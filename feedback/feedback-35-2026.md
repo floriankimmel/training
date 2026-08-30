@@ -182,6 +182,49 @@ Genau die Session, die der Plan wollte: lockerer Untergrund + spritzige Pickups,
 
 ---
 
+## 2026-08-30 - Recovery Run - Sonntag Analyse
+
+**Geplant**: Recovery Run 35min, Z1 only (125-142 bpm, NICHT über 142), Pace 6:30-7:00/km. Abends Kraft Tag 5 Zirkel (schließt Woche 7 ab).
+**Tatsächliche Ausführung**: 5,10 km in 35:01 (moving), avg HF 128, max HF 144, Pace 6:52/km, avg Power 210 W, Kadenz 83.
+**Persönliches Empfinden**: nicht angegeben — aus Daten abgeleitet.
+
+### 🎯 Herzfrequenz-Analyse
+
+- 80 % Z1, 20 % Z0 (aktive Erholung). Nur **2,3 %** der Samples über 142 → Zonendisziplin nahezu perfekt.
+- Sauberer HF-Aufbau: erste Hälfte Ø 122, zweite Hälfte Ø 135. Leichter Drift, aber komplett im Recovery-Rahmen — kein Überdrehen.
+- max 144 nur kurz angetippt, unmittelbar zurück. Genau wie im Plan gefordert.
+
+### ⏱️ Pace-Analyse (min/km)
+
+- Ø 6:52 — mitten im Zielband 6:30-7:00. Ziel getroffen.
+- Konsistent mit letzten Z1-Läufen (127-131 HF @ 6:11-7:34). Kein Ausreißer.
+
+### 🏆 Was war hervorragend
+
+- Recovery-Disziplin: strikt Z1 gehalten, nicht in Z2 gedrückt. Genau der Sinn der Session.
+- Pace exakt im Fenster, HF-Steuerung sauber. Nichts zu meckern.
+
+### ⚠️ Verbesserungsbereiche
+
+- Kadenz Ø 83 relativ niedrig für Recovery — kurze Schritte OK, aber bewusst locker rollen.
+- ⌚ Brustgurt war gefordert — HF-Qualität sieht sauber aus, kein Optik-Artefakt erkennbar.
+
+### 📈 Progression vs. Previous Sessions
+
+- Reihe der Z1-Recovery-Läufe stabil (128 HF @ 6:52 heute vs. 127-131 @ 6.1-7.3 zuletzt). Aerober Motor konsolidiert.
+- Woche 7 (Wiedereinstieg) komplett sauber und beschwerdefrei abgeschlossen.
+
+### 🎯 Bewertung: A
+
+Lehrbuch-Recovery. Plan 1:1 umgesetzt, Zonendisziplin top. Perfekter Abschluss der Reboot-Woche.
+
+### 💡 Empfehlungen fürs nächste Mal
+
+- Ab Woche 8: harte Intervalle frei — Z4-Reize planen.
+- Kraft Tag 5 Zirkel heute Abend nicht vergessen (schließt Woche 7 ab).
+
+---
+
 ## Weekly Summary & Patterns
 
 _To be updated at end of week_
