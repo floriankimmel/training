@@ -3,7 +3,7 @@
 > Consolidated history so patterns are visible in one place (was scattered across week narratives).
 > Newest first. Add every injury/illness that affects training here.
 
-**Last updated**: 2026-08-20
+**Last updated**: 2026-08-30
 
 ## 2026 — GI illness (Magen-Darm + Fieber)
 
@@ -12,7 +12,8 @@
 - **Effect**: Thu 08-20 + Fri 08-21 OFF. Earliest return **Sat 08-22**, and only if fever gone ≥24–48 h and gut settled.
 - **Return protocol**: first run short easy **Z1**, abort on discomfort. No long run / quality until 2–3 symptom-free easy runs. Hydration + electrolytes priority after GI loss.
 - **Progress 2026-08-20**: fever gone (no fever today). Stomach still mildly off; morning diarrhea, but stool solid again since. Improving — fever-free clock started today; earliest return **Sat 08-22** if fever stays gone ≥24–48 h and gut stays settled.
-- **Status**: active but improving (as of 2026-08-20).
+- **Recovery 2026-08-30**: 3 symptom-free runs in W35 (LR 15k/475hm A, Recovery A, Kurzlauf+Pickups A-) → full green light for intensity from W36. No residual symptoms.
+- **Status**: resolved (as of 2026-08-30).
 
 ## 2026 — Toe fracture (Zehenbruch)
 
