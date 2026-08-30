@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import type { RaceInfo, PhaseInfo, InjuryInfo, FitnessTrend, LrPoint } from '../lib/parseContext';
+import InsightsModal from './InsightsModal';
 
 interface Props {
   race: RaceInfo | null;
@@ -13,6 +14,7 @@ interface Props {
 
 export default function SeasonBar({ race, phase, injuries, trend, progression, vertActual, currentWeek }: Props) {
   const vertPct = phase?.vertTarget ? Math.min(100, Math.round((vertActual / phase.vertTarget) * 100)) : null;
+  const [insightsOpen, setInsightsOpen] = useState(false);
 
   return (
     <div className="mb-5 space-y-3">
@@ -71,7 +73,7 @@ export default function SeasonBar({ race, phase, injuries, trend, progression, v
 
         {/* Fitness trend */}
         {trend && trend.rows.length >= 2 && (
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg px-4 py-3">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg px-4 py-3 relative">
             <div className="text-[11px] uppercase tracking-wide text-slate-500">{trend.label}</div>
             <div className="flex items-baseline gap-2 mt-1">
               <span className="text-slate-500 text-xs line-through">{trend.rows[0].value.replace(' /km', '')}</span>
@@ -80,9 +82,23 @@ export default function SeasonBar({ race, phase, injuries, trend, progression, v
               <span className="text-xs text-slate-500">/km</span>
             </div>
             {trend.note && <div className="text-[11px] text-emerald-300/70 mt-0.5 line-clamp-2">{trend.note}</div>}
+            <button
+              onClick={() => setInsightsOpen(true)}
+              className="absolute top-2 right-2 text-[11px] bg-slate-700/70 hover:bg-emerald-700/70 text-slate-200 px-2 py-1 rounded transition-colors"
+            >📊 Insights</button>
           </div>
         )}
       </div>
+
+      {/* Fallback Insights button when no trend card */}
+      {!(trend && trend.rows.length >= 2) && (
+        <button
+          onClick={() => setInsightsOpen(true)}
+          className="text-xs bg-slate-700/70 hover:bg-emerald-700/70 text-slate-200 px-3 py-1.5 rounded transition-colors"
+        >📊 Fitness-Insights</button>
+      )}
+
+      {insightsOpen && <InsightsModal onClose={() => setInsightsOpen(false)} />}
 
       {/* Long-run progression across build */}
       {progression.length > 0 && (

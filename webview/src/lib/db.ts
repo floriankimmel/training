@@ -108,6 +108,17 @@ export interface ActivityDetail {
   laps: Lap[];
 }
 
+export interface MonthPoint { month: string; value: number | null; n?: number; }
+export interface LoadPoint { week: number; year: number; km: number; vert: number; }
+export interface Insights {
+  efficiency: MonthPoint[];   // median km/h @ HR 140-150 per month
+  ef: MonthPoint[];           // efficiency factor (speed/HR) Z1-Z2
+  rhr: MonthPoint[];
+  hrv: MonthPoint[];
+  load: LoadPoint[];
+  verdict: { level: 'up' | 'flat' | 'down'; effDeltaPct: number | null; text: string };
+}
+
 // Per-day running actuals for [start,end] local dates (inclusive).
 export function getWeekActivities(start: string, end: string): DayActivity[] {
   const sql = `
@@ -275,4 +286,66 @@ export function getActivityDetail(date: string): ActivityDetail | null {
     zones,
     laps,
   };
+}
+
+// Fitness insights: aerobic efficiency, EF, RHR/HRV, weekly load, verdict.
+export function getInsights(months = 8): Insights {
+  const mp = (rows: Record<string, unknown>[], key: string): MonthPoint[] =>
+    rows.map(r => ({
+      month: String(r.month).slice(0, 7),
+      value: r[key] == null ? null : Number(r[key]),
+      n: r.n == null ? undefined : Number(r.n),
+    }));
+
+  // Aerobic efficiency: median km/h at HR 140-150 (terrain-neutral fitness marker).
+  const eff = mp(query(`
+    SELECT strftime(date_trunc('month', ts AT TIME ZONE '${TZ}'), '%Y-%m-01') AS month,
+           round(median(3.6*speed), 2) AS kmh, count(*) AS n
+    FROM records r JOIN activities a ON a.id=r.activity_id
+    WHERE a.sport='running' AND hr BETWEEN 140 AND 150 AND speed>1.5
+      AND ts >= now() - INTERVAL '${months}' MONTH
+    GROUP BY 1 ORDER BY 1`), 'kmh');
+
+  // Efficiency factor: avg (m/s / HR) on aerobic runs.
+  const ef = mp(query(`
+    SELECT strftime(date_trunc('month', start_time AT TIME ZONE '${TZ}'), '%Y-%m-01') AS month,
+           round(avg((distance_m/timer_s)/avg_hr*1000), 2) AS ef
+    FROM activities
+    WHERE sport='running' AND avg_hr BETWEEN 120 AND 155 AND distance_m>3000
+      AND start_time >= now() - INTERVAL '${months}' MONTH
+    GROUP BY 1 ORDER BY 1`), 'ef');
+
+  const wellness = query(`
+    SELECT strftime(date_trunc('month', day), '%Y-%m-01') AS month,
+           round(avg(resting_hr),1) AS rhr, round(avg(hrv_night_avg),1) AS hrv, count(*) AS n
+    FROM daily_metrics WHERE day >= now() - INTERVAL '${months}' MONTH
+    GROUP BY 1 ORDER BY 1`);
+  const rhr = mp(wellness, 'rhr');
+  const hrv = mp(wellness, 'hrv');
+
+  const load: LoadPoint[] = query(`
+    SELECT cast(week((start_time AT TIME ZONE '${TZ}')::date) AS INTEGER) AS "week",
+           cast(year((start_time AT TIME ZONE '${TZ}')::date) AS INTEGER) AS "year",
+           round(sum(distance_m)/1000,1) AS km, coalesce(sum(total_ascent),0) AS vert
+    FROM activities WHERE sport='running' AND start_time >= now() - INTERVAL '12' WEEK
+    GROUP BY 1,2 ORDER BY "year","week"`).map(r => ({
+      week: Number(r.week), year: Number(r.year), km: Number(r.km)||0, vert: Number(r.vert)||0,
+    }));
+
+  // Verdict from efficiency: compare last valid month vs mean of prior valid months.
+  const effVals = eff.filter(e => e.value != null).map(e => e.value as number);
+  let level: 'up' | 'flat' | 'down' = 'flat';
+  let effDeltaPct: number | null = null;
+  let text = 'Zu wenig Daten für ein Urteil.';
+  if (effVals.length >= 3) {
+    const last = effVals[effVals.length - 1];
+    const prior = effVals.slice(0, -1);
+    const avg = prior.reduce((a, b) => a + b, 0) / prior.length;
+    effDeltaPct = ((last - avg) / avg) * 100;
+    if (effDeltaPct > 1.5) { level = 'up'; text = 'Aerobe Effizienz steigt — du wirst fitter.'; }
+    else if (effDeltaPct < -1.5) { level = 'down'; text = 'Effizienz aktuell unter Schnitt — Reboot/Ermüdung?'; }
+    else { level = 'flat'; text = 'Effizienz stabil — Form gehalten.'; }
+  }
+
+  return { efficiency: eff, ef, rhr, hrv, load, verdict: { level, effDeltaPct, text } };
 }
