@@ -114,8 +114,13 @@ def ensure_schema(con):
 
 
 def upsert(con, rec):
-    cols = list(rec.keys())
+    # reuse the existing id for this day, else draw a fresh one from the sequence
+    row = con.execute("SELECT id FROM daily_metrics WHERE day = ?", [rec["day"]]).fetchone()
+    rec = dict(rec)
+    rec["id"] = row[0] if row else con.execute(
+        "SELECT nextval('seq_daily_metrics')").fetchone()[0]
     con.execute("DELETE FROM daily_metrics WHERE day = ?", [rec["day"]])
+    cols = list(rec.keys())
     con.execute(
         f"INSERT INTO daily_metrics ({','.join(cols)}) VALUES ({','.join(['?']*len(cols))})",
         [rec[c] for c in cols],

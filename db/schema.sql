@@ -70,8 +70,11 @@ CREATE TABLE IF NOT EXISTS records (
 
 -- Daily wellness/recovery metrics from Apple HealthKit (metrics/metrics-WW-YYYY.md).
 -- One row per calendar day, keyed by the local date. Idempotent upsert on day.
+CREATE SEQUENCE IF NOT EXISTS seq_daily_metrics START 1;
+
 CREATE TABLE IF NOT EXISTS daily_metrics (
-  day             DATE PRIMARY KEY,
+  id              BIGINT PRIMARY KEY DEFAULT nextval('seq_daily_metrics'),
+  day             DATE UNIQUE,
   weekday         VARCHAR,
   -- sleep
   bedtime_start   VARCHAR,               -- 'HH:MM' local
