@@ -8,8 +8,9 @@ Current coverage: 2020 → 2026, ~1600 activities, 6M+ per-second records.
 
 ## Files
 
-- `schema.sql` — 3-tier schema: `activities` → `laps` → `records` (all TIMESTAMPTZ/UTC)
+- `schema.sql` — 3-tier schema: `activities` → `laps` → `records` (all TIMESTAMPTZ/UTC), plus `daily_metrics` (daily recovery)
 - `import_fit.py` — multi-source, idempotent importer
+- `import_metrics.py` — parse `metrics/*.md` (Apple HealthKit sleep/HRV/RHR) into `daily_metrics`
 - `import_tredict.py` — pull missing activities from the Tredict API + import
 - `training.duckdb` — the database (git-ignored; regenerate anytime)
 - `.venv/` — python env with `duckdb` + `garmin-fit-sdk` (git-ignored)
@@ -50,6 +51,25 @@ db/.venv/bin/python db/import_fit.py /tmp/tredict --source tredict
 
 `--source` overrides provenance detection (filenames from the API carry no
 source hint). Dedup still applies, so re-importing is safe.
+
+### Recovery metrics (daily_metrics)
+
+The `metrics/metrics-WW-YYYY.md` files (generated daily ~10:00 from Apple
+HealthKit: sleep, HRV/SDNN, resting HR) load into the `daily_metrics` table.
+One row per calendar day, idempotent upsert by `day` (re-running refreshes):
+
+```bash
+db/.venv/bin/python db/import_metrics.py            # all metrics/*.md
+db/.venv/bin/python db/import_metrics.py metrics/metrics-35-2026.md   # one file
+```
+
+Query the recovery trend:
+```sql
+SELECT day, weekday, sleep_min, deep_min, rem_min, efficiency_pct,
+  hrv_night_avg, resting_hr FROM daily_metrics ORDER BY day DESC LIMIT 14;
+```
+Used read-only by the `feedback`, `coach`, and `training-db` skills for
+recovery/readiness context.
 
 ### Deduplication (source-independent)
 

@@ -68,6 +68,36 @@ CREATE TABLE IF NOT EXISTS records (
   altitude        DOUBLE
 );
 
+-- Daily wellness/recovery metrics from Apple HealthKit (metrics/metrics-WW-YYYY.md).
+-- One row per calendar day, keyed by the local date. Idempotent upsert on day.
+CREATE TABLE IF NOT EXISTS daily_metrics (
+  day             DATE PRIMARY KEY,
+  weekday         VARCHAR,
+  -- sleep
+  bedtime_start   VARCHAR,               -- 'HH:MM' local
+  bedtime_end     VARCHAR,               -- 'HH:MM' local
+  time_in_bed_min INTEGER,
+  sleep_min       INTEGER,
+  efficiency_pct  INTEGER,
+  deep_min        INTEGER,
+  deep_pct        INTEGER,
+  rem_min         INTEGER,
+  rem_pct         INTEGER,
+  core_min        INTEGER,
+  core_pct        INTEGER,
+  awake_min       INTEGER,
+  -- HRV (SDNN)
+  hrv_night_avg   DOUBLE,                -- ms
+  hrv_day_avg     DOUBLE,                -- ms
+  hrv_min         DOUBLE,                -- ms
+  hrv_max         DOUBLE,                -- ms
+  hrv_samples     INTEGER,
+  -- resting HR
+  resting_hr      INTEGER,               -- bpm
+  source_file     VARCHAR,
+  imported_at     TIMESTAMPTZ
+);
+
 CREATE INDEX IF NOT EXISTS idx_records_act ON records(activity_id);
 CREATE INDEX IF NOT EXISTS idx_records_ts  ON records(ts);
 CREATE INDEX IF NOT EXISTS idx_laps_act    ON laps(activity_id);
