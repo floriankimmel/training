@@ -1,7 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { getAvailableWeeks, parseWeekFile, parseFeedbackFile, getWeekDates } from '../lib/parseTraining';
-import WeekView from '../components/WeekView';
+import { getWeekActivities, getWeekMetrics, getWeekTotals, getTrend, dbAvailable } from '../lib/db';
+import { getRace, getPhase, getActiveInjuries, getFitnessTrend, getBuildProgression } from '../lib/parseContext';
+import WeekGrid from '../components/WeekGrid';
+import SeasonBar from '../components/SeasonBar';
 import ChatModal from '../components/ChatModal';
 
 // Determine which week to show (default: latest)
@@ -19,6 +22,20 @@ if (urlWeek && urlYear) {
 const weekData = parseWeekFile(currentWeek.week, currentWeek.year);
 const feedbackData = parseFeedbackFile(currentWeek.week, currentWeek.year);
 const dates = getWeekDates(currentWeek.week, currentWeek.year);
+
+// DB-backed actuals + recovery + trend (past days). Falls back to [] if db missing.
+const hasDb = dbAvailable();
+const activities = hasDb ? getWeekActivities(dates.start, dates.end) : [];
+const metrics = hasDb ? getWeekMetrics(dates.start, dates.end) : [];
+const totals = hasDb ? getWeekTotals(dates.start, dates.end) : { sessions: 0, km: 0, min: 0, vert: 0, avgHr: null };
+const trend = hasDb ? getTrend(dates.end, 8) : [];
+
+// Context from markdown files (race, phase, injuries, fitness trend, build progression)
+const race = getRace();
+const phase = getPhase(currentWeek.week);
+const injuries = getActiveInjuries();
+const fitnessTrend = getFitnessTrend();
+const progression = getBuildProgression();
 
 // Find prev/next week
 const currentIdx = weeks.findIndex(w => w.week === currentWeek.week && w.year === currentWeek.year);
@@ -51,15 +68,31 @@ const nextWeek = currentIdx < weeks.length - 1 ? weeks[currentIdx + 1] : null;
 
   {weekData && (
     <>
+      <SeasonBar
+        client:load
+        race={race}
+        phase={phase}
+        injuries={injuries}
+        trend={fitnessTrend}
+        progression={progression}
+        vertActual={totals.vert}
+        currentWeek={currentWeek.week}
+      />
       {weekData.philosophy && (
         <div class="bg-slate-800/50 border border-slate-700 rounded-lg px-4 py-3 mb-6 text-sm text-slate-300 italic">
           {weekData.philosophy}
         </div>
       )}
-      <WeekView
+      <WeekGrid
         client:load
         weekData={weekData}
         feedbackData={feedbackData}
+        activities={activities}
+        metrics={metrics}
+        totals={totals}
+        trend={trend}
+        weekDates={dates}
+        currentWeek={currentWeek}
       />
     </>
   )}

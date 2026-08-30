@@ -51,6 +51,7 @@ export interface FeedbackSession {
   title: string;
   content: string;
   rating?: string;
+  summary?: string;   // Fazit-Absatz nach der Bewertung
 }
 
 const dayMap: Record<string, string> = {
@@ -85,7 +86,7 @@ function resolveDate(dayName: string, dateStr: string, weekNum: number, year: nu
     const day = parseInt(textMatch[2]);
     if (month !== undefined) {
       const d = new Date(year, month, day);
-      return d.toISOString().split('T')[0];
+      return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
     }
   }
 
@@ -94,7 +95,7 @@ function resolveDate(dayName: string, dateStr: string, weekNum: number, year: nu
   const monday = new Date(dates.start);
   const offset = dayIndex[dayName] || 0;
   monday.setDate(monday.getDate() + offset);
-  return monday.toISOString().split('T')[0];
+  return `${monday.getFullYear()}-${String(monday.getMonth() + 1).padStart(2, '0')}-${String(monday.getDate()).padStart(2, '0')}`;
 }
 
 export function getAvailableWeeks(): { week: number; year: number }[] {
@@ -187,7 +188,7 @@ export function parseWeekFile(weekNum: number, year: number): WeekData | null {
       const monday = new Date(dates.start);
       const offset = dayIndex[subDay] || 0;
       monday.setDate(monday.getDate() + offset);
-      const subDate = monday.toISOString().split('T')[0];
+      const subDate = `${monday.getFullYear()}-${String(monday.getMonth() + 1).padStart(2, '0')}-${String(monday.getDate()).padStart(2, '0')}`;
       
       const isRest = subTitle.toLowerCase().includes('rest') || subTitle.toLowerCase().includes('ruhetag') || subTitle.toLowerCase().includes('unscheduled');
       const isStrength = /kraft|strength|mark lauren|🏋️/i.test(subTitle);
@@ -231,11 +232,26 @@ export function parseFeedbackFile(weekNum: number, year: number): FeedbackData |
   while ((match = sessionRegex.exec(content)) !== null) {
     const [, date, title, feedbackContent] = match;
     const ratingMatch = feedbackContent.match(/### 🎯\s*\*{0,2}Bewertung:\s*(.+?)\*{0,2}\s*$/m);
+    // Fazit = erster nicht-leerer Absatz nach der Bewertungs-Überschrift
+    let summary: string | undefined;
+    const bewIdx = feedbackContent.search(/### 🎯\s*\*{0,2}Bewertung:/);
+    if (bewIdx >= 0) {
+      const after = feedbackContent.slice(bewIdx).split('\n').slice(1);
+      const para: string[] = [];
+      for (const line of after) {
+        const t = line.trim();
+        if (!t) { if (para.length) break; else continue; }
+        if (t.startsWith('#')) break;
+        para.push(t);
+      }
+      summary = para.join(' ').replace(/\*\*/g, '').trim() || undefined;
+    }
     sessions.push({
       date,
       title: title.trim(),
       content: feedbackContent.trim(),
       rating: ratingMatch ? ratingMatch[1].trim() : undefined,
+      summary,
     });
   }
   
@@ -251,6 +267,6 @@ export function getWeekDates(weekNum: number, year: number): { start: string; en
   const sunday = new Date(monday);
   sunday.setDate(monday.getDate() + 6);
   
-  const fmt = (d: Date) => d.toISOString().split('T')[0];
+  const fmt = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
   return { start: fmt(monday), end: fmt(sunday) };
 }
