@@ -8,7 +8,7 @@
 
 ## Current pointer
 
-- **Program week as of 2026-08-20 (calendar W34)**: **First Class — Woche 7.**
+- **Program week as of 2026-08-30 (calendar W36)**: **First Class — Woche 8 (Wechselblock, S.246).**
 - **Advance rule**: one program-week per calendar week (W35 → First Class W8, etc.),
   unless illness/injury forced a skip — then confirm whether to repeat or advance.
 - After First Class W10 → continue with Master Class W1+2.

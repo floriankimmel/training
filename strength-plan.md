@@ -4,14 +4,14 @@
 > [`plans/strength-program-mark-lauren.md`](plans/strength-program-mark-lauren.md) —
 > the coach plans strength from there. Todoist stays the schedule source of truth.
 
-**Last updated**: 2026-08-20 (W35 plan)
+**Last updated**: 2026-08-30 (W36 plan)
 
 ## System
 
 - **Method**: Mark Lauren (bodyweight), from the book.
 - **Programs digitized**: First Class für Trainingserfahrene (W1–W10, complete) + Master Class für Fortgeschrittene (W1–W10, complete).
-- **Current program week (calendar W35)**: **First Class — Woche 7 (fortgesetzt).** W34 durch Krankheit gekappt — nur Tag 1 gemacht. W35 macht Tag 2/3/4/5 (kein Kraft an Göteborg-Reisetagen Di/Mi/Do → Mo daheim + Fr/Sa/So).
-- **Advance rule**: one program-week per calendar week. **Ausnahme:** W35 wiederholt/vollendet Woche 7 (Krankheit). Nach Abschluss W35 → W36 = First Class Woche 8. After First Class W10 → Master Class W1+2.
+- **Current program week (calendar W36)**: **First Class — Woche 8 (Wechselblock, S.246).** W35 hat Woche 7 (Tag 2-5) abgeschlossen. W36 = Tag 1-5 auf Di/Do/Fr/Sa/So (kein Kraft Mo+Mi → intensive Läufe).
+- **Advance rule**: one program-week per calendar week. Nach Abschluss W36 → W37 = First Class Woche 9. After First Class W10 → Master Class W1+2.
 
 ## How strength gets planned
 
