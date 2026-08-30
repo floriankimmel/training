@@ -128,7 +128,7 @@ export default function InsightsModal({ onClose }: { onClose: () => void }) {
               )}
 
               {/* Aerobic efficiency */}
-              <Section title="Aerobe Effizienz — Pace bei HF 140–150" hint="schneller (niedrigere min/km) bei gleicher HF = fitter. Gelände-neutral.">
+              <Section title="Aerobe Effizienz — Pace bei HF 140–150" hint="nur flache Läufe (<20 hm/km), Trails ausgeschlossen. Schneller = fitter.">
                 <MonthBars data={data.efficiency} decimals={2} higherBetter invert fmt={kmhToPace} />
                 {effFL && (
                   <p className="text-xs text-slate-400 mt-2">

@@ -18,6 +18,10 @@ const PROJECT_ROOT = findProjectRoot();
 const DB_PATH = path.join(PROJECT_ROOT, 'db', 'training.duckdb');
 const TZ = 'Europe/Vienna';
 
+// Filter out GPS/import fragments & broken-summary duplicates (e.g. a 767m/143s
+// row that overlaps the real run). Real short runs are >=500m and >=180s.
+const REAL_RUN = `sport='running' AND distance_m >= 500 AND timer_s >= 180`;
+
 export function dbAvailable(): boolean {
   return fs.existsSync(DB_PATH);
 }
@@ -87,6 +91,7 @@ export interface Lap {
   maxHr: number | null;
   pace: number | null;   // min/km
   power: number | null;
+  synthetic?: boolean;   // reconstructed from records (missing .fit lap)
 }
 
 export interface ActivityDetail {
@@ -106,7 +111,12 @@ export interface ActivityDetail {
   pace: number | null;   // min/km
   zones: ZoneBucket[];
   laps: Lap[];
+  lapsCoverFull: boolean;   // laps cover >=90% of distance (else partial .fit → misleading)
+  pausedSec: number | null; // elapsed - moving
+  pauses: PauseSeg[];       // individual stops reconstructed from record gaps
 }
+
+export interface PauseSeg { atKm: number | null; startLocal: string; durSec: number; }
 
 export interface MonthPoint { month: string; value: number | null; n?: number; }
 export interface LoadPoint { week: number; year: number; km: number; vert: number; }
@@ -133,7 +143,7 @@ export function getWeekActivities(start: string, end: string): DayActivity[] {
       sum(total_ascent) AS vert,
       round((sum(timer_s)/60) / nullif(sum(distance_m)/1000, 0), 2) AS pace
     FROM activities
-    WHERE sport = 'running'
+    WHERE ${REAL_RUN}
       AND (start_time AT TIME ZONE '${TZ}')::date BETWEEN DATE '${start}' AND DATE '${end}'
     GROUP BY 1
     ORDER BY 1`;
@@ -172,7 +182,7 @@ export function getWeekTotals(start: string, end: string): WeekTotals {
       coalesce(sum(total_ascent), 0) AS vert,
       round(sum(avg_hr * timer_s) / nullif(sum(timer_s), 0)) AS "avgHr"
     FROM activities
-    WHERE sport = 'running'
+    WHERE ${REAL_RUN}
       AND (start_time AT TIME ZONE '${TZ}')::date BETWEEN DATE '${start}' AND DATE '${end}'`;
   const r = query<WeekTotals>(sql)[0];
   if (!r) return { sessions: 0, km: 0, min: 0, vert: 0, avgHr: null };
@@ -193,7 +203,7 @@ export function getTrend(endDate: string, weeks = 8): TrendPoint[] {
         (start_time AT TIME ZONE '${TZ}')::date AS d,
         distance_m, timer_s, total_ascent
       FROM activities
-      WHERE sport = 'running'
+      WHERE ${REAL_RUN}
         AND (start_time AT TIME ZONE '${TZ}')::date
             BETWEEN DATE '${endDate}' - INTERVAL '${weeks * 7 - 1}' DAY AND DATE '${endDate}'
     )
@@ -268,6 +278,65 @@ export function getActivityDetail(date: string): ActivityDetail | null {
   }));
 
   const num = (v: unknown) => (v == null ? null : Number(v));
+  const kmVal = num(a.km);
+  const movingSec = num(a.movingMin) != null ? Math.round(num(a.movingMin)! * 60) : null;
+  const lapKmSum = laps.reduce((s, l) => s + (l.km ?? 0), 0);
+  const lapSecSum = laps.reduce((s, l) => s + (l.secs ?? 0), 0);
+  // Reconstruct the uncovered tail from records when .fit laps are partial
+  // (missing distance OR missing time vs the activity totals).
+  const distGap = kmVal != null && kmVal > 0 && lapKmSum < kmVal * 0.97;
+  const timeGap = movingSec != null && movingSec > 0 && lapSecSum < movingSec * 0.97;
+  if (laps.length > 0 && (distGap || timeGap)) {
+    const coveredM = Math.round(lapKmSum * 1000);
+    const restSql = `
+      WITH t AS (
+        SELECT ts, distance_m, hr, power,
+               date_diff('second', lag(ts) OVER(ORDER BY ts), ts) AS gap
+        FROM records WHERE activity_id=${id} AND distance_m > ${coveredM}
+      )
+      SELECT round((max(distance_m)-min(distance_m))/1000, 2) AS km,
+             round(date_diff('second', min(ts), max(ts))
+                   - coalesce(sum(gap) FILTER(WHERE gap > 3), 0)) AS secs,
+             round(avg(hr)) AS "avgHr", max(hr) AS "maxHr",
+             round(avg(power)) AS power
+      FROM t`;
+    const r = query<Lap>(restSql)[0];
+    if (r && r.km != null && Number(r.km) > 0.05) {
+      const km = Number(r.km);
+      const secs = r.secs == null ? null : Number(r.secs);
+      const pace = secs != null && km > 0 ? Math.round((secs / 60) / km * 100) / 100 : null;
+      laps.push({
+        index: laps.length,
+        km,
+        secs,
+        avgHr: r.avgHr == null ? null : Number(r.avgHr),
+        maxHr: r.maxHr == null ? null : Number(r.maxHr),
+        pace,
+        power: r.power == null ? null : Number(r.power),
+        synthetic: true,
+      });
+    }
+  }
+  const lapKmTotal = laps.reduce((s, l) => s + (l.km ?? 0), 0);
+  const lapSecTotal = laps.reduce((s, l) => s + (l.secs ?? 0), 0);
+  const kmOk = kmVal != null && kmVal > 0 && lapKmTotal >= kmVal * 0.95;
+  const secOk = movingSec != null && movingSec > 0 && lapSecTotal >= movingSec * 0.95;
+  const lapsCoverFull = kmOk && (movingSec == null || secOk);
+
+  // Pauses: record gaps > 3s. Sum matches elapsed - timer.
+  const pauseSql = `
+    WITH r AS (SELECT ts, distance_m, lag(ts) OVER(ORDER BY ts) prev FROM records WHERE activity_id=${id})
+    SELECT round(distance_m/1000, 2) AS "atKm",
+           strftime(prev AT TIME ZONE '${TZ}', '%H:%M') AS "startLocal",
+           date_diff('second', prev, ts) AS "durSec"
+    FROM r WHERE date_diff('second', prev, ts) > 3 ORDER BY prev`;
+  const pauses: PauseSeg[] = query<PauseSeg>(pauseSql).map(p => ({
+    atKm: p.atKm == null ? null : Number(p.atKm),
+    startLocal: String(p.startLocal),
+    durSec: Number(p.durSec) || 0,
+  }));
+  const mv = num(a.movingMin), el = num(a.elapsedMin);
+  const pausedSec = mv != null && el != null ? Math.round((el - mv) * 60) : null;
   return {
     id,
     start: String(a.start),
@@ -285,6 +354,9 @@ export function getActivityDetail(date: string): ActivityDetail | null {
     pace: num(a.pace),
     zones,
     laps,
+    lapsCoverFull,
+    pausedSec,
+    pauses,
   };
 }
 
@@ -297,12 +369,15 @@ export function getInsights(months = 8): Insights {
       n: r.n == null ? undefined : Number(r.n),
     }));
 
-  // Aerobic efficiency: median km/h at HR 140-150 (terrain-neutral fitness marker).
+  // Aerobic efficiency: median km/h at HR 140-150 on flat-ish runs (terrain-neutral
+  // fitness marker). Excludes vert trails (<20 hm/km) & GPS fragments.
   const eff = mp(query(`
     SELECT strftime(date_trunc('month', ts AT TIME ZONE '${TZ}'), '%Y-%m-01') AS month,
            round(median(3.6*speed), 2) AS kmh, count(*) AS n
     FROM records r JOIN activities a ON a.id=r.activity_id
     WHERE a.sport='running' AND hr BETWEEN 140 AND 150 AND speed>1.5
+      AND a.distance_m>=500 AND a.timer_s>=180
+      AND coalesce(a.total_ascent,0)/(a.distance_m/1000) < 20
       AND ts >= now() - INTERVAL '${months}' MONTH
     GROUP BY 1 ORDER BY 1`), 'kmh');
 
@@ -312,6 +387,7 @@ export function getInsights(months = 8): Insights {
            round(avg((distance_m/timer_s)/avg_hr*1000), 2) AS ef
     FROM activities
     WHERE sport='running' AND avg_hr BETWEEN 120 AND 155 AND distance_m>3000
+      AND coalesce(total_ascent,0)/(distance_m/1000) < 20
       AND start_time >= now() - INTERVAL '${months}' MONTH
     GROUP BY 1 ORDER BY 1`), 'ef');
 
@@ -327,7 +403,7 @@ export function getInsights(months = 8): Insights {
     SELECT cast(week((start_time AT TIME ZONE '${TZ}')::date) AS INTEGER) AS "week",
            cast(year((start_time AT TIME ZONE '${TZ}')::date) AS INTEGER) AS "year",
            round(sum(distance_m)/1000,1) AS km, coalesce(sum(total_ascent),0) AS vert
-    FROM activities WHERE sport='running' AND start_time >= now() - INTERVAL '12' WEEK
+    FROM activities WHERE ${REAL_RUN} AND start_time >= now() - INTERVAL '12' WEEK
     GROUP BY 1,2 ORDER BY "year","week"`).map(r => ({
       week: Number(r.week), year: Number(r.year), km: Number(r.km)||0, vert: Number(r.vert)||0,
     }));

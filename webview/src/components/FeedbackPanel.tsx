@@ -151,6 +151,7 @@ function ActualBlock({ detail }: { detail: ActivityDetail }) {
       <div className="flex items-center gap-2 mb-3">
         <h4 className="text-xs uppercase tracking-wider text-emerald-400">Tatsächlich</h4>
         <span className="text-xs text-slate-600">{detail.start}</span>
+        <span className="text-xs text-slate-600 font-mono">#{detail.id}</span>
       </div>
 
       {/* Stat tiles */}
@@ -163,6 +164,23 @@ function ActualBlock({ detail }: { detail: ActivityDetail }) {
         <Tile label="Vertical" value={detail.vert != null ? `${detail.vert}` : '–'} unit="hm" />
         <Tile label="ø Power" value={detail.avgPower != null ? `${detail.avgPower}` : '–'} unit="W" />
       </div>
+
+      {/* Moving vs paused */}
+      {detail.pausedSec != null && detail.pausedSec > 0 && (
+        <div className="text-[11px] text-slate-400 mb-4 flex flex-wrap items-center gap-x-3 gap-y-1">
+          <span>⏱️ Gesamt (elapsed) <span className="font-mono text-slate-300">{fmtDur(detail.elapsedMin)}</span></span>
+          <span>· Pause <span className="font-mono text-amber-400">{fmtSecs(detail.pausedSec)}</span></span>
+          {detail.pauses.length > 0 && (
+            <span className="text-slate-500">
+              ({detail.pauses.map((p, i) => (
+                <span key={i} title={`bei ${p.atKm ?? '?'} km, ${p.startLocal}`}>
+                  {i > 0 && ', '}{fmtSecs(p.durSec)}{p.atKm != null && `@${p.atKm}km`}
+                </span>
+              ))})
+            </span>
+          )}
+        </div>
+      )}
 
       {/* Time in zone */}
       {totalZ > 0 && (
@@ -191,8 +209,11 @@ function ActualBlock({ detail }: { detail: ActivityDetail }) {
         </div>
       )}
 
-      {/* Laps / splits */}
-      {detail.laps.length >= 1 && <LapTable laps={detail.laps} />}
+      {/* Laps / splits — nur wenn Laps die ganze Aktivität abdecken */}
+      {detail.laps.length >= 1 && detail.lapsCoverFull && <LapTable laps={detail.laps} />}
+      {detail.laps.length >= 1 && !detail.lapsCoverFull && (
+        <p className="text-[11px] text-slate-600 mt-1">Splits ausgeblendet — Lap-Daten decken nur einen Teil der Aktivität ab (unvollständige .fit-Runden).</p>
+      )}
     </div>
   );
 }
@@ -204,7 +225,7 @@ function LapTable({ laps }: { laps: Lap[] }) {
   return (
     <details className="mt-1" open>
       <summary className="text-[11px] uppercase tracking-wide text-slate-500 cursor-pointer hover:text-slate-300 select-none">
-        Splits ({laps.length})
+        Splits ({laps.length}){laps.some(l => l.synthetic) && <span className="ml-2 text-amber-500/80 normal-case">* rekonstruiert aus Records</span>}
       </summary>
       <div className="mt-2 overflow-x-auto">
         <table className="w-full text-xs font-mono">
@@ -224,7 +245,7 @@ function LapTable({ laps }: { laps: Lap[] }) {
               const frac = l.pace != null && isFinite(l.pace) ? 1 - (l.pace - minPace) / range : 0;
               return (
                 <tr key={l.index} className="border-t border-slate-800 text-slate-300">
-                  <td className="px-2 py-1 text-slate-500">{l.index + 1}</td>
+                  <td className="px-2 py-1 text-slate-500">{l.index + 1}{l.synthetic && <span className="text-amber-500" title="aus Records rekonstruiert (fehlende .fit-Runde)">*</span>}</td>
                   <td className="px-2 py-1">{l.km ?? '–'}</td>
                   <td className="px-2 py-1">{fmtSecs(l.secs)}</td>
                   <td className="px-2 py-1 text-emerald-400">{fmtPace(l.pace)}</td>

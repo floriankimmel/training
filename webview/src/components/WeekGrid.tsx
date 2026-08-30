@@ -142,8 +142,22 @@ export default function WeekGrid({ weekData, feedbackData, activities, metrics, 
     setModalSession({ session: c.session, feedback: c.feedback });
   }
 
-  // Select today's cell on mount (fallback: first).
+  // Navigate to prev/next week landing on a specific day index (wrap nav).
+  function gotoWeek(dir: 'prev' | 'next', landDay: number) {
+    const link = document.querySelector<HTMLAnchorElement>(`[data-nav="${dir}"]`);
+    if (!link) return; // no such week (edge of range)
+    const url = new URL(link.href, window.location.origin);
+    url.searchParams.set('day', String(landDay));
+    window.location.href = url.pathname + url.search;
+  }
+
+  // Select cell on mount: ?day=N wins (week wrap-nav), else today, else first.
   useEffect(() => {
+    const dayParam = new URLSearchParams(window.location.search).get('day');
+    if (dayParam != null) {
+      const di = parseInt(dayParam);
+      if (di >= 0 && di < cells.length) { setSelected(di); return; }
+    }
     const idx = cells.findIndex(c => c.date === today);
     setSelected(idx >= 0 ? idx : 0);
   }, []);
@@ -157,9 +171,11 @@ export default function WeekGrid({ weekData, feedbackData, activities, metrics, 
       if (modalSession) return;
       if (e.key === 'h' || e.key === 'H' || e.key === 'k') {
         e.preventDefault();
+        if (selected === 0) { gotoWeek('prev', 6); return; }
         setSelected(p => Math.max(0, p - 1));
       } else if (e.key === 'l' || e.key === 'L' || e.key === 'j') {
         e.preventDefault();
+        if (selected === cells.length - 1) { gotoWeek('next', 0); return; }
         setSelected(p => Math.min(cells.length - 1, p + 1));
       } else if (e.key === 'o' || e.key === 'Enter') {
         e.preventDefault();
