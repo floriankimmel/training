@@ -3,11 +3,11 @@
 > Rolling "where am I right now" file so agents don't have to read 6 week files.
 > Update at the end of each coach/feedback run.
 
-**Last updated**: 2026-08-30 (W36 plan — Build 2, Intensität zurück)
+**Last updated**: 2026-08-31 (W36 Mo Hügel-Intervalle 6x3min Z4 — Grade A, erster harter Reiz nach Infekt sitzt)
 
 ## ✅ Recovered: GI illness (2026-08-19 → abgeschlossen)
 
-- Magen-Darm + mild fever from Wed 08-19; W34 cut short. **3 symptom-free runs in W35** (LR 15k/475 hm A, Recovery A, Kurzlauf+Pickups A-) → **green light for real intensity from W36**. No residual symptoms.
+- Magen-Darm + mild fever from Wed 08-19; W34 cut short. **3 symptom-free runs in W35** (LR 15k/475 hm A, Recovery A, Kurzlauf+Pickups A-) → **green light for real intensity from W36**. No residual symptoms. **W36 Mo: erster harter Z4-Reiz sauber ausgeführt (88-95% TiZ, Grade A) → Motor belastbar, Build 2 rollt.**
 
 ## Current Target
 
