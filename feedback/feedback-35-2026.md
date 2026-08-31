@@ -95,7 +95,7 @@ Key-Session der Woche voll getroffen: Zone, Vert, Fueling, Gefühl — alles pas
 ## 2026-08-25 - Easy/Social Run (Ersatz für Endurance+Bergstrides) - Dienstag Analyse
 
 **Geplant**: 70min Endurance @ Z2 (143–152 bpm), rollendes Terrain + 6× 15s Bergstrides zügig bergauf
-**Tatsächliche Ausführung**: ~10,1 km (Apple Watch), 81min moving / 83min elapsed, avg HR 120, max HR 153, avg pace 8:00/km, +11 hm, Kadenz ~158 spm. Social Run mit Kollege statt Bergsession.
+**Tatsächliche Ausführung**: ~10,1 km (Apple Watch), 81min moving / 83min elapsed, avg HR 120, max HR 153, avg pace 8:00/km, **+193 hm** (Watch-Baro, nach Handy-Korrektur; GPS-Höhenfeld meldete fälschlich +11 hm), Kadenz ~158 spm. Social Run mit Kollege statt Bergsession.
 **Persönliches Empfinden**: Mit Kollege gelaufen, etwas länger als geplant.
 
 ### 🎯 Herzfrequenz-Analyse
@@ -117,23 +117,21 @@ Key-Session der Woche voll getroffen: Zone, Vert, Fueling, Gefühl — alles pas
 
 ### ⚠️ Verbesserungsbereiche
 
-- **Kontext W35 = Reboot nach GI-Infekt** — reiner aerober Lauf ist hier sogar konservativ passend, kein Drama. Aber: die 6× Bergstrides waren harmlos und leicht drin — die fehlen jetzt.
-- Aus einem Z2+Strides-Workout wurde ein Z0-Sozialauf. Volumen ok, spezifischer Reiz (Strides/Vertikal) = 0.
-- Flach (+11 hm) statt rollend/bergauf — kein Vertikal.
+- **Kontext W35 = Reboot nach GI-Infekt** — reiner aerober Lauf ist hier sogar konservativ passend, kein Drama. Die 6× dedizierten Bergstrides (kurze zügige Reize) fehlen zwar — aber das Terrain war **rollend mit ~193 hm**, nicht flach. Vertikal-Reiz kam also über die Strecke rein.
+- Aus einem Z2+Strides-Workout wurde ein Z0-Sozialauf. Volumen ok, dedizierte Strides = 0 — aber **193 hm rollendes Vertikal** war drin (Korrektur: die ursprüngliche „flach"-Einschätzung war ein GPS-Höhenfeld-Fehler).
 
 ### 📈 Progression
 
 - Sauberer Easy-Rebuild-Kilometer, passt zur Post-Illness-Woche. Bergstrides/Vertical bleiben aber Baustelle.
 
-### 🎯 Bewertung: B-
+### 🎯 Bewertung: B
 
-Als Reboot-Lauf solide und sicher. Für die geplante Session fehlen die leichten Bergstrides — der eine Reiz, der nichts gekostet hätte.
+Als Reboot-Lauf solide und sicher — und mit ~193 hm rollendem Terrain kam mehr Vertikal-Reiz rein als ursprünglich angenommen (GPS-Höhenfeld hatte fälschlich „flach" gemeldet). Kein A-Bereich, weil die dedizierten 6× Bergstrides (kurze zügige Reize) fehlten und die HF im Z0/Erholungsbereich statt Z2 blieb — aber die Vertikal-Kritik ist mit der Datenkorrektur entkräftet.
 
 ### 💡 Empfehlungen fürs nächste Mal
 
-- Social Run ok — aber Bergstrides trotzdem einbauen: 6× 15s am nächsten Anstieg, Kollege wartet 1min. Kostet nichts.
+- Social Run ok — aber dedizierte Bergstrides trotzdem einbauen: 6× 15s zügig am nächsten Anstieg, Kollege wartet 1min. Kostet nichts (das rollende Terrain lieferte schon ~193 hm Grundvertikal).
 - Wenn Z2-Endurance geplant: Tempo aktiv auf 143–152 heben, nicht im Plaudermodus einschlafen.
-- Verpassten Vertikal-/Bergreiz diese Woche an einem Easy-Tag nachholen (Bergstrides anhängen).
 
 ---
 
