@@ -218,14 +218,62 @@ function ActualBlock({ detail }: { detail: ActivityDetail }) {
   );
 }
 
+// Detect interval (work) laps generically.
+// 1. Exclude warmup/cooldown/long laps (duration >> median) from classification.
+// 2. Cluster remaining laps by intensity using whichever metric (power or
+//    inverted pace) yields the cleanest bimodal split (largest relative gap).
+// Handles hill reps (high power, slow pace) and strides (fast pace, uneven power).
+function detectIntervals(laps: Lap[]): Set<number> {
+  const result = new Set<number>();
+  if (laps.length < 4) return result;
+
+  // Duration guard: drop warmup/cooldown/long segments before clustering.
+  const durs = laps.map(l => l.secs).filter((s): s is number => s != null && s > 0).sort((a, b) => a - b);
+  const medDur = durs.length ? durs[Math.floor(durs.length / 2)] : 0;
+  const candidates = laps.filter(l => l.secs != null && (medDur <= 0 || l.secs <= medDur * 2.5));
+  if (candidates.length < 4) return result;
+
+  type Split = { ratio: number; idx: Set<number> };
+  const cluster = (metric: (l: Lap) => number | null): Split | null => {
+    const pts = candidates
+      .map(l => { const v = metric(l); return v == null ? null : { v, i: l.index }; })
+      .filter((x): x is { v: number; i: number } => x != null);
+    if (pts.length < 4) return null;
+    const sorted = [...pts].sort((a, b) => a.v - b.v);
+    const range = sorted[sorted.length - 1].v - sorted[0].v;
+    if (range <= 0) return null;
+    let gap = -1, gapAt = -1;
+    for (let k = 1; k < sorted.length; k++) {
+      const g = sorted[k].v - sorted[k - 1].v;
+      if (g > gap) { gap = g; gapAt = k; }
+    }
+    const high = sorted.slice(gapAt);
+    const low = sorted.slice(0, gapAt);
+    if (high.length < 2 || low.length < 1 || high.length > candidates.length * 0.7) return null;
+    return { ratio: gap / range, idx: new Set(high.map(x => x.i)) };
+  };
+
+  const havePower = laps.filter(l => l.power != null).length >= laps.length * 0.6;
+  const splits: Split[] = [];
+  if (havePower) { const s = cluster(l => l.power); if (s) splits.push(s); }
+  const p = cluster(l => (l.pace != null && isFinite(l.pace) ? -l.pace : null));
+  if (p) splits.push(p);
+  if (!splits.length) return result;
+
+  // Require a meaningful separation; pick the cleanest split.
+  const best = splits.filter(s => s.ratio >= 0.15).sort((a, b) => b.ratio - a.ratio)[0];
+  return best ? best.idx : result;
+}
+
 function LapTable({ laps }: { laps: Lap[] }) {
   const maxPace = Math.max(...laps.filter(l => l.pace != null && isFinite(l.pace!)).map(l => l.pace!), 1);
   const minPace = Math.min(...laps.filter(l => l.pace != null && isFinite(l.pace!)).map(l => l.pace!), maxPace);
   const range = maxPace - minPace || 1;
+  const intervals = detectIntervals(laps);
   return (
     <details className="mt-1" open>
       <summary className="text-[11px] uppercase tracking-wide text-slate-500 cursor-pointer hover:text-slate-300 select-none">
-        Splits ({laps.length}){laps.some(l => l.synthetic) && <span className="ml-2 text-amber-500/80 normal-case">* rekonstruiert aus Records</span>}
+        Splits ({laps.length}){intervals.size > 0 && <span className="ml-2 text-orange-400/90 normal-case">· {intervals.size} Intervalle</span>}{laps.some(l => l.synthetic) && <span className="ml-2 text-amber-500/80 normal-case">* rekonstruiert aus Records</span>}
       </summary>
       <div className="mt-2 overflow-x-auto">
         <table className="w-full text-xs font-mono">
@@ -243,17 +291,18 @@ function LapTable({ laps }: { laps: Lap[] }) {
           <tbody>
             {laps.map(l => {
               const frac = l.pace != null && isFinite(l.pace) ? 1 - (l.pace - minPace) / range : 0;
+              const isInterval = intervals.has(l.index);
               return (
-                <tr key={l.index} className="border-t border-slate-800 text-slate-300">
-                  <td className="px-2 py-1 text-slate-500">{l.index + 1}{l.synthetic && <span className="text-amber-500" title="aus Records rekonstruiert (fehlende .fit-Runde)">*</span>}</td>
+                <tr key={l.index} className={`border-t border-slate-800 ${isInterval ? 'bg-orange-500/10 text-slate-200' : 'text-slate-300'}`}>
+                  <td className={`px-2 py-1 ${isInterval ? 'text-orange-400 border-l-2 border-orange-500' : 'text-slate-500'}`}>{l.index + 1}{l.synthetic && <span className="text-amber-500" title="aus Records rekonstruiert (fehlende .fit-Runde)">*</span>}</td>
                   <td className="px-2 py-1">{l.km ?? '–'}</td>
                   <td className="px-2 py-1">{fmtSecs(l.secs)}</td>
-                  <td className="px-2 py-1 text-emerald-400">{fmtPace(l.pace)}</td>
+                  <td className={`px-2 py-1 ${isInterval ? 'text-orange-300 font-semibold' : 'text-emerald-400'}`}>{fmtPace(l.pace)}</td>
                   <td className="px-2 py-1">
-                    <div className="h-1.5 rounded bg-emerald-500/70" style={{ width: `${Math.max(4, frac * 100)}%` }} />
+                    <div className={`h-1.5 rounded ${isInterval ? 'bg-orange-400/80' : 'bg-emerald-500/70'}`} style={{ width: `${Math.max(4, frac * 100)}%` }} />
                   </td>
                   <td className="px-2 py-1 text-slate-400">{l.avgHr ?? '–'}</td>
-                  <td className="px-2 py-1 text-slate-500">{l.power ?? '–'}</td>
+                  <td className={`px-2 py-1 ${isInterval ? 'text-orange-300' : 'text-slate-500'}`}>{l.power ?? '–'}</td>
                 </tr>
               );
             })}
