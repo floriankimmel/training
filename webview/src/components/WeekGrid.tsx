@@ -282,17 +282,15 @@ export default function WeekGrid({ weekData, feedbackData, activities, metrics, 
         })}
       </div>
 
-      {/* Recovery strip */}
-      <div className="border border-slate-700 rounded-lg overflow-hidden mb-4">
-        <div className="grid grid-cols-[64px_repeat(7,1fr)] text-[11px]">
-          <div className="bg-slate-800/60 px-2 py-1 text-slate-500 font-semibold">Recovery</div>
-          {cells.map(c => (
-            <div key={c.date} className="bg-slate-800/60 px-1 py-1 text-center text-slate-500">{c.weekday}</div>
-          ))}
-          <RecoveryRow label="Schlaf" cells={cells} render={m => fmtSleep(m?.sleepMin ?? null)} />
-          <RecoveryRow label="HRV" cells={cells} render={m => m?.hrvNight != null ? String(Math.round(m.hrvNight)) : '–'} />
-          <RecoveryRow label="RHF" cells={cells} render={m => m?.restingHr != null ? String(m.restingHr) : '–'} />
-        </div>
+      {/* Recovery cards */}
+      <div className="flex items-center justify-between mb-2">
+        <span className="text-[11px] uppercase tracking-wide text-slate-500 font-semibold">Recovery</span>
+        <span className="text-[10px] text-slate-600">Ranges aus letzten 12 Monaten (Terzile)</span>
+      </div>
+      <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-2 mb-4">
+        {cells.map(c => (
+          <RecoveryCard key={c.date} cell={c} />
+        ))}
       </div>
 
       {modalSession && (
@@ -318,15 +316,80 @@ function Stat({ label, value, spark }: { label: string; value: string; spark?: R
   );
 }
 
-function RecoveryRow({ label, cells, render }: { label: string; cells: DayCell[]; render: (m: DayMetric | null) => string }) {
+// ── Personal recovery tiers (terciles from last 12 months of daily_metrics) ──
+type Tier = 'good' | 'ok' | 'bad';
+
+const TIER_TEXT: Record<Tier, string> = {
+  good: 'text-emerald-400',
+  ok: 'text-amber-400',
+  bad: 'text-red-400',
+};
+const TIER_SCORE: Record<Tier, number> = { good: 2, ok: 1, bad: 0 };
+
+// higher = better
+function sleepTier(min: number | null): Tier | null {
+  if (min == null || min <= 60) return null;
+  if (min >= 429) return 'good';   // ≥ 7:09
+  if (min >= 393) return 'ok';     // 6:33–7:09
+  return 'bad';
+}
+function hrvTier(v: number | null): Tier | null {
+  if (v == null) return null;
+  if (v >= 49.5) return 'good';
+  if (v >= 39.6) return 'ok';
+  return 'bad';
+}
+// lower = better
+function rhrTier(v: number | null): Tier | null {
+  if (v == null) return null;
+  if (v <= 56) return 'good';
+  if (v <= 59) return 'ok';
+  return 'bad';
+}
+
+function overallTier(tiers: (Tier | null)[]): Tier | null {
+  const present = tiers.filter((t): t is Tier => t != null);
+  if (present.length === 0) return null;
+  const avg = present.reduce((s, t) => s + TIER_SCORE[t], 0) / present.length;
+  if (avg >= 1.5) return 'good';
+  if (avg >= 0.75) return 'ok';
+  return 'bad';
+}
+
+const OVERALL_STYLE: Record<Tier, { border: string; bg: string; dot: string }> = {
+  good: { border: 'border-emerald-600/70', bg: 'bg-emerald-950/20', dot: 'bg-emerald-400' },
+  ok: { border: 'border-amber-600/70', bg: 'bg-amber-950/20', dot: 'bg-amber-400' },
+  bad: { border: 'border-red-600/70', bg: 'bg-red-950/20', dot: 'bg-red-400' },
+};
+
+function RecoveryCard({ cell }: { cell: DayCell }) {
+  const m = cell.metric;
+  const sT = sleepTier(m?.sleepMin ?? null);
+  const hT = hrvTier(m?.hrvNight ?? null);
+  const rT = rhrTier(m?.restingHr ?? null);
+  const overall = overallTier([sT, hT, rT]);
+  const style = overall ? OVERALL_STYLE[overall] : { border: 'border-slate-700', bg: 'bg-slate-800/40', dot: 'bg-slate-600' };
+
   return (
-    <>
-      <div className="px-2 py-1 text-slate-400 border-t border-slate-800">{label}</div>
-      {cells.map(c => (
-        <div key={c.date} className="px-1 py-1 text-center font-mono text-slate-300 border-t border-slate-800">
-          {render(c.metric)}
-        </div>
-      ))}
-    </>
+    <div className={`border ${style.border} ${style.bg} rounded-lg p-2 min-h-[112px] flex flex-col gap-1`}>
+      <div className="flex items-center justify-between">
+        <span className="text-xs font-mono text-slate-500">{cell.weekday} {cell.date.slice(8)}</span>
+        <span className={`h-2 w-2 rounded-full ${style.dot}`} />
+      </div>
+      <div className="mt-auto flex flex-col gap-1">
+        <MetricLine label="🛌" value={fmtSleep(m?.sleepMin ?? null)} tier={sT} />
+        <MetricLine label="💓" value={m?.hrvNight != null ? String(Math.round(m.hrvNight)) : '–'} tier={hT} />
+        <MetricLine label="❤️" value={m?.restingHr != null ? String(m.restingHr) : '–'} tier={rT} />
+      </div>
+    </div>
+  );
+}
+
+function MetricLine({ label, value, tier }: { label: string; value: string; tier: Tier | null }) {
+  return (
+    <div className="flex items-center justify-between text-[11px] font-mono">
+      <span className="text-slate-500 inline-block w-4 text-center text-[11px] leading-none">{label}</span>
+      <span className={tier ? TIER_TEXT[tier] : 'text-slate-600'}>{value}</span>
+    </div>
   );
 }
