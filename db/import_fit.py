@@ -78,10 +78,50 @@ def next_activity_id(con) -> int:
     return con.execute("SELECT nextval('seq_activities')").fetchone()[0]
 
 
-def parse_activity(msgs, path, source, aid, start_utc, rec_count):
+def ascent_from_records(records, win=15):
+    """Cumulative ascent from per-second altitude, smoothed with a centered
+    moving average (+/- win samples) to reject barometric noise. Returns None
+    when there is not enough altitude data."""
+    alts = [r["altitude"] for r in records if r.get("altitude") is not None]
+    if len(alts) < 2 * win + 2:
+        return None
+    n = len(alts)
+    prev = None
+    total = 0.0
+    for i in range(n):
+        lo = max(0, i - win)
+        hi = min(n, i + win + 1)
+        sm = sum(alts[lo:hi]) / (hi - lo)
+        if prev is not None and sm > prev:
+            total += sm - prev
+        prev = sm
+    return round(total)
+
+
+def reconcile_ascent(summary_ascent, records):
+    """Trust the FIT session total_ascent unless it clearly disagrees with the
+    per-second altitude track (some HealthFit summaries report ~0 while the
+    Watch barometer recorded a real climb). Fall back to the records-derived
+    value when the summary is missing or off by >30% and >20 m."""
+    rec = ascent_from_records(records)
+    if rec is None:
+        return summary_ascent, False
+    if summary_ascent is None:
+        return rec, True
+    diff = abs(summary_ascent - rec)
+    if diff > 20 and diff > 0.3 * max(rec, 1):
+        return rec, True
+    return summary_ascent, False
+
+
+def parse_activity(msgs, path, source, aid, start_utc, rec_count, records=None):
     sess = (msgs.get("session_mesgs") or [{}])[0]
     sport = (msgs.get("sport_mesgs") or [{}])[0]
     fid = (msgs.get("file_id_mesgs") or [{}])[0]
+    total_ascent, ascent_fixed = reconcile_ascent(g(sess, "total_ascent"), records or [])
+    if ascent_fixed:
+        print(f"  ~ ascent from records for {path.name}: "
+              f"summary={g(sess, 'total_ascent')} -> {total_ascent}", file=sys.stderr)
     return {
         "id": aid,
         "start_time": start_utc,
@@ -98,7 +138,7 @@ def parse_activity(msgs, path, source, aid, start_utc, rec_count):
         "avg_speed": g(sess, "enhanced_avg_speed", "avg_speed"),
         "max_speed": g(sess, "enhanced_max_speed", "max_speed"),
         "avg_cadence": g(sess, "avg_cadence", "avg_running_cadence"),
-        "total_ascent": g(sess, "total_ascent"),
+        "total_ascent": total_ascent,
         "total_descent": g(sess, "total_descent"),
         "calories": g(sess, "total_calories"),
         "num_laps": g(sess, "num_laps"),
@@ -223,9 +263,11 @@ def import_file(con, path: Path, force: bool, force_source=None):
         aid = next_activity_id(con)
         status = "ok"
 
-    insert_rows(con, "activities", [parse_activity(msgs, path, source, aid, start_utc, rec_count)])
+    records = parse_records(msgs, aid)
+    insert_rows(con, "activities",
+                [parse_activity(msgs, path, source, aid, start_utc, rec_count, records)])
     insert_rows(con, "laps", parse_laps(msgs, aid))
-    insert_rows(con, "records", parse_records(msgs, aid))
+    insert_rows(con, "records", records)
     return status
 
 

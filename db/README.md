@@ -10,6 +10,10 @@ Current coverage: 2020 → 2026, ~1600 activities, 6M+ per-second records.
 
 - `schema.sql` — 3-tier schema: `activities` → `laps` → `records` (all TIMESTAMPTZ/UTC), plus `daily_metrics` (daily recovery)
 - `import_fit.py` — multi-source, idempotent importer
+  (auto-reconciles `total_ascent`: if the FIT session summary disagrees with the
+  per-second altitude track by >30% and >20 m — e.g. HealthFit reporting ~0 hm
+  while the Watch barometer recorded a real climb — it uses the 30s-smoothed
+  record-derived ascent and logs the swap)
 - `import_metrics.py` — parse `metrics/*.md` (Apple HealthKit sleep/HRV/RHR) into `daily_metrics`
 - `import_tredict.py` — pull missing activities from the Tredict API + import
 - `training.duckdb` — the database (git-ignored; regenerate anytime)

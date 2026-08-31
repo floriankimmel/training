@@ -32,7 +32,7 @@ Erster harter Reiz seit dem Infekt — und die Ausführung ist ein Lehrbuch. All
 ### ⏱️ **Pace-Analyse (min/km)**
 
 - Pace-Daten sind auf Hügel-Repeats erwartungsgemäß **unbrauchbar** (nur 20 Speed-Samples, GPS springt bergauf/bergab, Ø rechnerisch 11:35/km inkl. Steh-/Gehphasen). Das ist bei dieser Session **kein Mangel** — der Plan sagt explizit "Puls führt, nicht Pace". Richtig so.
-- Elevation nur 0,7hm gemessen (Watch-Baro auf kurzem Anstieg flach). Die ~150-200hm des Plans kamen über Repeats am selben Hügel — barometrisch nicht sauber erfasst, aber der HF-Reiz belegt die Bergarbeit.
+- Elevation: Das GPS-Höhenfeld meldete zunächst nur 0,7hm (Netto ≈ 0 bei Repeats am selben Hügel). Nach der Handy-Korrektur der Apple-Watch-Baro-Daten zeigt das per-Sekunden-Höhenprofil **~267hm kumulativ** (30s-geglättet). Die Bergarbeit ist damit sauber belegt — sogar über dem Plan-Ziel 150–200hm.
 
 ### 🏆 **Was war hervorragend**
 
@@ -44,7 +44,7 @@ Erster harter Reiz seit dem Infekt — und die Ausführung ist ein Lehrbuch. All
 ### ⚠️ **Verbesserungsbereiche**
 
 - **Peaks 175/176 in #5/#6** knapp über der Ziel-Obergrenze 174. Marginal und unkritisch, aber wenn du die Serie noch länger fahren willst (später 7-8 Reps), die letzten beiden bewusst 1-2 bpm darunter deckeln, um Reserven zu halten.
-- **Vert-Erfassung**: 0,7hm ist ein Messfehler des GPS-Höhenfelds. Der **Barometer hat 67 flights climbed = ~200hm** korrekt gezählt (bestätigt das Plan-Ziel 150-200hm). Für die Wochen-Vert-Bilanz zählen die ~200hm mit — das Höhenfeld ignorieren.
+- **Vert-Erfassung**: 0,7hm war ein Messfehler des GPS-Höhenfelds. Nach der Handy-Korrektur der Watch-Baro-Daten belegt das per-Sekunden-Höhenprofil **~267hm kumulativ** (über Plan-Ziel 150-200hm). DB-Feld `total_ascent` von 1 → 267 korrigiert. Für die Wochen-Vert-Bilanz zählen ~267hm.
 - Intervall 1 mit 88% minimal "unter Serie" — nächstes Mal darfst du nach Krankheit weiterhin so antasten, das war korrekt. Kein echter Kritikpunkt, nur Beobachtung.
 
 ### 📈 **Progression vs. Previous Sessions**
@@ -61,7 +61,7 @@ Lehrbuch-Ausführung eines Berg-Intervall-Workouts. 88-95% Time-in-Zone über al
 - **Morgen (Di) Recovery Run strikt Z1** (⚠️ NICHT über 142) — nach diesem harten Reiz die Beine wirklich durchspülen, nicht in Z2 verwaschen. Abends Kraft Tag 1 Drücken.
 - Mi Bergtempo 3x8min Z3 (153-160): der zweite harte Reiz. Nach dem heutigen Beleg, dass der Motor belastbar ist, kannst du den mit Selbstvertrauen angehen.
 - Letzte 1-2 Reps künftig knapp unter 174 deckeln, wenn die Serie länger wird.
-- Vert-Messung beim nächsten Hügel-Workout im Auge behalten (heute 0,7hm = Fehler).
+- Vert-Messung beim nächsten Hügel-Workout im Auge behalten (heute erst 0,7hm im GPS-Feld = Fehler, nach Watch-Baro-Korrektur ~267hm).
 
 ### 📊 Detailed Metrics
 
@@ -70,5 +70,5 @@ Lehrbuch-Ausführung eines Berg-Intervall-Workouts. 88-95% Time-in-Zone über al
 - **Time-in-Zone gesamt**: AR 4:03 (7%) · Z1 27:52 (46%) · Z2 7:44 (13%) · Z3 3:24 (6%) · Z4 17:24 (29%) · Z5 0:00
 - **Intervalle**: 6x ~3min, Z4-Anteil 88-95%, Peaks 167→176 (progressiv)
 - **Power**: Ø 104W · max 114W (niedrig — Berg/Geh-Anteil) · **GCT**: Ø 276ms
-- **Vert (barometrisch)**: **~200hm** (67 flights climbed × 3m) ✅ — Plan-Ziel 150-200hm getroffen. Höhenfeld `elevation_ascended_m` meldete fälschlich 0,7hm (GPS-Netto bei Repeats ≈ 0).
+- **Vert (barometrisch)**: **~267hm** (per-Sekunden-Höhenprofil nach Handy-Korrektur der Watch-Baro-Daten, geglättet; Spanne 227–267hm) ✅ — über Plan-Ziel 150-200hm. GPS-Höhenfeld `elevation_ascended_m` meldete fälschlich 0,7hm (Netto bei Repeats ≈ 0); DB-Feld `total_ascent` 1 → 267 korrigiert.
 - **Pace**: nicht aussagekräftig (Berg-Repeats, GPS-Sprünge) — plangemäß pulsgesteuert
