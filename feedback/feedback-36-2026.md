@@ -44,7 +44,7 @@ Erster harter Reiz seit dem Infekt — und die Ausführung ist ein Lehrbuch. All
 ### ⚠️ **Verbesserungsbereiche**
 
 - **Peaks 175/176 in #5/#6** knapp über der Ziel-Obergrenze 174. Marginal und unkritisch, aber wenn du die Serie noch länger fahren willst (später 7-8 Reps), die letzten beiden bewusst 1-2 bpm darunter deckeln, um Reserven zu halten.
-- **Vert-Erfassung**: 0,7hm ist offensichtlich Messfehler. Für die Vert-Bilanz der Woche (~450hm Ziel) fehlt damit die saubere Zahl. Beim nächsten Hügel-Workout ggf. Watch-Höhe kalibrieren oder Anstieg mit bekannter Höhe wählen.
+- **Vert-Erfassung**: 0,7hm ist ein Messfehler des GPS-Höhenfelds. Der **Barometer hat 67 flights climbed = ~200hm** korrekt gezählt (bestätigt das Plan-Ziel 150-200hm). Für die Wochen-Vert-Bilanz zählen die ~200hm mit — das Höhenfeld ignorieren.
 - Intervall 1 mit 88% minimal "unter Serie" — nächstes Mal darfst du nach Krankheit weiterhin so antasten, das war korrekt. Kein echter Kritikpunkt, nur Beobachtung.
 
 ### 📈 **Progression vs. Previous Sessions**
@@ -70,5 +70,5 @@ Lehrbuch-Ausführung eines Berg-Intervall-Workouts. 88-95% Time-in-Zone über al
 - **Time-in-Zone gesamt**: AR 4:03 (7%) · Z1 27:52 (46%) · Z2 7:44 (13%) · Z3 3:24 (6%) · Z4 17:24 (29%) · Z5 0:00
 - **Intervalle**: 6x ~3min, Z4-Anteil 88-95%, Peaks 167→176 (progressiv)
 - **Power**: Ø 104W · max 114W (niedrig — Berg/Geh-Anteil) · **GCT**: Ø 276ms
-- **Vert (gemessen)**: 0,7hm ⚠️ Messfehler — real ~150-200hm über Repeats
+- **Vert (barometrisch)**: **~200hm** (67 flights climbed × 3m) ✅ — Plan-Ziel 150-200hm getroffen. Höhenfeld `elevation_ascended_m` meldete fälschlich 0,7hm (GPS-Netto bei Repeats ≈ 0).
 - **Pace**: nicht aussagekräftig (Berg-Repeats, GPS-Sprünge) — plangemäß pulsgesteuert
