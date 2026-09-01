@@ -72,3 +72,60 @@ Lehrbuch-Ausführung eines Berg-Intervall-Workouts. 88-95% Time-in-Zone über al
 - **Power**: Ø 104W · max 114W (niedrig — Berg/Geh-Anteil) · **GCT**: Ø 276ms
 - **Vert (barometrisch)**: **~267hm** (per-Sekunden-Höhenprofil nach Handy-Korrektur der Watch-Baro-Daten, geglättet; Spanne 227–267hm) ✅ — über Plan-Ziel 150-200hm. GPS-Höhenfeld `elevation_ascended_m` meldete fälschlich 0,7hm (Netto bei Repeats ≈ 0); DB-Feld `total_ascent` 1 → 267 korrigiert.
 - **Pace**: nicht aussagekräftig (Berg-Repeats, GPS-Sprünge) — plangemäß pulsgesteuert
+
+## 2026-09-01 - Recovery Run - Tuesday Analyse
+
+**Geplant**: 30min Recovery @ Z1 only (125–142 bpm) ⚠️ NICHT ÜBER 142 · Pace 6:30–7:00/km · Aktive Erholung nach den Hügel-Intervallen, Beine durchspülen. Abends Kraft Tag 1 Drücken 💪.
+**Tatsächliche Ausführung**: 30,2min / 4,94km / 381 kcal / 24,6°C. HF Ø 136, max 148, HR-Quelle Bluetooth-Gurt (sauberes Signal). Pace ~6:06/km (Distanz/Moving), keine Gehpassagen.
+**Persönliches Empfinden**: Nicht angegeben — aus Daten abgeleitet: gleichmäßig, entspannt, kein Drift, HF früh stabilisiert.
+
+### 🎯 **Herzfrequenz-Analyse (Time-in-Zone)**
+
+Sauberer Recovery-Lauf — genau der Kontrast, den der Plan nach dem harten Mo-Reiz verlangt.
+
+- **Time-in-Zone**: AR ≤124 5% · **Z1 (125–142) 88%** · Z2 (143–152) 7% · Z3+ 0%. Fast die komplette Session im Zielband.
+- **Über dem 142-Cap: nur 7%** der Zeit, Peak **148** (unteres Z2). Kein Z3, kein Rot, keine sustained Z2-Phase — die Überschreitung war ein kurzer Anstieg/Drift, kein Verwaschen. Der Kontrast zum Vortag bleibt sauber.
+- **Progression 1./2./3. Drittel: 130 → 139 → 138.** Startest bewusst niedrig, HF stabilisiert sich früh bei ~138 und driftet dann NICHT weiter hoch — trotz 24,6°C Wärme. Das ist gut dosiert: kein aerober Decoupling-Drift, kein Ego-Tempo am Ende.
+- Median 137, p90 142 — die Verteilung sitzt exakt auf dem oberen Z1-Rand, wo ein Recovery-Lauf hingehört (locker, aber nicht Spazieren).
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- **Ø 6:06/km** (aus Distanz/Moving Time) — leicht **schneller als das Plan-Fenster 6:30–7:00/km**. Bei Ø-HF 136 und flachem Wolkersdorf-Kurs ist das aber kein Disziplinbruch: die HF blieb sauber im Recovery-Band, du warst nur bei der Wärme aerob effizient unterwegs. Puls führt, und der war im Ziel.
+- Speed-Samples (nur 20, Ende der Einheit ~5:58/km) bestätigen die gleichmäßige, ruhige Ausführung — kein Antritt, kein Schwanken.
+
+### 🏆 **Was war hervorragend**
+
+- **88% Time-in-Zone in Z1** bei einem Recovery-Lauf = Lehrbuch. Kontrast zum Mo-Z4-Reiz sauber gehalten, nicht in den Graubereich verwaschen.
+- **HF-Cap im Griff**: Peak 148, nur 7% knapp drüber, kein Z2-Block. Nach einem harten Berg-Intervall am Vortag die Beine wirklich durchgespült statt Tempo gesucht.
+- **Kein Hitze-Drift** trotz 24,6°C — HF stabilisiert bei 138 und bleibt. Motor läuft rund, Erholung greift.
+- Brustgurt getragen → saubere HF, keine Optik-Artefakte.
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Pace 6:06 statt 6:30–7:00**: marginal zu flott fürs Papier. Da die HF im Ziel blieb, kein echter Fehler — aber an einem Recovery-Tag darfst du bewusst noch einen Gang runter, die HF Richtung Ø 130 drücken (untere Z1). Das maximiert die Erholung fürs Mi-Bergtempo. Nächstes Mal: langsamer laufen, nicht schneller.
+- Die 7% über 142 sind unkritisch, aber wenn's ganz sauber sein soll: bei Anstiegen/Wärme kurz das Tempo rausnehmen statt durchzuziehen.
+
+### 📈 **Progression vs. Previous Sessions**
+
+- Vgl. Recovery Göteborg (27.08.): dort Ø-HF 125 auf technischem, hügeligem Terrain mit Gehpassagen (154 hm). Heute Ø 136 auf flachem Kurs ohne Gehen — beides plangerecht, heute nur etwas flotter weil flach & kein technischer Bremseffekt. Beide A: Cap gehalten, Beine gelockert.
+- Nach dem A-Mo (Hügel-Intervalle 88–95% Z4) zeigt der ruhige, drift-freie Recovery-Puls: die Erholung nach dem ersten harten Reiz seit dem Infekt greift sauber. Grünes Licht für Mi Bergtempo.
+
+### 🎯 **Bewertung: A-**
+
+Sehr sauberer Recovery-Lauf — 88% Z1, HF-Cap im Griff, kein Drift, sauberer Kontrast zum Vortag. Kein volles A nur, weil die Pace mit 6:06/km leicht über dem Recovery-Tempo lag: die HF war zwar im Ziel, aber an einem echten Erholungstag darf's ruhig langsamer sein. An der Disziplin selbst nichts zu meckern.
+
+### 💡 **Empfehlungen fürs nächste Mal**
+
+- **Recovery = wirklich langsam.** Nächstes Mal bewusst 6:40–7:00/km, HF Richtung Ø 130 — die Erholung maximieren, gerade vor einem harten Tag.
+- **Heute Abend Kraft Tag 1 Drücken** 💪 (First Class Woche 8, Hochintensitätssätze) — nicht vergessen.
+- **Mi Bergtempo 3x8min Z3 (153–160)**: der zweite harte Reiz. Motor ist belastbar (Mo A, heute drift-frei) — mit Selbstvertrauen angehen, Blöcke bergauf/rollend halten, nicht flach abspulen. Bringt zusätzlich Vert Richtung Wochen-Ziel ~450 hm.
+
+### 📊 Detailed Metrics
+
+- **Dauer**: 30,2min (Moving Time) · **Distanz**: 4,94km · **Kalorien**: 381 · **Temp**: 24,6°C
+- **HF**: Ø 136 · min 95 · max 148 · Median 137 · Quelle Bluetooth-Gurt (1814 Samples)
+- **Time-in-Zone**: AR ~1:26 (5%) · **Z1 ~26:36 (88%)** · Z2 ~2:05 (7%) · Z3+ 0:00
+- **Progression 1./2./3. Drittel**: 130 / 139 / 138 bpm (kein Drift)
+- **Pace**: Ø ~6:06/km (Distanz/Moving) — leicht über Recovery-Tempo, HF aber im Ziel
+- **Power**: Ø 235W · max 241W · **Stride**: Ø 0,91m · **GCT**: Ø 251ms (Samples nur Endphase, gleichmäßig)
+- **Vert**: 4 flights-climbed (~12 hm, flacher Wolkersdorf-Kurs) — plangemäß kein Vert-Tag, Bergarbeit war Mo/Mi/So

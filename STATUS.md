@@ -3,7 +3,7 @@
 > Rolling "where am I right now" file so agents don't have to read 6 week files.
 > Update at the end of each coach/feedback run.
 
-**Last updated**: 2026-08-31 (W36 Mo Hügel-Intervalle 6x3min Z4 — Grade A, erster harter Reiz nach Infekt sitzt)
+**Last updated**: 2026-09-01 (W36 Di Recovery Run 30min — Grade A-, 88% Z1, HF-Cap im Griff, drift-frei; Erholung nach Mo-Reiz greift)
 
 ## ✅ Recovered: GI illness (2026-08-19 → abgeschlossen)
 
