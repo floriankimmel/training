@@ -129,3 +129,74 @@ Sehr sauberer Recovery-Lauf — 88% Z1, HF-Cap im Griff, kein Drift, sauberer Ko
 - **Pace**: Ø ~6:06/km (Distanz/Moving) — leicht über Recovery-Tempo, HF aber im Ziel
 - **Power**: Ø 235W · max 241W · **Stride**: Ø 0,91m · **GCT**: Ø 251ms (Samples nur Endphase, gleichmäßig)
 - **Vert**: 4 flights-climbed (~12 hm, flacher Wolkersdorf-Kurs) — plangemäß kein Vert-Tag, Bergarbeit war Mo/Mi/So
+
+---
+
+## 2026-09-02 - Bergtempo 3x8min Z3 - Wednesday Analyse
+
+**Geplant**: 12min Warmup @ Z1 (119-129) · 3x 8min @ Z3 (153-160) an leichter Steigung/rollend, mit 3min Z1 Trabpause (125-142) · 10min Cooldown @ Z1. Laktatschwelle + sustained climb, race-spezifisch für lange Anstiege am Vienna Trail.
+**Tatsächliche Ausführung**: 61,6min / 9,52km / 799 kcal / 24,7°C. Warmup ~13min, dann 3 Tempo-Blöcke im Ziel-Z3 detektiert, HF Ø 141, max 162, HR-Quelle Bluetooth-Gurt (sauberes Signal). Der zweite harte Reiz der Woche — plangerecht ausgeführt, Z3-Treffsicherheit exzellent.
+**Persönliches Empfinden**: Nicht angegeben — aus Daten abgeleitet: kontrolliert, Puls sauber geführt, kein Einbruch, Tempo bis zuletzt gehalten.
+
+### 🎯 **Herzfrequenz-Analyse (Time-in-Zone)**
+
+Bergtempo = Z3-Disziplin (153-160), nicht rauf ins Z4 verwaschen. Genau das hast du geliefert — alle drei Blöcke fast lupenrein in Z3:
+
+| # | Fenster | Dauer | Ø HF | Peak | Zeit in Z3 (153-160) |
+|---|---------|-------|------|------|----------------------|
+| 1 | ~12,8-20,5min | 7,7min | 156 | 161 | **91%** ✅ |
+| 2 | ~23,5-31,4min | 7,8min | 157 | 162 | **90%** ✅ |
+| 3 | ~35-43,8min | ~7min* | 158 | 162 | **92%** ✅ |
+
+*Block 3 hatte eine kurze Delle bei ~min 38 (HF fiel auf 134) und wurde danach wieder hochgezogen — effektiv leicht fragmentiert, in Summe aber wieder ~7min Arbeitszeit im Ziel.
+
+- **Time-in-Zone 90-92% über alle drei Blöcke = EXZELLENT** (Grenze für "excellent" ist 80% — bei Tempo-Sessions sogar noch anspruchsvoller zu treffen als bei Intervallen). Kein Ausreißer nach unten, kein Verwaschen nach oben.
+- **Peaks bei 161/162 — perfekt gedeckelt.** Das ist die eigentliche Kunst beim Bergtempo: Z3 heißt Laktatschwelle halten, NICHT ins Z4 kippen. Du bist nie über 162 gegangen (max der ganzen Session = 162). Nur 1,0min der gesamten Session in Z4, 0min Z5. Das ist Schwellendisziplin auf hohem Niveau.
+- **Warmup**: ~13min geduldig im unteren Z1/AR aufgebaut (erstes Drittel Ø 137). Gut, nicht überhastet.
+- **Trabpausen**: zwischen Block 1→2 sauber runter (min 32-33 auf 114-122 = AR/unteres Z1), zwischen 2→3 kürzer/flacher (min 38 nur bis 134). Erste Pause vorbildlich, die Fragmentierung in Block 3 deutet auf eine unfreiwillige Unterbrechung (Ampel/Terrain?) hin.
+- **Cooldown**: min 44-62 driftete im oberen Z1 (Ø 135-142, mehrere Ausschläge auf 142-145). Bei 24,7°C und nach drei Schwellenblöcken plausibel — hätte für einen "Cooldown" aber ruhig 5-8 bpm tiefer sein dürfen.
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+- Overall (Distanz/Moving): **~6:28/km** über 9,52km — inkl. Warmup, drei Trabpausen und Cooldown. Für die reinen Tempo-Blöcke lag die Pace deutlich flotter, aber die Speed-Samples sind erneut dürftig (nur 20 Werte, Ø 2,78 m/s ≈ 6:00/km gemittelt) und auf rollendem/leicht steigendem Terrain nicht belastbar.
+- Der Plan sagt explizit "Puls führt" — und der Puls saß. Damit ist die Pace-Streuung hier **kein Mangel**: bergauf/rollend soll die Pace variieren, solange Z3 gehalten wird. Genau so gelaufen.
+
+### 🏆 **Was war hervorragend**
+
+- **Z3-Treffsicherheit 90-92% über alle drei Blöcke** bei gleichzeitig **hartem Deckel bei 162** — das ist die schwierigste Balance einer Schwellen-Session und du hast sie voll getroffen. Kein Overpacing ins Z4, kein Absacken ins Z2.
+- **Konsistenz über die Serie**: Ø HF stieg kontrolliert 156 → 157 → 158, Peaks stabil 161-162. Kein Fatigue-Einbruch im dritten Block — Motor läuft belastbar, zweiter harter Reiz der Woche sitzt genauso sauber wie Mo.
+- Brustgurt getragen → HF-Signal top, keine Optik-Artefakte, Analyse voll belastbar.
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Block 3 fragmentiert** (Delle auf 134 bei ~min 38). Wenn's Terrain/Ampel war: nächstes Mal die Route so wählen, dass der dritte 8min-Block ohne Zwangsunterbrechung durchläuft — sonst leidet der Schwellenreiz genau dann, wenn er am meisten zählt (letzter Block, Ermüdung).
+- **Vert zu niedrig für ein "Bergtempo"**: GPS-Höhenfeld 19,1m, barometrisch ~54 hm (18 flights-climbed × 3m). Der Plan wollte die Tempo-Blöcke **bergauf/rollend** für sustained climb — 54 hm auf 9,5km heißt: überwiegend flach abgespult. Die HF-Arbeit war top, aber die race-spezifische **Kletter**-Komponente fehlt. Für Vienna (1000 hm) brauchst du das Tempo AM Berg, nicht in der Ebene.
+- **Cooldown zu warm**: oberes Z1 mit Ausschlägen auf 142-145 statt sauber Richtung 125-130 auszulaufen. Bei der Hitze verständlich, aber die letzten 8-10min bewusst tiefer trotten.
+
+### 📈 **Progression vs. Previous Sessions**
+
+- Mo (Hügel-Intervalle Z4, 88-95% Time-in-Zone, Grade A) → heute (Bergtempo Z3, 90-92%, gleiche Klasse). **Zwei harte Reize in einer Woche, beide lupenrein ausgeführt** — der Motor konsolidiert genau wie im Build-Plan vorgesehen. Nach dem GI-Infekt ist das die beste mögliche Bestätigung: nicht nur ein Glückstreffer Mo, sondern reproduzierbare Schwellendisziplin.
+- Der Kontrast Z4-Intervall (Mo) → Z1-Recovery (Di) → Z3-Tempo (Mi) ist sauber getrennt, kein Graubereich. Genau die Intensitätsverteilung, die W36 verlangt.
+
+### 🎯 **Bewertung: A-**
+
+Herausragende HF-Ausführung: 90-92% Z3 über alle drei Blöcke, Peaks hart bei 162 gedeckelt — Schwellendisziplin vom Feinsten. Kein volles A wegen zwei Punkten: der fragmentierte dritte Block (unfreiwillig?) und vor allem das fehlende Vert (nur ~54 hm) — der Plan wollte "Bergtempo", du hast "Tempo" geliefert. Die Herzarbeit ist A+, die race-spezifische Kletterkomponente zieht es auf A-.
+
+### 💡 **Empfehlungen fürs nächste Mal**
+
+- **Tempo AN den Berg bringen.** Das war die Kernvorgabe. Such dir für die Z3-Blöcke einen echten Anstieg/rollendes Terrain — Wolkersdorf ist flach, aber ein Hügel-Loop oder eine längere Steigung geht. Z3 bergauf = doppelter Nutzen (Schwelle + Kletterkraft für Vienna).
+- **Dritten Block schützen**: Route ohne Zwangsstopp planen, damit alle drei 8min-Blöcke durchlaufen.
+- **Cooldown kühler auslaufen**: letzte 8-10min bewusst Richtung 125-130 bpm.
+- **Do Recovery 35min strikt Z1** (nicht über 142!) + abends **Kraft Tag 2 Beine/Gesäß** 💪 (First Class Woche 8). Nach zwei harten Tagen: morgen wirklich locker, Beine fürs LR-Wochenende vorbereiten.
+- **Wochen-Vert-Bilanz**: Mo ~267 hm + Mi ~54 hm = ~320 hm. Für das Wochen-Ziel ~450 hm musst du **am So den Long Run Richtung 300-350 hm** ziehen (Wienerwald-Ausflug wenn möglich) — sonst reißt du das Vert-Ziel.
+
+### 📊 Detailed Metrics
+
+- **Dauer**: 61,6min (Moving Time) · **Distanz**: 9,52km · **Kalorien**: 799 · **Temp**: 24,7°C
+- **HF**: Ø 141 · min 84 · max 162 · Quelle Bluetooth-Gurt (3774 Samples)
+- **Time-in-Zone**: AR ~6:48 (11%) · Z1 ~28:48 (46%) · Z2 ~5:06 (8%) · **Z3 ~21:12 (34%)** · Z4 ~1:00 (2%) · Z5 0:00
+- **Tempo-Blöcke**: 3x ~7-8min @ Z3, Time-in-Zone 90/90/92%, Peaks 161/162/162
+- **Progression 1./2./3. Drittel**: 137 / 147 / 139 bpm
+- **Pace**: Ø ~6:28/km (Distanz/Moving, inkl. WU/Pausen/CD)
+- **Power**: Endphase Ø ~205W (nur Cooldown-Samples verfügbar)
+- **Vert**: GPS-Höhenfeld 19,1m; barometrisch **~54 hm** (18 flights-climbed × 3m) — überwiegend flach gelaufen statt am Berg. Für Wochen-Vert zählen ~54 hm.
