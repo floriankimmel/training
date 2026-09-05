@@ -158,3 +158,34 @@ _Tägliche Schlaf-, HRV- und Erholungsdaten aus Apple HealthKit_
 | Metrik | Wert |
 |--------|------|
 | Resting HR | 63 bpm |
+
+### 2026-09-05 (Samstag)
+
+#### 🛏️ Schlaf
+
+| Metrik | Wert |
+|--------|------|
+| Bettzeit | 23:03 – 06:31 |
+| Im Bett | 7h 28min |
+| Schlafzeit | 7h 04min |
+| Effizienz | 95% |
+| Tiefschlaf | 0h 50min (12%) |
+| REM | 1h 58min (28%) |
+| Core/Leicht | 4h 16min (60%) |
+| Wach | 0h 24min |
+
+#### 💓 HRV (SDNN)
+
+| Metrik | Wert |
+|--------|------|
+| Nacht-Ø | 51.3 ms |
+| Tages-Ø | 38.8 ms |
+| Min | 22.0 ms |
+| Max | 52.9 ms |
+| Samples | 9 |
+
+#### ❤️ Ruhe-HF
+
+| Metrik | Wert |
+|--------|------|
+| Resting HR | 52 bpm |
