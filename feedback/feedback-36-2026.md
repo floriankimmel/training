@@ -204,7 +204,7 @@ Herausragende HF-Ausführung: 90-92% Z3 über alle drei Blöcke, Peaks hart bei 
 ## 2026-09-05 - Long Run + Vert 85min - Saturday Analyse
 
 **Geplant**: Long Run 85min @ Z1-Z2 (125-152 bpm), Pace 5:50-6:30/km (Puls führt auf Trail), Vert **250-350 hm**. Key-Session der Woche — sustained climb + Downhill, Anstiege aktiv laufen. Fuel ~60 g KH/h. _Von So auf Sa vorgezogen (Tausch — Familie nachmittags weg)._
-**Tatsächliche Ausführung**: 85,1min / 12,18km / 1106 kcal / 25,5°C. HF Ø 137, min 92, max 149 — HR-Quelle Bluetooth-Gurt (5265 Samples, sauberes Signal). Vert barometrisch **~597 hm** (199 flights-climbed).
+**Tatsächliche Ausführung**: 85,1min / 12,18km / 1106 kcal / 25,5°C. HF Ø 137, min 92, max 149 — HR-Quelle Bluetooth-Gurt (5265 Samples, sauberes Signal). Vert barometrisch **~364 hm**.
 **Persönliches Empfinden**: Nicht angegeben — aus Daten abgeleitet: souverän, aerob kontrolliert, null Drift über 85min. Motor läuft rund.
 
 ### 🎯 **Herzfrequenz-Analyse (Time-in-Zone)**
@@ -219,17 +219,17 @@ Lehrbuch-Long-Run. Ziel war Z1-Z2 (125-152) — genau da hast du fast die komple
 | Z3+ | 153+ | 0:00 | 0,0% |
 
 - **95% der Session sauber im Zielkorridor Z1-Z2**, davon der Löwenanteil (71%) im unteren Z1 — perfekt für einen aeroben Long Run. Kein einziger Sample über 149 → **max HF 149 liegt komfortabel unter der Z2-Obergrenze (152)**. Du bist zu keinem Zeitpunkt ins Z3 gerutscht. Das ist Disziplin.
-- **Nulldrift über 85min**: 1./2./3. Drittel = **137,4 / 137,7 / 136,2 bpm**. Das dritte Drittel liegt sogar *unter* dem ersten — kein kardiovaskulärer Drift trotz 25,5°C und ~597 hm. Bei der Hitze und dem Vert ist das ein starkes Zeichen für aerobe Belastbarkeit und gutes Pacing/Fueling.
+- **Nulldrift über 85min**: 1./2./3. Drittel = **137,4 / 137,7 / 136,2 bpm**. Das dritte Drittel liegt sogar *unter* dem ersten — kein kardiovaskulärer Drift trotz 25,5°C und ~364 hm. Bei der Hitze und dem Vert ist das ein starkes Zeichen für aerobe Belastbarkeit und gutes Pacing/Fueling.
 - Die kurzen AR-Phasen (5%, min 92) sind Downhills/Gehpassagen an steilen Stücken — völlig plausibel bei dem Höhenprofil.
 
 ### ⏱️ **Pace-Analyse (min/km)**
 
-- Overall: **~6:59/km** (12,18km / 85,1min Moving). Das liegt über dem Plan-Fenster 5:50-6:30/km — **aber**: der Plan sagt explizit "Puls führt auf Trail", und bei ~597 hm auf 12km ist die Pace-Zahl irreführend. Auf steilen Anstiegen ist 7:00+ bei Z1-Z2 völlig korrekt; die Netto-Pace wird vom Vert erschlagen. Kein Mangel.
+- Overall: **~6:59/km** (12,18km / 85,1min Moving). Das liegt über dem Plan-Fenster 5:50-6:30/km — **aber**: der Plan sagt explizit "Puls führt auf Trail", und bei ~364 hm auf 12km ist die Pace-Zahl irreführend. Auf steilen Anstiegen ist 7:00+ bei Z1-Z2 völlig korrekt; die Netto-Pace wird vom Vert erschlagen. Kein Mangel.
 - Die HF saß den ganzen Lauf ruhig — genau das war die Vorgabe. Pace als Nebenprodukt akzeptiert.
 
 ### 🏆 **Was war hervorragend**
 
-- **Vert-Ziel pulverisiert**: ~597 hm barometrisch vs. Ziel 250-350 hm — **fast das Doppelte**. Damit hast du den einen Kritikpunkt der Woche (fehlendes Vert Mo+Mi) im Alleingang ausgebügelt. Anstiege wurden aktiv gelaufen, HF blieb trotzdem im Ziel — das ist die race-spezifische Kletterkraft für Vienna, exakt so gewollt.
+- **Vert-Ziel erreicht**: ~364 hm barometrisch vs. Ziel 250-350 hm — **knapp über dem oberen Rand**. Damit hast du den einen Kritikpunkt der Woche (fehlendes Vert Mo+Mi) klar ausgebügelt. Anstiege wurden aktiv gelaufen, HF blieb trotzdem im Ziel — das ist die race-spezifische Kletterkraft für Vienna, exakt so gewollt.
 - **Nulldrift über 85min bei 25,5°C**: 137→137→136 bpm. Aerobe Basis + Fueling + Pacing greifen ineinander. Nach dem GI-Infekt vor zwei Wochen ist das die beste denkbare Bestätigung, dass der Motor voll zurück ist.
 - **Zonendisziplin**: max 149, kein einziger Z3-Sample. Long Runs verwaschen bei vielen Athleten nach oben — du bist sauber geblieben.
 - Brustgurt getragen → 5265 saubere Samples, Analyse voll belastbar.
@@ -241,17 +241,17 @@ Lehrbuch-Long-Run. Ziel war Z1-Z2 (125-152) — genau da hast du fast die komple
 
 ### 📈 **Progression vs. Previous Sessions**
 
-- W36 ist damit eine **Vorzeige-Woche**: Mo Hügel-Intervalle Z4 (A, 88-95% TiZ) → Mi Bergtempo Z3 (A-, 90-92% TiZ) → heute Long Run Z1-Z2 (95% im Ziel, ~597 hm). **Drei Key-Sessions, alle sauber ausgeführt**, klare Intensitätstrennung ohne Graubereich.
-- Vs. W35 Long Run (15,1k / 475 hm / HF 138 stabil, kein Drift, A): heute kürzer in km, aber **mehr Vert (597 vs. 475 hm)** und ebenso null Drift bei höherer Temperatur. Konsolidierung auf hohem Niveau — der Reboot ist restlos durch.
+- W36 ist damit eine **Vorzeige-Woche**: Mo Hügel-Intervalle Z4 (A, 88-95% TiZ) → Mi Bergtempo Z3 (A-, 90-92% TiZ) → heute Long Run Z1-Z2 (95% im Ziel, ~364 hm). **Drei Key-Sessions, alle sauber ausgeführt**, klare Intensitätstrennung ohne Graubereich.
+- Vs. W35 Long Run (15,1k / 475 hm / HF 138 stabil, kein Drift, A): heute kürzer in km und etwas weniger Vert (364 vs. 475 hm), aber ebenso null Drift bei höherer Temperatur. Konsolidierung auf hohem Niveau — der Reboot ist restlos durch.
 
 ### 🎯 **Bewertung: A**
 
-Herausragender Vert-Long-Run: 95% sauber in Z1-Z2, **null kardiovaskulärer Drift über 85min bei 25,5°C**, und mit ~597 hm hast du das Vert-Ziel fast verdoppelt und die Wochen-Vert-Bilanz gerettet. Die einzige "Schwäche" (Netto-Pace über Plan) ist bei dem Höhenprofil kein Mangel, sondern Physik. Kein A+ nur, weil kein subjektives Empfinden/Fuel-Log zur Gegenprüfung vorliegt — die Datenlage allein ist erstklassig.
+Herausragender Vert-Long-Run: 95% sauber in Z1-Z2, **null kardiovaskulärer Drift über 85min bei 25,5°C**, und mit ~364 hm hast du das Vert-Ziel erreicht und die Wochen-Vert-Bilanz gerettet. Die einzige "Schwäche" (Netto-Pace über Plan) ist bei dem Höhenprofil kein Mangel, sondern Physik. Kein A+ nur, weil kein subjektives Empfinden/Fuel-Log zur Gegenprüfung vorliegt — die Datenlage allein ist erstklassig.
 
 ### 💡 **Empfehlungen fürs nächste Mal**
 
 - **Genau so weiter.** Vert am Long Run holen statt in den Tempo-Sessions — das Muster funktioniert. Wenn du Vert regelmäßig in den LR packst, kannst du Mo/Mi flacher/schneller laufen und trotzdem die Wochen-hm treffen.
-- **So (morgen)**: Kraft Tag 5 Zirkel (rückt von Sa auf So) + Kraft Tag 4 Core zum Wochenabschluss. Laufen frei/optional Z1-Shakeout nach Gefühl — nach 597 hm dürfen die Beine sich erholen.
+- **So (morgen)**: Kraft Tag 5 Zirkel (rückt von Sa auf So) + Kraft Tag 4 Core zum Wochenabschluss. Laufen frei/optional Z1-Shakeout nach Gefühl — nach 364 hm dürfen die Beine sich erholen.
 - **Fuel-Log** kurz notieren (g KH tatsächlich), damit wir die Nulldrift-These bestätigen und für längere LRs (>2h) skalieren können.
 
 ### 📊 Detailed Metrics
@@ -261,5 +261,5 @@ Herausragender Vert-Long-Run: 95% sauber in Z1-Z2, **null kardiovaskulärer Drif
 - **Time-in-Zone**: AR ~4:27 (5%) · **Z1 ~62:11 (71%)** · **Z2 ~21:07 (24%)** · Z3+ 0:00 (0%)
 - **Progression 1./2./3. Drittel**: 137,4 / 137,7 / 136,2 bpm — **null Drift**
 - **Pace**: Ø ~6:59/km (Distanz/Moving) — vom Vert dominiert, Puls führte (Plan-konform)
-- **Vert**: GPS-Höhenfeld leer (Messfehler); barometrisch **~597 hm** (199 flights-climbed × 3m). Vert-Ziel 250-350 hm **deutlich übertroffen**.
-- **Wochen-Vert-Bilanz W36**: Mo ~267 hm + Mi ~54 hm + Sa ~597 hm = **~918 hm** → Wochen-Ziel ~450 hm **weit übertroffen** ✅
+- **Vert**: GPS-Höhenfeld leer (Messfehler); barometrisch **~364 hm** (record-derived, 30s-geglättet). Vert-Ziel 250-350 hm **knapp übertroffen**.
+- **Wochen-Vert-Bilanz W36**: Mo ~267 hm + Mi ~54 hm + Sa ~364 hm = **~685 hm** → Wochen-Ziel ~450 hm **übertroffen** ✅
