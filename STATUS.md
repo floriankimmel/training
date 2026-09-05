@@ -3,7 +3,7 @@
 > Rolling "where am I right now" file so agents don't have to read 6 week files.
 > Update at the end of each coach/feedback run.
 
-**Last updated**: 2026-09-02 (W36 Mi Bergtempo 3x8min Z3 — Grade A-, 90-92% Time-in-Zone, Peaks hart bei 162 gedeckelt; ABER nur ~54 hm Vert — überwiegend flach statt am Berg gelaufen, race-spezifische Kletterkomponente fehlt)
+**Last updated**: 2026-09-05 (W36 Sa Long Run 85min + Vert — Grade A, 95% Time-in-Zone Z1-Z2, **null Drift** über 85min bei 25,5°C, **~597 hm** barometrisch → Vert-Ziel fast verdoppelt. LR von So auf Sa vorgezogen. Wochen-Vert W36 = ~918 hm, Ziel 450 hm weit übertroffen. Reboot restlos durch, Motor voll zurück.)
 
 ## ✅ Recovered: GI illness (2026-08-19 → abgeschlossen)
 
@@ -18,7 +18,7 @@
 
 ## Long Run / Vert Progression
 
-- **This week (W36)**: LR 85min So mit Vert 250-350 hm (Wienerwald wenn möglich). Weekly Vert ~450 hm. **Bisher: Mo ~267 hm + Mi ~54 hm = ~320 hm → So muss Richtung 300-350 hm liefern, sonst Wochen-Ziel verfehlt.**
+- **This week (W36)**: LR 85min **Sa** (von So vorgezogen) mit Vert — **erledigt: ~597 hm** ✅. **Wochen-Vert W36 = Mo ~267 + Mi ~54 + Sa ~597 = ~918 hm → Ziel ~450 hm weit übertroffen.**
 - **Peak target**: LR 1:30 solid → reach 1:45–2:00 once/twice; weekly vert build to ~800 hm
 - **Currency**: for the trail race, **weekly hm > flat minutes**.
 
