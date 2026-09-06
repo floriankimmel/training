@@ -52,7 +52,7 @@ progress aggressively. Only back off for real acute pain, not as routine caution
 |------|-----------|-----------|--------------|-------------|-------|
 | W34 | 60min | | ~100 | | |
 | W35 | 75min | 116min (15,1k) | ~300 | 640 (total wk) | Göteborg LR 475 hm, reboot A |
-| W36 | 85min | | ~450 | | |
+| W36 | 85min | 85min (12,2k) | ~450 | 685 (total wk) | LR Sa 364 hm A, null Drift; Mo 267 + Mi 54 + Sa 364 |
 | W37 | 95min | | ~600 | | |
 | W38 | 75min | | ~350 | | |
 | W39 | 100min | | ~700 | | |
