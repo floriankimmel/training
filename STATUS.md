@@ -3,7 +3,7 @@
 > Rolling "where am I right now" file so agents don't have to read 6 week files.
 > Update at the end of each coach/feedback run.
 
-**Last updated**: 2026-09-06 (W37 plan created — Build 3, größter Build. W36 abgeschlossen als Vorzeige-Woche: 3 Key-Sessions alle A/A- (Mo Hügel-Int Z4 A, Mi Bergtempo Z3 A-, Sa LR 85min Z1-Z2 A, null Drift, ~364 hm). Wochen-Vert ~685 hm. Recovery top: HRV 51, RHF 52. W37 legt Umfang + Vert nach: LR 95min, Vert ~600 hm.)
+**Last updated**: 2026-09-07 (W37 Mo Hügel-Intervalle 7x3min Z4 abgeschlossen — **Grade A**. 7/7 Reps 88-94% Z4-TiZ, max exakt 174 (W36-Kritik ausgebügelt, Deckelung umgesetzt), ~270 hm über Ziel. Eine Rep mehr als W36 ohne Qualitätsverlust. Motor läuft rund, Build 3 rollt sauber an. Nächste Keys: Mi Bergtempo 3x10min AM Berg, Sa LR 95min/350-450 hm.)
 
 ## ✅ Recovered: GI illness (2026-08-19 → abgeschlossen)
 
