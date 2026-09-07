@@ -170,7 +170,7 @@ Bergtempo = Z3-Disziplin (153-160), nicht rauf ins Z4 verwaschen. Genau das hast
 ### ⚠️ **Verbesserungsbereiche**
 
 - **Block 3 fragmentiert** (Delle auf 134 bei ~min 38). Wenn's Terrain/Ampel war: nächstes Mal die Route so wählen, dass der dritte 8min-Block ohne Zwangsunterbrechung durchläuft — sonst leidet der Schwellenreiz genau dann, wenn er am meisten zählt (letzter Block, Ermüdung).
-- **Vert zu niedrig für ein "Bergtempo"**: GPS-Höhenfeld 19,1m, barometrisch ~54 hm (18 flights-climbed × 3m). Der Plan wollte die Tempo-Blöcke **bergauf/rollend** für sustained climb — 54 hm auf 9,5km heißt: überwiegend flach abgespult. Die HF-Arbeit war top, aber die race-spezifische **Kletter**-Komponente fehlt. Für Vienna (1000 hm) brauchst du das Tempo AM Berg, nicht in der Ebene.
+- **~~Vert zu niedrig~~ Vert-Messung korrigiert (2026-09-09)**: GPS-Höhenfeld 19,1m, barometrische flights-climbed ergaben ~54 hm — **das war falsch**. DuckDB .fit-Record (altitude, per-Sekunde) sagt **159 hm gesamt, davon 89 hm uphill während der Z3-Blöcke**. Session war **doch am Berg**, nicht flach. Race-spezifische Kletterkomponente war vorhanden.
 - **Cooldown zu warm**: oberes Z1 mit Ausschlägen auf 142-145 statt sauber Richtung 125-130 auszulaufen. Bei der Hitze verständlich, aber die letzten 8-10min bewusst tiefer trotten.
 
 ### 📈 **Progression vs. Previous Sessions**
@@ -180,7 +180,7 @@ Bergtempo = Z3-Disziplin (153-160), nicht rauf ins Z4 verwaschen. Genau das hast
 
 ### 🎯 **Bewertung: A-**
 
-Herausragende HF-Ausführung: 90-92% Z3 über alle drei Blöcke, Peaks hart bei 162 gedeckelt — Schwellendisziplin vom Feinsten. Kein volles A wegen zwei Punkten: der fragmentierte dritte Block (unfreiwillig?) und vor allem das fehlende Vert (nur ~54 hm) — der Plan wollte "Bergtempo", du hast "Tempo" geliefert. Die Herzarbeit ist A+, die race-spezifische Kletterkomponente zieht es auf A-.
+Herausragende HF-Ausführung: 90-92% Z3 über alle drei Blöcke, Peaks hart bei 162 gedeckelt — Schwellendisziplin vom Feinsten. Kein volles A wegen des fragmentierten dritten Blocks (unfreiwillig?). **Nachtrag 2026-09-09: das ursprünglich bemängelte "fehlende Vert (~54 hm)" war ein Messfehler — real 159 hm / 89 hm uphill in den Blöcken (DuckDB). Session war am Berg. Rückblickend eher A als A-.**
 
 ### 💡 **Empfehlungen fürs nächste Mal**
 
@@ -188,7 +188,7 @@ Herausragende HF-Ausführung: 90-92% Z3 über alle drei Blöcke, Peaks hart bei 
 - **Dritten Block schützen**: Route ohne Zwangsstopp planen, damit alle drei 8min-Blöcke durchlaufen.
 - **Cooldown kühler auslaufen**: letzte 8-10min bewusst Richtung 125-130 bpm.
 - **Do Recovery 35min strikt Z1** (nicht über 142!) + abends **Kraft Tag 2 Beine/Gesäß** 💪 (First Class Woche 8). Nach zwei harten Tagen: morgen wirklich locker, Beine fürs LR-Wochenende vorbereiten.
-- **Wochen-Vert-Bilanz**: Mo ~267 hm + Mi ~54 hm = ~320 hm. Für das Wochen-Ziel ~450 hm musst du **am So den Long Run Richtung 300-350 hm** ziehen (Wienerwald-Ausflug wenn möglich) — sonst reißt du das Vert-Ziel.
+- **Wochen-Vert-Bilanz**: Mo ~267 hm + Mi ~159 hm = ~426 hm. Für das Wochen-Ziel ~450 hm am So den Long Run Richtung 300-350 hm ziehen (Wienerwald-Ausflug wenn möglich).
 
 ### 📊 Detailed Metrics
 
@@ -199,7 +199,7 @@ Herausragende HF-Ausführung: 90-92% Z3 über alle drei Blöcke, Peaks hart bei 
 - **Progression 1./2./3. Drittel**: 137 / 147 / 139 bpm
 - **Pace**: Ø ~6:28/km (Distanz/Moving, inkl. WU/Pausen/CD)
 - **Power**: Endphase Ø ~205W (nur Cooldown-Samples verfügbar)
-- **Vert**: GPS-Höhenfeld 19,1m; barometrisch **~54 hm** (18 flights-climbed × 3m) — überwiegend flach gelaufen statt am Berg. Für Wochen-Vert zählen ~54 hm.
+- **Vert**: GPS-Höhenfeld 19,1m; barometrische flights-climbed ~54 hm — **korrigiert (2026-09-09): .fit-Record sagt 159 hm gesamt / 89 hm uphill in den Blöcken**. Für Wochen-Vert zählen ~159 hm.
 
 ## 2026-09-05 - Long Run + Vert 85min - Saturday Analyse
 
@@ -262,4 +262,4 @@ Herausragender Vert-Long-Run: 95% sauber in Z1-Z2, **null kardiovaskulärer Drif
 - **Progression 1./2./3. Drittel**: 137,4 / 137,7 / 136,2 bpm — **null Drift**
 - **Pace**: Ø ~6:59/km (Distanz/Moving) — vom Vert dominiert, Puls führte (Plan-konform)
 - **Vert**: GPS-Höhenfeld leer (Messfehler); barometrisch **~364 hm** (record-derived, 30s-geglättet). Vert-Ziel 250-350 hm **knapp übertroffen**.
-- **Wochen-Vert-Bilanz W36**: Mo ~267 hm + Mi ~54 hm + Sa ~364 hm = **~685 hm** → Wochen-Ziel ~450 hm **übertroffen** ✅
+- **Wochen-Vert-Bilanz W36**: Mo ~267 hm + Mi ~159 hm + Sa ~364 hm = **~790 hm** → Wochen-Ziel ~450 hm **übertroffen** ✅ (Mi-Wert korrigiert 2026-09-09: war fälschlich 54)

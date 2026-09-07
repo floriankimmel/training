@@ -65,7 +65,7 @@ Lehrbuch-Interval-Day. 7/7 Reps mit 88-94% Z4-Time, max exakt auf 174 gedeckelt 
 
 - **Genau so weiter — Deckelung beibehalten.** Bei 7 Reps war 174 die Obergrenze; wenn später 8x kommen, dieselbe Kopf-Disziplin. Du hast bewiesen, dass du das steuern kannst.
 - **Di Recovery Run**: strikt Z1 und diesmal **wirklich langsam** (6:40-7:00/km, HF Richtung 130 — NICHT die W36-6:06-Falle). Nach diesem harten Reiz die Beine durchspülen, damit Mi-Bergtempo frisch angegangen werden kann. Abends Kraft Tag 1 Drücken.
-- **Mi Bergtempo 3x10min**: die zentrale Wochen-Korrektur — **AM Berg** laufen, nicht flach abspulen (W36 brachte nur 54 hm). Heute hast du mit ~270 hm gezeigt, dass du den Anstieg findest — nimm denselben Loop für das Tempo.
+- **Mi Bergtempo 3x10min**: **AM Berg** laufen, Z3-Blöcke sustained am Anstieg (W36 brachte real 159 hm / 89 hm uphill — war schon am Berg, alte "54 hm" war Messfehler). Heute hast du mit ~270 hm gezeigt, dass du den Anstieg findest — nimm denselben Loop für das Tempo.
 - Kurzes Empfinden-Log fürs nächste Interval-Day: fühlten sich Reserven für eine 8. Rep an?
 
 ### 📊 Detailed Metrics
