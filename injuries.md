@@ -3,7 +3,16 @@
 > Consolidated history so patterns are visible in one place (was scattered across week narratives).
 > Newest first. Add every injury/illness that affects training here.
 
-**Last updated**: 2026-08-30
+**Last updated**: 2026-09-10
+
+## 2026 — Erkältung (Cold, W37)
+
+- **Cause**: illness (common cold) — not training-related.
+- **Onset**: ~2026-09-08 (W37, Tue). Felt awful, cold symptoms.
+- **Effect**: Tue 09-08 (Recovery) + Wed 09-09 (Bergtempo Z3) runs SKIPPED. Thu 09-10 still off (rest).
+- **Return**: Thu Recovery Run moved to **Fri 09-11 AM** as easy Z1 comeback. Abort on sore throat / chest pressure. No make-up of missed Tue/Wed intensity.
+- **Return protocol**: first run strict Z1, abort on discomfort. Only progress after symptom-free. Sat/Sun long run only if fully clear.
+- **Status**: active (as of 2026-09-10).
 
 ## 2026 — GI illness (Magen-Darm + Fieber)
 

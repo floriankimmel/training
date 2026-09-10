@@ -9,7 +9,7 @@
 - `injuries.md` — injury/illness log + return protocols
 - `benchmarks.md` — PRs, test runs, reference paces
 - `db/` — **DuckDB (`db/training.duckdb`) — 1469+ runs, 6M+ per-second records** from HealthFit `.fit`. Query for objective pace/HF/vert trends. See `db/README.md`. Trend-Fragen → **`training-db` skill**.
-- `strength-plan.md` — strength reference (Mark Lauren; digitized program in `plans/strength-program-mark-lauren.md`; coach plans it, advancing 1 week/week; Todoist = schedule truth)
+- `strength-plan.md` — strength reference (Mark Lauren; digitized program in `plans/strength-program-mark-lauren.md`; coach plans it, advancing 1 week/week; Apple Reminders = schedule truth)
 - `fueling.md` — carb-intake strategy (No Carbs No Glory, g/h per session type)
 - `races/current-race-*.md` — current target race (Vienna Trail Run 2026)
 - `plans/build-plan-vienna-2026.md` — 8-week macro plan: long-run + weekly vertical (hm) progression
@@ -30,11 +30,11 @@ Each carries a `Last updated` line — treat >30 days stale as a flag.
 | `benchmarks.md` reference paces | After a training block — refresh from DuckDB (median-per-second pace in HR bands) | manual/coach |
 | `athlete.md` | Goal / equipment / target-race change | manual or coach when race changes |
 | `zones.md` | New lactate test / zone change | manual — edit ONLY this file |
-| **Todoist** — project **🏅 Trainingsplan** (`project_id` `6h7vq89H23JGj943`, label `training`) | **ANY change to a `trainings/week-*` plan** (new plan, reschedule, cancel, illness/injury edit) | coach/reschedule skill via todoist skill |
+| **Apple Reminders** — list **🏅 Trainingsplan** (tag `training`) | **ANY change to a `trainings/week-*` plan** (new plan, reschedule, cancel, illness/injury edit) | coach/reschedule skill via `remctl` CLI |
 
-**Todoist is the source of truth for the active training schedule.** Whenever a training-plan
-day is added, changed, moved, or cancelled in `trainings/`, mirror it in Todoist in the SAME change:
-create/update/complete/delete the matching task (project 🏅 Trainingsplan, label `training`,
+**Apple Reminders is the source of truth for the active training schedule.** Whenever a training-plan
+day is added, changed, moved, or cancelled in `trainings/`, mirror it in Apple Reminders in the SAME change:
+create/update/complete/delete the matching task (list 🏅 Trainingsplan, tag `training`,
 `@workout` spec line on running tasks). Rest days = no task.
 
 Rule: update the relevant file in the SAME change as the plan/feedback, and commit together.

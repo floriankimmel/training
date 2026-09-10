@@ -13,17 +13,17 @@ Personal running + strength training system for **Florian** — a set of living 
 
 ## How the AI trainer works
 
-The AI reads the living docs, plans/analyzes via **skills**, and keeps the docs + Todoist in sync.
+The AI reads the living docs, plans/analyzes via **skills**, and keeps the docs + Apple Reminders in sync.
 
 **Core loop:**
-1. **Plan** — `coach` skill reads race context, macro plan, current status + subjective feedback → writes a weekly plan to `trainings/week-XX-YYYY.md` and mirrors it to Todoist.
+1. **Plan** — `coach` skill reads race context, macro plan, current status + subjective feedback → writes a weekly plan to `trainings/week-XX-YYYY.md` and mirrors it to Apple Reminders.
 2. **Execute** — sessions run offline; HealthFit exports a `.fit` file (only data source).
 3. **Analyze** — `feedback` skill parses the `.fit`, compares to plan → writes `feedback/feedback-XX-YYYY.md`, updates `STATUS.md` / `injuries.md` / `benchmarks.md`.
-4. **Adjust** — `reschedule` skill moves/swaps/cancels days across the plan + Todoist when life interferes.
+4. **Adjust** — `reschedule` skill moves/swaps/cancels days across the plan + Apple Reminders when life interferes.
 
 **Rules of the system:**
 - **Data source**: HealthFit `.fit` files only, parsed offline. No Tredict / Strava / Runalyze / MCP.
-- **Schedule truth**: Todoist project 🏅 Trainingsplan (label `training`). Any plan change mirrors to Todoist in the same change.
+- **Schedule truth**: Apple Reminders list 🏅 Trainingsplan (tag `training`). Any plan change mirrors to Apple Reminders in the same change.
 - **Single sources of truth**: HR zones live only in `zones.md`; current state only in `STATUS.md`.
 - Living docs must stay fresh — see `AGENTS.md` for the maintenance contract. Run `scripts/lint.sh` before committing.
 
