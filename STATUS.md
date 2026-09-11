@@ -3,7 +3,7 @@
 > Rolling "where am I right now" file so agents don't have to read 6 week files.
 > Update at the end of each coach/feedback run.
 
-**Last updated**: 2026-09-11 (W37 Fr Recovery Run 35min — Comeback nach Erkältung, **Grade C+**. Brust frei, gesundheitlich sauber. ABER Pace zu flott: 6:13/km statt Ziel 6:40-7:00, beschleunigend (6:33→5:52) — 3. zu schneller Recovery-Lauf in Folge. HF unbrauchbar: Verity Sense leer → Watch-Handgelenk mit Optik-Artefakt (letztes Drittel Ø166/max181 = Cadence-Lock, real Z1). ⚠️ Di/Mi-Keys fielen wg. Erkältung aus. Watch-Item: Recovery-Pace-Disziplin + Verity vorher laden.)
+**Last updated**: 2026-09-11 (W37 Fr Recovery Run 35min — Comeback nach Erkältung, **Grade C+**. Erkältung offiziell vorbei — Brust frei, keine Beschwerden, gesundheitlich sauber (→ injuries.md resolved). Sa LR grün wenn symptomfrei. ABER Pace zu flott: 6:13/km statt Ziel 6:40-7:00, beschleunigend (6:33→5:52) — 3. zu schneller Recovery-Lauf in Folge. HF unbrauchbar: Verity Sense leer → Watch-Handgelenk mit Optik-Artefakt (letztes Drittel Ø166/max181 = Cadence-Lock, real Z1). ⚠️ Di/Mi-Keys fielen wg. Erkältung aus. Watch-Item: Recovery-Pace-Disziplin + Verity vorher laden.)
 
 ## ✅ Recovered: GI illness (2026-08-19 → abgeschlossen)
 
