@@ -10,8 +10,8 @@
 
 - **Method**: Mark Lauren (bodyweight), from the book.
 - **Programs digitized**: First Class für Trainingserfahrene (W1–W10, complete) + Master Class für Fortgeschrittene (W1–W10, complete).
-- **Current program week (calendar W37)**: **First Class — Woche 9 (Wechselblock, S.247).** W36 hat Woche 8 (Tag 1-5) abgeschlossen. W37 = Tag 1-5 auf Di/Do/Fr/Sa/So (kein Kraft Mo+Mi → intensive Läufe).
-- **Advance rule**: one program-week per calendar week. Nach Abschluss W37 → W38 = First Class Woche 10. After First Class W10 → Master Class W1+2.
+- **Current program week (calendar W38)**: **First Class — Woche 10 (Wechselblock, S.248) — Abschluss First Class.** W37 hat Woche 9 (Tag 1-5) abgeschlossen. W38 = Tag 1-5 auf Di/Do/Fr/Sa/So (kein Kraft Mo → Intervalle).
+- **Advance rule**: one program-week per calendar week. Nach Abschluss W38 (First Class W10) → W39 = Master Class Woche 1+2.
 
 ## How strength gets planned
 
