@@ -3,7 +3,7 @@
 > Rolling "where am I right now" file so agents don't have to read 6 week files.
 > Update at the end of each coach/feedback run.
 
-**Last updated**: 2026-09-13 (W38 geplant — **Deload**. W37 gestört: Mo Hügel-Int 7x3min Grade A (7/7 Reps, ~270 hm), dann Erkältung → Di/Mi/So Keys ausgefallen, Fr Comeback-Recovery C+. Erkältung durch, Recovery-Metriken normal (HRV ~40-59, RHF 52-58). Deload fällt perfekt in die Krankheitswoche — kein Nachholen. W38: Volumen -30%, Hügel-Int 5x3min, kein Bergtempo, LR 75min/~200 hm, Vert ~350. Kraft First Class W10 (Abschluss). Watch-Item: Recovery-Pace endlich <6:40 deckeln (3. Woche zu flott) + Verity vorher laden.)
+**Last updated**: 2026-09-14 (W38 Mo Hügel-Int 5x3min Z4 absolviert — **Grade A**: 5/5 Reps im Zielband (Ø 164-166), 0 Samples >174 (Deckelung sitzt 3. Woche in Folge), kein Fatigue-Drift nach Infekt, ~357 hm barometrisch → Wochen-Vert-Ziel ~350 fast allein gedeckt. Deload respektiert (5 statt 7 Reps). Watch-Item bleibt: Di Recovery endlich <6:40 deckeln + Verity vorher laden.) | 2026-09-13 (W38 geplant — **Deload**. W37 gestört: Mo Hügel-Int 7x3min Grade A (7/7 Reps, ~270 hm), dann Erkältung → Di/Mi/So Keys ausgefallen, Fr Comeback-Recovery C+. Erkältung durch, Recovery-Metriken normal (HRV ~40-59, RHF 52-58). Deload fällt perfekt in die Krankheitswoche — kein Nachholen. W38: Volumen -30%, Hügel-Int 5x3min, kein Bergtempo, LR 75min/~200 hm, Vert ~350. Kraft First Class W10 (Abschluss). Watch-Item: Recovery-Pace endlich <6:40 deckeln (3. Woche zu flott) + Verity vorher laden.)
 
 ## ✅ Recovered: GI illness (2026-08-19 → abgeschlossen)
 
