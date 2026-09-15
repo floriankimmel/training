@@ -3,7 +3,7 @@
 > Rolling "where am I right now" file so agents don't have to read 6 week files.
 > Update at the end of each coach/feedback run.
 
-**Last updated**: 2026-09-14 (W38 Mo Hügel-Int 5x3min Z4 absolviert — **Grade A**: 5/5 Reps im Zielband (Ø 164-166), 0 Samples >174 (Deckelung sitzt 3. Woche in Folge), kein Fatigue-Drift nach Infekt, ~357 hm barometrisch → Wochen-Vert-Ziel ~350 fast allein gedeckt. Deload respektiert (5 statt 7 Reps). Watch-Item bleibt: Di Recovery endlich <6:40 deckeln + Verity vorher laden.) | 2026-09-13 (W38 geplant — **Deload**. W37 gestört: Mo Hügel-Int 7x3min Grade A (7/7 Reps, ~270 hm), dann Erkältung → Di/Mi/So Keys ausgefallen, Fr Comeback-Recovery C+. Erkältung durch, Recovery-Metriken normal (HRV ~40-59, RHF 52-58). Deload fällt perfekt in die Krankheitswoche — kein Nachholen. W38: Volumen -30%, Hügel-Int 5x3min, kein Bergtempo, LR 75min/~200 hm, Vert ~350. Kraft First Class W10 (Abschluss). Watch-Item: Recovery-Pace endlich <6:40 deckeln (3. Woche zu flott) + Verity vorher laden.)
+**Last updated**: 2026-09-15 (W38 Di Recovery Run 25min absolviert — **Grade C+**: HF-seitig gut (Ø 135, max 147, 96% AR/Z1, Verity geladen → sauberes Signal, Watch-Item „Verity laden" abgehakt), aber Pace **6:04/km** statt 6:40-7:00 = **4. Recovery-Lauf in Folge zu flott** (6:06→6:06→6:13→6:04, heute der schnellste). Kernvorgabe des Tages verfehlt. Konsequenz: ab Do **Pace-Alarm auf 6:40** — HF-Steuerung reicht bei ihm für Recovery nicht, aerobe Basis zu gut.) | 2026-09-14 (W38 Mo Hügel-Int 5x3min Z4 absolviert — **Grade A**: 5/5 Reps im Zielband (Ø 164-166), 0 Samples >174 (Deckelung sitzt 3. Woche in Folge), kein Fatigue-Drift nach Infekt, ~357 hm barometrisch → Wochen-Vert-Ziel ~350 fast allein gedeckt. Deload respektiert (5 statt 7 Reps). Watch-Item bleibt: Di Recovery endlich <6:40 deckeln + Verity vorher laden.) | 2026-09-13 (W38 geplant — **Deload**. W37 gestört: Mo Hügel-Int 7x3min Grade A (7/7 Reps, ~270 hm), dann Erkältung → Di/Mi/So Keys ausgefallen, Fr Comeback-Recovery C+. Erkältung durch, Recovery-Metriken normal (HRV ~40-59, RHF 52-58). Deload fällt perfekt in die Krankheitswoche — kein Nachholen. W38: Volumen -30%, Hügel-Int 5x3min, kein Bergtempo, LR 75min/~200 hm, Vert ~350. Kraft First Class W10 (Abschluss). Watch-Item: Recovery-Pace endlich <6:40 deckeln (3. Woche zu flott) + Verity vorher laden.)
 
 ## ✅ Recovered: GI illness (2026-08-19 → abgeschlossen)
 
@@ -43,7 +43,7 @@
 ## Open Watch-Items
 
 - **Mi Bergtempo Vert (W37)**: W36 brachte real 159 hm (89 hm uphill in Blöcken) — war am Berg. Diese Woche Vert weiter nachlegen, Z3-Blöcke sustained am Anstieg halten.
-- **Recovery-Tempo**: Di/Do bewusst langsamer (W36 war 6:06 statt 6:30-7:00). HF Richtung 130.
+- **Recovery-Tempo**: Di/Do bewusst langsamer (W36 war 6:06 statt 6:30-7:00). HF Richtung 130. **⚠️ ESKALIERT (2026-09-15): 4. Recovery-Lauf in Folge zu flott (6:06→6:06→6:13→6:04). Ab Do Pace-Alarm auf 6:40/km — nicht mehr nach Gefühl/HF steuern.**
 - **Vertical gap**: Wolkersdorf is flat (max ~60 hm) — must accumulate hm (repeats/stairs/Woods). Vienna needs ~1000 hm; don't under-train climbing.
 - Toe: healed, no special monitoring needed unless symptoms actually return.
 
