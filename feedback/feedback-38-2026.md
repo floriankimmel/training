@@ -121,7 +121,7 @@ HF-Steuerung und Sensor-Handling heute gut (Verity geladen, sauber in Z1, kurz g
 ## 2026-09-16 - Easy Endurance - Wednesday Analyse
 
 **Geplant**: Easy Endurance 40min. **Z1-Z2 (125-152)**, Pace **6:00-6:30/km, locker aerob**. Deload-Ersatz fürs W37-Bergtempo — kein hartes Tempo, gern leicht hügelig für ~80 hm, aber ohne Ausbelastung. Nach dem Infekt den Motor sauber wieder hochfahren, nicht reißen. Brustgurt.
-**Tatsächliche Ausführung**: 40min / 6,56 km / 526 kcal / 22,2°C. Ø-Pace **6:06/km**. Ø-HF **129**, max **150**, min 74 (3074 Samples, Brustgurt/Bluetooth-Gerät). Zonen: AR 24% · Z1 63% · Z2 13% · Z3-Z5 0%.
+**Tatsächliche Ausführung**: 40min / 6,56 km / 526 kcal / 22,2°C. Ø-Pace **6:06/km**. Ø-HF **129**, max **150**, min 74 (3074 Samples, Brustgurt/Bluetooth-Gerät). Zonen: AR 24% · Z1 63% · Z2 13% · Z3-Z5 0%. Vert **~21 hm** (barometrisch, 7 flights) — praktisch flach, Plan-Ziel ~80 hm verfehlt.
 **Persönliches Empfinden**: Nicht angegeben — aus Daten abgeleitet: kontrolliert, ruhig, ohne Effort-Spitzen.
 
 ### 🎯 **Herzfrequenz-Analyse**
@@ -142,7 +142,7 @@ Zielzone Z1-Z2 (125-152). Tatsächlich Ø **129**, max **150** — **exakt getro
 ### ⚠️ **Verbesserungsbereiche**
 
 - **Wenig echtes Z2** (13 %): Der Lauf lag schwerpunktmäßig in Z1/AR — für Easy Endurance völlig in Ordnung, aber wenn du den aeroben Motor nach Infekt „sauber hochfahren" willst, hätte etwas mehr oberes Z2 (bis ~150) den Reiz leicht angehoben, ohne zu reißen. Kein Fehler im Deload, nur eine Feinjustierung: Der Lauf war eher am unteren Rand des Auftrags als in der Mitte.
-- **Vert nicht belastbar erfasst**: Höhenfeld/flights-climbed heute nicht auslesbar (HealthKit-Zugriff zeitweise gesperrt). Plan wollte ~80 hm leicht hügelig — nicht verifizierbar. Fürs nächste Mal: Route mit sanftem Profil bewusst wählen, damit die ~80 hm auch anfallen.
+- **Vert klar verfehlt** (~21 hm statt ~80 hm): Der Lauf war **praktisch flach**. Barometrisch nur 7 flights climbed = ~21 hm — der Plan wollte „gern leicht hügelig für ~80 hm". Im Deload kein Drama für die Beine, **aber es reißt ein Loch in die Wochen-Vert-Bilanz**: Ziel ~350 hm setzt Mo ~150 + Mi ~80 + So ~200 voraus. Mit heute nur ~21 statt ~80 fehlen ~60 hm — die musst du am **So Long Run** (geplant ~200 hm) draufpacken oder bewusst akzeptieren, dass die Woche unter ~350 landet. Für einen Trail-Race-Build (Vert > flache Minuten) ist das der relevantere Befund als die Zonenverteilung.
 
 ### 📈 **Progression vs. Previous Sessions**
 
@@ -150,13 +150,14 @@ Zielzone Z1-Z2 (125-152). Tatsächlich Ø **129**, max **150** — **exakt getro
 - **Post-Infekt-Verlauf W38**: Mo Intervalle Grade A (diszipliniert), Di Recovery C+ (Pace zu flott, HF gut), heute Easy sauber im Band. Der Motor läuft nach der Erkältung rund, HF-Steuerung durchgehend gut.
 - **HF-Drift-Vergleich**: Di driftete die HF *aufwärts* (128→139→138, passte zum Zu-schnell-Werden). Heute *abwärts* (133→128→125) — der gesündere Verlauf, weil Pace und Effort zusammenpassten.
 
-### 🎯 **Bewertung: A**
+### 🎯 **Bewertung: A-**
 
-Auftrag war „locker aerob, Z1-Z2, 6:00-6:30, nicht reißen" — **alles getroffen**: Pace mittig im Band, HF makellos in Zone mit fallendem Drift, Dauer punktgenau, Sensor sauber. Kein A+ nur, weil der Lauf am unteren Rand des aeroben Fensters blieb (viel Z1, wenig Z2) und die geplanten ~80 hm nicht verifizierbar sind. Aber ausführungsseitig ein Vorzeige-Easy-Run — genau der ruhige, kontrollierte Wiederaufbau nach dem Infekt, den der Deload verlangt.
+Auftrag war „locker aerob, Z1-Z2, 6:00-6:30, nicht reißen" — **ausführungsseitig alles getroffen**: Pace mittig im Band, HF makellos in Zone mit fallendem Drift, Dauer punktgenau, Sensor sauber. Das A- statt A, weil der **Vert klar verfehlt** wurde (~21 statt ~80 hm, praktisch flach) — im Deload zwar unkritisch für die Erholung, aber für einen Trail-Race-Build zählt Vert, und es reißt ~60 hm in die Wochenbilanz. Dazu blieb der Lauf am unteren aeroben Rand (viel Z1, wenig Z2). Ausführung des HF-/Pace-Auftrags war Vorzeige-Niveau; die Höhenmeter waren die verpasste Chance des Tages.
 
 ### 💡 **Empfehlungen für nächstes Mal**
 
 - **Merksatz mitnehmen**: 6:05/km ist deine **Easy-Pace**, nicht deine Recovery-Pace. Heute richtig zugeordnet — am Do-Recovery (6:40-7:00, Pace-Alarm!) bewusst wieder rausnehmen. Der Unterschied ist genau dieses Tempo-Delta.
+- **Wochen-Vert im Blick behalten**: heute nur ~21 statt ~80 hm → **am So Long Run bewusst ~60 hm draufpacken** (hügeligere Route), sonst landet W38 unter dem ~350er-Vert-Ziel. Für den Vienna Trail (23,8 km / ~1000 hm) sind die Höhenmeter die eigentliche Währung.
 - Für den nächsten Easy-Run mit „Motor hochfahren"-Auftrag: ruhig 5-10min im oberen Z2 (145-152) zulassen, damit der aerobe Reiz etwas höher liegt — ohne zu reißen.
 - Do ist Recovery 25min Z1: **Pace-Alarm 6:40** bleibt Pflicht, bis drei saubere Recovery-Läufe stehen.
 
@@ -165,7 +166,7 @@ Auftrag war „locker aerob, Z1-Z2, 6:00-6:30, nicht reißen" — **alles getrof
 - **Workout**: Running, 2026-09-16 12:02-12:54, 40min moving, 6,56 km, 526 kcal, 22,2°C
 - **HF**: Ø 129, min 74, max 150 (3074 Samples); Drittel 133 / 128 / 125 (fallend — sauberes Einlaufen)
 - **Zonen (Zeit)**: AR 24% · Z1 63% · Z2 13% · Z3-Z5 0% (100% in Zielzone Z1-Z2/AR, null Sample >152)
-- **Vert**: nicht belastbar erfasst — HealthKit-Zugriff (Höhenfeld/flights-climbed) während des Laufs zeitweise gesperrt; Plan-Ziel ~80 hm nicht verifizierbar
+- **Vert**: **~21 hm barometrisch** (7 flights climbed) — Workout-Höhenfeld leer (Messfehler, wie üblich). Plan wollte ~80 hm leicht hügelig → **klar verfehlt, praktisch flach gelaufen.** Fürs Wochen-Vert-Ziel (~350 hm) fehlen damit ~60 hm ggü. Plan.
 - **Pace**: Ø 6:06/km (moving time) — Zielband 6:00-6:30 → mittig getroffen
-- **Run-Dynamik**: nicht verfügbar (running-power/stride/ground-contact-Samples während gesperrtem HealthKit-Fenster leer)
+- **Run-Dynamik**: nicht verfügbar — die Watch hat für diese Session keine Power/Stride/Ground-Contact/Speed-Samples aufgezeichnet (nicht Lock-bedingt, Daten existieren schlicht nicht)
 - **HR-Quelle**: Brustgurt (Bluetooth-Gerät, Plan „⌚ BRUSTGURT!" — sauberes Signal, kein Optik-Artefakt)
