@@ -116,3 +116,56 @@ HF-Steuerung und Sensor-Handling heute gut (Verity geladen, sauber in Z1, kurz g
 - **Vert**: ~13 hm (Workout-Höhenfeld 12,8 m, flach — plausibel, kein Fallback nötig)
 - **Pace**: Ø 6:04/km (moving time) — Ziel 6:40-7:00 → ~36-56s/km zu schnell (4. Recovery-Lauf in Folge zu flott)
 - **HR-Quelle**: Verity Sense (Bluetooth-Gerät, abends geladen — sauberes Signal, kein Optik-Artefakt)
+
+
+## 2026-09-16 - Easy Endurance - Wednesday Analyse
+
+**Geplant**: Easy Endurance 40min. **Z1-Z2 (125-152)**, Pace **6:00-6:30/km, locker aerob**. Deload-Ersatz fürs W37-Bergtempo — kein hartes Tempo, gern leicht hügelig für ~80 hm, aber ohne Ausbelastung. Nach dem Infekt den Motor sauber wieder hochfahren, nicht reißen. Brustgurt.
+**Tatsächliche Ausführung**: 40min / 6,56 km / 526 kcal / 22,2°C. Ø-Pace **6:06/km**. Ø-HF **129**, max **150**, min 74 (3074 Samples, Brustgurt/Bluetooth-Gerät). Zonen: AR 24% · Z1 63% · Z2 13% · Z3-Z5 0%.
+**Persönliches Empfinden**: Nicht angegeben — aus Daten abgeleitet: kontrolliert, ruhig, ohne Effort-Spitzen.
+
+### 🎯 **Herzfrequenz-Analyse**
+
+Zielzone Z1-Z2 (125-152). Tatsächlich Ø **129**, max **150** — **exakt getroffen und nie überzogen.** 100 % der Session in AR/Z1/Z2, **null Samples über 152**, kein einziger Ausrutscher in Z3+. Genau das, was „locker aerob, nicht reißen" heißt. Die Drittel-Progression ist der Hauptbefund: **133 → 128 → 125** — die HF *sinkt* über die Session statt zu driften. Das ist ein Lehrbuch-Easy-Verlauf: Motor sauber hochgefahren, dann sitzt der Puls und geht bei gleicher Pace sogar runter (Aufwärm-Effekt, kardiale Entspannung). Nach einem Infekt genau das Signal, das man sehen will — kein aufwärts kletternder Ermüdungsdrift, sondern ein Herz, das sich einläuft. Sensor einwandfrei (Brustgurt getragen, kein Optik-Artefakt).
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+Ø **6:06/km** bei Zielband **6:00-6:30** — **mitten im Fenster, sauber getroffen.** Und hier der wichtige Kontext: Genau diese Pace (6:04-6:06) war an den Recovery-Tagen viermal in Folge *zu schnell* — heute ist sie **exakt richtig**, weil Easy Endurance dieses Tempo explizit erlaubt. Das ist der Beleg, dass das Problem der letzten Wochen kein Unvermögen ist, sondern eine Zuordnungsfrage: Deine „natürliche" Wohlfühl-Pace ~6:05 gehört auf Easy-Tage, nicht auf Recovery-Tage. Heute war sie am richtigen Tag. HF (Ø 129) bestätigt: 6:06 ist bei deiner aeroben Basis wirklich locker, kein forcierter Effort.
+
+### 🏆 **Was war hervorragend**
+
+- **HF-Disziplin makellos**: Ø 129, max 150, 100 % in Zielzone, null Sample über 152. „Nicht reißen" perfekt umgesetzt.
+- **Fallende HF-Drift** (133→128→125): sauberes Einlaufen, kardiale Entspannung — ideales Post-Infekt-Signal.
+- **Pace am richtigen Tag richtig**: 6:06 im 6:00-6:30-Band. Genau die Pace, die auf Recovery zu schnell war, sitzt hier passend.
+- Dauer punktgenau (40min = Plan). Kein Volumen draufgepackt, Deload-Logik eingehalten.
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Wenig echtes Z2** (13 %): Der Lauf lag schwerpunktmäßig in Z1/AR — für Easy Endurance völlig in Ordnung, aber wenn du den aeroben Motor nach Infekt „sauber hochfahren" willst, hätte etwas mehr oberes Z2 (bis ~150) den Reiz leicht angehoben, ohne zu reißen. Kein Fehler im Deload, nur eine Feinjustierung: Der Lauf war eher am unteren Rand des Auftrags als in der Mitte.
+- **Vert nicht belastbar erfasst**: Höhenfeld/flights-climbed heute nicht auslesbar (HealthKit-Zugriff zeitweise gesperrt). Plan wollte ~80 hm leicht hügelig — nicht verifizierbar. Fürs nächste Mal: Route mit sanftem Profil bewusst wählen, damit die ~80 hm auch anfallen.
+
+### 📈 **Progression vs. Previous Sessions**
+
+- **Kontrast zu den Recovery-Läufen (Di/W37/W36)**: Dort war 6:04-6:13 das hartnäckige Watch-Item (zu schnell). Heute ist dieselbe Pace **korrekt**, weil sie zum Easy-Auftrag passt. Das zeigt klar: Die Baustelle ist die Recovery-Pace, nicht die Easy-Pace — die triffst du im Schlaf.
+- **Post-Infekt-Verlauf W38**: Mo Intervalle Grade A (diszipliniert), Di Recovery C+ (Pace zu flott, HF gut), heute Easy sauber im Band. Der Motor läuft nach der Erkältung rund, HF-Steuerung durchgehend gut.
+- **HF-Drift-Vergleich**: Di driftete die HF *aufwärts* (128→139→138, passte zum Zu-schnell-Werden). Heute *abwärts* (133→128→125) — der gesündere Verlauf, weil Pace und Effort zusammenpassten.
+
+### 🎯 **Bewertung: A**
+
+Auftrag war „locker aerob, Z1-Z2, 6:00-6:30, nicht reißen" — **alles getroffen**: Pace mittig im Band, HF makellos in Zone mit fallendem Drift, Dauer punktgenau, Sensor sauber. Kein A+ nur, weil der Lauf am unteren Rand des aeroben Fensters blieb (viel Z1, wenig Z2) und die geplanten ~80 hm nicht verifizierbar sind. Aber ausführungsseitig ein Vorzeige-Easy-Run — genau der ruhige, kontrollierte Wiederaufbau nach dem Infekt, den der Deload verlangt.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+- **Merksatz mitnehmen**: 6:05/km ist deine **Easy-Pace**, nicht deine Recovery-Pace. Heute richtig zugeordnet — am Do-Recovery (6:40-7:00, Pace-Alarm!) bewusst wieder rausnehmen. Der Unterschied ist genau dieses Tempo-Delta.
+- Für den nächsten Easy-Run mit „Motor hochfahren"-Auftrag: ruhig 5-10min im oberen Z2 (145-152) zulassen, damit der aerobe Reiz etwas höher liegt — ohne zu reißen.
+- Do ist Recovery 25min Z1: **Pace-Alarm 6:40** bleibt Pflicht, bis drei saubere Recovery-Läufe stehen.
+
+### Detailed Metrics
+
+- **Workout**: Running, 2026-09-16 12:02-12:54, 40min moving, 6,56 km, 526 kcal, 22,2°C
+- **HF**: Ø 129, min 74, max 150 (3074 Samples); Drittel 133 / 128 / 125 (fallend — sauberes Einlaufen)
+- **Zonen (Zeit)**: AR 24% · Z1 63% · Z2 13% · Z3-Z5 0% (100% in Zielzone Z1-Z2/AR, null Sample >152)
+- **Vert**: nicht belastbar erfasst — HealthKit-Zugriff (Höhenfeld/flights-climbed) während des Laufs zeitweise gesperrt; Plan-Ziel ~80 hm nicht verifizierbar
+- **Pace**: Ø 6:06/km (moving time) — Zielband 6:00-6:30 → mittig getroffen
+- **Run-Dynamik**: nicht verfügbar (running-power/stride/ground-contact-Samples während gesperrtem HealthKit-Fenster leer)
+- **HR-Quelle**: Brustgurt (Bluetooth-Gerät, Plan „⌚ BRUSTGURT!" — sauberes Signal, kein Optik-Artefakt)
