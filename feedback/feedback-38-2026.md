@@ -170,3 +170,63 @@ Auftrag war „locker aerob, Z1-Z2, 6:00-6:30, nicht reißen" — **ausführungs
 - **Pace**: Ø 6:06/km (moving time) — Zielband 6:00-6:30 → mittig getroffen
 - **Run-Dynamik**: nicht verfügbar — die Watch hat für diese Session keine Power/Stride/Ground-Contact/Speed-Samples aufgezeichnet (nicht Lock-bedingt, Daten existieren schlicht nicht)
 - **HR-Quelle**: Brustgurt (Bluetooth-Gerät, Plan „⌚ BRUSTGURT!" — sauberes Signal, kein Optik-Artefakt)
+
+## 2026-09-17 - Recovery Run - Thursday Analyse
+
+**Geplant**: Recovery Run 25min, **Z1 only (125-142) ⚠️ NICHT ÜBER 142**, Pace **6:40-7:00/km bewusst langsam**, HF Richtung Ø 130. Aktive Erholung, Beine locker. Abends Kraft Tag 2 Beine/Gesäß. Brustgurt.
+**Tatsächliche Ausführung**: 25min moving / 3,74 km / 279 kcal / 17,5°C. Ø-Pace **6:41/km** — **exakt im Zielband**. Ø-HF **127,5**, min 94, max **139** (1742 Samples, Brustgurt/Bluetooth). Null Sample über Z1. Vert praktisch 0 (0 flights climbed) — flach, aber für Recovery irrelevant.
+**Persönliches Empfinden**: Nicht angegeben — aus Daten abgeleitet: kontrolliert, diszipliniert, endlich sauber gebremst.
+
+### 🎯 **Herzfrequenz-Analyse**
+
+Zielzone strikt Z1 (125-142), NICHT über 142 — **makellos umgesetzt**:
+
+| Zone | Bereich | Zeit |
+|------|---------|------|
+| Aktive Erholung | ≤124 | 19,3% |
+| **Z1** | 125-142 | **80,7%** |
+| Z2 | 143-152 | **0%** |
+| Z3-Z5 | 153+ | **0%** |
+
+**Kein einziger Sample über 139 bpm** — die 142er-Obergrenze wurde nie auch nur angetestet, max lag mit 139 sicher drunter. Ø 127,5 trifft die „Richtung 130"-Vorgabe punktgenau. Drittel-Progression **130 → 129 → 123** (fallend) — das ideale Recovery-Bild: HF sinkt zum Ende, kein Aufwärtsdrift, kein Zu-schnell-Werden. Sauberes Brustgurt-Signal (Bluetooth-Gerät), keine Optik-Artefakte wie beim W37-Comeback.
+
+### ⏱️ **Pace-Analyse (min/km)**
+
+**Ø 6:41/km (Moving Time, 25min / 3,74 km) — punktgenau am unteren Rand des Zielbands 6:40-7:00.** Die verstreuten Speed-Samples (nur 20, mit Geh-/Pausenanteilen) sind für die Pace-Aussage unbrauchbar; die Moving-Time-Rechnung ist die belastbare Größe. Das ist die eigentliche Nachricht des Tages: **Nach W36 (6:06), W37-Fr (6:13) und drei Wochen Mahnung ist der Recovery-Lauf endlich WIRKLICH langsam.** Erstmals seit Wochen sitzt die Recovery-Pace genau da, wo sie hingehört.
+
+### 🏆 **Was war hervorragend**
+
+- **Das Watch-Item ist geknackt.** 6:41/km statt der gewohnten 6:0x — bewusst gebremst, HF folgt sauber. Genau der „Vorzeige-Recovery-Lauf", den der Plan diese Woche gefordert hat. Nach vier Wochen Ansage: geliefert.
+- **HF-Disziplin lehrbuchreif**: 100% in AR+Z1, null Sample in Z2 oder höher, max 139 mit ordentlichem Puffer zur 142er-Grenze. Fallender Drittel-Drift (130→129→123) statt aufwärts.
+- **Sensor-Setup korrekt**: Brustgurt geladen und getragen, sauberes Signal — die W37-Lehre (Verity leer → blind laufen) sitzt.
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Wochen-Vert-Loch wächst.** Heute flach (0 hm) — für einen Recovery-Lauf völlig okay, HF/Pace hatten Vorrang. Aber die Bilanz: Mo ~357 (top), Mi nur ~21 statt ~80, heute 0. Das ~350er-Wochen-Vert-Ziel wird **allein vom So Long Run getragen** — der muss jetzt seine ~200 hm liefern UND idealerweise die ~60 hm aus Mi mitnehmen, sonst landet W38 spürbar unter Vert-Ziel. Für den Vienna Trail (~1000 hm) ist Vert die Währung — im Kopf behalten.
+- Sonst nichts. Der Auftrag war Recovery, und der war heute mustergültig.
+
+### 📈 **Progression vs. Previous Sessions**
+
+- **Der Durchbruch**: W36 Di 6:06 → W37 Fr 6:13 → **W38 Do 6:41**. Erstmals seit drei Recovery-Läufen im Zielband. Der Di dieser Woche war mit zu flotter Pace noch C+; heute richtig gebremst → deutlicher Schritt nach vorn.
+- **HF-Drift-Vergleich**: Di driftete aufwärts (Zu-schnell-Symptom), heute fallend (130→123) — der gesunde Verlauf, weil Effort und Pace zusammenpassten.
+- **Post-Infekt-Verlauf W38**: Mo Intervalle A · Di Recovery C+ · Mi Easy A- · **Do Recovery — endlich sauber**. Der Deload läuft rund, HF-Steuerung durchgehend gut, Sensor sauber. Der Motor ist nach der Erkältung voll da.
+
+### 🎯 **Bewertung: A**
+
+Der Auftrag war eng definiert — strikt Z1, nicht über 142, 6:40-7:00, HF Richtung 130 — und **jeder einzelne Parameter wurde getroffen**: Pace exakt im Band (6:41), HF makellos (Ø 127, max 139, 100% AR+Z1), fallender Drift, Brustgurt-Signal sauber, Dauer punktgenau. Nach drei Wochen als hartnäckigem Watch-Item ist das der Recovery-Lauf, auf den der Coach gewartet hat. Kein A+ nur, weil die Latte für einen 25-Minuten-Recovery-Lauf niedrig liegt — aber die Ausführung war exakt das, was verlangt wurde.
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+- **Genau so weiter.** Das ist jetzt die Referenz für künftige Recovery-Läufe: 6:41/km, HF um 127, unter 142 deckeln. Merk dir das Tempo-Gefühl — es ist deutlich langsamer als es sich „richtig" anfühlt, und genau deshalb korrekt.
+- **So Long Run trägt jetzt die Vert-Woche**: nach flachem Mi+Do muss der Long Run seine ~200 hm sicher liefern (hügelige Loops), gern ~60 hm mehr, um das W38-Ziel ~350 hm zu retten. Fr ist Ruhetag — heute abend Kraft Tag 2 wie geplant.
+- Ein subjektives Empfinden-Log wäre schön (Beine nach Mo-Intervallen locker/schwer?) — hilft, den Deload-Verlauf einzuordnen.
+
+### Detailed Metrics
+
+- **Workout**: Running, 2026-09-17 11:54-12:24, 25min moving, 3,74 km, 279 kcal, 17,5°C
+- **HF**: Ø 127,5, min 94, max 139 (1742 Samples); Drittel 130 / 129 / 123 (fallend — ideales Recovery-Bild)
+- **Zonen (Zeit)**: AR 19,3% · Z1 80,7% · Z2 0% · Z3-Z5 0% (100% in/unter Zielzone Z1, null Sample >139)
+- **Vert**: 0 hm (0 flights climbed, Höhenfeld leer) — flach gelaufen, für Recovery irrelevant; reißt aber weiter am Wochen-Vert-Ziel (~350 hm)
+- **Pace**: Ø 6:41/km (Moving Time 25min / 3,74 km) — Zielband 6:40-7:00 → **exakt im Band, unterer Rand**
+- **Run-Dynamik** (nur 20 Samples, grob): Power Ø ~159 W, Stride ~91 cm, Bodenkontakt ~306 ms
+- **HR-Quelle**: Brustgurt / Verity Sense (Bluetooth-Gerät, Plan „⌚ BRUSTGURT!") — sauberes Signal, kein Optik-Artefakt
