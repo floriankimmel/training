@@ -54,7 +54,7 @@ progress aggressively. Only back off for real acute pain, not as routine caution
 | W35 | 75min | 116min (15,1k) | ~300 | 640 (total wk) | Göteborg LR 475 hm, reboot A |
 | W36 | 85min | 85min (12,2k) | ~450 | 685 (total wk) | LR Sa 364 hm A, null Drift; Mo 267 + Mi 54 + Sa 364 |
 | W37 | 95min | Mo Int A only | ~600 | ~270 (Mo) | Erkältung ab Di → Di/Mi/So Keys ausgefallen; nur Mo Hügel-Int 7x3min (A, ~270 hm) |
-| W38 | 75min | | ~350 | | |
+| W38 | 75min | 45+25+40+25min (Mo-Do) + So LR | ~350 | Mo ~357 + Mi ~21 + Do 0 | Deload sauber; Mo Hügel-Int A, Do Recovery A (6:41). LR So (Plan-Tag) |
 | W39 | 100min | | ~700 | | |
 | W40 | 105–120min | | ~800 | | |
 | W41 | 75min | | ~400 | | |
