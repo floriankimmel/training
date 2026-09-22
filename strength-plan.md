@@ -4,14 +4,14 @@
 > [`plans/strength-program-mark-lauren.md`](plans/strength-program-mark-lauren.md) —
 > the coach plans strength from there. Apple Reminders stays the schedule source of truth.
 
-**Last updated**: 2026-09-20 (W39 plan)
+**Last updated**: 2026-09-22 (W39 — zurück auf First Class W1 ab Do)
 
 ## System
 
 - **Method**: Mark Lauren (bodyweight), from the book.
 - **Programs digitized**: First Class für Trainingserfahrene (W1–W10, complete) + Master Class für Fortgeschrittene (W1–W10, complete).
-- **Current program week (calendar W39)**: **Master Class — Woche 1 (Muskuläre Ausdauer / Stufenintervalle, S.249) — Start Master Class.** W38 hat First Class Woche 10 (Abschluss) absolviert. W39 = Tag 1-4 auf Di/Do/Fr/Sa (kein Kraft Mo → Intervalle).
-- **Advance rule**: one program-week per calendar week. Nach W39 (Master Class W1) → W40 = Master Class Woche 2 (gleiches Tableau S.249).
+- **Current program week (calendar W39)**: **First Class — Woche 1 (Muskuläre Ausdauer / Stufenintervalle, S.242) — Restart First Class.** Master Class war zu viel → zurück auf First Class für Trainingserfahrene. Di kein Kraft (nicht gemacht), **Start ab Do**: Tag 1-3 auf Do/Fr/Sa (Tag 4 entfällt W39).
+- **Advance rule**: one program-week per calendar week. Nach W39 (First Class W1) → W40 = First Class Woche 2 (gleiches Tableau S.242, dann Tag 1-4 komplett).
 
 ## How strength gets planned
 

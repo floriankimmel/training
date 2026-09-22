@@ -8,10 +8,10 @@
 
 ## Current pointer
 
-- **Program week as of 2026-08-30 (calendar W36)**: **First Class — Woche 8 (Wechselblock, S.246).**
+- **Program week as of 2026-09-22 (calendar W39)**: **First Class — Woche 1 (Muskuläre Ausdauer / Stufenintervalle, S.242) — Restart.** Master Class (W1 gestartet W39) war zu viel → zurück auf First Class für Trainingserfahrene. Start ab Do (Tag 1-3 Do/Fr/Sa, Tag 4 entfällt W39).
 - **Advance rule**: one program-week per calendar week (W35 → First Class W8, etc.),
   unless illness/injury forced a skip — then confirm whether to repeat or advance.
-- After First Class W10 → continue with Master Class W1+2.
+- Nach W39 (First Class W1) → W40 = First Class W2 (gleiches Tableau S.242, Tag 1-4 komplett).
 - Task format when scheduling: `💪 Kraft Tag X: <Bezeichnung>` + exercises with page refs (see `kraft-plan` skill).
 
 ## Legend

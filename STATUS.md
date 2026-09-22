@@ -25,8 +25,8 @@
 ## Current Phase
 
 - **Block**: Peak 1 (W39) — race-spezifischer Aufbau nach Deload. Toe fracture healed — no longer a limiter.
-- **This week (W39)**: kein Reise-Event. **Mo Hügel-Intervalle 6x3min Z4** (~200 hm), **Mi Bergtempo 3x8min Z3** (~150 hm, sustained climb), **So Long Run 100min/1:40 + 500-600 hm** race-spezifisch (Details folgen). Recovery Di/Do strikt Z1 UND langsam (Watch-Item gelöst — halten). Weekly Vert ~700 hm. Fuel-Praxis start am LR. Kraft → Master Class **Woche 1** (Start; Tag 1-4 Di/Do/Fr/Sa).
-- **Next (W40)**: Peak 2 — LR 105-120min/1:45-2:00, Vert ~800, Fuel-Rehearsal (längster + steilster). Dann W41 Taper 1. Kraft → Master Class W2.
+- **This week (W39)**: kein Reise-Event. **Mo Hügel-Intervalle 6x3min Z4** (~200 hm), **Mi Bergtempo 3x8min Z3** (~150 hm, sustained climb), **So Long Run 100min/1:40 + 500-600 hm** race-spezifisch (Details folgen). Recovery Di/Do strikt Z1 UND langsam (Watch-Item gelöst — halten). Weekly Vert ~700 hm. Fuel-Praxis start am LR. Kraft → **zurück auf First Class Woche 1** (Restart, Master Class war zu viel; Tag 1-3 Do/Fr/Sa, Tag 4 entfällt W39).
+- **Next (W40)**: Peak 2 — LR 105-120min/1:45-2:00, Vert ~800, Fuel-Rehearsal (längster + steilster). Dann W41 Taper 1. Kraft → First Class W2.
 
 ## Recent Progression
 
@@ -39,7 +39,7 @@
 | W36 | Build 2: Intensität zurück | **Vorzeige-Woche**: Mo Hügel-Int 7x3min→6x3min Z4 88-95% TiZ (A); Mi Bergtempo 3x8min Z3 90-92% TiZ (A-, real 159 hm / 89 hm uphill in Blöcken — alte "54 hm" war barometrischer Fehler); Sa LR 85min/12,2k, HF 137, null Drift bei 25,5°C, ~364 hm (A); Kraft Woche 8 Tag 1-5. Wochen-Vert ~790 hm ✅ |
 | W37 | Build 3 gestört | Mo Hügel-Int 7x3min Z4 **A** (7/7 Reps 88-94% TiZ, max 174 gedeckelt, ~270 hm); dann **Erkältung** → Di/Mi/So Keys weg; Fr Comeback-Recovery 35min **C+** (Brust frei, aber 6:13 zu flott). Kein LR (krank). Kraft Woche 9 |
 | W38 | Deload | Mo Hügel-Int 5x3min A (~357 hm) + Mi Easy 40min A- (flach ~21 hm) + Do Recovery A (**6:41 — Watch-Item geknackt**); So LR 75min (Plan-Tag). Vert ~350 hm; Kraft W10 (Abschluss First Class) |
-| W39 | Peak 1 | Hügel-Int 6x3min + Bergtempo 3x8min Z3 + LR 100min/500-600 hm race-spez.; Vert ~700; Fuel-Praxis start; Kraft Master Class W1 — *geplant, LR-Details folgen* |
+| W39 | Peak 1 | Hügel-Int 6x3min + Bergtempo 3x8min Z3 + LR 100min/500-600 hm race-spez.; Vert ~700; Fuel-Praxis start; Kraft zurück auf First Class W1 (Tag 1-3 Do/Fr/Sa) — *geplant, LR-Details folgen* |
 
 ## Open Watch-Items
 
