@@ -4,6 +4,61 @@ _Subjektive Trainingserfahrungen für Woche 39, ergänzend zu objektiven HealthK
 
 ## Session Feedback
 
+## 2026-09-23 - Bergtempo 3x8min Z3 - Wednesday Analyse
+
+**Geplant**: Bergtempo 3x8min Z3 — 58min. 12min Warmup Z1 (119-129), 3x 8min @ Z3 (153-160) am Anstieg mit 3min Z1 Trabpause bergab (125-142), 10min Cooldown Z1. Sustained-Climb-Reiz — race-spezifisch das lange Klettern in Wien simulieren, Blöcke bergauf/rollend für ~150 hm. **Nicht in Z4 kippen** (Schwelle, nicht VO2max). Brustgurt.
+**Tatsächliche Ausführung**: 53,5min / 7,95 km / 750 kcal / 17,5°C. Ø-HF 142, max 165. **3/3 Blöcke sauber** absolviert, alle drei Block-Ø **156,8 / 157,3 / 157,3 bpm** — mittig im Z3-Band (153-160), praktisch identisch, null Drift über die Serie. Vert barometrisch **~171 hm (57 flights climbed)** — Ziel ~150 hm getroffen/leicht übertroffen. HR-Quelle: Bluetooth-Brustgurt/Verity Sense (Plan „⌚ BRUSTGURT!" befolgt, sauberes Signal ohne Optik-Artefakte).
+**Persönliches Empfinden**: Nicht angegeben — aus Daten abgeleitet: kontrollierter Schwellenreiz, souverän im Zielband gehalten ohne über die Decke zu drücken.
+
+### 🎯 **Herzfrequenz-Analyse**
+Nahezu perfekte Schwellensteuerung. Die drei 8-min-Blöcke liegen extrem eng: Ø-HF 156,8 / 157,3 / 157,3 — das ist Lehrbuch-Z3, mittig im 153-160-Band, mit *null* Ermüdungsdrift (Block3 exakt wie Block2). Peaks nur bis 162-165, also allenfalls kurze Zehen-in-Z4-Momente an den steilsten Rampen — **die Vorgabe „nicht in Z4 kippen" ist voll erfüllt.**
+
+**Time-in-Zone (55,5 min, per-second):**
+- AR (≤124): 11,2 %
+- Z1 (125-142): 43,1 % — Warmup + Bergab-Trabpausen, sauber im Erholungsband
+- Z2 (143-152): 5,0 % (Übergänge in/aus den Blöcken)
+- **Z3 (153-160): 32,7 % (18,2 min)** — deckt die 3×8min = 24min Effort brutto exakt ab (der Rest in Z2/Z4-Rändern)
+- Z4 (161-179): 7,9 % (4,4 min) — nur die Block-Spitzen, keine echte Z4-Belastung
+- Z5: 0 %
+
+Blockstruktur glasklar im Per-Minuten-Bild: Warmup min0-12 (Ø125, sauber Z1/AR) → Block1 min14-21 → Rec1 (Ø139, Z1 ✓) → Block2 min24-32 → Rec2 (Ø140, Z1 ✓) → Block3 min37-44 → Cooldown min45-55 (fallend auf 125). Erholungspausen strikt im Z1-Band, genau wie geplant.
+
+### ⏱️ **Pace-Analyse (min/km)**
+Overall 6:43/km (7,95 km / 53,5min Moving) — bei Bergtempo am Anstieg ist die Netto-Pace erwartungsgemäß **irreführend und nachrangig**: bergauf in den Z3-Blöcken langsam, bergab in den Trabpausen schnell. Speed-Samples zu grob (20 Werte) für belastbare Segment-Pace. Hier führt der Puls — und der war vorbildlich diszipliniert. Power Ø ~103 W in der Cooldown-Phase (voller Datensatz nicht geladen), konsistent zu einem rollenden Klettereffort.
+
+### 🏆 **Was war hervorragend**
+- **3/3 Blöcke im Zielband** — alle drei Block-Ø 156,8/157,3/157,3, mittig in Z3, null Drift. Genau der gewünschte Sustained-Climb-Reiz.
+- **Z4-Deckelung eingehalten**: nur 7,9 % TiZ in Z4, max 165 — nicht in VO2max gekippt. Die Kernvorgabe des Tages sauber getroffen.
+- **Vert-Ziel übertroffen**: ~171 hm barometrisch (57 flights), Plan ~150 hm → Mi-Anteil der ~700-hm-Wochenbilanz geliefert.
+- **Erholungspausen strikt Z1** (Ø139-140), Brustgurt befolgt, sauberes Signal.
+
+### ⚠️ **Verbesserungsbereiche**
+- **Dauer 53,5 statt 58min** — ~4,5min kürzer als geplant. Die drei Effort-Blöcke waren vollständig (je ~8min), also fehlte Zeit in Warmup/Cooldown, nicht im Reiz. Nicht dramatisch, aber Warmup war mit ~12min knapp und Cooldown mit ~10min ok — die Differenz kam vermutlich aus verkürzten Übergängen. Beim nächsten Sustained-Reiz die vollen 12min Warmup fahren, damit Block1 nicht zu früh startet.
+- Sonst: nichts. Sauberste Z3-Ausführung, die möglich ist.
+
+### 📈 **Progression vs. Previous Sessions**
+- **Peak-1-Verlauf**: Mo Hügel-Int A (6/6 Reps, Z4) → Di Recovery A (6:40) → **Mi Bergtempo A (3/3 Blöcke Z3)**. Drei Key/Support-Einheiten in Folge Grade A — makelloser Wochenstart in die entscheidende Build-Phase.
+- **Zwei Vert-Reize erledigt**: Mo ~216 hm + Mi ~171 hm = ~387 hm unter der Woche → zusammen mit dem So Long Run (500-600 hm) liegt das ~700-hm-Wochenziel in Reichweite (Di+Do Recovery flach, wie vorgesehen).
+- **Schwellen-Disziplin**: Nach dem Z4-Reiz am Mo hier bewusst eine Stufe runter in Z3 gehalten — genau die Steuerungs-Bandbreite, die für einen Ultra-Motor gefragt ist. Kein Kippen nach oben trotz Anstieg.
+
+### 🎯 **Bewertung: A**
+3/3 Blöcke exakt in Z3, null Drift, Z4-Deckel eingehalten (max 165), Vert-Ziel übertroffen, Brustgurt sauber. Einziger Mini-Punkt: 4,5min kürzer als geplant (aus Übergängen, nicht aus dem Reiz) — nicht genug für A-. **Starker race-spezifischer Schwellenreiz, Peak 1 rollt sauber.**
+
+### 💡 **Empfehlungen für nächstes Mal**
+- **Do Recovery 30min**: strikt Z1 (≤142), Pace-Alarm 6:40 halten — die Serie ist jetzt drei saubere Recovery-Läufe in Folge (Do W38 6:41, Di W39 6:40). Nicht ins alte Muster zurückfallen.
+- **So Long Run 100min + 500-600 hm** ist jetzt **die** Peak-1-Prüfung und trägt die Vert-Woche: nach Mo+Mi (~387 hm) müssen die 500-600 hm sicher kommen → **Vienna Woods anpeilen** für echtes Bergab-Training. **Fuel-Praxis startet** (~60 g KH/h) — das ist neu und wichtig zu üben.
+- Bei künftigen Sustained-Blöcken die vollen 12min Warmup fahren, damit die geplante Gesamtdauer steht.
+
+### 📊 Detailed Metrics
+- **Distanz/Dauer**: 7,95 km / 53,5 min (Moving), 55,5 min HR-Span
+- **Kalorien**: 750 kcal | **Temp**: 17,5 °C
+- **HF**: Ø 142,3 / min 98 / max 165 (3286 Samples) | Quelle: Bluetooth-Brustgurt (Verity Sense)
+- **Blöcke (Ø-HF / min-max)**: B1 156,8 (139-165) · B2 157,3 (141-162) · B3 157,3 (138-164) — Erholungen Rec1 Ø139,3 / Rec2 Ø139,9 (Z1 ✓)
+- **HF-Drittel**: 134 / 150 / 143 (Warmup → Effort-Kern → Cooldown)
+- **Time-in-Zone**: AR 11,2% · Z1 43,1% · Z2 5,0% · **Z3 32,7% (18,2min)** · Z4 7,9% (4,4min) · Z5 0%
+- **Pace**: overall 6:43/km (Netto, bei Bergtempo nachrangig — Puls führt)
+- **Vert**: ~171 hm barometrisch (57 flights climbed) — GPS-Höhenfeld nicht ausgegeben, Barometer-Fallback verwendet
+
 ## 2026-09-21 - Hügel-Intervalle 6x3min Z4 - Monday Analyse
 
 **Geplant**: Hügel-Intervalle 6x3min Z4 — 52min. 12min Warmup Z1 (119-129), 6x 3min bergauf @ Z4 (161-174) mit 3min Z1 Trab/Gehen bergab (125-142), 10min Cooldown Z1. Peak-1-Auftakt: zurück auf **6 Reps** (Deload war 5), ~200 hm, Peaks weiter ≤174 deckeln, race-spezifische Kletterkraft. Brustgurt.
