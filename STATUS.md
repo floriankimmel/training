@@ -44,6 +44,8 @@
 
 ## Open Watch-Items
 
+- **📌 NÄCHSTE-WOCHEN-PLANUNG (heute 21:00)**: Beim Erstellen des neuen Wochenplans fest einbauen — **Mi = Testrun**, **So = Race**. Woche entsprechend aufbauen (Testrun Mittwoch, Taper → Race Sonntag).
+
 - **⛔ Zehenbruch #2 (aktiv)**: kleiner Zeh, Mi 30.09. Komplette Laufpause ~2 Wochen. Erst schmerzfrei → Comeback-Protokoll (injuries.md). Bergab-Push-off stresst Zeh am meisten — flach beginnen.
 - **Race-Entscheid Vienna 18.10 — vertagt auf ~14.10**: erst erster schmerzfreier Comeback-Lauf, dann Go/No-Go. Bei Start: nur Finish/Erlebnis ohne Zeitziel, konservativ, Abbruch bei Zeh-Schmerz.
 - **LR-Details W39 offen**: So Long Run Route + Vert-Verteilung kommen noch vom Athleten — Sonntag dann finalisieren (Vienna Woods anpeilen für Bergab-Praxis).
