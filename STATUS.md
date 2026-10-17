@@ -24,7 +24,7 @@
 
 - **Block**: 🔄 **Neustart nach Zehenbruch #2.** Vienna Trail Run = DNS. Zeh noch nicht geheilt, Comeback-Gate 14.10 nicht bestanden.
 - **Laufpause gesamt**: W40 ab Mi (30.09.) bis inkl. W42 = ~3 Wochen. Letzter Lauf war W39 Mi Bergtempo (23.09.).
-- **This week (W43, 19.-25.10.)**: **Wiedereinstiegs-Woche.** Coach soll planen: vorsichtiger Z1-Aufbau analog W33-Protokoll (2-3 kurze Z1-Läufe, flach, weich, schmerzfrei-Check). Kein Intensitätsblock, kein Vert-Ziel.
+- **This week (W43, 19.-25.10.)**: **Wiedereinstiegs-Woche.** Coach soll planen: vorsichtiger Z1-Aufbau analog W33-Protokoll (2-3 kurze Z1-Läufe, flach, weich, schmerzfrei-Check). Kein Intensitätsblock, kein Vert-Ziel. **Radfahren geht** — Zeh wird beim Radeln nicht belastet, Cross-Training als aerobe Basis einplanbar.
 - **Next**: W43 Plan befüllen, dann je nach Schmerzfreiheit steigern.
 
 ## Recent Progression
