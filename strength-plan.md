@@ -4,14 +4,14 @@
 > [`plans/strength-program-mark-lauren.md`](plans/strength-program-mark-lauren.md) —
 > the coach plans strength from there. Apple Reminders stays the schedule source of truth.
 
-**Last updated**: 2026-09-22 (W39 — zurück auf First Class W1 ab Do)
+**Last updated**: 2026-10-18 (W43 — First Class W1 echter Restart nach Zehenbruch-Pause)
 
 ## System
 
 - **Method**: Mark Lauren (bodyweight), from the book.
 - **Programs digitized**: First Class für Trainingserfahrene (W1–W10, complete) + Master Class für Fortgeschrittene (W1–W10, complete).
-- **Current program week (calendar W39)**: **First Class — Woche 1 (Muskuläre Ausdauer / Stufenintervalle, S.242) — Restart First Class.** Master Class war zu viel → zurück auf First Class für Trainingserfahrene. Di kein Kraft (nicht gemacht), **Start ab Do**: Tag 1-3 auf Do/Fr/Sa (Tag 4 entfällt W39).
-- **Advance rule**: one program-week per calendar week. Nach W39 (First Class W1) → W40 = First Class Woche 2 (gleiches Tableau S.242, dann Tag 1-4 komplett).
+- **Current program week (calendar W43)**: **First Class — Woche 1 (Muskuläre Ausdauer / Stufenintervalle, S.242) — echter Restart.** W39-Restart fiel wegen Zehenbruch #2 (30.09) aus → W40–W42 kein (fußbelastetes) Kraft. W43 startet First Class W1 **komplett Tag 1–4** (Mo/Mi/Fr/Sa): Oberkörper-Tage 1+3 auf Mo/Fr (zehenschonend), Bein-Tage 2+4 auf Mi/Sa **mit Sprung-Caveat** (gesprungene Kniebeuge / Ausfallschritt nur bei schmerzfreiem Zeh).
+- **Advance rule**: one program-week per calendar week. Nach W43 (First Class W1) → W44 = First Class Woche 2 (gleiches Tableau S.242, Tag 1-4 komplett).
 
 ## How strength gets planned
 

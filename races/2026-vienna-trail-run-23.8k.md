@@ -1,8 +1,15 @@
 # Vienna Trail Run 2026 - 23.8km - CURRENT RACE
 
-> **Status**: Current target race for 2026
+> **Status**: ⛔ **DNS (Did Not Start) — 2026-10-18.** Zehenbruch #2 (kleiner Zeh, 30.09.2026) nicht rechtzeitig verheilt. Kein schmerzfreies Lauf-Comeback vor Renntag → bewusster Nichtantritt. Kein Rennversuch, keine Renndaten.
 > **Training Start**: Week 21, 2026 (Monday 2026-05-18)
 > **Data source**: HealthFit `.fit` only (offline)
+
+## Race Outcome
+
+- **Result**: **DNS** — nicht angetreten.
+- **Reason**: Zehenbruch #2 am 2026-09-30 (kleiner Zeh, non-training). ~2 Wochen Laufpause + kein schmerzfreies Comeback bis zum Renntag. Bergab-Push-off hätte Zeh zu stark gestresst.
+- **Decision date**: Go/No-Go am Comeback-Gate (Mitte Oktober) → No-Go, Default DNS griff.
+- **Lesson**: Verletzung ~2,5 Wochen vor Zielrennen = kein race-ready Zustand erzwingbar. Richtig: DNS statt Risiko-Start auf nicht verheiltem Knochen.
 
 ## Race Details
 
