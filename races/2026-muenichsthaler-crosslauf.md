@@ -1,5 +1,7 @@
 # Münichsthaler Crosslauf 2026
 
+> **Status**: 🟡 **Bedingtes Stretch-Ziel mit Go/No-Go-Gate** (gesetzt 2026-10-18). Nachfolger von Vienna Trail Run (⛔ DNS). Zehenbruch #2 (30.09.) noch in Heilung, Laufen pausiert → Race in 8 Tagen nach DNS. **Kein Zeitziel**: nur Teilnahme/zeitfreier Finish wenn Zeh seit Tagen schmerzfrei + flacher Z1-Testlauf ok. Hügel-Push-off (~223 hm Cross) stresst Zeh am meisten → kein erzwungener Start. Default bei Schmerz = DNS/Downgrade.
+
 ## Race Details
 
 **Event**: Hauptlauf - Crosslauf und Nordic Walking am Nationalfeiertag

@@ -3,7 +3,7 @@
 > Single source for who the athlete is. HR zones live in `zones.md` (do not duplicate here).
 > Current training state lives in `STATUS.md`. Injuries in `injuries.md`. PRs in `benchmarks.md`.
 
-**Last updated**: 2026-08-20
+**Last updated**: 2026-10-18
 
 ## Basics
 
@@ -19,8 +19,8 @@
 
 ## Goals
 
-- **Primary 2026**: Vienna Trail Run — 23.8 km / ~1000 hm — 2026-10-18. Target 2:30–2:45.
-  Full detail: `races/current-race-2026-vienna-trail.md`.
+- **Primary 2026**: Münichsthaler Crosslauf — 10.16 km / ~223 hm — 2026-10-26. **Bedingtes Stretch-Ziel mit Go/No-Go-Gate** (Zehenbruch #2 noch in Heilung, Laufen pausiert). Kein Zeitziel bis Comeback-Testlauf schmerzfrei. Full detail: `races/current-race-2026-muenichsthaler-crosslauf.md`.
+  - *Vorher*: Vienna Trail Run 23.8 km — 2026-10-18 — ⛔ DNS (Zehenbruch #2).
 - **Secondary**: build durable trail/hill fitness, stay injury-free, sustainable routine.
 
 ## Weekly Template (see coach skill for full logic)
