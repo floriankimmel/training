@@ -35,7 +35,7 @@ Each carries a `Last updated` line — treat >30 days stale as a flag.
 **Apple Reminders is the source of truth for the active training schedule.** Whenever a training-plan
 day is added, changed, moved, or cancelled in `trainings/`, mirror it in Apple Reminders in the SAME change:
 create/update/complete/delete the matching task (list 🏅 Trainingsplan, tag `training`,
-`@workout` spec line on running tasks). Rest days = no task.
+`@workout` spec line on running/cycling tasks). Rest days = no task.
 
 Rule: update the relevant file in the SAME change as the plan/feedback, and commit together.
 When unsure if something changed, re-read `STATUS.md` first and reconcile.
