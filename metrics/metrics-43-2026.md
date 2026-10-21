@@ -61,3 +61,32 @@ _Kein Resting-HR-Wert verfügbar._
 #### ❤️ Ruhe-HF
 
 _Kein Resting-HR-Wert verfügbar._
+
+### 2026-10-21 (Mittwoch)
+
+#### 🛏️ Schlaf
+
+| Metrik | Wert |
+|--------|------|
+| Bettzeit | 22:10 – 05:56 |
+| Im Bett | 7h 45min |
+| Schlafzeit | 7h 39min |
+| Effizienz | 99% |
+| Tiefschlaf | 1h 12min (16%) |
+| REM | 2h 00min (26%) |
+| Core/Leicht | 4h 26min (58%) |
+| Wach | 0h 06min |
+
+#### 💓 HRV (SDNN)
+
+| Metrik | Wert |
+|--------|------|
+| Nacht-Ø | 31.0 ms |
+| Tages-Ø | 29.8 ms |
+| Min | 12.9 ms |
+| Max | 46.5 ms |
+| Samples | 7 |
+
+#### ❤️ Ruhe-HF
+
+_Kein Resting-HR-Wert verfügbar._
