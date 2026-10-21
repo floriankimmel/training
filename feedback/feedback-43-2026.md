@@ -101,3 +101,102 @@ B, weil es nicht „etwas zu intensiv" war, sondern ein kompletter Zonen-Fehlgri
 - **Vert**: 225 hm (GPS-Höhe plausibel bei 21,6 km) — welliges Profil, erklärt HF-Wellen aber kein Z4-Plateau
 - **HR-Quelle**: Brustgurt / Verity Sense (Bluetooth-Gerät, Plan „⌚ BRUSTGURT!") — sauberes Signal
 - **DB-Import**: ⏳ ausstehend — Rad-Session, HealthFit-FIT wird beim nächsten `import_fit.py`-Lauf am Mac gezogen (DuckDB läuft nicht auf iSH)
+
+## 2026-10-21 - Rad Aerob (Comeback) - Mittwoch Analyse
+
+> ⚠️ **Hinweis:** Auch heute kein Lauf in HealthKit — nur die geplante Radeinheit. Analyse wie am
+> Montag auf die Comeback-Rad-Session angewandt (Lauf-Feedback-Flow greift formal nicht). HR-Zonen
+> aus `zones.md` (Lauf-geeicht); am Rad liegt die HF real ~5–10 bpm tiefer → die Zonen-Prozente sind
+> eher **konservativ**, die tatsächliche Rad-Belastung relativ noch etwas niedriger.
+
+**Geplant**: Radtraining Mittagspause ~55min, **Z1–Z2 (~125–150 bpm)**, zweite aerobe Einheit.
+„Umfang vor Intensität, locker-stetig. **Wenn Beine gut: letzte ~10min minimal zügiger, aber kein
+harter Reiz.**" (First Class Kraft Tag 2 Beine/Core abends separat — Sprung-Caveat Zeh.)
+
+**Tatsächliche Ausführung**: 58min, 17,5 km, 605 kcal, 17,4 °C. Ø-HF **134,7**, max **165** —
+überwiegend aerob, mit ein paar kurzen Z3-Antippern, sauberem Cool-down. **Das ist diesmal die
+geplante Einheit.**
+
+**Persönliches Empfinden**: nicht angegeben.
+
+### 🎯 **Herzfrequenz-Analyse (Zeit-in-Zone)**
+
+4496 Samples vom Brustgurt (Bluetooth-Gerät) — sauberes Signal.
+
+| Zone | Bereich | Zeit-Anteil |
+|------|---------|-------------|
+| Aktive Erholung | ≤124 | 29,0 % |
+| Z1 | 125–142 | 27,6 % |
+| Z2 | 143–152 | 27,6 % |
+| Z3 | 153–160 | 12,4 % |
+| Z4 | 161–179 | **3,3 % (~2,5 min)** |
+
+**84,2 % der Zeit in AR+Z1+Z2** (≤152) — genau das Zielband. Minutenverlauf:
+
+- **Min 0–8**: lockerer Einstieg, hoch bis ~150 (Z2), kein Reißen.
+- **Min 9–53**: stetiger Haupt­teil im Z1–Z2-Korridor mit **kurzen Z3-Antippern** (Min 13:160,
+  31:158, 38:156, 44:161). Das sind Sekunden-Spitzen an Anstiegen/Ampeln, **kein Plateau** —
+  längster Z3+-Lauf **2min**, längster Z4-Lauf **34 Sekunden**. Verglichen mit Montags 15-min-Z4-Block
+  ist das eine andere Welt.
+- **Min 54–58**: sauberer Cool-down, HF fällt von ~130 auf ~100.
+
+Der erlaubte „letzte 10min minimal zügiger"-Spielraum wurde **nicht** in einen harten Reiz umgedeutet —
+im Gegenteil, das Ende ist der ruhigste Abschnitt. Diszipliniert.
+
+### ⏱️ **Belastungs-/Umfang-Analyse**
+
+- **Dauer 58min** — quasi punktgenau auf den ~55min-Plan (Montag waren es noch 66). Kein stilles
+  Draufpacken. ✅
+- **17,5 km / 605 kcal** — solider aerober Umfang, Intensität sauber gedeckelt. Genau die
+  „Wiederholbarkeit statt Heldentat"-Logik der Comeback-Woche.
+
+### 🏆 **Was war hervorragend**
+
+- **Watch-Item vom Montag umgesetzt.** Vorgabe war HF-Deckel ~150 / 140–148 anpeilen — max 165,
+  Ø 134,7, Z4 von 22,5 % auf 3,3 % gedrückt. Das ist **exakt** die geforderte Korrektur.
+- **Zonen-Disziplin zurück auf September-Niveau** — 84 % im Zielband, Z3+ nur in kurzen
+  Terrain-Antippern statt als Dauerblock.
+- **Umfang gedeckelt** (58 statt 66min), **Brustgurt getragen**, sauberer Cool-down.
+- **Kein Lauf-Impact auf den Zeh** — Grundziel der Woche erneut erfüllt.
+
+### ⚠️ **Verbesserungsbereiche**
+
+- **Kleinigkeit**: die vier Z3-Antipper (156–161) sind an einem reinen Z1–Z2-Aerob-Tag minimal
+  drüber. Nicht tragisch (Sekunden, terrain-getrieben), aber wenn du den Deckel wirklich bei 150
+  halten willst, an den zwei, drei Anstiegen früher runterschalten statt kurz reindrücken.
+- **Vert heute nicht aufgezeichnet** (kein elevation-Feld, flights-climbed ohne Daten im Fenster) —
+  nicht steuerungsrelevant am Aerob-Tag, aber die Wochen-Vert-Bilanz bleibt dadurch lückenhaft.
+
+### 📈 **Progression vs. Previous Sessions**
+
+- **Montag W43 (Rad, C)**: Kern-Vorgabe gerissen — 19,5min Z4, max 176, 33,5 % über Zielzone.
+- **Heute**: dieselbe Vorgabe, **sauber geliefert** — Z4 2,5min, max 165, 15,7 % über Zielzone
+  (fast halbiert), Dauer auf Plan. Das ist genau die Lernkurve, die man nach einem C sehen will:
+  Feedback gelesen, am nächsten Tag umgesetzt. Damit wieder in der Nähe der September-Referenz
+  (W39 Recovery-Lauf A), wenn auch eine Spur über der idealen Linie.
+
+### 🎯 **Bewertung: B+**
+
+Aerober Wiedereinstieg war der Auftrag — und diesmal geliefert. Deckel gehalten, Umfang auf Plan,
+Ein-/Ausstieg sauber, Zeh geschont. Kein glattes A nur wegen der paar Z3-Antipper am reinen
+Aerob-Tag — aber eine klare, disziplinierte Korrektur nach Montag. **So sieht Comeback-Woche aus.**
+
+### 💡 **Empfehlungen für nächstes Mal**
+
+- **Do Rad-Pendeln (2×20min, unteres Z1 ≤135): echte aktive Erholung** — heute war ein solider
+  Aerob-Tag, morgen ist Blutfluss-Tag. Nicht aus Schwung weiter in Z2 fahren.
+- **Deckel-Feintuning**: an bekannten Anstiegen vorausschauend runterschalten → die Z3-Antipper
+  verschwinden, dann ist das A.
+- **Kraft Tag 2 (Beine/Core)**: Sprung-Kniebeuge & Ausfallschritt nur bei **komplett schmerzfreiem**
+  Zeh — sonst auf Haltezeit-Varianten ohne Abdruck ausweichen (Plan-Caveat).
+- **Lauf-Comeback** bleibt gated: erst flacher Z1-Testlauf, wenn der Zeh seit Tagen schmerzfrei ist.
+
+### 📊 Detailed Metrics
+
+- **Workout**: Cycling (UTMB-Quelle), 2026-10-21 11:51–13:06, 58,3min, 17,49 km, 605 kcal, 17,4 °C, outdoor
+- **HF**: Ø 134,7 / min 92 / max 165 (4496 Samples, Brustgurt); Drittel 142 / 147,7 / 114,4 (letztes Drittel = Cool-down)
+- **Zonen (Zeit)**: AR 29,0 % · Z1 27,6 % · Z2 27,6 % · Z3 12,4 % · **Z4 3,3 % (~2,5min)** · Z5 0 % — **84,2 % im Zielband (≤152)**
+- **Z3+-Verlauf**: nur kurze Antipper, längster Z3+-Lauf **2min**, längster Z4-Lauf **34s** (kein Dauerblock — Gegenteil von Montag)
+- **Vert**: nicht aufgezeichnet (kein elevation-Feld, flights-climbed ohne Daten im Workout-Fenster)
+- **HR-Quelle**: Brustgurt / Verity Sense (Bluetooth-Gerät, Plan „⌚ BRUSTGURT!") — sauberes Signal
+- **DB-Import**: ⏳ ausstehend — Rad-Session, HealthFit-FIT wird beim nächsten `import_fit.py`-Lauf am Mac gezogen (DuckDB läuft nicht auf iSH)
