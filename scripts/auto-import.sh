@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Auto-import: git pull (metrics/*.md), new HealthFit .fit files, metrics → db/training.duckdb.
-# Triggered by launchd (WatchPaths on the HealthFit iCloud folder) — see scripts/launchd/.
+# Run daily by Paperclip — see scripts/PAPERCLIP-SYNC.md (launchd is blocked by TCC).
 # Idempotent. Backup (db/backup.sh) at most once per day.
 set -uo pipefail
 

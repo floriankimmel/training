@@ -14,7 +14,7 @@
 - `races/current-race-*.md` — current target race symlink (absent = no active race; archive files in `races/`)
 - `plans/build-plan-vienna-2026.md` — 8-week macro plan: long-run + weekly vertical (hm) progression
 - `trainings/week-XX-YYYY.md` — weekly plans · `feedback/feedback-XX-YYYY.md` — session feedback
-- **Data source**: HealthFit `.fit` only (offline). No Tredict / Strava / Runalyze / MCP. DB auto-import: `scripts/auto-import.sh` (launchd, see `scripts/launchd/README.md`).
+- **Data source**: HealthFit `.fit` only (offline). No Tredict / Strava / Runalyze / MCP. DB sync: `scripts/auto-import.sh`, daily via Paperclip (see `scripts/PAPERCLIP-SYNC.md`).
 - **Load/readiness/outcome**: `db/.venv/bin/python scripts/load_report.py` (TRIMP, ACWR, HRV/RHR gate, pace @ fixed HR) — coach runs it before planning.
 - **Objective analysis**: query `db/training.duckdb` (DuckDB) for real pace/HF/vert trends instead of guessing. Terrain-robust metric = median per-second pace within an HR band (see `benchmarks.md` method note).
 
