@@ -49,7 +49,8 @@ for f in AGENTS.md athlete.md STATUS.md; do
     ok "$f references zones.md (no hardcoded table)"
   fi
 done
-[ -f zones.md ] && grep -Eq '161[–-]179' zones.md && ok "zones.md holds canonical values" || err "zones.md missing canonical zone values"
+# '[–-]' is a reversed/invalid bracket range (en-dash..hyphen) → never matches; use alternation
+[ -f zones.md ] && grep -Eq '161(–|-)179' zones.md && ok "zones.md holds canonical values" || err "zones.md missing canonical zone values"
 
 echo "== 3. forbidden data sources =="
 # HealthFit only. Live-API mentions banned in data docs. AGENTS.md/athlete.md are

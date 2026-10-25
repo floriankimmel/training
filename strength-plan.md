@@ -4,14 +4,15 @@
 > [`plans/strength-program-mark-lauren.md`](plans/strength-program-mark-lauren.md) —
 > the coach plans strength from there. Apple Reminders stays the schedule source of truth.
 
-**Last updated**: 2026-10-18 (W43 — First Class W1 echter Restart nach Zehenbruch-Pause)
+**Last updated**: 2026-10-25 (W44 — First Class W2, Tag 1–4 Mo/Di/Do/Fr; Mo+Di sind Calendar-bedingt radfrei)
 
 ## System
 
 - **Method**: Mark Lauren (bodyweight), from the book.
 - **Programs digitized**: First Class für Trainingserfahrene (W1–W10, complete) + Master Class für Fortgeschrittene (W1–W10, complete).
-- **Current program week (calendar W43)**: **First Class — Woche 1 (Muskuläre Ausdauer / Stufenintervalle, S.242) — echter Restart.** W39-Restart fiel wegen Zehenbruch #2 (30.09) aus → W40–W42 kein (fußbelastetes) Kraft. W43 startet First Class W1 **komplett Tag 1–4** (Mo/Mi/Fr/Sa): Oberkörper-Tage 1+3 auf Mo/Fr (zehenschonend), Bein-Tage 2+4 auf Mi/Sa **mit Sprung-Caveat** (gesprungene Kniebeuge / Ausfallschritt nur bei schmerzfreiem Zeh).
-- **Advance rule**: one program-week per calendar week. Nach W43 (First Class W1) → W44 = First Class Woche 2 (gleiches Tableau S.242, Tag 1-4 komplett).
+- **Current program week (calendar W44)**: **First Class — Woche 2 (Muskuläre Ausdauer / Stufenintervalle, S.242).** Gleiches Tableau wie W1, Progression über **Wiederholungen pro Stufe**, nicht über neue Übungen. W44 **Tag 1–4 komplett** auf **Mo/Di/Do/Fr** — Mo+Di sind laut `calendar.md` radfrei (nur Kraft), Fr-Beintag liegt bewusst zwei Tage vor der langen Sonntags-Ausfahrt. Zeh seit Tagen schmerzfrei → **Sprungübungen freigegeben, kontrolliert landen**; bei Zehen-Signal Sprung raus (tiefe Kniebeuge mit Haltezeit).
+- **W43 Ist**: nur 3 von 4 Tagen absolviert (Tag 4 Sa 24.10 ausgefallen).
+- **Advance rule**: one program-week per calendar week. Nach W44 (First Class W2) → W45 = First Class **Woche 3** (Kraft / Intervallsätze, S.243 — neues Tableau).
 
 ## How strength gets planned
 
