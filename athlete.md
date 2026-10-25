@@ -19,8 +19,8 @@
 
 ## Goals
 
-- **Primary 2026**: Münichsthaler Crosslauf — 10.16 km / ~223 hm — 2026-10-26. **Bedingtes Stretch-Ziel mit Go/No-Go-Gate** (Zehenbruch #2 noch in Heilung, Laufen pausiert). Kein Zeitziel bis Comeback-Testlauf schmerzfrei. Full detail: `races/current-race-2026-muenichsthaler-crosslauf.md`.
-  - *Vorher*: Vienna Trail Run 23.8 km — 2026-10-18 — ⛔ DNS (Zehenbruch #2).
+- **Primary 2026**: kein aktives Zielrennen. Vienna Trail Run 23.8 km — 2026-10-18 — ⛔ DNS (Zehenbruch #2). Full detail: `races/2026-vienna-trail-run-23.8k.md`.
+  - *Entfallen*: Münichsthaler Crosslauf 26.10 — kein Start (entschieden 2026-10-25).
 - **Secondary**: build durable trail/hill fitness, stay injury-free, sustainable routine.
 
 ## Weekly Template (see coach skill for full logic)

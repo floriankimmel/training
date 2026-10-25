@@ -11,8 +11,7 @@
 
 ## Current Target
 
-- **Race**: Münichsthaler Crosslauf — 10.16 km / ~223 hm — 2026-10-26 — 🟡 **bedingtes Stretch-Ziel mit Go/No-Go-Gate** (Zehenbruch #2 in Heilung, Laufen pausiert, Race in 8 Tagen nach Vienna-DNS)
-- **Gate**: Go/No-Go am Lauf-Comeback — nur Teilnahme/zeitfreier Finish wenn Zeh seit Tagen schmerzfrei + flacher Z1-Testlauf ok. Crosslauf-Push-off (Hügel) stresst Zeh → kein erzwungener Start. **Kein Zeitziel.**
+- **Race**: kein aktives Zielrennen — Münichsthaler Crosslauf 26.10 = ⛔ kein Start (entschieden 2026-10-25)
 - **Vorher**: Vienna Trail Run — 23.8 km / ~1000 hm — 2026-10-18 — ⛔ DNS (Zehenbruch #2, nicht angetreten)
 
 ## Long Run / Vert Progression
@@ -25,7 +24,7 @@
 
 - **Block**: 🚴 **Comeback-Wiederaufbau (Rad-geführt) nach Zehenbruch #2.** Vienna-Kapitel abgeschlossen. Laufen noch pausiert (Zeh-Abdruck), aerober Aufbau per Rad.
 - **This week (W43, 19.-25.10.)**: **Rad statt Lauf** — Mo+Mi Mittags-Aerob ~55min (Z1-Z2), Di+Do Erholungs-Pendeln 2×20min, So optionale lange Ausfahrt 75-90min. Keine Rad-Intervalle. **Kraft-Restart First Class W1 Tag 1-4** (Mo/Mi/Fr/Sa), Bein-Tage mit Sprung-Caveat. Kein Lauf-Reiz.
-- **Offene Daten**: W42 Comeback-Testlauf 14.10 ist in diesem Repo **nicht geloggt** (kein Feedback-File). **Vienna 18.10 = DNS** (Zehenbruch #2, No-Go am Comeback-Gate) — geloggt in `races/current-race-2026-vienna-trail.md` + `injuries.md`.
+- **Offene Daten**: W42 Comeback-Testlauf 14.10 ist in diesem Repo **nicht geloggt** (kein Feedback-File). **Vienna 18.10 = DNS** (Zehenbruch #2, No-Go am Comeback-Gate) — geloggt in `races/2026-vienna-trail-run-23.8k.md` + `injuries.md`.
 - **Next**: Zeh im Alltag beobachten. Sobald **seit Tagen schmerzfrei** → erster kurzer flacher Z1-Testlauf (nächste Woche frühestens), dann schrittweise Lauf zurück. Rad-Intervalle erst nach stabilem aerobem Fundament.
 
 ## Recent Progression
@@ -49,7 +48,7 @@
 
 - **⛔ Zehenbruch #2 (aktiv)**: kleiner Zeh, Mi 30.09. Komplette Laufpause ~2 Wochen (W40 ab Mi + W41) eingehalten. **W42 Mi 14.10 = Comeback-Gate-Testlauf** (15-20min Z1, flach, nur wenn schmerzfrei). Bergab-Push-off stresst Zeh am meisten — flach beginnen.
 - **Race-Entscheid Vienna 18.10 — entschieden: DNS**. Comeback-Gate No-Go, kein schmerzfreier Lauf vor Renntag. Geloggt in race-file + injuries.md.
-- **Münichsthaler Crosslauf 26.10 — bedingtes Stretch-Ziel**. Go/No-Go am Lauf-Comeback. Nur Teilnahme/zeitfreier Finish wenn Zeh seit Tagen schmerzfrei + flacher Z1-Testlauf ok. Hügel-Push-off stresst Zeh → kein erzwungener Start. Kein Zeitziel.
+- **Münichsthaler Crosslauf 26.10 — kein Start**. Entschieden 2026-10-25, nicht mehr Current Race. KW44 nur Rad, Mo/Di nur Kraft (siehe calendar.md).
 - **LR-Details W39 offen**: So Long Run Route + Vert-Verteilung kommen noch vom Athleten — Sonntag dann finalisieren (Vienna Woods anpeilen für Bergab-Praxis).
 - **Fuel-Praxis**: ab W39 jeden Long Run ~60 g/h race-realistisch üben.
 - **Recovery-Tempo**: Di/Do bewusst langsamer (W36 war 6:06 statt 6:30-7:00). HF Richtung 130. **⚠️ ESKALIERT (2026-09-15): 4. Recovery-Lauf in Folge zu flott (6:06→6:06→6:13→6:04). Ab Do Pace-Alarm auf 6:40/km — nicht mehr nach Gefühl/HF steuern.**

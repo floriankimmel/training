@@ -5,13 +5,14 @@
 > **Data source**: HealthFit `.fit` → DuckDB (`db/training.duckdb`, 1469 runs). Paces are
 > median-per-second within HR bands (terrain-robust), not raw session averages.
 
-**Last updated**: 2026-08-29 (rebuilt from DuckDB records)
+**Last updated**: 2026-10-25 (Reference Paces refreshed from DuckDB; letzter Lauf in DB 2026-09-23, seitdem Laufpause)
 
 ## Race Results
 
 | Date | Race | Distance | Time | Notes |
 |------|------|----------|------|-------|
-| _tbd_ | Vienna Trail Run | 23.8 km / 1000 hm | — | target 2:30–2:45 |
+| 2026-10-18 | Vienna Trail Run | 23.8 km / 1000 hm | DNS | Zehenbruch #2 (30.09.), nicht angetreten |
+| 2026-10-26 | Münichsthaler Crosslauf | 10.2 km / ~223 hm | kein Start | entschieden 2026-10-25 |
 | 2025-10-26 | Nationalfeiertag-Crosslauf | 10.2 km | ~50:00 | Ø-HF 173 (96% hrMax), max 180, Pace 4:54 /km — Race-Effort aus DuckDB |
 
 _Add past race results here (date, race, official time, place)._
@@ -45,16 +46,19 @@ Flat-Easy-Pace optisch verwässert durch Trail-/Vert-Fokus in der Vienna-Prep.
 | 2026-07 | Tempo @ HF 160–170 | 4:16 /km (median) | Saison-Bestwert Schwelle |
 | 2026-08-26 | Long Run (post-illness reboot) | 15.1 km / 475 hm / Ø138 bpm | GI-Recovery vollständig, kein Drift |
 
-## Reference Paces (aus DuckDB, letzte 3 Monate)
+## Reference Paces (aus DuckDB, flache Läufe ab 2026-07-25, vor Zehenbruch #2)
 
 | Zone / effort | Pace (min/km) | Source |
 |---------------|---------------|--------|
-| Easy Z1 (<131) | 6:31 | median records Jun–Aug 2026 |
-| Long Z2 (131–145) | 6:04 | median records Jun–Aug 2026 |
-| Tempo/Schwelle Z4 (160–170) | 4:37 | median records Jun–Aug 2026 |
+| Easy Z1 (<131) | 6:20 | median records 25.07.–23.09.2026, nur flache Läufe (<15 hm/km) |
+| Long Z2 (131–145) | 6:06 | median records 25.07.–23.09.2026, nur flache Läufe (<15 hm/km) |
+| Tempo/Schwelle Z4 (160–170) | 4:07–4:30 | flache Läufe 08.07.–17.08.2026 (4:07 / 4:16 / 4:30) |
 
-> Z3/Z5-Paces hier bewusst weggelassen — im Trainingszeitraum von Bergintervallen
-> verschmutzt (hohe HF bergauf bei niedriger Pace). Für flache Tempo-Referenz Z4 nutzen.
+> **Z4 nach 17.08. nicht verwertbar**: Z4-Sekunden stammen ab September fast nur aus Bergintervallen
+> (Hügel/Anstieg → 5:45–7:00 /km). Letzter sauberer flacher Z4-Wert = Aug 17 (4:30).
+> Mit allen Läufen (inkl. Trail/Vert) wären Z1 6:47 / Z2 6:08 — terrainverschmutzt, daher nur flach.
+> Z3/Z5 bewusst weggelassen (Bergintervalle). **Daten enden 23.09.** — nach Zehenbruch #2 kein Lauf;
+> Referenz nach Lauf-Comeback neu ziehen (Zehen-Reboot ≠ Fitness-Verlust-Beweis).
 
 _These feed the `findracepace` and `race-prediction` skills. Refresh from DuckDB after new blocks._
 

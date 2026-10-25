@@ -1,1 +1,0 @@
-2026-muenichsthaler-crosslauf.md
