@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Auto-import new HealthFit .fit files + metrics into db/training.duckdb.
+# Auto-import: git pull (metrics/*.md), new HealthFit .fit files, metrics → db/training.duckdb.
 # Triggered by launchd (WatchPaths on the HealthFit iCloud folder) — see scripts/launchd/.
 # Idempotent. Backup (db/backup.sh) at most once per day.
 set -uo pipefail
@@ -26,6 +26,13 @@ for attempt in 1 2 3; do
   log "import_fit attempt $attempt failed: $(printf '%s' "$out" | tail -1)"
   sleep 30
 done
+
+# metrics/*.md are committed from another machine/skill → pull before importing them
+if out=$(git -C "$ROOT" pull --rebase --autostash 2>&1); then
+  log "git pull: $(printf '%s' "$out" | tail -1)"
+else
+  log "git pull FAILED (continuing with local metrics): $(printf '%s' "$out" | tail -1)"
+fi
 
 "$PY" "$ROOT/db/import_metrics.py" >/dev/null 2>&1 && log "import_metrics ok"
 
