@@ -5,7 +5,7 @@
 > shifts sessions, moves strength off constrained days, uses opportunity windows.
 > Easiest way to add: the **`calendar-event`** skill (say it loosely, it writes the row).
 
-**Last updated**: 2026-08-20
+**Last updated**: 2026-10-25
 
 ## How the coach uses this
 
@@ -20,6 +20,7 @@
 |-------|------|----------|---------|----------|-------|
 | 2026-08-24 – 2026-08-27 | Work trip | Göteborg | Tue/Wed/Thu AM: **1.5–2h** @ ~06:00 (work starts ~09:00) — athlete wants these, aggressive OK | Not possible on trip days → shift Kraft to weekend/other days | Fly out Mon 15:50 (travel day, easy/rest); Thu departure Göteborg 14:50 (Thu AM run before flight OK) |
 | 2026-10-08 – 2026-10-10 | Company trip | Barcelona | Uncertain — maybe short easy AM if possible, don't count on it | Not possible | Falls in **W41 taper** (Vienna 10-18). Low volume anyway → missed runs are fine, no makeup needed. Prioritize freshness. |
+| 2026-10-26 – 2026-11-01 | Training constraint (KW44) | — | **No running all week — cycling only.** Crosslauf: NOT participating (no start, don't plan it) | Mon 26.10 + Tue 27.10: **Kraft only, no Rad** (athlete can't ride those days). Rad Wed–Sun | Cycling-only week. Plan Kraft Mon/Tue, Rad from Wed. |
 
 ## Recurring Travel Profiles
 
