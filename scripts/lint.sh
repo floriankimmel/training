@@ -164,6 +164,25 @@ else
 fi
 
 echo
+echo "== 6. STATUS hygiene (snapshot stays short, history in STATUS-log.md) =="
+MAX_STATUS_LINES=80
+MAX_UPDATED_CHARS=400
+if [ ! -f STATUS-log.md ]; then
+  err "STATUS-log.md missing (history lives there)"
+else
+  n=$(wc -l < STATUS.md | tr -d ' ')
+  [ "$n" -gt "$MAX_STATUS_LINES" ] && err "STATUS.md is $n lines (max $MAX_STATUS_LINES) — move detail to STATUS-log.md" || ok "STATUS.md $n lines (max $MAX_STATUS_LINES)"
+  ul=$(grep -iE 'Last updated' STATUS.md | head -1 | wc -c | tr -d ' ')
+  [ "$ul" -gt "$MAX_UPDATED_CHARS" ] && err "STATUS.md 'Last updated' line is $ul chars (max $MAX_UPDATED_CHARS) — put detail in STATUS-log.md" || ok "STATUS.md 'Last updated' line short ($ul chars)"
+  sd=$(grep -iE 'Last updated' STATUS.md | head -1 | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | head -1)
+  ld=$(grep -oE '^- [0-9]{4}-[0-9]{2}-[0-9]{2}' STATUS-log.md | head -1 | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}')
+  if [ -n "$sd" ] && [ -n "$ld" ] && [[ "$ld" < "$sd" ]]; then
+    err "STATUS-log.md newest entry ($ld) older than STATUS.md Last updated ($sd) — add a log entry"
+  else
+    ok "STATUS-log.md up to date (newest entry ${ld:-none})"
+  fi
+fi
+
 if [ "$ERRORS" -gt 0 ]; then
   printf '\033[31m%d error(s), %d warning(s)\033[0m\n' "$ERRORS" "$WARNINGS"; exit 1
 elif [ "$WARNINGS" -gt 0 ]; then

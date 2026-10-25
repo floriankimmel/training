@@ -3,7 +3,7 @@
 > Consolidated history so patterns are visible in one place (was scattered across week narratives).
 > Newest first. Add every injury/illness that affects training here.
 
-**Last updated**: 2026-10-18
+**Last updated**: 2026-10-25
 
 ## 2026 — Toe fracture #2 (Zehenbruch, kleiner Zeh, W40)
 
@@ -59,8 +59,14 @@
 
 ## Recurring Patterns / Notes
 
-- Both 2026 setbacks were **non-training causes** (pool/swimming), NOT training load. No load-related injury pattern so far.
+- **Zehenbruch 2× in ~2 Monaten (31.07. Hallenbad, 30.09.)**, beide *nicht* lauf-/lastbedingt. Zwei Frakturen
+  bei Bagatell-Traumata in kurzer Folge = **Muster, nicht Zufall → ärztlich abklären lassen**: Vitamin D,
+  Ferritin/Eisenstatus, ggf. Knochendichte (DXA), Energieverfügbarkeit/Fueling prüfen (Laufumfang + Defizit?).
+  Kein Befund vorhanden — **offene Aufgabe**, vor dem Lauf-Comeback klären (Reminder anlegen, sobald Termin steht).
+- Non-training-Ursachen: Pool/Schwimmen (Zeh Jul, Ohr Jun), Alltag (Zeh Sep). Kein bisheriges Lastmuster.
 - Comeback pattern that works: strict Z1 test run → 2–3 easy weeks → reintroduce intensity flat → then hills.
+- **Comeback-Fehler (2026-10-19, Rad)**: nach 3,5 Wochen Pause Mo direkt 19,5 min Z4 statt aerob → Deckel & Umfang-vor-Intensität gelten auch aufs Rad.
 - Foot/toe load is the sensitive area — prefer soft ground (forest/grass) over asphalt after foot issues.
+- Zeh gilt **nicht** mehr als „healed, keine Überwachung“, solange Befund offen ist.
 
 *Living document. Log every new injury/illness with onset, affected weeks, return protocol, lesson.*

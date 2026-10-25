@@ -4,3 +4,7 @@ training.duckdb.wal
 *.duckdb
 __pycache__/
 dump/
+
+auto-import.log
+auto-import.err
+.last-backup

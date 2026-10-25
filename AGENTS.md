@@ -2,9 +2,9 @@
 
 ## Repo Map (read these first)
 
-- `zones.md` — **HR zones (single source of truth)** — all zone values live here
+- `zones.md` — **HR zones (single source of truth)** — Laufen + Rad (provisional) tables
 - `athlete.md` — athlete profile, goals, equipment, data rules
-- `STATUS.md` — current training state snapshot (where am I now)
+- `STATUS.md` — short snapshot (where am I now, <60 lines) · `STATUS-log.md` — dated history (append on top)
 - `calendar.md` — known future events (travel/work/family) that affect weekly planning
 - `injuries.md` — injury/illness log + return protocols
 - `benchmarks.md` — PRs, test runs, reference paces
@@ -14,7 +14,8 @@
 - `races/current-race-*.md` — current target race symlink (absent = no active race; archive files in `races/`)
 - `plans/build-plan-vienna-2026.md` — 8-week macro plan: long-run + weekly vertical (hm) progression
 - `trainings/week-XX-YYYY.md` — weekly plans · `feedback/feedback-XX-YYYY.md` — session feedback
-- **Data source**: HealthFit `.fit` only (offline). No Tredict / Strava / Runalyze / MCP.
+- **Data source**: HealthFit `.fit` only (offline). No Tredict / Strava / Runalyze / MCP. DB auto-import: `scripts/auto-import.sh` (launchd, see `scripts/launchd/README.md`).
+- **Load/readiness/outcome**: `db/.venv/bin/python scripts/load_report.py` (TRIMP, ACWR, HRV/RHR gate, pace @ fixed HR) — coach runs it before planning.
 - **Objective analysis**: query `db/training.duckdb` (DuckDB) for real pace/HF/vert trends instead of guessing. Terrain-robust metric = median per-second pace within an HR band (see `benchmarks.md` method note).
 
 ## Maintenance Contract (keep living docs fresh)
@@ -24,7 +25,7 @@ Each carries a `Last updated` line — treat >30 days stale as a flag.
 
 | File | Update trigger | Who/when |
 |------|----------------|----------|
-| `STATUS.md` | Every plan or feedback run | coach skill step 14 · feedback skill step 7 |
+| `STATUS.md` + `STATUS-log.md` | Every plan or feedback run (snapshot overwrite + log entry) | coach skill (tracking step) · feedback skill step 7 |
 | `injuries.md` | Any pain/illness/injury reported, or comeback/deload week | feedback (on report) · coach (on reaction) |
 | `benchmarks.md` | After a race, time trial, or notable test/PR run | feedback (race/test session) |
 | `benchmarks.md` reference paces | After a training block — refresh from DuckDB (median-per-second pace in HR bands) | manual/coach |

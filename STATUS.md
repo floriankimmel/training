@@ -1,64 +1,43 @@
 # Training Status — Snapshot
 
-> Rolling "where am I right now" file so agents don't have to read 6 week files.
-> Update at the end of each coach/feedback run.
+> Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
+> Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated**: 2026-10-21 (🚴 **W43 Mi Rad-Aerob absolviert — Grade B+**: Watch-Item vom Montag sauber umgesetzt. Plan Z1–Z2 / Deckel ~150 / kein harter Reiz → **tatsächlich Ø-HF 134,7, max 165, nur 3,3% Z4 (~2,5min), 84,2% im Zielband (≤152)**, längster Z4-Lauf 34s (Mo war 15min am Stück). Dauer 58min punktgenau auf Plan (Mo 66), Brustgurt, sauberer Cool-down, Zeh nicht lauf-belastet. Einziger Mini-Punkt: 4 kurze Z3-Antipper (156–161) an Anstiegen am reinen Aerob-Tag → kein A. Klare Lernkurve nach dem Mo-C: Feedback gelesen + am Folgetag umgesetzt. Kein Lauf, nur Rad. Vert heute nicht aufgezeichnet. DB-Import ausstehend. **Watch-Item Do: Rad-Pendeln = echte aktive Erholung ≤135, nicht aus Schwung in Z2 weiterfahren.**) | 2026-10-19 (🚴 **W43 Mo Rad-Comeback absolviert — Grade C**: Erste Einheit nach 3,5 Wochen Pause. Plan war Z1–Z2 / KEINE Intervalle / lockerer aerober Wiedereinstieg — **tatsächlich ~30min Hard-Block, davon 19,5min Z4, max 176, längster Z4-Lauf 15min am Stück**. Ein-/Ausstieg sauber (erste 12min AR/Z1, Cool-down bis 90), Brustgurt getragen, Zeh nicht lauf-belastet → rettet es vor dem Durchfallen. Aber die EINE Vorgabe der Woche (locker bleiben) klar gerissen — klassischer „nach Pause direkt zu hart"-Fehler, in injuries.md als Gefahr notiert. **Watch-Item Mi: HF-Deckel 150 (Rad eher 140–148), Umfang vor Intensität, KEINE Rad-Intervalle Woche 1.** Kein Lauf heute, nur Rad. DB-Import ausstehend.) | 2026-10-18 (🏅 **Neues bedingtes Ziel: Münichsthaler Crosslauf 26.10** als Stretch-Ziel mit Go/No-Go-Gate gesetzt (Nachfolger Vienna-DNS). 10.16 km / ~223 hm Cross, 8 Tage nach DNS — Zehenbruch #2 noch in Heilung, Laufen pausiert → **kein Zeitziel**, nur Teilnahme/zeitfreier Finish wenn Zeh seit Tagen schmerzfrei + flacher Z1-Testlauf ok. Hügel-Push-off stresst Zeh → kein erzwungener Start, Default bei Schmerz = DNS/Downgrade. current-race-Symlink + athlete.md + race-file aktualisiert. Trainingsplan bleibt W43 Rad-Comeback — unverändert, race hängt am Zeh.) | 2026-10-18 (🚴 **W43 (19.-25.10.) geplant — Comeback-Woche: RAD statt Lauf.** Erste Trainingswoche nach Zehenbruch #2 + Vienna-Kapitel. Laufen bleibt bewusst draußen (Zeh verträgt Abdruck/Push-off noch nicht) → gelenk-/zehenschonender aerober Wiederaufbau per Rad: **Mo+Mi Mittags-Aerob ~55min (Z1-Z2), Di+Do Erholungs-Pendeln 2×20min, So optionale lange Ausfahrt 75-90min**. Keine Rad-Intervalle in Woche 1. **Kraft-Restart: First Class W1 (S.242) komplett Tag 1-4** (Mo/Mi/Fr/Sa) — Oberkörper-Tage 1+3 zehensicher, Bein-Tage 2+4 mit Sprung-Caveat (gesprungene Kniebeuge/Ausfallschritt nur bei schmerzfreiem Zeh). Alle 9 Reminders #914-922 gesetzt. Lauf-Comeback = nächste Baustelle, erst nach seit-Tagen-schmerzfreiem Zeh ein kurzer flacher Z1-Testlauf. Vienna 18.10 = DNS (Zehenbruch #2, No-Go am Comeback-Gate), geloggt in race-file + injuries.md. Keine W42-Renndaten (Testlauf nicht geloggt).) | 2026-10-11 (⛔ **ZEHENBRUCH #2 — weiterhin aktiv.** W41 komplett 0 Laufminuten (plangemäß, keine neuen Daten). **W42 (12.-18.10.) geplant: Mo/Di weiter 0, Mi 14.10 Comeback-Testlauf 15-20min Z1 (nur wenn schmerzfrei), Do-Sa offen/bedingt, So 18.10 = Vienna Trail Run Renntag mit Go/No-Go statt Zeitplan.** Kein erfundenes Trainingsvolumen für Do-So geschrieben — hängt am Testlauf-Ergebnis. Default bei Schmerz am 14.10.: automatisch DNS. Reminder #734 "Arzt-Check Zeh + Vienna Go/No-Go" bereits für 14.10. gesetzt, keine neue Reminder-Logik nötig außer dem Testlauf-Eintrag selbst. Race-ready bleibt unrealistisch unabhängig vom Testergebnis — einzige offene Frage ist DNS vs. Downgrade vs. zeitfreier Finish.) | 2026-10-04 (⛔ **ZEHENBRUCH #2** — kleiner Zeh, Mi 30.09 (W40, non-training wie W31). ~2 Wochen Laufpause → Rückkehr ~14.10. **Vienna Trail Run 18.10 stark gefährdet** — nur ~4 Tage nach Rückkehr, letzter Zehenbruch brauchte W33 vorsichtiges Z1-Comeback vor Intensität. W40 Rest ab Mi + geplanter großer Long-Run So **gefallen**, W41 Laufpause. Race-Go/No-Go offen — realistisch nur Z1-Comeback möglich, kein race-ready Zustand. Siehe injuries.md.) | 2026-09-23 (W39 Mi Bergtempo 3x8min Z3 absolviert — **Grade A**: **3/3 Blöcke** sauber, alle Block-Ø **156,8/157,3/157,3** mittig im Z3-Band (153-160), **null Drift** über die Serie, Erholungen strikt Z1 (Ø139-140). Z4-Deckel eingehalten (max 165, nur 7,9% TiZ Z4) — **nicht in VO2max gekippt**, Kernvorgabe getroffen. Vert **~171 hm barometrisch (57 flights)** → Ziel ~150 hm übertroffen. Mo+Mi Vert zusammen ~387 hm → ~700-hm-Woche in Reichweite (Di+Do flach wie geplant). Brustgurt sauber. Mini-Punkt: 53,5 statt 58min (aus verkürzten Übergängen, nicht aus dem Reiz) → nächstes Mal volle 12min Warmup. Drei Grade-A-Einheiten in Folge (Mo/Di/Mi) — makelloser Peak-1-Start. Nächstes: Do Recovery Pace 6:40 halten, dann So Long Run 100min/500-600 hm = die Peak-1-Prüfung, Fuel-Praxis startet.) | 2026-09-22 (W39 Di Recovery Run 30min absolviert — **Grade A**: **Watch-Item gehalten** — zweiter sauberer Recovery-Lauf in Folge. Pace **6:40/km** exakt am unteren Zielbandrand (nach Do-W38 6:41), Ø-HF **119,5**, max **136** (6 bpm Puffer zur 142-Decke), 100% AR+Z1 davon **42% Aktive Erholung** — sogar entspannter als der Do-Referenzlauf (Ø 127,5, 19% AR). Drittel 119/115/124, kein echter Aufwärtsdrift. Brustgurt sauber. Vert flach (~9 hm / 3 flights) — für Recovery irrelevant, aber Wochen-Vert (~700 Ziel) ruht damit auf Mi Bergtempo + So LR. Recovery-Tempo jetzt kalibriert & 2 Läufe stabil. Nächstes: Mi Bergtempo 3x8min Z3 in Z3 bleiben, nicht in Z4 kippen.) | 2026-09-21 (W39 Mo Hügel-Int 6x3min Z4 absolviert — **Grade A**: **6/6 Reps** sauber, Ø-HF pro Rep 168-170 (null Fatigue-Drift über die Serie), Z4 29,8% / 18,4min TiZ = deckt 6×3min exakt. Vert ~216 hm barometrisch (72 flights) → Mo-Anteil der ~700-hm-Woche getroffen. Brustgurt sauber, Erholungen strikt Z1. Einziger Mini-Punkt: Peaks Rep2-4 kurz bei 175-176 (1-2 bpm über 174-Decke, nach 3 makellosen Wochen) → letzte 20s steilster Reps zügeln. Rep-Progression 5→6 planmäßig. Peak 1 startet aus starker Position. Watch-Item bleibt: Di Recovery Pace-Alarm 6:40 halten.) | 2026-09-20 (W39 geplant — **Peak 1**. W38 Deload sauber absorbiert: Mo Hügel-Int 5x3min A (~357 hm), Mi Easy A- (flach ~21 hm), **Do Recovery A — Watch-Item nach 3 Wochen geknackt: 6:41/km, Ø-HF 127,5, null Sample >139**. Erkältung durch, Recovery-Metriken normal (HRV Nacht ~36-65, RHF 53-63), Beine frisch. W39: Umfang ~+30%, Vert hoch. **Mo Hügel-Int 6x3min Z4** (~200 hm), **Mi Bergtempo 3x8min Z3** (~150 hm), **So Long Run 100min/1:40 + 500-600 hm race-spezifisch** — LR-Details kommen noch (Route/Vert, Vienna Woods anpeilen). Wochen-Vert **~700 hm**. **Fuel-Praxis startet am Long Run** (~60 g/h). Kraft → Master Class **Woche 1** (Start, Tag 1-4 Di/Do/Fr/Sa). Kein Reise-Event.) | 2026-09-17 (W38 Do Recovery Run 25min absolviert — **Grade A**: **Watch-Item geknackt** — endlich Recovery-Pace im Zielband: **6:41/km**, Ø-HF **127,5**, max **139**, 100% AR+Z1, null Sample >139, Drift fallend. Brustgurt/Verity sauber. Vert 0 hm (flach).) | 2026-09-16 (W38 Mi Easy Endurance 40min absolviert — **Grade A-**: HF-/Pace-Auftrag „locker aerob Z1-Z2, 6:00-6:30, nicht reißen" voll getroffen — Ø-HF **129**, max **150**, 100% in Zielzone (0 Samples >152), HF-Drift *fallend* 133→128→125 (sauberes Post-Infekt-Einlaufen), Pace **6:06/km** mittig (= die auf Recovery-Tagen zu schnelle Pace, hier korrekt → Baustelle ist Recovery-Pace-Zuordnung, nicht Easy-Pace). **Aber Vert klar verfehlt: nur ~21 hm (7 flights) statt ~80 hm, praktisch flach** → ~60 hm fehlen in der Wochen-Vert-Bilanz (Ziel ~350), am So LR draufpacken. Deshalb A- statt A. Run-Dynamik von der Watch nicht aufgezeichnet. Brustgurt sauber. Do Recovery: Pace-Alarm 6:40 bleibt Pflicht.) | 2026-09-15 (W38 Di Recovery Run 25min absolviert — **Grade C+**: HF-seitig gut (Ø 135, max 147, 96% AR/Z1, Verity geladen → sauberes Signal, Watch-Item „Verity laden" abgehakt), aber Pace **6:04/km** statt 6:40-7:00 = **4. Recovery-Lauf in Folge zu flott** (6:06→6:06→6:13→6:04, heute der schnellste). Kernvorgabe des Tages verfehlt. Konsequenz: ab Do **Pace-Alarm auf 6:40** — HF-Steuerung reicht bei ihm für Recovery nicht, aerobe Basis zu gut.) | 2026-09-14 (W38 Mo Hügel-Int 5x3min Z4 absolviert — **Grade A**: 5/5 Reps im Zielband (Ø 164-166), 0 Samples >174 (Deckelung sitzt 3. Woche in Folge), kein Fatigue-Drift nach Infekt, ~357 hm barometrisch → Wochen-Vert-Ziel ~350 fast allein gedeckt. Deload respektiert (5 statt 7 Reps). Watch-Item bleibt: Di Recovery endlich <6:40 deckeln + Verity vorher laden.) | 2026-09-13 (W38 geplant — **Deload**. W37 gestört: Mo Hügel-Int 7x3min Grade A (7/7 Reps, ~270 hm), dann Erkältung → Di/Mi/So Keys ausgefallen, Fr Comeback-Recovery C+. Erkältung durch, Recovery-Metriken normal (HRV ~40-59, RHF 52-58). Deload fällt perfekt in die Krankheitswoche — kein Nachholen. W38: Volumen -30%, Hügel-Int 5x3min, kein Bergtempo, LR 75min/~200 hm, Vert ~350. Kraft First Class W10 (Abschluss). Watch-Item: Recovery-Pace endlich <6:40 deckeln (3. Woche zu flott) + Verity vorher laden.)
-
-## ✅ Recovered: GI illness (2026-08-19 → abgeschlossen)
-
-- Magen-Darm + mild fever from Wed 08-19; W34 cut short. **3 symptom-free runs in W35** (LR 15k/475 hm A, Recovery A, Kurzlauf+Pickups A-) → **green light for real intensity from W36**. No residual symptoms. **W36 Mo: erster harter Z4-Reiz sauber ausgeführt (88-95% TiZ, Grade A) → Motor belastbar, Build 2 rollt.**
+**Last updated**: 2026-10-25 (KW44-Constraints: kein Crosslauf, nur Rad, Mo/Di nur Kraft; Rad-Zonen provisorisch; Arzt-Abklärung Zehenbrüche offen)
 
 ## Current Target
 
-- **Race**: kein aktives Zielrennen — Münichsthaler Crosslauf 26.10 = ⛔ kein Start (entschieden 2026-10-25)
-- **Vorher**: Vienna Trail Run — 23.8 km / ~1000 hm — 2026-10-18 — ⛔ DNS (Zehenbruch #2, nicht angetreten)
-
-## Long Run / Vert Progression
-
-- **Stand still (seit W40)**: letzter real gelaufener Vert-/LR-Reiz war W39 Mi Bergtempo (23.09.). Seither Zehenbruch #2 — kein LR, kein Vert-Reiz, kein Fuel-Rehearsal seit 3,5 Wochen. **W42 schreibt bewusst keine neue LR/Vert-Progression** — die hängt vollständig am Comeback-Testlauf 14.10. und ist danach ohnehin kein Trainingsreiz mehr, sondern Rennentscheidung.
-- **Peak target**: LR 1:30 solid → reach 1:45–2:00 once/twice; weekly vert build to ~800 hm (W40)
-- **Currency**: for the trail race, **weekly hm > flat minutes**.
+- **Kein aktives Zielrennen.** Münichsthaler Crosslauf 26.10 = kein Start (2026-10-25). Vienna Trail Run 18.10 = DNS.
+- Quelle für Ziele/Rennen: `athlete.md` → Goals, `races/` (kein `current-race-*`-Symlink = nichts aktiv).
 
 ## Current Phase
 
-- **Block**: 🚴 **Comeback-Wiederaufbau (Rad-geführt) nach Zehenbruch #2.** Vienna-Kapitel abgeschlossen. Laufen noch pausiert (Zeh-Abdruck), aerober Aufbau per Rad.
-- **This week (W43, 19.-25.10.)**: **Rad statt Lauf** — Mo+Mi Mittags-Aerob ~55min (Z1-Z2), Di+Do Erholungs-Pendeln 2×20min, So optionale lange Ausfahrt 75-90min. Keine Rad-Intervalle. **Kraft-Restart First Class W1 Tag 1-4** (Mo/Mi/Fr/Sa), Bein-Tage mit Sprung-Caveat. Kein Lauf-Reiz.
-- **Offene Daten**: W42 Comeback-Testlauf 14.10 ist in diesem Repo **nicht geloggt** (kein Feedback-File). **Vienna 18.10 = DNS** (Zehenbruch #2, No-Go am Comeback-Gate) — geloggt in `races/2026-vienna-trail-run-23.8k.md` + `injuries.md`.
-- **Next**: Zeh im Alltag beobachten. Sobald **seit Tagen schmerzfrei** → erster kurzer flacher Z1-Testlauf (nächste Woche frühestens), dann schrittweise Lauf zurück. Rad-Intervalle erst nach stabilem aerobem Fundament.
+- **Block**: 🚴 Comeback-Wiederaufbau, **Rad-geführt**, nach Zehenbruch #2 (30.09.). Laufen pausiert (Zeh-Abdruck).
+- **Diese Woche (W44, 26.10.–01.11.)**: nur Rad, **kein Lauf**. **Mo + Di: nur Kraft (kein Rad möglich)**, Rad Mi–So. Details: `calendar.md`. Plan wird vom Coach erstellt.
+- **Kraft**: First Class **W2** in W44 (Pointer in `strength-plan.md`). Bein-Tage mit Sprung-Caveat (nur bei schmerzfreiem Zeh).
+- **Letzter Lauf**: 2026-09-23. Letzte Rad-Daten: 21.10. (Mi Rad-Aerob **B+**; Mo 19.10 Comeback **C** = zu hart).
+- **Next**: (1) Arzt-Abklärung Zehenbrüche, (2) Zeh seit Tagen schmerzfrei → erster flacher Z1-Testlauf, (3) Lauf über Volumen statt Intensität zurück, (4) Feldtest Lauf + Rad → Zonen/hrMax neu.
+
+## Open Watch-Items
+
+- **⛔ Zehenbruch #2 / Muster**: 2 Frakturen in ~2 Monaten → ärztlich abklären (Vit D, Ferritin, ggf. DXA). Siehe `injuries.md`.
+- **Rad-HF**: eigene Rad-Zonen in `zones.md` (provisorisch). **Aerober Rad-Deckel 144 bpm**, keine Rad-Intervalle bis stabiles Fundament.
+- **Zonen/hrMax**: DB zeigt Lauf-Peaks bis 184–186 vs. hrMax 180 → bei Feldtest neu bestimmen (`zones.md`).
+- **Recovery-Lauf-Pace** (sobald Laufen): Pace-Alarm 6:40/km, nicht nach Gefühl/HF steuern.
+- **Vertical gap**: Wolkersdorf flach (max ~60 hm) — hm müssen akkumuliert werden (Repeats/Treppen/Wienerwald).
+- **Fuel-Praxis**: jeder Long Run ~60 g/h, sobald LR wieder da.
+- **Daten**: DB aktuell bis 2026-10-23 (Auto-Import siehe `scripts/`).
 
 ## Recent Progression
 
 | Week | Focus | Note |
 |------|-------|------|
-| W31–W32 | ⛔ Ausfall | Toe fracture (non-training, pool), zero training |
-| W33 | Wiedereinstieg | 3 easy Z1 runs, ~90 min, toe pain-free ✅ |
-| W34 | Reboot, then illness | quality Mo/Mi + Kraft Tag 1 done, GI illness cut Do/Fr; So Easy Run 5,37km/35min beschwerdefrei (A) ✅ |
-| W35 | Reboot + Göteborg | Build 1: Di easy social run 10k, ~193 hm rollend (C→B); **Mi Long Run 15,15k / 475 hm / 2h, HF 138 Z1-Z2, kein Drift, Fuel 60g/h (A)** ✅; Sa short run + pickups 7,25k, saubere Reize (A-); **So Recovery 5,10k/35min, 128 HF strikt Z1 (A)** ✅; Kraft Woche 7 Tag 2-5 |
-| W36 | Build 2: Intensität zurück | **Vorzeige-Woche**: Mo Hügel-Int 7x3min→6x3min Z4 88-95% TiZ (A); Mi Bergtempo 3x8min Z3 90-92% TiZ (A-, real 159 hm / 89 hm uphill in Blöcken — alte "54 hm" war barometrischer Fehler); Sa LR 85min/12,2k, HF 137, null Drift bei 25,5°C, ~364 hm (A); Kraft Woche 8 Tag 1-5. Wochen-Vert ~790 hm ✅ |
-| W37 | Build 3 gestört | Mo Hügel-Int 7x3min Z4 **A** (7/7 Reps 88-94% TiZ, max 174 gedeckelt, ~270 hm); dann **Erkältung** → Di/Mi/So Keys weg; Fr Comeback-Recovery 35min **C+** (Brust frei, aber 6:13 zu flott). Kein LR (krank). Kraft Woche 9 |
-| W38 | Deload | Mo Hügel-Int 5x3min A (~357 hm) + Mi Easy 40min A- (flach ~21 hm) + Do Recovery A (**6:41 — Watch-Item geknackt**); So LR 75min (Plan-Tag). Vert ~350 hm; Kraft W10 (Abschluss First Class) |
-| W39 | Peak 1 (gestört) | Nur Mo Hügel-Int 6x3min + Mi Bergtempo 3x8min Z3 real gelaufen (~370 hm); Do Recovery + So Long Run gefallen |
-| W40 | ⛔ Ausfall ab Mi | Zehenbruch #2 (kleiner Zeh, 30.09.). Großer So-Long-Run (Generalprobe) gefallen — 2. verlorener Peak-LR in Folge |
-| W41 | ⛔ Laufpause komplett | 0 Laufminuten, 0 hm — plangemäß, Knochenheilung |
-| W42 | Comeback-Gate + Race-Woche (bedingt) | Mo/Di 0; Mi 14.10 Testlauf 15-20min Z1 (nur wenn schmerzfrei); Do-Sa offen; So 18.10 Vienna Trail Run — **DNS** (Zehenbruch #2, No-Go am Comeback-Gate). Testlauf-Daten nicht geloggt |
-| W43 | 🚴 Comeback: Rad statt Lauf | Rad-Wiederaufbau: Mo+Mi Mittags-Aerob ~55min, Di+Do Erholungs-Pendeln 2×20min, So optional 75-90min. Keine Intervalle. Kraft-Restart First Class W1 Tag 1-4 (Bein-Tage mit Sprung-Caveat). Kein Lauf (Zeh) |
+| W41 | ⛔ Laufpause | 0 Lauf, Knochenheilung |
+| W42 | Comeback-Gate / Vienna | Vienna 18.10 DNS |
+| W43 | 🚴 Rad-Comeback | Mo C (zu hart), Mi B+ (sauber); Kraft First Class W1 |
+| W44 | 🚴 Rad only | Mo/Di Kraft only; kein Crosslauf |
 
-## Open Watch-Items
-
-- **⛔ Zehenbruch #2 (aktiv)**: kleiner Zeh, Mi 30.09. Komplette Laufpause ~2 Wochen (W40 ab Mi + W41) eingehalten. **W42 Mi 14.10 = Comeback-Gate-Testlauf** (15-20min Z1, flach, nur wenn schmerzfrei). Bergab-Push-off stresst Zeh am meisten — flach beginnen.
-- **Race-Entscheid Vienna 18.10 — entschieden: DNS**. Comeback-Gate No-Go, kein schmerzfreier Lauf vor Renntag. Geloggt in race-file + injuries.md.
-- **Münichsthaler Crosslauf 26.10 — kein Start**. Entschieden 2026-10-25, nicht mehr Current Race. KW44 nur Rad, Mo/Di nur Kraft (siehe calendar.md).
-- **LR-Details W39 offen**: So Long Run Route + Vert-Verteilung kommen noch vom Athleten — Sonntag dann finalisieren (Vienna Woods anpeilen für Bergab-Praxis).
-- **Fuel-Praxis**: ab W39 jeden Long Run ~60 g/h race-realistisch üben.
-- **Recovery-Tempo**: Di/Do bewusst langsamer (W36 war 6:06 statt 6:30-7:00). HF Richtung 130. **⚠️ ESKALIERT (2026-09-15): 4. Recovery-Lauf in Folge zu flott (6:06→6:06→6:13→6:04). Ab Do Pace-Alarm auf 6:40/km — nicht mehr nach Gefühl/HF steuern.**
-- **Vertical gap**: Wolkersdorf is flat (max ~60 hm) — must accumulate hm (repeats/stairs/Woods). Vienna needs ~1000 hm; don't under-train climbing.
-- Toe: healed, no special monitoring needed unless symptoms actually return.
-
-## Baselines (subjective, offline)
-
-- No offline wellness data. Recovery judged from subjective feedback + workout HR/pace trends.
-- Supply HRV/RHR/sleep manually in the weekly feedback file when relevant.
+Ältere Wochen: `STATUS-log.md`.
 
 ---
-*Update this after every plan/feedback cycle.*
+*Snapshot überschreiben nach jedem Plan/Feedback; Detail an `STATUS-log.md` anhängen.*

@@ -3,7 +3,7 @@
 > Single source for who the athlete is. HR zones live in `zones.md` (do not duplicate here).
 > Current training state lives in `STATUS.md`. Injuries in `injuries.md`. PRs in `benchmarks.md`.
 
-**Last updated**: 2026-10-18
+**Last updated**: 2026-10-25
 
 ## Basics
 
@@ -38,13 +38,14 @@
 - **Chest strap (Brustgurt)**: MANDATORY for every run (HR accuracy). Marked ⌚ in plans.
 - Trail shoes with grip for Vienna Woods sessions.
 - Data: HealthFit `.fit` exports only. **No Tredict / Strava / Runalyze / MCP.**
+- Bike: own HR zones (`zones.md` → Rad, provisional).
 
 ## Data & Tooling
 
-- **Only data source**: HealthFit `.fit` files, parsed offline via `parse_fit.py` (feedback skill).
+- **Only data source**: HealthFit `.fit` → DuckDB (`db/`, auto-import), parsed offline via `parse_fit.py` (feedback skill).
 - **Schedule source of truth**: **Apple Reminders** list 🏅 Trainingsplan (tag `training`). Any change to a
   `trainings/week-*` plan must be mirrored to Apple Reminders in the same change (see `AGENTS.md` contract).
-- Wellness (HRV/RHR/sleep) is NOT available offline → supply manually or via feedback file.
+- Wellness (HRV/RHR/sleep): daily HealthKit → `metrics/` → `daily_metrics` (DuckDB); readiness gate in `scripts/load_report.py`.
 - Skills: `coach` (plan), `feedback` (analyze), `reschedule`, `race-prediction`, `findracepace`.
 
 ## Preferences / Rules
@@ -59,8 +60,8 @@
   Call out under-training (e.g. too little vertical for the race), sloppy execution, or unrealistic goals plainly.
 - **Aggressive ramp-ups are OK.** As an experienced ultra runner he tolerates bigger week-to-week
   jumps than a novice — don't cap progression out of excess caution.
-- **Don't over-monitor healed issues.** A resolved injury (e.g. the toe, now healed) does not need
-  weeks of tiptoeing. One sanity check, then move on unless symptoms actually return.
+- **Don't over-monitor healed issues.** A resolved injury does not need weeks of tiptoeing — one sanity
+  check, then move on. **Exception: toe** — 2 fractures in ~2 months → open pattern, see `injuries.md`.
 - Still respect: real illness/fever (no training), acute pain, and taper logic. Judgment over rules.
 
 ---
