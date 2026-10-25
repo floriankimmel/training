@@ -11,7 +11,7 @@
 - `db/` — **DuckDB (`db/training.duckdb`) — 1469+ runs, 6M+ per-second records** from HealthFit `.fit`. Query for objective pace/HF/vert trends. See `db/README.md`. Trend-Fragen → **`training-db` skill**.
 - `strength-plan.md` — strength reference (Mark Lauren; digitized program in `plans/strength-program-mark-lauren.md`; coach plans it, advancing 1 week/week; Apple Reminders = schedule truth)
 - `fueling.md` — carb-intake strategy (No Carbs No Glory, g/h per session type)
-- `races/current-race-*.md` — current target race (Vienna Trail Run 2026)
+- `races/current-race-*.md` — current target race symlink (absent = no active race; archive files in `races/`)
 - `plans/build-plan-vienna-2026.md` — 8-week macro plan: long-run + weekly vertical (hm) progression
 - `trainings/week-XX-YYYY.md` — weekly plans · `feedback/feedback-XX-YYYY.md` — session feedback
 - **Data source**: HealthFit `.fit` only (offline). No Tredict / Strava / Runalyze / MCP.

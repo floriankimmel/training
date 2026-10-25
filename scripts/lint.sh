@@ -18,18 +18,15 @@ err()  { printf '  \033[31mFAIL\033[0m %s\n' "$1"; ERRORS=$((ERRORS+1)); }
 warn() { printf '  \033[33mWARN\033[0m %s\n' "$1"; WARNINGS=$((WARNINGS+1)); }
 ok()   { printf '  \033[32mOK\033[0m   %s\n' "$1"; }
 
-# days since a YYYY-MM-DD date (macOS/BSD date)
+# days since a YYYY-MM-DD date (python3: works with BSD and GNU date setups)
 days_since() {
-  local d="$1" then now
-  then=$(date -j -f "%Y-%m-%d" "$d" +%s 2>/dev/null) || { echo -1; return; }
-  now=$(date +%s)
-  echo $(( (now - then) / 86400 ))
+  python3 -c 'import sys,datetime as d; print((d.date.today()-d.date.fromisoformat(sys.argv[1])).days)' "$1" 2>/dev/null || echo -1
 }
 
 echo "== 1. current-race symlink =="
 mapfile -t CR < <(find races -maxdepth 1 -name 'current-race-*.md' 2>/dev/null)
 if [ "${#CR[@]}" -eq 0 ]; then
-  err "no races/current-race-*.md found"
+  ok "no current race (none active)"
 elif [ "${#CR[@]}" -gt 1 ]; then
   err "multiple current-race files: ${CR[*]} (expect exactly one)"
 else
