@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated**: 2026-10-25 (W44 geplant: Rad-only, Mo/Di nur Kraft, Lauf-Go/No-Go 02.11; Arzt-Abklärung Zehenbrüche weiter offen)
+**Last updated**: 2026-10-28 (W44 Mi Rad aerob gemacht: 65min/20,1km, Ø139,8/max170 — aber 43 % Zeit über Cap 144, Grade C+. Steuerungs-Watch-Item: 3. Rad-Tag in Folge über Deckel. Lauf-Go/No-Go 02.11; Arzt-Abklärung Zehenbrüche weiter offen)
 
 ## Current Target
 
