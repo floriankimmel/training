@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import type { WeekData, FeedbackData, Session, FeedbackSession } from '../lib/parseTraining';
-import type { DayActivity, DayMetric, WeekTotals, TrendPoint } from '../lib/db';
+import type { DayActivity, DayMetric, MetricBaseline, WeekTotals, TrendPoint } from '../lib/db';
 import FeedbackModal from './FeedbackPanel';
 
 interface Props {
@@ -8,6 +8,7 @@ interface Props {
   feedbackData: FeedbackData | null;
   activities: DayActivity[];
   metrics: DayMetric[];
+  baseline: MetricBaseline | null;
   totals: WeekTotals;
   trend: TrendPoint[];
   weekDates: { start: string; end: string };
@@ -103,7 +104,7 @@ interface DayCell {
   feedback: FeedbackSession | undefined;
 }
 
-export default function WeekGrid({ weekData, feedbackData, activities, metrics, totals, trend, weekDates, currentWeek }: Props) {
+export default function WeekGrid({ weekData, feedbackData, activities, metrics, baseline, totals, trend, weekDates, currentWeek }: Props) {
   const [modalSession, setModalSession] = useState<{ session: Session; feedback: FeedbackSession | undefined } | null>(null);
   const [selected, setSelected] = useState(0);
   const today = todayISO();
@@ -289,7 +290,7 @@ export default function WeekGrid({ weekData, feedbackData, activities, metrics, 
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-2 mb-4">
         {cells.map(c => (
-          <RecoveryCard key={c.date} cell={c} />
+          <RecoveryCard key={c.date} cell={c} baseline={baseline ?? FALLBACK_BASELINE} />
         ))}
       </div>
 
@@ -316,7 +317,7 @@ function Stat({ label, value, spark }: { label: string; value: string; spark?: R
   );
 }
 
-// ── Personal recovery tiers (terciles from last 12 months of daily_metrics) ──
+// ── Personal recovery tiers (rolling 90-day terciles from daily_metrics) ──
 type Tier = 'good' | 'ok' | 'bad';
 
 const TIER_TEXT: Record<Tier, string> = {
@@ -326,34 +327,39 @@ const TIER_TEXT: Record<Tier, string> = {
 };
 const TIER_SCORE: Record<Tier, number> = { good: 2, ok: 1, bad: 0 };
 
+// Static 12-month terciles, used when DB has too little history.
+const FALLBACK_BASELINE: MetricBaseline = {
+  sleep: [393, 429],
+  hrv: [39.6, 49.5],
+  rhr: [56, 59],
+};
+
 // higher = better
-function sleepTier(min: number | null): Tier | null {
-  if (min == null || min <= 60) return null;
-  if (min >= 429) return 'good';   // ≥ 7:09
-  if (min >= 393) return 'ok';     // 6:33–7:09
-  return 'bad';
-}
-function hrvTier(v: number | null): Tier | null {
+function higherTier(v: number | null, [p33, p67]: [number, number]): Tier | null {
   if (v == null) return null;
-  if (v >= 49.5) return 'good';
-  if (v >= 39.6) return 'ok';
+  if (v >= p67) return 'good';
+  if (v >= p33) return 'ok';
   return 'bad';
 }
 // lower = better
-function rhrTier(v: number | null): Tier | null {
+function lowerTier(v: number | null, [p33, p67]: [number, number]): Tier | null {
   if (v == null) return null;
-  if (v <= 56) return 'good';
-  if (v <= 59) return 'ok';
+  if (v <= p33) return 'good';
+  if (v <= p67) return 'ok';
   return 'bad';
 }
+function sleepTier(min: number | null, b: MetricBaseline): Tier | null {
+  return min == null || min <= 60 ? null : higherTier(min, b.sleep);
+}
 
+// Red only when ≥2 metrics bad (or the single present one); one bad + rest ok = amber.
 function overallTier(tiers: (Tier | null)[]): Tier | null {
   const present = tiers.filter((t): t is Tier => t != null);
   if (present.length === 0) return null;
+  const bad = present.filter(t => t === 'bad').length;
+  if (bad >= 2 || bad === present.length) return 'bad';
   const avg = present.reduce((s, t) => s + TIER_SCORE[t], 0) / present.length;
-  if (avg >= 1.5) return 'good';
-  if (avg >= 0.75) return 'ok';
-  return 'bad';
+  return avg >= 1.5 ? 'good' : 'ok';
 }
 
 const OVERALL_STYLE: Record<Tier, { border: string; bg: string; dot: string }> = {
@@ -362,11 +368,11 @@ const OVERALL_STYLE: Record<Tier, { border: string; bg: string; dot: string }> =
   bad: { border: 'border-red-600/70', bg: 'bg-red-950/20', dot: 'bg-red-400' },
 };
 
-function RecoveryCard({ cell }: { cell: DayCell }) {
+function RecoveryCard({ cell, baseline }: { cell: DayCell; baseline: MetricBaseline }) {
   const m = cell.metric;
-  const sT = sleepTier(m?.sleepMin ?? null);
-  const hT = hrvTier(m?.hrvNight ?? null);
-  const rT = rhrTier(m?.restingHr ?? null);
+  const sT = sleepTier(m?.sleepMin ?? null, baseline);
+  const hT = higherTier(m?.hrvNight ?? null, baseline.hrv);
+  const rT = lowerTier(m?.restingHr ?? null, baseline.rhr);
   const overall = overallTier([sT, hT, rT]);
   const style = overall ? OVERALL_STYLE[overall] : { border: 'border-slate-700', bg: 'bg-slate-800/40', dot: 'bg-slate-600' };
 

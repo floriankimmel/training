@@ -62,6 +62,13 @@ export interface DayMetric {
   restingHr: number | null;
 }
 
+// Tercile cut points [p33, p67] per recovery metric.
+export interface MetricBaseline {
+  sleep: [number, number];
+  hrv: [number, number];
+  rhr: [number, number];
+}
+
 export interface WeekTotals {
   sessions: number;
   km: number;
@@ -171,6 +178,25 @@ export function getWeekMetrics(start: string, end: string): DayMetric[] {
     WHERE day BETWEEN DATE '${start}' AND DATE '${end}'
     ORDER BY day`;
   return query<DayMetric>(sql);
+}
+
+// Personal recovery baseline: terciles over the 90 days before the week starts.
+// Null if too little data (caller falls back to static cut points).
+export function getMetricBaseline(start: string, days = 90): MetricBaseline | null {
+  const [r] = query<Record<string, number | null>>(`
+    SELECT count(*) AS n,
+           quantile_cont(sleep_min, 0.33) FILTER (WHERE sleep_min > 60) AS s1,
+           quantile_cont(sleep_min, 0.67) FILTER (WHERE sleep_min > 60) AS s2,
+           quantile_cont(hrv_night_avg, 0.33) AS h1, quantile_cont(hrv_night_avg, 0.67) AS h2,
+           quantile_cont(resting_hr, 0.33) AS r1, quantile_cont(resting_hr, 0.67) AS r2
+    FROM daily_metrics
+    WHERE day >= DATE '${start}' - INTERVAL '${days}' DAY AND day < DATE '${start}'`);
+  if (!r || Number(r.n) < 30 || [r.s1, r.s2, r.h1, r.h2, r.r1, r.r2].some(v => v == null)) return null;
+  return {
+    sleep: [Number(r.s1), Number(r.s2)],
+    hrv: [Number(r.h1), Number(r.h2)],
+    rhr: [Number(r.r1), Number(r.r2)],
+  };
 }
 
 export function getWeekTotals(start: string, end: string): WeekTotals {

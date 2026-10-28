@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { getAvailableWeeks, parseWeekFile, parseFeedbackFile, getWeekDates } from '../lib/parseTraining';
-import { getWeekActivities, getWeekMetrics, getWeekTotals, getTrend, dbAvailable } from '../lib/db';
+import { getWeekActivities, getWeekMetrics, getMetricBaseline, getWeekTotals, getTrend, dbAvailable } from '../lib/db';
 import { getRace, getPhase, getActiveInjuries, getFitnessTrend, getBuildProgression } from '../lib/parseContext';
 import WeekGrid from '../components/WeekGrid';
 import SeasonBar from '../components/SeasonBar';
@@ -27,6 +27,7 @@ const dates = getWeekDates(currentWeek.week, currentWeek.year);
 const hasDb = dbAvailable();
 const activities = hasDb ? getWeekActivities(dates.start, dates.end) : [];
 const metrics = hasDb ? getWeekMetrics(dates.start, dates.end) : [];
+const baseline = hasDb ? getMetricBaseline(dates.start) : null;
 const totals = hasDb ? getWeekTotals(dates.start, dates.end) : { sessions: 0, km: 0, min: 0, vert: 0, avgHr: null };
 const trend = hasDb ? getTrend(dates.end, 8) : [];
 
@@ -89,6 +90,7 @@ const nextWeek = currentIdx < weeks.length - 1 ? weeks[currentIdx + 1] : null;
         feedbackData={feedbackData}
         activities={activities}
         metrics={metrics}
+        baseline={baseline}
         totals={totals}
         trend={trend}
         weekDates={dates}
