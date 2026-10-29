@@ -69,7 +69,7 @@ Einheit gemacht, Umfang erfüllt, Daten sauber — aber die *eine* harte Vorgabe
 
 **Geplant**: Rad-Pendeln 2×20min, **aktive Erholung 100–125 bpm** („das ist Erholung, kein Training"). Abends Kraft Tag 3 (Oberkörper).
 **Tatsächliche Ausführung**: Hinfahrt als Umweg-Runde: **61 min moving / 65 min elapsed, 22,1 km** (Ø ~21,9 km/h), Ø HF 138 / max 158, 35 hm, 543 kcal. Rückfahrt noch offen.
-**Persönliches Empfinden**: Spontanes Zeitfenster — Partnerin daheim, kein Kindergarten-Bringdienst → Gelegenheit genutzt, bewusst länger gefahren. Sonst nicht angegeben.
+**Persönliches Empfinden**: Spontanes Zeitfenster — Partnerin daheim, kein Kindergarten-Bringdienst → Gelegenheit genutzt, bewusst länger gefahren. Wenig Rad in den letzten Wochen → HF-Kontrolle fällt noch schwer.
 
 ### 🎯 **Herzfrequenz-Analyse**
 
