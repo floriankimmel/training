@@ -21,6 +21,8 @@ from pathlib import Path
 
 import duckdb
 
+from readiness import freeze
+
 SCHEMA = Path(__file__).with_name("schema.sql")
 REPO = Path(__file__).resolve().parent.parent
 DAY_RE = re.compile(r"^###\s+(\d{4}-\d{2}-\d{2})\s*\(([^)]*)\)")
@@ -154,8 +156,9 @@ def main():
                 print(f"[day] {rec['day']} {rec['weekday']}  "
                       f"sleep={rec['sleep_min']}min hrv_night={rec['hrv_night_avg']} "
                       f"rhr={rec['resting_hr']}")
+    new, rejudged = freeze(con)
     con.close()
-    print(f"\nSummary: {n} day(s) upserted")
+    print(f"\nSummary: {n} day(s) upserted, readiness: {new} frozen, {rejudged} re-judged")
 
 
 if __name__ == "__main__":

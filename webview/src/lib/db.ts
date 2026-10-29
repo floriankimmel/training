@@ -60,6 +60,15 @@ export interface DayMetric {
   sleepMin: number | null;
   hrvNight: number | null;
   restingHr: number | null;
+  frozen: FrozenTiers | null;
+}
+
+// Stored judgment from daily_readiness (db/readiness.py); null = not yet frozen.
+export interface FrozenTiers {
+  sleep: string | null;
+  hrv: string | null;
+  rhr: string | null;
+  overall: string | null;
 }
 
 // Tercile cut points [p33, p67] per recovery metric.
@@ -167,22 +176,25 @@ export function getWeekActivities(start: string, end: string): DayActivity[] {
   }));
 }
 
-// Daily recovery metrics for the week.
+// Daily recovery metrics for the week, with frozen readiness tiers when judged.
 export function getWeekMetrics(start: string, end: string): DayMetric[] {
   const sql = `
-    SELECT day::varchar AS date,
-           sleep_min AS "sleepMin",
-           hrv_night_avg AS "hrvNight",
-           resting_hr AS "restingHr"
-    FROM daily_metrics
-    WHERE day BETWEEN DATE '${start}' AND DATE '${end}'
-    ORDER BY day`;
+    SELECT m.day::varchar AS date,
+           m.sleep_min AS "sleepMin",
+           m.hrv_night_avg AS "hrvNight",
+           m.resting_hr AS "restingHr",
+           CASE WHEN r.day IS NULL THEN NULL
+                ELSE {'sleep': r.sleep_tier, 'hrv': r.hrv_tier, 'rhr': r.rhr_tier, 'overall': r.overall}
+           END AS frozen
+    FROM daily_metrics m LEFT JOIN daily_readiness r USING (day)
+    WHERE m.day BETWEEN DATE '${start}' AND DATE '${end}'
+    ORDER BY m.day`;
   return query<DayMetric>(sql);
 }
 
-// Personal recovery baseline: terciles over the 90 days before the week starts.
-// Null if too little data (caller falls back to static cut points).
-export function getMetricBaseline(start: string, days = 90): MetricBaseline | null {
+// Live recovery baseline for days not yet frozen (today): terciles over the
+// 90 days before today, same as db/readiness.py. Null if too little data.
+export function getMetricBaseline(days = 90): MetricBaseline | null {
   const [r] = query<Record<string, number | null>>(`
     SELECT count(*) AS n,
            quantile_cont(sleep_min, 0.33) FILTER (WHERE sleep_min > 60) AS s1,
@@ -190,7 +202,7 @@ export function getMetricBaseline(start: string, days = 90): MetricBaseline | nu
            quantile_cont(hrv_night_avg, 0.33) AS h1, quantile_cont(hrv_night_avg, 0.67) AS h2,
            quantile_cont(resting_hr, 0.33) AS r1, quantile_cont(resting_hr, 0.67) AS r2
     FROM daily_metrics
-    WHERE day >= DATE '${start}' - INTERVAL '${days}' DAY AND day < DATE '${start}'`);
+    WHERE day >= current_date - INTERVAL '${days}' DAY AND day < current_date`);
   if (!r || Number(r.n) < 30 || [r.s1, r.s2, r.h1, r.h2, r.r1, r.r2].some(v => v == null)) return null;
   return {
     sleep: [Number(r.s1), Number(r.s2)],

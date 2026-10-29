@@ -101,6 +101,28 @@ CREATE TABLE IF NOT EXISTS daily_metrics (
   imported_at     TIMESTAMPTZ
 );
 
+-- Frozen daily readiness judgment (db/readiness.py). Written once per past day,
+-- never touched by later rule/baseline changes. Re-judged only when the day's
+-- inputs change (data correction / late RHR), using the stored thresholds.
+CREATE TABLE IF NOT EXISTS daily_readiness (
+  day             DATE PRIMARY KEY,
+  sleep_tier      VARCHAR,               -- 'good' | 'ok' | 'bad' | NULL
+  hrv_tier        VARCHAR,
+  rhr_tier        VARCHAR,
+  overall         VARCHAR,
+  -- inputs as judged
+  sleep_min       INTEGER,
+  hrv_night_avg   DOUBLE,
+  resting_hr      INTEGER,
+  -- tercile cut points [p33, p67] used
+  sleep_p33 DOUBLE, sleep_p67 DOUBLE,
+  hrv_p33   DOUBLE, hrv_p67   DOUBLE,
+  rhr_p33   DOUBLE, rhr_p67   DOUBLE,
+  baseline_n      INTEGER,               -- days in 90d window; <30 = static fallback
+  algo_version    INTEGER,
+  evaluated_at    TIMESTAMPTZ
+);
+
 CREATE INDEX IF NOT EXISTS idx_records_act ON records(activity_id);
 CREATE INDEX IF NOT EXISTS idx_records_ts  ON records(ts);
 CREATE INDEX IF NOT EXISTS idx_laps_act    ON laps(activity_id);

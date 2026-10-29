@@ -75,6 +75,21 @@ SELECT day, weekday, sleep_min, deep_min, rem_min, efficiency_pct,
 Used read-only by the `feedback`, `coach`, and `training-db` skills for
 recovery/readiness context.
 
+### Frozen readiness (daily_readiness)
+
+`import_metrics.py` ends by calling `readiness.py`, which judges every past day
+once (sleep/HRV/RHR tiers vs. terciles of the 90 days before that day, plus an
+overall tier) and stores it in `daily_readiness`. Frozen days never change on
+rule or baseline changes; they are re-judged only when their inputs change
+(data correction, late RHR), keeping the stored thresholds. Today stays
+unfrozen and is judged live in the webview (dashed border). Rule changes: edit
+both `readiness.py` and `webview/src/components/WeekGrid.tsx`, bump
+`ALGO_VERSION`.
+
+```bash
+db/.venv/bin/python db/readiness.py   # freeze/re-judge without re-importing
+```
+
 ### Deduplication (source-independent)
 
 - activity id = **surrogate BIGINT** (chronological by start_time; dedup does

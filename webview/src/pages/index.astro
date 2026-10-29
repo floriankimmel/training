@@ -27,7 +27,7 @@ const dates = getWeekDates(currentWeek.week, currentWeek.year);
 const hasDb = dbAvailable();
 const activities = hasDb ? getWeekActivities(dates.start, dates.end) : [];
 const metrics = hasDb ? getWeekMetrics(dates.start, dates.end) : [];
-const baseline = hasDb ? getMetricBaseline(dates.start) : null;
+const baseline = hasDb ? getMetricBaseline() : null;
 const totals = hasDb ? getWeekTotals(dates.start, dates.end) : { sessions: 0, km: 0, min: 0, vert: 0, avgHr: null };
 const trend = hasDb ? getTrend(dates.end, 8) : [];
 

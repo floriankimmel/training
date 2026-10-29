@@ -317,7 +317,8 @@ function Stat({ label, value, spark }: { label: string; value: string; spark?: R
   );
 }
 
-// ── Personal recovery tiers (rolling 90-day terciles from daily_metrics) ──
+// ── Personal recovery tiers: frozen per day in daily_readiness (db/readiness.py);
+// live 90-day terciles only for days not yet frozen (today). Keep rules in sync. ──
 type Tier = 'good' | 'ok' | 'bad';
 
 const TIER_TEXT: Record<Tier, string> = {
@@ -370,14 +371,15 @@ const OVERALL_STYLE: Record<Tier, { border: string; bg: string; dot: string }> =
 
 function RecoveryCard({ cell, baseline }: { cell: DayCell; baseline: MetricBaseline }) {
   const m = cell.metric;
-  const sT = sleepTier(m?.sleepMin ?? null, baseline);
-  const hT = higherTier(m?.hrvNight ?? null, baseline.hrv);
-  const rT = lowerTier(m?.restingHr ?? null, baseline.rhr);
-  const overall = overallTier([sT, hT, rT]);
+  const f = m?.frozen;
+  const sT = f ? (f.sleep as Tier | null) : sleepTier(m?.sleepMin ?? null, baseline);
+  const hT = f ? (f.hrv as Tier | null) : higherTier(m?.hrvNight ?? null, baseline.hrv);
+  const rT = f ? (f.rhr as Tier | null) : lowerTier(m?.restingHr ?? null, baseline.rhr);
+  const overall = f ? (f.overall as Tier | null) : overallTier([sT, hT, rT]);
   const style = overall ? OVERALL_STYLE[overall] : { border: 'border-slate-700', bg: 'bg-slate-800/40', dot: 'bg-slate-600' };
 
   return (
-    <div className={`border ${style.border} ${style.bg} rounded-lg p-2 min-h-[112px] flex flex-col gap-1`}>
+    <div title={f ? undefined : 'vorläufig (wird morgen eingefroren)'} className={`border ${m && !f ? 'border-dashed' : ''} ${style.border} ${style.bg} rounded-lg p-2 min-h-[112px] flex flex-col gap-1`}>
       <div className="flex items-center justify-between">
         <span className="text-xs font-mono text-slate-500">{cell.weekday} {cell.date.slice(8)}</span>
         <span className={`h-2 w-2 rounded-full ${style.dot}`} />
