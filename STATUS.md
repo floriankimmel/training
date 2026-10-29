@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated**: 2026-10-28 (W44 Mi Rad aerob gemacht: 65min/20,1km, Ø139,8/max170 — aber 43 % Zeit über Cap 144, Grade C+. Steuerungs-Watch-Item: 3. Rad-Tag in Folge über Deckel. Lauf-Go/No-Go 02.11; Arzt-Abklärung Zehenbrüche weiter offen)
+**Last updated**: 2026-10-29 (W44 Do Pendeln spontan verlängert: Hinfahrt 61min/22,1km, Ø138/max158 — Erholungsvorgabe ≤125 verfehlt (88 % drüber), 32 % >144, aber Z4 nur 2,5 % (Mi 28 %). Grade B-. Rückfahrt ≤125, Kraft Tag 3 abends)
 
 ## Current Target
 
@@ -36,7 +36,8 @@
 - **Recovery-Lauf-Pace** (sobald Laufen): Pace-Alarm 6:40/km, nicht nach Gefühl/HF steuern.
 - **Vertical gap**: Wolkersdorf flach (max ~60 hm) — hm müssen akkumuliert werden (Repeats/Treppen/Wienerwald).
 - **Fuel-Praxis**: ~40–60 g/h ab 75min, gilt ab der langen Ausfahrt So 01.11.
-- **Daten**: DB aktuell bis 2026-10-23 (Auto-Import siehe `scripts/`).
+- **Spontan-Umfang**: Zusatzzeit ok, aber dann Deckel 135 — nicht in 145–152 hängen bleiben.
+- **Daten**: DB aktuell bis 2026-10-29 (Auto-Import siehe `scripts/`).
 
 ## Recent Progression
 

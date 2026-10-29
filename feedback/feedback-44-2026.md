@@ -64,3 +64,67 @@ Einheit gemacht, Umfang erfüllt, Daten sauber — aber die *eine* harte Vorgabe
 - **Drittel-Ø**: 131,7 / 145,6 / 142,2
 - **Grade**: C+
 - **DB-Import**: ausstehend (DuckDB läuft nicht auf iOS; nächster `import_fit.py` auf dem Mac zieht die Session via HealthFit-iCloud-Ordner automatisch).
+
+## 2026-10-29 - Rad-Pendeln (verlängert) - Donnerstag Analyse
+
+**Geplant**: Rad-Pendeln 2×20min, **aktive Erholung 100–125 bpm** („das ist Erholung, kein Training"). Abends Kraft Tag 3 (Oberkörper).
+**Tatsächliche Ausführung**: Hinfahrt als Umweg-Runde: **61 min moving / 65 min elapsed, 22,1 km** (Ø ~21,9 km/h), Ø HF 138 / max 158, 35 hm, 543 kcal. Rückfahrt noch offen.
+**Persönliches Empfinden**: Spontanes Zeitfenster — Partnerin daheim, kein Kindergarten-Bringdienst → Gelegenheit genutzt, bewusst länger gefahren. Sonst nicht angegeben.
+
+### 🎯 **Herzfrequenz-Analyse**
+
+| Zone (Rad) | Zeit | Anteil |
+|---|---|---|
+| ≤116 | 1,9 min | 3,2 % |
+| 117–125 (Pendel-Band) | 5,3 min | 8,9 % |
+| 126–134 | 9,8 min | 16,2 % |
+| 135–144 | 24,1 min | 39,8 % |
+| **145–152** | 17,8 min | **29,4 %** |
+| **153–171 (Z4)** | 1,5 min | **2,5 %** |
+
+- **88 % über dem Pendel-Deckel 125.** Als Erholungsfahrt komplett verfehlt — das war eine aerobe Ausfahrt, keine aktive Erholung.
+- **32 % über dem Aerob-Deckel 144** — selbst gemessen an der Aerob-Vorgabe von gestern zu hoch. Drittel-Ø 139 / 142 / 134: Mittelteil wieder drüber, erst am Ende runter.
+- **Fortschritt vs. Mi**: Z4 von **28 % → 2,5 %**, max 170 → 158. Die harten Spitzen sind weg; was bleibt, ist ein Dauerverweilen knapp über 144 (Z3-„Grauzone").
+
+### ⏱️ **Speed**
+Ø ~21,9 km/h flach (35 hm) vs. 18,5 km/h gestern. Schneller bei weniger Z4 — Tempo kam aber über das obere Z2/Z3-Band, nicht über Lockerheit.
+
+### 🏆 **Was war hervorragend**
+- **Gelegenheit genutzt.** W43-Hauptproblem war *zu wenig Umfang* — ausgefallene Pendel-Tage. Heute: 61 statt 20 min auf der Hinfahrt. Richtiger Instinkt.
+- **Z4 fast eliminiert** (2,5 %), max 158 — klare Steuerungsverbesserung gegenüber Mi (28 % Z4).
+- Recovery-Status trägt es: HRV 65,7 (z=+1,3 vs. 30d-Basis), Schlaf 407 min, kein Schlafdefizit.
+
+### ⚠️ **Verbesserungsbereiche**
+- **Zweck umdefiniert ohne Intensität anzupassen.** Mehr Umfang = ok. Mehr Umfang *bei Aerob-Intensität knapp über Deckel* = zweiter aerober Tag in Folge statt Erholungstag. Wenn spontan länger, dann **länger UND locker** (≤135) — das wäre der echte Gewinn gewesen.
+- **4. Rad-Tag in Folge mit Zeit über 144.** Muster bleibt: Steuerung nach Gefühl/Tempo, nicht nach HF-Alarm.
+- Rad-Zonen-Fokus fehlt im Parser-TiZ (zeigt Lauf-Zonen) — Bewertung hier manuell nach `zones.md` Rad.
+
+### 📈 **Progression vs. Vorsessions**
+- Mo 19.10: Ø146 / max176 (Z4 hoch)
+- Mi 21.10: Ø140 / max165
+- Mi 28.10: Ø139,8 / max170, 43 % >144, 28 % Z4
+- **Do 29.10: Ø138 / max158, 32 % >144, 2,5 % Z4** → bester Rad-Tag bzgl. Spitzen, Deckel-Disziplin weiter unzureichend.
+
+### 🎯 **Bewertung: B-**
+Gemessen am Plan (Erholung ≤125) ein C. Aber die Entscheidung, Umfang mitzunehmen, ist in dieser Comeback-Phase richtig, und Z4 ist praktisch weg. Abzug für 32 % über 144 und weil daraus zwei aerobe Tage am Stück wurden statt Last/Erholung.
+
+### 💡 **Empfehlungen für nächstes Mal**
+1. **Rückfahrt heute: direkt, ~20 min, strikt ≤125.** Wirklich Erholung. Wenn das nicht geht (Gegenwind, Eile) → lieber Öffis. Kein zweites Aerob-Stück.
+2. **Kraft Tag 3 heute Abend durchziehen** — Oberkörper, kollidiert nicht mit Beinlast.
+3. **Spontan-Regel**: Ungeplanter Zusatzumfang → Intensität runter, nicht halten. Deckel 135 bei Extra-Umfang.
+4. **Sa 55min aerob**: HF-Alarm 144 aktiv, Ziel <10 % drüber. Woche liegt durch heute schon über Rad-Soll — Sa nicht verlängern.
+
+---
+
+### Detailed Metrics — 2026-10-29 Rad-Pendeln (Hinfahrt)
+
+- **Workout**: Rad outdoor (HealthFit, UTMB), Start 07:03
+- **Dauer / Distanz**: 61 min moving / 65 min elapsed / 22,1 km (Ø ~21,9 km/h)
+- **HF**: Ø 138 / max 158; 3647 Samples
+- **Laps (5 km)**: Ø HF 135 / 147 / 141 / 135 / 130
+- **Zeit >125**: 88 % · **>144**: 32 % · Z4 (153–171): 2,5 %
+- **Drittel-Ø**: 139,2 / 142,4 / 133,9
+- **Hm**: 35 · **kcal**: 543
+- **Recovery (Morgen)**: HRV 65,7 (z=+1,3), Schlaf 407 min / Tief 48 min, RHF n/a
+- **Grade**: B-
+- **DB-Import**: ok=1
