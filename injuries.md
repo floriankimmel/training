@@ -3,7 +3,7 @@
 > Consolidated history so patterns are visible in one place (was scattered across week narratives).
 > Newest first. Add every injury/illness that affects training here.
 
-**Last updated**: 2026-10-25
+**Last updated**: 2026-10-31
 
 ## 2026 — Toe fracture #2 (Zehenbruch, kleiner Zeh, W40)
 
@@ -14,6 +14,7 @@
 - **Return protocol**: identisch zu W31 — erst wenn schmerzfrei: 2-3 kurze easy Z1-Läufe, flach, weiches Geläuf. Keine Intensität/Berg bis flacher harter Reiz schmerzfrei. Bergab-Push-off stresst Zeh am meisten.
 - **Race-Konsequenz**: **Vienna Trail Run 18.10 = DNS** (nicht angetreten). Comeback-Gate No-Go, kein schmerzfreier Lauf vor Renntag → bewusster Nichtantritt statt Risiko-Start auf nicht verheiltem Knochen.
 - **Status**: **active** (as of 2026-10-18). Lauf weiter pausiert (Zeh-Abdruck), aerober Wiederaufbau per Rad (W43).
+- **Comeback 2026-10-31**: Florian meldet Zeh bereit → **W45 Return-to-Run**: 3 flache Z1-Läufe 20/25/30min (Mo 02.11 / Mi 04.11 / Sa 07.11), weiches Geläuf, Abbruch bei Schmerz beim Abdruck oder Druckschmerz am Folgemorgen (Fallback Rad). Kein Footwork, Sprünge nur schmerzfrei. Arzt-Abklärung weiter offen.
 
 ## 2026 — Erkältung (Cold, W37)
 

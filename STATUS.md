@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated**: 2026-10-29 (W44 Do Pendeln spontan verlängert: Hinfahrt 61min/22,1km, Ø138/max158 — Erholungsvorgabe ≤125 verfehlt (88 % drüber), 32 % >144, aber Z4 nur 2,5 % (Mi 28 %). Grade B-. Rückfahrt ≤125, Kraft Tag 3 abends)
+**Last updated**: 2026-10-31 (W45 geplant — Lauf-Comeback: 3 flache Z1-Läufe 20/25/30min + Rad-Basis ~190min + Kraft First Class W3)
 
 ## Current Target
 
@@ -13,16 +13,15 @@
 
 ## Current Phase
 
-- **Block**: 🚴 Comeback-Wiederaufbau, **Rad-geführt**, nach Zehenbruch #2 (30.09.). Laufen pausiert.
-- **Diese Woche (W44, 26.10.–01.11.)**: **kein Lauf** (Calendar bindend). **Mo+Di nur Kraft**, Rad Mi–So:
-  Mi 60min aerob · Do 2×20min Pendeln · Fr Kraft · Sa 55min aerob · So 85min lang. Deckel 144 bpm.
-- **Readiness 25.10.**: **GREEN** (HRV 48 z=0.3, RHF 56 vs. Basis 59, Schlaf über Schnitt). Chronik niedrig
-  (28d/Wo 62) → ACWR 4.0 wertlos, Steuerung über absolutes TRIMP: W43 249 → W44-Deckel ~320.
-- **Kraft**: First Class **W2** (S.242), Tag 1–4 komplett (Mo/Di/Do/Fr). Sprung freigegeben, kontrolliert landen.
-- **Letzter Lauf**: 2026-09-23. **W43 Ist**: nur 2 von 4 Radeinheiten (124min), beide über Deckel
-  (Mo Ø146/max176, Mi Ø140/max165); Kraft 3 von 4 Tagen.
-- **Next**: (1) Arzt-Abklärung Zehenbrüche (seit 3 Wochen offen), (2) **Lauf-Go/No-Go Mo 02.11** — flacher
-  Z1-Testlauf 20min bei schmerzfreiem Zeh, (3) Lauf über Volumen statt Intensität, (4) Feldtest Lauf + Rad.
+- **Block**: 🏃 **Lauf-Comeback** nach Zehenbruch #2 (30.09.), Rad trägt den aeroben Umfang.
+- **Nächste Woche (W45, 02.–08.11.)**: Lauf Mo 20 · Mi 25 · Sa 30min, **flach, weich, Z1 ≤142, Pace ≥6:40**.
+  Rad Di 60 aerob (≤144) · Do Pendeln 2×20 (≤125) · So 90 lang (≤140). Fr Ruhetag. Fallback je Lauf: 45min Rad.
+- **Readiness 31.10.**: **GREEN** (HRV 3d 44 z=0.0, RHF 60 vs. 59, Schlaf 408 vs. 400). Chronik niedrig
+  (28d/Wo 116) → ACWR 1.86 wertlos, Ziel W45 ~280–320 TRIMP absolut.
+- **Kraft**: First Class **W3** (S.243, neues Tableau): Tag 1 Mo · Tag 3 Mi · Tag 2 Do · Tag 4 Sa.
+- **Letzter Lauf**: 2026-09-23. **W44**: Rad-only, Mi C+ / Do B- (Deckel 144 bzw. 125 gerissen, Z4 fast weg).
+- **Next**: (1) 3 schmerzfreie Läufe → W46 4 Läufe, längster ~45min, (2) Arzt-Abklärung Zehenbrüche,
+  (3) Footwork ab W46, (4) Feldtest Lauf + Rad wenn fit.
 
 ## Open Watch-Items
 
@@ -44,9 +43,9 @@
 | Week | Focus | Note |
 |------|-------|------|
 | W41 | ⛔ Laufpause | 0 Lauf, Knochenheilung |
-| W42 | Comeback-Gate / Vienna | Vienna 18.10 DNS |
 | W43 | 🚴 Rad-Comeback | Ist: 2/4 Rad (Mo C, Mi B+), Kraft 3/4. Umfang verfehlt |
-| W44 | 🚴 Rad only | Mo/Di Kraft only; 4 Rad-Tage, alles aerob; Lauf-Gate 02.11 |
+| W44 | 🚴 Rad only | Mo/Di Kraft only; Rad über Deckel (Mi C+, Do B-), Z4 fast weg |
+| W45 | 🏃 Lauf-Comeback | 3× flach Z1 20/25/30 + Rad ~190min + Kraft FC W3 |
 
 Ältere Wochen: `STATUS-log.md`.
 
