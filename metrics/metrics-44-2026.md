@@ -181,3 +181,22 @@ _Kein Resting-HR-Wert verfügbar._
 #### ❤️ Ruhe-HF
 
 _Kein Resting-HR-Wert verfügbar._
+
+### 2026-11-01 (Sonntag)
+
+#### 🛏️ Schlaf
+
+_Keine Schlafdaten verfügbar._
+
+#### 💓 HRV (SDNN)
+
+| Metrik | Wert |
+|--------|------|
+| Tages-Ø | 31.7 ms |
+| Min | 18.2 ms |
+| Max | 57.2 ms |
+| Samples | 7 |
+
+#### ❤️ Ruhe-HF
+
+_Kein Resting-HR-Wert verfügbar._
