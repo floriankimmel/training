@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated**: 2026-10-31 (W45 geplant — Lauf-Comeback: 3 flache Z1-Läufe 20/25/30min + Rad-Basis ~190min + Kraft First Class W3)
+**Last updated**: 2026-11-01 (W45 final geprüft — Lauf-Comeback: 3 flache Z1-Läufe 20/25/30min + Rad ~200min + Kraft First Class W3)
 
 ## Current Target
 
@@ -14,19 +14,24 @@
 ## Current Phase
 
 - **Block**: 🏃 **Lauf-Comeback** nach Zehenbruch #2 (30.09.), Rad trägt den aeroben Umfang.
-- **Nächste Woche (W45, 02.–08.11.)**: Lauf Mo 20 · Mi 25 · Sa 30min, **flach, weich, Z1 ≤142, Pace ≥6:40**.
-  Rad Di 60 aerob (≤144) · Do Pendeln 2×20 (≤125) · So 90 lang (≤140). Fr Ruhetag. Fallback je Lauf: 45min Rad.
-- **Readiness 31.10.**: **GREEN** (HRV 3d 44 z=0.0, RHF 60 vs. 59, Schlaf 408 vs. 400). Chronik niedrig
-  (28d/Wo 116) → ACWR 1.86 wertlos, Ziel W45 ~280–320 TRIMP absolut.
+- **Diese Woche (W45, 02.–08.11.)**: Lauf Mo 20 · Mi 25 · Sa 30min, **flach, weich, Z1 ≤142, Pace ≥6:40**.
+  Rad Di 70 aerob (≤144) · Do Pendeln 2×20 (≤125) · So 90 lang (≤140). Fr Ruhetag. Fallback je Lauf: 45min Rad.
+- **Readiness 01.11.**: **GREEN, aber weicher** (HRV 3d 39 z=−0.0, RHF 63 vs. 60, Schlaf 388 vs. 398).
+  Chronik niedrig (28d/Wo 116) → ACWR 1.84 wertlos, Ziel W45 ~280–300 TRIMP absolut.
 - **Kraft**: First Class **W3** (S.243, neues Tableau): Tag 1 Mo · Tag 3 Mi · Tag 2 Do · Tag 4 Sa.
-- **Letzter Lauf**: 2026-09-23. **W44**: Rad-only, Mi C+ / Do B- (Deckel 144 bzw. 125 gerissen, Z4 fast weg).
-- **Next**: (1) 3 schmerzfreie Läufe → W46 4 Läufe, längster ~45min, (2) Arzt-Abklärung Zehenbrüche,
-  (3) Footwork ab W46, (4) Feldtest Lauf + Rad wenn fit.
+- **Letzter Lauf**: 2026-09-23. **W44 belegt nur 2 Ausdauertage** (Mi C+, Do B-); Sa+So abgehakt,
+  aber **ohne Aufzeichnung** → zählen nicht. Kraft 3/4 (Tag 4 offen).
+- **Next**: (1) 🔴 `.fit`-Import reparieren, (2) 3 schmerzfreie Läufe → W46 4 Läufe, längster ~45min,
+  (3) Arzt-Abklärung Zehenbrüche, (4) Footwork ab W46, (5) Feldtest Lauf + Rad wenn fit.
 
 ## Open Watch-Items
 
-- **🔴 W43-Muster: zu wenig Umfang, zu viel Intensität.** Beide Pendel-Tage ausgefallen, gefahrene Einheiten
-  über dem aeroben Deckel. W44-Auftrag: **4 Rad-Tage fahren, alle locker.**
+- **🔴 Daten-Blindflug: `.fit`-Import tot seit 2026-10-29.** Alle 297 Dateien → `OSError [Errno 11]
+  Resource deadlock avoided` beim Lesen aus iCloud/HealthFit (listbar, nicht lesbar; TCC/Full Disk
+  Access, kein Code-Bug). DB endet Do 29.10 → **kein belastbares Feedback bis zum Fix**. Priorität 1.
+- **🔴 Umfangsleck, 2. Woche in Folge.** W43 2/4 Radeinheiten, W44 2 belegte Ausdauertage (Sa+So
+  abgehakt, aber ohne `.fit`). Gefahrene Einheiten über dem aeroben Deckel. Auftrag W45:
+  **alle Einheiten fahren UND aufzeichnen** — ohne Uhr/Brustgurt existiert die Einheit nicht.
 - **⛔ Zehenbruch #2 / Muster**: 2 Frakturen in ~2 Monaten → ärztlich abklären (Vit D, Ferritin, ggf. DXA).
   Siehe `injuries.md`. **Vor** dem Lauf-Comeback, nicht danach.
 - **Rad-HF**: eigene Rad-Zonen in `zones.md` (provisorisch). **Aerober Rad-Deckel 144 bpm**, keine
@@ -36,7 +41,7 @@
 - **Vertical gap**: Wolkersdorf flach (max ~60 hm) — hm müssen akkumuliert werden (Repeats/Treppen/Wienerwald).
 - **Fuel-Praxis**: ~40–60 g/h ab 75min, gilt ab der langen Ausfahrt So 01.11.
 - **Spontan-Umfang**: Zusatzzeit ok, aber dann Deckel 135 — nicht in 145–152 hängen bleiben.
-- **Daten**: DB aktuell bis 2026-10-29 (Auto-Import siehe `scripts/`).
+- **Daten**: DB aktuell bis 2026-10-29 — **eingefroren**, siehe Import-Watch-Item oben.
 
 ## Recent Progression
 
@@ -44,8 +49,8 @@
 |------|-------|------|
 | W41 | ⛔ Laufpause | 0 Lauf, Knochenheilung |
 | W43 | 🚴 Rad-Comeback | Ist: 2/4 Rad (Mo C, Mi B+), Kraft 3/4. Umfang verfehlt |
-| W44 | 🚴 Rad only | Mo/Di Kraft only; Rad über Deckel (Mi C+, Do B-), Z4 fast weg |
-| W45 | 🏃 Lauf-Comeback | 3× flach Z1 20/25/30 + Rad ~190min + Kraft FC W3 |
+| W44 | 🚴 Rad only | Ist: 2 belegte Rad-Tage (Mi C+, Do B-); Sa+So ohne Aufzeichnung. Kraft 3/4 |
+| W45 | 🏃 Lauf-Comeback | 3× flach Z1 20/25/30 + Rad ~200min + Kraft FC W3 |
 
 Ältere Wochen: `STATUS-log.md`.
 
