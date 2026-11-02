@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated**: 2026-11-01 (W45 final geprüft — Lauf-Comeback: 3 flache Z1-Läufe 20/25/30min + Rad ~200min + Kraft First Class W3)
+**Last updated**: 2026-11-02 (W45 Mo: Comeback-Lauf #1 gelaufen — 20min flach Z1, Ø131/max141, 0% über Deckel 142, A+. Zeh-Check morgen früh entscheidet über Mi)
 
 ## Current Target
 
@@ -19,7 +19,8 @@
 - **Readiness 01.11.**: **GREEN, aber weicher** (HRV 3d 39 z=−0.0, RHF 63 vs. 60, Schlaf 388 vs. 398).
   Chronik niedrig (28d/Wo 116) → ACWR 1.84 wertlos, Ziel W45 ~280–300 TRIMP absolut.
 - **Kraft**: First Class **W3** (S.243, neues Tableau): Tag 1 Mo · Tag 3 Mi · Tag 2 Do · Tag 4 Sa.
-- **Letzter Lauf**: 2026-09-23. **W44 belegt nur 2 Ausdauertage** (Mi C+, Do B-); Sa+So abgehakt,
+- **Letzter Lauf**: **2026-11-02 (Comeback #1, 20min flach Z1, A+, 0% über 142).** Zeh-Check morgen
+  früh entscheidet über Mi-Lauf. **W44 belegt nur 2 Ausdauertage** (Mi C+, Do B-); Sa+So abgehakt,
   aber **ohne Aufzeichnung** → zählen nicht. Kraft 3/4 (Tag 4 offen).
 - **Next**: (1) 🔴 `.fit`-Import reparieren, (2) 3 schmerzfreie Läufe → W46 4 Läufe, längster ~45min,
   (3) Arzt-Abklärung Zehenbrüche, (4) Footwork ab W46, (5) Feldtest Lauf + Rad wenn fit.
@@ -50,7 +51,7 @@
 | W41 | ⛔ Laufpause | 0 Lauf, Knochenheilung |
 | W43 | 🚴 Rad-Comeback | Ist: 2/4 Rad (Mo C, Mi B+), Kraft 3/4. Umfang verfehlt |
 | W44 | 🚴 Rad only | Ist: 2 belegte Rad-Tage (Mi C+, Do B-); Sa+So ohne Aufzeichnung. Kraft 3/4 |
-| W45 | 🏃 Lauf-Comeback | 3× flach Z1 20/25/30 + Rad ~200min + Kraft FC W3 |
+| W45 | 🏃 Lauf-Comeback | Mo Lauf #1 ✅ 20min flach Z1 A+ (0% über 142). Rad + Kraft FC W3 folgen |
 
 Ältere Wochen: `STATUS-log.md`.
 
