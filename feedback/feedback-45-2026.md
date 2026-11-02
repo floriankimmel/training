@@ -8,7 +8,7 @@ _Subjektive Trainingserfahrungen für Woche 45, ergänzend zu objektiven HealthK
 
 **Geplant**: Lauf-Test flach Z1 — 20min, strikt Deckel 142 bpm, Pace ≥ 6:40/km (irrelevant), flaches/weiches Geläuf, kurze Schritte, Mittelfußlandung, kein aktiver Vorfuß-Abdruck. Go/No-Go-Test — Ziel: schmerzfreier Lauf + schmerzfreier Zeh morgen früh, nicht Fitness. Erster Lauf seit 2026-09-23 (Zehenbruch #2).
 **Tatsächliche Ausführung**: 20,1min, 2,80km, Ø-Pace 6:29/km, 212 kcal, 10,2°C. Ø-HF 131, max 141, min 88. 86% Z1, 14% Aktive Erholung, **0% über dem Deckel 142**. Flach (1 flight climbed ≈ 3m). HR per Bluetooth-Gerät (Brustgurt/Verity Sense).
-**Persönliches Empfinden**: Nicht angegeben — aus den Daten abgeleitet: kontrolliert, diszipliniert, ohne Druck.
+**Persönliches Empfinden**: „Ruhig, über kein Problem, nichts gespürt am Zeh." Alles super gelaufen. Entscheidend für den Go/No-Go-Test: **Zeh komplett schmerzfrei während des Laufs** — das primäre Ziel ist damit erfüllt.
 
 ### 🎯 **Herzfrequenz-Analyse**
 Das ist genau das, was der Plan verlangt hat — und zwar sauber. Ø 131 bpm, Max **141**, also exakt einen Schlag unter dem harten Deckel 142, und **keine einzige Sekunde darüber**. 86% der Zeit in Z1 (125–142), 14% in Aktiver Erholung. Null Zeit in Z2 oder höher. Die HF-Progression ist lehrbuchmäßig: erstes Drittel Ø 126 (sauberer Warmup aus der Aktiven Erholung), dann einpendeln auf Ø 135/134 im Mittel- und Schlussdrittel — flaches Plateau, kein Drift nach oben, keine Spikes. Nach sechs Wochen Pause wäre ein Hochkriechen Richtung 142 das erwartbare Muster gewesen; stattdessen hast du es bewusst darunter gehalten. Genau so.
@@ -28,7 +28,7 @@ Am Lauf selbst: nichts zu meckern. Die einzige offene Variable ist **nicht in de
 Erster Lauf seit **2026-09-23** — die Feedback-Historie springt von W39 direkt auf W43/W44 (reine Rad-/Kraftwochen), was die 6-wöchige Laufpause nach Zehenbruch #2 widerspiegelt. Es gibt also keinen direkten Lauf-Vergleich; dies ist der Nullpunkt der neuen Comeback-Serie (20 → 25 → 30min). Verglichen mit den jüngsten Rad-Aerob-Tagen (W44 Mi: 43% über Deckel 144) ist die Zonendisziplin heute ein klarer Schritt nach vorn.
 
 ### 🎯 **Bewertung: A+**
-Für einen Go/No-Go-Comeback-Test gibt es keine bessere Ausführung: HF unter dem Deckel (0% drüber), flach, Brustgurt dran, kontrolliert vom ersten bis zum letzten Schlag. Das Einzige, was diese Note nachträglich kippen könnte, ist der Zeh morgen früh — aber das liegt außerhalb der Ausführung.
+Für einen Go/No-Go-Comeback-Test gibt es keine bessere Ausführung: HF unter dem Deckel (0% drüber), flach, Brustgurt dran, kontrolliert vom ersten bis zum letzten Schlag — und subjektiv **ruhig, kein Problem, Zeh komplett schmerzfrei**. Objektiv und subjektiv ziehen in dieselbe Richtung. Das Einzige, was diese Note nachträglich kippen könnte, ist der Zeh morgen früh — aber das liegt außerhalb der Ausführung.
 
 ### 💡 **Empfehlungen für nächstes Mal**
 1. **Morgen früh Zeh-Check zuerst** (Druck, Treppe, Zehenstand), bevor Di-Rad startet. Schmerzfrei → Mi-Lauf 25min bleibt grün. Zwickt es → Mi wird 45min Rad ≤140.
