@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated**: 2026-11-02 (W45 Mo: Comeback-Lauf #1 gelaufen — 20min flach Z1, Ø131/max141, 0% über Deckel 142, A+. Zeh-Check morgen früh entscheidet über Mi)
+**Last updated**: 2026-11-04 (W45 Mi: Comeback-Lauf #2 — 26,7min/3,7km flach, Ø128/max153, 13,7% über Deckel 142 (Peak Z3), ~10min Geh-Pause mittendrin, B+. Zeh wieder schmerzfrei. Zeh-Check Do früh entscheidet über Sa-Lauf #3)
 
 ## Current Target
 
@@ -19,9 +19,10 @@
 - **Readiness 01.11.**: **GREEN, aber weicher** (HRV 3d 39 z=−0.0, RHF 63 vs. 60, Schlaf 388 vs. 398).
   Chronik niedrig (28d/Wo 116) → ACWR 1.84 wertlos, Ziel W45 ~280–300 TRIMP absolut.
 - **Kraft**: First Class **W3** (S.243, neues Tableau): Tag 1 Mo · Tag 3 Mi · Tag 2 Do · Tag 4 Sa.
-- **Letzter Lauf**: **2026-11-02 (Comeback #1, 20min flach Z1, A+, 0% über 142).** Zeh-Check morgen
-  früh entscheidet über Mi-Lauf. **W44 belegt nur 2 Ausdauertage** (Mi C+, Do B-); Sa+So abgehakt,
-  aber **ohne Aufzeichnung** → zählen nicht. Kraft 3/4 (Tag 4 offen).
+- **Letzter Lauf**: **2026-11-04 (Comeback #2, 26,7min/3,7km flach Z1, B+).** Zeh schmerzfrei (2/3),
+  aber Deckel 142 zu 13,7% gerissen (Peak 153/Z3) + ~10min Geh-Pause → fragmentiert statt durchgehend.
+  Comeback #1 (Mo 20min) war A+ (0% über 142). Zeh-Check Do früh → Sa-Lauf #3 (30min). **W44 belegt
+  nur 2 Ausdauertage** (Mi C+, Do B-); Sa+So abgehakt, aber **ohne Aufzeichnung** → zählen nicht.
 - **Next**: (1) 🔴 `.fit`-Import reparieren, (2) 3 schmerzfreie Läufe → W46 4 Läufe, längster ~45min,
   (3) Arzt-Abklärung Zehenbrüche, (4) Footwork ab W46, (5) Feldtest Lauf + Rad wenn fit.
 

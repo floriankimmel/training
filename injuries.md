@@ -15,6 +15,8 @@
 - **Race-Konsequenz**: **Vienna Trail Run 18.10 = DNS** (nicht angetreten). Comeback-Gate No-Go, kein schmerzfreier Lauf vor Renntag → bewusster Nichtantritt statt Risiko-Start auf nicht verheiltem Knochen.
 - **Status**: **active** (as of 2026-10-18). Lauf weiter pausiert (Zeh-Abdruck), aerober Wiederaufbau per Rad (W43).
 - **Comeback 2026-10-31**: Florian meldet Zeh bereit → **W45 Return-to-Run**: 3 flache Z1-Läufe 20/25/30min (Mo 02.11 / Mi 04.11 / Sa 07.11), weiches Geläuf, Abbruch bei Schmerz beim Abdruck oder Druckschmerz am Folgemorgen (Fallback Rad). Kein Footwork, Sprünge nur schmerzfrei. Arzt-Abklärung weiter offen.
+- **Comeback #1 2026-11-02**: 20min flach Z1 gelaufen — **Zeh komplett schmerzfrei** während & danach. Go für Mi.
+- **Comeback #2 2026-11-04**: 26,7min/3,7km flach Z1 — **Zeh wieder schmerzfrei** („lief wunderbar, keine Schmerzen in den Zehen"). 2/3 Return-Läufen ohne Abdruckschmerz. Zeh-Check Do früh entscheidet über Sa-Lauf #3 (30min).
 
 ## 2026 — Erkältung (Cold, W37)
 
