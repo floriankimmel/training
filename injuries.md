@@ -17,7 +17,8 @@
 - **Comeback 2026-10-31**: Florian meldet Zeh bereit → **W45 Return-to-Run**: 3 flache Z1-Läufe 20/25/30min (Mo 02.11 / Mi 04.11 / Sa 07.11), weiches Geläuf, Abbruch bei Schmerz beim Abdruck oder Druckschmerz am Folgemorgen (Fallback Rad). Kein Footwork, Sprünge nur schmerzfrei. Arzt-Abklärung weiter offen.
 - **Comeback #1 2026-11-02**: 20min flach Z1 gelaufen — **Zeh komplett schmerzfrei** während & danach. Go für Mi.
 - **Comeback #2 2026-11-04**: 26,7min/3,7km flach Z1 — **Zeh wieder schmerzfrei** („lief wunderbar, keine Schmerzen in den Zehen"). 2/3 Return-Läufen ohne Abdruckschmerz. Zeh-Check Do früh entscheidet über Sa-Lauf #3 (30min).
-- **Comeback #3**: Sa-Lauf (30min) → **So 08.11 verschoben**. Athlet meldet 08.11.: „laufen geht gut". W46 = Comeback Woche 2: 4 Läufe 30/35/40/45min flach Z1, Sa 6×15s Strides als erster Abdruck-Test (konditional schmerzfrei), Footwork-Start. Abbruchregel + Folgemorgen-Gate bleiben aktiv.
+- **Comeback #3**: Sa-Lauf (30min) → So 08.11 verschoben → **nicht gelaufen**. `.fit`-Prüfung am 08.11. 21:00: letzter Lauf **Mi 04.11**, am 08.11. nur Kraft Tag 4 Core (36min). Athlet meldete „laufen geht gut" — das war kein Lauf. **Return-Gate steht bei 2/3 schmerzfreien Z1-Läufen.**
+- **W46 (revidiert 08.11. 21:00)**: Comeback Woche 2 = **4 Läufe 30/30/35/40min = 135min, flach Z1, jeden 2. Tag (Mo/Mi/Fr/So)** — kein Lauf an aufeinanderfolgenden Tagen, solange der Knochen (Bruch 30.09.) im Comeback ist. Lauf #3 auf **Mo 09.11** vorgezogen (sonst 6 Tage Pause). Fr 6×15s Strides = erster Abdruck-Test, konditional auf schmerzfreie Läufe Mo+Mi. Footwork-Start Di + So. Abbruchregel + Folgemorgen-Gate bleiben aktiv. Weniger als 4 Läufe oder ein Zeh-Signal → W46 wird wiederholt, nicht überschrieben.
 
 ## 2026 — Erkältung (Cold, W37)
 
