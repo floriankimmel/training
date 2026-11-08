@@ -3,56 +3,49 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated**: 2026-11-04 (W45 Mi: Comeback-Lauf #2 — 26,7min/3,7km flach, Ø128/max153, 13,7% über Deckel 142 (Peak Z3), ~10min Geh-Pause mittendrin, B+. Zeh wieder schmerzfrei. Zeh-Check Do früh entscheidet über Sa-Lauf #3)
+**Last updated**: 2026-11-08 (W46-Plan erstellt — Comeback Woche 2: 4 Läufe 30/35/40/45, Sa Strides, Kraft FC W4, Footwork-Start. `.fit`-Import repariert ✅)
 
 ## Current Target
 
-- **Kein aktives Zielrennen.** Münichsthaler Crosslauf 26.10 = kein Start. Vienna Trail Run 18.10 = DNS.
-- Modus: **Base/Comeback — Umfang vor Intensität**, keine Build-Plan-Targets.
+- **Kein aktives Zielrennen.** Modus: **Base/Comeback — Umfang vor Intensität**, keine Build-Plan-Targets.
 - Quelle für Ziele/Rennen: `athlete.md` → Goals, `races/` (kein `current-race-*`-Symlink = nichts aktiv).
 
 ## Current Phase
 
-- **Block**: 🏃 **Lauf-Comeback** nach Zehenbruch #2 (30.09.), Rad trägt den aeroben Umfang.
-- **Diese Woche (W45, 02.–08.11.)**: Lauf Mo 20 · Mi 25 · Sa 30min, **flach, weich, Z1 ≤142, Pace ≥6:40**.
-  Rad Di 70 aerob (≤144) · Do Pendeln 2×20 (≤125) · So 90 lang (≤140). Fr Ruhetag. Fallback je Lauf: 45min Rad.
-- **Readiness 01.11.**: **GREEN, aber weicher** (HRV 3d 39 z=−0.0, RHF 63 vs. 60, Schlaf 388 vs. 398).
-  Chronik niedrig (28d/Wo 116) → ACWR 1.84 wertlos, Ziel W45 ~280–300 TRIMP absolut.
-- **Kraft**: First Class **W3** (S.243, neues Tableau): Tag 1 Mo · Tag 3 Mi · Tag 2 Do · Tag 4 Sa.
-- **Letzter Lauf**: **2026-11-04 (Comeback #2, 26,7min/3,7km flach Z1, B+).** Zeh schmerzfrei (2/3),
-  aber Deckel 142 zu 13,7% gerissen (Peak 153/Z3) + ~10min Geh-Pause → fragmentiert statt durchgehend.
-  Comeback #1 (Mo 20min) war A+ (0% über 142). Zeh-Check Do früh → Sa-Lauf #3 (30min). **W44 belegt
-  nur 2 Ausdauertage** (Mi C+, Do B-); Sa+So abgehakt, aber **ohne Aufzeichnung** → zählen nicht.
-- **Next**: (1) 🔴 `.fit`-Import reparieren, (2) 3 schmerzfreie Läufe → W46 4 Läufe, längster ~45min,
-  (3) Arzt-Abklärung Zehenbrüche, (4) Footwork ab W46, (5) Feldtest Lauf + Rad wenn fit.
+- **Block**: 🏃 **Lauf-Comeback Woche 2** nach Zehenbruch #2 (30.09.).
+- **Diese Woche (W46, 09.–15.11.)**: 4 Läufe **30 / 35 / 40 (inkl. 6×15s Strides Sa) / 45min = 150min**,
+  flach, weich, Z1 ≤142, Pace ≥6:40. Rad Mo 60 aerob (≤144) + Mi Pendeln 2×20 (≤125). Fr Ruhetag.
+  Footwork-Start Di + So. Ziel ~250 TRIMP absolut. Fallback je Lauf: 45min Rad ≤140.
+- **Readiness 08.11.**: **GREEN** — HRV 3d 52 (Basis 40, z=+1.2), RHF 62 vs. 61, Schlaf 401 vs. 394.
+  Chronik niedrig (28d/Wo 136) → ACWR egal, absolut steuern.
+- **Kraft**: First Class **W4** (S.243, gleiches Tableau wie W3): Tag 1 Mo · Tag 3 Mi · Tag 2 Do · Tag 4 Sa.
+- **W45 Ist (verifiziert)**: Mo Lauf 20min Ø131/max141 A+ · Mi 26,7min Ø136/max153 (13,7 % >142) B+ ·
+  **Sa-Lauf #3 → So 08.11 verschoben** (30min, steht noch aus) · Kraft Tag 1–3 ✅ · **Rad 0/3
+  aufgezeichnet** (Di/Do/So abgehakt ohne `.fit`). TRIMP verifiziert 68.
+- **Next**: (1) Sa-Strides schmerzfrei → W47 erster flacher Tempo-Reiz (Z2/untere Z3), längster 60min,
+  (2) Arzt-Befund Vit D/Ferritin/DXA nachhalten, (3) Feldtest Lauf + Rad wenn fit.
 
 ## Open Watch-Items
 
-- **🔴 Daten-Blindflug: `.fit`-Import tot seit 2026-10-29.** Alle 297 Dateien → `OSError [Errno 11]
-  Resource deadlock avoided` beim Lesen aus iCloud/HealthFit (listbar, nicht lesbar; TCC/Full Disk
-  Access, kein Code-Bug). DB endet Do 29.10 → **kein belastbares Feedback bis zum Fix**. Priorität 1.
-- **🔴 Umfangsleck, 2. Woche in Folge.** W43 2/4 Radeinheiten, W44 2 belegte Ausdauertage (Sa+So
-  abgehakt, aber ohne `.fit`). Gefahrene Einheiten über dem aeroben Deckel. Auftrag W45:
-  **alle Einheiten fahren UND aufzeichnen** — ohne Uhr/Brustgurt existiert die Einheit nicht.
-- **⛔ Zehenbruch #2 / Muster**: 2 Frakturen in ~2 Monaten → ärztlich abklären (Vit D, Ferritin, ggf. DXA).
-  Siehe `injuries.md`. **Vor** dem Lauf-Comeback, nicht danach.
-- **Rad-HF**: eigene Rad-Zonen in `zones.md` (provisorisch). **Aerober Rad-Deckel 144 bpm**, keine
-  Rad-Intervalle bis stabiles Fundament.
-- **Zonen/hrMax**: DB zeigt Lauf-Peaks bis 184–186 vs. hrMax 180 → bei Feldtest neu bestimmen (`zones.md`).
-- **Recovery-Lauf-Pace** (sobald Laufen): Pace-Alarm 6:40/km, nicht nach Gefühl/HF steuern.
-- **Vertical gap**: Wolkersdorf flach (max ~60 hm) — hm müssen akkumuliert werden (Repeats/Treppen/Wienerwald).
-- **Fuel-Praxis**: ~40–60 g/h ab 75min, gilt ab der langen Ausfahrt So 01.11.
-- **Spontan-Umfang**: Zusatzzeit ok, aber dann Deckel 135 — nicht in 145–152 hängen bleiben.
-- **Daten**: DB aktuell bis 2026-10-29 — **eingefroren**, siehe Import-Watch-Item oben.
+- **✅ gelöst 08.11.: `.fit`-Import repariert** — Import läuft wieder (ok=3 am 08.11.), DB aktuell.
+- **🔴 Umfangsleck Rad, 3. Woche in Folge.** W45: Di 70 / Do Pendeln / So 90 abgehakt, **null `.fit`**.
+  Ansage W46: nur noch 2 Rad-Slots — wieder leere Haken → W47 ohne Rad geplant.
+- **⛔ Zehenbruch #2 / Muster**: Arzttermin-Reminder abgehakt (02.11.) — Befund (Vit D, Ferritin,
+  ggf. DXA) offen/nachhalten. Siehe `injuries.md`.
+- **Zeh-Gate**: jeder Lauf nur bei schmerzfreiem Folgemorgen; Abbruchregel aktiv. Kein Berg/Bergab.
+- **Rad-HF**: Rad-Zonen provisorisch (`zones.md`), aerober Deckel 144, keine Rad-Intervalle.
+- **Zonen/hrMax**: DB-Peaks 184–186 vs. hrMax 180 → bei Feldtest neu bestimmen (`zones.md`).
+- **Lauf-HF-Disziplin**: Mi-Lauf 13,7 % über Deckel — Alarm piept → gehen. Ziel <5 %.
+- **Vertical gap**: Wolkersdorf flach — hm akkumulieren, aber erst nach Comeback (kein Berg bis Zeh-Freigabe).
 
 ## Recent Progression
 
 | Week | Focus | Note |
 |------|-------|------|
-| W41 | ⛔ Laufpause | 0 Lauf, Knochenheilung |
 | W43 | 🚴 Rad-Comeback | Ist: 2/4 Rad (Mo C, Mi B+), Kraft 3/4. Umfang verfehlt |
 | W44 | 🚴 Rad only | Ist: 2 belegte Rad-Tage (Mi C+, Do B-); Sa+So ohne Aufzeichnung. Kraft 3/4 |
-| W45 | 🏃 Lauf-Comeback | Mo Lauf #1 ✅ 20min flach Z1 A+ (0% über 142). Rad + Kraft FC W3 folgen |
+| W45 | 🏃 Lauf-Comeback | Läufe Mo A+ / Mi B+ / #3→So 08.11. Rad 0/3 aufgezeichnet. Kraft 3/4+ |
+| W46 | 🏃 Comeback W2 | Plan: 4 Läufe 150min, Sa Strides, Rad 100min, Kraft FC W4, Footwork-Start |
 
 Ältere Wochen: `STATUS-log.md`.
 

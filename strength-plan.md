@@ -4,15 +4,15 @@
 > [`plans/strength-program-mark-lauren.md`](plans/strength-program-mark-lauren.md) —
 > the coach plans strength from there. Apple Reminders stays the schedule source of truth.
 
-**Last updated**: 2026-10-31 (W45 — First Class W3, Tag 1 Mo · Tag 3 Mi · Tag 2 Do · Tag 4 Sa)
+**Last updated**: 2026-11-08 (W46 — First Class W4, Tag 1 Mo · Tag 3 Mi · Tag 2 Do · Tag 4 Sa)
 
 ## System
 
 - **Method**: Mark Lauren (bodyweight), from the book.
 - **Programs digitized**: First Class für Trainingserfahrene (W1–W10, complete) + Master Class für Fortgeschrittene (W1–W10, complete).
-- **Current program week (calendar W45)**: **First Class — Woche 3 (Kraft / Intervallsätze, S.243, neues Tableau).** Tag 1 Drücken Mo · Tag 3 Ziehen Mi · Tag 2 Beine Do · Tag 4 Core Sa — Beintag bewusst nicht vor einem Comeback-Lauf. Sprung (gesprungene Kniebeuge) nur bei schmerzfreiem Zeh, sonst tiefe Kniebeuge mit Haltezeit.
-- **W43 Ist**: nur 3 von 4 Tagen absolviert (Tag 4 Sa 24.10 ausgefallen).
-- **Advance rule**: one program-week per calendar week. Nach W45 (First Class W3) → W46 = First Class **Woche 4** (gleiches Tableau S.243, Progression über Volumen).
+- **Current program week (calendar W46)**: **First Class — Woche 4 (Kraft / Intervallsätze, S.243, gleiches Tableau wie W3, Progression über Volumen).** Tag 1 Drücken Mo · Tag 3 Ziehen Mi · Tag 2 Beine Do (abends, nach dem Do-Lauf, nicht davor) · Tag 4 Core Sa. Sprung (gesprungene Kniebeuge) nur bei schmerzfreiem Zeh, sonst tiefe Kniebeuge mit Haltezeit.
+- **W45 Ist**: Tag 1–3 absolviert, Tag 4 (So 08.11) offen.
+- **Advance rule**: one program-week per calendar week. Nach W46 (First Class W4) → W47 = First Class **Woche 5 (Powerblock / Supersätze)**.
 
 ## How strength gets planned
 
