@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated**: 2026-11-08 21:00 (W46-Plan **revidiert** — So-Lauf #3 nicht gelaufen, Readiness neu gerechnet: 135min statt 150, Läufe jeden 2. Tag)
+**Last updated: 2026-11-09 (Mo Rad-Feedback, Deckel verfehlt)
 
 ## Current Target
 
