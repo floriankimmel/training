@@ -80,7 +80,9 @@ Zeit-in-Zone (Lauf-Zonen):
 Drittel-Progression: **120 → 132 → 136 bpm** — sauberes, kontrolliertes Aufwärmen in den Zielbereich, kein Hochdriften über den Deckel. Genau der umgekehrte Verlauf zum Mo-Rad (dort Mitte hochgezogen). Hier bist du unten rein, in die obere Z1-Hälfte reingewachsen und dort geblieben. Vorbildlich.
 
 ### ⏱️ **Pace-Analyse (min/km)**
-Ø **5:53/km** (speed-samples 5:44–5:59), deutlich flotter als das Pace-Target ≥6:40/km. Das Target ist hier aber bewusst „irrelevant" — Steuergröße ist die HF, und die lag korrekt im Deckel. Dass du bei 5:53/km unter 139 bpm bleibst, ist schlicht ein gutes Zeichen: die aerobe Basis kommt zurück, das Tempo „kostet" dich kaum HF. Kein Grund zu bremsen, solange der Deckel hält.
+Ø **5:53/km** (speed-samples 5:44–5:59) — **~47s/km schneller als die Plan-Vorgabe ≥6:40/km.** Klartext: Das Pace-Floor steht nicht zur Zierde im Plan. Bei einem zweimal gebrochenen Zeh ist ≥6:40 eine *mechanische* Schutzgrenze (kürzere Schritte, weniger Impact pro km), keine aerobe — die HF kann dabei sauber bleiben und die Belastung am Knochen trotzdem höher sein als gewollt. Du bist 5,09km gelaufen statt der ~4,5km, die 30min @6:40 ergeben hätten: ~13 % mehr Aufprall-Zyklen bei höherem Tempo.
+
+Positiv gelesen: dass 5:53/km nur 130 bpm kostet, zeigt, dass die aerobe Basis zurückkommt. Aber das war nicht die Frage dieser Einheit. HF-Deckel eingehalten ✅, Pace-Vorgabe gerissen ⚠️.
 
 ### 🏆 **Was war hervorragend**
 - **0 % über Deckel** bei 30min durchgehend — die längste Comeback-Einheit und trotzdem die sauberste. Das Mi-Muster ist abgestellt.
@@ -89,7 +91,8 @@ Drittel-Progression: **120 → 132 → 136 bpm** — sauberes, kontrolliertes Au
 - Flach, kein Aufprall-Reiz auf den Zeh — Schutzgedanke erfüllt.
 
 ### ⚠️ **Verbesserungsbereiche**
-- Kaum etwas zu meckern. Einziger Mikropunkt: Pace 5:53 ist ok, aber am Mi (Lauf #4 back-to-back) bei müden Beinen ruhig bewusst langsamer starten — nicht, weil heute zu schnell war, sondern weil back-to-back die HF bei gleichem Tempo höher liegen kann und du dann näher an den Deckel kommst.
+- **Pace-Disziplin**: 5:53 statt ≥6:40 ist dieselbe Sorte Regelbruch wie Mo (Deckel) und Mi (HF) — nur diesmal auf der anderen Steuergröße. „Fühlt sich leicht an" ist im Knochen-Comeback kein Freibrief. Am Mi (Lauf #4 back-to-back, müde Beine, Zeh entscheidet) **bewusst auf ≥6:40 anlaufen** — das drosselt Impact UND hält die HF-Reserve.
+- Spätes Laufen (21:44–22:14) + 4°C: ok als Ausnahme, aber vor dem Fr-Strides-Test lieber nicht wieder so spät — Schlaf ist gerade deine knappste Ressource (HRV 36 vs. Basis 40).
 
 ### 📈 **Progression vs. Previous Sessions**
 Return-to-Run-Serie nach Zehenbruch #2, alle flach/Z1:
@@ -99,11 +102,11 @@ Return-to-Run-Serie nach Zehenbruch #2, alle flach/Z1:
 
 Die 20→25→30min-Rampe ist komplett, der Ausreißer vom Mi ist nicht wiederholt. **Das W45-Gate „3 schmerzfreie Z1-Läufe" ist jetzt 3/3** — sauber abgeschlossen. Türöffner für den Fr-Strides-Test und den ersten flachen Tempo-Reiz in W47 ist gestellt.
 
-### 🎯 **Bewertung: A**
-Die Vorgabe war Disziplin unter Deckel 142 über die volle 30min — exakt getroffen, 0 % drüber, kontrollierter Verlauf. Nur kein A+, weil es die „einfachste" Vorgabe (reiner flacher Z1-Umfang, keine Schärfe) war und ein glatter Pflichtlauf ohne Testmoment — aber in der Ausführung tadellos.
+### 🎯 **Bewertung: A−**
+HF-seitig tadellos: 0 % über Deckel über volle 30min, kontrollierter Verlauf, Gate 3/3 geschlossen. Abzug, weil die zweite explizite Vorgabe (Pace ≥6:40 als Impact-Schutz) klar gerissen wurde — 47s/km zu schnell, ~0,6km mehr Aufprall als geplant. Beim Zeh-Comeback zählt beides.
 
 ### 💡 **Empfehlungen für nächstes Mal**
-1. **Mi (Lauf #4 back-to-back):** Zeh-Signal am Morgen entscheidet (lt. Plan → sonst 45min Rad ≤140). Wenn Lauf: bewusst langsamer anlaufen, Deckel 142 hält Vorrang vor Pace.
+1. **Mi (Lauf #4 back-to-back):** Zeh-Signal am Morgen entscheidet (lt. Plan → sonst 45min Rad ≤140). Wenn Lauf: **Pace ≥6:40 wirklich halten** — Deckel 142 UND Pace-Floor sind beide Vorgaben, nicht entweder-oder.
 2. Diese Deckel-Disziplin exakt so auf den nächsten aeroben Rad-Tag übertragen — dort ist sie Mo gerissen.
 3. Fr-Strides: erster Abdruck-Test für den Zeh — maximal konservativ, 6×15s, bei jedem Ziehen abbrechen.
 
@@ -112,6 +115,6 @@ Die Vorgabe war Disziplin unter Deckel 142 über die volle 30min — exakt getro
 - Dauer/Distanz: 30,0min · 5,09km · ~0 hm (flach, flights-climbed keine Daten)
 - HF: Ø 130 · max 139 · min 68 · Zonen 83,8 % Z1 / 16,2 % AktErh / **0 % >142**
 - Drittel: 120 / 132 / 136 bpm
-- Pace: Ø 5:53/km (5:44–5:59), Target ≥6:40 bewusst irrelevant (HF-gesteuert)
+- Pace: Ø 5:53/km (5:44–5:59) — **Pace-Floor ≥6:40 gerissen** (−47s/km, ~13 % mehr Impact-Zyklen)
 - kcal: 372 · 4,3°C · Quelle: UTMB (Watch + Brustgurt, 1724 HR-Samples)
-- Session-Grade: A
+- Session-Grade: A−

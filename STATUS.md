@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated: 2026-11-10 (Di Lauf #3 — Gate 3/3 sauber, A, 0 % über Deckel)
+**Last updated: 2026-11-10 (Di Lauf #3 — Gate 3/3, A−: HF sauber, Pace-Floor gerissen)
 
 ## Current Target
 
