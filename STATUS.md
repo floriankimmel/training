@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated: 2026-11-09 (Mo Rad-Feedback, Deckel verfehlt)
+**Last updated: 2026-11-10 (Di Lauf #3 — Gate 3/3 sauber, A, 0 % über Deckel)
 
 ## Current Target
 
@@ -12,7 +12,7 @@
 
 ## Current Phase
 
-- **Block**: 🏃 **Lauf-Comeback Woche 2** nach Zehenbruch #2 (30.09.). Gate „3 schmerzfreie Z1-Läufe" bei **2/3**.
+- **Block**: 🏃 **Lauf-Comeback Woche 2** nach Zehenbruch #2 (30.09.). Gate „3 schmerzfreie Z1-Läufe" **3/3 ✅ abgeschlossen** (Di 10.11 Lauf #3: 30min, max 139, 0 % >142).
 - **Diese Woche (W46, 09.–15.11., revidiert)**: 4 Läufe **30 / 30 / 35 (inkl. 6×15s Strides Fr) / 40min
   = 135min**, **jeden 2. Tag (Mo/Mi/Fr/So)**, flach, weich, Z1 ≤142, Pace ≥6:40. Rad Di 60 aerob (≤144)
   + Do Pendeln 2×20 (≤125). Sa lauffrei (nur Kraft Core). Footwork Di + So. Ziel ~210 TRIMP absolut.

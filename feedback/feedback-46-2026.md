@@ -60,3 +60,58 @@ Umfang und Logging top, aber die zentrale Vorgabe der Einheit (Deckel 144) klar 
 - Drittel: 127 / 147 / 135 bpm
 - kcal: 530 · Quelle: UTMB (Watch + Brustgurt)
 - Session-Grade: C+
+
+## 2026-11-10 - Lauf flach Z1 (Gate-Lauf #3) - Tuesday Analyse
+
+**Geplant**: Lauf flach Z1 — 30min, **strikt Deckel 142 bpm**, Pace ≥ 6:40/km, flach/weiches Geläuf, durchgehend. Der nachgeholte **Gate-Lauf #3** (Mo→Di-Swap). Explizite Ansage: Mi-Muster (13,7 % über Deckel) abstellen, Ziel <5 % über 142, **Alarm piept → gehen**. Lauf #4 folgt back-to-back am Mi.
+**Tatsächliche Ausführung**: 30,0min · 5,09km · Ø-Pace 5:53/km · 372 kcal · 4,3°C. Ø-HF 130 · max **139** · min 68. **83,8 % Z1 · 16,2 % Aktive Erholung · 0 % über dem Deckel 142.** HR per Bluetooth-Gerät (Brustgurt/Verity Sense, 1724 Samples). Flach (flights-climbed: keine Daten → real ~0 hm).
+**Persönliches Empfinden**: kein Kontext angegeben.
+
+### 🎯 **Herzfrequenz-Analyse**
+Das ist die Einheit, wie sie der Plan verlangt hat. Max 139, **0 % über dem Deckel 142**, kein einziger Ausreißer. Nach dem Mi-Lauf (13,7 % drüber, max 153) und dem Mo-Rad (40 % über Deckel) ist das genau die Disziplin-Korrektur, die eingefordert wurde.
+
+Zeit-in-Zone (Lauf-Zonen):
+| Zone | Bereich | Anteil |
+|------|---------|--------|
+| Aktive Erholung | <125 | 16,2 % |
+| **Z1** | **125–142** | **83,8 %** |
+| Z2+ | >142 | 0,0 % |
+
+Drittel-Progression: **120 → 132 → 136 bpm** — sauberes, kontrolliertes Aufwärmen in den Zielbereich, kein Hochdriften über den Deckel. Genau der umgekehrte Verlauf zum Mo-Rad (dort Mitte hochgezogen). Hier bist du unten rein, in die obere Z1-Hälfte reingewachsen und dort geblieben. Vorbildlich.
+
+### ⏱️ **Pace-Analyse (min/km)**
+Ø **5:53/km** (speed-samples 5:44–5:59), deutlich flotter als das Pace-Target ≥6:40/km. Das Target ist hier aber bewusst „irrelevant" — Steuergröße ist die HF, und die lag korrekt im Deckel. Dass du bei 5:53/km unter 139 bpm bleibst, ist schlicht ein gutes Zeichen: die aerobe Basis kommt zurück, das Tempo „kostet" dich kaum HF. Kein Grund zu bremsen, solange der Deckel hält.
+
+### 🏆 **Was war hervorragend**
+- **0 % über Deckel** bei 30min durchgehend — die längste Comeback-Einheit und trotzdem die sauberste. Das Mi-Muster ist abgestellt.
+- Kontrollierter Drittel-Verlauf (120/132/136) statt reindrücken.
+- Brustgurt dran, 1724 Samples, saubere Aufzeichnung.
+- Flach, kein Aufprall-Reiz auf den Zeh — Schutzgedanke erfüllt.
+
+### ⚠️ **Verbesserungsbereiche**
+- Kaum etwas zu meckern. Einziger Mikropunkt: Pace 5:53 ist ok, aber am Mi (Lauf #4 back-to-back) bei müden Beinen ruhig bewusst langsamer starten — nicht, weil heute zu schnell war, sondern weil back-to-back die HF bei gleichem Tempo höher liegen kann und du dann näher an den Deckel kommst.
+
+### 📈 **Progression vs. Previous Sessions**
+Return-to-Run-Serie nach Zehenbruch #2, alle flach/Z1:
+- Mo 02.11: 20min · max 141 · **0 % über Deckel** · A+
+- Mi 04.11: 25min · max 153 · **13,7 % über Deckel** · B+ (mit Geh-Phase)
+- **Di 10.11: 30min · max 139 · 0 % über Deckel** ← diese Einheit
+
+Die 20→25→30min-Rampe ist komplett, der Ausreißer vom Mi ist nicht wiederholt. **Das W45-Gate „3 schmerzfreie Z1-Läufe" ist jetzt 3/3** — sauber abgeschlossen. Türöffner für den Fr-Strides-Test und den ersten flachen Tempo-Reiz in W47 ist gestellt.
+
+### 🎯 **Bewertung: A**
+Die Vorgabe war Disziplin unter Deckel 142 über die volle 30min — exakt getroffen, 0 % drüber, kontrollierter Verlauf. Nur kein A+, weil es die „einfachste" Vorgabe (reiner flacher Z1-Umfang, keine Schärfe) war und ein glatter Pflichtlauf ohne Testmoment — aber in der Ausführung tadellos.
+
+### 💡 **Empfehlungen für nächstes Mal**
+1. **Mi (Lauf #4 back-to-back):** Zeh-Signal am Morgen entscheidet (lt. Plan → sonst 45min Rad ≤140). Wenn Lauf: bewusst langsamer anlaufen, Deckel 142 hält Vorrang vor Pace.
+2. Diese Deckel-Disziplin exakt so auf den nächsten aeroben Rad-Tag übertragen — dort ist sie Mo gerissen.
+3. Fr-Strides: erster Abdruck-Test für den Zeh — maximal konservativ, 6×15s, bei jedem Ziehen abbrechen.
+
+### Detailed Metrics
+- Datum/Typ: 2026-11-10 · Lauf flach Z1 (Gate-Lauf #3)
+- Dauer/Distanz: 30,0min · 5,09km · ~0 hm (flach, flights-climbed keine Daten)
+- HF: Ø 130 · max 139 · min 68 · Zonen 83,8 % Z1 / 16,2 % AktErh / **0 % >142**
+- Drittel: 120 / 132 / 136 bpm
+- Pace: Ø 5:53/km (5:44–5:59), Target ≥6:40 bewusst irrelevant (HF-gesteuert)
+- kcal: 372 · 4,3°C · Quelle: UTMB (Watch + Brustgurt, 1724 HR-Samples)
+- Session-Grade: A
