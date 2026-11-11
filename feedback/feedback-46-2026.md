@@ -118,3 +118,62 @@ HF-seitig tadellos: 0 % über Deckel über volle 30min, kontrollierter Verlauf, 
 - Pace: Ø 5:53/km (5:44–5:59) — **Pace-Floor ≥6:40 gerissen** (−47s/km, ~13 % mehr Impact-Zyklen)
 - kcal: 372 · 4,3°C · Quelle: UTMB (Watch + Brustgurt, 1724 HR-Samples)
 - Session-Grade: A−
+
+
+## 2026-11-11 - Lauf flach Z1 (Lauf #4) - Wednesday Analyse
+
+**Geplant**: Lauf flach Z1 — 30min, Deckel 142 bpm, Pace ≥ 6:40/km, flach/weich, durchgehend. **Lauf #4, back-to-back nach Di** — bewusst keine Steigerung, nur bei schmerzfreiem Di-Lauf + schmerzfreiem Mi-Morgen. Explizite Di-Hausaufgabe: Pace-Floor diesmal wirklich halten.
+**Tatsächliche Ausführung**: 30,0min · 4,36km · Ø-Pace **6:53/km** · 342 kcal · 6,3°C, Mittags gelaufen (11:39–12:12). Ø-HF 127 · max 144 · min 87. **75,7 % Z1 · 22,7 % Aktive Erholung · 1,7 % über Deckel 142** (33 Samples, max 144). Flach (flights-climbed: 4 ≈ 12 hm — real quasi flach).
+**Persönliches Empfinden**: kein Kontext angegeben.
+
+### 🎯 **Herzfrequenz-Analyse**
+Ø 127 bpm — der niedrigste Schnitt der gesamten Comeback-Serie, bei gleicher Dauer wie Di. 1,7 % über dem Deckel (max 144, also knapp drüber, kein Reindrücken) — klar unter dem 5-%-Ziel und praktisch Rauschen an der Zonengrenze.
+
+| Zone | Bereich | Anteil |
+|------|---------|--------|
+| Aktive Erholung | <125 | 22,7 % |
+| **Z1** | **125–142** | **75,7 %** |
+| Z2 | 143–152 | 1,7 % |
+| Z3+ | >152 | 0,0 % |
+
+Drittel-Verlauf: **127 → 130 → 124 bpm** — und das bei schnellerem letztem Drittel. Kein kardialer Drift am zweiten Belastungstag in Folge. Das ist das stärkste Einzelsignal dieser Einheit: back-to-back, und die HF geht am Ende *runter* statt rauf.
+
+### ⏱️ **Pace-Analyse (min/km)**
+Ø **6:53/km** (Drittel: 6:50 / 6:55 / 6:28) — **Pace-Floor ≥6:40 eingehalten.** Genau die geforderte Korrektur gegenüber Di (5:53). Weniger Impact-Zyklen, kürzere Schritte (Ø Schrittlänge ~83 cm), Ground Contact ~272 ms — mechanisch die schonendste Einheit der Serie. Einziger Makel: das letzte Drittel rutscht auf 6:28 — der klassische „fühlt sich gut an, ich zieh am Ende an"-Reflex. Diesmal harmlos (HF blieb bei 124), aber merk dir das Muster für den 40er am So.
+
+### 🏆 **Was war hervorragend**
+- **Beide Steuergrößen gleichzeitig eingehalten** — zum ersten Mal in diesem Comeback: Deckel ✅ UND Pace-Floor ✅. Di war HF top/Pace gerissen, Mi 04.11 umgekehrt. Heute beides.
+- Back-to-back ohne HF-Drift — Drittel 127/130/124. Der Körper nimmt die Doppelbelastung an.
+- Niedrigste Ø-HF der Serie (127) bei vollen 30min — aerobe Basis kommt sichtbar zurück.
+- Mittags statt 22 Uhr gelaufen — die Schlaf-Anmerkung von Di umgesetzt.
+
+### ⚠️ **Verbesserungsbereiche**
+- Letztes Drittel 6:28/km: unter dem Floor. Kleinigkeit, aber die Regel gilt für den ganzen Lauf, nicht für 20 von 30 Minuten. Am So über 40min konsequent durchhalten.
+- 1,7 % über 142 (max 144): akzeptabel, aber die Spitze lag im Mitteldrittel — Alarm piept → sofort rausnehmen, nicht erst nach ein paar Sekunden.
+
+### 📈 **Progression vs. Previous Sessions**
+- Mo 02.11: 20min · Ø131 · 0 % >142 · A+
+- Mi 04.11: 25min · Ø136 · 13,7 % >142 · B+
+- Di 10.11: 30min · Ø130 · 0 % >142 · Pace gerissen · A−
+- **Mi 11.11: 30min · Ø127 · 1,7 % >142 · Pace ✅** ← diese Einheit
+
+**W46-Gate steht bei 4/4 Läufen → 2/4 gelaufen (Di+Mi), beide sauber.** Erste Back-to-back-Belastung seit dem Bruch absolviert. Jetzt zählt der Zeh-Check am Do-Morgen — bleibt er stumm, ist Fr (Strides-Test) freigegeben.
+
+### 🎯 **Bewertung: A**
+Die disziplinierteste Einheit der Comeback-Serie: beide Vorgaben eingehalten, kein Drift am zweiten Lauftag in Folge, niedrigste Ø-HF bei schonendster Mechanik. Kein A+, weil das letzte Drittel den Pace-Floor unterschritten hat und 33 Samples über dem Deckel lagen — beides klein, aber beim Knochen-Comeback zählt Präzision.
+
+### 💡 **Empfehlungen für nächstes Mal**
+1. **Do-Morgen: Zeh-Check ehrlich machen** — Druckschmerz oder Ziehen → Fr-Strides streichen, Plan sagt dann 45min Rad ≤140. Do selbst: nur Pendeln ≤125 + Kraft Tag 2 (gesprungene Kniebeuge nur bei komplett stummem Zeh).
+2. **Fr Strides**: 6×15s, zügig-kontrolliert (~4:30–5:00), kein Sprint. Erster Abdruck-Test — beim ersten Zwicken abbrechen, Rest Z1.
+3. Das „letztes Drittel anziehen"-Muster am So (40min, längster seit dem Bruch) bewusst unterlassen — gleichmäßig ≥6:40 von km 1 bis Schluss.
+
+### Detailed Metrics
+- Datum/Typ: 2026-11-11 · Lauf flach Z1 (Lauf #4, back-to-back)
+- Dauer/Distanz: 30,0min · 4,36km · ~12 hm barometrisch (4 flights — quasi flach, Höhenfeld n/a)
+- HF: Ø 127 · max 144 · min 87 · Zonen 75,7 % Z1 / 22,7 % AktErh / **1,7 % >142**
+- Drittel HF: 127 / 130 / 124 bpm · Drittel Pace: 6:50 / 6:55 / 6:28
+- Pace: Ø 6:53/km — **Pace-Floor ≥6:40 eingehalten** (letztes Drittel knapp drunter)
+- Mechanik: Power Ø ~207 W · Schrittlänge ~83 cm · GCT ~272 ms
+- kcal: 342 · 6,3°C · Quelle: UTMB (Watch + Brustgurt angenommen, 1972 HR-Samples)
+- Session-Grade: A
+- DB-Import: pending (nächster import_fit.py-Lauf am Mac via HealthFit)
