@@ -123,3 +123,32 @@ _Kein Resting-HR-Wert verfügbar._
 | Metrik | Wert |
 |--------|------|
 | Resting HR | 59 bpm |
+
+### 2026-11-13 (Freitag)
+
+#### 🛏️ Schlaf
+
+| Metrik | Wert |
+|--------|------|
+| Bettzeit | 22:37 – 05:54 |
+| Im Bett | 7h 18min |
+| Schlafzeit | 6h 37min |
+| Effizienz | 91% |
+| Tiefschlaf | 0h 43min (11%) |
+| REM | 1h 54min (29%) |
+| Core/Leicht | 4h 00min (60%) |
+| Wach | 0h 40min |
+
+#### 💓 HRV (SDNN)
+
+| Metrik | Wert |
+|--------|------|
+| Nacht-Ø | 38.7 ms |
+| Tages-Ø | 35.7 ms |
+| Min | 19.2 ms |
+| Max | 49.7 ms |
+| Samples | 7 |
+
+#### ❤️ Ruhe-HF
+
+_Kein Resting-HR-Wert verfügbar._
