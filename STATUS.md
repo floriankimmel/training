@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated: 2026-11-11 (Mi Lauf #4 — back-to-back, A: Deckel + Pace-Floor beide eingehalten, W46 2/4 Läufe)
+**Last updated: 2026-11-13 (Fr Lauf #5 — Strides-Test bestanden, Zeh stumm, A−; Strides zu langsam ~5:48 statt ≤5:00. W46 3/4 Läufe, fehlt nur So 40min)
 
 ## Current Target
 

@@ -177,3 +177,50 @@ Die disziplinierteste Einheit der Comeback-Serie: beide Vorgaben eingehalten, ke
 - kcal: 342 · 6,3°C · Quelle: UTMB (Watch + Brustgurt angenommen, 1972 HR-Samples)
 - Session-Grade: A
 - DB-Import: pending (nächster import_fit.py-Lauf am Mac via HealthFit)
+
+## 2026-11-13 - Z1 + Strides - Freitag Analyse
+
+**Geplant**: 35min — 22min Z1 (125–142) · 6×15s Strides @ zügig (150–170 bpm, ~4:30–5:00/km) mit 75s Trabpause · 5min Cooldown (119–129). Lauf #5, Abdruck-Test für den Zeh.
+**Tatsächliche Ausführung**: 36,1min · 5,74km · Ø-HF 132 · max 156 · 6/6 Strides absolviert (20:50–21:28, abends).
+**Persönliches Empfinden**: „Ziemlich gut gelaufen, Fuß in keinster Weise gespürt. Die Strides etwas langsam, aber ansonsten sehr zufrieden."
+
+### 🎯 **Herzfrequenz-Analyse**
+Z1-Teil sauber: 63 % Z1, 27 % Aktive Erholung, Drittel 128/135/132 — kein Drift. Die 10,5 % über 142 sind fast vollständig die Strides selbst (Z2 8,6 % + Z3 1,8 %) — genau dort, wo sie hingehören. **Alle 6 Strides klar im HR-Profil sichtbar** (21:14–21:22), Peaks 151–156 bpm, also am **unteren Rand** des 150–170-Fensters. Trabpausen ~75s eingehalten, HF fiel jeweils zurück in Z1 — saubere Erholung. Cooldown: letzte Samples bei 124 — Vorgabe 119–129 getroffen.
+
+### ⏱️ **Pace-Analyse (min/km)**
+Gesamt Ø **6:17/km** (strides-inklusive). Z1-Grundtempo ~6:34/km — **knapp unter dem Floor ≥6:40**, drittes Mal in Serie dasselbe Muster. Strides: max Speed 2,87 m/s = **~5:48/km** gegen Soll 4:30–5:00. Dein Eindruck stimmt also exakt: **die Strides waren zu langsam** — eher „zügige Z2-Beschleunigungen" als echte Strides. Power bestätigt es: max 214 W bei Ø 199 W — nur +8 % im Stride. Ein echter Stride liegt bei +30–50 % Power.
+
+### 🏆 **Was war hervorragend**
+- **Zeh: komplett stumm beim Abdruck-Test.** Das war der einzige Zweck dieser Einheit — bestanden. 6× Abdruck unter Last, keinerlei Reaktion.
+- Struktur 1:1 nach Plan: 6/6 Strides, ~75s Pausen, Cooldown im Zielfenster. Protokoll-Disziplin top.
+- HF-Erholung zwischen den Strides schnell und vollständig — aerobe Basis trägt.
+- Gate-Stand: **3/4 Läufe, alle schmerzfrei.** Nur noch der 40er am So fehlt.
+
+### ⚠️ **Verbesserungsbereiche**
+- **Strides zu verhalten**: 5:48/km statt 4:30–5:00. Verständliche Vorsicht beim ersten Abdruck-Test — aber jetzt weißt du, dass der Zeh hält. Der Sinn der Strides (neuromuskulärer Reiz, Türöffner für W47-Tempo) wurde nur halb erfüllt. Nächste Strides-Einheit: wirklich beschleunigen.
+- Z1-Grundtempo ~6:34 wieder unter dem Floor. Drei Einheiten in Folge dasselbe Thema. Am So über 40min: ≥6:40 von km 1 bis Schluss.
+- 21-Uhr-Lauf — das Schlaf-Thema von Di war schon einmal adressiert.
+
+### 📈 **Progression vs. Previous Sessions**
+- Di 10.11: 30min · Ø130 · A−
+- Mi 11.11: 30min · Ø127 · A
+- **Fr 13.11: 36min · Ø132 · erste Intensität seit dem Bruch · Zeh stumm** ← diese Einheit
+
+### 🎯 **Bewertung: A−**
+Missionsziel voll erreicht: Zeh hält Abdruck unter Last, Struktur sauber, Pausen diszipliniert. Abzug, weil die Strides deutlich unter dem Zielpace blieben (5:48 statt ≤5:00) und das Z1-Grundtempo erneut unter dem Floor lag — der Reiz war kleiner als geplant.
+
+### 💡 **Empfehlungen für nächstes Mal**
+1. **So 40min**: längster Lauf seit dem Bruch. Strikt Z1, Pace ≥6:40 durchgehend, keine Endbeschleunigung. Danach Zeh-Check Mo früh → entscheidet W47.
+2. Nächste Strides (W47): jetzt, wo der Abdruck-Test bestanden ist, auf 4:30–5:00 beschleunigen — kontrolliert, aber echt.
+3. Sa Kraft Tag 2: gesprungene Kniebeuge ist nach dem heutigen stummen Zeh freigegeben — trotzdem kontrolliert landen.
+
+### Detailed Metrics
+- Datum/Typ: 2026-11-13 · Z1 + 6×15s Strides (Lauf #5, Abdruck-Test)
+- Dauer/Distanz: 36,1min · 5,74km · flach (flights-climbed 0 — korrekt flach)
+- HF: Ø 132 · max 156 · min 83 · Zonen 63,1 % Z1 / 26,5 % AktErh / 8,6 % Z2 / 1,8 % Z3 · 10,5 % >142 (≈ Strides)
+- Strides: 6/6 · Peaks 151–156 bpm · max Speed 2,87 m/s (~5:48/km) · Pausen ~75s ✅
+- Pace: Ø 6:17/km gesamt · Z1-Teil ~6:34/km (Floor knapp unterschritten)
+- Mechanik: Power Ø 199 W · max 214 W
+- kcal: 439 · Quelle: UTMB (Watch + Verity Sense angenommen, 2246 HR-Samples)
+- Session-Grade: A−
+- DB-Import: pending (nächster import_fit.py-Lauf am Mac via HealthFit)
