@@ -224,3 +224,57 @@ Missionsziel voll erreicht: Zeh hält Abdruck unter Last, Struktur sauber, Pause
 - kcal: 439 · Quelle: UTMB (Watch + Verity Sense angenommen, 2246 HR-Samples)
 - Session-Grade: A−
 - DB-Import: pending (nächster import_fit.py-Lauf am Mac via HealthFit)
+
+## 2026-11-15 - Langer Lauf flach Z1 (Lauf #6) - Sonntag Analyse
+
+**Geplant**: Langer Lauf flach Z1 — 40min, Deckel 142 bpm, Pace ≥ 6:40/km, flach/weich/durchgehend, bewusst langsam. **Lauf #6 — das W46-Gate-Ziel, längster Lauf seit dem Bruch.**
+**Tatsächliche Ausführung**: 42,5min · 6,03km · Ø-Pace **7:03/km** (Moving Time) · 469 kcal · abends gelaufen (21:48–22:30). Ø-HF **125,6** · max **146** · min 78. **57,0 % Z1 · 41,8 % Aktive Erholung · 1,2 % über Deckel 142** (31 Samples, max 146). Vert: ~50 hm barometrisch (17 flights-climbed × 3 m; Höhenfeld nicht verwertbar) — quasi flach. Quelle: Aera (neue Navigations-App) + Brustgurt (2501 HR-Samples, Bluetooth-Gerät).
+**Persönliches Empfinden**: „Sonst super funktioniert — hab's mit einer neuen Navigation-App ausprobiert und dementsprechend nicht auf die Pace geschaut, hoffe es hat gepasst."
+
+### 🎯 **Herzfrequenz-Analyse**
+Es hat gepasst — und zwar ohne dass du draufgeschaut hast. Das ist der eigentliche Fortschritt dieser Woche: Mo (Rad) warst du „ohne hinschauen" 40 % über dem Deckel, heute **1,2 %** mit max 146. Das Körpergefühl für Z1 ist nach vier Läufen kalibriert.
+
+| Zone | Bereich | Anteil |
+|------|---------|--------|
+| Aktive Erholung | <125 | 41,8 % |
+| **Z1** | **125–142** | **57,0 %** |
+| Z2 | 143–152 | 1,2 % |
+| >Z2 | — | 0,0 % |
+
+Drittel-Progression: **119 → 131 → 127 bpm** — unten reingestartet, in Z1 reingewachsen, am Ende sogar wieder leicht runter statt Ermüdungs-Drift nach oben. Ø 125,6 ist die niedrigste Ø-HF der ganzen Comeback-Serie — beim *längsten* Lauf. Genau so sieht aerobe Kontrolle aus.
+
+### ⏱️ **Pace-Analyse (min/km)**
+Ø **7:03/km** über Moving Time — zum ersten Mal diese Woche der Pace-Floor ≥6:40 **klar eingehalten** (Di: 5:53 gerissen, Mi: 6:53 knapp, heute mit Puffer). Speed-Samples zeigen 6:26–7:11, letztes Drittel am langsamsten (~6:52) — kein Endspurt-Unsinn, bewusst ruhig zu Ende. Die Navigation-App hat dich offenbar eher gebremst als getrieben — in diesem Block ein Feature, kein Bug. 41,8 % unter 125 heißt allerdings auch: Teile waren eher Traben/sehr locker, vermutlich Navigations-Stopps oder vorsichtige Streckenfindung.
+
+### 🏆 **Was war hervorragend**
+- **W46-Gate geschlossen: 4/4 Läufe gelaufen** (Di/Mi/Fr/So), 135 geplante Laufminuten voll — erste komplette Laufwoche seit dem Bruch am 30.09.
+- Längster Lauf seit dem Bruch (42,5min) mit der **niedrigsten Ø-HF der Serie** — aerobe Basis kommt sichtbar zurück.
+- Beide Steuergrößen eingehalten: 1,2 % über Deckel UND Pace-Floor respektiert — das gab es diese Woche noch nie in einer Einheit gleichzeitig so sauber.
+- Brustgurt dran, 2501 Samples, saubere Aufzeichnung trotz neuer App.
+
+### ⚠️ **Verbesserungsbereiche**
+- **Wieder 21:48 Uhr Start.** Dritter später Abendlauf der Woche. HRV liegt bei 36 gegen Basis 40 — Schlaf ist deine knappste Ressource, und ein Lauf bis 22:30 plus Runterkommen frisst sie. In W47 (erster Tempo-Reiz!) die Schlüsseleinheiten nicht nach 21 Uhr.
+- 42,5 statt 40min: 2,5min drüber ist harmlos, aber „Laufminuten sind Zehen-Budget — nicht spontan verlängern" stand wörtlich im Plan. Vermutlich App-Route; trotzdem: Budget ist Budget.
+- 41,8 % unter Z1 — fürs Comeback okay, in W47 bei Long Runs sauberer im Z1-Band bleiben, sonst ist der aerobe Reiz kleiner als er aussieht.
+
+### 📈 **Progression vs. Previous Sessions**
+Comeback-Serie: Di 30min/max139/A− · Mi 30min/max144/A · Fr 36min Strides/A− · **So 42,5min/max146 — längster Lauf, niedrigste Ø-HF.** Die Rampe 30→30→35→40 ist komplett und schmerzfrei absolviert. **W46-Wochenziel Lauf: erfüllt (≈139/135min).** Vorausgesetzt der Zeh ist Mo früh still → W47-Tor für den ersten flachen Z2-Reiz ist offen.
+
+### 🎯 **Bewertung: A**
+Gate-Lauf abgeliefert: längste Einheit seit dem Bruch, beide Vorgaben gehalten, HF-Verlauf vorbildlich — und das ohne auf die Uhr zu schauen. Kein A+ wegen des späten Starts (Schlaf!), der 2,5 Bonus-Minuten und des hohen Anteils unter Z1.
+
+### 💡 **Empfehlungen für nächstes Mal**
+1. **Mo früh: Zeh-Check** — der entscheidet über W47 (erster Z2-Reiz Mi). Jede Reaktion sofort melden.
+2. Neue Navi-App gern behalten — aber HF-Alarm (142) parallel aktiv lassen, dann funktioniert „nicht hinschauen" weiter.
+3. W47-Schlüsseleinheiten vor 20 Uhr laufen — HRV 36 vs. Basis 40 heißt: Schlaf schützen.
+
+### Detailed Metrics
+- Datum/Typ: 2026-11-15 · Langer Lauf flach Z1 (Lauf #6, W46-Gate)
+- Dauer/Distanz: 42,5min · 6,03km · ~50 hm barometrisch (17 flights; Höhenfeld unzuverlässig)
+- HF: Ø 125,6 · max 146 · min 78 · Zonen 57,0 % Z1 / 41,8 % AktErh / **1,2 % >142**
+- Drittel: 119 / 131 / 127 bpm
+- Pace: Ø 7:03/km (Moving Time) — Pace-Floor ≥6:40 eingehalten ✅
+- Power Ø 204 W · GCT Ø 270 ms · Stride Ø 91 cm (20 Samples)
+- kcal: 469 · Quelle: Aera (neue Navi-App) + Brustgurt (2501 HR-Samples)
+- Session-Grade: A
+- DB-Import: pending (nächster import_fit.py-Lauf am Mac via HealthFit)

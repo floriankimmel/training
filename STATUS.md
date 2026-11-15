@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated: 2026-11-15 (W47 geplant — erster Z2-Reiz Mi, 170min Lauf, Rad wetterabhängig)
+**Last updated: 2026-11-15 abends (So-Long-Run 42,5min A — **W46-Gate 4/4 Läufe erfüllt**, Zeh-Check Mo früh entscheidet W47)
 
 ## Current Target
 
