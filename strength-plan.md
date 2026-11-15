@@ -4,7 +4,7 @@
 > [`plans/strength-program-mark-lauren.md`](plans/strength-program-mark-lauren.md) —
 > the coach plans strength from there. Apple Reminders stays the schedule source of truth.
 
-**Last updated**: 2026-11-08 (W46 — First Class W4, Tag 1 Mo · Tag 3 Mi · Tag 2 Do · Tag 4 Sa)
+**Last updated**: 2026-11-15 (W47 — First Class W5 Powerblock, Tag 1 Mo · Tag 3 Mi · Tag 4 Do · Tag 2 Sa)
 
 ## System
 
