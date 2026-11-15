@@ -3,7 +3,7 @@
 > Consolidated history so patterns are visible in one place (was scattered across week narratives).
 > Newest first. Add every injury/illness that affects training here.
 
-**Last updated**: 2026-11-08
+**Last updated**: 2026-11-15
 
 ## 2026 — Toe fracture #2 (Zehenbruch, kleiner Zeh, W40)
 
@@ -19,6 +19,9 @@
 - **Comeback #2 2026-11-04**: 26,7min/3,7km flach Z1 — **Zeh wieder schmerzfrei** („lief wunderbar, keine Schmerzen in den Zehen"). 2/3 Return-Läufen ohne Abdruckschmerz. Zeh-Check Do früh entscheidet über Sa-Lauf #3 (30min).
 - **Comeback #3**: Sa-Lauf (30min) → So 08.11 verschoben → **nicht gelaufen**. `.fit`-Prüfung am 08.11. 21:00: letzter Lauf **Mi 04.11**, am 08.11. nur Kraft Tag 4 Core (36min). Athlet meldete „laufen geht gut" — das war kein Lauf. **Return-Gate steht bei 2/3 schmerzfreien Z1-Läufen.**
 - **W46 (revidiert 08.11. 21:00)**: Comeback Woche 2 = **4 Läufe 30/30/35/40min = 135min, flach Z1, jeden 2. Tag (Mo/Mi/Fr/So)** — kein Lauf an aufeinanderfolgenden Tagen, solange der Knochen (Bruch 30.09.) im Comeback ist. Lauf #3 auf **Mo 09.11** vorgezogen (sonst 6 Tage Pause). Fr 6×15s Strides = erster Abdruck-Test, konditional auf schmerzfreie Läufe Mo+Mi. Footwork-Start Di + So. Abbruchregel + Folgemorgen-Gate bleiben aktiv. Weniger als 4 Läufe oder ein Zeh-Signal → W46 wird wiederholt, nicht überschrieben.
+- **W46 Ist (15.11. 21:00, nur `.fit`)**: **4 von 4 Läufen / ~139min** — Di 30min Ø130/max139 · Mi 30min Ø129/max144 · **Fr 13.11 Strides-Test 36,1min Ø131/max156 → Zeh stumm, kein Abdruckschmerz ✅**. Damit ist der **Abdruck-Test bestanden**: der Knochen (Bruch 30.09.) hält kurze schnelle Belastung. **So 15.11 Lauf 42,5min gelaufen (21:48, nach dem 21:00-Check; Feedback A, Ø126/max146, `.fit` pending)** → **4/4 Läufe ~139min, Gate für den ersten Tempo-Reiz erfüllt**.
+- **W47 (16.–22.11.)**: Comeback Woche 3, **A gilt** — **A** (Mo-Zeh stumm): 170min inkl. **Mi 3×5min Z2 (143–152) = erster Tempo-Reiz seit dem Bruch**. **B** (Zeh-Signal): 145min, **alles Z1, kein neuer Reiz**. Beides flach/weich, **kein Berg, kein Bergab** (Bergab-Push-off stresst den Zeh am meisten). Abbruchregel + Folgemorgen-Gate bleiben aktiv. Sprung-Übungen in Kraft Tag 2 nur bei komplett schmerzfreiem Zeh, sonst tiefe Kniebeuge.
+- **🔴 Arzt-Abklärung des Musters** (2 Brüche in 2 Monaten → Vit D, Ferritin, ggf. DXA): seit 6 Wochen offen, Termin-Reminder am 02.11. abgehakt, **Befund nie geliefert**. Bleibt das wichtigste unerledigte Item dieses Comebacks.
 
 ## 2026 — Erkältung (Cold, W37)
 
