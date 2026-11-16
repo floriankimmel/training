@@ -267,6 +267,143 @@ else
   ok "strength pointer, latest plan and digitized program agree"
 fi
 
+echo
+echo "== 8. Apple Reminders vs. latest week plan =="
+# Source of truth for the schedule is Apple Reminders (list 🏅 Trainingsplan, tag training).
+# Compares the latest trainings/week-*.md with remctl (incl. completed) per day:
+#   - every non-rest session has a reminder of the same type (run/bike/strength/footwork), and vice versa
+#   - run/bike: duration in title == plan header; @workout line present, right sport, minutes ~ plan
+#   - strength/footwork: no @workout; strength Tag N: page refs (S.NNN) in notes == plan block
+# Skipped (warning) when remctl is unavailable or fails (e.g. CI, unsigned host).
+REM_HITS=$(python3 - <<'PY'
+import re, glob, os, json, subprocess, shutil
+from datetime import date, timedelta
+
+LIST='🏅 Trainingsplan'
+if not shutil.which('remctl'):
+    print('SKIP:remctl not installed'); raise SystemExit
+try:
+    r=subprocess.run(['remctl','show',LIST,'--completed','--json'],capture_output=True,text=True,timeout=60)
+    rem=json.loads(r.stdout)
+except Exception as e:
+    print(f'SKIP:remctl failed ({type(e).__name__})'); raise SystemExit
+
+files=[]
+for f in glob.glob('trainings/week-*.md'):
+    m=re.match(r'week-(\d+)-(\d{4})\.md', os.path.basename(f))
+    if m: files.append((int(m.group(2)), int(m.group(1)), f))
+if not files: raise SystemExit
+_, _, latest = max(files)
+
+def kind(s):
+    if '🚴' in s: return 'bike'
+    if '🏃' in s or '⚡' in s: return 'run'
+    if '💪' in s or '🏋' in s: return 'strength'
+    if '🦶' in s: return 'footwork'
+    return None
+
+def mins(tok):
+    m=re.search(r'(\d+)\s*[×x]\s*(\d+)\s*min', tok)
+    if m: return int(m.group(1))*int(m.group(2))
+    m=re.search(r'(\d+)\s*min', tok)
+    return int(m.group(1)) if m else None
+
+def tsec(x):
+    m=re.fullmatch(r'(\d+)(min|s)', x)
+    if m: return int(m.group(1))*(60 if m.group(2)=='min' else 1)
+    m=re.fullmatch(r'(\d+):(\d+)', x)
+    return int(m.group(1))*60+int(m.group(2)) if m else 0
+
+def spec_minutes(spec):
+    total=0
+    for tok in re.findall(r'\d+x\([^)]*\)|\S+', spec):
+        m=re.fullmatch(r'(\d+)x\((.*)\)', tok)
+        if m:
+            inner=sum(tsec(t) for t in re.findall(r'time:([0-9:]+(?:min|s)?)', m.group(2)))
+            total+=int(m.group(1))*inner
+        else:
+            t=re.search(r'time:([0-9:]+(?:min|s)?)', tok)
+            if t: total+=tsec(t.group(1))
+    return total/60
+
+# ---- plan sessions
+text=open(latest,encoding='utf-8').read()
+plan={}   # date -> list of dict
+days=re.split(r'(?m)^## (\w+, \d{4}-\d{2}-\d{2}).*$', text)
+for i in range(1,len(days),2):
+    day=re.search(r'\d{4}-\d{2}-\d{2}', days[i]).group(0)
+    for sec in re.split(r'(?m)^### ', days[i+1])[1:]:
+        head=sec.split('\n',1)[0]; body=sec.split('\n',1)[1] if '\n' in sec else ''
+        if '🛌' in head: continue
+        k=kind(head)
+        if not k: continue
+        item={'kind':k,'head':head,'dur':mins(head.rsplit(' — ',1)[-1]) if k in('run','bike') else None}
+        if k=='strength':
+            t=re.search(r'Kraft Tag (\d)', head+body); item['tag']=t.group(1) if t else None
+            item['refs']=set(re.findall(r'S\.(\d+)', body))
+        plan.setdefault(day,[]).append(item)
+if not plan: raise SystemExit
+dates=sorted(plan); lo, hi = dates[0], dates[-1]
+# widen to the plan week (Mon..Sun) so stray reminders are caught
+d0=date.fromisoformat(lo); mon=d0-timedelta(days=d0.weekday()); sun=mon+timedelta(days=6)
+lo, hi = mon.isoformat(), sun.isoformat()
+
+# ---- reminders in the plan week
+R={}
+for t in rem:
+    due=(t.get('dueDate') or '')[:10]
+    if not due or not (lo<=due<=hi): continue
+    k=kind(t['title'])
+    if not k: continue
+    R.setdefault(due,[]).append({'kind':k,'title':t['title'],'notes':t.get('notes') or ''})
+
+for day in sorted(set(plan)|set(R)):
+    P=plan.get(day,[]); Rm=R.get(day,[])
+    for k in ('run','bike','strength','footwork'):
+        pk=[x for x in P if x['kind']==k]; rk=[x for x in Rm if x['kind']==k]
+        if k=='strength':
+            pm={x['tag']:x for x in pk}; rm={}
+            for x in rk:
+                t=re.search(r'Kraft Tag (\d)', x['title']); rm[t.group(1) if t else x['title']]=x
+            for tag in sorted(set(pm)|set(rm), key=str):
+                if tag not in rm: print(f'{day}: plan has Kraft Tag {tag}, no reminder')
+                elif tag not in pm: print(f'{day}: reminder "{rm[tag]["title"]}" not in plan')
+                else:
+                    pr=pm[tag]['refs']; nr=set(re.findall(r'S\.(\d+)', rm[tag]['notes']))
+                    if pr!=nr:
+                        d=sorted(pr^nr, key=int)
+                        print(f'{day}: Kraft Tag {tag} page refs differ plan vs reminder (S.'+', S.'.join(d)+')')
+                    if '@workout' in rm[tag]['notes']: print(f'{day}: Kraft Tag {tag} reminder must not have @workout')
+            continue
+        if len(pk)!=len(rk):
+            print(f'{day}: {len(pk)} {k} session(s) in plan, {len(rk)} reminder(s)'); continue
+        for p,r in zip(pk,rk):
+            notes=r['notes']; lines=[l for l in notes.strip().split('\n') if l.strip()]
+            last=lines[-1] if lines else ''
+            if k=='footwork':
+                if '@workout' in notes: print(f'{day}: footwork reminder must not have @workout')
+                continue
+            td=mins(r['title'].rsplit(' — ',1)[-1])
+            if p['dur'] is not None and td is not None and p['dur']!=td:
+                print(f'{day}: {k} duration plan {p["dur"]}min vs reminder title {td}min')
+            if not last.startswith(f'@workout {k} '):
+                print(f'{day}: {k} reminder "{r["title"]}" does not end with "@workout {k} ..."'); continue
+            sm=spec_minutes(last)
+            if p['dur'] and abs(sm-p['dur'])>max(3,0.1*p['dur']):
+                print(f'{day}: {k} @workout spec ~{sm:.0f}min vs plan {p["dur"]}min')
+PY
+)
+if [ -z "$REM_HITS" ]; then
+  ok "reminders match latest week plan"
+else
+  while IFS= read -r l; do
+    case "$l" in
+      SKIP:*) warn "reminders check skipped — ${l#SKIP:}" ;;
+      *) err "$l" ;;
+    esac
+  done <<< "$REM_HITS"
+fi
+
 if [ "$ERRORS" -gt 0 ]; then
   printf '\033[31m%d error(s), %d warning(s)\033[0m\n' "$ERRORS" "$WARNINGS"; exit 1
 elif [ "$WARNINGS" -gt 0 ]; then
