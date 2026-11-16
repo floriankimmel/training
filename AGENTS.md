@@ -42,7 +42,9 @@ Rule: update the relevant file in the SAME change as the plan/feedback, and comm
 When unsure if something changed, re-read `STATUS.md` first and reconcile.
 
 **Consistency check**: run `scripts/lint.sh` before committing training-doc changes.
-It verifies the current-race symlink, single zone source, HealthFit-only rule, and staleness.
+It verifies the current-race symlink, single zone source, HealthFit-only rule, and staleness, and
+that the Kraft pointer (`strength-plan.md` marker `strength-pointer`) matches the latest `trainings/week-*.md`
+(program, week, page refs vs. `plans/strength-program-mark-lauren.md`). **Coach: marker bei jedem Plan mitziehen.**
 
 **Bewusste Kraft-am-Reisetag-Ausnahme merken**: Lint sperrt Kraft an Kalender-Reisetagen.
 Abflug- und Rückflugtag (letzterer, wenn die Kalender-Notes departure/return/Rückflug nennen)

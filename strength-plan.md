@@ -6,6 +6,9 @@
 
 **Last updated**: 2026-11-16 (W47 — First Class W5/6 Powerblock, Tag 1 Mo · Tag 3 Mi · Tag 4 Do · Tag 2 Sa)
 
+<!-- strength-pointer: program=first-class week=5 calendar=47 -->
+<!-- Bei jedem Wochenplan mitziehen: program (first-class|master-class), week = aktuelle Programmwoche (5 deckt 5/6), calendar = KW des Plans. scripts/lint.sh prüft das. -->
+
 ## System
 
 - **Method**: Mark Lauren (bodyweight), from the book.

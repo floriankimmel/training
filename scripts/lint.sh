@@ -184,6 +184,89 @@ else
   fi
 fi
 
+echo
+echo "== 7. strength pointer vs. latest week plan =="
+# strength-plan.md carries a machine-readable marker:
+#   <!-- strength-pointer: program=first-class week=5 calendar=47 -->
+# Checks (latest trainings/week-*.md only):
+#   a) marker exists and calendar == latest plan's week number (pointer not stale)
+#   b) every 💪 block names no other program / week than the pointer
+#   c) every (S.NNN) page ref in 💪 blocks exists in the digitized program section
+#      (plans/strength-program-mark-lauren.md) for that program + week
+STR_HITS=$(python3 - <<'PY'
+import re, glob, os
+
+def out(m): print(m)
+
+try:
+    sp=open('strength-plan.md',encoding='utf-8').read()
+except OSError:
+    out('strength-plan.md missing'); raise SystemExit
+m=re.search(r'<!--\s*strength-pointer:\s*program=(\S+)\s+week=(\d+)\s+calendar=(\d+)\s*-->', sp)
+if not m:
+    out('strength-plan.md: marker "<!-- strength-pointer: program=first-class week=N calendar=KW -->" missing'); raise SystemExit
+prog, wk, cal = m.group(1), int(m.group(2)), int(m.group(3))
+if prog not in ('first-class','master-class'):
+    out(f'strength-plan.md: unknown program "{prog}" (first-class|master-class)'); raise SystemExit
+pname = 'First Class' if prog=='first-class' else 'Master Class'
+other = 'Master Class' if prog=='first-class' else 'First Class'
+
+files=[]
+for f in glob.glob('trainings/week-*.md'):
+    mm=re.match(r'week-(\d+)-(\d{4})\.md', os.path.basename(f))
+    if mm: files.append((int(mm.group(2)), int(mm.group(1)), f))
+if not files:
+    raise SystemExit
+year, week, latest = max(files)
+
+if cal != week:
+    out(f'strength-plan.md pointer is for calendar W{cal}, latest plan is W{week} ({latest}) — update "Current program week" + marker')
+
+# digitized section for program + week
+prog_md=open('plans/strength-program-mark-lauren.md',encoding='utf-8').read()
+parts=re.split(r'(?m)^# (?=First Class|Master Class)', prog_md)
+body=next((p for p in parts if p.startswith(pname)), '')
+refs=None
+for sec in re.split(r'(?m)^## ', body)[1:]:
+    head=sec.split('\n',1)[0]
+    hm=re.match(r'Woche (\d+)(?:\s*(?:und|/)\s*(\d+))?', head)
+    if not hm: continue
+    lo=int(hm.group(1)); hi=int(hm.group(2) or lo)
+    if lo <= wk <= hi:
+        refs=set(re.findall(r'S\.(\d+)', sec.split('\n',1)[1])); lo_hi=(lo,hi); break
+if refs is None:
+    out(f'plans/strength-program-mark-lauren.md: no "{pname}" section for Woche {wk}')
+    raise SystemExit
+
+# 💪 blocks in latest plan
+lines=open(latest,encoding='utf-8').read().split('\n')
+i=0
+while i < len(lines):
+    if lines[i].startswith('- 💪'):
+        j=i+1
+        while j < len(lines) and lines[j].startswith('  '): j+=1
+        block='\n'.join(lines[i:j])
+        tag=re.search(r'Kraft Tag \d', block); tag=tag.group(0) if tag else f'line {i+1}'
+        if other in block:
+            out(f'{latest}: {tag} mentions "{other}" but pointer says {pname}')
+        for w in re.findall(r'(?:Woche|\bW)\s*\**\s*(\d+)(?:/(\d+))?', block):
+            a=int(w[0]); b=int(w[1] or a)
+            if (a,b)!=lo_hi and not (lo_hi[0] <= a <= lo_hi[1]):
+                out(f'{latest}: {tag} says week {a}, pointer says {pname} Woche {lo_hi[0]}..{lo_hi[1]}')
+        bad=sorted(set(re.findall(r'S\.(\d+)', block)) - refs, key=int)
+        if bad:
+            out(f'{latest}: {tag} page refs not in {pname} Woche {wk} table: S.' + ', S.'.join(bad))
+        i=j
+    else:
+        i+=1
+PY
+)
+if [ -n "$STR_HITS" ]; then
+  while IFS= read -r l; do err "$l"; done <<< "$STR_HITS"
+else
+  ok "strength pointer, latest plan and digitized program agree"
+fi
+
 if [ "$ERRORS" -gt 0 ]; then
   printf '\033[31m%d error(s), %d warning(s)\033[0m\n' "$ERRORS" "$WARNINGS"; exit 1
 elif [ "$WARNINGS" -gt 0 ]; then
