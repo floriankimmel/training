@@ -21,7 +21,7 @@
   Lauf So. Footwork Di + So. Ziel ~250 TRIMP absolut.
 - **Readiness 15.11. 21:00 (frische Metriken)**: **GREEN**, verbessert — HRV 3d **38** (Basis 40, z=−0.2),
   RHF 7d **58** (Basis 60), Schlaf 411 vs. 409. ACWR 1.13, TRIMP W46 222. Chronik nach Layoff niedrig → absolut steuern.
-- **Kraft**: First Class **W5** (Powerblock, S.251): Tag 1 Mo · Tag 3 Mi · Tag 4 Do · Tag 2 Sa.
+- **Kraft**: First Class **W5** (Powerblock / Supersätze, W5/6): Tag 1 Mo · Tag 3 Mi · Tag 4 Do · Tag 2 Sa.
 - **W46 Ist (final, nur `.fit`)**: Di 30min Ø130/max139 · Mi 30min Ø129/max144 · Fr 36,1min Ø131/max156 (Strides) ·
   Rad Mo 61,5min Ø137/max163 (über Deckel, C+) · Kraft **4/4** ✅ · **Do-Pendeln abgehakt ohne `.fit`** ·
   **So 15.11 Lauf 42,5min Ø126/max146 (A, 21:48 Start, `.fit` noch nicht importiert)**. Summe **4 Läufe / ~139min**, Rad 1/2 belegt.
