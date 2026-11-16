@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated: 2026-11-15 abends (So-Long-Run 42,5min A — **W46-Gate 4/4 Läufe erfüllt**, Zeh-Check Mo früh entscheidet W47)
+**Last updated: 2026-11-16 mittags (Mo Easy Run 35min B — Zeh stumm auch nach Back-to-back → **Variante A bestätigt, Zehenbruch gilt als überwunden**; Pace-Floor + Deckel gerissen: 6:11 statt ≥6:40, 16 % >142)
 
 ## Current Target
 
