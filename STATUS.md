@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated: 2026-11-16 mittags (Mo Easy Run 35min B — Zeh stumm auch nach Back-to-back → **Variante A bestätigt, Zehenbruch gilt als überwunden**; Pace-Floor + Deckel gerissen: 6:11 statt ≥6:40, 16 % >142)
+**Last updated: 2026-11-18 mittags (Mi Tempo 3×5min Z2 46min B+ — erster Tempo-Reiz seit Bruch sauber gesetzt, Blöcke ~148–154, aber 3,0min >152 ≈18 % Blockzeit vs. <5 %-Gate; CD 4min gekappt (Arbeit); Zeh stumm)**
 
 ## Current Target
 

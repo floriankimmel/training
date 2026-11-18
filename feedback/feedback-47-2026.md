@@ -58,3 +58,52 @@ Zeh-Gate bestanden, Timing top, Gefühl top — aber beide quantitativen Vorgabe
 - Zeh: stumm, auch <15h nach 42,5er → Return-Gate bestanden, Entscheidung A (Standard-Woche)
 - Session-Grade: B
 - DB-Import: pending (nächster import_fit.py-Lauf am Mac via HealthFit)
+
+
+## 2026-11-18 - Tempo (3×5min Z2) - Mittwoch Analyse
+
+**Geplant**: 45min — 15min WU Z1 · 3×5min Z2 (143–152, **Deckel 152**) mit 3min Z1-Trabpause · 10min CD @ 119–129
+**Tatsächliche Ausführung**: 46min moving (51,5min elapsed) · 7,12km · Start 12:00, flach. WU ~14min, drei Blöcke sauber gesetzt (Min 15–20 / 23–28 / 32–35), danach ~3min Geh-/Stehpause (HF bis 104 runter), ~12min Auslaufen — **Cooldown ~4min früher beendet (Arbeit)**.
+**Persönliches Empfinden**: „Super gelaufen, musste mich eher zurückhalten — der Puls ist zu schnell rauf gegangen. 4min früher abgebrochen (nur Recovery betroffen), weil ich in die Arbeit musste."
+
+### 🎯 **Herzfrequenz-Analyse**
+Ø 138,5 · max **156** · 3042 Brustgurt-Samples. Zonen: AktErh 11,8 % / Z1 50,3 % / Z2 32,0 % / **Z3 5,9 % (3,0min)** / Z4 0.
+
+Die drei Blöcke selbst: per-min ~148–154. Block 1 148→153, Block 2 150→148, Block 3 startete mit **154** und kam auf 146–149 zurück. **~3min über Deckel 152 — das ist bezogen auf ~16min Blockzeit ~18 %, das W48-Gate verlangt <5 %.** Nichts Scharfes (max 156 = mittlere Z3, Z4 = 0,0 %), und dein Empfinden „musste mich zurückhalten" passt exakt zu den Daten: Der Motor wollte mehr, du hast gedeckelt — nur eben erst bei 153–156 statt bei 150. Trabpausen sauber (138–140, echte Z1-Erholung). WU mit 138–141 im oberen Z1 okay, aber kein Reservepolster vor dem ersten Block.
+
+### ⏱️ **Pace-Analyse (min/km)**
+Ø **6:28/km** über die Gesamteinheit (Moving Time) — mit WU/CD/Pausen konsistent mit Z2-Blöcken im geplanten Band ~6:00–6:30. Erster Tempo-Reiz seit dem Bruch bei 6:2x Gesamt-Pace und Ø138: aerob ein deutlich besseres Bild als die 7:21 @ 140–150 aus dem Outcome-Block vom Oktober.
+
+### 🏆 **Was war hervorragend**
+- **Erster Tempo-Reiz seit dem Zehenbruch — strukturell sauber durchgezogen**: 3 Blöcke, volle Länge, echte Trabpausen, kein Z4-Ausreißer, kein Sprint. Genau der kontrollierte Druck, der geplant war.
+- **Selbstwahrnehmung stimmt**: „Puls ging zu schnell rauf, musste mich zurückhalten" — du hast aktiv gedeckelt statt dem Gefühl nachzugeben. Das ist die HF-Steuerung, die Montag gefehlt hat.
+- Mittagsstart 12:00 — Schlüsseleinheit weit vor 20 Uhr ✅ (zweite Session in Folge).
+- Brustgurt dran, flach gelaufen (2 flights ≈ 6 hm — Vorgabe „kein Berg" eingehalten).
+
+### ⚠️ **Verbesserungsbereiche**
+- **Deckel-Präzision in den Blöcken**: 3min über 152 bei einem <5-%-Gate. Z2 heißt 143–152, nicht „Z2 plus Anlauf in Z3". Fix: Blöcke bei ~146 anstechen und erst in Min 3–4 Richtung 150 treiben lassen — Block 3 (Start 154) zeigt, dass du zu heiß in die Wiederholungen gehst.
+- **Cooldown gekappt**: 4min fehlen, und das gelaufene Auslaufen lag bei 132–140 statt 119–129. Verständlich (Arbeit), substanzlos fürs Gate — aber nach dem ersten Qualitätsreiz seit 7 Wochen ist das Auslaufen kein Deko-Element. Nächstes Mal: Einheit 10min früher starten statt hinten abschneiden.
+
+### 📈 **Progression vs. Previous Sessions**
+Comeback-Serie: 30/A− · 30/A · 36 Strides/A− · 42,5/A · 35/B (Mo) · **heute 46min mit 3×5 Z2**. Erster struktureller Qualitätsreiz, und die Blöcke liegen bei ~150 Ø mit Pace um 6:00–6:30 — vor drei Wochen undenkbar. Zeh: keinerlei gemeldete Reaktion → 6. belastende Einheit in Folge ohne Signal.
+
+### 🎯 **Bewertung: B+**
+Der Reiz ist gesetzt, die Struktur stimmt, das Gefühl war stark. Abzug für ~18 % Blockzeit über Deckel (Gate: <5 %) und den gekappten, zu hohen Cooldown. Inhaltlich der beste Lauf der Comeback-Serie — exekutiv noch nicht gate-clean.
+
+### 💡 **Empfehlungen für nächstes Mal**
+1. **Do Rad-Pendeln strikt ≤125 und AUFZEICHNEN** — W46 fehlte die `.fit`, abgehakt ≠ gefahren.
+2. **Fr Strides ≤5:00/km**, Z1-Teil mit HF-Alarm 142. Zwei Tage nach dem Tempo-Reiz: Z1-Teil wirklich easy.
+3. Nächster Z2-Block (W48, evtl. 3×8min): konservativ anstechen (~146), Deckel-Alarm auf 152 am Handgelenk. Das <5-%-Gate ist mit deiner aktuellen Form reine Disziplinfrage, keine Fitnessfrage.
+
+### Detailed Metrics
+- Datum/Typ: 2026-11-18 · Tempo 3×5min Z2 flach (W47 Mi, erster Tempo-Reiz seit Bruch)
+- Dauer/Distanz: 46min moving (51,5 elapsed) · 7,12km · ~6 hm (2 flights, flach ✅)
+- HF: Ø 138,5 · max 156 · min 89 · Zonen 11,8 % AktErh / 50,3 % Z1 / 32,0 % Z2 / **5,9 % Z3 (3,0min >152)** / 0 % Z4
+- Blöcke (per-min): B1 148–153 · B2 148–151 · B3 154→146 · Pausen 138–140 ✅
+- Drittel: 137 / 146 / 132 bpm
+- Pace: Ø 6:28/km (Moving) · Temp 13,9 °C
+- kcal: 571 · Quelle: UTMB-App + Brustgurt (3042 Samples)
+- Abweichung: Cooldown −4min (Arbeit), CD-HF 132–140 statt 119–129
+- Zeh: kein Signal gemeldet
+- Session-Grade: B+
+- DB-Import: pending (nächster import_fit.py-Lauf am Mac via HealthFit)
