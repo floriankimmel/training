@@ -3,6 +3,8 @@
 > Archiv der früheren `STATUS.md`-Updates. **Neueste zuerst.** Pro coach/feedback-Lauf hier einen
 > Eintrag oben ergänzen (`- YYYY-MM-DD (…)`). `STATUS.md` bleibt kurzer Snapshot (<~60 Zeilen).
 
+- 2026-11-18 (🔁 **Reschedule W47 auf User-Wunsch:** Kraft Tag 3 Ziehen Mi→**Fr 20.11**; Do-Rad-Pendeln **gestrichen**; Strides-Lauf Fr→**Do 19.11** (Tag nach Mi-Tempo, Strides nur bei frischen Beinen). Reminders #1482/#1485 umgehängt, #1483 gelöscht; `week-47-2026.md` + `STATUS.md` nachgezogen.)
+
 **2026-11-18 mittags** — Mi Tempo 3×5min Z2, 46min, 7,12km, Ø138/max156, Grade **B+**. Erster Tempo-Reiz seit dem Bruch: 3 Blöcke voll, Pausen sauber Z1, 0 % Z4. Aber 3,0min >152 (~18 % Blockzeit, Gate <5 %) und CD 4min gekappt (Arbeit). Zeh stumm (6. Einheit ohne Signal).
 
 - 2026-11-16 (🔧 **Kraft-W47-Korrektur:** Reminders + Wochendoc nutzten Tabelle *Master Class* W5/6 (S.251) statt *First Class für Trainingserfahrene* W5/6. Alle 4 Kraft-Tage (Mo Tag 1, Mi Tag 3, Do Tag 4, Sa Tag 2) auf First-Class-Übungen umgestellt (Reminders #1478/1482/1484/1486, `week-47-2026.md`, `STATUS.md`).)

@@ -15,13 +15,13 @@
 - **Block**: 🏃 **Lauf-Comeback Woche 3** nach Zehenbruch #2 (30.09.). Return-Gate „3 schmerzfreie Z1-Läufe"
   **3/3 ✅**, Strides-Test (Fr 13.11, max 156) **ohne Zeh-Reaktion ✅** → Abdruck hält.
 - **Diese Woche (W47, 16.–22.11.)**: **Variante A gilt** (So-Lauf lief 21:48, nach dem 21:00-Check; B nur noch bei Zeh-Signal Mo,
-  `trainings/week-47-2026.md`): Läufe Mo/Mi/Fr/So **35 / 45 (3×5min Z2 143–152) / 35 (Strides) /
-  55min = 170min**. Alles flach, weich, Z1 ≤142, Pace ≥6:40, kein Berg/Bergab. Rad Di 60 aerob (≤144, **HF-Alarm!**) + Do Pendeln
-  2×20 (≤125), **wetterabhängig, Ausfall ersatzlos — nie ein Ersatz-Lauf**. Sa lauffrei (Feier 15:00) → langer
+  `trainings/week-47-2026.md`): Läufe Mo/Mi/Do/So (Strides Fr→Do, 18.11.) **35 / 45 (3×5min Z2 143–152) / 35 (Strides) /
+  55min = 170min**. Alles flach, weich, Z1 ≤142, Pace ≥6:40, kein Berg/Bergab. Rad Di 60 aerob (≤144, **HF-Alarm!**) + ~~Do Pendeln
+  2×20~~ (gestrichen 18.11.), **wetterabhängig, Ausfall ersatzlos — nie ein Ersatz-Lauf**. Sa lauffrei (Feier 15:00) → langer
   Lauf So. Footwork Di + So. Ziel ~250 TRIMP absolut.
 - **Readiness 15.11. 21:00 (frische Metriken)**: **GREEN**, verbessert — HRV 3d **38** (Basis 40, z=−0.2),
   RHF 7d **58** (Basis 60), Schlaf 411 vs. 409. ACWR 1.13, TRIMP W46 222. Chronik nach Layoff niedrig → absolut steuern.
-- **Kraft**: First Class **W5** (Powerblock / Supersätze, W5/6): Tag 1 Mo · Tag 3 Mi · Tag 4 Do · Tag 2 Sa.
+- **Kraft**: First Class **W5** (Powerblock / Supersätze, W5/6): Tag 1 Mo · Tag 4 Do · Tag 3 Fr (von Mi verschoben) · Tag 2 Sa.
 - **W46 Ist (final, nur `.fit`)**: Di 30min Ø130/max139 · Mi 30min Ø129/max144 · Fr 36,1min Ø131/max156 (Strides) ·
   Rad Mo 61,5min Ø137/max163 (über Deckel, C+) · Kraft **4/4** ✅ · **Do-Pendeln abgehakt ohne `.fit`** ·
   **So 15.11 Lauf 42,5min Ø126/max146 (A, 21:48 Start, `.fit` noch nicht importiert)**. Summe **4 Läufe / ~139min**, Rad 1/2 belegt.
