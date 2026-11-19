@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated: 2026-11-18 mittags (Mi Tempo 3×5min Z2 46min B+ — erster Tempo-Reiz seit Bruch sauber gesetzt, Blöcke ~148–154, aber 3,0min >152 ≈18 % Blockzeit vs. <5 %-Gate; CD 4min gekappt (Arbeit); Zeh stumm)**
+**Last updated: 2026-11-19 mittags (Do Z1+6×15s Strides 38,8min A− — alle 6 Strides sauber 153–166 bpm, CD erstmals korrekt Ø120, Beine frisch nach Mi-Tempo; +3,8min über Plan; Brückenübergang evtl. „leicht verzogen" → vor So-55er beobachten)**
 
 ## Current Target
 

@@ -107,3 +107,55 @@ Der Reiz ist gesetzt, die Struktur stimmt, das Gefühl war stark. Abzug für ~18
 - Zeh: kein Signal gemeldet
 - Session-Grade: B+
 - DB-Import: pending (nächster import_fit.py-Lauf am Mac via HealthFit)
+
+
+## 2026-11-19 - Z1 + 6×15s Strides - Donnerstag Analyse
+
+**Geplant**: 35min — 22min Z1 (125–142) · 6×15s Strides @ 150–170, ≤5:00/km, 75s Trabpause · 5min CD @ 119–129. (Fr→Do verschoben, User 18.11.)
+**Tatsächliche Ausführung**: 38,8min moving · 6,12km · Start 11:52, flach (2 flights ≈ 6 hm). Z1-Teil ~22min, Strides-Block ~12:15–12:23, danach sauberes Auslaufen.
+**Persönliches Empfinden**: „Gut gelaufen, gute Beine, überhaupt kein Problem wegen gestern. Müdigkeit okay. Bei einem Brückenübergang evtl. was leicht verzogen — aber die Strides trotzdem gut durchgezogen."
+
+### 🎯 **Herzfrequenz-Analyse**
+Ø 133,5 · max 166 · 2552 Brustgurt-Samples. Zonen: AktErh 14,5 % / Z1 70,3 % / Z2 8,9 % / Z3 4,8 % / Z4 1,5 %.
+
+- **Z1-Teil (bis ~12:14)**: Ø 135,4 · max 146 · **5,4 % über 142** — knapp über der 5-%-Marke, aber kein Wegdriften, nur kurze Kuppen. Tag nach dem Tempo-Reiz diszipliniert gelaufen.
+- **Strides**: 6 klare HF-Spitzen (156 / 165 / 166 / 158 / 153 / 159) im Zielband 150–170, mit echten Erholungen dazwischen (HF fällt jeweils unter 150 zurück). Kein Überdrehen, max 166 = kontrolliert zügig, kein Sprint. Genau wie bestellt.
+- **Cooldown**: Ø 120 · max 135 — diesmal **wirklich** Aktive Erholung (Mi lag der CD bei 132–140). Gelernt und umgesetzt. ✅
+
+### ⏱️ **Pace-Analyse (min/km)**
+Ø **6:20/km** (Moving Time, 6,12 km / 38,8 min). Speed-Samples heute zu dünn (20 Stück) für eine belastbare Stride-Pace — die ≤5:00/km-Vorgabe lässt sich aus HealthKit nicht verifizieren. Die HF-Spitzen bis 166 sprechen aber für deutlich mehr Druck als die ~5:48 von W46.
+
+### 🏆 **Was war hervorragend**
+- **Alle 6 Strides sauber gesetzt** — klare Spitzen im Zielband, volle Erholung dazwischen, keine einzige ausgelassen oder verschleppt.
+- **Cooldown-Korrektur**: Ø 120 statt 132–140 wie Mittwoch — direkt umgesetzt, was gestern bemängelt wurde.
+- **Beine frisch am Tag nach dem ersten Tempo-Reiz** — „überhaupt kein Problem wegen gestern" plus die Daten (Z1-Teil ruhig bei Ø 135) = der Mi-Block wurde gut verdaut. Wichtigstes Recovery-Signal der Woche.
+- Mittagsstart 11:52, Brustgurt dran, flach — dritte Schlüsseleinheit in Folge regelkonform.
+
+### ⚠️ **Verbesserungsbereiche**
+- **+3,8min über Plan** (38,8 statt 35). Der Plan sagt ausdrücklich: Obergrenze, kein Richtwert — „jeder Lauf endet bei der geplanten Minute". Bei einer +22-%-Rampe sind 4 Bonus-Minuten kein Kavaliersdelikt, auch wenn sie easy waren.
+- **Brückenübergang / „evtl. verzogen"**: unklar, was genau (Zeh? Knöchel?). Beobachten — morgen früh checken. Meldet sich was beim Gehen, VOR dem So-55er sagen, nicht danach.
+- Z1-Teil 5,4 % über 142 — minimal über der Marke, Hinweis, nicht Problem.
+
+### 📈 **Progression vs. Previous Sessions**
+Comeback-Serie: 30/A− · 30/A · 36 Strides/A− · 42,5/A · 35/B · 46 Tempo/B+ · **heute 38,8 Strides**. Strides-Vergleich zu W46 (Fr): damals max 156 und ~5:48/km, heute Spitzen bis 166 mit sauberer Struktur — mehr Abdruck, bessere Ausführung. Zeh: 7. belastende Einheit in Folge ohne gemeldetes Signal (Brücke unklar, beobachten). W47-Stand: 3/4 Läufe, ~120 von 170min.
+
+### 🎯 **Bewertung: A−**
+Inhaltlich die sauberste Einheit der Woche: Strides exakt im Band, Pausen echt, Cooldown erstmals korrekt. Abzug nur für die 4 Minuten über Plan — Disziplin gilt auch nach oben.
+
+### 💡 **Empfehlungen für nächstes Mal**
+1. **Brücken-Stelle ernst nehmen**: Zeh-Check morgen früh. Irgendein Ziehen beim Abrollen → vor dem Sonntag-Lauf melden, der 55er ist der längste seit dem Bruch.
+2. **Geplante Dauer = Stopp-Signal.** Uhr-Alarm bei Minute 35 setzen, wenn's sein muss.
+3. So langer Lauf: strikt Z1, HF-Alarm 142, Pace ≥6:40 — nach dieser Woche reine Geduldsübung.
+
+### Detailed Metrics
+- Datum/Typ: 2026-11-19 · Z1 + 6×15s Strides flach (W47 Do, von Fr verschoben)
+- Dauer/Distanz: 38,8min moving · 6,12km · ~6 hm (2 flights, flach ✅)
+- HF: Ø 133,5 · max 166 · min 94 · Zonen 14,5 % AktErh / 70,3 % Z1 / 8,9 % Z2 / 4,8 % Z3 / 1,5 % Z4
+- Strides: 6 Spitzen 153–166 bpm (12:15–12:23), Erholungen <150 ✅ · Z1-Teil Ø 135,4, 5,4 % >142
+- Drittel: 134 / 142 / 125 bpm · Cooldown Ø 120 ✅
+- Pace: Ø 6:20/km (Moving) · Stride-Pace nicht verifizierbar (nur 20 Speed-Samples) · Temp 10,3 °C
+- kcal: 465 · Quelle: UTMB-App + Brustgurt (2552 Samples)
+- Abweichung: +3,8min über Plan (38,8 vs 35)
+- Zeh: kein Signal; Brückenübergang evtl. „leicht verzogen" — beobachten vor So-55er
+- Session-Grade: A−
+- DB-Import: pending (nächster import_fit.py-Lauf am Mac via HealthFit)
