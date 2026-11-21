@@ -150,3 +150,22 @@ _Kein Resting-HR-Wert verfügbar._
 | Metrik | Wert |
 |--------|------|
 | Resting HR | 53 bpm |
+
+### 2026-11-21 (Samstag)
+
+#### 🛏️ Schlaf
+
+_Keine Schlafdaten verfügbar._
+
+#### 💓 HRV (SDNN)
+
+| Metrik | Wert |
+|--------|------|
+| Tages-Ø | 37.3 ms |
+| Min | 20.7 ms |
+| Max | 66.2 ms |
+| Samples | 5 |
+
+#### ❤️ Ruhe-HF
+
+_Kein Resting-HR-Wert verfügbar._
