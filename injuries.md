@@ -3,7 +3,7 @@
 > Consolidated history so patterns are visible in one place (was scattered across week narratives).
 > Newest first. Add every injury/illness that affects training here.
 
-**Last updated**: 2026-11-15
+**Last updated**: 2026-11-22
 
 ## 2026 — Toe fracture #2 (Zehenbruch, kleiner Zeh, W40)
 
@@ -13,7 +13,7 @@
 - **Timing-Problem**: **Vienna Trail Run ist am 18.10 (W42)** — Rückkehr ~14.10, nur ~4 Tage vor dem Rennen. Race damit **stark gefährdet** (siehe STATUS). Last-Zehenbruch brauchte W33 vorsichtiges Z1-Comeback vor jeder Intensität — hier fehlt die Zeit.
 - **Return protocol**: identisch zu W31 — erst wenn schmerzfrei: 2-3 kurze easy Z1-Läufe, flach, weiches Geläuf. Keine Intensität/Berg bis flacher harter Reiz schmerzfrei. Bergab-Push-off stresst Zeh am meisten.
 - **Race-Konsequenz**: **Vienna Trail Run 18.10 = DNS** (nicht angetreten). Comeback-Gate No-Go, kein schmerzfreier Lauf vor Renntag → bewusster Nichtantritt statt Risiko-Start auf nicht verheiltem Knochen.
-- **Status**: **active** (as of 2026-10-18). Lauf weiter pausiert (Zeh-Abdruck), aerober Wiederaufbau per Rad (W43).
+- **Status**: **resolved** (as of 2026-11-22; war active seit 2026-10-18). Comeback W45–W47 ohne Rückfall.
 - **Comeback 2026-10-31**: Florian meldet Zeh bereit → **W45 Return-to-Run**: 3 flache Z1-Läufe 20/25/30min (Mo 02.11 / Mi 04.11 / Sa 07.11), weiches Geläuf, Abbruch bei Schmerz beim Abdruck oder Druckschmerz am Folgemorgen (Fallback Rad). Kein Footwork, Sprünge nur schmerzfrei. Arzt-Abklärung weiter offen.
 - **Comeback #1 2026-11-02**: 20min flach Z1 gelaufen — **Zeh komplett schmerzfrei** während & danach. Go für Mi.
 - **Comeback #2 2026-11-04**: 26,7min/3,7km flach Z1 — **Zeh wieder schmerzfrei** („lief wunderbar, keine Schmerzen in den Zehen"). 2/3 Return-Läufen ohne Abdruckschmerz. Zeh-Check Do früh entscheidet über Sa-Lauf #3 (30min).
@@ -22,6 +22,7 @@
 - **W46 Ist (15.11. 21:00, nur `.fit`)**: **4 von 4 Läufen / ~139min** — Di 30min Ø130/max139 · Mi 30min Ø129/max144 · **Fr 13.11 Strides-Test 36,1min Ø131/max156 → Zeh stumm, kein Abdruckschmerz ✅**. Damit ist der **Abdruck-Test bestanden**: der Knochen (Bruch 30.09.) hält kurze schnelle Belastung. **So 15.11 Lauf 42,5min gelaufen (21:48, nach dem 21:00-Check; Feedback A, Ø126/max146, `.fit` pending)** → **4/4 Läufe ~139min, Gate für den ersten Tempo-Reiz erfüllt**.
 - **W47 (16.–22.11.)**: Comeback Woche 3, **A gilt** — **A** (Mo-Zeh stumm): 170min inkl. **Mi 3×5min Z2 (143–152) = erster Tempo-Reiz seit dem Bruch**. **B** (Zeh-Signal): 145min, **alles Z1, kein neuer Reiz**. Beides flach/weich, **kein Berg, kein Bergab** (Bergab-Push-off stresst den Zeh am meisten). Abbruchregel + Folgemorgen-Gate bleiben aktiv. Sprung-Übungen in Kraft Tag 2 nur bei komplett schmerzfreiem Zeh, sonst tiefe Kniebeuge.
 - **Status-Update 2026-11-16**: Mo-Lauf #7 (35min, <15h nach dem 42,5er) — **Zeh komplett stumm, auch Back-to-back**. Athlet: „kann man langsam sagen, dass das überwunden ist." 5 Läufe in 6 Tagen + Strides ohne jede Reaktion → **Status: resolving → als überwunden behandeln**, kein Dauer-Monitoring mehr (athlete.md: don't over-monitor healed issues). Nur bei neuem Signal melden. Flach/weich-Regel bleibt bis Ende W47 als letzte Vorsichtsstufe.
+- **Resolved 2026-11-22**: Athlet: „Zehe absolut kein Thema mehr“. W47: 8 belastende Einheiten (inkl. Z2-Block + Strides max166) ohne Signal → **Status: resolved**. Flach/weich-Regel endet mit W47. W48: erster Berg (6×20s Bergsprints bergauf, bergab gehen), Bergab-Druck erst W49.
 - **🔴 Arzt-Abklärung des Musters** (2 Brüche in 2 Monaten → Vit D, Ferritin, ggf. DXA): seit 6 Wochen offen, Termin-Reminder am 02.11. abgehakt, **Befund nie geliefert**. Bleibt das wichtigste unerledigte Item dieses Comebacks.
 
 ## 2026 — Erkältung (Cold, W37)
