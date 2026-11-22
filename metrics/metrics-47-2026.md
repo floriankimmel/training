@@ -202,13 +202,13 @@ _Kein Resting-HR-Wert verfügbar._
 | Metrik | Wert |
 |--------|------|
 | Nacht-Ø | 42.5 ms |
-| Tages-Ø | 33.2 ms |
+| Tages-Ø | 35.5 ms |
 | Min | 20.6 ms |
 | Max | 55.9 ms |
-| Samples | 6 |
+| Samples | 9 |
 
 #### ❤️ Ruhe-HF
 
 | Metrik | Wert |
 |--------|------|
-| Resting HR | 60 bpm |
+| Resting HR | 55 bpm |
