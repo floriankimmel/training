@@ -29,7 +29,7 @@
 
 - **🔴 Easy zu schnell**: Mo W47 6:11 statt ≥6:40, 16 % >142. Mit 5 Läufen kritisch → Pace-Alarm 6:40 auf Recovery-Läufen.
 - **🔴 Abgehakt ≠ trainiert**: nur `.fit` zählt. W47 Rad Di ohne `.fit`.
-- **DB-Import**: 3 `.fit` (19.–20.11., iCloud) Import-Fehler → TRIMP W47 in DB unvollständig. Prüfen.
+- **DB-Import**: iCloud-`Resource deadlock` blockt `import_fit.py` aus Agent-Shell → Import via `!` im User-Kontext (22.11. gelöst, ok=4).
 - **⛔ Zehenbruch-Muster**: 2 Brüche in 2 Monaten, Befund Vit D/Ferritin/DXA seit 7 Wochen offen. Siehe `injuries.md`.
 - **Zonen/hrMax**: DB-Peaks 184–186 vs. hrMax 180 → bei Feldtest neu bestimmen (`zones.md`).
 - **Vertical gap**: W48 erste Bergsprints, ab W49 Bergab + hm akkumulieren.
