@@ -22,7 +22,7 @@ _Münichsthaler Crosslauf: kein sicherer .fit-Match in DB — offizielle Zeit ma
 
 Methode: DuckDB `records` (sekundengenau), Pace bei fixer HF (Gelände-neutral).
 
-**Schwelle (Z3, HF 153–160)** — speist Webview-Karte + `scripts/lint.sh` Check 9.
+**Schwelle (Z3, HF 153–160)** — speist Webview-Karte + `scripts/lint.sh` (threshold trend check).
 Nur Läufe mit ≥5 min in Z3 (sonst nur HF-Ausreißer aus Z2-Läufen).
 
 | Monat | Pace @ HF 153–160 |

@@ -1,20 +1,21 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-import { REPO_ROOT } from './repo';
+import type { EinheitArt, Plan } from './core';
+import { repoPath } from './repo';
 
-const PROJECT_ROOT = REPO_ROOT;
-const TRAININGS_DIR = path.join(PROJECT_ROOT, 'trainings');
-const FEEDBACK_DIR = path.join(PROJECT_ROOT, 'feedback');
+// Week plans are parsed by the Python core (training/plan.py, via lib/core.ts);
+// this module only shapes them for the UI and parses feedback files.
+const FEEDBACK_DIR = repoPath('feedback');
 
 export interface Session {
-  day: string; // "Monday", "Tuesday", etc.
+  day: string; // "Mo", "Di", ...
   date: string; // "2026-06-08"
-  title: string; // "Hill Repeats 5x3min Z4"
+  title: string; // first Einheit of the day
   duration: string; // "50min"
-  type: 'run' | 'rest' | 'strength';
-  rawContent: string;
-  extras?: { title: string; duration: string; type: 'run' | 'rest' | 'strength' }[]; // further ### sessions same day
+  type: EinheitArt;
+  rawContent: string; // whole day section (all Einheiten), shown in the modal
+  extras?: { title: string; duration: string; type: EinheitArt }[]; // further Einheiten same day
 }
 
 export interface WeekData {
@@ -24,7 +25,7 @@ export interface WeekData {
   philosophy: string;
   sessions: Session[];
   summaryTable: string;
-  rawContent: string;
+  legacy: boolean;
 }
 
 export interface FeedbackData {
@@ -42,178 +43,32 @@ export interface FeedbackSession {
   summary?: string;   // Fazit-Absatz nach der Bewertung
 }
 
-const dayMap: Record<string, string> = {
-  'Monday': 'Mo',
-  'Tuesday': 'Di',
-  'Wednesday': 'Mi',
-  'Thursday': 'Do',
-  'Friday': 'Fr',
-  'Saturday': 'Sa',
-  'Sunday': 'So',
+const SHORT_DAY: Record<string, string> = {
+  Monday: 'Mo', Tuesday: 'Di', Wednesday: 'Mi', Thursday: 'Do', Friday: 'Fr', Saturday: 'Sa', Sunday: 'So',
 };
 
-const dayIndex: Record<string, number> = {
-  'Monday': 0, 'Tuesday': 1, 'Wednesday': 2, 'Thursday': 3,
-  'Friday': 4, 'Saturday': 5, 'Sunday': 6,
-};
-
-const monthMap: Record<string, number> = {
-  'January': 0, 'February': 1, 'March': 2, 'April': 3, 'May': 4, 'June': 5,
-  'July': 6, 'August': 7, 'September': 8, 'October': 9, 'November': 10, 'December': 11,
-};
-
-function resolveDate(dayName: string, dateStr: string, weekNum: number, year: number): string {
-  // Already ISO format
-  const isoMatch = dateStr.match(/^(\d{4}-\d{2}-\d{2})/);
-  if (isoMatch) return isoMatch[1];
-
-  // Text format: "April 13" or "April 13 (HEUTE)"
-  const textMatch = dateStr.match(/^(\w+)\s+(\d+)/);
-  if (textMatch) {
-    const month = monthMap[textMatch[1]];
-    const day = parseInt(textMatch[2]);
-    if (month !== undefined) {
-      const d = new Date(year, month, day);
-      return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-    }
-  }
-
-  // Fallback: compute from week number + day name
-  const dates = getWeekDates(weekNum, year);
-  const monday = new Date(dates.start);
-  const offset = dayIndex[dayName] || 0;
-  monday.setDate(monday.getDate() + offset);
-  return `${monday.getFullYear()}-${String(monday.getMonth() + 1).padStart(2, '0')}-${String(monday.getDate()).padStart(2, '0')}`;
-}
-
-export function getAvailableWeeks(): { week: number; year: number }[] {
-  const files = fs.readdirSync(TRAININGS_DIR).filter(f => f.match(/^week-\d+-\d+\.md$/));
-  return files.map(f => {
-    const match = f.match(/week-(\d+)-(\d+)\.md/);
-    return { week: parseInt(match![1]), year: parseInt(match![2]) };
-  }).sort((a, b) => a.year === b.year ? a.week - b.week : a.year - b.year);
-}
-
-export function parseWeekFile(weekNum: number, year: number): WeekData | null {
-  const filePath = path.join(TRAININGS_DIR, `week-${String(weekNum).padStart(2, '0')}-${year}.md`);
-  if (!fs.existsSync(filePath)) return null;
-  
-  const content = fs.readFileSync(filePath, 'utf-8');
-  
-  // Extract title (first H1)
-  const titleMatch = content.match(/^# (.+)$/m);
-  const title = titleMatch ? titleMatch[1] : `Week ${weekNum}, ${year}`;
-  
-  // Extract philosophy
-  const philMatch = content.match(/> \*\*(.+?)\*\*/);
-  const philosophy = philMatch ? philMatch[1] : '';
-  
-  // Parse sessions by day headers (supports ISO dates, text dates, and Weekend blocks)
-  const sessions: Session[] = [];
-  const dayNames = 'Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday';
-  const sectionEnd = `\n## (?:${dayNames}|Weekend)|## Weekly Summary|## Weekly Targets|## Vergleich|## ⚠️|## 🎯|## Heart Rate|## Taper|## Key Message|## Week \\d+ Preview|---\s*\n\s*$`;
-  
-  // Match day headers: ## Monday, 2026-04-13 OR ## Monday, April 13 (optional suffix like (HEUTE!) 🔥)
-  const dayHeaderRegex = new RegExp(
-    `## (${dayNames}),\\s*(.+?)\\s*\n+([\\s\\S]*?)(?=${sectionEnd})`, 'g'
-  );
-  
-  let match;
-  while ((match = dayHeaderRegex.exec(content)) !== null) {
-    const [, day, dateStr, body] = match;
-    const date = resolveDate(day, dateStr.replace(/\s*[🔥🏁]\s*/g, '').trim(), weekNum, year);
-    
-    // Try ### Title — Duration format first
-    const h3Match = body.match(/^### (.+?)(?:\s*—\s*(.+?))?\s*([🏃⛰️⚡🛌💪🏋️♂️]*)\s*\n([\s\S]*)/);
-    let sessionTitle: string;
-    let duration = '';
-    let rawContent: string;
-    
-    if (h3Match) {
-      sessionTitle = h3Match[1].trim();
-      duration = h3Match[2] || '';
-      rawContent = h3Match[4] || '';
-    } else {
-      // Bullet-point format: extract title from **bold** text in first bullet
-      // e.g. "- **Lunch/Abend**: **Short Hill Intervals** - 40min total"
-      // or "- **REST** 🛌"
-      const bulletMatch = body.match(/^-\s*\*\*(?:.*?\*\*:\s*)?\*\*(.+?)\*\*(?:\s*[-–—]\s*(.+?))?\s*$/m)
-        || body.match(/^-\s*\*\*(.+?)\*\*(?:\s*[-–—]\s*(.+?))?/m);
-      if (bulletMatch) {
-        sessionTitle = bulletMatch[1].trim();
-        duration = (bulletMatch[2] || '').replace(/\s*total\s*$/i, '').trim();
-      } else {
-        // Last resort: first non-empty line
-        const firstLine = body.trim().split('\n')[0] || '';
-        sessionTitle = firstLine.replace(/^[-*#>\s]+/, '').trim() || day;
-      }
-      rawContent = body;
-    }
-    
-    const isRest = /\brest\b|\bruhetag\b/i.test(sessionTitle);
-    const isStrength = /kraft|strength|mark lauren|🏋️/i.test(sessionTitle);
-    // Further "### Title — Duration" headers in the same day = extra sessions (2-a-day)
-    const extras = h3Match
-      ? [...body.matchAll(/^### (.+?)(?:\s*—\s*([^—\n]+?))?\s*$/gm)].slice(1).map(m => {
-          const head = m[1].trim();
-          const dur = (m[2] || '').replace(/[^\w\s×.:]/gu, '').trim();
-          const t = /kraft|strength|🏋️|💪/i.test(head + m[0]) ? 'strength' as const
-            : /\brest\b|\bruhetag\b/i.test(head) ? 'rest' as const : 'run' as const;
-          return { title: head, duration: dur, type: t };
-        })
-      : [];
-    sessions.push({
-      day: dayMap[day] || day,
-      date,
-      title: sessionTitle,
-      duration: duration || (isRest ? '-' : ''),
-      type: isRest ? 'rest' : isStrength ? 'strength' : 'run',
-      rawContent: rawContent.trim(),
-      extras,
-    });
-  }
-  
-  // Match Weekend blocks: ## Weekend (April 18-19) or ## Weekend (May 23-24)
-  const weekendRegex = /## Weekend\s*\((.+?)\)\s*\n([\s\S]*?)(?=\n## (?:Weekly Summary|Vergleich|⚠️|🎯)|---\s*\n\s*$)/g;
-  while ((match = weekendRegex.exec(content)) !== null) {
-    const [, dateRange, weekendContent] = match;
-    // Parse sub-sessions: ### Saturday: Title — Duration or ### Sunday: Title — Duration
-    const subRegex = /### (Saturday|Sunday):\s*(.+?)(?:\s*—\s*(.+?))?\s*([🏃⛰️⚡🛌💪🏋️♂️]*)\s*\n([\s\S]*?)(?=\n### (?:Saturday|Sunday):|$)/g;
-    let subMatch;
-    while ((subMatch = subRegex.exec(weekendContent)) !== null) {
-      const [, subDay, subTitle, subDuration, , subRaw] = subMatch;
-      // Compute date from week number
-      const dates = getWeekDates(weekNum, year);
-      const monday = new Date(dates.start);
-      const offset = dayIndex[subDay] || 0;
-      monday.setDate(monday.getDate() + offset);
-      const subDate = `${monday.getFullYear()}-${String(monday.getMonth() + 1).padStart(2, '0')}-${String(monday.getDate()).padStart(2, '0')}`;
-      
-      const isRest = subTitle.toLowerCase().includes('rest') || subTitle.toLowerCase().includes('ruhetag') || subTitle.toLowerCase().includes('unscheduled');
-      const isStrength = /kraft|strength|mark lauren|🏋️/i.test(subTitle);
-      sessions.push({
-        day: dayMap[subDay] || subDay,
-        date: subDate,
-        title: subTitle.trim(),
-        duration: subDuration || (isRest ? '-' : ''),
-        type: isRest ? 'rest' : isStrength ? 'strength' : 'run',
-        rawContent: subRaw.trim(),
-      });
-    }
-  }
-  
-  // Extract weekly summary table
-  const summaryMatch = content.match(/## Weekly Summary\s*\n([\s\S]*?)(?=\n---|\n## )/);
-  const summaryTable = summaryMatch ? summaryMatch[1].trim() : '';
-  
+export function weekDataFromPlan(plan: Plan): WeekData {
+  const sessions: Session[] = plan.days.map(d => {
+    const [first, ...rest] = d.einheiten;
+    const firstLine = d.body.split('\n').find(l => l.trim())?.replace(/^[-*#>\s]+/, '').trim();
+    return {
+      day: SHORT_DAY[d.weekday] ?? d.weekday,
+      date: d.date,
+      title: first?.title ?? firstLine ?? 'Ruhetag',
+      duration: first?.duration || (!first || first.kind === 'rest' ? '-' : ''),
+      type: first?.kind ?? 'rest',
+      rawContent: d.body,
+      extras: rest.map(e => ({ title: e.title, duration: e.duration, type: e.kind ?? 'run' })),
+    };
+  });
   return {
-    weekNumber: weekNum,
-    year,
-    title,
-    philosophy,
+    weekNumber: plan.week,
+    year: plan.year,
+    title: plan.title,
+    philosophy: plan.philosophy,
     sessions,
-    summaryTable,
-    rawContent: content,
+    summaryTable: plan.summary_table,
+    legacy: plan.legacy,
   };
 }
 

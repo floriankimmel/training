@@ -1,25 +1,22 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { getAvailableWeeks, parseWeekFile, parseFeedbackFile, getWeekDates } from '../lib/parseTraining';
+import { weekDataFromPlan, parseFeedbackFile, getWeekDates } from '../lib/parseTraining';
+import { corePage } from '../lib/core';
 import { getWeekActivities, getWeekMetrics, getMetricBaseline, getWeekTotals, getTrend, dbAvailable } from '../lib/db';
 import { getRace, getPhase, getActiveInjuries, getFitnessTrend, getBuildProgression } from '../lib/parseContext';
 import WeekGrid from '../components/WeekGrid';
 import SeasonBar from '../components/SeasonBar';
 import ChatModal from '../components/ChatModal';
 
-// Determine which week to show (default: latest)
-const weeks = getAvailableWeeks();
+// Week to show: ?week=&year= or latest. Plan comes from the Python core in one call.
 const urlWeek = Astro.url.searchParams.get('week');
 const urlYear = Astro.url.searchParams.get('year');
+const page = corePage(urlYear ? parseInt(urlYear) : undefined, urlWeek ? parseInt(urlWeek) : undefined);
+const weeks = page.weeks;
+const currentWeek: { week: number; year: number } =
+  urlWeek && urlYear ? { week: parseInt(urlWeek), year: parseInt(urlYear) } : (page.current ?? weeks[weeks.length - 1]);
 
-let currentWeek: { week: number; year: number };
-if (urlWeek && urlYear) {
-  currentWeek = { week: parseInt(urlWeek), year: parseInt(urlYear) };
-} else {
-  currentWeek = weeks[weeks.length - 1];
-}
-
-const weekData = parseWeekFile(currentWeek.week, currentWeek.year);
+const weekData = page.plan ? weekDataFromPlan(page.plan) : null;
 const feedbackData = parseFeedbackFile(currentWeek.week, currentWeek.year);
 const dates = getWeekDates(currentWeek.week, currentWeek.year);
 

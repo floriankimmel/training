@@ -44,7 +44,8 @@ function sessionIcon(title: string, type: string): string {
   const t = title.toLowerCase();
   if (type === 'rest') return '🛌';
   if (type === 'strength') return '🏋️';
-  if (t.includes('footwork') || t.includes('fuß')) return '🦶';
+  if (type === 'footwork') return '🦶';
+  if (type === 'bike') return '🚴';
   if (t.includes('hill') || t.includes('berg')) return '⛰️';
   if (t.includes('intervall') || t.includes('interval')) return '⚡';
   if (t.includes('long') || t.includes('lang')) return '🏃‍♂️';
