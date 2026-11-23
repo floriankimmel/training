@@ -43,12 +43,24 @@ export interface FitnessTrend {
   staleMonths: number;
 }
 
+// Readiness gate per day (training/readiness.py, ADR 0002). Flag null = not enough data.
+export interface Readiness {
+  day: string;
+  verdict: 'GREEN' | 'AMBER' | 'RED' | null;
+  hrv_flag: boolean | null;
+  rhr_flag: boolean | null;
+  sleep_flag: boolean | null;
+  reasons: string[];
+  frozen: boolean;
+}
+
 export interface PageData {
   weeks: { year: number; week: number }[];
   current: { year: number; week: number } | null;
   plan: Plan | null;
   trend: FitnessTrend | null;
   zones: Zone[];
+  readiness: Readiness[];
 }
 
 // Insights modal (training/insights.py)
@@ -63,7 +75,7 @@ export interface Insights {
   verdict: { level: 'up' | 'flat' | 'down'; effDeltaPct: number | null; text: string };
 }
 
-const EMPTY: PageData = { weeks: [], current: null, plan: null, trend: null, zones: [] };
+const EMPTY: PageData = { weeks: [], current: null, plan: null, trend: null, zones: [], readiness: [] };
 
 function runCore<T>(args: string[], fallback: T): T {
   try {

@@ -8,7 +8,9 @@ import argparse
 import json
 from pathlib import Path
 
-from . import benchmarks, plan, zones
+from datetime import timedelta
+
+from . import benchmarks, plan, readiness, zones
 from .repo import ROOT
 
 
@@ -22,7 +24,22 @@ def page(year: int | None, week: int | None, root: Path = ROOT) -> dict:
         "plan": w.to_dict() if w else None,
         "trend": t.to_dict() if (t := benchmarks.load_trend(root)) else None,
         "zones": zones.to_dicts("run", root),
+        "readiness": _readiness(current, root) if current else [],
     }
+
+
+def _readiness(current: tuple[int, int], root: Path) -> list[dict]:
+    """Readiness for the 7 days of the shown week; [] when the DB is missing or locked by a writer."""
+    db = root / "db" / "training.duckdb"
+    if not db.is_file():
+        return []
+    try:
+        import duckdb
+        con = duckdb.connect(str(db), read_only=True)
+        mon = plan.week_monday(*current)
+        return [r.to_dict() for r in readiness.for_days(con, [mon + timedelta(days=i) for i in range(7)])]
+    except Exception:  # noqa: BLE001 — the page must render without readiness
+        return []
 
 
 def main(argv: list[str]) -> int:

@@ -21,7 +21,7 @@ from pathlib import Path
 
 import duckdb
 
-from readiness import freeze
+from training.readiness import freeze
 
 SCHEMA = Path(__file__).with_name("schema.sql")
 REPO = Path(__file__).resolve().parent.parent

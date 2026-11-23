@@ -16,7 +16,7 @@
 - `plans/build-plan-vienna-2026.md` — 8-week macro plan: long-run + weekly vertical (hm) progression
 - `trainings/week-XX-YYYY.md` — weekly plans · `feedback/feedback-XX-YYYY.md` — session feedback
 - **Data source**: HealthFit `.fit` only (offline). No Tredict / Strava / Runalyze / MCP. DB sync: `scripts/auto-import.sh`, daily via Paperclip (see `scripts/PAPERCLIP-SYNC.md`).
-- **Load/readiness/outcome**: `db/.venv/bin/python scripts/load_report.py` (TRIMP, ACWR, HRV/RHR gate, pace @ fixed HR) — coach runs it before planning.
+- **Load/readiness/outcome**: `db/.venv/bin/python -m training report` (TRIMP, ACWR, Readiness gate, Aerobe Effizienz) — coach runs it before planning.
 - **Objective analysis**: query `db/training.duckdb` (DuckDB) for real pace/HF/vert trends instead of guessing. Terrain-robust metric = **Pace in Zone** (`training/pace.py`, zones from `zones.md` via `training/zones.py`; see GLOSSARY.md).
 
 ## Maintenance Contract (keep living docs fresh)

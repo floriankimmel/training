@@ -7,3 +7,4 @@ dump/
 
 auto-import.log
 .last-backup
+*.parquet

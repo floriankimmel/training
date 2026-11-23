@@ -45,7 +45,7 @@
 - **Only data source**: HealthFit `.fit` → DuckDB (`db/`, auto-import), parsed offline via `parse_fit.py` (feedback skill).
 - **Schedule source of truth**: **Apple Reminders** list 🏅 Trainingsplan (tag `training`). Any change to a
   `trainings/week-*` plan must be mirrored to Apple Reminders in the same change (see `AGENTS.md` contract).
-- Wellness (HRV/RHR/sleep): daily HealthKit → `metrics/` → `daily_metrics` (DuckDB); readiness gate in `scripts/load_report.py`.
+- Wellness (HRV/RHR/sleep): daily HealthKit → `metrics/` → `daily_metrics` (DuckDB); Readiness gate in `training/readiness.py` (`python -m training report`).
 - Skills: `coach` (plan), `feedback` (analyze), `reschedule`, `race-prediction`, `findracepace`.
 
 ## Preferences / Rules

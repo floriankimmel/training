@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import type { WeekData, FeedbackData, Session, FeedbackSession } from '../lib/parseTraining';
-import type { DayActivity, DayMetric, MetricBaseline, WeekTotals, TrendPoint } from '../lib/db';
+import type { DayActivity, DayMetric, WeekTotals, TrendPoint } from '../lib/db';
+import type { Readiness } from '../lib/core';
 import FeedbackModal from './FeedbackPanel';
 
 interface Props {
@@ -8,7 +9,7 @@ interface Props {
   feedbackData: FeedbackData | null;
   activities: DayActivity[];
   metrics: DayMetric[];
-  baseline: MetricBaseline | null;
+  readiness: Readiness[];
   totals: WeekTotals;
   trend: TrendPoint[];
   weekDates: { start: string; end: string };
@@ -103,16 +104,18 @@ interface DayCell {
   session: Session | null;
   actual: DayActivity | null;
   metric: DayMetric | null;
+  readiness: Readiness | null;
   feedback: FeedbackSession | undefined;
 }
 
-export default function WeekGrid({ weekData, feedbackData, activities, metrics, baseline, totals, trend, weekDates, currentWeek }: Props) {
+export default function WeekGrid({ weekData, feedbackData, activities, metrics, readiness, totals, trend, weekDates, currentWeek }: Props) {
   const [modalSession, setModalSession] = useState<{ session: Session; feedback: FeedbackSession | undefined } | null>(null);
   const [selected, setSelected] = useState(0);
   const today = todayISO();
 
   const actByDate = new Map(activities.map(a => [a.date, a]));
   const metByDate = new Map(metrics.map(m => [m.date, m]));
+  const readyByDate = new Map(readiness.map(r => [r.day, r]));
 
   // Build 7 day cells Mon..Sun from the week's Monday.
   const cells: DayCell[] = WEEKDAYS.map((wd, i) => {
@@ -125,6 +128,7 @@ export default function WeekGrid({ weekData, feedbackData, activities, metrics, 
       session,
       actual: actByDate.get(date) ?? null,
       metric: metByDate.get(date) ?? null,
+      readiness: readyByDate.get(date) ?? null,
       feedback,
     };
   });
@@ -296,11 +300,11 @@ export default function WeekGrid({ weekData, feedbackData, activities, metrics, 
       {/* Recovery cards */}
       <div className="flex items-center justify-between mb-2">
         <span className="text-[11px] uppercase tracking-wide text-slate-500 font-semibold">Recovery</span>
-        <span className="text-[10px] text-slate-600">Ranges aus letzten 12 Monaten (Terzile)</span>
+        <span className="text-[10px] text-slate-600">Readiness: Flags vs. eigene letzte 30 Tage</span>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-2 mb-4">
         {cells.map(c => (
-          <RecoveryCard key={c.date} cell={c} baseline={baseline ?? FALLBACK_BASELINE} />
+          <RecoveryCard key={c.date} cell={c} />
         ))}
       </div>
 
@@ -327,87 +331,42 @@ function Stat({ label, value, spark }: { label: string; value: string; spark?: R
   );
 }
 
-// ── Personal recovery tiers: frozen per day in daily_readiness (db/readiness.py);
-// live 90-day terciles only for days not yet frozen (today). Keep rules in sync. ──
-type Tier = 'good' | 'ok' | 'bad';
-
-const TIER_TEXT: Record<Tier, string> = {
-  good: 'text-emerald-400',
-  ok: 'text-amber-400',
-  bad: 'text-red-400',
+// ── Readiness (training/readiness.py, ADR 0002): verdict colours the card, a raised
+// Recovery-Flag turns its metric red. Dashed = judged live (not frozen yet). ──
+const VERDICT_STYLE: Record<'GREEN' | 'AMBER' | 'RED', { border: string; bg: string; dot: string }> = {
+  GREEN: { border: 'border-emerald-600/70', bg: 'bg-emerald-950/20', dot: 'bg-emerald-400' },
+  AMBER: { border: 'border-amber-600/70', bg: 'bg-amber-950/20', dot: 'bg-amber-400' },
+  RED: { border: 'border-red-600/70', bg: 'bg-red-950/20', dot: 'bg-red-400' },
 };
-const TIER_SCORE: Record<Tier, number> = { good: 2, ok: 1, bad: 0 };
+const NEUTRAL = { border: 'border-slate-700', bg: 'bg-slate-800/40', dot: 'bg-slate-600' };
 
-// Static 12-month terciles, used when DB has too little history.
-const FALLBACK_BASELINE: MetricBaseline = {
-  sleep: [393, 429],
-  hrv: [39.6, 49.5],
-  rhr: [56, 59],
-};
-
-// higher = better
-function higherTier(v: number | null, [p33, p67]: [number, number]): Tier | null {
-  if (v == null) return null;
-  if (v >= p67) return 'good';
-  if (v >= p33) return 'ok';
-  return 'bad';
-}
-// lower = better
-function lowerTier(v: number | null, [p33, p67]: [number, number]): Tier | null {
-  if (v == null) return null;
-  if (v <= p33) return 'good';
-  if (v <= p67) return 'ok';
-  return 'bad';
-}
-function sleepTier(min: number | null, b: MetricBaseline): Tier | null {
-  return min == null || min <= 60 ? null : higherTier(min, b.sleep);
-}
-
-// Red only when ≥2 metrics bad (or the single present one); one bad + rest ok = amber.
-function overallTier(tiers: (Tier | null)[]): Tier | null {
-  const present = tiers.filter((t): t is Tier => t != null);
-  if (present.length === 0) return null;
-  const bad = present.filter(t => t === 'bad').length;
-  if (bad >= 2 || bad === present.length) return 'bad';
-  const avg = present.reduce((s, t) => s + TIER_SCORE[t], 0) / present.length;
-  return avg >= 1.5 ? 'good' : 'ok';
-}
-
-const OVERALL_STYLE: Record<Tier, { border: string; bg: string; dot: string }> = {
-  good: { border: 'border-emerald-600/70', bg: 'bg-emerald-950/20', dot: 'bg-emerald-400' },
-  ok: { border: 'border-amber-600/70', bg: 'bg-amber-950/20', dot: 'bg-amber-400' },
-  bad: { border: 'border-red-600/70', bg: 'bg-red-950/20', dot: 'bg-red-400' },
-};
-
-function RecoveryCard({ cell, baseline }: { cell: DayCell; baseline: MetricBaseline }) {
+function RecoveryCard({ cell }: { cell: DayCell }) {
   const m = cell.metric;
-  const f = m?.frozen;
-  const sT = f ? (f.sleep as Tier | null) : sleepTier(m?.sleepMin ?? null, baseline);
-  const hT = f ? (f.hrv as Tier | null) : higherTier(m?.hrvNight ?? null, baseline.hrv);
-  const rT = f ? (f.rhr as Tier | null) : lowerTier(m?.restingHr ?? null, baseline.rhr);
-  const overall = f ? (f.overall as Tier | null) : overallTier([sT, hT, rT]);
-  const style = overall ? OVERALL_STYLE[overall] : { border: 'border-slate-700', bg: 'bg-slate-800/40', dot: 'bg-slate-600' };
+  const r = cell.readiness;
+  const style = r?.verdict ? VERDICT_STYLE[r.verdict] : NEUTRAL;
+  const title = r ? [r.verdict ?? 'keine Daten', ...r.reasons, r.frozen ? '' : 'vorläufig (wird morgen eingefroren)']
+    .filter(Boolean).join(' · ') : undefined;
 
   return (
-    <div title={f ? undefined : 'vorläufig (wird morgen eingefroren)'} className={`border ${m && !f ? 'border-dashed' : ''} ${style.border} ${style.bg} rounded-lg p-2 min-h-[112px] flex flex-col gap-1`}>
+    <div title={title} className={`border ${r && !r.frozen ? 'border-dashed' : ''} ${style.border} ${style.bg} rounded-lg p-2 min-h-[112px] flex flex-col gap-1`}>
       <div className="flex items-center justify-between">
         <span className="text-xs font-mono text-slate-500">{cell.weekday} {cell.date.slice(8)}</span>
         <span className={`h-2 w-2 rounded-full ${style.dot}`} />
       </div>
       <div className="mt-auto flex flex-col gap-1">
-        <MetricLine label="🛌" value={fmtSleep(m?.sleepMin ?? null)} tier={sT} />
-        <MetricLine label="💓" value={m?.hrvNight != null ? String(Math.round(m.hrvNight)) : '–'} tier={hT} />
-        <MetricLine label="❤️" value={m?.restingHr != null ? String(m.restingHr) : '–'} tier={rT} />
+        <MetricLine label="🛌" value={fmtSleep(m?.sleepMin ?? null)} flag={r?.sleep_flag ?? null} />
+        <MetricLine label="💓" value={m?.hrvNight != null ? String(Math.round(m.hrvNight)) : '–'} flag={r?.hrv_flag ?? null} />
+        <MetricLine label="❤️" value={m?.restingHr != null ? String(m.restingHr) : '–'} flag={r?.rhr_flag ?? null} />
       </div>
     </div>
   );
 }
 
-function MetricLine({ label, value, tier }: { label: string; value: string; tier: Tier | null }) {
+function MetricLine({ label, value, flag }: { label: string; value: string; flag: boolean | null }) {
   return (
     <div className="flex items-center justify-between text-[11px] font-mono">
       <span className="text-slate-500 inline-block w-4 text-center text-[11px] leading-none">{label}</span>
-      <span className={tier ? TIER_TEXT[tier] : 'text-slate-600'}>{value}</span>
+      <span className={flag ? 'text-red-400 font-bold' : flag === false ? 'text-slate-300' : 'text-slate-600'}>{value}</span>
     </div>
   );
 }

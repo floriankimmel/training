@@ -101,26 +101,23 @@ CREATE TABLE IF NOT EXISTS daily_metrics (
   imported_at     TIMESTAMPTZ
 );
 
--- Frozen daily readiness judgment (db/readiness.py). Written once per past day,
--- never touched by later rule/baseline changes. Re-judged only when the day's
--- inputs change (data correction / late RHR), using the stored thresholds.
+-- Frozen daily Readiness (training/readiness.py, ADR 0002): GREEN/AMBER/RED from
+-- Recovery-Flags, judged per past day with data up to that day. Re-judged only when
+-- the day's own inputs change. A v1 (tercile) table is replaced by training.readiness.
 CREATE TABLE IF NOT EXISTS daily_readiness (
-  day             DATE PRIMARY KEY,
-  sleep_tier      VARCHAR,               -- 'good' | 'ok' | 'bad' | NULL
-  hrv_tier        VARCHAR,
-  rhr_tier        VARCHAR,
-  overall         VARCHAR,
-  -- inputs as judged
-  sleep_min       INTEGER,
-  hrv_night_avg   DOUBLE,
-  resting_hr      INTEGER,
-  -- tercile cut points [p33, p67] used
-  sleep_p33 DOUBLE, sleep_p67 DOUBLE,
-  hrv_p33   DOUBLE, hrv_p67   DOUBLE,
-  rhr_p33   DOUBLE, rhr_p67   DOUBLE,
-  baseline_n      INTEGER,               -- days in 90d window; <30 = static fallback
-  algo_version    INTEGER,
-  evaluated_at    TIMESTAMPTZ
+  day           DATE PRIMARY KEY,
+  verdict       VARCHAR,          -- GREEN | AMBER | RED | NULL (no data)
+  hrv_flag      BOOLEAN,          -- NULL = not enough data for this signal
+  rhr_flag      BOOLEAN,
+  sleep_flag    BOOLEAN,
+  hrv_3d        DOUBLE, hrv_base DOUBLE, hrv_z DOUBLE,
+  rhr_7d        DOUBLE, rhr_base DOUBLE,
+  sleep_7d      DOUBLE, sleep_30d DOUBLE,
+  sleep_min     INTEGER,          -- the day's own inputs, to detect late corrections
+  hrv_night_avg DOUBLE,
+  resting_hr    INTEGER,
+  algo_version  INTEGER,
+  judged_at     TIMESTAMPTZ
 );
 
 CREATE INDEX IF NOT EXISTS idx_records_act ON records(activity_id);

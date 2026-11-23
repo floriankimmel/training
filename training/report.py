@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Load + readiness + outcome report from db/training.duckdb (read-only).
 
-Usage:  db/.venv/bin/python scripts/load_report.py [--weeks N] [--asof YYYY-MM-DD]
+Usage:  db/.venv/bin/python -m training report [--weeks N] [--asof YYYY-MM-DD]
 
 Sections:
   1. Weekly load  — HR-based TRIMP (Banister) per week/sport, ramp vs. 4-wk avg, ACWR
-  2. Readiness    — HRV z-score / RHR delta / sleep debt -> GREEN | AMBER | RED gate
+  2. Readiness    — training.readiness gate (GLOSSARY: Readiness, Recovery-Flag)
   3. Outcome      — run pace at fixed HR on flat runs (fitness signal, terrain-robust)
 
 TRIMP assumes 1 Hz records (HealthFit). hrMax + zones from zones.md (training.zones);\noutcome uses training.pace (GLOSSARY: Pace in Zone). resting HR = 30d median from daily_metrics.
@@ -15,17 +15,17 @@ from datetime import date, timedelta
 
 import duckdb
 
-from training import pace, zones
-from training.repo import ROOT
+from . import pace, readiness, zones
+from .repo import ROOT
 
 DB = ROOT / "db" / "training.duckdb"
 
 
-def main() -> None:
-    ap = argparse.ArgumentParser()
+def main(argv: list[str]) -> int:
+    ap = argparse.ArgumentParser(prog="python -m training report")
     ap.add_argument("--weeks", type=int, default=8)
     ap.add_argument("--asof", default=date.today().isoformat())
-    a = ap.parse_args()
+    a = ap.parse_args(argv)
     asof = date.fromisoformat(a.asof)
     con = duckdb.connect(str(DB), read_only=True)
     hmax = float(zones.hr_max())
@@ -89,32 +89,12 @@ def main() -> None:
     if day is None:
         print("no daily_metrics -> ask athlete / use subjective feedback")
     else:
-        h, hb, hsd, r_, rb, s7, s30 = con.execute(
-            """
-            WITH d AS (SELECT * FROM daily_metrics WHERE day <= ?),
-            base AS (SELECT avg(hrv_night_avg) hb, stddev(hrv_night_avg) hsd, avg(resting_hr) rb, avg(sleep_min) sb
-                     FROM d WHERE day BETWEEN ?::DATE - 30 AND ?::DATE - 1)
-            SELECT (SELECT avg(hrv_night_avg) FROM d WHERE day > ?::DATE - 3), base.hb, base.hsd,
-                   (SELECT avg(resting_hr) FROM d WHERE day > ?::DATE - 7), base.rb,
-                   (SELECT avg(sleep_min) FROM d WHERE day > ?::DATE - 7), base.sb FROM base
-            """,
-            [day, day, day, day, day, day],
-        ).fetchone()
-        z = (h - hb) / hsd if h and hb and hsd else None
-        dr = r_ - rb if r_ and rb else None
-        debt = s7 - s30 if s7 and s30 else None
-        flags = []
-        if z is not None and z <= -1.0:
-            flags.append(f"HRV 3d z={z:.1f}")
-        if dr is not None and dr >= 4:
-            flags.append(f"RHR 7d +{dr:.0f}")
-        if debt is not None and debt <= -45:
-            flags.append(f"sleep debt {debt:.0f} min/night")
-        sev = len(flags)
-        verdict = "GREEN" if sev == 0 else "AMBER" if sev == 1 else "RED"
-        print(f"latest metrics day {day} | HRV 3d {h and round(h)} (base {hb and round(hb)}, z={z and round(z, 1)}) | "
-              f"RHR 7d {r_ and round(r_)} (base {rb and round(rb)}) | sleep 7d {s7 and round(s7)} vs 30d {s30 and round(s30)}")
-        print(f"VERDICT: {verdict}" + (f" — {'; '.join(flags)}" if flags else "")
+        g = readiness.gate(con, day)
+        r = lambda v: None if v is None else round(v)  # noqa: E731
+        print(f"latest metrics day {day} | HRV 3d {r(g.hrv_3d)} (base {r(g.hrv_base)}, "
+              f"z={None if g.hrv_z is None else round(g.hrv_z, 1)}) | RHR 7d {r(g.rhr_7d)} (base {r(g.rhr_base)}) | "
+              f"sleep 7d {r(g.sleep_7d)} vs 30d {r(g.sleep_30d)}")
+        print(f"VERDICT: {g.verdict}" + (f" — {'; '.join(g.reasons)}" if g.reasons else "")
               + "   (AMBER: no new hard session, cap at aerobic · RED: easy/rest, no quality)")
         if (asof - day).days > 2:
             print(f"⚠ metrics stale ({(asof - day).days}d old) — run db/import_metrics.py")
@@ -129,6 +109,4 @@ def main() -> None:
     for p in reversed(out):
         print(f"  {p.period.replace('..', ' → ')}: {pace.fmt(p.pace)} /km  ({p.secs} s, {p.runs} runs)")
     print("Faster pace at same HR = fitness up; slower = fatigue/detraining/illness. Compare blocks, not single runs.")
-
-if __name__ == "__main__":
-    main()
+    return 0

@@ -88,17 +88,17 @@ recovery/readiness context.
 
 ### Frozen readiness (daily_readiness)
 
-`import_metrics.py` ends by calling `readiness.py`, which judges every past day
-once (sleep/HRV/RHR tiers vs. terciles of the 90 days before that day, plus an
-overall tier) and stores it in `daily_readiness`. Frozen days never change on
-rule or baseline changes; they are re-judged only when their inputs change
-(data correction, late RHR), keeping the stored thresholds. Today stays
-unfrozen and is judged live in the webview (dashed border). Rule changes: edit
-both `readiness.py` and `webview/src/components/WeekGrid.tsx`, bump
-`ALGO_VERSION`.
+`import_metrics.py` (and `import_all.py`) end by calling `training.readiness.freeze`,
+which judges every past day once with the Readiness gate (GLOSSARY.md, ADR 0002):
+HRV 3-day z-score, resting HR 7-day delta and sleep debt vs. the 30 days before that
+day raise Recovery-Flags; 0/1/2+ flags = GREEN/AMBER/RED. Only data up to the day is
+used, so a frozen day never changes unless its own inputs change (late correction).
+Today stays unfrozen and is judged live by the same module (webview: dashed border).
+Rule changes: edit `training/readiness.py` only and bump `ALGO_VERSION`; the next
+freeze re-judges every day.
 
 ```bash
-db/.venv/bin/python db/readiness.py   # freeze/re-judge without re-importing
+db/.venv/bin/python -m training readiness --freeze   # freeze/re-judge without re-importing
 ```
 
 ### Deduplication (source-independent)

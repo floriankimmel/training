@@ -5,6 +5,8 @@ COMMANDS: dict[str, str] = {
     "insights": "training.insights",
     "lint": "training.lint",
     "page": "training.page",
+    "readiness": "training.readiness",
+    "report": "training.report",
     "zones": "training.zones",
 }
 

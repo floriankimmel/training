@@ -5,7 +5,7 @@ Runs the two importers back to back so a single command keeps the whole
 training database fresh:
 
   1. import_fit.py     -> activities / laps / records  (HealthFit + others)
-  2. import_metrics.py -> daily_metrics                (metrics/*.md)
+  2. import_metrics.py -> daily_metrics + daily_readiness (metrics/*.md, training.readiness)
 
 Usage:
   # default: today's HealthFit files + all metrics/*.md
@@ -25,6 +25,7 @@ from pathlib import Path
 
 import import_fit
 import import_metrics
+from training.readiness import freeze
 
 REPO = Path(__file__).resolve().parent.parent
 HEALTHFIT = Path(os.path.expanduser(
@@ -82,7 +83,8 @@ def main():
                 print(f"[day] {rec['day']} {rec['weekday']}  "
                       f"sleep={rec['sleep_min']}min hrv_night={rec['hrv_night_avg']} "
                       f"rhr={rec['resting_hr']}")
-        print(f"metrics summary: {n} day(s) upserted")
+        new, rejudged = freeze(con)
+        print(f"metrics summary: {n} day(s) upserted, readiness: {new} frozen, {rejudged} re-judged")
 
     con.close()
 
