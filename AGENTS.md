@@ -3,6 +3,7 @@
 ## Repo Map (read these first)
 
 - `zones.md` — **HR zones (single source of truth)** — Laufen + Rad (provisional) tables
+- `GLOSSARY.md` — canonical terms (Schwelle = Z3, Tempo = Z3/Z4 only, Z2-Block, Einheit) — use these words in plans/feedback
 - `athlete.md` — athlete profile, goals, equipment, data rules
 - `STATUS.md` — short snapshot (where am I now, <60 lines) · `STATUS-log.md` — dated history (append on top)
 - `calendar.md` — known future events (travel/work/family) that affect weekly planning
