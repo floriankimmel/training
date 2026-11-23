@@ -41,6 +41,16 @@ export interface FitnessTrend {
   label: string;
   rows: { period: string; value: string }[];
   note: string;
+  staleMonths: number; // months between last row's period and today
+}
+
+const DE_MONTHS = ['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'];
+function monthsSince(period: string): number {
+  const [m, y] = period.split(' ');
+  const i = DE_MONTHS.indexOf(m);
+  if (i < 0 || !y) return 0;
+  const now = new Date();
+  return (now.getFullYear() - parseInt(y)) * 12 + now.getMonth() - i;
 }
 
 // --- Race (from STATUS.md Current Target) ---
@@ -107,20 +117,22 @@ export function getActiveInjuries(): InjuryInfo[] {
 export function getFitnessTrend(): FitnessTrend | null {
   const s = readFile('benchmarks.md');
   if (!s) return null;
-  // Threshold section: "**Schwelle/Tempo (HF 160–170)"
-  const idx = s.indexOf('Schwelle/Tempo');
+  // Threshold section: "**Schwelle (Z3, HF 153–160)" (Schwelle = Z3 per zones.md / GLOSSARY.md)
+  const idx = s.indexOf('**Schwelle (Z3');
   if (idx < 0) return null;
-  const block = s.slice(idx, idx + 600);
+  const nextSec = s.indexOf('\n**', idx + 2);
+  const block = s.slice(idx, nextSec > 0 ? nextSec : idx + 800);
   const rows: { period: string; value: string }[] = [];
   const rowRe = /\|\s*([A-Za-zä]+ \d{4})\s*\|\s*\*{0,2}([\d:]+ \/km)\*{0,2}\s*\|/g;
   let m;
   while ((m = rowRe.exec(block)) !== null) rows.push({ period: m[1], value: m[2] });
-  const noteM = s.match(/→ \*\*(.+?)\*\*/);
+  const noteM = block.match(/→ \*\*(.+?)\*\*/);
   if (rows.length === 0) return null;
   return {
-    label: 'Schwellen-Pace @ HF 160–170',
+    label: 'Schwellen-Pace (Z3) @ HF 153–160',
     rows,
     note: noteM ? noteM[1].replace(/\*/g, '') : '',
+    staleMonths: monthsSince(rows[rows.length - 1].period),
   };
 }
 

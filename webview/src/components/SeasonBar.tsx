@@ -82,6 +82,10 @@ export default function SeasonBar({ race, phase, injuries, trend, progression, v
               <span className="text-xs text-slate-500">/km</span>
             </div>
             {trend.note && <div className="text-[11px] text-emerald-300/70 mt-0.5 line-clamp-2">{trend.note}</div>}
+            <div className={`text-[11px] mt-0.5 ${trend.staleMonths > 2 ? 'text-amber-400' : 'text-slate-500'}`}>
+              Stand {trend.rows[trend.rows.length - 1].period}
+              {trend.staleMonths > 2 && ` · veraltet (${trend.staleMonths} Mon., kein Schwellen-Lauf seither)`}
+            </div>
             <button
               onClick={() => setInsightsOpen(true)}
               className="absolute top-2 right-2 text-[11px] bg-slate-700/70 hover:bg-emerald-700/70 text-slate-200 px-2 py-1 rounded transition-colors"

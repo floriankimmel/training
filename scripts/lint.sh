@@ -404,6 +404,71 @@ else
   done <<< "$REM_HITS"
 fi
 
+echo
+echo "== 9. threshold trend (benchmarks.md) vs. DuckDB =="
+# benchmarks.md "Schwelle (Z3, HF 153–160)" table feeds the webview trend card.
+# Recompute monthly median per-second pace @ HF 153–160 on flat runs (<15 hm/km, missing
+# ascent = flat), only runs with >=300 s in band (else Z2 HF spikes), month >=180 s. Warn when the DB has a newer qualifying month than
+# the table's last row, or when the last row's value drifts >10 s from the DB.
+# Skipped (warning) when db/.venv or db/training.duckdb is unavailable.
+TREND_HITS=$( [ -x db/.venv/bin/python ] && [ -f db/training.duckdb ] || { echo 'SKIP:db/.venv or db/training.duckdb missing'; exit; }
+db/.venv/bin/python - <<'PY'
+import re
+try:
+    import duckdb
+    con = duckdb.connect('db/training.duckdb', read_only=True)
+except Exception as e:
+    print(f'SKIP:duckdb unavailable ({type(e).__name__})'); raise SystemExit
+
+MON = ['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez']
+ALIAS = {'Mar': 'Mär', 'May': 'Mai', 'Oct': 'Okt', 'Dec': 'Dez'}
+fmt = lambda p: f'{int(p)}:{round((p % 1) * 60):02d}'
+
+s = open('benchmarks.md', encoding='utf-8').read()
+i = s.find('**Schwelle (Z3')
+if i < 0:
+    print('benchmarks.md: "Schwelle (Z3" trend section missing'); raise SystemExit
+rows = re.findall(r'\|\s*([A-Za-zä]+) (\d{4})\s*\|\s*\*{0,2}(\d+):(\d+) /km', s[i:(s.find('\n**', i + 2) if s.find('\n**', i + 2) > 0 else i + 800)])
+if not rows:
+    print('benchmarks.md: Schwelle table has no rows'); raise SystemExit
+m, y, mm, ss = rows[-1]
+m = ALIAS.get(m, m)
+if m not in MON:
+    print(f'benchmarks.md: unknown month "{m}" in trend table'); raise SystemExit
+last = f'{y}-{MON.index(m)+1:02d}'
+last_pace = int(mm) + int(ss) / 60
+
+q = '''
+with z as (
+  select r.activity_id, r.ts, r.speed
+  from records r join activities a on a.id = r.activity_id
+  where a.sport = 'running' and r.hr between 153 and 160 and r.speed > 1.5
+    and coalesce(a.total_ascent, 0) / nullif(a.distance_m/1000, 0) < 15
+    and r.ts >= ?::date)
+select strftime(date_trunc('month', ts), '%Y-%m') mon, count(*) secs, median(1000/speed)/60 pace
+from z where activity_id in (select activity_id from z group by 1 having count(*) >= 300)
+group by 1 having count(*) >= 180 order by 1'''
+db = {mon: pace for mon, _, pace in con.execute(q, [f'{last}-01']).fetchall()}
+
+if last in db and abs(db[last] - last_pace) * 60 > 10:
+    print(f'WARN:benchmarks.md trend {m} {y} = {fmt(last_pace)} /km, DB says {fmt(db[last])} /km')
+for mon in sorted(k for k in db if k > last):
+    yy, mo = mon.split('-')
+    print(f'WARN:benchmarks.md trend missing {MON[int(mo)-1]} {yy}: {fmt(db[mon])} /km (DB, flat, HF 153–160) — add row')
+PY
+)
+if [ -z "$TREND_HITS" ]; then
+  ok "threshold trend table up to date with DB"
+else
+  while IFS= read -r l; do
+    case "$l" in
+      SKIP:*) warn "trend check skipped — ${l#SKIP:}" ;;
+      WARN:*) warn "${l#WARN:}" ;;
+      *) err "$l" ;;
+    esac
+  done <<< "$TREND_HITS"
+fi
+
 if [ "$ERRORS" -gt 0 ]; then
   printf '\033[31m%d error(s), %d warning(s)\033[0m\n' "$ERRORS" "$WARNINGS"; exit 1
 elif [ "$WARNINGS" -gt 0 ]; then

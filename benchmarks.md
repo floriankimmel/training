@@ -5,7 +5,7 @@
 > **Data source**: HealthFit `.fit` → DuckDB (`db/training.duckdb`, 1469 runs). Paces are
 > median-per-second within HR bands (terrain-robust), not raw session averages.
 
-**Last updated**: 2026-10-25 (Reference Paces refreshed from DuckDB; letzter Lauf in DB 2026-09-23, seitdem Laufpause)
+**Last updated**: 2026-11-23 (Schwelle = Z3 153–160, Trend neu aus DuckDB; Z4-Tabelle separat)
 
 ## Race Results
 
@@ -22,7 +22,19 @@ _Münichsthaler Crosslauf: kein sicherer .fit-Match in DB — offizielle Zeit ma
 
 Methode: DuckDB `records` (sekundengenau), Pace bei fixer HF (Gelände-neutral).
 
-**Schwelle/Tempo (HF 160–170) — der klarste Fortschritt:**
+**Schwelle (Z3, HF 153–160)** — speist Webview-Karte + `scripts/lint.sh` Check 9.
+Nur Läufe mit ≥5 min in Z3 (sonst nur HF-Ausreißer aus Z2-Läufen).
+
+| Monat | Pace @ HF 153–160 |
+|-------|-------------------|
+| Aug 2025 | 5:45 /km |
+| Feb 2026 | 5:26 /km |
+| Mär 2026 | 5:09 /km |
+| Jul 2026 | **5:07 /km** |
+
+→ **~0:40 min/km schneller an der Schwelle (Aug 2025 → Jul 2026)**; seit Jul 2026 kein Z3-Lauf (Zehenbruch #2, Comeback Z1/Z2).
+
+**Z4 (HF 160–170) — der klarste Fortschritt:**
 
 | Monat | Pace @ HF 160–170 |
 |-------|-------------------|
@@ -31,7 +43,7 @@ Methode: DuckDB `records` (sekundengenau), Pace bei fixer HF (Gelände-neutral).
 | Jul 2026 | **4:16 /km** |
 | Aug 2026 | 4:29 /km |
 
-→ **~1:00–1:20 min/km schneller bei gleicher HF** über 12 Monate = echter Fitnessgewinn.
+~1:00–1:20 min/km schneller bei gleicher HF über 12 Monate = echter Fitnessgewinn.
 
 **Aerobe Basis:** Ø-HF auf lockeren Läufen sank ~149 → 131 bpm (stärkerer Motor).
 Flat-Easy-Pace optisch verwässert durch Trail-/Vert-Fokus in der Vienna-Prep.
@@ -43,7 +55,7 @@ Flat-Easy-Pace optisch verwässert durch Trail-/Vert-Fokus in der Vienna-Prep.
 | Date | Type | Result | Context |
 |------|------|--------|---------|
 | 2026-03-22 | Longest run (12 mo) | 35.3 km / 1486 hm / Ø152 bpm / 7:44 /km | größter Vert-Umfang, starke Ausdauer-Anchor |
-| 2026-07 | Tempo @ HF 160–170 | 4:16 /km (median) | Saison-Bestwert Schwelle |
+| 2026-07 | Z4 @ HF 160–170 | 4:16 /km (median) | Saison-Bestwert Z4 |
 | 2026-08-26 | Long Run (post-illness reboot) | 15.1 km / 475 hm / Ø138 bpm | GI-Recovery vollständig, kein Drift |
 
 ## Reference Paces (aus DuckDB, flache Läufe ab 2026-07-25, vor Zehenbruch #2)
@@ -52,7 +64,7 @@ Flat-Easy-Pace optisch verwässert durch Trail-/Vert-Fokus in der Vienna-Prep.
 |---------------|---------------|--------|
 | Easy Z1 (<131) | 6:20 | median records 25.07.–23.09.2026, nur flache Läufe (<15 hm/km) |
 | Long Z2 (131–145) | 6:06 | median records 25.07.–23.09.2026, nur flache Läufe (<15 hm/km) |
-| Tempo/Schwelle Z4 (160–170) | 4:07–4:30 | flache Läufe 08.07.–17.08.2026 (4:07 / 4:16 / 4:30) |
+| Z4 (160–170) | 4:07–4:30 | flache Läufe 08.07.–17.08.2026 (4:07 / 4:16 / 4:30) |
 
 > **Z4 nach 17.08. nicht verwertbar**: Z4-Sekunden stammen ab September fast nur aus Bergintervallen
 > (Hügel/Anstieg → 5:45–7:00 /km). Letzter sauberer flacher Z4-Wert = Aug 17 (4:30).
