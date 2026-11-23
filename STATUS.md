@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated: 2026-11-22 (W48 geplant — Aufbau W4, Zeh überwunden, 5 Läufe / 208min, erster Berg)**
+**Last updated: 2026-11-23 (Mo W48: Tempo 3×8 Z2 gelaufen, B+ — Volumen ✅, Blockeinstiege zu heiß, Z3 5,8 %)**
 
 ## Current Target
 
