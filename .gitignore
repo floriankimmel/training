@@ -6,3 +6,9 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# python
+__pycache__/
+*.egg-info/
+.pytest_cache/
+build/

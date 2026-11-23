@@ -19,6 +19,17 @@ Current coverage: 2020 → 2026, ~1600 activities, 6M+ per-second records.
 - `training.duckdb` — the database (git-ignored; regenerate anytime)
 - `.venv/` — python env with `duckdb` + `garmin-fit-sdk` (git-ignored)
 
+## Domain package (`training/`)
+
+Plan parsing, zones, Pace in Zone and Readiness live in the `training/` package at the
+repo root (see `docs/adr/0001-python-domain-core-cli-bridge.md`). Install it into the
+same venv once, then run tests:
+
+```bash
+db/.venv/bin/python -m pip install -e '.[dev]'
+db/.venv/bin/python -m pytest -q
+```
+
 ## Import
 
 ```bash

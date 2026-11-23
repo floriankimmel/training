@@ -1,0 +1,19 @@
+[project]
+name = "training"
+version = "0.1.0"
+description = "Domain core of the training repo: weekly plans, zones, pace in zone, readiness"
+requires-python = ">=3.12"
+dependencies = ["duckdb"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["training"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

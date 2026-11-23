@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Pre-commit hook: run the training-repo consistency lint before every commit.
 # Wired via: git config core.hooksPath .githooks
-# Blocks the commit if scripts/lint.sh exits non-zero (errors). Warnings pass.
+# Blocks the commit if scripts/lint.sh exits non-zero (errors) or pytest fails. Warnings pass.
 set -uo pipefail
 
 repo_root="$(git rev-parse --show-toplevel)"
@@ -14,4 +14,16 @@ if ! "$lint"; then
   echo
   echo "pre-commit: lint FAILED — commit blocked. Fix errors or bypass with 'git commit --no-verify'."
   exit 1
+fi
+
+py="$repo_root/db/.venv/bin/python"
+if [ -x "$py" ] && "$py" -c 'import pytest' 2>/dev/null; then
+  echo "pre-commit: running pytest ..."
+  if ! (cd "$repo_root" && "$py" -m pytest -q); then
+    echo
+    echo "pre-commit: tests FAILED — commit blocked."
+    exit 1
+  fi
+else
+  echo "pre-commit: pytest not installed in db/.venv — run: db/.venv/bin/python -m pip install -e '.[dev]'"
 fi
