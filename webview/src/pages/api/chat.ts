@@ -1,5 +1,8 @@
 import type { APIRoute } from 'astro';
 import { spawn } from 'node:child_process';
+import os from 'node:os';
+import path from 'node:path';
+import { REPO_ROOT } from '../../lib/repo';
 
 export const POST: APIRoute = async ({ request }) => {
   const { message, history } = await request.json();
@@ -18,10 +21,11 @@ export const POST: APIRoute = async ({ request }) => {
   const stream = new ReadableStream({
     start(controller) {
       const args = ['--print', '--model', 'github-copilot/claude-opus-4.6', contextPrompt];
-      const piPath = '/Users/fkimmel/.local/bin/pi';
+      const localBin = path.join(os.homedir(), '.local', 'bin');
+      const piPath = path.join(localBin, 'pi');
       const child = spawn(piPath, args, {
-        cwd: '/Users/fkimmel/Documents/workspace/training',
-        env: { ...process.env, NO_COLOR: '1', CI: '1', PATH: `${process.env.PATH}:/Users/fkimmel/.local/bin:/usr/local/bin` },
+        cwd: REPO_ROOT,
+        env: { ...process.env, NO_COLOR: '1', CI: '1', PATH: `${process.env.PATH}:${localBin}:/usr/local/bin` },
         stdio: ['pipe', 'pipe', 'pipe'],
         timeout: 180000,
       });

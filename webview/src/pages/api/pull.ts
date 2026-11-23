@@ -4,7 +4,7 @@ import { writeFileSync, unlinkSync, chmodSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
-const CWD = '/Users/fkimmel/Documents/workspace/training';
+import { REPO_ROOT as CWD } from '../../lib/repo';
 
 type GitResult = { code: number; stdout: string; stderr: string };
 

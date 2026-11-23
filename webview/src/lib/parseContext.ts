@@ -1,15 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-function findProjectRoot(): string {
-  let dir = import.meta.dirname;
-  while (dir !== path.dirname(dir)) {
-    if (fs.existsSync(path.join(dir, 'trainings')) && fs.existsSync(path.join(dir, 'STATUS.md'))) return dir;
-    dir = path.dirname(dir);
-  }
-  return path.resolve(process.cwd(), '..');
-}
-const ROOT = findProjectRoot();
+import { REPO_ROOT as ROOT } from './repo';
 
 function readFile(rel: string): string {
   try { return fs.readFileSync(path.join(ROOT, rel), 'utf-8'); } catch { return ''; }

@@ -1,22 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-// Find project root (parent of webview/) by walking up from current file
-function findProjectRoot(): string {
-  let dir = import.meta.dirname;
-  // Walk up until we find the webview dir, then go one more level up
-  while (dir !== path.dirname(dir)) {
-    if (path.basename(dir) === 'webview' || fs.existsSync(path.join(dir, 'trainings'))) {
-      if (fs.existsSync(path.join(dir, 'trainings'))) return dir;
-      return path.dirname(dir);
-    }
-    dir = path.dirname(dir);
-  }
-  // Fallback: relative to cwd
-  return path.resolve(process.cwd(), '..');
-}
+import { REPO_ROOT } from './repo';
 
-const PROJECT_ROOT = findProjectRoot();
+const PROJECT_ROOT = REPO_ROOT;
 const TRAININGS_DIR = path.join(PROJECT_ROOT, 'trainings');
 const FEEDBACK_DIR = path.join(PROJECT_ROOT, 'feedback');
 

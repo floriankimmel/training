@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
-import { spawn, execSync } from 'node:child_process';
+import { spawn } from 'node:child_process';
+import { REPO_ROOT as CWD, gitSyncState } from '../../lib/repo';
 import { writeFileSync, unlinkSync, chmodSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
@@ -14,13 +15,10 @@ export const POST: APIRoute = async ({ request }) => {
     });
   }
 
-  const CWD = '/Users/fkimmel/Documents/workspace/training';
-
   // Check if there's anything to push
   try {
-    const status = execSync('git status --porcelain', { cwd: CWD, encoding: 'utf-8' });
-    const ahead = execSync('git rev-list --count @{u}..HEAD 2>/dev/null || echo 0', { cwd: CWD, encoding: 'utf-8' }).trim();
-    if (ahead === '0' && !status.trim()) {
+    const { ahead, dirty } = gitSyncState();
+    if (ahead === 0 && !dirty) {
       return new Response(JSON.stringify({ success: true, message: 'Nothing to push' }), {
         headers: { 'Content-Type': 'application/json' },
       });

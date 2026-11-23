@@ -4,7 +4,7 @@ import { existsSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { homedir } from 'node:os';
 
-const CWD = '/Users/fkimmel/Documents/workspace/training';
+import { REPO_ROOT as CWD } from '../../lib/repo';
 const PY = join(CWD, 'db/.venv/bin/python');
 const HEALTHFIT = join(
   homedir(),

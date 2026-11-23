@@ -2,19 +2,7 @@ import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 
-// Reuse project-root detection logic (parent of webview/ holding trainings/)
-function findProjectRoot(): string {
-  let dir = import.meta.dirname;
-  while (dir !== path.dirname(dir)) {
-    if (fs.existsSync(path.join(dir, 'trainings')) && fs.existsSync(path.join(dir, 'db'))) {
-      return dir;
-    }
-    dir = path.dirname(dir);
-  }
-  return path.resolve(process.cwd(), '..');
-}
-
-const PROJECT_ROOT = findProjectRoot();
+import { REPO_ROOT as PROJECT_ROOT } from './repo';
 const DB_PATH = path.join(PROJECT_ROOT, 'db', 'training.duckdb');
 const TZ = 'Europe/Vienna';
 
