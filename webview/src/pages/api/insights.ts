@@ -1,8 +1,8 @@
 import type { APIRoute } from 'astro';
-import { getInsights } from '../../lib/db';
+import { coreInsights } from '../../lib/core';
 
 export const GET: APIRoute = () => {
-  return new Response(JSON.stringify(getInsights(8)), {
+  return new Response(JSON.stringify(coreInsights(8)), {
     headers: { 'content-type': 'application/json' },
   });
 };

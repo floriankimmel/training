@@ -33,26 +33,63 @@ export interface Plan {
   problems: string[];
 }
 
+export interface Zone { name: string; label: string; lo: number; hi: number; }
+
+// Schwelle trend card (training/benchmarks.py)
+export interface FitnessTrend {
+  label: string;
+  rows: { period: string; value: string; month: string | null }[];
+  note: string;
+  staleMonths: number;
+}
+
 export interface PageData {
   weeks: { year: number; week: number }[];
   current: { year: number; week: number } | null;
   plan: Plan | null;
+  trend: FitnessTrend | null;
+  zones: Zone[];
 }
 
-const EMPTY: PageData = { weeks: [], current: null, plan: null };
+// Insights modal (training/insights.py)
+export interface MonthPoint { month: string; value: number | null; n?: number; }
+export interface LoadPoint { week: number; year: number; km: number; vert: number; }
+export interface Insights {
+  efficiency: MonthPoint[];   // Aerobe Effizienz: Pace in Zone Z2 as km/h per month
+  ef: MonthPoint[];
+  rhr: MonthPoint[];
+  hrv: MonthPoint[];
+  load: LoadPoint[];
+  verdict: { level: 'up' | 'flat' | 'down'; effDeltaPct: number | null; text: string };
+}
 
-export function corePage(year?: number, week?: number): PageData {
-  const args = ['-m', 'training', 'page', '--json'];
-  if (year && week) args.push('--year', String(year), '--week', String(week));
+const EMPTY: PageData = { weeks: [], current: null, plan: null, trend: null, zones: [] };
+
+function runCore<T>(args: string[], fallback: T): T {
   try {
-    const out = execFileSync(repoPath('db', '.venv', 'bin', 'python'), args, {
+    const out = execFileSync(repoPath('db', '.venv', 'bin', 'python'), ['-m', 'training', ...args], {
       cwd: REPO_ROOT,
       encoding: 'utf-8',
       maxBuffer: 16 * 1024 * 1024,
     });
-    return JSON.parse(out) as PageData;
+    return JSON.parse(out) as T;
   } catch (err) {
-    console.error('[core] python -m training page failed:', (err as Error).message);
-    return EMPTY;
+    console.error(`[core] python -m training ${args[0]} failed:`, (err as Error).message);
+    return fallback;
   }
+}
+
+export function corePage(year?: number, week?: number): PageData {
+  const args = ['page', '--json'];
+  if (year && week) args.push('--year', String(year), '--week', String(week));
+  return runCore(args, EMPTY);
+}
+
+export function coreInsights(months = 8): Insights | null {
+  return runCore(['insights', '--json', '--months', String(months)], null);
+}
+
+let zonesCache: Zone[] | null = null;
+export function coreZones(): Zone[] {
+  return (zonesCache ??= runCore<Zone[]>(['zones'], []));
 }

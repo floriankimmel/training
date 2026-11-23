@@ -1,7 +1,12 @@
 """CLI entry: `python -m training <command> [args]`. Commands are added per module."""
 import sys
 
-COMMANDS: dict[str, str] = {"lint": "training.lint", "page": "training.page"}
+COMMANDS: dict[str, str] = {
+    "insights": "training.insights",
+    "lint": "training.lint",
+    "page": "training.page",
+    "zones": "training.zones",
+}
 
 
 def main(argv: list[str]) -> int:

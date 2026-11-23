@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import type { Insights, MonthPoint, LoadPoint } from '../lib/db';
+import type { Insights, MonthPoint, LoadPoint } from '../lib/core';
 
 function monthLabel(m: string): string {
   const [, mm] = m.split('-');
@@ -128,7 +128,7 @@ export default function InsightsModal({ onClose }: { onClose: () => void }) {
               )}
 
               {/* Aerobic efficiency */}
-              <Section title="Aerobe Effizienz — Pace bei HF 140–150" hint="nur flache Läufe (<20 hm/km), Trails ausgeschlossen. Schneller = fitter.">
+              <Section title="Aerobe Effizienz — Pace in Zone Z2" hint="nur flache Läufe (<15 hm/km), ≥5 min in Z2 pro Lauf. Schneller = fitter.">
                 <MonthBars data={data.efficiency} decimals={2} higherBetter invert fmt={kmhToPace} />
                 {effFL && (
                   <p className="text-xs text-slate-400 mt-2">

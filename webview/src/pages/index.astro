@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import { weekDataFromPlan, parseFeedbackFile, getWeekDates } from '../lib/parseTraining';
 import { corePage } from '../lib/core';
 import { getWeekActivities, getWeekMetrics, getMetricBaseline, getWeekTotals, getTrend, dbAvailable } from '../lib/db';
-import { getRace, getPhase, getActiveInjuries, getFitnessTrend, getBuildProgression } from '../lib/parseContext';
+import { getRace, getPhase, getActiveInjuries, getBuildProgression } from '../lib/parseContext';
 import WeekGrid from '../components/WeekGrid';
 import SeasonBar from '../components/SeasonBar';
 import ChatModal from '../components/ChatModal';
@@ -32,7 +32,7 @@ const trend = hasDb ? getTrend(dates.end, 8) : [];
 const race = getRace();
 const phase = getPhase(currentWeek.week);
 const injuries = getActiveInjuries();
-const fitnessTrend = getFitnessTrend();
+const fitnessTrend = page.trend;
 const progression = getBuildProgression();
 
 // Find prev/next week

@@ -13,7 +13,7 @@ import subprocess
 from datetime import date, timedelta
 from pathlib import Path
 
-from . import plan
+from . import benchmarks, pace, plan
 from .repo import ROOT
 
 REMINDER_LIST = "🏅 Trainingsplan"
@@ -262,6 +262,21 @@ def main(argv: list[str], root: Path = ROOT) -> int:
             check_strength_pointer(week, _read(root / "strength-plan.md"),
                                    _read(root / "plans" / "strength-program-mark-lauren.md")),
             "strength pointer, latest plan and digitized program agree")
+    db = root / "db" / "training.duckdb"
+    print("SECTION:threshold trend (benchmarks.md) vs. DuckDB")
+    try:
+        import duckdb
+        con = duckdb.connect(str(db), read_only=True)
+        trend = benchmarks.load_trend(root)
+        since = date.fromisoformat(trend.rows[-1]["month"] + "-01") if trend and trend.rows[-1]["month"] else None
+        hits = benchmarks.check_trend(trend, pace.pace_in_zone(con, benchmarks.ZONE, since=since))
+        for h in hits:
+            print(f"WARN:{h}")
+        if not hits:
+            print("OK:threshold trend table up to date with DB")
+    except Exception as e:  # noqa: BLE001 — missing/locked DB means skip, not fail
+        print(f"WARN:trend check skipped — {type(e).__name__}: {e}")
+
     reminders, why = fetch_reminders()
     if reminders is None:
         print("SECTION:Apple Reminders vs. latest week plan")

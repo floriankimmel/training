@@ -8,22 +8,17 @@ Sections:
   2. Readiness    — HRV z-score / RHR delta / sleep debt -> GREEN | AMBER | RED gate
   3. Outcome      — run pace at fixed HR on flat runs (fitness signal, terrain-robust)
 
-TRIMP assumes 1 Hz records (HealthFit). hrMax = zones.md; resting HR = 30d median from daily_metrics.
+TRIMP assumes 1 Hz records (HealthFit). hrMax + zones from zones.md (training.zones);\noutcome uses training.pace (GLOSSARY: Pace in Zone). resting HR = 30d median from daily_metrics.
 """
 import argparse
-import re
 from datetime import date, timedelta
-from pathlib import Path
 
 import duckdb
 
-ROOT = Path(__file__).resolve().parents[1]
+from training import pace, zones
+from training.repo import ROOT
+
 DB = ROOT / "db" / "training.duckdb"
-
-
-def hr_max() -> float:
-    m = re.search(r"\*\*hrMax\*\*:\s*(\d+)", (ROOT / "zones.md").read_text())
-    return float(m.group(1)) if m else 180.0
 
 
 def main() -> None:
@@ -33,7 +28,7 @@ def main() -> None:
     a = ap.parse_args()
     asof = date.fromisoformat(a.asof)
     con = duckdb.connect(str(DB), read_only=True)
-    hmax = hr_max()
+    hmax = float(zones.hr_max())
 
     rest = con.execute(
         "SELECT median(resting_hr) FROM daily_metrics WHERE day BETWEEN ? AND ? AND resting_hr IS NOT NULL",
@@ -125,25 +120,15 @@ def main() -> None:
             print(f"⚠ metrics stale ({(asof - day).days}d old) — run db/import_metrics.py")
 
     # ---- 3. outcome -----------------------------------------------------
-    print("\n== 3. Outcome: run pace @ HR 140–150, flat runs (<15 hm/km), 4-wk blocks ==")
-    out = con.execute(
-        f"""
-        SELECT floor(datediff('day', a.start_time::date, DATE '{asof}') / 28) blk,
-               count(*) secs, round(1000.0 / 60.0 / median(r.speed), 2) pace
-        FROM records r JOIN activities a ON a.id = r.activity_id
-        WHERE a.sport = 'running' AND r.hr BETWEEN 140 AND 150 AND r.speed BETWEEN 1.5 AND 5
-          AND coalesce(a.total_ascent, 0) / (a.distance_m / 1000.0) < 15
-          AND a.start_time::date > DATE '{asof - timedelta(days=28 * 6)}'
-        GROUP BY 1 HAVING count(*) > 300 ORDER BY 1 DESC
-        """
-    ).fetchall()
+    lo, hi = zones.band("Z2")
+    print(f"\n== 3. Outcome: Aerobe Effizienz = Pace in Zone Z2 ({lo}–{hi}), flat runs, 4-wk blocks ==")
+    out = pace.pace_in_zone(con, "Z2", bucket="block28", asof=asof,
+                            since=asof - timedelta(days=28 * 6), min_secs=300)
     if not out:
         print("no qualifying flat run data in last 6 blocks")
-    for blk, secs, pace in out:
-        e = asof - timedelta(days=int(blk) * 28)
-        print(f"  {e - timedelta(days=27)} → {e}: {int(pace)}:{round((pace % 1) * 60):02d} /km  ({secs} s)")
+    for p in reversed(out):
+        print(f"  {p.period.replace('..', ' → ')}: {pace.fmt(p.pace)} /km  ({p.secs} s, {p.runs} runs)")
     print("Faster pace at same HR = fitness up; slower = fatigue/detraining/illness. Compare blocks, not single runs.")
-
 
 if __name__ == "__main__":
     main()
