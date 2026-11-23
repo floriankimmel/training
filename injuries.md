@@ -26,6 +26,7 @@
 - **🔴 Arzt-Abklärung des Musters** (2 Brüche in 2 Monaten → Vit D, Ferritin, ggf. DXA): seit 6 Wochen offen, Termin-Reminder am 02.11. abgehakt, **Befund nie geliefert**. Bleibt das wichtigste unerledigte Item dieses Comebacks.
 
 ## 2026 — Erkältung (Cold, W37)
+- **2026-11-22 (leicht, neu)**: Leichte Erkältung beim So-55er gemeldet — kein Einfluss auf HF/Leistung (Ø 127, A−). Beobachten: bei Verschlechterung Richtung Hals/Brust W48-Intensität (Mi Bergsprints) tauschen.
 
 - **Cause**: illness (common cold) — not training-related.
 - **Onset**: ~2026-09-08 (W37, Tue). Felt awful, cold symptoms.

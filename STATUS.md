@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated: 2026-11-23 (Mo W48: Tempo 3×8 Z2 gelaufen, B+ — Volumen ✅, Blockeinstiege zu heiß, Z3 5,8 %)**
+**Last updated: 2026-11-23 (So-55er W47 nachanalysiert: A−, W47 4/4 ✅ · Mo W48 Tempo B+)**
 
 ## Current Target
 
@@ -16,7 +16,7 @@
   flach/weich-Regel endet mit W47.
 - **Diese Woche (W48, 23.–29.11.)** (`trainings/week-48-2026.md`): Läufe **Mo 48 (3×8min Z2 143–152) · Di 25 Z1 ·
   Mi 45 (6×20s Bergsprints, bergab gehen) · Do 25 Z1 · So 65 Z1 = 208min** (+19 % vs. W47 ≈175). Fr Ruhetag, Sa lauffrei.
-  Kein Rad. Ziel ~290 TRIMP. Falls So-55er (22.11.) ausfällt → So 29.11 nur 55min.
+  Kein Rad. Ziel ~290 TRIMP. So-55er (22.11.) ✅ gelaufen (55,1min, A−) → So 29.11 wie geplant 65min.
 - **Readiness 22.11. (Metriken bis 20.11.)**: **GREEN** — HRV 3d 40 (Basis 42, z=−0,2), RHF 7d 55 (Basis 60), Schlaf 400 vs. 409.
 - **Outcome**: Pace @ HF 140–150 flach **6:50/km** (Block seit 26.10.) vs. 7:21 Mitte Okt.
 - **Kraft**: First Class **W6** (Powerblock, 2. Durchgang): Tag 1 Mo · Tag 4 Di · Tag 3 Do · Tag 2 Sa. W49 → W7 Wechselblock.

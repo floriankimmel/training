@@ -159,3 +159,48 @@ Inhaltlich die sauberste Einheit der Woche: Strides exakt im Band, Pausen echt, 
 - Zeh: kein Signal; Brückenübergang evtl. „leicht verzogen" — beobachten vor So-55er
 - Session-Grade: A−
 - DB-Import: pending (nächster import_fit.py-Lauf am Mac via HealthFit)
+
+## 2026-11-22 - Langer Lauf flach Z1 - Sonntag Analyse
+
+**Geplant**: Langer Lauf flach Z1 — 55min, Deckel 142, Pace ≥6:40/km, längster Lauf seit dem Bruch. ⌚ Brustgurt!
+**Tatsächliche Ausführung**: 55,1min · 8,04km · 21:25–22:22 Uhr · 2,1 °C · 594 kcal
+**Persönliches Empfinden**: Später gestartet (Feier ging sich vorher nicht aus), leichte Erkältung hat nichts ausgemacht, gleichmäßig gelaufen, insgesamt zufrieden — „kann man voll abhaken".
+
+### 🎯 **Herzfrequenz-Analyse**
+Ø **127 bpm** · max 154 · min 82. Zonen: 31,1 % AktErh / **66,3 % Z1** / 0,3 % Z2 / 2,3 % Z3. Der Deckel 142 wurde fast perfekt gehalten — einzige Ausnahme: eine kurze Spitze 152–154 um 22:03 (vermutlich kurzer Anstieg/Brücke), danach sofort wieder runter. 97,4 % der Zeit in oder unter Z1 bei einem 55er = genau die bestellte Geduldsübung. Drittel: 124 / 129 / 129 — kein Drift, ruhiger Motor bis zum Schluss. Cooldown-Phase Ø 122. ⚠️ Nur **304 HF-Samples** in 55min (~1 alle 11s statt sekündlich) — das riecht nach **Watch-Wrist statt Verity Sense/Gurt**. Plan sagte ausdrücklich Brustgurt.
+
+### ⏱️ **Pace-Analyse (min/km)**
+Ø **6:51/km** (8,04 km / 55,1 min Moving) — Vorgabe ≥6:40 eingehalten, bewusst langsam wie bestellt. Speed-Samples (20) zu dünn für Splits, aber Ø-Speed 2,6 m/s ≈ 6:25 in den gemessenen Abschnitten + konstante HF = gleichmäßiges Tempo, deckt sich mit dem Empfinden.
+
+### 🏆 **Was war hervorragend**
+- **Längster Lauf seit dem Bruch sauber abgeliefert**: exakt 55min (55,1 vs. 55 geplant — Punktlandung, nach den +3,8min vom Donnerstag direkt korrigiert ✅).
+- **Z1-Disziplin top**: Ø 127 bei Deckel 142, kein HF-Drift über 55min bei 2 °C.
+- **Trotz Erkältungsanflug und Feier-Tag durchgezogen** — und die HF-Daten geben dem Empfinden recht: kein erhöhter Puls, Infekt hat die Einheit nicht belastet. W47 damit **4/4 Läufe**, Gate für W48 erfüllt.
+
+### ⚠️ **Verbesserungsbereiche**
+- **21:25 Start** — schon beim 42,5er (W46) bemängelt: Schlüsseleinheiten gehören nicht in die Nacht. Schlaf vor der W48-Tempowoche ist Trainingszeit. (Mildernder Umstand: Feier war im Plan vermerkt.)
+- **Brustgurt vergessen** (nur ~304 Watch-Samples). Beim 55er ging's gut, aber ab W48 (Z2-Blöcke, Bergsprints) ist saubere HF Pflicht — Plan-Ansage ⌚ ernst nehmen.
+- Erkältung: heute ok, aber bei Halskratzen + Nachtlauf bei 2 °C auf Symptome achten — unterhalb vom Hals laufen ok, sonst Pause.
+
+### 📈 **Progression vs. Previous Sessions**
+Comeback-Serie: 30/A− · 30/A · 36/A− · 42,5/A · 35/B · 46 Tempo/B+ · 38,8 Strides/A− · **55 LR**. Längster Lauf der Serie, +12,5min vs. 42,5er bei identisch ruhiger HF (Ø 127 vs. ~130) → aerobe Basis wächst. Zeh: **resolved** — 8. Einheit ohne Signal, Comeback-Protokoll abgeschlossen.
+
+### 🎯 **Bewertung: A−**
+Inhaltlich ein A-Lauf: Dauer exakt, Z1 fast makellos, kein Drift, Zeh still. Abzug für Spätstart (wiederholtes Muster) und fehlenden Brustgurt trotz ausdrücklicher Plan-Ansage.
+
+### 💡 **Empfehlungen für nächstes Mal**
+1. **Brustgurt/Verity als Pre-Run-Check** — ohne sauberes HF-Signal ist die Z2-Blocksteuerung in W48 Blindflug.
+2. Lange Läufe vor 20 Uhr — W48-So-65er bitte bei Tageslicht.
+3. Erkältung beobachten: verschlechtert sich was Richtung Hals/Brust, Mi-Bergsprints tauschen statt durchziehen.
+
+### Detailed Metrics
+- Datum/Typ: 2026-11-22 · Langer Lauf flach Z1 55min (W47 So)
+- Dauer/Distanz: 55,1min · 8,04km · Vert: Höhenfeld n/a, flights-climbed 0 → flach ✅
+- HF: Ø 127,4 · max 154 · min 82 · Zonen 31,1 % AktErh / 66,3 % Z1 / 0,3 % Z2 / 2,3 % Z3 / 0 % Z4
+- Drittel: 124 / 129 / 129 · kein Drift · einzelne Spitze 152–154 @ 22:03
+- Pace: Ø 6:51/km (Moving) · Temp 2,1 °C · 21:25–22:22 Uhr
+- kcal: 594 · Quelle: UTMB-App, nur 304 HF-Samples → vermutlich Wrist-HF, kein Gurt ⚠️
+- Abweichung: +0,1min (Punktlandung) · Spätstart 21:25
+- Zeh: resolved · Erkältung leicht, ohne Einfluss
+- Session-Grade: A−
+- DB-Import: pending (nächster import_fit.py-Lauf am Mac via HealthFit)
