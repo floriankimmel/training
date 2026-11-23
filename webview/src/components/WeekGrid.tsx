@@ -44,6 +44,7 @@ function sessionIcon(title: string, type: string): string {
   const t = title.toLowerCase();
   if (type === 'rest') return '🛌';
   if (type === 'strength') return '🏋️';
+  if (t.includes('footwork') || t.includes('fuß')) return '🦶';
   if (t.includes('hill') || t.includes('berg')) return '⛰️';
   if (t.includes('intervall') || t.includes('interval')) return '⚡';
   if (t.includes('long') || t.includes('lang')) return '🏃‍♂️';
@@ -258,6 +259,14 @@ export default function WeekGrid({ weekData, feedbackData, activities, metrics, 
               ) : (
                 <div className="text-xs text-slate-600 mb-1">—</div>
               )}
+              {c.session?.extras?.map((x, xi) => (
+                <div key={xi} className="flex items-start gap-1 mb-1">
+                  <span className="text-xs leading-none">{sessionIcon(x.title, x.type)}</span>
+                  <span className="text-[11px] text-slate-400 leading-tight line-clamp-1">
+                    {x.title.replace(/^Abends:\s*/, '')}{x.duration ? ` · ${x.duration}` : ''}
+                  </span>
+                </div>
+              ))}
 
               {/* Actual metrics from DB (past) */}
               {hasActual ? (

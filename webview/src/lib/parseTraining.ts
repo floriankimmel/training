@@ -27,6 +27,7 @@ export interface Session {
   duration: string; // "50min"
   type: 'run' | 'rest' | 'strength';
   rawContent: string;
+  extras?: { title: string; duration: string; type: 'run' | 'rest' | 'strength' }[]; // further ### sessions same day
 }
 
 export interface WeekData {
@@ -164,6 +165,16 @@ export function parseWeekFile(weekNum: number, year: number): WeekData | null {
     
     const isRest = /\brest\b|\bruhetag\b/i.test(sessionTitle);
     const isStrength = /kraft|strength|mark lauren|🏋️/i.test(sessionTitle);
+    // Further "### Title — Duration" headers in the same day = extra sessions (2-a-day)
+    const extras = h3Match
+      ? [...body.matchAll(/^### (.+?)(?:\s*—\s*([^—\n]+?))?\s*$/gm)].slice(1).map(m => {
+          const head = m[1].trim();
+          const dur = (m[2] || '').replace(/[^\w\s×.:]/gu, '').trim();
+          const t = /kraft|strength|🏋️|💪/i.test(head + m[0]) ? 'strength' as const
+            : /\brest\b|\bruhetag\b/i.test(head) ? 'rest' as const : 'run' as const;
+          return { title: head, duration: dur, type: t };
+        })
+      : [];
     sessions.push({
       day: dayMap[day] || day,
       date,
@@ -171,6 +182,7 @@ export function parseWeekFile(weekNum: number, year: number): WeekData | null {
       duration: duration || (isRest ? '-' : ''),
       type: isRest ? 'rest' : isStrength ? 'strength' : 'run',
       rawContent: rawContent.trim(),
+      extras,
     });
   }
   
