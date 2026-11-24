@@ -7,6 +7,7 @@ COMMANDS: dict[str, str] = {
     "page": "training.page",
     "readiness": "training.readiness",
     "report": "training.report",
+    "verify": "training.verify",
     "zones": "training.zones",
 }
 

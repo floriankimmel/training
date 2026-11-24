@@ -36,6 +36,9 @@ fi
 
 "$PY" "$ROOT/db/import_metrics.py" >/dev/null 2>&1 && log "import_metrics ok"
 
+# Abgehakt ≠ trainiert: ticked-off reminders without a recorded activity (training/verify.py)
+"$PY" -m training verify --days 7 2>&1 | while IFS= read -r l; do log "verify $l"; done
+
 today=$(date +%F)
 if [ "$(cat "$STAMP" 2>/dev/null)" != "$today" ]; then
   if "$ROOT/db/backup.sh" >/dev/null 2>&1; then echo "$today" > "$STAMP"; log "backup ok"; else log "backup FAILED"; fi
