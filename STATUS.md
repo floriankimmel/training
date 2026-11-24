@@ -24,7 +24,7 @@
   Rad Di **ohne `.fit`** · Kraft Tag 1/4/3 ✅, Tag 2 Sa→So.
 - **Next**: (1) W49-Gate siehe Wochendoc (erster Z3-Reiz oder Hügel-Repeats, LR 75min, erstes Bergab),
   (2) **Feldtest W50** (30min-TT → LTHR + hrMax, Protokoll `zones.md`), (3) Zielrennen 2027 festlegen.
-- **Planung**: ab W49 **Montag früh** (Reminder „👟 Training Planen" Mo 07:00), nicht mehr So-Abend.
+- **Planung**: ab W49 **Montag früh** (Reminder „👟 Training Planen" Mo 10:30), nicht mehr So-Abend.
 
 ## Open Watch-Items
 

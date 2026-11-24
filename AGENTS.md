@@ -18,7 +18,7 @@
 - **Data source**: HealthFit `.fit` only (offline). No Tredict / Strava / Runalyze / MCP. DB sync: `scripts/auto-import.sh`, daily via Paperclip (see `scripts/PAPERCLIP-SYNC.md`).
 - **Load/readiness/outcome**: `db/.venv/bin/python -m training report` (TRIMP, ACWR, Readiness gate, Aerobe Effizienz = Pace in Zone Z1, Körpergewicht-Trend) — coach runs it before planning.
 - **Abgehakt ≠ trainiert**: `db/.venv/bin/python -m training verify [--days N]` — ticked-off run/bike/Kraft reminders without a recorded activity. Runs daily in `scripts/auto-import.sh`; coach + feedback treat a GAP as not trained.
-- **Planning time**: coach plans **Monday morning** (reminder „👟 Training Planen" Mo 07:00), never Sunday evening — Sunday runs often land after 21:00 and the `.fit` import lags.
+- **Planning time**: coach plans **Monday morning** (Paperclip „Weekly Training Plan (Mon 10:30)" + reminder „👟 Training Planen" Mo 10:30), never Sunday evening — Sunday runs often land after 21:00 and the `.fit` import lags.
 - **Objective analysis**: query `db/training.duckdb` (DuckDB) for real pace/HF/vert trends instead of guessing. Terrain-robust metric = **Pace in Zone** (`training/pace.py`, zones from `zones.md` via `training/zones.py`; see GLOSSARY.md).
 
 ## Maintenance Contract (keep living docs fresh)
