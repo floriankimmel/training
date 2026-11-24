@@ -98,8 +98,12 @@ CREATE TABLE IF NOT EXISTS daily_metrics (
   -- resting HR
   resting_hr      INTEGER,               -- bpm
   source_file     VARCHAR,
-  imported_at     TIMESTAMPTZ
+  imported_at     TIMESTAMPTZ,
+  -- body (HealthKit body mass, morning value of the day)
+  body_mass_kg    DOUBLE
 );
+-- added 2026-11: existing databases get the column without a rebuild
+ALTER TABLE daily_metrics ADD COLUMN IF NOT EXISTS body_mass_kg DOUBLE;
 
 -- Frozen daily Readiness (training/readiness.py, ADR 0002): GREEN/AMBER/RED from
 -- Recovery-Flags, judged per past day with data up to that day. Re-judged only when

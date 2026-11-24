@@ -96,6 +96,16 @@ def main(argv: list[str]) -> int:
               f"sleep 7d {r(g.sleep_7d)} vs 30d {r(g.sleep_30d)}")
         print(f"VERDICT: {g.verdict}" + (f" — {'; '.join(g.reasons)}" if g.reasons else "")
               + "   (AMBER: no new hard session, cap at aerobic · RED: easy/rest, no quality)")
+        kg = con.execute("""
+            SELECT avg(body_mass_kg) FILTER (WHERE day > ?::DATE - 7),
+                   avg(body_mass_kg) FILTER (WHERE day > ?::DATE - 28 AND day <= ?::DATE - 7),
+                   count(body_mass_kg) FILTER (WHERE day > ?::DATE - 7)
+            FROM daily_metrics WHERE day <= ?""", [day, day, day, day, day]).fetchone()
+        if kg[0] is not None:
+            prev = "n/a" if kg[1] is None else f"{kg[1]:.1f}"
+            print(f"weight 7d {kg[0]:.1f} kg ({kg[2]} days) vs prev 3 wk {prev} kg"
+                  + (" ⚠ dropping >1 kg — check energy availability (fueling.md)"
+                     if kg[1] is not None and kg[0] - kg[1] <= -1.0 else ""))
         if (asof - day).days > 2:
             print(f"⚠ metrics stale ({(asof - day).days}d old) — run db/import_metrics.py")
 

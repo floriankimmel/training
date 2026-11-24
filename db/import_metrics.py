@@ -3,7 +3,7 @@
 
 Source: metrics/metrics-WW-YYYY.md files (generated daily ~10:00 from Apple
 HealthKit). Each day is a `### YYYY-MM-DD (Weekday)` block with Schlaf / HRV /
-Ruhe-HF tables. This parser is idempotent: it upserts one row per calendar day
+Ruhe-HF / Körper (Gewicht) tables. This parser is idempotent: it upserts one row per calendar day
 into the `daily_metrics` table (re-running always refreshes existing days).
 
 Usage:
@@ -77,6 +77,7 @@ def parse_day_block(day, weekday, rows, source_file):
         "hrv_max": num(rows.get("Max")),
         "hrv_samples": int(num(rows["Samples"])) if rows.get("Samples") else None,
         "resting_hr": int(num(rows["Resting HR"])) if rows.get("Resting HR") else None,
+        "body_mass_kg": num(rows.get("Gewicht")),
         "source_file": source_file,
         "imported_at": datetime.now(timezone.utc),
     }
@@ -155,7 +156,7 @@ def main():
                 n += 1
                 print(f"[day] {rec['day']} {rec['weekday']}  "
                       f"sleep={rec['sleep_min']}min hrv_night={rec['hrv_night_avg']} "
-                      f"rhr={rec['resting_hr']}")
+                      f"rhr={rec['resting_hr']} kg={rec['body_mass_kg']}")
     new, rejudged = freeze(con)
     con.close()
     print(f"\nSummary: {n} day(s) upserted, readiness: {new} frozen, {rejudged} re-judged")
