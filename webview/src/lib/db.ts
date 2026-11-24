@@ -139,6 +139,20 @@ export function getWeekActivities(start: string, end: string): DayActivity[] {
   }));
 }
 
+// Kraft sessions per local day. HealthFit imports Apple Watch "Core-Training" as sport=generic;
+// older Garmin ones are training/strength_training. Yoga/Pilates excluded.
+export interface DayStrength { date: string; n: number; min: number; }
+export function getWeekStrength(start: string, end: string): DayStrength[] {
+  return query<DayStrength>(`
+    SELECT (start_time AT TIME ZONE '${TZ}')::date::varchar AS date, count(*) AS n, round(sum(timer_s)/60) AS min
+    FROM activities
+    WHERE (sport = 'generic' OR (sport = 'training' AND sub_sport = 'strength_training'))
+      AND coalesce(sub_sport, 'generic') IN ('generic', 'strength_training')
+      AND timer_s >= 300
+      AND (start_time AT TIME ZONE '${TZ}')::date BETWEEN DATE '${start}' AND DATE '${end}'
+    GROUP BY 1 ORDER BY 1`).map(r => ({ date: r.date, n: Number(r.n), min: Number(r.min) }));
+}
+
 // Daily recovery metric values for the week (Readiness itself comes from the Python core).
 export function getWeekMetrics(start: string, end: string): DayMetric[] {
   return query<DayMetric>(`

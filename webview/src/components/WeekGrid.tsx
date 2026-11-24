@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import type { WeekData, FeedbackData, Session, FeedbackSession } from '../lib/parseTraining';
-import type { DayActivity, DayMetric, WeekTotals, TrendPoint } from '../lib/db';
+import type { DayActivity, DayMetric, DayStrength, WeekTotals, TrendPoint } from '../lib/db';
 import type { Readiness } from '../lib/core';
 import FeedbackModal from './FeedbackPanel';
 
@@ -8,6 +8,7 @@ interface Props {
   weekData: WeekData;
   feedbackData: FeedbackData | null;
   activities: DayActivity[];
+  strength: DayStrength[];
   metrics: DayMetric[];
   readiness: Readiness[];
   totals: WeekTotals;
@@ -103,17 +104,19 @@ interface DayCell {
   weekday: string;
   session: Session | null;
   actual: DayActivity | null;
+  kraft: DayStrength | null;
   metric: DayMetric | null;
   readiness: Readiness | null;
   feedback: FeedbackSession | undefined;
 }
 
-export default function WeekGrid({ weekData, feedbackData, activities, metrics, readiness, totals, trend, weekDates, currentWeek }: Props) {
+export default function WeekGrid({ weekData, feedbackData, activities, strength, metrics, readiness, totals, trend, weekDates, currentWeek }: Props) {
   const [modalSession, setModalSession] = useState<{ session: Session; feedback: FeedbackSession | undefined } | null>(null);
   const [selected, setSelected] = useState(0);
   const today = todayISO();
 
   const actByDate = new Map(activities.map(a => [a.date, a]));
+  const kraftByDate = new Map(strength.map(k => [k.date, k]));
   const metByDate = new Map(metrics.map(m => [m.date, m]));
   const readyByDate = new Map(readiness.map(r => [r.day, r]));
 
@@ -127,6 +130,7 @@ export default function WeekGrid({ weekData, feedbackData, activities, metrics, 
       weekday: wd,
       session,
       actual: actByDate.get(date) ?? null,
+      kraft: kraftByDate.get(date) ?? null,
       metric: metByDate.get(date) ?? null,
       readiness: readyByDate.get(date) ?? null,
       feedback,
@@ -225,16 +229,17 @@ export default function WeekGrid({ weekData, feedbackData, activities, metrics, 
           const isToday = c.date === today;
           const isPast = c.date < today;
           const hasActual = !!c.actual;
+          const done = hasActual || !!c.kraft;
           const isRest = c.session?.type === 'rest';
-          const missed = isPast && c.session && !isRest && !hasActual && !c.feedback;
+          const missed = isPast && c.session && !isRest && !done && !c.feedback;
           const isSelected = i === selected;
 
           let borderCls = 'border-slate-700';
           if (isToday) borderCls = 'border-sky-500';
-          else if (hasActual) borderCls = 'border-emerald-600';
+          else if (done) borderCls = 'border-emerald-600';
           else if (missed) borderCls = 'border-red-600/70';
 
-          const clickable = !!c.session && (!isRest || c.feedback || hasActual);
+          const clickable = !!c.session && (!isRest || c.feedback || done);
 
           return (
             <div
@@ -242,7 +247,7 @@ export default function WeekGrid({ weekData, feedbackData, activities, metrics, 
               data-today={isToday ? 'true' : undefined}
               onClick={() => { setSelected(i); openCell(c); }}
               className={`border ${borderCls} rounded-lg p-2 min-h-[112px] flex flex-col
-                ${isToday ? 'bg-sky-950/30' : hasActual ? 'bg-emerald-950/20' : 'bg-slate-800/40'}
+                ${isToday ? 'bg-sky-950/30' : done ? 'bg-emerald-950/20' : 'bg-slate-800/40'}
                 ${clickable ? 'cursor-pointer hover:bg-slate-700/40' : ''}
                 ${isSelected ? 'ring-2 ring-emerald-400/70' : ''} transition-colors`}
             >
@@ -260,6 +265,7 @@ export default function WeekGrid({ weekData, feedbackData, activities, metrics, 
                 <div className="flex items-start gap-1 mb-1">
                   <span className="text-sm leading-none">{sessionIcon(c.session.title, c.session.type)}</span>
                   <span className="text-xs text-slate-300 leading-tight line-clamp-2">{c.session.title}</span>
+                  {c.kraft && c.session.type === 'strength' && <span className="text-xs text-emerald-400 ml-auto">✓</span>}
                 </div>
               ) : (
                 <div className="text-xs text-slate-600 mb-1">—</div>
@@ -270,11 +276,15 @@ export default function WeekGrid({ weekData, feedbackData, activities, metrics, 
                   <span className="text-[11px] text-slate-400 leading-tight line-clamp-1">
                     {x.title.replace(/^Abends:\s*/, '')}{x.duration ? ` · ${x.duration}` : ''}
                   </span>
+                  {c.kraft && x.type === 'strength' && <span className="text-[11px] text-emerald-400 ml-auto">✓</span>}
                 </div>
               ))}
 
               {/* Actual metrics from DB (past) */}
-              {hasActual ? (
+              {c.kraft && !hasActual && (
+                <div className="mt-auto text-[11px] font-mono text-emerald-400">🏋️ {c.kraft.min} min{c.kraft.n > 1 ? ` · ${c.kraft.n}×` : ''}</div>
+              )}
+              {c.kraft && !hasActual ? null : hasActual ? (
                 <div className="mt-auto text-[11px] font-mono text-slate-300 space-y-0.5">
                   <div className="flex justify-between">
                     <span className="text-emerald-400">{c.actual!.km} km</span>
