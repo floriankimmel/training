@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated: 2026-11-23 (So-55er W47 nachanalysiert: A−, W47 4/4 ✅ · Mo W48 Tempo B+)**
+**Last updated: 2026-11-24 (Zehen-Befund ok · Feldtest W50 · Outcome = Pace in Zone Z1 · verify-Check · Planung Mo früh)**
 
 ## Current Target
 
@@ -18,20 +18,21 @@
   Mi 45 (6×20s Bergsprints, bergab gehen) · Do 25 Z1 · So 65 Z1 = 208min** (+19 % vs. W47 ≈175). Fr Ruhetag, Sa lauffrei.
   Kein Rad. Ziel ~290 TRIMP. So-55er (22.11.) ✅ gelaufen (55,1min, A−) → So 29.11 wie geplant 65min.
 - **Readiness 22.11. (Metriken bis 20.11.)**: **GREEN** — HRV 3d 40 (Basis 42, z=−0,2), RHF 7d 55 (Basis 60), Schlaf 400 vs. 409.
-- **Outcome**: Pace @ HF 140–150 flach **6:50/km** (Block seit 26.10.) vs. 7:21 Mitte Okt.
+- **Outcome (Aerobe Effizienz = Pace in Zone Z1)**: **6:32/km** (Block bis 24.11., 10 Läufe) vs. 6:06–6:15 Jun–Sep vor Bruch #2.
 - **Kraft**: First Class **W6** (Powerblock, 2. Durchgang): Tag 1 Mo · Tag 4 Di · Tag 3 Do · Tag 2 Sa. W49 → W7 Wechselblock.
 - **W47 Ist**: Mo 35,4 Ø137 (Pace 6:11, B) · Mi 46 3×5 Z2 (5,9 % Z3, B+) · Do 38,8 Strides max166 (A−) · So 55 geplant ·
   Rad Di **ohne `.fit`** · Kraft Tag 1/4/3 ✅, Tag 2 Sa→So.
-- **Next**: (1) Arzt-Befund Vit D/Ferritin/DXA, (2) Feldtest Lauf wenn Aufbau steht (hrMax), (3) W49-Gate siehe Wochendoc
-  (erster Z3-Reiz oder Hügel-Repeats, LR 75min, erstes Bergab).
+- **Next**: (1) W49-Gate siehe Wochendoc (erster Z3-Reiz oder Hügel-Repeats, LR 75min, erstes Bergab),
+  (2) **Feldtest W50** (30min-TT → LTHR + hrMax, Protokoll `zones.md`), (3) Zielrennen 2027 festlegen.
+- **Planung**: ab W49 **Montag früh** (Reminder „👟 Training Planen" Mo 07:00), nicht mehr So-Abend.
 
 ## Open Watch-Items
 
-- **🔴 Easy zu schnell**: Mo W47 6:11 statt ≥6:40, 16 % >142. Mit 5 Läufen kritisch → Pace-Alarm 6:40 auf Recovery-Läufen.
-- **🔴 Abgehakt ≠ trainiert**: nur `.fit` zählt. W47 Rad Di ohne `.fit`.
+- **🔴 Easy zu schnell**: Mo W47 6:11 statt ≥6:40, 16 % >142. Ab 24.11. Recovery-`@workout`-Alert **hr:125-138** (Puffer unter Deckel 142).
+- **🔴 Abgehakt ≠ trainiert**: nur `.fit` zählt. Jetzt automatisch: `python -m training verify` (täglich im Sync). W47 Rad Di = GAP.
 - **DB-Import**: iCloud-`Resource deadlock` blockt `import_fit.py` aus Agent-Shell → Import via `!` im User-Kontext (22.11. gelöst, ok=4).
-- **⛔ Zehenbruch-Muster**: 2 Brüche in 2 Monaten, Befund Vit D/Ferritin/DXA seit 7 Wochen offen. Siehe `injuries.md`.
-- **Zonen/hrMax**: DB-Peaks 184–186 vs. hrMax 180 → bei Feldtest neu bestimmen (`zones.md`).
+- **Körpergewicht**: neu in Daily Metrics (`body_mass_kg`); Report warnt bei >1 kg Abfall (Energieverfügbarkeit).
+- **Zonen/hrMax**: DB-Peaks 184–186 vs. hrMax 180 → Feldtest W50 (`zones.md`).
 - **Vertical gap**: W48 erste Bergsprints, ab W49 Bergab + hm akkumulieren.
 
 ## Recent Progression

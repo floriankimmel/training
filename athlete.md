@@ -3,7 +3,7 @@
 > Single source for who the athlete is. HR zones live in `zones.md` (do not duplicate here).
 > Current training state lives in `STATUS.md`. Injuries in `injuries.md`. PRs in `benchmarks.md`.
 
-**Last updated**: 2026-10-25
+**Last updated**: 2026-11-24
 
 ## Basics
 
@@ -45,7 +45,8 @@
 - **Only data source**: HealthFit `.fit` → DuckDB (`db/`, auto-import), parsed offline via `parse_fit.py` (feedback skill).
 - **Schedule source of truth**: **Apple Reminders** list 🏅 Trainingsplan (tag `training`). Any change to a
   `trainings/week-*` plan must be mirrored to Apple Reminders in the same change (see `AGENTS.md` contract).
-- Wellness (HRV/RHR/sleep): daily HealthKit → `metrics/` → `daily_metrics` (DuckDB); Readiness gate in `training/readiness.py` (`python -m training report`).
+- Wellness (HRV/RHR/sleep/body weight): daily HealthKit → `metrics/` → `daily_metrics` (DuckDB); Readiness gate in `training/readiness.py` (`python -m training report`).
+- **Abgehakt ≠ trainiert** check: `python -m training verify` (daily in `scripts/auto-import.sh`) lists ticked-off reminders without a recorded activity.
 - Skills: `coach` (plan), `feedback` (analyze), `reschedule`, `race-prediction`, `findracepace`.
 
 ## Preferences / Rules
@@ -61,7 +62,7 @@
 - **Aggressive ramp-ups are OK.** As an experienced ultra runner he tolerates bigger week-to-week
   jumps than a novice — don't cap progression out of excess caution.
 - **Don't over-monitor healed issues.** A resolved injury does not need weeks of tiptoeing — one sanity
-  check, then move on. **Exception: toe** — 2 fractures in ~2 months → open pattern, see `injuries.md`.
+  check, then move on. Toe pattern (2 fractures) medically cleared 2026-11-24 → no exception anymore.
 - Still respect: real illness/fever (no training), acute pain, and taper logic. Judgment over rules.
 
 ---

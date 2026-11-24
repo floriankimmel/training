@@ -3,7 +3,7 @@
 > Consolidated history so patterns are visible in one place (was scattered across week narratives).
 > Newest first. Add every injury/illness that affects training here.
 
-**Last updated**: 2026-11-22
+**Last updated**: 2026-11-24
 
 ## 2026 — Toe fracture #2 (Zehenbruch, kleiner Zeh, W40)
 
@@ -23,7 +23,7 @@
 - **W47 (16.–22.11.)**: Comeback Woche 3, **A gilt** — **A** (Mo-Zeh stumm): 170min inkl. **Mi 3×5min Z2 (143–152) = erster Tempo-Reiz seit dem Bruch**. **B** (Zeh-Signal): 145min, **alles Z1, kein neuer Reiz**. Beides flach/weich, **kein Berg, kein Bergab** (Bergab-Push-off stresst den Zeh am meisten). Abbruchregel + Folgemorgen-Gate bleiben aktiv. Sprung-Übungen in Kraft Tag 2 nur bei komplett schmerzfreiem Zeh, sonst tiefe Kniebeuge.
 - **Status-Update 2026-11-16**: Mo-Lauf #7 (35min, <15h nach dem 42,5er) — **Zeh komplett stumm, auch Back-to-back**. Athlet: „kann man langsam sagen, dass das überwunden ist." 5 Läufe in 6 Tagen + Strides ohne jede Reaktion → **Status: resolving → als überwunden behandeln**, kein Dauer-Monitoring mehr (athlete.md: don't over-monitor healed issues). Nur bei neuem Signal melden. Flach/weich-Regel bleibt bis Ende W47 als letzte Vorsichtsstufe.
 - **Resolved 2026-11-22**: Athlet: „Zehe absolut kein Thema mehr“. W47: 8 belastende Einheiten (inkl. Z2-Block + Strides max166) ohne Signal → **Status: resolved**. Flach/weich-Regel endet mit W47. W48: erster Berg (6×20s Bergsprints bergauf, bergab gehen), Bergab-Druck erst W49.
-- **🔴 Arzt-Abklärung des Musters** (2 Brüche in 2 Monaten → Vit D, Ferritin, ggf. DXA): seit 6 Wochen offen, Termin-Reminder am 02.11. abgehakt, **Befund nie geliefert**. Bleibt das wichtigste unerledigte Item dieses Comebacks.
+- **✅ Arzt-Abklärung des Musters abgeschlossen (2026-11-24)**: Athlet meldet ärztliche Bestätigung — alles in Ordnung. Kein Befund-Gate mehr für Umfangssteigerung.
 
 ## 2026 — Erkältung (Cold, W37)
 - **2026-11-22 (leicht, neu)**: Leichte Erkältung beim So-55er gemeldet — kein Einfluss auf HF/Leistung (Ø 127, A−). Beobachten: bei Verschlechterung Richtung Hals/Brust W48-Intensität (Mi Bergsprints) tauschen.
@@ -73,11 +73,11 @@
 - **Zehenbruch 2× in ~2 Monaten (31.07. Hallenbad, 30.09.)**, beide *nicht* lauf-/lastbedingt. Zwei Frakturen
   bei Bagatell-Traumata in kurzer Folge = **Muster, nicht Zufall → ärztlich abklären lassen**: Vitamin D,
   Ferritin/Eisenstatus, ggf. Knochendichte (DXA), Energieverfügbarkeit/Fueling prüfen (Laufumfang + Defizit?).
-  Kein Befund vorhanden — **offene Aufgabe**, vor dem Lauf-Comeback klären (Reminder anlegen, sobald Termin steht).
+  **Abgeklärt 2026-11-24: ärztlich unauffällig.** Energieverfügbarkeit bleibt über Körpergewicht (`daily_metrics.body_mass_kg`, Report-Warnung bei >1 kg Abfall) im Blick.
 - Non-training-Ursachen: Pool/Schwimmen (Zeh Jul, Ohr Jun), Alltag (Zeh Sep). Kein bisheriges Lastmuster.
 - Comeback pattern that works: strict Z1 test run → 2–3 easy weeks → reintroduce intensity flat → then hills.
 - **Comeback-Fehler (2026-10-19, Rad)**: nach 3,5 Wochen Pause Mo direkt 19,5 min Z4 statt aerob → Deckel & Umfang-vor-Intensität gelten auch aufs Rad.
 - Foot/toe load is the sensitive area — prefer soft ground (forest/grass) over asphalt after foot issues.
-- Zeh gilt **nicht** mehr als „healed, keine Überwachung“, solange Befund offen ist.
+- Zeh: resolved + Muster ärztlich abgeklärt (2026-11-24) → normal behandeln, kein Dauer-Monitoring.
 
 *Living document. Log every new injury/illness with onset, affected weeks, return protocol, lesson.*
