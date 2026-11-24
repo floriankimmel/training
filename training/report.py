@@ -110,13 +110,15 @@ def main(argv: list[str]) -> int:
             print(f"⚠ metrics stale ({(asof - day).days}d old) — run db/import_metrics.py")
 
     # ---- 3. outcome -----------------------------------------------------
-    lo, hi = zones.band("Z2")
-    print(f"\n== 3. Outcome: Aerobe Effizienz = Pace in Zone Z2 ({lo}–{hi}), flat runs, 4-wk blocks ==")
-    out = pace.pace_in_zone(con, "Z2", bucket="block28", asof=asof,
+    z = pace.AEROBIC_ZONE
+    lo, hi = zones.band(z)
+    print(f"\n== 3. Outcome: Aerobe Effizienz = Pace in Zone {z} ({lo}–{hi}), flat runs, 4-wk blocks ==")
+    out = pace.pace_in_zone(con, z, bucket="block28", asof=asof,
                             since=asof - timedelta(days=28 * 6), min_secs=300)
     if not out:
         print("no qualifying flat run data in last 6 blocks")
     for p in reversed(out):
-        print(f"  {p.period.replace('..', ' → ')}: {pace.fmt(p.pace)} /km  ({p.secs} s, {p.runs} runs)")
+        print(f"  {p.period.replace('..', ' → ')}: {pace.fmt(p.pace)} /km  ({p.secs} s, {p.runs} runs)"
+              + ("  ⚠ <3 runs, noisy" if p.runs < 3 else ""))
     print("Faster pace at same HR = fitness up; slower = fatigue/detraining/illness. Compare blocks, not single runs.")
     return 0

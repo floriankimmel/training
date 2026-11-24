@@ -97,7 +97,7 @@ export interface PageData {
 export interface MonthPoint { month: string; value: number | null; n?: number; }
 export interface LoadPoint { week: number; year: number; km: number; vert: number; }
 export interface Insights {
-  efficiency: MonthPoint[];   // Aerobe Effizienz: Pace in Zone Z2 as km/h per month
+  efficiency: MonthPoint[];   // Aerobe Effizienz: Pace in Zone Z1 as km/h per month
   ef: MonthPoint[];
   rhr: MonthPoint[];
   hrv: MonthPoint[];

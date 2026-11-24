@@ -29,8 +29,8 @@ Median running pace on flat runs while heart rate is inside one named zone, coun
 _Avoid_: pace @ HF x–y (raw bpm bands)
 
 **Aerobe Effizienz**:
-Pace in Zone for Z2.
-_Avoid_: efficiency @140–150
+Pace in Zone for Z1. The one outcome metric for aerobic fitness in plans, STATUS and reports (`python -m training report`, section 3), compared per 28-day block. Z1 because easy runs reach it every week; Z2 has only 1–2 qualifying runs per block. Running easy runs near the Z1 cap flatters it, so judge it together with the share of time above the cap.
+_Avoid_: efficiency @140–150, Pace @ HF 140–150, Aerobe Effizienz for Z2
 
 **Efficiency Factor**:
 Speed per heartbeat on a single flat run, averaged over the runs of a month. A second, coarser fitness signal than Aerobe Effizienz: it judges a run by its average heart rate instead of by the time actually spent in a zone.

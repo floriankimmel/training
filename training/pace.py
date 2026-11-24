@@ -17,6 +17,7 @@ from . import zones
 FLAT_HM_PER_KM = 15
 MIN_SECS_PER_RUN = 300
 MIN_SPEED = 1.5          # m/s; below = walking/standing
+AEROBIC_ZONE = "Z1"      # Aerobe Effizienz (GLOSSARY.md): easy runs reach it every week, Z2 only 1–2×/block
 TZ = "Europe/Vienna"
 
 

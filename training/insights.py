@@ -1,6 +1,6 @@
 """Fitness insights for the webview Insights modal: `python -m training insights --json`.
 
-Aerobe Effizienz = Pace in Zone Z2 (GLOSSARY.md), shown as km/h per month; the verdict compares
+Aerobe Effizienz = Pace in Zone pace.AEROBIC_ZONE (Z1, GLOSSARY.md), shown as km/h per month; the verdict compares
 the last month with the mean of the earlier ones.
 """
 from __future__ import annotations
@@ -40,7 +40,7 @@ def insights(con: duckdb.DuckDBPyConnection, months: int = 8, today: date | None
     today = today or date.today()
     since = _months_back(today, months)
     eff = [{"month": f"{p.period}-01", "value": round(60 / p.pace, 2), "n": p.secs}
-           for p in pace.pace_in_zone(con, "Z2", since=since)]
+           for p in pace.pace_in_zone(con, pace.AEROBIC_ZONE, since=since)]
 
     z1_lo, _ = zones.band("Z1")
     _, z2_hi = zones.band("Z2")
