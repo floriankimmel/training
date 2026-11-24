@@ -35,6 +35,12 @@ _Tägliche Schlaf-, HRV- und Erholungsdaten aus Apple HealthKit_
 |--------|------|
 | Resting HR | 54 bpm |
 
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 81.8 kg (07:33) |
+
 ### 2026-08-11 (Dienstag)
 
 #### 🛏️ Schlaf
@@ -65,6 +71,12 @@ _Tägliche Schlaf-, HRV- und Erholungsdaten aus Apple HealthKit_
 | Metrik | Wert |
 |--------|------|
 | Resting HR | 56 bpm |
+
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 81.5 kg (07:04) |
 
 ### 2026-08-12 (Mittwoch)
 
@@ -97,6 +109,12 @@ _Tägliche Schlaf-, HRV- und Erholungsdaten aus Apple HealthKit_
 |--------|------|
 | Resting HR | 53 bpm |
 
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 80.6 kg (08:25) |
+
 ### 2026-08-13 (Donnerstag)
 
 #### 🛏️ Schlaf
@@ -127,6 +145,12 @@ _Tägliche Schlaf-, HRV- und Erholungsdaten aus Apple HealthKit_
 | Metrik | Wert |
 |--------|------|
 | Resting HR | 54 bpm |
+
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 80.6 kg (07:44) |
 
 ### 2026-08-14 (Freitag)
 
@@ -190,6 +214,12 @@ _Tägliche Schlaf-, HRV- und Erholungsdaten aus Apple HealthKit_
 |--------|------|
 | Resting HR | 52 bpm |
 
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 81.5 kg (07:12) |
+
 ### 2026-08-16 (Sonntag)
 
 #### 🛏️ Schlaf
@@ -220,3 +250,10 @@ _Tägliche Schlaf-, HRV- und Erholungsdaten aus Apple HealthKit_
 | Metrik | Wert |
 |--------|------|
 | Resting HR | 55 bpm |
+
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 81.1 kg (07:02) |
+

@@ -180,6 +180,12 @@ _Kein Resting-HR-Wert verfügbar._
 
 _Kein Resting-HR-Wert verfügbar._
 
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 83.1 kg (06:33) |
+
 ### 2026-11-07 (Samstag)
 
 #### 🛏️ Schlaf

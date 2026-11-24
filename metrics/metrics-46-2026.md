@@ -33,6 +33,12 @@ _Tägliche Schlaf-, HRV- und Erholungsdaten aus Apple HealthKit_
 
 _Kein Resting-HR-Wert verfügbar._
 
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 82.6 kg (06:27) |
+
 ### 2026-11-10 (Dienstag)
 
 #### 🛏️ Schlaf
@@ -61,6 +67,12 @@ _Kein Resting-HR-Wert verfügbar._
 #### ❤️ Ruhe-HF
 
 _Kein Resting-HR-Wert verfügbar._
+
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 83.0 kg (05:54) |
 
 ### 2026-11-11 (Mittwoch)
 
@@ -93,6 +105,12 @@ _Kein Resting-HR-Wert verfügbar._
 |--------|------|
 | Resting HR | 63 bpm |
 
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 82.5 kg (06:13) |
+
 ### 2026-11-12 (Donnerstag)
 
 #### 🛏️ Schlaf
@@ -124,6 +142,12 @@ _Kein Resting-HR-Wert verfügbar._
 |--------|------|
 | Resting HR | 59 bpm |
 
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 82.9 kg (05:41) |
+
 ### 2026-11-13 (Freitag)
 
 #### 🛏️ Schlaf
@@ -152,6 +176,12 @@ _Kein Resting-HR-Wert verfügbar._
 #### ❤️ Ruhe-HF
 
 _Kein Resting-HR-Wert verfügbar._
+
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 82.9 kg (06:07) |
 
 ### 2026-11-14 (Samstag)
 
@@ -184,6 +214,12 @@ _Kein Resting-HR-Wert verfügbar._
 |--------|------|
 | Resting HR | 57 bpm |
 
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 82.9 kg (07:32) |
+
 ### 2026-11-15 (Sonntag)
 
 #### 🛏️ Schlaf
@@ -214,3 +250,10 @@ _Kein Resting-HR-Wert verfügbar._
 | Metrik | Wert |
 |--------|------|
 | Resting HR | 55 bpm |
+
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 81.9 kg (07:08) |
+

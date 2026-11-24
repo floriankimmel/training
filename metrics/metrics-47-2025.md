@@ -97,6 +97,12 @@ _Tägliche Schlaf-, HRV- und Erholungsdaten aus Apple HealthKit_
 |--------|------|
 | Resting HR | 59 bpm |
 
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 82.0 kg (06:58) |
+
 ### 2025-11-20 (Donnerstag)
 
 #### 🛏️ Schlaf
