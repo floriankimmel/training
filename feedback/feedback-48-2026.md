@@ -54,3 +54,46 @@ Volumenziel voll erfüllt, aerob stark, subjektiv leicht — aber Deckel 152 zwe
 - Power Ø 214 W · Wetter 5 °C · HR-Quelle: Polar Verity Sense (BLE, sauberes Signal, kein Artefakt)
 - Blöcke: B1 Ø148/max158 · B2 Ø149/max157 · B3 Ø148/max153 · Pausen ~140→125
 - Feel 8/10 (User: „super gelaufen, Puls leicht niedrig zu halten") · Energy High · Legs Fresh · Effort Moderate
+
+
+## 2026-11-24 - Recovery Run Z1 - Tuesday Analyse
+
+**Geplant**: Recovery Run Z1 — 25min, strikt Z1 (125–142), Deckel 142, Pace ≥ 6:40/km, „nur durchbluten"
+**Tatsächliche Ausführung**: 20,8min, 3,22 km, Ø-Pace 6:28/km, HF Ø 133,6 / max 143, 17 hm, 3,4 °C
+**Persönliches Empfinden**: „Gut gelaufen, locker, ich glaub ich hab die Prüfung eingehalten, ich bin sehr zufrieden"
+
+### 🎯 **Herzfrequenz-Analyse**
+- Ø 133,6 bpm — satt in der Mitte von Z1, genau wo ein Recovery-Lauf hingehört.
+- Zonenverteilung: **89,5 % Z1, 8,7 % Aktive Erholung, nur 1,8 % > 142** (max 143 = 1 bpm über Deckel, vernachlässigbar). Gate-W49-Kriterium „<5 % >142" klar erfüllt.
+- Verlauf negativ: Drittel 136,0 → 135,0 → 129,9 — du wurdest Richtung Ende ruhiger statt schneller. Das ist gelebte Recovery-Disziplin.
+
+### ⏱️ **Pace-Analyse (min/km)**
+- Ø **6:28/km** (3,22 km / 20,8min), Samples 5:49–6:32. **Pace-Floor ≥ 6:40 erneut gerissen** — ganzer Lauf unter Floor, schnellste Abschnitte bei 5:49.
+- Aber: diesmal bei sauber niedriger HF. Pace @ ~134 bpm von 6:28 ist schlicht die Fitness-Verbesserung (Outcome-Trend 7:21 → 6:50 → jetzt schneller). Der Floor war als HF-Schutz gedacht — die HF war geschützt.
+
+### 🏆 **Was war hervorragend**
+- HF-Disziplin nahezu perfekt: 1,8 % über Deckel vs. 16 % am Mo W47. Das ist der Unterschied, den der Coach sehen wollte.
+- Negativer HF-Verlauf — kein Überdrehen am Ende, trotz „fühlte sich locker an".
+- Tag nach 24min Z2-Block: Beine verdauen die Last offensichtlich gut.
+
+### ⚠️ **Verbesserungsbereiche**
+- **20,8 statt 25min** — 4min fehlen ohne genannten Grund. Beim 208min-Wochenziel (+19 %) zählt jede Einheit „bis zur geplanten Minute". Das ist der eigentliche Abzug heute.
+- Pace-Floor formal gerissen (6:28 < 6:40). Bei dieser HF-Lage tolerierbar, aber der Pace-Alarm war Ansage („6:40, Punkt") — entweder Alarm setzen oder mit dem Coach den Floor an die neue Fitness anpassen. Nicht stillschweigend ignorieren.
+
+### 📈 **Progression vs. Previous Sessions**
+- vs. Mo W47 Recovery (Ø 137 / max 150, 16 % >142, B): heute Ø 133,6 / max 143, 1,8 % >142 — deutlich bessere Zonendisziplin bei schnellerer Pace. Aerobe Effizienz steigt weiter.
+- 10. belastende Einheit ohne Zeh-Signal.
+
+### 🎯 **Bewertung: A−**
+Die Prüfung (Deckel 142) hast du tatsächlich eingehalten — Selbsteinschätzung korrekt. Abzug nur für die fehlenden 4min und den formal gerissenen Pace-Floor.
+
+### 💡 **Empfehlungen für nächstes Mal**
+1. Geplante Dauer voll ausnützen — 25 heißt 25, gerade bei Recovery kostet es nichts.
+2. Pace-Floor-Thema mit dem Coach klären: bei Ø 134 bpm und 6:28 ist der 6:40-Floor evtl. überholt — aber das entscheidet der Plan, nicht der Lauf.
+3. Mi Bergsprints: erster Berg seit dem Bruch — bergab wirklich nur gehen, erster Sprint nicht der schnellste.
+
+### 📋 Detailed Metrics — 2026-11-24 Recovery Run Z1
+- Duration 20,8min · Distance 3,22 km · Pace Ø 6:28/km · Vert 17 m (Feld plausibel, kein Fallback nötig)
+- HF Ø 133,6 / min 117 / max 143 · Zonen: AE 8,7 / Z1 89,5 / >142: 1,8 % · Drittel 136→135→130
+- Wetter 3,4 °C · Kalorien 233 · Quelle UTMB-App · HR: Polar Verity Sense (sauber, kein Artefakt)
+- Feel 8/10 (User: „gut gelaufen, locker, sehr zufrieden") · Energy Good · Legs Fresh (Tag nach 3×8 Z2) · Effort Easy
