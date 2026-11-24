@@ -3,7 +3,6 @@ import Layout from '../layouts/Layout.astro';
 import { weekDataFromPlan, parseFeedbackFile, getWeekDates } from '../lib/parseTraining';
 import { corePage } from '../lib/core';
 import { getWeekActivities, getWeekStrength, getWeekMetrics, getWeekTotals, getTrend, dbAvailable } from '../lib/db';
-import { getRace, getPhase, getActiveInjuries, getBuildProgression } from '../lib/parseContext';
 import WeekGrid from '../components/WeekGrid';
 import SeasonBar from '../components/SeasonBar';
 import ChatModal from '../components/ChatModal';
@@ -28,12 +27,9 @@ const metrics = hasDb ? getWeekMetrics(dates.start, dates.end) : [];
 const totals = hasDb ? getWeekTotals(dates.start, dates.end) : { sessions: 0, km: 0, min: 0, vert: 0, avgHr: null };
 const trend = hasDb ? getTrend(dates.end, 8) : [];
 
-// Context from markdown files (race, phase, injuries, fitness trend, build progression)
-const race = getRace();
-const phase = getPhase(currentWeek.week);
-const injuries = getActiveInjuries();
+// Season context + fitness trend, both from the Python core (one `page --json` call above)
+const { race, phase, injuries, progression } = page.context;
 const fitnessTrend = page.trend;
-const progression = getBuildProgression();
 
 // Find prev/next week
 const currentIdx = weeks.findIndex(w => w.week === currentWeek.week && w.year === currentWeek.year);

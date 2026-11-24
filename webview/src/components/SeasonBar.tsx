@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import type { RaceInfo, PhaseInfo, InjuryInfo, LrPoint } from '../lib/parseContext';
-import type { FitnessTrend } from '../lib/core';
+import type { RaceInfo, PhaseInfo, InjuryInfo, LrPoint, FitnessTrend } from '../lib/core';
 import InsightsModal from './InsightsModal';
 
 interface Props {
