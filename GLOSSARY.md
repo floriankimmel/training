@@ -9,7 +9,7 @@ Laktatschwelle, the intensity of Z3. Never Z4.
 _Avoid_: Tempo (as a synonym), Schwelle for HF 160–170
 
 **Schwellen-Pace**:
-Median running pace on flat ground while heart rate is in Z3.
+Pace in Zone for Z3.
 _Avoid_: Threshold pace @ HF 160–170, Tempo pace
 
 **Tempo**:
@@ -32,10 +32,24 @@ _Avoid_: pace @ HF x–y (raw bpm bands)
 Pace in Zone for Z2.
 _Avoid_: efficiency @140–150
 
+**Efficiency Factor**:
+Speed per heartbeat on a single flat run, averaged over the runs of a month. A second, coarser fitness signal than Aerobe Effizienz: it judges a run by its average heart rate instead of by the time actually spent in a zone.
+_Avoid_: Effizienz, Aerobe Effizienz (they are a different metric), EF-Pace
+
+## Load
+
+**TRIMP**:
+Heart-rate-weighted training load of an Einheit, a day or a week: every second counts for more the closer heart rate sits to hrMax.
+_Avoid_: Belastungspunkte, load (unqualified), Trainingsumfang
+
+**ACWR**:
+The last 7 days of TRIMP divided by the average TRIMP week of the last 28. Sweet spot 0.8–1.3; above 1.5 is a load spike.
+_Avoid_: Belastungsquotient, acute load (for the ratio itself)
+
 ## Readiness
 
 **Readiness**:
-The daily go/no-go verdict GREEN, AMBER or RED, from how many recovery flags are raised (0, 1, 2+).
+The daily go/no-go verdict GREEN, AMBER or RED, from how many Recovery-Flags are raised (0, 1, 2+). A day has no verdict at all when none of the three signals has enough history behind it.
 _Avoid_: Recovery-Ampel, tier, readiness score
 
 **Recovery-Flag**:
@@ -52,6 +66,22 @@ _Avoid_: Session (in German docs), Training (for a single activity)
 The kind of an Einheit: run, bike, strength, footwork or rest. Every Einheit has exactly one.
 _Avoid_: type, sport
 
+**Wochenplan**:
+The plan for one ISO week: a dated day per weekday, each holding its Einheiten.
+_Avoid_: Weekly plan file, Trainingsplan (for a single week), week
+
 **Legacy-Plan**:
-A weekly plan written before the canonical day/Einheit layout; readable but not linted.
+A Wochenplan written before the canonical day/Einheit layout; readable but not linted.
 _Avoid_: old format, v1 plan
+
+**Kraft Tag**:
+One of the numbered strength Einheiten of the current Strength-Pointer week.
+_Avoid_: Krafttag, strength day, Tag N (on its own)
+
+**Strength-Pointer**:
+The record of where the athlete currently stands in the strength program: which program, which program week, and the calendar week it is being trained in.
+_Avoid_: Kraft-Pointer, Kraft marker, strength marker
+
+**Reisetag**:
+A calendar day on which strength training is not possible. The flying-out day still allows Kraft, and so does the return day when the calendar entry says so.
+_Avoid_: travel day (in German docs), away day
