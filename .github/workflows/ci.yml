@@ -1,0 +1,61 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint-test:
+    name: Lint + tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # lint.sh and the pre-commit hook expect the venv at db/.venv.
+      # No db/training.duckdb and no remctl in CI: those lint checks warn and skip.
+      - name: Install training package
+        run: |
+          python -m venv db/.venv
+          db/.venv/bin/python -m pip install --quiet -e '.[dev]'
+
+      - name: Lint
+        run: bash scripts/lint.sh
+
+      - name: Tests
+        run: db/.venv/bin/python -m pytest -q
+
+  webview:
+    name: Webview build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: webview
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install training package
+        working-directory: .
+        run: |
+          python -m venv db/.venv
+          db/.venv/bin/python -m pip install --quiet -e .
+
+      - uses: oven-sh/setup-bun@v2
+
+      - name: Install deps
+        run: bun install --frozen-lockfile
+
+      - name: Build
+        run: bun run build
