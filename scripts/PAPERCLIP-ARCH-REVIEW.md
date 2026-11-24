@@ -4,6 +4,8 @@ Paperclip routine **Weekly Codebase Review (Mon 10:00)**: cron `0 10 * * 1`, Eur
 It runs two skills on its own, opens one PR per skill against `main`, grades each PR with
 `grade-my-pr`, and auto-merges when the door is two-way and blast radius is below 8.
 It writes an Obsidian inbox note only when a PR was opened or the run failed. A run with no changes stays silent.
+Step 8 is a read-only **coaching review**: it answers "what in this repo should improve so the AI coaches better
+and I train better?" and **always** writes `00 Inbox/Weekly Training Review DATE.md`.
 
 Source of truth for the prompt is this file. After you edit it, update the routine:
 `paperclipai routine update b77a6f67-cd67-436e-a392-79e6158e447f --payload-json '{"description": ...}'`.
@@ -46,10 +48,25 @@ Hard rules:
 
 7. Cleanup: git worktree remove WT/arch-DATE and WT/domain-DATE (--force only for these two paths). Delete local branches that got no PR.
 
-8. Report:
-   - No PR and no failure: write nothing. Finish with "No changes".
+8. Coaching review (read-only: never edit, commit or touch Reminders; REPO reads are fine). Answer as the athlete's coach:
+   "Is there anything I can improve in this repo so that you (AI) can do a better job, or I can train more efficiently and better?"
+   Read: AGENTS.md, athlete.md, STATUS.md, the newest 10 entries of STATUS-log.md, injuries.md, zones.md, calendar.md, GLOSSARY.md,
+   races/, the last 4 trainings/week-*.md and feedback/feedback-*.md, ~/.claude/skills/coach/SKILL.md and ~/.claude/skills/feedback/SKILL.md.
+   Run (read-only): bash scripts/lint.sh · db/.venv/bin/python -m training report · db/.venv/bin/python -m training verify --days 7 ·
+   git -C REPO log --since='8 days ago' --oneline (plan churn: fix/revert/re-plan commits = planning on bad data).
+   Read the newest previous "~/Documents/workspace/notes/00 Inbox/Weekly Training Review *.md" (if any): do not re-propose what is
+   already done in the repo; mark items from last week that are still undone as "still open (week N)".
+   Look for: missing goal/periodization, stale or contradicting docs, untested zones, recurring watch-items that no rule fixes,
+   data gaps (verify GAPs, stale metrics, import errors), plans revised after the fact, docs that cost agent context without value.
+   Output at most 10 items, ranked by impact, grouped "Training", "Data & process", "Agent efficiency". Each item: finding with
+   evidence (file:line or numbers from report/verify/git), the concrete change you propose, effort S/M/L. No generic advice.
+   Write ~/Documents/workspace/notes/00 Inbox/Weekly Training Review DATE.md (obsidian-note inbox format, tags training, coaching-review).
+   Always write this note, also when steps 1–7 changed nothing. Top of the note: 3-line TL;DR with the one change to do this week.
+
+9. Codebase report:
+   - No PR and no failure: write no codebase note.
    - Otherwise write an Obsidian inbox note (obsidian-note skill format) at
      ~/Documents/workspace/notes/00 Inbox/Weekly Codebase Review DATE.md
      with tags training, automation. Per PR: title, link, door, blast radius, merged or open (and why), 2-3 line summary, decisions you made. Per failure: step and exact error.
-   Finish with a 3-line summary.
+   Finish with a 3-line summary (PRs, codebase note yes/no, coaching review note path + its top item).
 ```
