@@ -24,7 +24,9 @@ days_since() {
 }
 
 echo "== 1. current-race symlink =="
-mapfile -t CR < <(find races -maxdepth 1 -name 'current-race-*.md' 2>/dev/null)
+# while-read, not mapfile: macOS /bin/bash is 3.2 (no mapfile)
+CR=()
+while IFS= read -r f; do CR+=("$f"); done < <(find races -maxdepth 1 -name 'current-race-*.md' 2>/dev/null)
 if [ "${#CR[@]}" -eq 0 ]; then
   ok "no current race (none active)"
 elif [ "${#CR[@]}" -gt 1 ]; then
