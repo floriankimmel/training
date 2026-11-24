@@ -94,6 +94,9 @@ else
   else
     ok "STATUS-log.md up to date (newest entry ${ld:-none})"
   fi
+  MAX_LOG_ENTRY_CHARS=400
+  le=$(grep -m1 -E '^- [0-9]{4}-[0-9]{2}-[0-9]{2}' STATUS-log.md | wc -m | tr -d ' ')
+  [ "${le:-0}" -gt "$MAX_LOG_ENTRY_CHARS" ] && warn "STATUS-log.md newest entry is $le chars (max $MAX_LOG_ENTRY_CHARS) — detail belongs in week/feedback files" || ok "STATUS-log.md newest entry short (${le:-0} chars)"
 fi
 
 echo
