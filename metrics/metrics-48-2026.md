@@ -55,13 +55,19 @@ _Tägliche Schlaf-, HRV- und Erholungsdaten aus Apple HealthKit_
 | Metrik | Wert |
 |--------|------|
 | Nacht-Ø | 37.7 ms |
-| Tages-Ø | 35.0 ms |
-| Min | 24.3 ms |
-| Max | 52.1 ms |
-| Samples | 6 |
+| Tages-Ø | 36.4 ms |
+| Min | 21.9 ms |
+| Max | 62.8 ms |
+| Samples | 12 |
 
 #### ❤️ Ruhe-HF
 
 | Metrik | Wert |
 |--------|------|
-| Resting HR | 67 bpm |
+| Resting HR | 64 bpm |
+
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 81.4 kg (06:10) |
