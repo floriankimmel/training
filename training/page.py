@@ -10,7 +10,7 @@ from pathlib import Path
 
 from datetime import timedelta
 
-from . import benchmarks, plan, readiness, zones
+from . import benchmarks, context, plan, readiness, zones
 from .repo import ROOT
 
 
@@ -25,6 +25,7 @@ def page(year: int | None, week: int | None, root: Path = ROOT) -> dict:
         "trend": t.to_dict() if (t := benchmarks.load_trend(root)) else None,
         "zones": zones.to_dicts("run", root),
         "readiness": _readiness(current, root) if current else [],
+        "context": context.context(current[1] if current else None, root),
     }
 
 

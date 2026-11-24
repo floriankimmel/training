@@ -54,6 +54,35 @@ export interface Readiness {
   frozen: boolean;
 }
 
+// Season context for the header (training/context.py): race, macro phase, injuries, progression.
+export interface RaceInfo {
+  name: string;
+  distanceKm: number | null;
+  vertHm: number | null;
+  date: string;          // ISO
+  daysToGo: number | null;
+  goal: string | null;
+}
+
+export interface PhaseInfo {
+  week: number;
+  phase: string;         // "Build 2"
+  longRun: string;       // "85min"
+  vertTarget: number | null;  // ~450
+  focus: string;
+}
+
+export interface InjuryInfo { title: string; status: string; }
+
+export interface LrPoint { week: number; phase: string; lrMin: number | null; vert: number | null; }
+
+export interface SeasonContext {
+  race: RaceInfo | null;
+  phase: PhaseInfo | null;
+  injuries: InjuryInfo[];
+  progression: LrPoint[];
+}
+
 export interface PageData {
   weeks: { year: number; week: number }[];
   current: { year: number; week: number } | null;
@@ -61,6 +90,7 @@ export interface PageData {
   trend: FitnessTrend | null;
   zones: Zone[];
   readiness: Readiness[];
+  context: SeasonContext;
 }
 
 // Insights modal (training/insights.py)
@@ -75,7 +105,10 @@ export interface Insights {
   verdict: { level: 'up' | 'flat' | 'down'; effDeltaPct: number | null; text: string };
 }
 
-const EMPTY: PageData = { weeks: [], current: null, plan: null, trend: null, zones: [], readiness: [] };
+const EMPTY: PageData = {
+  weeks: [], current: null, plan: null, trend: null, zones: [], readiness: [],
+  context: { race: null, phase: null, injuries: [], progression: [] },
+};
 
 function runCore<T>(args: string[], fallback: T): T {
   try {
