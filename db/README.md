@@ -8,13 +8,13 @@ Current coverage: 2020 → 2026, ~1600 activities, 6M+ per-second records.
 
 ## Files
 
-- `schema.sql` — 3-tier schema: `activities` → `laps` → `records` (all TIMESTAMPTZ/UTC), plus `daily_metrics` (daily recovery)
+- `schema.sql` — 3-tier schema: `activities` → `laps` → `records` (all TIMESTAMPTZ/UTC), plus `daily_metrics` (daily recovery) and `nutrition_daily` (Vita Fit intake)
 - `import_fit.py` — multi-source, idempotent importer
   (auto-reconciles `total_ascent`: if the FIT session summary disagrees with the
   per-second altitude track by >30% and >20 m — e.g. HealthFit reporting ~0 hm
   while the Watch barometer recorded a real climb — it uses the 30s-smoothed
   record-derived ascent and logs the swap)
-- `import_metrics.py` — parse `metrics/*.md` (Apple HealthKit sleep/HRV/RHR) into `daily_metrics`
+- `import_metrics.py` — parse `metrics/*.md` (Apple HealthKit sleep/HRV/RHR/weight) into `daily_metrics`, Ernährung sections into `nutrition_daily`
 - `import_tredict.py` — pull missing activities from the Tredict API + import
 - `training.duckdb` — the database (git-ignored; regenerate anytime)
 - `.venv/` — python env with `duckdb` + `garmin-fit-sdk` (git-ignored)
@@ -85,6 +85,62 @@ SELECT day, weekday, sleep_min, deep_min, rem_min, efficiency_pct,
 ```
 Used read-only by the `feedback`, `coach`, and `training-db` skills for
 recovery/readiness context.
+
+### Nutrition (nutrition_daily)
+
+Vita Fit -> Apple Health -> daily-metrics writes, per entry, a section
+`#### 🍽️ Ernährung (Vortag YYYY-MM-DD)` (Kalorien, Protein, Kohlenhydrate, Fett,
+Ballaststoffe, Zucker, optional Wasser). `import_metrics.py` (and `import_all.py`)
+upsert it into `nutrition_daily`, **keyed by the heading's date (the day eaten), not
+the entry day**. `_Keine Ernährungsdaten erfasst._` = no row. Data from 2026-11-25 on.
+Columns: `date` PK, `kcal`, `protein_g`, `carbs_g`, `fat_g`, `fiber_g`, `sugar_g`,
+`water_ml`, `source='vitafit'`.
+
+HealthKit active/basal energy is **not** in the DB yet: energy balance uses workout
+kcal from `activities.calories` + an estimated basal (`22 kcal/kg` body mass, set
+`bmr_kcal_per_kg` to taste). Treat the balance as a trend, not an exact number
+(logging gaps and the basal estimate dominate the error).
+
+```sql
+-- Energy balance per day (intake - workout kcal - estimated basal), 7-day rolling
+WITH w AS (
+  SELECT day, avg(body_mass_kg) OVER (ORDER BY day ROWS 6 PRECEDING) AS kg7
+  FROM daily_metrics),
+act AS (
+  SELECT (start_time AT TIME ZONE 'Europe/Vienna')::DATE AS d, sum(calories) AS workout_kcal
+  FROM activities GROUP BY 1),
+bal AS (
+  SELECT n.date, n.kcal, coalesce(a.workout_kcal, 0) AS workout_kcal,
+         round(22 * w.kg7) AS basal_est,                     -- bmr_kcal_per_kg = 22
+         n.kcal - coalesce(a.workout_kcal, 0) - round(22 * w.kg7) AS balance
+  FROM nutrition_daily n LEFT JOIN act a ON a.d = n.date
+  LEFT JOIN w ON w.day = n.date)
+SELECT *, round(avg(balance) OVER (ORDER BY date ROWS 6 PRECEDING)) AS balance_7d
+FROM bal ORDER BY date DESC LIMIT 14;
+
+-- Protein g/kg body mass (weight = latest weigh-in on/before the day)
+SELECT n.date, n.protein_g, m.body_mass_kg,
+       round(n.protein_g / m.body_mass_kg, 2) AS protein_g_per_kg
+FROM nutrition_daily n
+ASOF LEFT JOIN (SELECT day, body_mass_kg FROM daily_metrics WHERE body_mass_kg IS NOT NULL) m
+  ON n.date >= m.day
+ORDER BY n.date DESC LIMIT 14;
+
+-- Carbs on the day before and the day of each long run (>= 90 min)
+SELECT (a.start_time AT TIME ZONE 'Europe/Vienna')::DATE AS run_day,
+       round(a.distance_m / 1000, 1) AS km, round(a.timer_s / 60) AS min,
+       prev.carbs_g AS carbs_day_before,
+       round(prev.carbs_g / m.body_mass_kg, 1) AS carbs_g_per_kg_day_before,
+       same.carbs_g AS carbs_run_day
+FROM activities a
+LEFT JOIN nutrition_daily prev ON prev.date = (a.start_time AT TIME ZONE 'Europe/Vienna')::DATE - 1
+LEFT JOIN nutrition_daily same ON same.date = (a.start_time AT TIME ZONE 'Europe/Vienna')::DATE
+ASOF LEFT JOIN (SELECT day, body_mass_kg FROM daily_metrics WHERE body_mass_kg IS NOT NULL) m
+  ON (a.start_time AT TIME ZONE 'Europe/Vienna')::DATE >= m.day
+WHERE a.sport = 'running' AND a.timer_s >= 90 * 60
+  AND (prev.date IS NOT NULL OR same.date IS NOT NULL)
+ORDER BY run_day DESC;
+```
 
 ### Frozen readiness (daily_readiness)
 

@@ -105,6 +105,23 @@ CREATE TABLE IF NOT EXISTS daily_metrics (
 -- added 2026-11: existing databases get the column without a rebuild
 ALTER TABLE daily_metrics ADD COLUMN IF NOT EXISTS body_mass_kg DOUBLE;
 
+-- Daily nutrition intake (Vita Fit -> Apple Health -> daily-metrics section
+-- "🍽️ Ernährung (Vortag YYYY-MM-DD)"). Keyed by the eating day from that heading,
+-- NOT the metrics entry day. Upsert per date (db/import_metrics.py).
+CREATE TABLE IF NOT EXISTS nutrition_daily (
+  date        DATE PRIMARY KEY,
+  kcal        DOUBLE,
+  protein_g   DOUBLE,
+  carbs_g     DOUBLE,
+  fat_g       DOUBLE,
+  fiber_g     DOUBLE,
+  sugar_g     DOUBLE,
+  water_ml    DOUBLE,                    -- optional row, NULL if not logged
+  source      VARCHAR DEFAULT 'vitafit',
+  source_file VARCHAR,
+  imported_at TIMESTAMPTZ
+);
+
 -- Frozen daily Readiness (training/readiness.py, ADR 0002): GREEN/AMBER/RED from
 -- Recovery-Flags, judged per past day with data up to that day. Re-judged only when
 -- the day's own inputs change. A v1 (tercile) table is replaced by training.readiness.

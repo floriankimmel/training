@@ -6,6 +6,11 @@ HealthKit). Each day is a `### YYYY-MM-DD (Weekday)` block with Schlaf / HRV /
 Ruhe-HF / Körper (Gewicht) tables. This parser is idempotent: it upserts one row per calendar day
 into the `daily_metrics` table (re-running always refreshes existing days).
 
+Nutrition (Vita Fit via Apple Health): a `#### 🍽️ Ernährung (Vortag YYYY-MM-DD)`
+section inside a day block upserts one row into `nutrition_daily` keyed by the
+heading's date (the day eaten, not the entry day). `_Keine Ernährungsdaten erfasst._`
+sections are skipped.
+
 Usage:
   db/.venv/bin/python db/import_metrics.py <folder-or-file> [<more> ...] \
       [--db db/training.duckdb]
@@ -27,6 +32,12 @@ SCHEMA = Path(__file__).with_name("schema.sql")
 REPO = Path(__file__).resolve().parent.parent
 DAY_RE = re.compile(r"^###\s+(\d{4}-\d{2}-\d{2})\s*\(([^)]*)\)")
 ROW_RE = re.compile(r"^\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|")
+SECTION_RE = re.compile(r"^#{1,4}\s")
+NUTRITION_RE = re.compile(r"^####\s.*Ernährung\s*\(Vortag\s+(\d{4}-\d{2}-\d{2})\)")
+NUTRITION_COLS = {
+    "Kalorien": "kcal", "Protein": "protein_g", "Kohlenhydrate": "carbs_g",
+    "Fett": "fat_g", "Ballaststoffe": "fiber_g", "Zucker": "sugar_g", "Wasser": "water_ml",
+}
 
 
 def dur_to_min(s):
@@ -84,10 +95,63 @@ def parse_day_block(day, weekday, rows, source_file):
     return rec
 
 
+def nutri_num(s):
+    """'2345 kcal' / '2.345 kcal' / '1 500 ml' / '85,5 g' / '85.5 g' -> float."""
+    if not s:
+        return None
+    s = re.sub(r"(?<=\d)[\s'](?=\d{3}\b)", "", s)  # '1 500' -> '1500'
+    m = re.search(r"\d+(?:[.,]\d+)*", s)
+    if not m:
+        return None
+    n = m.group(0)
+    if re.fullmatch(r"\d{1,3}([.,]\d{3})+", n):  # '2.345' / '2,345' = thousands
+        return float(re.sub(r"[.,]", "", n))
+    return float(n.replace(",", "."))
+
+
+def parse_nutrition(text, source_file=None):
+    """'#### 🍽️ Ernährung (Vortag YYYY-MM-DD)' sections -> one record per eating day.
+
+    The date comes from the heading (the day eaten), not the enclosing entry day.
+    Sections without values ('_Keine Ernährungsdaten erfasst._') are skipped.
+    """
+    recs, cur = [], None
+
+    def flush():
+        if cur and any(cur[c] is not None for c in NUTRITION_COLS.values()):
+            recs.append(cur)
+
+    for line in text.splitlines():
+        if SECTION_RE.match(line):
+            flush()
+            m = NUTRITION_RE.match(line)
+            cur = None
+            if m:
+                cur = {"date": m.group(1), **{c: None for c in NUTRITION_COLS.values()},
+                       "source": "vitafit", "source_file": source_file,
+                       "imported_at": datetime.now(timezone.utc)}
+            continue
+        rm = ROW_RE.match(line) if cur else None
+        if rm and rm.group(1).strip() in NUTRITION_COLS:
+            cur[NUTRITION_COLS[rm.group(1).strip()]] = nutri_num(rm.group(2))
+    flush()
+    return recs
+
+
+def upsert_nutrition(con, rec):
+    cols = list(rec.keys())
+    con.execute(
+        f"INSERT OR REPLACE INTO nutrition_daily ({','.join(cols)}) "
+        f"VALUES ({','.join(['?']*len(cols))})",
+        [rec[c] for c in cols],
+    )
+
+
 def parse_file(path: Path):
     days = []
     cur_day = cur_weekday = None
     cur_rows = {}
+    in_nutrition = False
 
     def flush():
         if cur_day is not None:
@@ -99,8 +163,12 @@ def parse_file(path: Path):
             flush()
             cur_day, cur_weekday = m.group(1), m.group(2).strip()
             cur_rows = {}
+            in_nutrition = False
             continue
-        if cur_day is None:
+        if SECTION_RE.match(line):
+            in_nutrition = bool(NUTRITION_RE.match(line))  # nutrition rows belong to the Vortag
+            continue
+        if cur_day is None or in_nutrition:
             continue
         rm = ROW_RE.match(line)
         if rm:
@@ -148,7 +216,7 @@ def main():
     con = duckdb.connect(args.db)
     ensure_schema(con)
 
-    n = 0
+    n = nn = 0
     for t in args.targets:
         for p in iter_files(Path(t)):
             for rec in parse_file(p):
@@ -157,9 +225,15 @@ def main():
                 print(f"[day] {rec['day']} {rec['weekday']}  "
                       f"sleep={rec['sleep_min']}min hrv_night={rec['hrv_night_avg']} "
                       f"rhr={rec['resting_hr']} kg={rec['body_mass_kg']}")
+            for rec in parse_nutrition(p.read_text(), p.name):
+                upsert_nutrition(con, rec)
+                nn += 1
+                print(f"[food] {rec['date']}  kcal={rec['kcal']} protein={rec['protein_g']}g "
+                      f"carbs={rec['carbs_g']}g")
     new, rejudged = freeze(con)
     con.close()
-    print(f"\nSummary: {n} day(s) upserted, readiness: {new} frozen, {rejudged} re-judged")
+    print(f"\nSummary: {n} day(s) upserted, {nn} nutrition day(s), "
+          f"readiness: {new} frozen, {rejudged} re-judged")
 
 
 if __name__ == "__main__":

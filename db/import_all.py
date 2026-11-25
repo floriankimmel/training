@@ -5,7 +5,7 @@ Runs the two importers back to back so a single command keeps the whole
 training database fresh:
 
   1. import_fit.py     -> activities / laps / records  (HealthFit + others)
-  2. import_metrics.py -> daily_metrics + daily_readiness (metrics/*.md, training.readiness)
+  2. import_metrics.py -> daily_metrics + nutrition_daily + daily_readiness (metrics/*.md, training.readiness)
 
 Usage:
   # default: today's HealthFit files + all metrics/*.md
@@ -75,7 +75,7 @@ def main():
     # 2) recovery metrics
     if not args.no_metrics:
         print("\n== daily metrics ==")
-        n = 0
+        n = nn = 0
         for p in import_metrics.iter_files(Path(args.metrics)):
             for rec in import_metrics.parse_file(p):
                 import_metrics.upsert(con, rec)
@@ -83,8 +83,12 @@ def main():
                 print(f"[day] {rec['day']} {rec['weekday']}  "
                       f"sleep={rec['sleep_min']}min hrv_night={rec['hrv_night_avg']} "
                       f"rhr={rec['resting_hr']}")
+            for rec in import_metrics.parse_nutrition(p.read_text(), p.name):
+                import_metrics.upsert_nutrition(con, rec)
+                nn += 1
         new, rejudged = freeze(con)
-        print(f"metrics summary: {n} day(s) upserted, readiness: {new} frozen, {rejudged} re-judged")
+        print(f"metrics summary: {n} day(s) upserted, {nn} nutrition day(s), "
+              f"readiness: {new} frozen, {rejudged} re-judged")
 
     con.close()
 

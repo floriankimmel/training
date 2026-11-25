@@ -19,6 +19,7 @@
 - **Load/readiness/outcome**: `db/.venv/bin/python -m training report` (TRIMP, ACWR, Readiness gate, Aerobe Effizienz = Pace in Zone Z1, Körpergewicht-Trend) — coach runs it before planning.
 - **Abgehakt ≠ trainiert**: `db/.venv/bin/python -m training verify [--days N]` — ticked-off run/bike/Kraft reminders without a recorded activity. Runs daily in `scripts/auto-import.sh`; coach + feedback treat a GAP as not trained.
 - **Planning time**: coach plans **Monday morning** (Paperclip „Weekly Training Plan (Mon 06:30)" + reminder „👟 Training Planen" Mo 06:30), never Sunday evening — Sunday runs often land after 21:00 and the `.fit` import lags.
+- **Nutrition**: `nutrition_daily` (Vita Fit via Apple Health, from 2026-11-25; keyed by the day eaten = `Vortag` in the metrics heading) — energy balance, protein g/kg, carbs around long runs. Queries in `db/README.md` → Nutrition. No row = not logged, never assume 0.
 - **Objective analysis**: query `db/training.duckdb` (DuckDB) for real pace/HF/vert trends instead of guessing. Terrain-robust metric = **Pace in Zone** (`training/pace.py`, zones from `zones.md` via `training/zones.py`; see GLOSSARY.md).
 
 ## Maintenance Contract (keep living docs fresh)
