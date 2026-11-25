@@ -56,6 +56,10 @@ _Avoid_: Recovery-Ampel, tier, readiness score
 One recovery signal clearly worse than the athlete's recent normal: HRV, resting heart rate, or sleep debt.
 _Avoid_: bad tier, red metric
 
+**Körpergewicht-Trend**:
+The 7-day mean of the morning weigh-ins compared with the 7 days before (kg/week) and the 28 days before. Single weigh-ins are noise (±1 kg water/glycogen); only the averages count. A move of 1.5 kg/week or more either way raises a weight warning (`training/weight.py`, `WEEKLY_LIMIT_KG`). Not a Recovery-Flag: it does not change the Readiness verdict; the coach judges it against the goal.
+_Avoid_: Gewicht (for the trend), weight score
+
 ## Schedule
 
 **Einheit**:

@@ -31,7 +31,7 @@
 - **🔴 Easy zu schnell**: Mo W47 6:11 statt ≥6:40, 16 % >142. Ab 24.11. Recovery-`@workout`-Alert **hr:125-138** (Puffer unter Deckel 142).
 - **🔴 Abgehakt ≠ trainiert**: nur `.fit` zählt. Jetzt automatisch: `python -m training verify` (täglich im Sync). W47 Rad Di = GAP.
 - **DB-Import**: iCloud-`Resource deadlock` blockt `import_fit.py` aus Agent-Shell → Import via `!` im User-Kontext (22.11. gelöst, ok=4).
-- **Körpergewicht**: neu in Daily Metrics (`body_mass_kg`); Report warnt bei >1 kg Abfall (Energieverfügbarkeit).
+- **Körpergewicht**: `daily_metrics.body_mass_kg` (seit Aug 2026, Lücke 22.08.–07.11.). Report/Webview: 7d-Ø vs. Vorwoche/28d, Warnung ab ±1.5 kg/Wo (`training/weight.py`). Aktuell 7d 82.2 kg, −0.2 kg/Wo.
 - **Zonen/hrMax**: DB-Peaks 184–186 vs. hrMax 180 → Feldtest W50 (`zones.md`).
 - **Vertical gap**: W48 erste Bergsprints, ab W49 Bergab + hm akkumulieren.
 

@@ -5,7 +5,7 @@ Usage:  db/.venv/bin/python -m training report [--weeks N] [--asof YYYY-MM-DD]
 
 Sections:
   1. Weekly load  — HR-based TRIMP (Banister) per week/sport, ramp vs. 4-wk avg, ACWR
-  2. Readiness    — training.readiness gate (GLOSSARY: Readiness, Recovery-Flag)
+  2. Readiness    — training.readiness gate (GLOSSARY: Readiness, Recovery-Flag) + training.weight trend
   3. Outcome      — run pace at fixed HR on flat runs (fitness signal, terrain-robust)
 
 TRIMP assumes 1 Hz records (HealthFit). hrMax + zones from zones.md (training.zones);\noutcome uses training.pace (GLOSSARY: Pace in Zone). resting HR = 30d median from daily_metrics.
@@ -15,7 +15,7 @@ from datetime import date, timedelta
 
 import duckdb
 
-from . import pace, readiness, zones
+from . import pace, readiness, weight, zones
 from .repo import ROOT
 
 DB = ROOT / "db" / "training.duckdb"
@@ -96,16 +96,7 @@ def main(argv: list[str]) -> int:
               f"sleep 7d {r(g.sleep_7d)} vs 30d {r(g.sleep_30d)}")
         print(f"VERDICT: {g.verdict}" + (f" — {'; '.join(g.reasons)}" if g.reasons else "")
               + "   (AMBER: no new hard session, cap at aerobic · RED: easy/rest, no quality)")
-        kg = con.execute("""
-            SELECT avg(body_mass_kg) FILTER (WHERE day > ?::DATE - 7),
-                   avg(body_mass_kg) FILTER (WHERE day > ?::DATE - 28 AND day <= ?::DATE - 7),
-                   count(body_mass_kg) FILTER (WHERE day > ?::DATE - 7)
-            FROM daily_metrics WHERE day <= ?""", [day, day, day, day, day]).fetchone()
-        if kg[0] is not None:
-            prev = "n/a" if kg[1] is None else f"{kg[1]:.1f}"
-            print(f"weight 7d {kg[0]:.1f} kg ({kg[2]} days) vs prev 3 wk {prev} kg"
-                  + (" ⚠ dropping >1 kg — check energy availability (fueling.md)"
-                     if kg[1] is not None and kg[0] - kg[1] <= -1.0 else ""))
+        print(weight.describe(weight.trend(con, day)))
         if (asof - day).days > 2:
             print(f"⚠ metrics stale ({(asof - day).days}d old) — run db/import_metrics.py")
 
