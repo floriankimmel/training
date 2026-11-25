@@ -97,3 +97,49 @@ Die Prüfung (Deckel 142) hast du tatsächlich eingehalten — Selbsteinschätzu
 - HF Ø 133,6 / min 117 / max 143 · Zonen: AE 8,7 / Z1 89,5 / >142: 1,8 % · Drittel 136→135→130
 - Wetter 3,4 °C · Kalorien 233 · Quelle UTMB-App · HR: Polar Verity Sense (sauber, kein Artefakt)
 - Feel 8/10 (User: „gut gelaufen, locker, sehr zufrieden") · Energy Good · Legs Fresh (Tag nach 3×8 Z2) · Effort Easy
+
+## 2026-11-25 - Lauf Z1 + 6×20s Bergsprints - Mittwoch Analyse
+
+**Geplant**: 45min — 25min Z1 (125–142) zum Anstieg · 6×20s Bergsprint zügig (150–170) mit 100s Gehen/Traben bergab · 8min CD Z1. Erster Berg seit dem Bruch, bergab nur gehen.
+**Tatsächliche Ausführung**: 44,2min, 5,73 km, Ø HF 133,6 / max 163, ~57 hm (barometrisch, 19 flights; Höhenfeld unzuverlässig), 1,6 °C
+**Persönliches Empfinden**: „Beim Auslaufen dann ein bisschen Muskel gespürt, also dürfte ich gut belastet haben — aber nichts, das sich irgendwie geändert hat" (sinngemäß: kein Zeh-Signal)
+
+### 🎯 **Herzfrequenz-Analyse**
+- Zonenverteilung: **16,2 % AE / 72,4 % Z1 / 4,6 % Z2 / 5,2 % Z3 / 1,5 % Z4** — genau das Profil eines Z1-Laufs mit 6 kurzen Spikes, kein Laktat-Aufbau.
+- Z1-Anlauf (Min 0–24): Ø ~135, max 141 — **kein einziger Deckel-Riss vor dem Berg**. Sauber.
+- **Alle 6 Sprints absolviert**, Peaks: 156 · 163 · 160 · 158 · 161 · 162 bpm, Abstand ~2min = Pausen voll genommen. Peak 1 verhalten (156), danach konstant 158–163 — „jeder Sprint gleich gut" erfüllt, Vorgabe 150–170 getroffen, nie überdreht.
+- Pausen-HF fiel zwischen Sprints auf ~131–139 zurück — echtes Gehen/Traben bergab, kein Schummeln.
+- Cooldown: Min 39–44 Ø 107–129 — vorbildlich ruhig (Vorgabe 119–129).
+
+### ⏱️ **Pace-Analyse (min/km)**
+- Ø über alles 7:43/km — bei 6 Geh-Pausen bergab erwartbar und irrelevant als Kennzahl.
+- Z1-Teil nach HF-Lage klar über dem 6:40-Floor gelaufen (HF Ø 135 bei hügeligem Terrain). Cooldown-Samples 6:47–8:30 — locker.
+- Power im CD 148–218 W, Ø 198 W: moderat, passt zu lockerem Traben.
+
+### 🏆 **Was war hervorragend**
+- **Der erste Berg seit dem Bruch ist abgehakt — ohne Zeh-Signal.** Das war der letzte fehlende Belastungsbaustein. Muskelkater-Gefühl im Auslaufen = gewollter Reiz (Abdruck/Waden), kein Warnsignal.
+- Sprint-Konsistenz: 5 von 6 Peaks in 158–163er-Band — gleichmäßige Qualität statt Abbau.
+- Disziplin komplett: Z1-Anlauf ohne Riss, Pausen voll, bergab gegangen, CD ruhig. Exakt wie geschrieben.
+
+### ⚠️ **Verbesserungsbereiche**
+- Erster Sprint mit 156 bpm merklich verhaltener als die restlichen — als bewusstes Herantasten an den ersten Berg okay, ab W49 bei Hügel-Repeats von Rep 1 an voll da sein.
+- 44,2 statt 45min — diesmal im Toleranzbereich, kein Abzug.
+
+### 📈 **Progression vs. Previous Sessions**
+- Mo 3×8 Z2 ✅ · Di Recovery A− ✅ · Mi Bergsprints ✅ — drei Tage in Folge geliefert, W48 bei 3/5 Läufen, ~110/208min.
+- 11. belastende Einheit ohne Zeh-Signal, jetzt inkl. Bergauf-Abdruck. Gate-W49-Kriterium „Bergsprints ohne Zeh-Signal" ✅.
+- HF-Disziplin-Trend hält: dritter Lauf in Folge ohne nennenswerte Zonen-Verstöße.
+
+### 🎯 **Bewertung: A**
+Planerfüllung praktisch 1:1, alle Vorgaben (Deckel, Pausen, bergab gehen, CD) eingehalten, Zeh-Test bestanden. Kein A+, weil Sprint 1 verhalten war und der Reiz damit minimal unter Möglichkeit blieb — bei einem „ersten Berg"-Test aber die richtige Entscheidung.
+
+### 💡 **Empfehlungen für nächstes Mal**
+1. Morgen Recovery streng nehmen: Wadenkater nach Bergsprints ist eingepreist — wenn spürbar, 20 statt 25min, strikt ≥6:40.
+2. W49 Hügel-Repeats: ersten Rep nicht mehr „antesten", gleich mit Zielintensität rein.
+3. Footwork heute Abend nicht vergessen (steht zusätzlich zum Kraft Tag 1 im Plan).
+
+### 📋 Detailed Metrics — 2026-11-25 Lauf Z1 + 6×20s Bergsprints
+- Duration 44,2min · Distance 5,73 km · Ø-Pace 7:43/km (inkl. Geh-Pausen) · Vert ~57 m barometrisch (19 flights; elevation-Feld unzuverlässig)
+- HF Ø 133,6 / min 84 / max 163 · Zonen: AE 16,2 / Z1 72,4 / Z2 4,6 / Z3 5,2 / Z4 1,5 % · Sprint-Peaks 156/163/160/158/161/162
+- Wetter 1,6 °C · Kalorien 453 · Quelle UTMB-App · HR: Polar Verity Sense (sauber)
+- Feel 7/10 (User: „beim Auslaufen etwas Muskel gespürt, gut belastet, nichts verändert") · Energy Good · Legs: leichter Muskelreiz post-sprint · Effort Easy + 6 kurze Spitzen · **Zeh: kein Signal** ✅
