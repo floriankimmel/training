@@ -5,17 +5,23 @@
 imports HealthFit `.fit` + metrics into `db/training.duckdb`, checks ticked-off reminders against recorded
 activities (`python -m training verify`), and makes the daily backup. Log: `db/auto-import.log`.
 
-## Prompt
+## Setup
+
+- Routine **Daily Metrics** (`0 10 * * *` Europe/Vienna), project/folder Running.
+- Agent **Running Data Runner** uses the `process` adapter (no LLM, no tokens):
+  `command: /bin/bash`, `args: [scripts/paperclip-daily-metrics.sh]`, `cwd: <repo>`, `timeoutSec: 900`.
+- `scripts/paperclip-daily-metrics.sh` runs `auto-import.sh`, then reports new activities, newest
+  activity, newest metrics day and `verify GAP:` lines as a comment on the run issue.
+  - OK: issue -> `done`, exit 0.
+  - Problem (`FAILED`, import errors, activity older than 3 days, metrics older than 2 days):
+    issue -> `blocked`, exit 1, so it shows up in the Paperclip inbox.
+- The `process` adapter sets no `PAPERCLIP_TASK_ID`; the script resolves the issue from
+  `PAPERCLIP_RUN_ID` and falls back to the agent's oldest open issue.
+
+## Local test
 
 ```
-Daily DB sync in /Users/fkimmel/Documents/workspace/training:
-
-1. Run `bash scripts/auto-import.sh` (git pull --rebase for new metrics/*.md, imports new HealthFit .fit files + metrics into db/training.duckdb, makes the daily backup). Takes ~1 min.
-2. Show the new lines in db/auto-import.log. If git pull, import_fit or backup failed, report the exact error and stop. Do not retry in a loop, do not delete db files, do not resolve merge conflicts yourself.
-3. Verify with DuckDB (read-only): newest activity per sport (running, cycling, other) and the newest day in daily_metrics. Report how many activities were new since the last run.
-4. Report every `verify GAP:` line from today's log verbatim (reminder ticked off, no `.fit`). These are not errors of the sync; just list them.
-5. Warn if the newest activity is older than 3 days or the newest metrics day is older than 2 days.
-6. Do not commit or push anything (db/ is git-ignored).
-
-Report in 3–5 lines: new activities (date, sport, duration), newest metrics day, verify gaps, any problem.
+AUTO_IMPORT_DEBOUNCE=0 bash scripts/paperclip-daily-metrics.sh
 ```
+
+Without Paperclip env vars it only prints the report.

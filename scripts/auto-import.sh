@@ -14,7 +14,7 @@ export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 log() { printf '%s %s\n' "$(date '+%F %T')" "$*" >> "$LOG"; }
 
 # debounce: iCloud writes bursts of files
-sleep 20
+sleep "${AUTO_IMPORT_DEBOUNCE:-20}"
 
 [ -d "$HF" ] || { log "HealthFit folder missing: $HF"; exit 1; }
 
