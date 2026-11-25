@@ -18,6 +18,18 @@ sleep 20
 
 [ -d "$HF" ] || { log "HealthFit folder missing: $HF"; exit 1; }
 
+# New iCloud files arrive as "dataless" placeholders. Processes spawned by Claude Code /
+# Paperclip may not materialize them on read (EDEADLK, "[Errno 11] Resource deadlock
+# avoided"), so ask the iCloud daemon to download them first, then wait (max ~2 min).
+dataless() { for f in "$HF"/*.fit; do [[ "$(stat -f '%Sf' "$f")" == *dataless* ]] && printf '%s\n' "$f"; done; }
+pending=$(dataless)
+if [ -n "$pending" ]; then
+  log "iCloud: downloading $(printf '%s\n' "$pending" | wc -l | tr -d ' ') dataless file(s)"
+  while IFS= read -r f; do brctl download "$f" 2>/dev/null; done <<< "$pending"
+  for _ in $(seq 1 24); do [ -z "$(dataless)" ] && break; sleep 5; done
+  [ -n "$(dataless)" ] && log "iCloud: still dataless: $(dataless | xargs -I{} basename {} | paste -sd, -)"
+fi
+
 for attempt in 1 2 3; do
   if out=$("$PY" "$ROOT/db/import_fit.py" "$HF" 2>&1); then
     log "import_fit: $(printf '%s' "$out" | tail -1)"

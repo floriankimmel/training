@@ -32,7 +32,9 @@ rm -rf "$DUMP"
 
 echo "Syncing -> $DEST ..."
 mkdir -p "$DEST"
-rsync -a --delete "$DUMP/" "$DEST/"
+# --whole-file: never read the old copy in Dropbox. It may be a "dataless" placeholder,
+# and reading it from a Claude Code / Paperclip process fails with EDEADLK (errno 11).
+rsync -a --whole-file --delete "$DUMP/" "$DEST/"
 
 echo "Done. Backup size:"
 du -sh "$DEST"
