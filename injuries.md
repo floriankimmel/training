@@ -73,7 +73,7 @@
 - **Zehenbruch 2× in ~2 Monaten (31.07. Hallenbad, 30.09.)**, beide *nicht* lauf-/lastbedingt. Zwei Frakturen
   bei Bagatell-Traumata in kurzer Folge = **Muster, nicht Zufall → ärztlich abklären lassen**: Vitamin D,
   Ferritin/Eisenstatus, ggf. Knochendichte (DXA), Energieverfügbarkeit/Fueling prüfen (Laufumfang + Defizit?).
-  **Abgeklärt 2026-11-24: ärztlich unauffällig.** Energieverfügbarkeit bleibt über Körpergewicht (`daily_metrics.body_mass_kg`, Report-Warnung bei >1 kg Abfall) im Blick.
+  **Abgeklärt 2026-11-24: ärztlich unauffällig.** Energieverfügbarkeit bleibt über Körpergewicht (`daily_metrics.body_mass_kg`, Report-Warnung ab ±1.5 kg/Wo, `training/weight.py`) im Blick.
 - Non-training-Ursachen: Pool/Schwimmen (Zeh Jul, Ohr Jun), Alltag (Zeh Sep). Kein bisheriges Lastmuster.
 - Comeback pattern that works: strict Z1 test run → 2–3 easy weeks → reintroduce intensity flat → then hills.
 - **Comeback-Fehler (2026-10-19, Rad)**: nach 3,5 Wochen Pause Mo direkt 19,5 min Z4 statt aerob → Deckel & Umfang-vor-Intensität gelten auch aufs Rad.
