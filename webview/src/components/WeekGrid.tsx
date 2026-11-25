@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import type { WeekData, FeedbackData, Session, FeedbackSession } from '../lib/parseTraining';
 import type { DayActivity, DayMetric, DayStrength, WeekTotals, TrendPoint } from '../lib/db';
-import type { Readiness } from '../lib/core';
+import type { Readiness, WeightInfo } from '../lib/core';
 import FeedbackModal from './FeedbackPanel';
 
 interface Props {
@@ -11,6 +11,7 @@ interface Props {
   strength: DayStrength[];
   metrics: DayMetric[];
   readiness: Readiness[];
+  weight: WeightInfo | null;
   totals: WeekTotals;
   trend: TrendPoint[];
   weekDates: { start: string; end: string };
@@ -110,7 +111,7 @@ interface DayCell {
   feedback: FeedbackSession | undefined;
 }
 
-export default function WeekGrid({ weekData, feedbackData, activities, strength, metrics, readiness, totals, trend, weekDates, currentWeek }: Props) {
+export default function WeekGrid({ weekData, feedbackData, activities, strength, metrics, readiness, weight, totals, trend, weekDates, currentWeek }: Props) {
   const [modalSession, setModalSession] = useState<{ session: Session; feedback: FeedbackSession | undefined } | null>(null);
   const [selected, setSelected] = useState(0);
   const today = todayISO();
@@ -317,6 +318,7 @@ export default function WeekGrid({ weekData, feedbackData, activities, strength,
           <RecoveryCard key={c.date} cell={c} />
         ))}
       </div>
+      {weight && <WeightTile w={weight} />}
 
       {modalSession && (
         <FeedbackModal
@@ -367,6 +369,7 @@ function RecoveryCard({ cell }: { cell: DayCell }) {
         <MetricLine label="🛌" value={fmtSleep(m?.sleepMin ?? null)} flag={r?.sleep_flag ?? null} />
         <MetricLine label="💓" value={m?.hrvNight != null ? String(Math.round(m.hrvNight)) : '–'} flag={r?.hrv_flag ?? null} />
         <MetricLine label="❤️" value={m?.restingHr != null ? String(m.restingHr) : '–'} flag={r?.rhr_flag ?? null} />
+        <MetricLine label="⚖️" value={m?.bodyKg != null ? m.bodyKg.toFixed(1) : '–'} flag={m?.bodyKg != null ? false : null} />
       </div>
     </div>
   );
@@ -378,5 +381,65 @@ function MetricLine({ label, value, flag }: { label: string; value: string; flag
       <span className="text-slate-500 inline-block w-4 text-center text-[11px] leading-none">{label}</span>
       <span className={flag ? 'text-red-400 font-bold' : flag === false ? 'text-slate-300' : 'text-slate-600'}>{value}</span>
     </div>
+  );
+}
+
+// ── Körpergewicht-Trend (training/weight.py): 7d avg vs. prev 7d / 28d. Warning (amber) when the
+// 7d avg moved >= limit_kg per week; single weigh-ins are noise, so the chart shows dots + 7d line. ──
+function fmtDelta(v: number | null): string {
+  return v == null ? '–' : `${v > 0 ? '+' : v < 0 ? '−' : '±'}${Math.abs(v).toFixed(1)}`;
+}
+
+function WeightTile({ w }: { w: WeightInfo }) {
+  const warn = w.warning;
+  const latest = w.latest_day ? `${w.latest_day.slice(8)}.${w.latest_day.slice(5, 7)}.` : '';
+  return (
+    <div className={`border ${warn ? 'border-amber-600/70 bg-amber-950/20' : 'border-slate-700 bg-slate-800/40'} rounded-lg px-3 py-2 mb-4 flex flex-wrap items-center gap-x-6 gap-y-2`}>
+      <div>
+        <div className="text-[11px] uppercase tracking-wide text-slate-500">⚖️ Gewicht</div>
+        <div className="text-lg font-bold text-white">
+          {w.latest_kg?.toFixed(1) ?? '–'} kg <span className="text-xs font-normal text-slate-500">{latest}</span>
+        </div>
+      </div>
+      <div className="text-xs font-mono text-slate-300 space-y-0.5">
+        <div>7d Ø {w.avg_7d?.toFixed(1) ?? '–'} kg <span className="text-slate-500">({w.n_7d}×)</span></div>
+        <div>
+          <span className={warn ? 'text-amber-400 font-bold' : ''}>{fmtDelta(w.delta_7d)} kg/Wo</span>
+          <span className="text-slate-500"> · vs 28d {fmtDelta(w.delta_28d)} kg</span>
+        </div>
+      </div>
+      <WeightChart series={w.series} />
+      {warn && (
+        <div className="text-xs text-amber-400">
+          ⚠ {warn === 'loss' ? 'Abnahme' : 'Zunahme'} ≥ {w.limit_kg} kg/Wo — {warn === 'loss' ? 'Energieverfügbarkeit prüfen' : 'Intake / Wasser / Krankheit?'}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function WeightChart({ series }: { series: { day: string; kg: number }[] }) {
+  if (series.length < 2) return null;
+  const W = 220, H = 40, pad = 3;
+  const t = (d: string) => new Date(d + 'T12:00:00').getTime();
+  const t0 = t(series[0].day), t1 = t(series[series.length - 1].day);
+  const kgs = series.map(p => p.kg);
+  const lo = Math.min(...kgs) - 0.3, hi = Math.max(...kgs) + 0.3;
+  const x = (d: string) => pad + ((t(d) - t0) / (t1 - t0 || 1)) * (W - 2 * pad);
+  const y = (kg: number) => H - pad - ((kg - lo) / (hi - lo)) * (H - 2 * pad);
+  // rolling 7-day mean over the weigh-ins (calendar window, gaps skipped)
+  const avg = series.map(p => {
+    const win = series.filter(q => q.day <= p.day && t(p.day) - t(q.day) < 7 * 86400000);
+    return { day: p.day, kg: win.reduce((a, q) => a + q.kg, 0) / win.length };
+  });
+  return (
+    <svg width={W} height={H} className="overflow-visible" aria-label="Gewicht 8 Wochen">
+      <title>{`${lo.toFixed(1)}–${hi.toFixed(1)} kg, letzte 8 Wochen`}</title>
+      {series.map(p => (
+        <circle key={p.day} cx={x(p.day)} cy={y(p.kg)} r="1.5" className="text-slate-500" fill="currentColor" />
+      ))}
+      <polyline points={avg.map(p => `${x(p.day)},${y(p.kg)}`).join(' ')} fill="none" stroke="currentColor"
+        strokeWidth="1.5" className="text-sky-400" strokeLinejoin="round" strokeLinecap="round" />
+    </svg>
   );
 }

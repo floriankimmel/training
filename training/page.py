@@ -8,9 +8,9 @@ import argparse
 import json
 from pathlib import Path
 
-from datetime import timedelta
+from datetime import date, timedelta
 
-from . import benchmarks, context, plan, readiness, zones
+from . import benchmarks, context, plan, readiness, weight, zones
 from .repo import ROOT
 
 
@@ -25,6 +25,7 @@ def page(year: int | None, week: int | None, root: Path = ROOT) -> dict:
         "trend": t.to_dict() if (t := benchmarks.load_trend(root)) else None,
         "zones": zones.to_dicts("run", root),
         "readiness": _readiness(current, root) if current else [],
+        "weight": _weight(current, root) if current else None,
         "context": context.context(current[1] if current else None, root),
     }
 
@@ -41,6 +42,21 @@ def _readiness(current: tuple[int, int], root: Path) -> list[dict]:
         return [r.to_dict() for r in readiness.for_days(con, [mon + timedelta(days=i) for i in range(7)])]
     except Exception:  # noqa: BLE001 — the page must render without readiness
         return []
+
+
+def _weight(current: tuple[int, int], root: Path) -> dict | None:
+    """Körpergewicht-Trend as of the shown week's Sunday (or today) + 8 weeks of weigh-ins; None if no DB."""
+    db = root / "db" / "training.duckdb"
+    if not db.is_file():
+        return None
+    try:
+        import duckdb
+        con = duckdb.connect(str(db), read_only=True)
+        asof = min(plan.week_monday(*current) + timedelta(days=6), date.today())
+        series = weight.series(con, asof - timedelta(weeks=8), asof)
+        return {**weight.trend(con, asof).to_dict(), "series": series} if series else None
+    except Exception:  # noqa: BLE001 — the page must render without weight
+        return None
 
 
 def main(argv: list[str]) -> int:

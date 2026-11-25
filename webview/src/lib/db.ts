@@ -49,6 +49,7 @@ export interface DayMetric {
   sleepMin: number | null;
   hrvNight: number | null;
   restingHr: number | null;
+  bodyKg: number | null;
 }
 
 export interface WeekTotals {
@@ -156,7 +157,8 @@ export function getWeekStrength(start: string, end: string): DayStrength[] {
 // Daily recovery metric values for the week (Readiness itself comes from the Python core).
 export function getWeekMetrics(start: string, end: string): DayMetric[] {
   return query<DayMetric>(`
-    SELECT day::varchar AS date, sleep_min AS "sleepMin", hrv_night_avg AS "hrvNight", resting_hr AS "restingHr"
+    SELECT day::varchar AS date, sleep_min AS "sleepMin", hrv_night_avg AS "hrvNight", resting_hr AS "restingHr",
+           body_mass_kg AS "bodyKg"
     FROM daily_metrics
     WHERE day BETWEEN DATE '${start}' AND DATE '${end}'
     ORDER BY day`);

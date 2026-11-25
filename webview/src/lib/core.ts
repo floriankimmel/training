@@ -54,6 +54,20 @@ export interface Readiness {
   frozen: boolean;
 }
 
+// Körpergewicht-Trend (training/weight.py): 7d avg vs prev 7d/28d, warning at |delta_7d| >= limit_kg.
+export interface WeightInfo {
+  day: string;
+  latest_kg: number | null;
+  latest_day: string | null;
+  avg_7d: number | null;
+  n_7d: number;
+  delta_7d: number | null;
+  delta_28d: number | null;
+  warning: 'loss' | 'gain' | null;
+  limit_kg: number;
+  series: { day: string; kg: number }[];
+}
+
 // Season context for the header (training/context.py): race, macro phase, injuries, progression.
 export interface RaceInfo {
   name: string;
@@ -90,6 +104,7 @@ export interface PageData {
   trend: FitnessTrend | null;
   zones: Zone[];
   readiness: Readiness[];
+  weight: WeightInfo | null;
   context: SeasonContext;
 }
 
@@ -106,7 +121,7 @@ export interface Insights {
 }
 
 const EMPTY: PageData = {
-  weeks: [], current: null, plan: null, trend: null, zones: [], readiness: [],
+  weeks: [], current: null, plan: null, trend: null, zones: [], readiness: [], weight: null,
   context: { race: null, phase: null, injuries: [], progression: [] },
 };
 
