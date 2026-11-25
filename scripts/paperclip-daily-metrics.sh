@@ -31,10 +31,18 @@ age() { echo $(( ( $(date -j -f %F "$today" +%s) - $(date -j -f %F "$1" +%s 2>/d
 [ "$(age "$newest_act")" -gt 3 ] && problems+=("Neueste Aktivität $newest_act älter als 3 Tage")
 [ "$(age "$newest_day")" -gt 2 ] && problems+=("Neuester Metrics-Tag $newest_day älter als 2 Tage")
 
+# Reminders (🏅 Trainingsplan) vs. latest week plan: duration + @workout spec incl. HR vs. zones.md
+reminder_errs=$("$ROOT/db/.venv/bin/python" -m training lint 2>/dev/null \
+  | awk '/^SECTION:/{s=($0 ~ /Apple Reminders/)} s && /^ERR:/{sub(/^ERR:/,""); print}')
+
+rem_line=ok
+[ -n "$reminder_errs" ] && rem_line="$(printf '%s\n' "$reminder_errs" | wc -l | tr -d ' ') Abweichung(en), an Running Coach übergeben"
+
 report="**Daily Metrics $today**
 - Neue Aktivitäten: ${new_acts:-keine}
 - Neueste Aktivität: $newest_act · neuester Metrics-Tag: $newest_day
-- Verify-Gaps: ${gaps:-keine}"
+- Verify-Gaps: ${gaps:-keine}
+- Reminder/@workout: $rem_line"
 if [ ${#problems[@]} -gt 0 ]; then
   report="$report
 - ⚠️ Problem: $(printf '%s; ' "${problems[@]}")"
@@ -57,6 +65,21 @@ if [ -n "${PAPERCLIP_TASK_ID:-}" ] && [ -n "${PAPERCLIP_API_URL:-}" ]; then
     -H "Authorization: Bearer ${PAPERCLIP_API_KEY:-}" -H "X-Paperclip-Run-Id: ${PAPERCLIP_RUN_ID:-}" \
     -H 'Content-Type: application/json' \
     -d "$(jq -n --arg c "$report" --arg s "$status" '{status:$s, comment:$c}')"
+fi
+
+# Reminder/@workout mismatches -> Running Coach fixes them (needs judgment, so an LLM agent).
+RUNNING_COACH_ID="a1a76c29-09ac-4319-b1f0-79e182f712b4"
+if [ -n "$reminder_errs" ] && [ -n "${PAPERCLIP_API_URL:-}" ] && [ -n "${PAPERCLIP_COMPANY_ID:-}" ]; then
+  body="Daily sync (\`python -m training lint\`) found Apple Reminders that don't match the latest week plan / zones.md:
+
+$(printf '%s\n' "$reminder_errs" | sed 's/^/- /')
+
+Fix the reminders in list 🏅 Trainingsplan with \`remctl edit\` (title duration, notes, last line \`@workout ...\`), following the coach skill and \`zones.md\` Workout Target Rules. The week plan \`trainings/week-*.md\` stays the source for *what*; if the plan itself is wrong, fix plan + reminder together and commit. Re-run \`db/.venv/bin/python -m training lint\` until the reminders section is OK. Comment what you changed, then set this issue to done."
+  curl -s -o /dev/stderr -w ' coach-issue http=%{http_code}\n' -X POST "$PAPERCLIP_API_URL/api/companies/$PAPERCLIP_COMPANY_ID/issues" \
+    -H "Authorization: Bearer ${PAPERCLIP_API_KEY:-}" -H "X-Paperclip-Run-Id: ${PAPERCLIP_RUN_ID:-}" \
+    -H 'Content-Type: application/json' \
+    -d "$(jq -n --arg t "Reminder/@workout korrigieren ($today)" --arg d "$body" --arg a "$RUNNING_COACH_ID" \
+      '{title:$t, description:$d, assigneeAgentId:$a, status:"todo", priority:"medium"}')"
 fi
 
 [ ${#problems[@]} -eq 0 ]

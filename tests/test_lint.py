@@ -45,7 +45,7 @@ def rem(due, title, notes=""):
 GOOD = [
     rem("2026-11-23", "🏃 Tempo Z3 — 45min", "x\n@workout run 1x(time:45min)"),
     rem("2026-11-24", "🚴 Rad-Pendeln — 40min", "@workout bike time:20min time:20min"),
-    rem("2026-11-25", "🏃 Lauf Z1 — 45min", "@workout run time:45min"),
+    rem("2026-11-25", "🏃 Lauf Z1 — 45min", "@workout run time:45min@hr:125-138"),
     rem("2026-11-25", "🦶 Footwork — 10min", "Zehen"),
     rem("2026-11-25", "🏋️ Kraft Tag 1 — Drücken", "S.109 S.128"),
     rem("2026-11-29", "🏃 Langer Lauf — 65min", "@workout run time:65min"),
@@ -64,3 +64,25 @@ def test_reminders_mismatches():
     assert "2026-11-23: run duration plan 45min vs reminder title 50min" in out
     assert "2026-11-25: 1 footwork Einheit(en) in plan, 0 reminder(s)" in out
     assert "2026-11-25: Kraft Tag 1 page refs differ plan vs reminder (S.128)" in out
+
+
+def test_workout_hr_z1_needs_alert():
+    from training.lint import check_workout_hr
+    assert check_workout_hr("🏃 Lauf Z1 — 45min", "@workout run time:45min", "run")
+
+
+def test_workout_hr_over_ceiling():
+    from training.lint import check_workout_hr
+    hits = check_workout_hr("🏃 Lauf Z1 — 45min", "@workout run time:45min@hr:125-145", "run")
+    assert any("exceeds Z1 ceiling" in h for h in hits)
+
+
+def test_workout_hr_short_sprints_allowed():
+    from training.lint import check_workout_hr
+    spec = "@workout run time:30min@hr:125-138 6x(time:20s@hr:150-170 time:90s@hr:119-138)"
+    assert check_workout_hr("⚡ Lauf Z1 + Bergsprints — 45min", spec, "run") == []
+
+
+def test_workout_hr_no_zone_in_title_skipped():
+    from training.lint import check_workout_hr
+    assert check_workout_hr("🚴 Rad-Pendeln — 40min", "@workout bike time:40min", "bike") == []

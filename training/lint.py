@@ -13,7 +13,7 @@ import subprocess
 from datetime import date, timedelta
 from pathlib import Path
 
-from . import benchmarks, pace, plan
+from . import benchmarks, pace, plan, zones
 from .repo import ROOT
 
 REMINDER_LIST = "🏅 Trainingsplan"
@@ -154,6 +154,34 @@ def _workout_minutes(spec: str) -> float:
     return total / 60
 
 
+def check_workout_hr(title: str, spec: str, sport: str, root: Path = ROOT) -> list[str]:
+    """HR targets in an @workout spec must fit the highest zone named in the title (zones.md).
+
+    Upper bound of every hr:a-b <= ceiling of that zone; a pure Z1 session needs an hr alert.
+    Titles without a zone (e.g. "Rad-Pendeln") are skipped.
+    """
+    named = re.findall(r"\bZ([1-5])\b", title)
+    if not named:
+        return []
+    top = f"Z{max(int(n) for n in named)}"
+    try:
+        _, ceiling = zones.band(top, sport, root)
+    except (KeyError, ValueError, OSError):
+        return []
+    # steps < 60s (strides, Bergsprints) may go above the ceiling
+    ranges = [(int(a), int(b)) for d, a, b in re.findall(r"(?:time:([0-9:]+(?:min|s)?))?@hr:(\d+)-(\d+)", spec)
+              if not (d and d.endswith("s") and not d.endswith("min") and int(d[:-1]) < 60)]
+    out = []
+    if top == "Z1" and not ranges:
+        out.append(f'"{title}": Z1 @workout has no hr alert (zones.md: Recovery hr:125-138)')
+    for a, b in ranges:
+        if b > ceiling:
+            out.append(f'"{title}": @workout hr:{a}-{b} exceeds {top} ceiling {ceiling} (zones.md)')
+        if a > b:
+            out.append(f'"{title}": @workout hr:{a}-{b} inverted')
+    return out
+
+
 def check_reminders(week: plan.Week, reminders: list[dict]) -> list[str]:
     """Every non-rest Einheit has a reminder of the same Art on the same day, and vice versa."""
     mon = plan.week_monday(week.year, week.week)
@@ -215,6 +243,7 @@ def check_reminders(week: plan.Week, reminders: list[dict]) -> list[str]:
                 sm = _workout_minutes(last)
                 if e.minutes and abs(sm - e.minutes) > max(3, 0.1 * e.minutes):
                     out.append(f"{day}: {k} @workout spec ~{sm:.0f}min vs plan {e.minutes}min")
+                out.extend(f"{day}: {k} {h}" for h in check_workout_hr(r["title"], last, k))
     return out
 
 
