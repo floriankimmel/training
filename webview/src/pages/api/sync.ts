@@ -20,6 +20,9 @@ function run(cmd: string, args: string[], cwd = CWD): Promise<Result> {
       env: {
         ...process.env,
         PATH: `${process.env.PATH}:/usr/local/bin:/opt/homebrew/bin`,
+        // Background job: never prompt (no tty), fail fast instead.
+        GIT_TERMINAL_PROMPT: '0',
+        GIT_SSH_COMMAND: 'ssh -o BatchMode=yes',
       },
       stdio: ['pipe', 'pipe', 'pipe'],
       timeout: 120000,
@@ -76,12 +79,12 @@ export const POST: APIRoute = async () => {
     steps.push('stashed local changes');
   }
 
-  // 2. Fetch + pull (ff-only, fall back to rebase). SSH auth is ambient (YubiKey/agent).
+  // 2. Fetch + pull (ff-only, fall back to rebase). SSH auth via agent, no prompt.
   const fetch = await git(['fetch', 'origin']);
   if (fetch.code !== 0) {
     if (stashed) await git(['stash', 'pop']);
-    // Not fatal: likely YubiKey absent. Report as skipped, not error.
-    return json({ ok: true, changed: false, skipped: true, reason: 'fetch failed (auth?)', detail: fetch.stderr.trim() });
+    // Not fatal (offline/auth). Report as skipped, not error.
+    return json({ ok: true, changed: false, skipped: true, reason: 'fetch failed (offline/auth?)', detail: fetch.stderr.trim() });
   }
 
   let pull = await git(['pull', '--ff-only']);
@@ -106,10 +109,22 @@ export const POST: APIRoute = async () => {
     steps.push('restored local changes');
   }
 
+  // 3b. Local commits not on origin → push (after rebase, so it fast-forwards).
+  const ahead = parseInt((await git(['rev-list', '--count', 'origin/main..HEAD'])).stdout.trim()) || 0;
+  let pushed = 0;
+  if (ahead > 0) {
+    const push = await git(['push', 'origin', 'HEAD:main']);
+    if (push.code !== 0) {
+      return json({ ok: false, changed: false, error: `push failed: ${push.stderr.trim()}`, steps }, 500);
+    }
+    pushed = ahead;
+    steps.push(`pushed ${ahead} commit(s)`);
+  }
+
   // 4. What changed between old and new HEAD?
   const newHead = (await git(['rev-parse', 'HEAD'])).stdout.trim();
   if (newHead === oldHead) {
-    return json({ ok: true, changed: false, steps });
+    return json({ ok: true, changed: false, pushed, steps });
   }
 
   const diff = await git(['diff', '--name-only', `${oldHead}..${newHead}`]);
@@ -142,6 +157,7 @@ export const POST: APIRoute = async () => {
     reload: metricsChanged || feedbackChanged || files.some((f) => f.startsWith('trainings/')),
     files,
     imported,
+    pushed,
     steps,
   });
 };

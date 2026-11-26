@@ -9,16 +9,21 @@ type SyncResult = {
   skipped?: boolean;
   imported?: string[];
   error?: string;
+  pushed?: number;
 };
+
+const FOCUS_DEBOUNCE_MS = 30 * 1000;
 
 export default function AutoSync() {
   const [state, setState] = useState<'idle' | 'syncing' | 'ok' | 'error'>('idle');
   const [note, setNote] = useState<string>('');
   const busy = useRef(false);
+  const lastRun = useRef(0);
 
   async function sync() {
     if (busy.current || document.hidden) return;
     busy.current = true;
+    lastRun.current = Date.now();
     setState('syncing');
     try {
       const res = await fetch('/api/sync', { method: 'POST' });
@@ -35,7 +40,7 @@ export default function AutoSync() {
         }
       } else {
         setState('ok');
-        setNote(data.skipped ? 'no key' : 'up to date');
+        setNote(data.skipped ? 'offline' : data.pushed ? `pushed ${data.pushed}` : 'up to date');
       }
     } catch (err: any) {
       setState('error');
@@ -48,12 +53,16 @@ export default function AutoSync() {
   useEffect(() => {
     sync(); // initial sync on load
     const id = setInterval(sync, INTERVAL_MS);
-    // Sync when tab regains focus after being hidden
-    const onVis = () => { if (!document.hidden) sync(); };
-    document.addEventListener('visibilitychange', onVis);
+    // Pull + push when the app gets focus again (tab visible or window focus).
+    const onFocus = () => {
+      if (!document.hidden && Date.now() - lastRun.current > FOCUS_DEBOUNCE_MS) sync();
+    };
+    document.addEventListener('visibilitychange', onFocus);
+    window.addEventListener('focus', onFocus);
     return () => {
       clearInterval(id);
-      document.removeEventListener('visibilitychange', onVis);
+      document.removeEventListener('visibilitychange', onFocus);
+      window.removeEventListener('focus', onFocus);
     };
   }, []);
 
@@ -69,7 +78,7 @@ export default function AutoSync() {
     : 'bg-emerald-500';
 
   return (
-    <span className={`flex items-center gap-1.5 text-[11px] ${color}`} title={`Auto-Sync alle 3min${note ? ` — ${note}` : ''}`}>
+    <span className={`flex items-center gap-1.5 text-[11px] ${color}`} title={`Auto pull/push alle 3min + bei Fokus${note ? ` — ${note}` : ''}`}>
       <span className={`h-1.5 w-1.5 rounded-full ${dot}`} />
       <span className="hidden sm:inline">{state === 'syncing' ? 'sync…' : 'auto'}</span>
     </span>
