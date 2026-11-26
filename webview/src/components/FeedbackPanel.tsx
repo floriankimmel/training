@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import type { Session, FeedbackSession } from '../lib/parseTraining';
-import type { ActivityDetail, ZoneBucket, Lap } from '../lib/db';
+import type { ActivityDetail, Lap } from '../lib/db';
 import WorkoutPlanView from './WorkoutPlanView';
 
 interface Props {
@@ -42,19 +42,20 @@ function fmtSecs(s: number | null): string {
 
 export default function FeedbackModal({ session, feedback, onClose }: Props) {
   const scrollRef = useRef<HTMLDivElement>(null);
-  const [detail, setDetail] = useState<ActivityDetail | null>(null);
-  const [loading, setLoading] = useState(false);
+  // Fetched detail keyed by date; loading = no result yet for the current date.
+  const [fetched, setFetched] = useState<{ date: string; detail: ActivityDetail | null } | null>(null);
+  const detail = fetched?.date === session.date ? fetched.detail : null;
+  const loading = session.type !== 'rest' && fetched?.date !== session.date;
   const [showFull, setShowFull] = useState(false);
 
   useEffect(() => {
     if (session.type === 'rest') return;
-    setLoading(true);
-    fetch(`/api/activity?date=${session.date}`)
+    const date = session.date;
+    fetch(`/api/activity?date=${date}`)
       .then(r => r.json())
-      .then((d: ActivityDetail | null) => setDetail(d))
-      .catch(() => setDetail(null))
-      .finally(() => setLoading(false));
-  }, [session.date]);
+      .then((d: ActivityDetail | null) => setFetched({ date, detail: d }))
+      .catch(() => setFetched({ date, detail: null }));
+  }, [session.date, session.type]);
 
   useEffect(() => {
     function handleKey(e: KeyboardEvent) {
@@ -283,7 +284,7 @@ function LapTable({ laps }: { laps: Lap[] }) {
               <th className="px-2 py-1 font-normal">km</th>
               <th className="px-2 py-1 font-normal">Zeit</th>
               <th className="px-2 py-1 font-normal">Pace</th>
-              <th className="px-2 py-1 font-normal w-1/3">​</th>
+              <th className="px-2 py-1 font-normal w-1/3"></th>
               <th className="px-2 py-1 font-normal">HF</th>
               <th className="px-2 py-1 font-normal">W</th>
             </tr>

@@ -9,7 +9,11 @@
     "dev": "astro dev --port 1600",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "astro check",
+    "check": "astro check && eslint ."
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
@@ -26,5 +30,14 @@
     "react-dom": "^19.2.7",
     "tailwindcss": "^4.3.1",
     "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "9",
+    "@types/node": "24",
+    "eslint": "9",
+    "eslint-plugin-astro": "^3.2.2",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.14.0",
+    "typescript-eslint": "^8.74.0"
   }
 }

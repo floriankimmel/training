@@ -76,7 +76,7 @@ export default function ChatModal() {
       setTimeout(() => {
         inputRef.current?.focus();
         // Move cursor to end of pre-filled input
-        if (inputRef.current && input) {
+        if (inputRef.current?.value) {
           inputRef.current.selectionStart = inputRef.current.value.length;
         }
       }, 100);

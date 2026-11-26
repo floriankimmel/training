@@ -9,16 +9,12 @@ interface GitStatus {
 export default function GitStatus() {
   const [status, setStatus] = useState<GitStatus | null>(null);
 
-  async function fetchStatus() {
-    try {
-      const res = await fetch('/api/git-status');
-      if (res.ok) setStatus(await res.json());
-    } catch {
-      // silently fail
-    }
-  }
-
   useEffect(() => {
+    const fetchStatus = () =>
+      fetch('/api/git-status')
+        .then(res => (res.ok ? res.json() : null))
+        .then((s: GitStatus | null) => { if (s) setStatus(s); })
+        .catch(() => { /* silently fail */ });
     fetchStatus();
     const interval = setInterval(fetchStatus, 60_000); // refresh every minute
     return () => clearInterval(interval);

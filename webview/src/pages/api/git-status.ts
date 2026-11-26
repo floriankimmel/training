@@ -6,8 +6,8 @@ export const GET: APIRoute = async () => {
     return new Response(JSON.stringify(gitSyncState()), {
       headers: { 'Content-Type': 'application/json' },
     });
-  } catch (err: any) {
-    return new Response(JSON.stringify({ ahead: 0, behind: 0, dirty: false, error: err.message }), {
+  } catch (err) {
+    return new Response(JSON.stringify({ ahead: 0, behind: 0, dirty: false, error: err instanceof Error ? err.message : String(err) }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' },
     });

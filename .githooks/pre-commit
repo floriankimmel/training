@@ -16,6 +16,20 @@ if ! "$lint"; then
   exit 1
 fi
 
+# Webview: ESLint + astro check, only when webview files are staged.
+if git diff --cached --name-only | grep -q '^webview/'; then
+  if [ -d "$repo_root/webview/node_modules" ]; then
+    echo "pre-commit: running webview lint + typecheck ..."
+    if ! (cd "$repo_root/webview" && npx --no-install eslint . && npx --no-install astro check >/dev/null); then
+      echo
+      echo "pre-commit: webview lint/typecheck FAILED — commit blocked. Run: cd webview && npx eslint . && npx astro check"
+      exit 1
+    fi
+  else
+    echo "pre-commit: webview/node_modules missing — skipping webview lint (run: cd webview && bun install)"
+  fi
+fi
+
 py="$repo_root/db/.venv/bin/python"
 if [ -x "$py" ] && "$py" -c 'import pytest' 2>/dev/null; then
   echo "pre-commit: running pytest ..."

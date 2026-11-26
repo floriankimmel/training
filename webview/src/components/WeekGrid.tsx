@@ -168,10 +168,13 @@ export default function WeekGrid({ weekData, feedbackData, activities, strength,
     const dayParam = new URLSearchParams(window.location.search).get('day');
     if (dayParam != null) {
       const di = parseInt(dayParam);
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- reads window.location, unavailable during SSR
       if (di >= 0 && di < cells.length) { setSelected(di); return; }
     }
     const idx = cells.findIndex(c => c.date === today);
     setSelected(idx >= 0 ? idx : 0);
+    // Mount-only: later re-renders must not reset the user's selection.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // keyboard: h/l (or j/k) select day, o/enter open, esc closes
@@ -212,7 +215,7 @@ export default function WeekGrid({ weekData, feedbackData, activities, strength,
     }
     document.addEventListener('keydown', onKey);
     return () => document.removeEventListener('keydown', onKey);
-  }, [selected, modalSession, cells.length]);
+  }, [selected, modalSession, cells, today]);
 
   return (
     <>

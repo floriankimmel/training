@@ -42,15 +42,18 @@ export default function AutoSync() {
         setState('ok');
         setNote(data.skipped ? 'offline' : data.pushed ? `pushed ${data.pushed}` : 'up to date');
       }
-    } catch (err: any) {
+    } catch (err) {
       setState('error');
-      setNote(err?.message ?? 'network error');
+      setNote(err instanceof Error ? err.message : 'network error');
     } finally {
       busy.current = false;
     }
   }
 
   useEffect(() => {
+    // Mount kicks off a sync with the git remote (external system); the
+    // 'syncing' state it sets is intended.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     sync(); // initial sync on load
     const id = setInterval(sync, INTERVAL_MS);
     // Pull + push when the app gets focus again (tab visible or window focus).
