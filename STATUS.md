@@ -3,7 +3,7 @@
 > Kurzer "Wo stehe ich jetzt"-Snapshot (Ziel <60 Zeilen). **Verlauf/Details → [`STATUS-log.md`](STATUS-log.md)**.
 > Pro coach/feedback-Lauf: Snapshot überschreiben, Log-Eintrag oben in `STATUS-log.md` ergänzen.
 
-**Last updated: 2026-11-25 (Mi Bergsprints A — erster Berg seit Bruch ohne Zeh-Signal, W48 3/5 Läufe ✅)**
+**Last updated: 2026-11-26 (Do Recovery Z1 A — 23,3min sauberste Recovery seit Wochen, W48 4/5 Läufe ✅, nur So-65er offen)**
 
 ## Current Target
 

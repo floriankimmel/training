@@ -143,3 +143,46 @@ Planerfüllung praktisch 1:1, alle Vorgaben (Deckel, Pausen, bergab gehen, CD) e
 - HF Ø 133,6 / min 84 / max 163 · Zonen: AE 16,2 / Z1 72,4 / Z2 4,6 / Z3 5,2 / Z4 1,5 % · Sprint-Peaks 156/163/160/158/161/162
 - Wetter 1,6 °C · Kalorien 453 · Quelle UTMB-App · HR: Polar Verity Sense (sauber)
 - Feel 7/10 (User: „beim Auslaufen etwas Muskel gespürt, gut belastet, nichts verändert") · Energy Good · Legs: leichter Muskelreiz post-sprint · Effort Easy + 6 kurze Spitzen · **Zeh: kein Signal** ✅
+
+
+## 2026-11-26 - Recovery Run Z1 - Donnerstag Analyse
+
+**Geplant**: Recovery Run Z1 — 25min, strikt Z1 (125–142), Deckel 142, Pace ≥ 6:40/km, flach. Bei Wadenkater eher 20min.
+**Tatsächliche Ausführung**: 23,3min · 3,33 km · Ø-Pace 7:00/km · HF Ø 130,9 / max 146 · 0,8 °C, Schneefall.
+**Persönliches Empfinden**: „Wirklich gut gelaufen, sehr hat's gepasst heute, hat's geschneit." — positiv, gute Energie.
+
+### 🎯 **Herzfrequenz-Analyse**
+- Zonenverteilung: **16,8 % AE / 82,4 % Z1 / 0,8 % Z2** — Lehrbuch-Recovery, praktisch null Zeit über dem Deckel.
+- Nur 0,8 % der Samples >142 (max 146, kurze Spitze) — kein echter Deckel-Riss, Randrauschen.
+- Drittel-Verlauf: 128,4 → 134,4 → 129,9 — flach, keine Drift, letzter Abschnitt bewusst wieder runter.
+
+### ⏱️ **Pace-Analyse (min/km)**
+- Ø 7:00/km — klar über dem 6:40-Floor. Nach dem 6:11-Verstoß in W47 jetzt der zweite Recovery in Folge mit sauberem Pace-Floor.
+- Power Ø ~126 W (Samples spärlich), Schrittlänge Ø 93 cm — kurz, kontrolliert, passt zu lockerem Traben auf Schnee.
+
+### 🏆 **Was war hervorragend**
+- **Zonen-Disziplin perfekt**: 99,2 % der Zeit ≤ Z1 — das ist die sauberste Recovery-Einheit der letzten Wochen.
+- Pace-Floor eingehalten trotz Schnee und Kälte (0,8 °C) — keine Kompensation durch Tempo.
+- Subjektiv „sehr gepasst" am Tag nach den ersten Bergsprints: Waden haben den neuen Reiz offenbar gut weggesteckt.
+
+### ⚠️ **Verbesserungsbereiche**
+- 23,3 statt 25min — im Toleranzbereich (Plan erlaubte sogar 20min bei Wadenkater), kein Abzug. Nichts Substanzielles zu bemängeln.
+
+### 📈 **Progression vs. Previous Sessions**
+- W48: Mo 3×8 Z2 ✅ · Di Recovery ✅ · Mi Bergsprints A ✅ · Do Recovery ✅ — **4/5 Läufe, ~133/208min**, nur noch der 65er So offen.
+- 12. belastende Einheit ohne Zeh-Signal. Vierter Lauf in Folge ohne Zonen-Verstoß — HF-Disziplin ist jetzt Muster, nicht Ausnahme.
+- Recovery-Vergleich: Di 24.11. ok, heute nochmal sauberer (0,8 % >142).
+
+### 🎯 **Bewertung: A**
+Exakt das, was ein Recovery-Tag sein soll: kurz, langsam, flach, HF im Keller, gutes Gefühl. 1:1 Planerfüllung.
+
+### 💡 **Empfehlungen für nächstes Mal**
+1. Heute Abend Kraft Tag 3 (Ziehen) steht noch — Oberkörper, kollidiert nicht mit den Beinen.
+2. Fr Core / Sa Beine wie geplant, dann So den 65er strikt Z1 anlaufen — längster Lauf seit dem Bruch, erste 20min bewusst ≥ 6:50 angehen.
+3. Bei Schnee/Glätte am So: Pace-Floor ignorieren dürfen, HF-Deckel nicht.
+
+### 📋 Detailed Metrics — 2026-11-26 Recovery Run Z1
+- Duration 23,3min · Distance 3,33 km · Ø-Pace 7:00/km · Vert ~6 m (2 flights, flach ✅)
+- HF Ø 130,9 / min 104 / max 146 · Zonen: AE 16,8 / Z1 82,4 / Z2 0,8 % · >142: 0,8 %
+- Wetter 0,8 °C, Schneefall · Kalorien 245 · Quelle UTMB-App · HR: Polar Verity Sense (sauber)
+- Feel 8/10 (User: „wirklich gut gelaufen, sehr gepasst, hat geschneit") · Energy Good · Legs frisch trotz Bergsprints Vortag · Effort Easy · **Zeh: kein Signal** ✅

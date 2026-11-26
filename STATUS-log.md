@@ -5,6 +5,7 @@
 > **Eintrag max. ~3 Zeilen / 400 Zeichen** (Was, Ergebnis, Konsequenz). Details gehören in `trainings/week-*` bzw.
 > `feedback/feedback-*`. `scripts/lint.sh` warnt beim neuesten Eintrag über 400 Zeichen.
 
+- 2026-11-26 (🏃 Do Recovery Z1 23,3min, Ø131/max146, 99,2 % ≤Z1, Pace 7:00 ≥ Floor, Grade **A**. Schnee, 0,8 °C, Gefühl top. W48 4/5 Läufe ✅, nur So-65er offen.)
 - 2026-11-25 (🏃 Mi Bergsprints 44,2min, 6/6 Sprints Peaks 156–163, Z1-Anlauf ohne Riss, Grade **A**. Erster Berg seit Bruch, kein Zeh-Signal. W48 3/5 Läufe ✅.)
 - 2026-11-24 (🔧 Repo-Review: Zehen-Muster ärztlich ok → Gate weg. Feldtest W50 (`zones.md`). Outcome = Pace in Zone Z1. `training verify` täglich. Gewicht in Daily Metrics. Planung Mo früh. Recovery-Alert 125–138.)
 - 2026-11-23 (🔁 **W48-Dämpfung verworfen.** 21:00-Check am 22.11. fand keinen So-Lauf → lokaler Commit dämpfte W48 auf 175min (Reminders Mo–So gekürzt). Remote-Feedback bestätigt aber So-55er gelaufen (55,1min, A−) → Track A, Commit beim Rebase übersprungen, Reminders Di 25 / Mi 45 / Do 25 / So 65 zurückgesetzt. Mo lief nach gedämpfter Spec (45min, CD 5min, B+) → Plan-Mo auf 45min angeglichen.)
