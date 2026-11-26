@@ -264,7 +264,7 @@ export function getActivityDetail(date: string): ActivityDetail | null {
            round((timer_s/60)/nullif(distance_m/1000,0), 2) AS pace,
            avg_power AS power
     FROM laps WHERE activity_id=${id} ORDER BY lap_index`;
-  const laps = query<Lap>(lapSql).map(l => ({
+  const laps: Lap[] = query<Lap>(lapSql).map(l => ({
     index: Number(l.index),
     km: l.km == null ? null : Number(l.km),
     secs: l.secs == null ? null : Number(l.secs),
