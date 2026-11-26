@@ -50,6 +50,8 @@ export interface DayMetric {
   hrvNight: number | null;
   restingHr: number | null;
   bodyKg: number | null;
+  kcal: number | null;       // nutrition_daily (Vita Fit), keyed by day eaten; null = not logged
+  proteinGkg: number | null; // protein g per kg, last known body weight <= day
 }
 
 export interface WeekTotals {
@@ -156,12 +158,17 @@ export function getWeekStrength(start: string, end: string): DayStrength[] {
 
 // Daily recovery metric values for the week (Readiness itself comes from the Python core).
 export function getWeekMetrics(start: string, end: string): DayMetric[] {
+  // Full join: a day can have food logged but no recovery row (and vice versa).
   return query<DayMetric>(`
-    SELECT day::varchar AS date, sleep_min AS "sleepMin", hrv_night_avg AS "hrvNight", resting_hr AS "restingHr",
-           body_mass_kg AS "bodyKg"
-    FROM daily_metrics
-    WHERE day BETWEEN DATE '${start}' AND DATE '${end}'
-    ORDER BY day`);
+    SELECT coalesce(m.day, n.date)::varchar AS date, m.sleep_min AS "sleepMin", m.hrv_night_avg AS "hrvNight",
+           m.resting_hr AS "restingHr", m.body_mass_kg AS "bodyKg", n.kcal,
+           round(n.protein_g / (SELECT body_mass_kg FROM daily_metrics w
+                                WHERE w.body_mass_kg IS NOT NULL AND w.day <= coalesce(m.day, n.date)
+                                ORDER BY w.day DESC LIMIT 1), 2) AS "proteinGkg"
+    FROM (SELECT * FROM daily_metrics WHERE day BETWEEN DATE '${start}' AND DATE '${end}') m
+    FULL OUTER JOIN (SELECT * FROM nutrition_daily WHERE date BETWEEN DATE '${start}' AND DATE '${end}') n
+      ON m.day = n.date
+    ORDER BY 1`);
 }
 
 export function getWeekTotals(start: string, end: string): WeekTotals {

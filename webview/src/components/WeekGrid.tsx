@@ -370,6 +370,8 @@ function RecoveryCard({ cell }: { cell: DayCell }) {
         <MetricLine label="💓" value={m?.hrvNight != null ? String(Math.round(m.hrvNight)) : '–'} flag={r?.hrv_flag ?? null} />
         <MetricLine label="❤️" value={m?.restingHr != null ? String(m.restingHr) : '–'} flag={r?.rhr_flag ?? null} />
         <MetricLine label="⚖️" value={m?.bodyKg != null ? m.bodyKg.toFixed(1) : '–'} flag={m?.bodyKg != null ? false : null} />
+        <MetricLine label="🍽️" value={m?.kcal != null ? String(Math.round(m.kcal)) : '–'} flag={m?.kcal != null ? false : null} />
+        <MetricLine label="🥩" value={m?.proteinGkg != null ? m.proteinGkg.toFixed(1) : '–'} flag={m?.proteinGkg != null ? false : null} />
       </div>
     </div>
   );
