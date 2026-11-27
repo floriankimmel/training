@@ -167,3 +167,51 @@ _Tägliche Schlaf-, HRV- und Erholungsdaten aus Apple HealthKit_
 #### 🍽️ Ernährung (Vortag 2026-11-24)
 
 _Keine Ernährungsdaten erfasst._
+
+### 2026-11-27 (Freitag)
+
+#### 🛏️ Schlaf
+
+| Metrik | Wert |
+|--------|------|
+| Bettzeit | 22:42 – 05:13 |
+| Im Bett | 6h 32min |
+| Schlafzeit | 6h 23min |
+| Effizienz | 98% |
+| Tiefschlaf | 0h 40min (10%) |
+| REM | 1h 53min (30%) |
+| Core/Leicht | 3h 49min (60%) |
+| Wach | 0h 09min |
+
+#### 💓 HRV (SDNN)
+
+| Metrik | Wert |
+|--------|------|
+| Nacht-Ø | 71.7 ms |
+| Tages-Ø | 49.3 ms |
+| Min | 19.9 ms |
+| Max | 76.7 ms |
+| Samples | 8 |
+
+#### ❤️ Ruhe-HF
+
+| Metrik | Wert |
+|--------|------|
+| Resting HR | 60 bpm |
+
+#### ⚖️ Körper
+
+| Metrik | Wert |
+|--------|------|
+| Gewicht | 81.4 kg (05:34) |
+
+#### 🍽️ Ernährung (Vortag 2026-11-26)
+
+| Metrik | Wert |
+|--------|------|
+| Kalorien | 2363 kcal |
+| Protein | 82 g |
+| Kohlenhydrate | 287 g |
+| Fett | 97 g |
+| Ballaststoffe | 22 g |
+| Zucker | 43 g |
