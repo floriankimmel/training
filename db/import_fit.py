@@ -75,7 +75,12 @@ def decode(path: Path):
 
 
 def next_activity_id(con) -> int:
-    return con.execute("SELECT nextval('seq_activities')").fetchone()[0]
+    # The sequence can fall behind max(id) (e.g. after restoring a backup); a failed
+    # insert rolls the sequence back, so it would hit the same duplicate id forever.
+    return con.execute(
+        "SELECT greatest(nextval('seq_activities'), "
+        "(SELECT coalesce(max(id), 0) + 1 FROM activities))"
+    ).fetchone()[0]
 
 
 def ascent_from_records(records, win=15):
