@@ -64,7 +64,9 @@ if [ -n "${PAPERCLIP_TASK_ID:-}" ] && [ -n "${PAPERCLIP_API_URL:-}" ]; then
   curl -s -o /dev/stderr -w ' http=%{http_code}\n' -X PATCH "$PAPERCLIP_API_URL/api/issues/$PAPERCLIP_TASK_ID" \
     -H "Authorization: Bearer ${PAPERCLIP_API_KEY:-}" -H "X-Paperclip-Run-Id: ${PAPERCLIP_RUN_ID:-}" \
     -H 'Content-Type: application/json' \
-    -d "$(jq -n --arg c "$report" --arg s "$status" '{status:$s, comment:$c}')"
+    -d "$(jq -n --arg c "$report" --arg s "$status" --arg p "$(printf '%s; ' ${problems[@]+"${problems[@]}"})" '
+      {status:$s, comment:$c}
+      + (if $s == "blocked" then {unblockDescriptor:{owner:"board", action:("Fix Daily Metrics: " + $p)[0:500]}} else {} end)')"
 fi
 
 # Reminder/@workout mismatches -> Running Coach fixes them (needs judgment, so an LLM agent).
